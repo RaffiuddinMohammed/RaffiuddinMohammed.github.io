@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:37:55.411Z",
+  "updated": "2026-11-12T18:51:13.801Z",
   "totalStories": 255,
   "sections": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "name": "World",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Business",
@@ -83,6 +83,12 @@
   ],
   "latest": [
     {
+      "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T18:47:35.000Z",
+      "section": "World"
+    },
+    {
       "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
       "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:28:59.000Z",
@@ -140,12 +146,6 @@
       "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
       "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T16:54:12.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
-      "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:52:53.000Z",
       "section": "World"
     },
     {

@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-12T18:37:55.783Z",
+  "updated": "2026-11-12T18:51:14.075Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 1744,
-      "comments": 1808,
+      "points": 1823,
+      "comments": 1864,
       "domain": "apnews.com"
     },
     {
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
       "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 646,
-      "comments": 659,
+      "points": 659,
+      "comments": 669,
       "domain": "ipo.anthropic.com"
     },
     {
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 574,
-      "comments": 131,
+      "points": 577,
+      "comments": 134,
       "domain": "github.com"
-    },
-    {
-      "title": "93% of paint splatters are valid Perl programs (2019)",
-      "url": "https://www.mcmillen.dev/sigbovik/",
-      "discuss": "https://news.ycombinator.com/item?id=50459745",
-      "points": 553,
-      "comments": 74,
-      "domain": "mcmillen.dev"
     },
     {
       "title": "Critical RCE Vulnerability in Apache HTTP Server",
       "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
       "discuss": "https://news.ycombinator.com/item?id=50462177",
-      "points": 339,
-      "comments": 181,
+      "points": 340,
+      "comments": 182,
       "domain": "wiz.io"
     },
     {
       "title": "A live tree of systemd jobs on the boot console",
       "url": "https://codeberg.org/wvhulle/bootvine",
       "discuss": "https://news.ycombinator.com/item?id=50425017",
-      "points": 298,
-      "comments": 114,
+      "points": 302,
+      "comments": 115,
       "domain": "codeberg.org"
     },
     {
       "title": "Why Writing Correct Software Is Hard",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "discuss": "https://news.ycombinator.com/item?id=50465352",
-      "points": 286,
-      "comments": 125,
+      "points": 292,
+      "comments": 128,
       "domain": "pron.github.io"
-    },
-    {
-      "title": "Abandoned Quake 4 expansion finished by modders and now playable",
-      "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
-      "discuss": "https://news.ycombinator.com/item?id=50467618",
-      "points": 156,
-      "comments": 53,
-      "domain": "moddb.com"
     },
     {
       "title": "Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 130,
-      "comments": 70,
+      "points": 172,
+      "comments": 102,
       "domain": "blog.google"
     },
     {
-      "title": "Making a €40 USB-C hub work as a Nintendo Switch 2 dock",
-      "url": "http://blog.nozomi.space/posts/sw2_dock/",
-      "discuss": "https://news.ycombinator.com/item?id=50431971",
-      "points": 126,
-      "comments": 43,
-      "domain": "blog.nozomi.space"
+      "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+      "discuss": "https://news.ycombinator.com/item?id=50467618",
+      "points": 164,
+      "comments": 59,
+      "domain": "moddb.com"
+    },
+    {
+      "title": "I'm making LLMs work on small and old devices",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/",
+      "discuss": "https://news.ycombinator.com/item?id=50468888",
+      "points": 132,
+      "comments": 51,
+      "domain": "github.com"
+    },
+    {
+      "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
+      "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
+      "discuss": "https://news.ycombinator.com/item?id=50469994",
+      "points": 125,
+      "comments": 72,
+      "domain": "ign.com"
     }
   ],
-  "totalPoints": 5840,
+  "totalPoints": 5498,
   "storyCount": 30
 }
