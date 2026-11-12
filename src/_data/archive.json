@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T19:57:29.728Z",
+  "updated": "2026-11-12T20:21:06.629Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -7,11 +7,11 @@
       "sections": [
         {
           "name": "UK",
-          "count": 27
+          "count": 28
         },
         {
           "name": "World",
-          "count": 22
+          "count": 21
         },
         {
           "name": "Business",
@@ -538,6 +538,11 @@
           "section": "World"
         },
         {
+          "title": "Man jailed for 'appalling' catalogue of coercive control and abuse against partner",
+          "link": "https://www.bbc.co.uk/news/articles/ckd71x39zyr4o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
           "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -546,28 +551,23 @@
           "title": "Rolls-Royce incident prompts emergency response",
           "link": "https://www.bbc.co.uk/news/articles/c6vg2w5pjj99o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-          "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 2095
+          "points": 2168
         },
         {
           "title": "Anthropic IPO",
           "url": "https://ipo.anthropic.com/us/",
-          "points": 697
+          "points": 706
         },
         {
           "title": "Socratic Tutor",
           "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-          "points": 603
+          "points": 607
         }
       ]
     }

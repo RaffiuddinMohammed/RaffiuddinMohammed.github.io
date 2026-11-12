@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-12T19:57:29.719Z",
+  "updated": "2026-11-12T20:16:11.243Z",
   "totalStories": 257,
   "sections": [
     {
       "name": "UK",
-      "count": 27
+      "count": 28
     },
     {
       "name": "World",
-      "count": 22
+      "count": 21
     },
     {
       "name": "Business",
@@ -595,6 +595,12 @@
       "section": "World"
     },
     {
+      "title": "Man jailed for 'appalling' catalogue of coercive control and abuse against partner",
+      "link": "https://www.bbc.co.uk/news/articles/ckd71x39zyr4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T18:58:27.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
       "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:47:35.000Z",
@@ -647,12 +653,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T17:11:48.000Z",
       "section": "World"
-    },
-    {
-      "title": "Parliament date set for 'summer of sex' debate",
-      "link": "https://www.bbc.co.uk/news/articles/ckjwjd39nyn3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T17:02:58.000Z",
-      "section": "Politics"
     }
   ]
 }
