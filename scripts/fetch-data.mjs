@@ -9,11 +9,11 @@ const run = promisify(execFile);
 const DATA = new URL('../src/_data/', import.meta.url);
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function get(url, type = 'json', tries = 3) {
+async function get(url, type = 'json', tries = 3, maxTime = 60) {
   for (let i = 1; i <= tries; i++) {
     try {
       // curl, not fetch: GDELT's TLS handshake regularly exceeds Node's fixed 10s connect timeout
-      const { stdout: body } = await run('curl', ['-sSfL', '--max-time', '60', '-A', 'news-dashboards/1.0', url],
+      const { stdout: body } = await run('curl', ['-sSfL', '--max-time', String(maxTime), '-A', 'news-dashboards/1.0', url],
         { maxBuffer: 20 * 1024 * 1024 });
       if (type === 'json') return JSON.parse(body); // GDELT answers rate limits with 200 + plain text
       return body;
@@ -51,13 +51,20 @@ async function gdelt() {
   let prev = [];
   try { prev = JSON.parse(await readFile(new URL('gdelt.json', DATA))).topics ?? []; } catch {}
   const out = [];
+  const started = Date.now(), BUDGET = 7 * 60 * 1000; // GDELT can be very slow: never let it sink the deploy
   for (const t of TOPICS) {
+    if (Date.now() - started > BUDGET) {
+      const old = prev.find((p) => p.key === t.key);
+      console.warn(`  gdelt ${t.key}: time budget used up${old ? ' — kept previous' : ''}`);
+      if (old) out.push(old);
+      continue;
+    }
     try {
       const q = encodeURIComponent(`${t.query} sourcelang:english`);
-      let vol = await get(`${base}&timespan=12m&mode=timelinevol&query=${q}`);
-      if ((vol.timeline?.[0]?.data?.length ?? 0) < 120) { // a year should give ~365 days; fall back to 3 months
+      let vol = await get(`${base}&timespan=12m&mode=timelinevol&query=${q}`, 'json', 2, 90).catch(() => null);
+      if ((vol?.timeline?.[0]?.data?.length ?? 0) < 120) { // a year should give ~365 days; fall back to 3 months
         await wait(12000);
-        vol = await get(`${base}&timespan=3m&mode=timelinevol&query=${q}`);
+        vol = await get(`${base}&timespan=3m&mode=timelinevol&query=${q}`, 'json', 2, 60);
       }
       out.push({ ...t, series: vol.timeline[0].data.map((p) => ({ date: day(p.date), value: +p.value.toFixed(4) })) });
     } catch (e) {
