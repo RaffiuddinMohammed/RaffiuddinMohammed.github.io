@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T14:51:34.991Z",
+  "updated": "2026-11-12T15:04:10.578Z",
   "totalStories": 253,
   "sections": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "name": "World",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Business",
@@ -83,6 +83,12 @@
   ],
   "latest": [
     {
+      "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:54:47.000Z",
+      "section": "World"
+    },
+    {
       "title": "Who could replace Jensen Huang as Nvidia's permanent chief executive?",
       "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T14:48:26.000Z",
@@ -147,12 +153,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T13:16:59.000Z",
       "section": "UK"
-    },
-    {
-      "title": "I'm burnt out and feel forgotten as a young carer",
-      "link": "https://www.bbc.co.uk/news/articles/c68xzylnzjv9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:07:06.000Z",
-      "section": "Health"
     }
   ]
 }
