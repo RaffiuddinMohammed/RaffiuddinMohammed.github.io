@@ -126,7 +126,13 @@ async function globe(box) {
     x.focus({ preventScroll: true });
   }
   function closePanel() { selected = null; panel.classList.remove('open'); panel.hidden = true; }
-  box.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePanel(); });
+  // close: the ×, Esc anywhere, or a click/tap anywhere outside the panel
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && selected) closePanel(); });
+  document.addEventListener('pointerdown', (e) => {
+    if (!selected || panel.contains(e.target)) return;
+    if (e.target.closest?.('.globe-label.clickable')) return; // a label click switches country instead
+    closePanel();
+  }, true);
 
   // ---- hotspots: rebuilt whenever the day changes
   let spots = new THREE.Group();

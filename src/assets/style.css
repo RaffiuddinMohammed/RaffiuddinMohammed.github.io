@@ -410,3 +410,6 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .month li > a:hover { color: var(--ink1); }
 .month .meta { display: block; color: var(--muted); font-size: .75rem; }
 .month .eyebrow { margin-bottom: 0; }
+.gp-x { width: 36px; height: 36px; flex: none; display: inline-grid; place-items: center; padding: 0; border-radius: 50%; font-size: 1.5rem;
+  border: 1px solid var(--border); background: var(--bg); margin: -4px -6px 0 0; transition: background .2s, color .2s, transform .2s; }
+.gp-x:hover { background: var(--c4); border-color: var(--c4); color: #fff; transform: rotate(90deg); }
