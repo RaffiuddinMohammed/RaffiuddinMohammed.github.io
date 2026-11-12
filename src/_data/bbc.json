@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T14:41:14.640Z",
-  "totalStories": 254,
+  "updated": "2026-11-12T14:51:34.991Z",
+  "totalStories": 253,
   "sections": [
     {
       "name": "UK",
@@ -83,6 +83,18 @@
   ],
   "latest": [
     {
+      "title": "Who could replace Jensen Huang as Nvidia's permanent chief executive?",
+      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:48:26.000Z",
+      "section": "World"
+    },
+    {
+      "title": "How much art does your council own and is it locked away or on display?",
+      "link": "https://www.bbc.co.uk/news/articles/crgqwgzxeexno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:43:38.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Clean-up begins as oil spill shuts 18 Kent beaches",
       "link": "https://www.bbc.co.uk/news/articles/cqvg25r6lx38o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T14:35:16.000Z",
@@ -119,12 +131,6 @@
       "section": "Business"
     },
     {
-      "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
-      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:11:51.000Z",
-      "section": "World"
-    },
-    {
       "title": "Russell Brand's social media accounts disabled by Meta",
       "link": "https://www.bbc.co.uk/news/articles/ckedq1dxwylxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T13:35:26.000Z",
@@ -147,12 +153,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c68xzylnzjv9o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T13:07:06.000Z",
       "section": "Health"
-    },
-    {
-      "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-      "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:02:46.000Z",
-      "section": "World"
     }
   ]
 }
