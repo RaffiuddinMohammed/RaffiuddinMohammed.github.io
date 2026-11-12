@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-12T18:24:17.910Z",
+  "updated": "2026-11-12T18:37:55.783Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 1666,
-      "comments": 1731,
+      "points": 1744,
+      "comments": 1808,
       "domain": "apnews.com"
     },
     {
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
       "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 636,
-      "comments": 644,
+      "points": 646,
+      "comments": 659,
       "domain": "ipo.anthropic.com"
     },
     {
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 565,
-      "comments": 130,
+      "points": 574,
+      "comments": 131,
       "domain": "github.com"
     },
     {
       "title": "93% of paint splatters are valid Perl programs (2019)",
       "url": "https://www.mcmillen.dev/sigbovik/",
       "discuss": "https://news.ycombinator.com/item?id=50459745",
-      "points": 551,
+      "points": 553,
       "comments": 74,
       "domain": "mcmillen.dev"
-    },
-    {
-      "title": "Gemini Decisions API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "discuss": "https://news.ycombinator.com/item?id=50456791",
-      "points": 541,
-      "comments": 154,
-      "domain": "blog.google"
     },
     {
       "title": "Critical RCE Vulnerability in Apache HTTP Server",
       "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
       "discuss": "https://news.ycombinator.com/item?id=50462177",
-      "points": 336,
-      "comments": 178,
+      "points": 339,
+      "comments": 181,
       "domain": "wiz.io"
     },
     {
       "title": "A live tree of systemd jobs on the boot console",
       "url": "https://codeberg.org/wvhulle/bootvine",
       "discuss": "https://news.ycombinator.com/item?id=50425017",
-      "points": 294,
-      "comments": 113,
+      "points": 298,
+      "comments": 114,
       "domain": "codeberg.org"
     },
     {
       "title": "Why Writing Correct Software Is Hard",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "discuss": "https://news.ycombinator.com/item?id=50465352",
-      "points": 281,
-      "comments": 124,
+      "points": 286,
+      "comments": 125,
       "domain": "pron.github.io"
     },
     {
       "title": "Abandoned Quake 4 expansion finished by modders and now playable",
       "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
       "discuss": "https://news.ycombinator.com/item?id=50467618",
-      "points": 151,
-      "comments": 50,
+      "points": 156,
+      "comments": 53,
       "domain": "moddb.com"
+    },
+    {
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "discuss": "https://news.ycombinator.com/item?id=50471431",
+      "points": 130,
+      "comments": 70,
+      "domain": "blog.google"
     },
     {
       "title": "Making a €40 USB-C hub work as a Nintendo Switch 2 dock",
       "url": "http://blog.nozomi.space/posts/sw2_dock/",
       "discuss": "https://news.ycombinator.com/item?id=50431971",
-      "points": 124,
-      "comments": 41,
+      "points": 126,
+      "comments": 43,
       "domain": "blog.nozomi.space"
     }
   ],
-  "totalPoints": 6110,
+  "totalPoints": 5840,
   "storyCount": 30
 }

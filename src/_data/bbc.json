@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-12T18:24:17.599Z",
-  "totalStories": 256,
+  "updated": "2026-11-12T18:37:55.411Z",
+  "totalStories": 255,
   "sections": [
     {
       "name": "UK",
-      "count": 28
+      "count": 27
     },
     {
       "name": "World",
@@ -83,10 +83,16 @@
   ],
   "latest": [
     {
+      "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T18:28:59.000Z",
+      "section": "World"
+    },
+    {
       "title": "Can Burnham avoid another Labour welfare rebellion?",
       "link": "https://www.bbc.co.uk/news/articles/c95y100nrm41o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:21:38.000Z",
-      "section": "Politics"
+      "section": "UK"
     },
     {
       "title": "\"A mammogram can save your life.\"",
@@ -147,12 +153,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c6x20x380z12o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T16:44:25.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:43:36.000Z",
-      "section": "Technology"
     }
   ]
 }
