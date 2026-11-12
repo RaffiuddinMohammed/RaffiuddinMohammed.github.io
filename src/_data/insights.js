@@ -7,7 +7,10 @@ export default function () {
   const gdelt = load('./gdelt.json');
   const topics = (gdelt.topics ?? []).map((t) => {
     const peak = t.series.reduce((a, p) => (p.value > a.value ? p : a), t.series[0]);
-    const first = t.series[0].value, last = t.series.at(-1).value;
+    const last = t.series.at(-1).value;
+    // compare with the day nearest 90 days ago (the series may cover a whole year)
+    const target = Date.parse(t.series.at(-1).date) - 90 * 864e5;
+    const first = t.series.reduce((a, p) => (Math.abs(Date.parse(p.date) - target) < Math.abs(Date.parse(a.date) - target) ? p : a)).value;
     return { label: t.label, peak, last, change: Math.round(((last - first) / first) * 100) };
   });
   const leader = [...topics].sort((a, b) => b.last - a.last)[0];
@@ -17,7 +20,7 @@ export default function () {
   const monday = (d) => { const t = new Date(d + 'T00:00:00Z'); t.setUTCDate(t.getUTCDate() - ((t.getUTCDay() + 6) % 7)); return t.toISOString().slice(0, 10); };
   const weekSet = new Set();
   (gdelt.topics ?? []).forEach((t) => t.series.forEach((p) => weekSet.add(monday(p.date))));
-  const weeks = [...weekSet].sort().slice(-13);
+  const weeks = [...weekSet].sort().slice(-52);
   const grid = {
     weeks,
     topics: (gdelt.topics ?? []).map((t) => ({

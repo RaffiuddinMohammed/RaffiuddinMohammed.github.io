@@ -49,10 +49,13 @@ const toVec = (lat, lon, r) => {
 };
 
 // ------------------------------------------------------------------ globe
+const fmtDay = (d) => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
+const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
+
 async function globe(box) {
   const renderer = makeRenderer(box);
   if (!renderer) return;
-  const places = json(box.dataset.src);
+  const today = json(box.dataset.src);
   const dots = await fetch(box.dataset.dots).then((r) => r.json()).catch(() => []);
 
   const scene = new THREE.Scene();
@@ -62,12 +65,9 @@ async function globe(box) {
 
   const world = new THREE.Group();
   scene.add(world);
-
-  // body of the planet: hides the dots on the far side
   const body = new THREE.Mesh(new THREE.SphereGeometry(0.995, 64, 64), new THREE.MeshBasicMaterial({ transparent: true, opacity: 0.92 }));
   world.add(body);
 
-  // land as dots
   const pos = new Float32Array((dots.length / 2) * 3);
   for (let i = 0; i < dots.length; i += 2) toVec(dots[i], dots[i + 1], 1.0).toArray(pos, (i / 2) * 3);
   const dotGeo = new THREE.BufferGeometry();
@@ -75,112 +75,216 @@ async function globe(box) {
   const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: 0.9 });
   world.add(new THREE.Points(dotGeo, dotMat));
 
-  // atmosphere: a fresnel glow just outside the surface
   const glowMat = new THREE.ShaderMaterial({
     uniforms: { color: { value: new THREE.Color() } },
     vertexShader: 'varying vec3 vN; void main(){ vN = normalize(normalMatrix * normal); gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }',
     fragmentShader: 'uniform vec3 color; varying vec3 vN; void main(){ float i = pow(0.75 - dot(vN, vec3(0.0,0.0,1.0)), 3.0); gl_FragColor = vec4(color, 1.0) * i * 0.55; }',
     blending: THREE.AdditiveBlending, side: THREE.BackSide, transparent: true, depthWrite: false,
   });
-  const glow = new THREE.Mesh(new THREE.SphereGeometry(1.18, 64, 64), glowMat);
-  scene.add(glow);
+  scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.18, 64, 64), glowMat));
 
-  // beams + pulsing rings on the countries in today's headlines
-  const max = Math.max(1, ...places.map((p) => p.count));
-  const beams = [], rings = [], labels = [];
   const beamMat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0.9 });
-  places.forEach((p, i) => {
-    const h = 0.12 + 0.55 * Math.sqrt(p.count / max);
-    const g = new THREE.CylinderGeometry(0.008, 0.016, h, 8);
-    g.translate(0, h / 2, 0);
-    const beam = new THREE.Mesh(g, beamMat);
-    const at = toVec(p.lat, p.lon, 1.0);
-    beam.position.copy(at);
-    beam.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), at.clone().normalize());
-    beam.userData = { h };
-    world.add(beam);
-    beams.push(beam);
+  const beamHot = new THREE.MeshBasicMaterial();
+  const hitMat = new THREE.MeshBasicMaterial({ visible: false });
 
-    const ring = new THREE.Mesh(new THREE.RingGeometry(0.02, 0.032, 32), new THREE.MeshBasicMaterial({ transparent: true, side: THREE.DoubleSide }));
-    ring.position.copy(toVec(p.lat, p.lon, 1.002));
-    ring.lookAt(at.clone().multiplyScalar(2));
-    ring.userData.phase = i * 0.37;
-    world.add(ring);
-    rings.push(ring);
+  // ---- story panel (opens when a country is clicked)
+  const panel = el('div', 'globe-panel');
+  panel.hidden = true;
+  panel.setAttribute('role', 'dialog');
+  panel.setAttribute('aria-label', 'Stories for the selected country');
+  box.appendChild(panel);
+  const hoverTip = el('div', 'globe-label hover-tip');
+  hoverTip.style.opacity = '0';
+  box.appendChild(hoverTip);
+  let current = { date: null, places: [] };
+  let selected = null;
 
-    if (i < 6) { // label the busiest few
-      const el = document.createElement('div');
-      el.className = 'globe-label';
-      const b = document.createElement('b'); b.textContent = p.name;
-      const s = document.createElement('span'); s.textContent = ` ${p.count} ${p.count === 1 ? 'story' : 'stories'}`;
-      el.append(b, s);
-      box.appendChild(el);
-      labels.push({ el, tip: toVec(p.lat, p.lon, 1.0 + h + 0.04) });
+  function openPanel(p) {
+    selected = p;
+    panel.replaceChildren();
+    const head = el('div', 'gp-head');
+    const h = el('h3', null, p.name);
+    const sub = el('span', 'gp-sub', `${p.count} ${p.count === 1 ? 'story' : 'stories'} · ${current.date ? fmtDay(current.date) : 'today'}`);
+    const x = el('button', 'gp-x', '×');
+    x.type = 'button'; x.setAttribute('aria-label', 'Close');
+    x.addEventListener('click', closePanel);
+    const titles = el('div'); titles.append(h, sub);
+    head.append(titles, x);
+    const list = el('ul', 'gp-list');
+    for (const s of p.stories ?? []) {
+      const li = el('li');
+      const a = el('a', null, s.title);
+      a.href = s.link; a.target = '_blank'; a.rel = 'noopener';
+      li.append(a, el('span', 'gp-meta', s.section ?? ''));
+      list.appendChild(li);
     }
-  });
+    if (!(p.stories ?? []).length) list.appendChild(el('li', 'gp-meta', 'Headlines were not saved for this day.'));
+    if (p.count > (p.stories ?? []).length && (p.stories ?? []).length) list.appendChild(el('li', 'gp-meta', `+ ${p.count - p.stories.length} more on BBC News`));
+    panel.append(head, list);
+    panel.hidden = false;
+    requestAnimationFrame(() => panel.classList.add('open'));
+    x.focus({ preventScroll: true });
+  }
+  function closePanel() { selected = null; panel.classList.remove('open'); panel.hidden = true; }
+  box.addEventListener('keydown', (e) => { if (e.key === 'Escape') closePanel(); });
+
+  // ---- hotspots: rebuilt whenever the day changes
+  let spots = new THREE.Group();
+  world.add(spots);
+  let beams = [], rings = [], hits = [], labels = [];
+  function setPlaces(day) {
+    current = day;
+    world.remove(spots);
+    spots.traverse((o) => { if (o.geometry) o.geometry.dispose(); });
+    labels.forEach((l) => l.el.remove());
+    spots = new THREE.Group(); world.add(spots);
+    beams = []; rings = []; hits = []; labels = [];
+    closePanel();
+    const places = day.places ?? [];
+    const max = Math.max(1, ...places.map((p) => p.count));
+    places.forEach((p, i) => {
+      const h = 0.12 + 0.55 * Math.sqrt(p.count / max);
+      const at = toVec(p.lat, p.lon, 1.0);
+      const up = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), at.clone().normalize());
+      const g = new THREE.CylinderGeometry(0.008, 0.016, h, 8); g.translate(0, h / 2, 0);
+      const beam = new THREE.Mesh(g, beamMat);
+      beam.position.copy(at); beam.quaternion.copy(up);
+      // a fatter invisible cylinder makes the beam easy to click
+      const hg = new THREE.CylinderGeometry(0.06, 0.06, h + 0.06, 8); hg.translate(0, h / 2, 0);
+      const hit = new THREE.Mesh(hg, hitMat);
+      hit.position.copy(at); hit.quaternion.copy(up); hit.userData.place = p; hit.userData.beam = beam;
+      const ring = new THREE.Mesh(new THREE.RingGeometry(0.02, 0.032, 32), new THREE.MeshBasicMaterial({ transparent: true, side: THREE.DoubleSide }));
+      ring.material.color.set(css('--c4'));
+      ring.position.copy(toVec(p.lat, p.lon, 1.002)); ring.lookAt(at.clone().multiplyScalar(2)); ring.userData.phase = i * 0.37;
+      spots.add(beam, hit, ring);
+      beams.push(beam); rings.push(ring); hits.push(hit);
+      if (i < 6) {
+        const b = el('button', 'globe-label clickable');
+        b.type = 'button';
+        b.append(el('b', null, p.name), el('span', null, ` ${p.count} ${p.count === 1 ? 'story' : 'stories'}`));
+        b.setAttribute('aria-label', `${p.name}: ${p.count} stories. Show them`);
+        b.addEventListener('click', () => openPanel(p));
+        box.appendChild(b);
+        labels.push({ el: b, tip: toVec(p.lat, p.lon, 1.0 + h + 0.04) });
+      }
+    });
+  }
+  setPlaces({ date: null, places: today });
 
   const paint = () => {
     body.material.color.set(css('--surface'));
     dotMat.color.set(css('--c1'));
     glowMat.uniforms.color.value.set(css('--c2'));
     beamMat.color.set(css('--c4'));
+    beamHot.color.set(css('--c2'));
     rings.forEach((r) => r.material.color.set(css('--c4')));
   };
   paint();
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paint);
 
-  // start facing Europe/Africa, tilted like the real Earth
   world.rotation.set(0.35, -Math.PI / 2 + 0.25, 0);
 
-  // drag to spin (with inertia); auto-rotate otherwise
-  let dragging = false, lastX = 0, lastY = 0, vx = still ? 0 : 0.0016, vy = 0;
+  // ---- pointer: drag to spin, click a beam to open its stories, hover to see its name
   const canvas = renderer.domElement;
   canvas.style.touchAction = 'pan-y';
-  canvas.addEventListener('pointerdown', (e) => { dragging = true; lastX = e.clientX; lastY = e.clientY; canvas.setPointerCapture(e.pointerId); box.classList.add('grabbing'); });
+  const ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
+  const pick = (e) => {
+    const r = canvas.getBoundingClientRect();
+    ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(ptr, camera);
+    const hit = ray.intersectObjects([body, ...hits])[0];
+    return hit && hit.object !== body ? hit.object : null; // the planet blocks beams behind it
+  };
+  let dragging = false, moved = 0, lastX = 0, lastY = 0, vx = still ? 0 : 0.0016, vy = 0, hovered = null;
+  canvas.addEventListener('pointerdown', (e) => { dragging = true; moved = 0; lastX = e.clientX; lastY = e.clientY; canvas.setPointerCapture(e.pointerId); });
   canvas.addEventListener('pointermove', (e) => {
-    if (!dragging) return;
-    vx = (e.clientX - lastX) * 0.005; vy = (e.clientY - lastY) * 0.003;
-    world.rotation.y += vx; world.rotation.x = Math.max(-0.6, Math.min(0.9, world.rotation.x + vy));
-    lastX = e.clientX; lastY = e.clientY;
+    if (dragging) {
+      const dx = e.clientX - lastX, dy = e.clientY - lastY;
+      moved += Math.abs(dx) + Math.abs(dy);
+      if (moved > 4) box.classList.add('grabbing');
+      vx = dx * 0.005; vy = dy * 0.003;
+      world.rotation.y += vx; world.rotation.x = Math.max(-0.6, Math.min(0.9, world.rotation.x + vy));
+      lastX = e.clientX; lastY = e.clientY;
+      return;
+    }
+    const h = pick(e);
+    if (hovered && hovered !== h) hovered.userData.beam.material = beamMat;
+    hovered = h;
+    canvas.style.cursor = h ? 'pointer' : '';
+    if (h) {
+      h.userData.beam.material = beamHot;
+      const p = h.userData.place, r = canvas.getBoundingClientRect();
+      hoverTip.replaceChildren(el('b', null, p.name), el('span', null, ` ${p.count} · click for stories`));
+      hoverTip.style.transform = `translate(${e.clientX - r.left}px, ${e.clientY - r.top - 14}px) translate(-50%, -100%)`;
+      hoverTip.style.opacity = '1';
+    } else hoverTip.style.opacity = '0';
   });
-  const end = () => { dragging = false; box.classList.remove('grabbing'); };
+  const end = (e) => {
+    if (dragging && moved < 6 && e.type === 'pointerup') { const h = pick(e) ?? hovered; if (h) openPanel(h.userData.place); }
+    dragging = false; box.classList.remove('grabbing');
+  };
   canvas.addEventListener('pointerup', end);
   canvas.addEventListener('pointercancel', end);
+  canvas.addEventListener('pointerleave', () => { hoverTip.style.opacity = '0'; if (hovered) hovered.userData.beam.material = beamMat; hovered = null; });
 
-  const v = new THREE.Vector3(), camDir = new THREE.Vector3();
+  // ---- time travel: a slider over the daily archive (loaded on first use)
+  const timeBox = box.parentElement.querySelector('[data-globe-time]');
+  if (timeBox) {
+    fetch(timeBox.dataset.history).then((r) => r.json()).then((days) => {
+      const label = timeBox.querySelector('.gt-date');
+      const note = timeBox.querySelector('.gt-note');
+      if (!Array.isArray(days) || days.length < 2) {
+        note.textContent = `History started ${days?.[0] ? fmtDay(days[0].date) : 'today'}: a new day is saved every morning, then you can travel back in time here.`;
+        timeBox.classList.add('ready');
+        return;
+      }
+      const range = timeBox.querySelector('input');
+      range.min = 0; range.max = days.length - 1; range.value = days.length - 1;
+      range.disabled = false;
+      const show = () => {
+        const i = +range.value, d = days[i], latest = i === days.length - 1;
+        label.textContent = latest ? 'Today' : fmtDay(d.date);
+        setPlaces(latest ? { date: null, places: today } : d);
+      };
+      range.addEventListener('input', show);
+      note.textContent = `${days.length} days archived, since ${fmtDay(days[0].date)}`;
+      timeBox.classList.add('ready', 'has-history');
+    }).catch(() => {});
+  }
+
+  const v = new THREE.Vector3(), w = new THREE.Vector3(), camDir = new THREE.Vector3();
   loop(box, (t) => {
     if (!dragging) {
-      vx += ((still ? 0 : 0.0016) - vx) * 0.03; // ease back to a slow spin after a flick
-      vy *= 0.9;
+      // pause the spin while a country's stories are open, so its beam stays put
+      const target = still || selected || hovered ? 0 : 0.0016; // hold still while pointing at a country
+      vx += (target - vx) * 0.03; vy *= 0.9;
       world.rotation.y += vx;
     }
-    // scroll: tilt back and shrink a touch as the hero leaves the screen
     const s = Math.min(1, Math.max(0, scrollY / (box.offsetTop + box.offsetHeight)));
     world.position.y = s * 0.4;
     world.scale.setScalar(1 - s * 0.15);
-
     if (!still) {
       const k = t / 1000;
       rings.forEach((r) => { const p = (k * 0.6 + r.userData.phase) % 1; r.scale.setScalar(1 + p * 2.2); r.material.opacity = 0.8 * (1 - p); });
       beams.forEach((b, i) => { b.scale.y = 0.85 + 0.15 * Math.sin(k * 2 + i); });
     }
     camDir.copy(camera.position).normalize();
+    world.updateMatrixWorld();
     beams.forEach((b, i) => {
-      const facing = v.copy(b.position).applyMatrix4(world.matrixWorld).normalize().dot(camDir);
+      const facing = w.copy(b.position).applyMatrix4(world.matrixWorld).normalize().dot(camDir);
       b.visible = rings[i].visible = facing > -0.05;
     });
     renderer.render(scene, camera);
-
-    // HTML labels follow their beam tips; hide them on the far side
-    camDir.copy(camera.position).normalize();
     for (const l of labels) {
       v.copy(l.tip).applyMatrix4(world.matrixWorld);
-      const front = v.clone().normalize().dot(camDir) > 0.15;
+      const front = w.copy(v).normalize().dot(camDir) > 0.15;
       v.project(camera);
       const half = l.el.offsetWidth / 2, W = box.clientWidth;
       const lx = Math.min(W - half - 4, Math.max(half + 4, (v.x * 0.5 + 0.5) * W));
       l.el.style.transform = `translate(${lx}px, ${(-v.y * 0.5 + 0.5) * box.clientHeight}px) translate(-50%, -100%)`;
       l.el.style.opacity = front ? '1' : '0';
+      l.el.style.pointerEvents = front ? 'auto' : 'none';
+      l.el.tabIndex = front ? 0 : -1;
     }
   });
   box.classList.add('ready');
@@ -201,7 +305,7 @@ function grid3d(box) {
   // order rows so the topic with the tallest bars sits at the back and never hides the others
   const order = rows.map((r, i) => [i, Math.max(...r.values.filter((x) => x != null))]).sort((a, b) => b[1] - a[1]).map(([i]) => i);
   const zOf = (i) => order.indexOf(i) * GAP;
-  camera.position.set(W * 0.5 - 1, 11, (D - 1) * GAP + 13);
+  camera.position.set(W * 0.5 - 1, 8 + W * 0.22, (D - 1) * GAP + 7 + W * 0.45);
   onResize(box, renderer, camera);
 
   scene.add(new THREE.HemisphereLight(0xffffff, 0x444466, 1.6));
@@ -211,6 +315,7 @@ function grid3d(box) {
 
   const center = new THREE.Vector3((W - 1) / 2, 0, ((D - 1) * GAP) / 2);
   const floor = new THREE.GridHelper(W + 3, W + 3);
+  floor.scale.z = ((D - 1) * GAP + 3) / (W + 3); // a long, shallow floor under the rows
   floor.position.set(center.x, 0, center.z);
   scene.add(floor);
 

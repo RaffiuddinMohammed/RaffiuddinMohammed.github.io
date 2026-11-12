@@ -46,7 +46,7 @@ const TOPICS = [
 ];
 
 async function gdelt() {
-  const base = 'https://api.gdeltproject.org/api/v2/doc/doc?format=json&timespan=3m&timelinesmooth=7';
+  const base = 'https://api.gdeltproject.org/api/v2/doc/doc?format=json&timelinesmooth=7';
   const day = (s) => `${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}`;
   let prev = [];
   try { prev = JSON.parse(await readFile(new URL('gdelt.json', DATA))).topics ?? []; } catch {}
@@ -54,7 +54,11 @@ async function gdelt() {
   for (const t of TOPICS) {
     try {
       const q = encodeURIComponent(`${t.query} sourcelang:english`);
-      const vol = await get(`${base}&mode=timelinevol&query=${q}`);
+      let vol = await get(`${base}&timespan=12m&mode=timelinevol&query=${q}`);
+      if ((vol.timeline?.[0]?.data?.length ?? 0) < 120) { // a year should give ~365 days; fall back to 3 months
+        await wait(12000);
+        vol = await get(`${base}&timespan=3m&mode=timelinevol&query=${q}`);
+      }
       out.push({ ...t, series: vol.timeline[0].data.map((p) => ({ date: day(p.date), value: +p.value.toFixed(4) })) });
     } catch (e) {
       // Rate-limited topics keep yesterday's series rather than vanishing from the chart
@@ -121,11 +125,15 @@ const placeMatchers = PLACES.map(([name, lat, lon, ...words]) => ({
   // "US" only as a capitalised word, so the pronoun "us" never counts as America
   re: words.map((w) => w === 'US' ? /\bUS\b/ : new RegExp(`\\b${w}\\b`, 'i')),
 }));
-function countPlaces(titles) {
+function countPlaces(items) {
   const out = [];
   for (const p of placeMatchers) {
-    const n = titles.filter((t) => p.re.some((r) => r.test(t))).length;
-    if (n) out.push({ name: p.name, lat: p.lat, lon: p.lon, count: n });
+    const hits = items.filter((i) => p.re.some((r) => r.test(i.title)));
+    if (hits.length) out.push({
+      name: p.name, lat: p.lat, lon: p.lon, count: hits.length,
+      // the headlines behind the beam, newest first, so the globe can list them on click
+      stories: hits.slice(0, 8).map(({ title, link, section, date }) => ({ title, link, section, date })),
+    });
   }
   return out.sort((a, b) => b.count - a.count);
 }
@@ -152,7 +160,7 @@ async function bbc() {
     for (const w of uniq) words.set(w, (words.get(w) ?? 0) + 1);
   }
   const topWords = [...words].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([word, count]) => ({ word, count }));
-  return { totalStories: all.length, sections: sections.sort((a, b) => b.count - a.count), topWords, places: countPlaces(all.map((i) => i.title)), latest: all.slice(0, 12) };
+  return { totalStories: all.length, sections: sections.sort((a, b) => b.count - a.count), topWords, places: countPlaces(all), latest: all.slice(0, 12) };
 }
 
 // ---------- 3. Hacker News: what the tech world is reading ----------
@@ -170,6 +178,49 @@ async function hn() {
   return { stories: stories.slice(0, 10), totalPoints: stories.reduce((a, s) => a + s.points, 0), storyCount: stories.length };
 }
 
+// ---------- 4. Hacker News history: the top 3 stories of each of the last 12 months ----------
+async function hnHistory() {
+  const months = [];
+  const now = new Date();
+  for (let k = 11; k >= 0; k--) {
+    const from = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth() - k, 1));
+    const to = new Date(Date.UTC(from.getUTCFullYear(), from.getUTCMonth() + 1, 1));
+    const { hits } = await get(`https://hn.algolia.com/api/v1/search?tags=story&hitsPerPage=3&numericFilters=${encodeURIComponent(`created_at_i>=${from / 1000},created_at_i<${to / 1000}`)}`);
+    months.push({
+      month: from.toISOString().slice(0, 7),
+      stories: hits.map((h) => ({
+        title: h.title, points: h.points, comments: h.num_comments ?? 0, date: h.created_at.slice(0, 10),
+        url: h.url || `https://news.ycombinator.com/item?id=${h.objectID}`,
+        discuss: `https://news.ycombinator.com/item?id=${h.objectID}`,
+      })),
+    });
+    await wait(400);
+  }
+  return { months };
+}
+
+// ---------- 5. Daily archive: today's BBC + HN snapshot, kept forever (one entry per UTC day) ----------
+async function archive() {
+  const read = async (f) => JSON.parse(await readFile(new URL(f, DATA)));
+  const bbc = await read('bbc.json'), hn = await read('hn.json');
+  if (!bbc.updated) throw new Error('no BBC data today');
+  let days = [];
+  try { days = (await read('archive.json')).days ?? []; } catch {}
+  const today = {
+    date: bbc.updated.slice(0, 10),
+    totalStories: bbc.totalStories,
+    sections: bbc.sections,
+    topWords: bbc.topWords.slice(0, 8),
+    places: (bbc.places ?? []).map((p) => ({ ...p, stories: (p.stories ?? []).slice(0, 5) })),
+    topHeadlines: bbc.latest.slice(0, 5).map(({ title, link, section }) => ({ title, link, section })),
+    hnTop: (hn.stories ?? []).slice(0, 3).map(({ title, url, points }) => ({ title, url, points })),
+  };
+  days = days.filter((d) => d.date !== today.date).concat(today).sort((a, b) => a.date.localeCompare(b.date));
+  return { days };
+}
+
 await save('bbc', bbc);
 await save('hn', hn);
 await save('gdelt', gdelt);
+await save('hnHistory', hnHistory);
+await save('archive', archive);

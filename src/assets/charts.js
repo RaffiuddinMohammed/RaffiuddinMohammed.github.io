@@ -72,7 +72,8 @@
     for (let mo = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + 1, 1)); mo.getTime() <= t1; mo.setUTCMonth(mo.getUTCMonth() + 1)) {
       const d = mo.toISOString().slice(0, 10);
       el('line', { class: 'baseline', x1: x(d), x2: x(d), y1: m.t + ih, y2: m.t + ih + 4 }, g);
-      text(g, fmtDate(d, { month: 'short' }), { x: x(d), y: H - 8, 'text-anchor': 'middle' });
+      const months = (t1 - t0) / (30.4 * 864e5), every = iw / months < 36 ? 2 : 1;
+      if (mo.getUTCMonth() % every === 0) text(g, fmtDate(d, { month: 'short' }), { x: x(d), y: H - 8, 'text-anchor': 'middle' });
     }
 
     data.series.forEach((s, i) => {
@@ -167,9 +168,31 @@
   }
 
   const kinds = { line, bar };
+  // keep only the last `days` of every series (for the 3M / 6M / 1Y buttons)
+  const slice = (data, days) => {
+    if (!days) return data;
+    const end = Math.max(...data.series.map((s) => Date.parse(s.points.at(-1).date)));
+    const from = end - days * 864e5;
+    return { ...data, series: data.series.map((s) => ({ ...s, points: s.points.filter((p) => Date.parse(p.date) >= from) })) };
+  };
   const charts = [...document.querySelectorAll('[data-chart]')].map((box) => {
     const data = JSON.parse(document.getElementById(box.dataset.src).textContent);
-    const draw = () => kinds[box.dataset.chart](box, data);
+    const draw = () => kinds[box.dataset.chart](box, box.dataset.days ? slice(data, +box.dataset.days) : data);
+    const ranges = document.querySelector(`[data-range-for="${box.id}"]`);
+    if (ranges && data.series) {
+      const t = data.series.flatMap((s) => s.points.map((p) => Date.parse(p.date)));
+      const spanDays = (Math.max(...t) - Math.min(...t)) / 864e5;
+      const btns = [...ranges.querySelectorAll('button')];
+      btns.forEach((b) => { if (+b.dataset.days > spanDays + 20) b.hidden = true; }); // no 1Y button on 3 months of data
+      const pick = (b) => {
+        btns.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        box.dataset.days = b.dataset.days;
+        draw();
+      };
+      btns.forEach((b) => b.addEventListener('click', () => pick(b)));
+      const visible = btns.filter((b) => !b.hidden);
+      if (visible.length > 1) { ranges.hidden = false; box.dataset.days = visible.at(-1).dataset.days; visible.at(-1).setAttribute('aria-pressed', 'true'); }
+    }
     draw();
     return { box, draw, w: box.clientWidth };
   });

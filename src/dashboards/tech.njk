@@ -32,4 +32,31 @@ permalink: /dashboards/tech/
   </div>
   <p class="muted">Source: <a href="https://hn.algolia.com/api" rel="noopener">Hacker News Algolia API</a>. Updated {{ hn.updated | when }}.</p>
 </section>
+{% if hnHistory.months %}
+{% set hy = { label: 'Top Hacker News story of each month, by points', unit: 'points', rows: [] } %}
+{% for m in hnHistory.months %}{% if m.stories[0] %}{% set hy = (hy.rows.push({ label: (m.month | monthName) + ': ' + m.stories[0].title, value: m.stories[0].points, href: m.stories[0].url }), hy) %}{% endif %}{% endfor %}
+<section>
+  <div class="page-head" style="padding-top:16px">
+    <div class="eyebrow">History · last 12 months</div>
+    <h2 style="font-size:1.6rem">A year on Hacker News</h2>
+    <p class="muted">The most upvoted story of each month. Click a bar to open it.</p>
+  </div>
+  <div class="card chart-card">
+    <div class="chart" data-chart="bar" data-src="hn-year-data"></div>
+  </div>
+  <div class="grid three months">
+    {% for m in hnHistory.months | reverse %}
+    <div class="card month reveal">
+      <div class="eyebrow">{{ m.month | monthName }}</div>
+      <ol>
+        {% for st in m.stories %}
+        <li><a href="{{ st.url }}" rel="noopener" target="_blank">{{ st.title }}</a><span class="meta">{{ st.points | num }} points · <a href="{{ st.discuss }}" rel="noopener" target="_blank">{{ st.comments | num }} comments</a></span></li>
+        {% endfor %}
+      </ol>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<script type="application/json" id="hn-year-data">{{ hy | json | safe }}</script>
+{% endif %}
 <script type="application/json" id="hn-data">{{ pts | json | safe }}</script>

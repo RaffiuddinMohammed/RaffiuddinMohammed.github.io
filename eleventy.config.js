@@ -5,6 +5,9 @@ export default function (cfg) {
   cfg.addPassthroughCopy('src/assets');
   // JSON for <script type="application/json"> blocks; escapes "<" so a headline can't close the tag
   cfg.addFilter('json', (v) => JSON.stringify(v).replace(/</g, '\\u003c'));
+  // the globe's time slider only needs the date and the countries of each archived day
+  cfg.addFilter('globeDays', (days) => (days ?? []).map(({ date, places }) => ({ date, places })));
+  cfg.addFilter('monthName', (ym) => new Date(ym + '-01T00:00:00Z').toLocaleDateString('en-GB', { month: 'short', year: 'numeric', timeZone: 'UTC' }));
   cfg.addFilter('num', (v) => Number(v ?? 0).toLocaleString('en-GB'));
   cfg.addFilter('when', (iso) => iso
     ? new Date(iso).toLocaleString('en-GB', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Europe/London' }) + ' UK'

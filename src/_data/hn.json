@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-12T19:31:57.919Z",
+  "updated": "2026-11-12T19:55:23.249Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 1983,
-      "comments": 2026,
+      "points": 2095,
+      "comments": 2118,
       "domain": "apnews.com"
     },
     {
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
       "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 683,
-      "comments": 690,
+      "points": 697,
+      "comments": 702,
       "domain": "ipo.anthropic.com"
     },
     {
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 594,
+      "points": 603,
       "comments": 136,
       "domain": "github.com"
-    },
-    {
-      "title": "A live tree of systemd jobs on the boot console",
-      "url": "https://codeberg.org/wvhulle/bootvine",
-      "discuss": "https://news.ycombinator.com/item?id=50425017",
-      "points": 310,
-      "comments": 117,
-      "domain": "codeberg.org"
     },
     {
       "title": "Why Writing Correct Software Is Hard",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "discuss": "https://news.ycombinator.com/item?id=50465352",
-      "points": 305,
-      "comments": 133,
+      "points": 314,
+      "comments": 138,
       "domain": "pron.github.io"
+    },
+    {
+      "title": "A live tree of systemd jobs on the boot console",
+      "url": "https://codeberg.org/wvhulle/bootvine",
+      "discuss": "https://news.ycombinator.com/item?id=50425017",
+      "points": 313,
+      "comments": 119,
+      "domain": "codeberg.org"
     },
     {
       "title": "Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 253,
-      "comments": 156,
+      "points": 291,
+      "comments": 184,
       "domain": "blog.google"
-    },
-    {
-      "title": "Ask HN: Microsoft/Azure Outage?",
-      "url": "https://news.ycombinator.com/item?id=50471668",
-      "discuss": "https://news.ycombinator.com/item?id=50471668",
-      "points": 193,
-      "comments": 79,
-      "domain": "news.ycombinator.com"
     },
     {
       "title": "Rust 1.100.0",
       "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
       "discuss": "https://news.ycombinator.com/item?id=50471793",
-      "points": 188,
-      "comments": 40,
+      "points": 254,
+      "comments": 53,
       "domain": "github.com"
+    },
+    {
+      "title": "Ask HN: Microsoft/Azure Outage?",
+      "url": "https://news.ycombinator.com/item?id=50471668",
+      "discuss": "https://news.ycombinator.com/item?id=50471668",
+      "points": 239,
+      "comments": 105,
+      "domain": "news.ycombinator.com"
     },
     {
       "title": "Abandoned Quake 4 expansion finished by modders and now playable",
       "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
       "discuss": "https://news.ycombinator.com/item?id=50467618",
-      "points": 179,
-      "comments": 62,
+      "points": 192,
+      "comments": 65,
       "domain": "moddb.com"
     },
     {
-      "title": "I'm making LLMs work on small and old devices",
-      "url": "https://github.com/hyperionaidev/smolmaxxing/",
-      "discuss": "https://news.ycombinator.com/item?id=50468888",
-      "points": 158,
-      "comments": 62,
-      "domain": "github.com"
+      "title": "Outlook is down, and so is Microsoft's status page",
+      "url": "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows/",
+      "discuss": "https://news.ycombinator.com/item?id=50471731",
+      "points": 180,
+      "comments": 49,
+      "domain": "gvwire.com"
     }
   ],
-  "totalPoints": 6047,
+  "totalPoints": 6552,
   "storyCount": 30
 }

@@ -1,0 +1,353 @@
+{
+  "updated": "2026-11-12T19:57:11.196Z",
+  "months": [
+    {
+      "month": "2025-12",
+      "stories": [
+        {
+          "title": "Show HN: Gemini Pro 3 imagines the HN front page 10 years from now",
+          "points": 3346,
+          "comments": 965,
+          "date": "2025-12-09",
+          "url": "https://dosaygo-studio.github.io/hn-front-page-2035/news",
+          "discuss": "https://news.ycombinator.com/item?id=46205632"
+        },
+        {
+          "title": "Size of Life",
+          "points": 2619,
+          "comments": 277,
+          "date": "2025-12-10",
+          "url": "https://neal.fun/size-of-life/",
+          "discuss": "https://news.ycombinator.com/item?id=46219346"
+        },
+        {
+          "title": "What an unprocessed photo looks like",
+          "points": 2510,
+          "comments": 409,
+          "date": "2025-12-28",
+          "url": "https://maurycyz.com/misc/raw_photo/",
+          "discuss": "https://news.ycombinator.com/item?id=46415225"
+        }
+      ]
+    },
+    {
+      "month": "2026-01",
+      "stories": [
+        {
+          "title": "The struggle of resizing windows on macOS Tahoe",
+          "points": 2752,
+          "comments": 1207,
+          "date": "2026-01-11",
+          "url": "https://noheger.at/blog/2026/01/11/the-struggle-of-resizing-windows-on-macos-tahoe/",
+          "discuss": "https://news.ycombinator.com/item?id=46579864"
+        },
+        {
+          "title": "Bose has released API docs and opened the API for its EoL SoundTouch speakers",
+          "points": 2532,
+          "comments": 396,
+          "date": "2026-01-08",
+          "url": "https://arstechnica.com/gadgets/2026/01/bose-open-sources-its-soundtouch-home-theater-smart-speakers-ahead-of-eol/",
+          "discuss": "https://news.ycombinator.com/item?id=46541892"
+        },
+        {
+          "title": "It's hard to justify Tahoe icons",
+          "points": 2487,
+          "comments": 951,
+          "date": "2026-01-05",
+          "url": "https://tonsky.me/blog/tahoe-icons/",
+          "discuss": "https://news.ycombinator.com/item?id=46497712"
+        }
+      ]
+    },
+    {
+      "month": "2026-02",
+      "stories": [
+        {
+          "title": "Statement from Dario Amodei on our discussions with the Department of War",
+          "points": 2920,
+          "comments": 1579,
+          "date": "2026-02-26",
+          "url": "https://www.anthropic.com/news/statement-department-of-war",
+          "discuss": "https://news.ycombinator.com/item?id=47173121"
+        },
+        {
+          "title": "We Will Not Be Divided",
+          "points": 2645,
+          "comments": 841,
+          "date": "2026-02-28",
+          "url": "https://notdivided.org",
+          "discuss": "https://news.ycombinator.com/item?id=47188473"
+        },
+        {
+          "title": "Claude Opus 4.6",
+          "points": 2346,
+          "comments": 1031,
+          "date": "2026-02-05",
+          "url": "https://www.anthropic.com/news/claude-opus-4-6",
+          "discuss": "https://news.ycombinator.com/item?id=46902223"
+        }
+      ]
+    },
+    {
+      "month": "2026-03",
+      "stories": [
+        {
+          "title": "Don't post generated/AI-edited comments. HN is for conversation between humans",
+          "points": 4229,
+          "comments": 1668,
+          "date": "2026-03-11",
+          "url": "https://news.ycombinator.com/newsguidelines.html#generated",
+          "discuss": "https://news.ycombinator.com/item?id=47340079"
+        },
+        {
+          "title": "Motorola announces a partnership with GrapheneOS",
+          "points": 2358,
+          "comments": 884,
+          "date": "2026-03-02",
+          "url": "https://motorolanews.com/motorola-three-new-b2b-solutions-at-mwc-2026/",
+          "discuss": "https://news.ycombinator.com/item?id=47214645"
+        },
+        {
+          "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+          "points": 2095,
+          "comments": 1022,
+          "date": "2026-03-31",
+          "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+          "discuss": "https://news.ycombinator.com/item?id=47584540"
+        }
+      ]
+    },
+    {
+      "month": "2026-04",
+      "stories": [
+        {
+          "title": "Ghostty is leaving GitHub",
+          "points": 3521,
+          "comments": 1051,
+          "date": "2026-04-28",
+          "url": "https://mitchellh.com/writing/ghostty-leaving-github",
+          "discuss": "https://news.ycombinator.com/item?id=47939579"
+        },
+        {
+          "title": "Git commands I run before reading any code",
+          "points": 2338,
+          "comments": 509,
+          "date": "2026-04-08",
+          "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+          "discuss": "https://news.ycombinator.com/item?id=47687273"
+        },
+        {
+          "title": "Alberta startup sells no-tech tractors for half price",
+          "points": 2320,
+          "comments": 779,
+          "date": "2026-04-22",
+          "url": "https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/",
+          "discuss": "https://news.ycombinator.com/item?id=47865868"
+        }
+      ]
+    },
+    {
+      "month": "2026-05",
+      "stories": [
+        {
+          "title": "Hardware Attestation as Monopoly Enabler",
+          "points": 2186,
+          "comments": 755,
+          "date": "2026-05-10",
+          "url": "https://grapheneos.social/@GrapheneOS/116550899908879585",
+          "discuss": "https://news.ycombinator.com/item?id=48086190"
+        },
+        {
+          "title": "I believe there are entire companies right now under AI psychosis",
+          "points": 2105,
+          "comments": 1272,
+          "date": "2026-05-15",
+          "url": "https://twitter.com/mitchellh/status/2055380239711457578",
+          "discuss": "https://news.ycombinator.com/item?id=48153379"
+        },
+        {
+          "title": "I'm Tired of Talking to AI",
+          "points": 2013,
+          "comments": 950,
+          "date": "2026-05-27",
+          "url": "https://orchidfiles.com/im-tired-of-ai-generated-answers/",
+          "discuss": "https://news.ycombinator.com/item?id=48292224"
+        }
+      ]
+    },
+    {
+      "month": "2026-06",
+      "stories": [
+        {
+          "title": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
+          "points": 3158,
+          "comments": 2314,
+          "date": "2026-06-13",
+          "url": "https://www.anthropic.com/news/fable-mythos-access",
+          "discuss": "https://news.ycombinator.com/item?id=48511072"
+        },
+        {
+          "title": "Claude Fable 5",
+          "points": 2626,
+          "comments": 2159,
+          "date": "2026-06-09",
+          "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+          "discuss": "https://news.ycombinator.com/item?id=48463808"
+        },
+        {
+          "title": "Claude Code is steganographically marking requests",
+          "points": 2445,
+          "comments": 750,
+          "date": "2026-06-30",
+          "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+          "discuss": "https://news.ycombinator.com/item?id=48734373"
+        }
+      ]
+    },
+    {
+      "month": "2026-07",
+      "stories": [
+        {
+          "title": "Show HN: I replaced a $120k bowling center system with $1,600 in ESP32s",
+          "points": 2935,
+          "comments": 359,
+          "date": "2026-07-19",
+          "url": "https://news.ycombinator.com/item?id=48968606",
+          "discuss": "https://news.ycombinator.com/item?id=48968606"
+        },
+        {
+          "title": "Kimi K3: Open Frontier Intelligence",
+          "points": 2107,
+          "comments": 1214,
+          "date": "2026-07-16",
+          "url": "https://www.kimi.com/blog/kimi-k3",
+          "discuss": "https://news.ycombinator.com/item?id=48935342"
+        },
+        {
+          "title": "Claude Opus 5",
+          "points": 1778,
+          "comments": 1334,
+          "date": "2026-07-24",
+          "url": "https://www.anthropic.com/news/claude-opus-5",
+          "discuss": "https://news.ycombinator.com/item?id=49038433"
+        }
+      ]
+    },
+    {
+      "month": "2026-08",
+      "stories": [
+        {
+          "title": "Nvidia agrees to acquire Hugging Face for $13B",
+          "points": 1988,
+          "comments": 923,
+          "date": "2026-08-27",
+          "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+          "discuss": "https://news.ycombinator.com/item?id=49458161"
+        },
+        {
+          "title": "Don't be a meat proxy",
+          "points": 1849,
+          "comments": 741,
+          "date": "2026-08-03",
+          "url": "https://gruhn.me/blog/2026-08-03/",
+          "discuss": "https://news.ycombinator.com/item?id=49151933"
+        },
+        {
+          "title": "Firefox is now the last major browser that still supports uBlock Origin",
+          "points": 1765,
+          "comments": 718,
+          "date": "2026-08-14",
+          "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+          "discuss": "https://news.ycombinator.com/item?id=49303202"
+        }
+      ]
+    },
+    {
+      "month": "2026-09",
+      "stories": [
+        {
+          "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+          "points": 2391,
+          "comments": 267,
+          "date": "2026-09-15",
+          "url": "https://github.com/arnegiacomo/fugleramme",
+          "discuss": "https://news.ycombinator.com/item?id=49711544"
+        },
+        {
+          "title": "Discovery of a new OpenAI agent message board",
+          "points": 2301,
+          "comments": 1603,
+          "date": "2026-09-04",
+          "url": "https://collusion.wiki/",
+          "discuss": "https://news.ycombinator.com/item?id=49563355"
+        },
+        {
+          "title": "GPT-6 Astra",
+          "points": 2279,
+          "comments": 2081,
+          "date": "2026-09-03",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "discuss": "https://news.ycombinator.com/item?id=49554643"
+        }
+      ]
+    },
+    {
+      "month": "2026-10",
+      "stories": [
+        {
+          "title": "Patrick Stewart has died",
+          "points": 3314,
+          "comments": 769,
+          "date": "2026-10-29",
+          "url": "https://www.nytimes.com/2026/10/29/arts/television/patrick-stewart-dead.html",
+          "discuss": "https://news.ycombinator.com/item?id=50294702"
+        },
+        {
+          "title": "HackerTube: YouTube built from videos recommended by HN",
+          "points": 2893,
+          "comments": 645,
+          "date": "2026-10-31",
+          "url": "https://karpathy.bearblog.dev/hacker-tube/",
+          "discuss": "https://news.ycombinator.com/item?id=50319510"
+        },
+        {
+          "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+          "points": 2355,
+          "comments": 892,
+          "date": "2026-10-20",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "discuss": "https://news.ycombinator.com/item?id=50163277"
+        }
+      ]
+    },
+    {
+      "month": "2026-11",
+      "stories": [
+        {
+          "title": "sshole",
+          "points": 3002,
+          "comments": 752,
+          "date": "2026-11-05",
+          "url": "https://sshhole.com",
+          "discuss": "https://news.ycombinator.com/item?id=50378228"
+        },
+        {
+          "title": "Astra can read and write weights to improve Qwen",
+          "points": 2965,
+          "comments": 900,
+          "date": "2026-11-02",
+          "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+          "discuss": "https://news.ycombinator.com/item?id=50341174"
+        },
+        {
+          "title": "Jensen Huang resigns",
+          "points": 2109,
+          "comments": 2129,
+          "date": "2026-11-12",
+          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+          "discuss": "https://news.ycombinator.com/item?id=50467087"
+        }
+      ]
+    }
+  ]
+}

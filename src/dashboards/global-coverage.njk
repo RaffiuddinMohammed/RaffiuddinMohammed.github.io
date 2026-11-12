@@ -7,7 +7,7 @@ three: true
 <div class="page-head">
   <div class="eyebrow">Dashboard · GDELT Project</div>
   <h1>What the world is talking about</h1>
-  <p class="lede">GDELT monitors news websites in over 100 languages. This shows what share of English-language global coverage mentions each topic, day by day over the last three months.</p>
+  <p class="lede">GDELT monitors news websites in over 100 languages. This shows what share of English-language global coverage mentions each topic, day by day, going back up to a year.</p>
 </div>
 
 {# fixed colour per topic, so a topic missing for a day never repaints the others #}
@@ -28,7 +28,10 @@ three: true
   <div class="card chart-card">
     <h2>Share of global news coverage</h2>
     <p class="muted">% of all monitored articles mentioning each topic, 7-day smoothed. Hover or tab into the chart for exact values.</p>
-    <div class="chart" data-chart="line" data-src="coverage-data"></div>
+    <div class="ranges" data-range-for="coverage-chart" hidden role="group" aria-label="Time range">
+      <button type="button" data-days="92">3M</button><button type="button" data-days="183">6M</button><button type="button" data-days="366">1Y</button>
+    </div>
+    <div class="chart" id="coverage-chart" data-chart="line" data-src="coverage-data"></div>
     <div class="legend">{% for t in gdelt.topics %}<span><i style="background:var(--series-{{ slots[t.key] }})"></i>{{ t.label }}</span>{% endfor %}</div>
     {% if insights.biggestPeak %}
     <p class="callout"><b>{{ insights.biggestPeak.label }}</b> had the biggest spike: {{ insights.biggestPeak.peak.value.toFixed(2) }}% of all global coverage on {{ insights.biggestPeak.peak.date | day }}.</p>
@@ -50,7 +53,7 @@ three: true
 <section>
   <div class="card chart-card">
     <h2>The coverage landscape, in 3D</h2>
-    <p class="muted">Average weekly share of global coverage. Each row is a topic, each bar a week. Drag to rotate, hover a bar for its value.</p>
+    <p class="muted">Average weekly share of global coverage over {{ insights.grid.weeks.length }} weeks. Each row is a topic, each bar a week. Drag to rotate, hover a bar for its value.</p>
     <div class="grid3d" data-grid3d data-src="grid-data"></div>
     <div class="legend">{% for t in insights.grid.topics %}<span><i style="background:var(--series-{{ t.slot }});height:10px;width:10px;border-radius:2px"></i>{{ t.label }}</span>{% endfor %}</div>
   </div>
