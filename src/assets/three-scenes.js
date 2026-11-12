@@ -52,11 +52,167 @@ const toVec = (lat, lon, r) => {
 const fmtDay = (d) => new Date(d + 'T00:00:00Z').toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC' });
 const el = (tag, cls, text) => { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; };
 
+// A soft round glow, drawn once and reused by every sprite
+let glowTex = null;
+function glowTexture() {
+  if (glowTex) return glowTex;
+  const c = document.createElement('canvas'); c.width = c.height = 128;
+  const g = c.getContext('2d'), r = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+  r.addColorStop(0, 'rgba(255,255,255,1)'); r.addColorStop(0.25, 'rgba(255,255,255,.55)'); r.addColorStop(1, 'rgba(255,255,255,0)');
+  g.fillStyle = r; g.fillRect(0, 0, 128, 128);
+  glowTex = new THREE.CanvasTexture(c);
+  return glowTex;
+}
+const glowSprite = (color, size, opacity = 1) => {
+  const s = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTexture(), color, transparent: true, opacity, blending: THREE.AdditiveBlending, depthWrite: false }));
+  s.scale.setScalar(size);
+  return s;
+};
+
+// ---- the four ways of drawing "this country is in the news"; each returns { anchors, update, hot, paint }
+// anchors[i] is a point on the surface for place i (used to hide markers on the far side and to place labels)
+const STYLES = {
+  // soft pulsing orbs of light
+  hotspots(group, places, max, ctx) {
+    const items = places.map((p, i) => {
+      const w = Math.sqrt(p.count / max);
+      const at = toVec(p.lat, p.lon, 1.015);
+      const core = glowSprite(css('--c1'), 0.07 + 0.16 * w);
+      const halo = glowSprite(css('--c2'), 0.2 + 0.4 * w, 0.45);
+      core.position.copy(at); halo.position.copy(at);
+      group.add(halo, core);
+      return { core, halo, w, base: core.scale.x, hb: halo.scale.x, phase: i * 0.7, parts: [core, halo] };
+    });
+    return {
+      tip: (i) => 1.0 + 0.06 + 0.1 * items[i].w,
+      parts: (i) => items[i].parts,
+      update(k) { items.forEach((it) => { const s = 1 + 0.12 * Math.sin(k * 2.2 + it.phase); it.core.scale.setScalar(it.base * s); it.halo.scale.setScalar(it.hb * (1.1 - 0.1 * s)); }); },
+      hot(i, on) { items[i].core.material.color.set(on ? '#ffffff' : css('--c1')); },
+      paint() { items.forEach((it) => { it.core.material.color.set(css('--c1')); it.halo.material.color.set(css('--c2')); }); },
+    };
+  },
+
+  // the country's own land dots light up, like city lights at night
+  litup(group, places, max, ctx) {
+    const { dots } = ctx;
+    const items = places.map((p, i) => {
+      const w = Math.sqrt(p.count / max);
+      const centre = toVec(p.lat, p.lon, 1).normalize();
+      const reach = Math.cos(((3 + 6 * w) * Math.PI) / 180); // busier countries light a wider patch
+      const pts = [];
+      for (let j = 0; j < dots.length; j += 2) {
+        const v = toVec(dots[j], dots[j + 1], 1.003);
+        if (v.clone().normalize().dot(centre) > reach) pts.push(v.x, v.y, v.z);
+      }
+      if (!pts.length) pts.push(...toVec(p.lat, p.lon, 1.003).toArray()); // tiny islands: at least one light
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.Float32BufferAttribute(pts, 3));
+      const mat = new THREE.PointsMaterial({ size: 0.03, transparent: true, opacity: 0.5 + 0.5 * w, blending: THREE.AdditiveBlending, depthWrite: false });
+      const lights = new THREE.Points(geo, mat);
+      const glow = glowSprite(css('--c2'), 0.12 + 0.3 * w, 0.35);
+      glow.position.copy(centre.clone().multiplyScalar(1.01));
+      group.add(lights, glow);
+      return { mat, w, glow, phase: i * 1.3, parts: [lights, glow] };
+    });
+    const warm = () => (matchMedia('(prefers-color-scheme: dark)').matches ? '#bfe3ff' : css('--c2')); // icy city lights; violet on light pages
+    const paint = () => items.forEach((it) => { it.mat.color.set(warm()); it.glow.material.color.set(css('--c2')); });
+    paint();
+    return {
+      tip: () => 1.06,
+      parts: (i) => items[i].parts,
+      update(k) { items.forEach((it) => { it.mat.opacity = (0.5 + 0.5 * it.w) * (0.8 + 0.2 * Math.sin(k * 1.6 + it.phase)); }); },
+      hot(i, on) { items[i].mat.size = on ? 0.045 : 0.03; },
+      paint,
+    };
+  },
+
+  // curved lines from the BBC in London to each country, with light travelling along them
+  arcs(group, places, max, ctx) {
+    const LONDON = [51.5, -0.1];
+    const from = toVec(...LONDON, 1.0);
+    const home = glowSprite(css('--c1'), 0.16);
+    home.position.copy(toVec(...LONDON, 1.015));
+    group.add(home);
+    const items = places.map((p, i) => {
+      const w = Math.sqrt(p.count / max);
+      const to = toVec(p.lat, p.lon, 1.0);
+      const end = glowSprite(css('--c2'), 0.06 + 0.12 * w);
+      end.position.copy(toVec(p.lat, p.lon, 1.015));
+      group.add(end);
+      const dist = from.distanceTo(to);
+      if (dist < 0.05) return { w, end, parts: [end] }; // the UK itself: just a glow on London
+      const mid = from.clone().add(to).multiplyScalar(0.5).normalize().multiplyScalar(1 + 0.18 + dist * 0.35);
+      const curve = new THREE.QuadraticBezierCurve3(from, mid, to);
+      const tube = new THREE.Mesh(new THREE.TubeGeometry(curve, 48, 0.0025 + 0.004 * w, 6, false),
+        new THREE.MeshBasicMaterial({ transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false }));
+      const comet = glowSprite('#ffffff', 0.05 + 0.04 * w);
+      group.add(tube, comet);
+      return { w, end, tube, comet, curve, phase: (i * 0.137) % 1, parts: [end] };
+    });
+    const paint = () => { home.material.color.set(css('--c1')); items.forEach((it) => { it.end.material.color.set(css('--c2')); it.tube?.material.color.set(css('--c1')); }); };
+    paint();
+    return {
+      tip: (i) => 1.06,
+      parts: (i) => items[i].parts,
+      update(k) { items.forEach((it) => { if (it.curve) it.comet.position.copy(it.curve.getPoint((k * 0.25 + it.phase) % 1)); }); },
+      hot(i, on) { if (items[i].tube) items[i].tube.material.opacity = on ? 1 : 0.55; items[i].end.material.color.set(on ? '#ffffff' : css('--c2')); },
+      paint,
+    };
+  },
+
+  // thin glowing columns that fade out at the top
+  pillars(group, places, max, ctx) {
+    const mat = new THREE.ShaderMaterial({
+      uniforms: { a: { value: new THREE.Color() }, b: { value: new THREE.Color() }, boost: { value: 1 } },
+      vertexShader: 'varying float vY; void main(){ vY = uv.y; gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0); }',
+      fragmentShader: 'uniform vec3 a; uniform vec3 b; uniform float boost; varying float vY; void main(){ gl_FragColor = vec4(mix(a, b, vY), (1.0 - vY) * 0.9 * boost); }',
+      transparent: true, blending: THREE.AdditiveBlending, depthWrite: false, side: THREE.DoubleSide,
+    });
+    const items = places.map((p, i) => {
+      const w = Math.sqrt(p.count / max), h = 0.15 + 0.55 * w;
+      const at = toVec(p.lat, p.lon, 1.0);
+      const g = new THREE.CylinderGeometry(0.012, 0.022, h, 12, 1, true); g.translate(0, h / 2, 0);
+      const m = mat.clone();
+      const col = new THREE.Mesh(g, m);
+      col.position.copy(at);
+      col.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), at.clone().normalize());
+      const foot = glowSprite(css('--c1'), 0.08 + 0.1 * w, 0.8);
+      foot.position.copy(toVec(p.lat, p.lon, 1.01));
+      group.add(col, foot);
+      return { col, m, foot, h, phase: i * 0.9, parts: [col, foot] };
+    });
+    const paint = () => items.forEach((it) => { it.m.uniforms.a.value.set(css('--c1')); it.m.uniforms.b.value.set(css('--c2')); it.foot.material.color.set(css('--c1')); });
+    paint();
+    return {
+      tip: (i) => 1.0 + items[i].h + 0.04,
+      parts: (i) => items[i].parts,
+      update(k) { items.forEach((it) => { it.col.scale.y = 0.9 + 0.1 * Math.sin(k * 1.8 + it.phase); }); },
+      hot(i, on) { items[i].m.uniforms.boost.value = on ? 1.8 : 1; },
+      paint,
+    };
+  },
+};
+const STYLE_NAMES = Object.keys(STYLES);
+
+// Pick a different style from last time (?globe=arcs forces one, for testing)
+function pickStyle() {
+  const forced = new URLSearchParams(location.search).get('globe');
+  if (STYLE_NAMES.includes(forced)) return forced;
+  let last = null;
+  try { last = localStorage.getItem('globe-style'); } catch {}
+  const options = STYLE_NAMES.filter((s) => s !== last);
+  const chosen = options[Math.floor(Math.random() * options.length)];
+  try { localStorage.setItem('globe-style', chosen); } catch {}
+  return chosen;
+}
+
 async function globe(box) {
   const renderer = makeRenderer(box);
   if (!renderer) return;
   const today = json(box.dataset.src);
   const dots = await fetch(box.dataset.dots).then((r) => r.json()).catch(() => []);
+  const styleName = pickStyle();
+  box.dataset.style = styleName;
 
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(40, box.clientWidth / box.clientHeight, 0.1, 100);
@@ -72,7 +228,7 @@ async function globe(box) {
   for (let i = 0; i < dots.length; i += 2) toVec(dots[i], dots[i + 1], 1.0).toArray(pos, (i / 2) * 3);
   const dotGeo = new THREE.BufferGeometry();
   dotGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-  const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: 0.9 });
+  const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: styleName === 'litup' ? 0.45 : 0.9 });
   world.add(new THREE.Points(dotGeo, dotMat));
 
   const glowMat = new THREE.ShaderMaterial({
@@ -82,9 +238,6 @@ async function globe(box) {
     blending: THREE.AdditiveBlending, side: THREE.BackSide, transparent: true, depthWrite: false,
   });
   scene.add(new THREE.Mesh(new THREE.SphereGeometry(1.18, 64, 64), glowMat));
-
-  const beamMat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0.9 });
-  const beamHot = new THREE.MeshBasicMaterial();
   const hitMat = new THREE.MeshBasicMaterial({ visible: false });
 
   // ---- story panel (opens when a country is clicked)
@@ -134,36 +287,30 @@ async function globe(box) {
     closePanel();
   }, true);
 
-  // ---- hotspots: rebuilt whenever the day changes
+  // ---- markers: rebuilt whenever the day changes, drawn in this visit's style
   let spots = new THREE.Group();
   world.add(spots);
-  let beams = [], rings = [], hits = [], labels = [];
+  let style = null, hits = [], labels = [], anchors = [];
   function setPlaces(day) {
     current = day;
     world.remove(spots);
-    spots.traverse((o) => { if (o.geometry) o.geometry.dispose(); });
+    spots.traverse((o) => { o.geometry?.dispose(); o.material?.dispose?.(); });
     labels.forEach((l) => l.el.remove());
     spots = new THREE.Group(); world.add(spots);
-    beams = []; rings = []; hits = []; labels = [];
+    hits = []; labels = []; anchors = [];
     closePanel();
     const places = day.places ?? [];
     const max = Math.max(1, ...places.map((p) => p.count));
+    style = STYLES[styleName](spots, places, max, { dots });
     places.forEach((p, i) => {
-      const h = 0.12 + 0.55 * Math.sqrt(p.count / max);
       const at = toVec(p.lat, p.lon, 1.0);
-      const up = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), at.clone().normalize());
-      const g = new THREE.CylinderGeometry(0.008, 0.016, h, 8); g.translate(0, h / 2, 0);
-      const beam = new THREE.Mesh(g, beamMat);
-      beam.position.copy(at); beam.quaternion.copy(up);
-      // a fatter invisible cylinder makes the beam easy to click
-      const hg = new THREE.CylinderGeometry(0.06, 0.06, h + 0.06, 8); hg.translate(0, h / 2, 0);
+      anchors.push(at);
+      // an invisible column over each country makes it easy to point at and click, whatever the style
+      const hg = new THREE.CylinderGeometry(0.07, 0.07, 0.3, 8); hg.translate(0, 0.12, 0);
       const hit = new THREE.Mesh(hg, hitMat);
-      hit.position.copy(at); hit.quaternion.copy(up); hit.userData.place = p; hit.userData.beam = beam;
-      const ring = new THREE.Mesh(new THREE.RingGeometry(0.02, 0.032, 32), new THREE.MeshBasicMaterial({ transparent: true, side: THREE.DoubleSide }));
-      ring.material.color.set(css('--c4'));
-      ring.position.copy(toVec(p.lat, p.lon, 1.002)); ring.lookAt(at.clone().multiplyScalar(2)); ring.userData.phase = i * 0.37;
-      spots.add(beam, hit, ring);
-      beams.push(beam); rings.push(ring); hits.push(hit);
+      hit.position.copy(at); hit.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), at.clone().normalize());
+      hit.userData = { place: p, i };
+      spots.add(hit); hits.push(hit);
       if (i < 6) {
         const b = el('button', 'globe-label clickable');
         b.type = 'button';
@@ -171,7 +318,7 @@ async function globe(box) {
         b.setAttribute('aria-label', `${p.name}: ${p.count} stories. Show them`);
         b.addEventListener('click', () => openPanel(p));
         box.appendChild(b);
-        labels.push({ el: b, tip: toVec(p.lat, p.lon, 1.0 + h + 0.04) });
+        labels.push({ el: b, tip: toVec(p.lat, p.lon, style.tip(i)) });
       }
     });
   }
@@ -181,16 +328,14 @@ async function globe(box) {
     body.material.color.set(css('--surface'));
     dotMat.color.set(css('--c1'));
     glowMat.uniforms.color.value.set(css('--c2'));
-    beamMat.color.set(css('--c4'));
-    beamHot.color.set(css('--c2'));
-    rings.forEach((r) => r.material.color.set(css('--c4')));
+    style?.paint();
   };
   paint();
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paint);
 
   world.rotation.set(0.35, -Math.PI / 2 + 0.25, 0);
 
-  // ---- pointer: drag to spin, click a beam to open its stories, hover to see its name
+  // ---- pointer: drag to spin, click a country to open its stories, hover to see its name
   const canvas = renderer.domElement;
   canvas.style.touchAction = 'pan-y';
   const ray = new THREE.Raycaster(), ptr = new THREE.Vector2();
@@ -199,7 +344,7 @@ async function globe(box) {
     ptr.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
     ray.setFromCamera(ptr, camera);
     const hit = ray.intersectObjects([body, ...hits])[0];
-    return hit && hit.object !== body ? hit.object : null; // the planet blocks beams behind it
+    return hit && hit.object !== body ? hit.object : null; // the planet blocks markers behind it
   };
   let dragging = false, moved = 0, lastX = 0, lastY = 0, vx = still ? 0 : 0.0016, vy = 0, hovered = null;
   canvas.addEventListener('pointerdown', (e) => { dragging = true; moved = 0; lastX = e.clientX; lastY = e.clientY; canvas.setPointerCapture(e.pointerId); });
@@ -214,11 +359,11 @@ async function globe(box) {
       return;
     }
     const h = pick(e);
-    if (hovered && hovered !== h) hovered.userData.beam.material = beamMat;
+    if (hovered && hovered !== h) style.hot(hovered.userData.i, false);
     hovered = h;
     canvas.style.cursor = h ? 'pointer' : '';
     if (h) {
-      h.userData.beam.material = beamHot;
+      style.hot(h.userData.i, true);
       const p = h.userData.place, r = canvas.getBoundingClientRect();
       hoverTip.replaceChildren(el('b', null, p.name), el('span', null, ` ${p.count} · click for stories`));
       hoverTip.style.transform = `translate(${e.clientX - r.left}px, ${e.clientY - r.top - 14}px) translate(-50%, -100%)`;
@@ -231,7 +376,7 @@ async function globe(box) {
   };
   canvas.addEventListener('pointerup', end);
   canvas.addEventListener('pointercancel', end);
-  canvas.addEventListener('pointerleave', () => { hoverTip.style.opacity = '0'; if (hovered) hovered.userData.beam.material = beamMat; hovered = null; });
+  canvas.addEventListener('pointerleave', () => { hoverTip.style.opacity = '0'; if (hovered) style.hot(hovered.userData.i, false); hovered = null; });
 
   // ---- time travel: a slider over the daily archive (loaded on first use)
   const timeBox = box.parentElement.querySelector('[data-globe-time]');
@@ -263,7 +408,6 @@ async function globe(box) {
   const v = new THREE.Vector3(), w = new THREE.Vector3(), camDir = new THREE.Vector3();
   loop(box, (t) => {
     if (!dragging) {
-      // pause the spin while a country's stories are open, so its beam stays put
       const target = still || selected || hovered ? 0 : 0.0016; // hold still while pointing at a country
       vx += (target - vx) * 0.03; vy *= 0.9;
       world.rotation.y += vx;
@@ -271,16 +415,13 @@ async function globe(box) {
     const s = Math.min(1, Math.max(0, scrollY / (box.offsetTop + box.offsetHeight)));
     world.position.y = s * 0.4;
     world.scale.setScalar(1 - s * 0.15);
-    if (!still) {
-      const k = t / 1000;
-      rings.forEach((r) => { const p = (k * 0.6 + r.userData.phase) % 1; r.scale.setScalar(1 + p * 2.2); r.material.opacity = 0.8 * (1 - p); });
-      beams.forEach((b, i) => { b.scale.y = 0.85 + 0.15 * Math.sin(k * 2 + i); });
-    }
+    if (!still) style.update(t / 1000);
     camDir.copy(camera.position).normalize();
     world.updateMatrixWorld();
-    beams.forEach((b, i) => {
-      const facing = w.copy(b.position).applyMatrix4(world.matrixWorld).normalize().dot(camDir);
-      b.visible = rings[i].visible = facing > -0.05;
+    // markers on the far side of the planet are hidden (arcs are left to the depth buffer)
+    anchors.forEach((a, i) => {
+      const facing = w.copy(a).applyMatrix4(world.matrixWorld).normalize().dot(camDir) > -0.05;
+      style.parts(i).forEach((o) => { o.visible = facing; });
     });
     renderer.render(scene, camera);
     for (const l of labels) {
