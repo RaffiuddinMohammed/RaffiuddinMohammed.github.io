@@ -12,5 +12,21 @@ export default function () {
   });
   const leader = [...topics].sort((a, b) => b.last - a.last)[0];
   const biggestPeak = [...topics].sort((a, b) => b.peak.value - a.peak.value)[0];
-  return { topics, leader, biggestPeak };
+  // weekly averages for the 3D bar grid: one row per topic, one column per week (Monday starts)
+  const slots = { ai: 1, climate: 2, economy: 3, elections: 4 };
+  const monday = (d) => { const t = new Date(d + 'T00:00:00Z'); t.setUTCDate(t.getUTCDate() - ((t.getUTCDay() + 6) % 7)); return t.toISOString().slice(0, 10); };
+  const weekSet = new Set();
+  (gdelt.topics ?? []).forEach((t) => t.series.forEach((p) => weekSet.add(monday(p.date))));
+  const weeks = [...weekSet].sort().slice(-13);
+  const grid = {
+    weeks,
+    topics: (gdelt.topics ?? []).map((t) => ({
+      label: t.label, slot: slots[t.key] ?? 1,
+      values: weeks.map((w) => {
+        const pts = t.series.filter((p) => monday(p.date) === w);
+        return pts.length ? +(pts.reduce((a, p) => a + p.value, 0) / pts.length).toFixed(3) : null;
+      }),
+    })),
+  };
+  return { topics, leader, biggestPeak, grid };
 }

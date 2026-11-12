@@ -1,8 +1,10 @@
 ---
 layout: base.njk
+three: true
 ---
-<section class="hero">
+<section class="hero hero-3d">
   <div class="glow" aria-hidden="true"></div>
+  <div class="hero-text">
   <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
   <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad">I make data you can trust, and see.</span></h1>
   <p class="lede">{{ site.tagline }} Everything on this site is live: it pulls real news data every morning, rebuilds itself, and publishes, with nobody touching it.</p>
@@ -10,6 +12,13 @@ layout: base.njk
     <a class="btn primary" href="#dashboards">Explore the dashboards <span aria-hidden="true">→</span></a>
     <a class="btn" href="/about/#for-business">What I can build for you</a>
   </div>
+  </div>
+  {% if bbc.places and bbc.places.length %}
+  <figure class="globe" data-globe data-src="places-data" data-dots="/assets/globe-dots.json">
+    <figcaption class="globe-cap"><span class="pulse" aria-hidden="true"></span>Countries in today's BBC headlines · drag to spin</figcaption>
+  </figure>
+  <script type="application/json" id="places-data">{{ bbc.places | json | safe }}</script>
+  {% endif %}
 </section>
 
 <section aria-label="Today in numbers">

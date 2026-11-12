@@ -2,6 +2,7 @@
 layout: base.njk
 title: What the world is talking about
 permalink: /dashboards/global-coverage/
+three: true
 ---
 <div class="page-head">
   <div class="eyebrow">Dashboard · GDELT Project</div>
@@ -46,4 +47,13 @@ permalink: /dashboards/global-coverage/
   </div>
   <p class="muted">Source: <a href="https://www.gdeltproject.org/" rel="noopener">GDELT DOC 2.0 API</a>. Updated {{ gdelt.updated | when }}.</p>
 </section>
+<section>
+  <div class="card chart-card">
+    <h2>The coverage landscape, in 3D</h2>
+    <p class="muted">Average weekly share of global coverage. Each row is a topic, each bar a week. Drag to rotate, hover a bar for its value.</p>
+    <div class="grid3d" data-grid3d data-src="grid-data"></div>
+    <div class="legend">{% for t in insights.grid.topics %}<span><i style="background:var(--series-{{ t.slot }});height:10px;width:10px;border-radius:2px"></i>{{ t.label }}</span>{% endfor %}</div>
+  </div>
+</section>
+<script type="application/json" id="grid-data">{{ insights.grid | json | safe }}</script>
 <script type="application/json" id="coverage-data">{{ chart | json | safe }}</script>

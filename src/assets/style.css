@@ -341,3 +341,30 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
   border-radius: 999px; padding: 6px 14px; cursor: pointer; transition: border-color .2s, transform .2s; }
 .footer .contact a:hover, .footer .contact button:hover { border-color: var(--c2); transform: translateY(-1px); text-decoration: none; }
 @media (max-width: 380px) { .links .pill.n5 { display: none; } }
+
+/* ======================= 3D: globe hero, bar grid, card tilt ======================= */
+.hero-3d { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: center; gap: 24px; padding-top: 40px; }
+.globe { position: relative; margin: 0; height: 520px; cursor: grab; user-select: none; -webkit-user-select: none; }
+.globe.grabbing { cursor: grabbing; }
+.globe canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; opacity: 0; transition: opacity 1.2s ease; }
+.globe.ready canvas { opacity: 1; }
+.globe.no-3d { display: none; }
+.globe-cap { position: absolute; left: 50%; bottom: 6px; transform: translateX(-50%); white-space: nowrap; display: inline-flex; align-items: center; gap: 8px;
+  font-size: .78rem; color: var(--muted); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; pointer-events: none; }
+.globe-label { position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap; font-size: .75rem; padding: 3px 8px; border-radius: 6px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent); border: 1px solid var(--border); color: var(--text); transition: opacity .3s; backdrop-filter: blur(4px); }
+.globe-label span { color: var(--muted); }
+.grid3d { position: relative; height: 440px; margin-top: 12px; cursor: grab; user-select: none; -webkit-user-select: none; }
+.grid3d canvas { display: block; width: 100% !important; height: 100% !important; opacity: 0; transition: opacity .8s; }
+.grid3d.ready canvas { opacity: 1; }
+.grid3d.no-3d { display: none; }
+.grid-label { position: absolute; left: 0; top: 0; pointer-events: none; white-space: nowrap; font-size: .75rem; color: var(--text-2); }
+.grid-label.row { font-weight: 600; color: var(--text); }
+.grid3d .tooltip { z-index: 3; }
+.js .card[class*="tint-"] { transform-style: preserve-3d; will-change: transform; }
+@media (max-width: 860px) {
+  .hero-3d { grid-template-columns: 1fr; gap: 0; }
+  .globe { height: 360px; margin-top: 8px; }
+  .grid3d { height: 340px; }
+}
+@media (max-width: 560px) { .grid-label { font-size: .66rem; } .globe-label { font-size: .68rem; } }

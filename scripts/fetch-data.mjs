@@ -25,6 +25,7 @@ async function get(url, type = 'json', tries = 3) {
 }
 
 async function save(name, build) {
+  if (process.env.ONLY && !process.env.ONLY.split(',').includes(name)) return; // e.g. ONLY=bbc npm run data
   const file = new URL(`${name}.json`, DATA);
   try {
     const data = await build();
@@ -76,6 +77,59 @@ const STOP = new Set(`a an the and or but of to in on at for from by with as is 
 
 const strip = (s) => s.replace(/<!\[CDATA\[|\]\]>/g, '').replace(/&amp;/g, '&').replace(/&#39;|&apos;|’/g, "'").replace(/&quot;/g, '"').trim();
 
+
+// Countries for the 3D globe: [name, lat, lon, ...words that mean it in a headline]
+const PLACES = [
+  ['United Kingdom', 54, -2, 'uk', 'britain', 'british', 'england', 'english', 'scotland', 'scottish', 'wales', 'welsh', 'northern ireland', 'london'],
+  ['United States', 39, -98, 'US', 'america', 'american', 'americans', 'washington', 'white house'],
+  ['Canada', 56, -106, 'canada', 'canadian'], ['Mexico', 23, -102, 'mexico', 'mexican'],
+  ['Brazil', -10, -52, 'brazil', 'brazilian'], ['Argentina', -34, -64, 'argentina', 'argentine'],
+  ['Colombia', 4, -73, 'colombia', 'colombian'], ['Venezuela', 7, -66, 'venezuela', 'venezuelan'],
+  ['Chile', -33, -71, 'chile', 'chilean'], ['Peru', -10, -76, 'peru', 'peruvian'], ['Cuba', 22, -79, 'cuba', 'cuban'],
+  ['Ireland', 53, -8, 'ireland', 'irish'], ['France', 46, 2, 'france', 'french', 'paris'],
+  ['Germany', 51, 10, 'germany', 'german', 'berlin'], ['Spain', 40, -4, 'spain', 'spanish'],
+  ['Portugal', 39, -8, 'portugal', 'portuguese'], ['Italy', 42, 12, 'italy', 'italian', 'rome'],
+  ['Netherlands', 52, 5, 'netherlands', 'dutch'], ['Belgium', 50.5, 4.5, 'belgium', 'belgian'],
+  ['Switzerland', 47, 8, 'switzerland', 'swiss'], ['Poland', 52, 19, 'poland', 'polish'],
+  ['Sweden', 62, 15, 'sweden', 'swedish'], ['Norway', 62, 10, 'norway', 'norwegian'],
+  ['Denmark', 56, 10, 'denmark', 'danish'], ['Finland', 64, 26, 'finland', 'finnish'],
+  ['Greece', 39, 22, 'greece', 'greek'], ['Hungary', 47, 19, 'hungary', 'hungarian'],
+  ['Romania', 46, 25, 'romania', 'romanian'], ['Ukraine', 49, 32, 'ukraine', 'ukrainian', 'kyiv'],
+  ['Russia', 60, 90, 'russia', 'russian', 'moscow', 'kremlin'], ['Turkey', 39, 35, 'turkey', 'turkish'],
+  ['Israel', 31, 35, 'israel', 'israeli'], ['Gaza', 31.4, 34.4, 'gaza', 'palestinian', 'palestinians', 'west bank'],
+  ['Lebanon', 34, 36, 'lebanon', 'lebanese'], ['Syria', 35, 38, 'syria', 'syrian'],
+  ['Iran', 32, 53, 'iran', 'iranian', 'tehran'], ['Iraq', 33, 44, 'iraq', 'iraqi'],
+  ['Saudi Arabia', 24, 45, 'saudi'], ['Yemen', 15.5, 48, 'yemen', 'yemeni'], ['Qatar', 25.3, 51.2, 'qatar'],
+  ['UAE', 24, 54, 'uae', 'dubai', 'emirates'], ['Egypt', 27, 30, 'egypt', 'egyptian'],
+  ['Libya', 27, 17, 'libya', 'libyan'], ['Sudan', 15, 30, 'sudan', 'sudanese'],
+  ['Ethiopia', 9, 40, 'ethiopia', 'ethiopian'], ['Kenya', 0, 38, 'kenya', 'kenyan'],
+  ['Nigeria', 9, 8, 'nigeria', 'nigerian'], ['Ghana', 8, -1, 'ghana', 'ghanaian'],
+  ['South Africa', -29, 24, 'south africa', 'south african'], ['DR Congo', -3, 23, 'congo', 'congolese'],
+  ['Uganda', 1, 32, 'uganda', 'ugandan'], ['Somalia', 6, 46, 'somalia', 'somali'],
+  ['India', 22, 79, 'india', 'indian', 'delhi'], ['Pakistan', 30, 70, 'pakistan', 'pakistani'],
+  ['Afghanistan', 34, 66, 'afghanistan', 'afghan', 'taliban'], ['Bangladesh', 24, 90, 'bangladesh'],
+  ['China', 35, 104, 'china', 'chinese', 'beijing'], ['Hong Kong', 22.3, 114.2, 'hong kong'],
+  ['Taiwan', 23.7, 121, 'taiwan', 'taiwanese'], ['Japan', 36, 138, 'japan', 'japanese', 'tokyo'],
+  ['South Korea', 36, 128, 'south korea', 'south korean', 'seoul'], ['North Korea', 40, 127, 'north korea', 'north korean'],
+  ['Vietnam', 16, 106, 'vietnam', 'vietnamese'], ['Thailand', 15, 101, 'thailand', 'thai'],
+  ['Myanmar', 21, 96, 'myanmar'], ['Indonesia', -2, 118, 'indonesia', 'indonesian'],
+  ['Philippines', 13, 122, 'philippines', 'filipino'], ['Australia', -25, 134, 'australia', 'australian'],
+  ['New Zealand', -41, 174, 'new zealand'],
+];
+const placeMatchers = PLACES.map(([name, lat, lon, ...words]) => ({
+  name, lat, lon,
+  // "US" only as a capitalised word, so the pronoun "us" never counts as America
+  re: words.map((w) => w === 'US' ? /\bUS\b/ : new RegExp(`\\b${w}\\b`, 'i')),
+}));
+function countPlaces(titles) {
+  const out = [];
+  for (const p of placeMatchers) {
+    const n = titles.filter((t) => p.re.some((r) => r.test(t))).length;
+    if (n) out.push({ name: p.name, lat: p.lat, lon: p.lon, count: n });
+  }
+  return out.sort((a, b) => b.count - a.count);
+}
+
 async function bbc() {
   const sections = [];
   const seen = new Map();
@@ -98,7 +152,7 @@ async function bbc() {
     for (const w of uniq) words.set(w, (words.get(w) ?? 0) + 1);
   }
   const topWords = [...words].sort((a, b) => b[1] - a[1]).slice(0, 12).map(([word, count]) => ({ word, count }));
-  return { totalStories: all.length, sections: sections.sort((a, b) => b.count - a.count), topWords, latest: all.slice(0, 12) };
+  return { totalStories: all.length, sections: sections.sort((a, b) => b.count - a.count), topWords, places: countPlaces(all.map((i) => i.title)), latest: all.slice(0, 12) };
 }
 
 // ---------- 3. Hacker News: what the tech world is reading ----------

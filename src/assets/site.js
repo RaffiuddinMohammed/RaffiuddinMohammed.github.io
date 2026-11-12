@@ -33,6 +33,18 @@
     document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', () => { location.href = `mailto:${address}`; }));
   }
 
+  // 3D tilt: cards lean towards the pointer (mouse/trackpad only)
+  if (!still && matchMedia('(hover: hover)').matches) {
+    document.querySelectorAll('.card[class*="tint-"]').forEach((card) => {
+      card.addEventListener('pointermove', (e) => {
+        const r = card.getBoundingClientRect();
+        const x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5;
+        card.style.transform = `perspective(700px) rotateX(${(-y * 7).toFixed(2)}deg) rotateY(${(x * 9).toFixed(2)}deg) translateY(-4px)`;
+      });
+      card.addEventListener('pointerleave', () => { card.style.transform = ''; });
+    });
+  }
+
   // ripple on nav buttons, starting where the pointer pressed
   document.querySelectorAll('.links .pill').forEach((btn) => btn.addEventListener('pointerdown', (ev) => {
     const r = btn.getBoundingClientRect(), d = Math.max(r.width, r.height);

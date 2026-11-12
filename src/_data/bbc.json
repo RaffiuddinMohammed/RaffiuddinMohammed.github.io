@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-12T19:13:18.001Z",
-  "totalStories": 255,
+  "updated": "2026-11-12T19:24:34.951Z",
+  "totalStories": 256,
   "sections": [
     {
       "name": "UK",
-      "count": 26
+      "count": 27
     },
     {
       "name": "World",
@@ -73,20 +73,178 @@
       "count": 6
     },
     {
-      "word": "should",
+      "word": "threats",
       "count": 5
     },
     {
-      "word": "affair",
+      "word": "should",
       "count": 5
     }
   ],
+  "places": [
+    {
+      "name": "United Kingdom",
+      "lat": 54,
+      "lon": -2,
+      "count": 23
+    },
+    {
+      "name": "United States",
+      "lat": 39,
+      "lon": -98,
+      "count": 12
+    },
+    {
+      "name": "China",
+      "lat": 35,
+      "lon": 104,
+      "count": 6
+    },
+    {
+      "name": "Spain",
+      "lat": 40,
+      "lon": -4,
+      "count": 3
+    },
+    {
+      "name": "India",
+      "lat": 22,
+      "lon": 79,
+      "count": 3
+    },
+    {
+      "name": "Canada",
+      "lat": 56,
+      "lon": -106,
+      "count": 2
+    },
+    {
+      "name": "Italy",
+      "lat": 42,
+      "lon": 12,
+      "count": 2
+    },
+    {
+      "name": "Iran",
+      "lat": 32,
+      "lon": 53,
+      "count": 2
+    },
+    {
+      "name": "Australia",
+      "lat": -25,
+      "lon": 134,
+      "count": 2
+    },
+    {
+      "name": "Argentina",
+      "lat": -34,
+      "lon": -64,
+      "count": 1
+    },
+    {
+      "name": "Colombia",
+      "lat": 4,
+      "lon": -73,
+      "count": 1
+    },
+    {
+      "name": "Ireland",
+      "lat": 53,
+      "lon": -8,
+      "count": 1
+    },
+    {
+      "name": "Ukraine",
+      "lat": 49,
+      "lon": 32,
+      "count": 1
+    },
+    {
+      "name": "Russia",
+      "lat": 60,
+      "lon": 90,
+      "count": 1
+    },
+    {
+      "name": "Turkey",
+      "lat": 39,
+      "lon": 35,
+      "count": 1
+    },
+    {
+      "name": "Israel",
+      "lat": 31,
+      "lon": 35,
+      "count": 1
+    },
+    {
+      "name": "Gaza",
+      "lat": 31.4,
+      "lon": 34.4,
+      "count": 1
+    },
+    {
+      "name": "Egypt",
+      "lat": 27,
+      "lon": 30,
+      "count": 1
+    },
+    {
+      "name": "Sudan",
+      "lat": 15,
+      "lon": 30,
+      "count": 1
+    },
+    {
+      "name": "Kenya",
+      "lat": 0,
+      "lon": 38,
+      "count": 1
+    },
+    {
+      "name": "Nigeria",
+      "lat": 9,
+      "lon": 8,
+      "count": 1
+    },
+    {
+      "name": "Uganda",
+      "lat": 1,
+      "lon": 32,
+      "count": 1
+    },
+    {
+      "name": "Indonesia",
+      "lat": -2,
+      "lon": 118,
+      "count": 1
+    },
+    {
+      "name": "New Zealand",
+      "lat": -41,
+      "lon": 174,
+      "count": 1
+    }
+  ],
   "latest": [
+    {
+      "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+      "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T19:23:02.000Z",
+      "section": "World"
+    },
     {
       "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
       "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:47:35.000Z",
       "section": "World"
+    },
+    {
+      "title": "Rolls-Royce incident prompts emergency response",
+      "link": "https://www.bbc.co.uk/news/articles/c6vg2w5pjj99o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T18:41:03.000Z",
+      "section": "UK"
     },
     {
       "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
@@ -141,18 +299,6 @@
       "link": "https://www.bbc.co.uk/sounds/play/w3ct978l?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T17:00:00.000Z",
       "section": "Science"
-    },
-    {
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:54:12.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Activist Daniel Thomas admits criminal damage after slashing migrant dinghy in Channel",
-      "link": "https://www.bbc.co.uk/news/articles/c6x20x380z12o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T16:44:25.000Z",
-      "section": "UK"
     }
   ]
 }
