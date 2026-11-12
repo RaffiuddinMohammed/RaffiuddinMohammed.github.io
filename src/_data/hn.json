@@ -1,0 +1,87 @@
+{
+  "updated": "2026-11-12T13:51:36.350Z",
+  "stories": [
+    {
+      "title": "Tim Peters has died",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
+      "discuss": "https://news.ycombinator.com/item?id=50450488",
+      "points": 1295,
+      "comments": 152,
+      "domain": "discuss.python.org"
+    },
+    {
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+      "discuss": "https://news.ycombinator.com/item?id=50459703",
+      "points": 1146,
+      "comments": 1534,
+      "domain": "wsj.com"
+    },
+    {
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "discuss": "https://news.ycombinator.com/item?id=50452455",
+      "points": 1012,
+      "comments": 372,
+      "domain": "pietromiotti.com"
+    },
+    {
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "discuss": "https://news.ycombinator.com/item?id=50456631",
+      "points": 897,
+      "comments": 249,
+      "domain": "github.com"
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "discuss": "https://news.ycombinator.com/item?id=50458900",
+      "points": 592,
+      "comments": 613,
+      "domain": "cbsnews.com"
+    },
+    {
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "discuss": "https://news.ycombinator.com/item?id=50455394",
+      "points": 524,
+      "comments": 253,
+      "domain": "michael.bacarella.com"
+    },
+    {
+      "title": "93% of paint splatters are valid Perl programs (2019)",
+      "url": "https://www.mcmillen.dev/sigbovik/",
+      "discuss": "https://news.ycombinator.com/item?id=50459745",
+      "points": 490,
+      "comments": 64,
+      "domain": "mcmillen.dev"
+    },
+    {
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "discuss": "https://news.ycombinator.com/item?id=50456791",
+      "points": 479,
+      "comments": 146,
+      "domain": "blog.google"
+    },
+    {
+      "title": "Hyper-realistic sand with WebGL2",
+      "url": "https://av.github.io/safe-sand/",
+      "discuss": "https://news.ycombinator.com/item?id=50453288",
+      "points": 416,
+      "comments": 77,
+      "domain": "av.github.io"
+    },
+    {
+      "title": "Jane Street: Socratic Tutor",
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "discuss": "https://news.ycombinator.com/item?id=50438261",
+      "points": 399,
+      "comments": 95,
+      "domain": "github.com"
+    }
+  ],
+  "totalPoints": 10180,
+  "storyCount": 30
+}

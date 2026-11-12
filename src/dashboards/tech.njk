@@ -1,0 +1,35 @@
+---
+layout: base.njk
+title: What tech is reading
+permalink: /dashboards/tech/
+---
+<div class="page-head">
+  <div class="eyebrow">Dashboard · Hacker News</div>
+  <h1>What tech is reading</h1>
+  <p class="lede">The {{ hn.storyCount }} stories on the Hacker News front page collected {{ hn.totalPoints | num }} upvotes between them. These are the top ten.</p>
+</div>
+
+{% set pts = { label: 'Top Hacker News stories by points', unit: 'points', rows: [] } %}
+{% for s in hn.stories %}{% set pts = (pts.rows.push({ label: s.title, value: s.points, href: s.url }), pts) %}{% endfor %}
+
+<section>
+  <div class="card chart-card">
+    <h2>Top stories by upvotes</h2>
+    <p class="muted">Click a bar to open the story.</p>
+    <div class="chart" data-chart="bar" data-src="hn-data"></div>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h2>The stories</h2>
+    <ul class="storylist">
+      {% for s in hn.stories %}
+      <li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>
+        <div class="meta">{{ s.points | num }} points · <a href="{{ s.discuss }}" rel="noopener">{{ s.comments | num }} comments</a> · {{ s.domain }}</div></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <p class="muted">Source: <a href="https://hn.algolia.com/api" rel="noopener">Hacker News Algolia API</a>. Updated {{ hn.updated | when }}.</p>
+</section>
+<script type="application/json" id="hn-data">{{ pts | json | safe }}</script>

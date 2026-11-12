@@ -1,0 +1,36 @@
+---
+layout: base.njk
+title: About
+permalink: /about/
+---
+<div class="page-head">
+  <div class="eyebrow">About</div>
+  <h1>What I can build for you</h1>
+  <p class="lede">I'm a QA automation engineer working across web, iOS and Android. My day job is making sure software works, and proving it automatically, every day, without anyone pressing a button.</p>
+</div>
+
+<section>
+  <div class="grid three">
+    <div class="card">
+      <h3>Test automation</h3>
+      <p class="muted">End-to-end suites for web and native mobile apps that catch regressions before your users do.</p>
+      <div class="tags"><span>Playwright</span><span>Appium</span><span>XCUITest</span><span>Node.js</span></div>
+    </div>
+    <div class="card">
+      <h3>CI pipelines</h3>
+      <p class="muted">Scheduled runs across staging and production, with results posted straight to Slack.</p>
+      <div class="tags"><span>GitHub Actions</span><span>Android emulators</span><span>iOS simulators</span><span>Slack</span></div>
+    </div>
+    <div class="card">
+      <h3>Data dashboards</h3>
+      <p class="muted">Live dashboards like the ones on this site: pull data from APIs, clean it, chart it, publish it.</p>
+      <div class="tags"><span>APIs</span><span>SVG charts</span><span>Static sites</span><span>SQL</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Get in touch</h2>
+  <p>Want a dashboard for your own data, or an automated test suite for your app? The best way to reach me is on
+    <a href="{{ site.github }}" rel="noopener">GitHub</a>{% if site.linkedin %} or <a href="{{ site.linkedin }}" rel="noopener">LinkedIn</a>{% endif %}.</p>
+</section>

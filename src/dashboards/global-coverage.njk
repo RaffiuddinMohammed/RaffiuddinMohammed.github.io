@@ -1,0 +1,49 @@
+---
+layout: base.njk
+title: What the world is talking about
+permalink: /dashboards/global-coverage/
+---
+<div class="page-head">
+  <div class="eyebrow">Dashboard · GDELT Project</div>
+  <h1>What the world is talking about</h1>
+  <p class="lede">GDELT monitors news websites in over 100 languages. This shows what share of English-language global coverage mentions each topic, day by day over the last three months.</p>
+</div>
+
+{# fixed colour per topic, so a topic missing for a day never repaints the others #}
+{% set slots = { ai: 1, climate: 2, economy: 3, elections: 4 } %}
+{% set chart = { label: 'Share of global news coverage by topic', unit: '%', series: [] } %}
+{% for t in gdelt.topics %}{% set chart = (chart.series.push({ label: t.label, slot: slots[t.key], points: t.series }), chart) %}{% endfor %}
+
+<div class="grid three">
+  {% for t in insights.topics %}
+  <div class="card stat">
+    <div class="value">{{ t.last.toFixed(2) }}%</div>
+    <div class="label"><b>{{ t.label }}</b> today · {% if t.change >= 0 %}up {{ t.change }}%{% else %}down {{ -t.change }}%{% endif %} on three months ago</div>
+  </div>
+  {% endfor %}
+</div>
+
+<section>
+  <div class="card chart-card">
+    <h2>Share of global news coverage</h2>
+    <p class="muted">% of all monitored articles mentioning each topic, 7-day smoothed. Hover or tab into the chart for exact values.</p>
+    <div class="chart" data-chart="line" data-src="coverage-data"></div>
+    <div class="legend">{% for t in gdelt.topics %}<span><i style="background:var(--series-{{ slots[t.key] }})"></i>{{ t.label }}</span>{% endfor %}</div>
+    {% if insights.biggestPeak %}
+    <p class="callout"><b>{{ insights.biggestPeak.label }}</b> had the biggest spike: {{ insights.biggestPeak.peak.value.toFixed(2) }}% of all global coverage on {{ insights.biggestPeak.peak.date | day }}.</p>
+    {% endif %}
+    <details class="table">
+      <summary>View as table</summary>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Date</th>{% for t in gdelt.topics %}<th>{{ t.label }}</th>{% endfor %}</tr></thead>
+        <tbody>
+        {% for p in gdelt.topics[0].series | reverse %}{% set i = gdelt.topics[0].series.length - loop.index %}
+          <tr><td>{{ p.date }}</td>{% for t in gdelt.topics %}<td>{{ t.series[i].value if t.series[i] else '' }}%</td>{% endfor %}</tr>
+        {% endfor %}
+        </tbody>
+      </table></div>
+    </details>
+  </div>
+  <p class="muted">Source: <a href="https://www.gdeltproject.org/" rel="noopener">GDELT DOC 2.0 API</a>. Updated {{ gdelt.updated | when }}.</p>
+</section>
+<script type="application/json" id="coverage-data">{{ chart | json | safe }}</script>

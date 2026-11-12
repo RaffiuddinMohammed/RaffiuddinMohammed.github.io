@@ -1,0 +1,158 @@
+{
+  "updated": "2026-11-12T13:51:35.859Z",
+  "totalStories": 254,
+  "sections": [
+    {
+      "name": "UK",
+      "count": 32
+    },
+    {
+      "name": "World",
+      "count": 21
+    },
+    {
+      "name": "Business",
+      "count": 13
+    },
+    {
+      "name": "Politics",
+      "count": 11
+    },
+    {
+      "name": "Science",
+      "count": 10
+    },
+    {
+      "name": "Health",
+      "count": 9
+    },
+    {
+      "name": "Technology",
+      "count": 3
+    }
+  ],
+  "topWords": [
+    {
+      "word": "strike",
+      "count": 12
+    },
+    {
+      "word": "tech",
+      "count": 11
+    },
+    {
+      "word": "nvidia",
+      "count": 10
+    },
+    {
+      "word": "health",
+      "count": 10
+    },
+    {
+      "word": "burnham",
+      "count": 10
+    },
+    {
+      "word": "labour",
+      "count": 7
+    },
+    {
+      "word": "government",
+      "count": 6
+    },
+    {
+      "word": "doctors",
+      "count": 6
+    },
+    {
+      "word": "spy",
+      "count": 6
+    },
+    {
+      "word": "science",
+      "count": 6
+    },
+    {
+      "word": "should",
+      "count": 5
+    },
+    {
+      "word": "cold",
+      "count": 5
+    }
+  ],
+  "latest": [
+    {
+      "title": "Russell Brand's social media accounts disabled by Meta",
+      "link": "https://www.bbc.co.uk/news/articles/ckedq1dxwylxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:35:26.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
+      "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:27:09.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Some under-25s should get fewer benefits, Milburn review to say",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:16:59.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "I'm burnt out and feel forgotten as a young carer",
+      "link": "https://www.bbc.co.uk/news/articles/c68xzylnzjv9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:07:06.000Z",
+      "section": "Health"
+    },
+    {
+      "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+      "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:02:46.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
+      "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T13:02:37.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:56:55.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Teenage girl admits murder in row over boy",
+      "link": "https://www.bbc.co.uk/news/articles/c6x28e243gg9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:49:46.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "MPs urge Labour ministers to get on with trophy hunting ban",
+      "link": "https://www.bbc.co.uk/news/articles/ckdd17m79yldo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:48:37.000Z",
+      "section": "Politics"
+    },
+    {
+      "title": "Watch: The latest in the Jensen Huang Nvidia scandal",
+      "link": "https://www.bbc.co.uk/news/videos/cqz0k70990zpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:42:44.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Schools, libraries and parents face 'difficult decision' over David Walliams books",
+      "link": "https://www.bbc.co.uk/news/articles/cvkg5jkpl2pno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:42:43.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Oil spill closes 18 beaches across Kent",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg25r6lx38o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T12:40:05.000Z",
+      "section": "UK"
+    }
+  ]
+}

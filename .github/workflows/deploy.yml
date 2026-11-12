@@ -1,0 +1,55 @@
+name: Refresh data and deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # every morning, 06:00 UTC
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit refreshed data back, so a failed source falls back to yesterday's
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch news data
+        run: npm run data
+      - name: Save refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/_data/*.json
+          git diff --cached --quiet || (git commit -m "Refresh news data" && git push)
+      - name: Build site
+        run: npm run build
+        env:
+          # project sites live under /<repo>/; a <user>.github.io repo lives at the root
+          PATH_PREFIX: ${{ endsWith(github.event.repository.name, '.github.io') && '/' || format('/{0}/', github.event.repository.name) }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

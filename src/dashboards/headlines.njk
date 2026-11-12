@@ -1,0 +1,50 @@
+---
+layout: base.njk
+title: Today's headlines, by the numbers
+permalink: /dashboards/headlines/
+---
+<div class="page-head">
+  <div class="eyebrow">Dashboard · BBC News</div>
+  <h1>Today's headlines, by the numbers</h1>
+  <p class="lede">{{ bbc.totalStories | num }} stories from {{ bbc.sections.length }} BBC News feeds, counted and broken into words.</p>
+</div>
+
+{% set sec = { label: 'Stories published in the last 24 hours by section', unit: 'stories', rows: [] } %}
+{% for s in bbc.sections %}{% set sec = (sec.rows.push({ label: s.name, value: s.count }), sec) %}{% endfor %}
+{% set words = { label: 'Most frequent words in headlines', unit: 'headlines', rows: [] } %}
+{% for w in bbc.topWords %}{% set words = (words.rows.push({ label: w.word, value: w.count }), words) %}{% endfor %}
+
+<section class="grid two">
+  <div class="card chart-card">
+    <h2>Busiest sections</h2>
+    <p class="muted">Stories published in the last 24 hours</p>
+    <div class="chart" data-chart="bar" data-src="sections-data"></div>
+    <details class="table"><summary>View as table</summary><div class="tablewrap"><table>
+      <thead><tr><th>Section</th><th>Stories</th></tr></thead>
+      <tbody>{% for s in bbc.sections %}<tr><td>{{ s.name }}</td><td>{{ s.count }}</td></tr>{% endfor %}</tbody>
+    </table></div></details>
+  </div>
+  <div class="card chart-card">
+    <h2>Words in the headlines</h2>
+    <p class="muted">Headlines containing each word, common words removed</p>
+    <div class="chart" data-chart="bar" data-src="words-data"></div>
+    <details class="table"><summary>View as table</summary><div class="tablewrap"><table>
+      <thead><tr><th>Word</th><th>Headlines</th></tr></thead>
+      <tbody>{% for w in bbc.topWords %}<tr><td>{{ w.word }}</td><td>{{ w.count }}</td></tr>{% endfor %}</tbody>
+    </table></div></details>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h2>Latest stories</h2>
+    <ul class="storylist">
+      {% for s in bbc.latest %}
+      <li><a href="{{ s.link }}" rel="noopener">{{ s.title }}</a><div class="meta">{{ s.section }} · {{ s.date | ago }}</div></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <p class="muted">Source: <a href="https://www.bbc.co.uk/news/10628494" rel="noopener">BBC News RSS feeds</a>. Updated {{ bbc.updated | when }}.</p>
+</section>
+<script type="application/json" id="sections-data">{{ sec | json | safe }}</script>
+<script type="application/json" id="words-data">{{ words | json | safe }}</script>
