@@ -45,6 +45,20 @@ three: true
   <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
 </section>
 
+<section class="demo-teaser" aria-label="Test automation demo">
+  <div class="demo-mini" data-demo="mini">
+    <div class="dm-phone">{% include "demo-phone.njk" %}</div>
+    <div class="dm-copy">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Live demo · Appium</div>
+      <h2>Watch a mobile test run itself</h2>
+      <p class="muted">An automated test signs in, shops and checks out in a sample app, with no human touching it. This is what I build for web, iOS and Android.</p>
+      <div class="term-pane small"><div class="pane-head"><span class="dots"><i></i><i></i><i></i></span>Terminal</div><div class="term-body"></div></div>
+      <a class="btn primary" href="/automation/">Learn more: see the code run <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+<script src="/assets/automation-demo.js" defer></script>
+
 <section id="dashboards">
   <h2>Dashboards</h2>
   <div class="grid three">

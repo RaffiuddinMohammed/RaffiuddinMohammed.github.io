@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: Watch a test run itself
+permalink: /automation/
+description: A replay of an Appium + WebdriverIO end-to-end test driving a sample mobile app, with the code and terminal side by side.
+---
+<div class="page-head">
+  <div class="eyebrow">Demo · Mobile test automation</div>
+  <h1>Watch a test run itself</h1>
+  <p class="lede">An end-to-end test signing in, shopping and checking out in a sample app, with no human touching it. On the left, the app being driven. On the right, the code doing the driving and the live log.</p>
+</div>
+
+<section class="demo-full" data-demo="full">
+  <div class="demo-left">
+    {% include "demo-phone.njk" %}
+    <p class="muted demo-cap">Bloom: a sample shop app built for this demo</p>
+  </div>
+  <div class="demo-right">
+    <div class="demo-toolbar">
+      <span class="status" data-status>Ready</span>
+      <div class="demo-btns">
+        <button type="button" class="mini-btn" data-act="toggle">❚❚ Pause</button>
+        <button type="button" class="mini-btn" data-act="restart">⟲ Restart</button>
+        <span class="speed" role="group" aria-label="Speed"><button type="button" data-speed="1" aria-pressed="true">1×</button><button type="button" data-speed="2" aria-pressed="false">2×</button></span>
+      </div>
+    </div>
+    <div class="code-pane">
+      <div class="pane-head"><span class="dots"><i></i><i></i><i></i></span>test/checkout.e2e.js</div>
+      <div class="code-body"></div>
+    </div>
+    <ul class="tests">
+      <li class="test" data-test>signs in with a valid account</li>
+      <li class="test" data-test>adds a plant to the basket</li>
+      <li class="test" data-test>checks out and confirms the order</li>
+    </ul>
+    <div class="term-pane">
+      <div class="pane-head"><span class="dots"><i></i><i></i><i></i></span>Terminal · wdio + Appium</div>
+      <div class="term-body" aria-live="off"></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What you're watching</h2>
+  <div class="grid three">
+    <div class="card tint-1 reveal"><h3>Appium drives the real app</h3><p class="muted">Every tap and keystroke goes through Appium to the device, exactly like a person would, but in seconds and the same way every time.</p></div>
+    <div class="card tint-2 reveal"><h3>Assertions prove it works</h3><p class="muted">Each test checks the result on screen (signed in, basket shows 1, order confirmed). If anything breaks, the run fails and says where.</p></div>
+    <div class="card tint-3 reveal"><h3>It runs while you sleep</h3><p class="muted">In CI the same suite runs on a schedule across Android and iOS, then posts results to Slack, so problems are caught before customers see them.</p></div>
+  </div>
+  <p class="callout">This page is a faithful replay of a WebdriverIO + Appium run, recorded step by step, so it plays in any browser. <a href="/about/#for-business">Want this for your app?</a></p>
+</section>
+<script src="/assets/automation-demo.js" defer></script>
