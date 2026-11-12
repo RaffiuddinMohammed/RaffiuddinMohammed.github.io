@@ -296,3 +296,48 @@ a.card.dash:hover { border-color: var(--border); border-top-color: var(--c); }
 @media (prefers-reduced-motion: reduce) { .pill .ripple { display: none; } }
 .pill .arr { margin-left: 4px; }
 @media (max-width: 640px) { .links a.pill.hide-sm { display: none; } }
+
+/* ======================= LinkedIn + email buttons ======================= */
+.links .pill.n4 { --c: #0a66c2; --ink: #0a66c2; --deep: #004182; }
+.links .pill.n5 { --c: var(--c4); --ink: var(--ink4); --deep: #a8431a; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .links .pill.n4 { --ink: #70b5f9; } }
+:root[data-theme="dark"] .links .pill.n4 { --ink: #70b5f9; }
+.links .pill:is(.n4, .n5) { color: var(--ink); border: 1px solid color-mix(in srgb, var(--c) 35%, transparent); background: color-mix(in srgb, var(--c) 12%, transparent); }
+.links .pill:is(.n4, .n5):hover, .links .pill:is(.n4, .n5):focus-visible {
+  color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--deep), var(--c)); box-shadow: 0 6px 18px color-mix(in srgb, var(--c) 45%, transparent); }
+.links .icon-btn { width: 36px; height: 36px; padding: 0; justify-content: center; }
+.links .icon-btn svg { transition: transform .35s cubic-bezier(.34, 1.56, .64, 1); }
+.links .icon-btn:hover svg { transform: rotate(-8deg) scale(1.12); }
+button.pill { font: inherit; cursor: pointer; }
+.links .icon-btn:hover, .links .icon-btn:focus-visible { transform: translateY(-2px) scale(1.12); }
+
+/* email pop-up */
+dialog.mail { width: min(520px, calc(100vw - 32px)); max-height: calc(100vh - 32px); padding: 0; border: 1px solid var(--border); border-radius: 16px;
+  background: var(--surface); color: var(--text); box-shadow: 0 24px 60px rgba(0, 0, 0, .35); overflow: auto; }
+dialog.mail[open] { animation: pop .28s cubic-bezier(.34, 1.56, .64, 1); }
+dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); }
+@keyframes pop { from { opacity: 0; transform: translateY(10px) scale(.96); } to { opacity: 1; transform: none; } }
+.mail-form { padding: 22px 22px 20px; border-top: 4px solid transparent; border-image: linear-gradient(90deg, var(--c1), var(--c2), var(--c3)) 1; display: grid; gap: 14px; }
+.mail-head { display: flex; align-items: center; justify-content: space-between; }
+.mail-head h2 { margin: 0; font-family: Fraunces, Georgia, serif; font-size: 1.6rem; }
+.mail-x { border: 0; background: transparent; color: var(--muted); font-size: 1.6rem; line-height: 1; cursor: pointer; padding: 4px 8px; border-radius: 8px; }
+.mail-x:hover { background: var(--pill-hover); color: var(--text); }
+.mail-form p.muted { margin: -6px 0 0; }
+.mail-form label { display: grid; gap: 6px; font-size: .82rem; font-weight: 600; color: var(--text-2); }
+.mail-form input, .mail-form textarea { font: inherit; font-size: .95rem; font-weight: 400; color: var(--text); background: var(--bg);
+  border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; width: 100%; resize: vertical; transition: border-color .2s, box-shadow .2s; }
+.mail-form input:focus, .mail-form textarea:focus { outline: none; border-color: var(--c1); box-shadow: 0 0 0 3px color-mix(in srgb, var(--c1) 22%, transparent); }
+.mail-form input[readonly] { color: var(--text-2); }
+.mail-to { display: flex; gap: 8px; }
+.mini { font: inherit; font-size: .82rem; font-weight: 600; padding: 0 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--text); cursor: pointer; white-space: nowrap; }
+.mini:hover { border-color: var(--c1); }
+.mini.done { background: var(--c3); border-color: var(--c3); color: #fff; }
+.mail-actions { display: flex; justify-content: flex-end; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
+.mail-actions .btn { cursor: pointer; font: inherit; font-weight: 600; font-size: .95rem; }
+
+/* contact row in the footer, so phones (narrow nav) still reach LinkedIn + email */
+.footer .contact { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+.footer .contact a, .footer .contact button { font: inherit; font-size: .85rem; color: var(--text-2); background: var(--surface); border: 1px solid var(--border);
+  border-radius: 999px; padding: 6px 14px; cursor: pointer; transition: border-color .2s, transform .2s; }
+.footer .contact a:hover, .footer .contact button:hover { border-color: var(--c2); transform: translateY(-1px); text-decoration: none; }
+@media (max-width: 380px) { .links .pill.n5 { display: none; } }

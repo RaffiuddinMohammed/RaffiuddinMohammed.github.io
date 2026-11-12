@@ -20,6 +20,8 @@
         <a class="pill n1{% if here.startsWith('/dashboards/') %} active{% endif %}" href="/#dashboards"{% if here.startsWith('/dashboards/') %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">📊</span>Dashboards</a>
         <a class="pill n2{% if here == '/about/' %} active{% endif %}" href="/about/"{% if here == '/about/' %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">👋</span>About</a>
         <a class="pill n3 hide-sm" href="{{ site.github }}" rel="noopener"><span class="ico" aria-hidden="true">⭐</span>GitHub<span class="arr" aria-hidden="true">↗</span></a>
+        {% if site.linkedin %}<a class="pill icon-btn n4 hide-sm" href="{{ site.linkedin }}" rel="noopener" target="_blank" aria-label="LinkedIn profile (opens in a new tab)" title="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>{% endif %}
+        {% if site.email %}<button type="button" class="pill icon-btn n5" data-email-open aria-haspopup="dialog" aria-label="Email me" title="Email me"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11zM3.5 6l8.5 6.5L20.5 6"/></svg></button>{% endif %}
         <a class="pill cta" href="/about/#for-business">Work with me</a>
       </div>
     </nav>
@@ -28,8 +30,34 @@
     {{ content | safe }}
   </main>
   <footer class="wrap footer">
+    <div class="contact">
+      {% if site.email %}<button type="button" data-email-open aria-haspopup="dialog">✉️ Email me</button>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}" rel="noopener" target="_blank">in LinkedIn</a>{% endif %}
+      <a href="{{ site.github }}" rel="noopener" target="_blank">⭐ GitHub</a>
+    </div>
     <p>Built with Eleventy, hosted free on GitHub Pages. Data refreshes daily from GDELT, BBC News and Hacker News.</p>
   </footer>
+  {% if site.email %}
+  <dialog class="mail" id="mail-dialog" aria-labelledby="mail-title">
+    <form method="dialog" class="mail-form">
+      <div class="mail-head">
+        <h2 id="mail-title">Get in touch</h2>
+        <button class="mail-x" value="close" aria-label="Close">×</button>
+      </div>
+      <p class="muted">Fill this in and it opens in your email app, ready to send.</p>
+      <label>To
+        <div class="mail-to"><input id="mail-to" type="text" readonly aria-readonly="true"><button type="button" class="mini" data-copy>Copy</button></div>
+      </label>
+      <label>Subject <input id="mail-subject" type="text" value="{{ site.emailSubject }}"></label>
+      <label>Message <textarea id="mail-body" rows="7">{{ site.emailMessage }}</textarea></label>
+      <div class="mail-actions">
+        <button type="button" class="btn" value="close" data-close>Cancel</button>
+        <button type="button" class="btn primary" data-send>Open in email app →</button>
+      </div>
+    </form>
+  </dialog>
+  <script type="application/json" id="mail-data">{{ site.email.split('@') | json | safe }}</script>
+  {% endif %}
   <script src="/assets/charts.js"></script>
   <script src="/assets/site.js"></script>
 </body>

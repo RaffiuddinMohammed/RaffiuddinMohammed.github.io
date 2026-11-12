@@ -5,6 +5,34 @@
   const reveals = [...document.querySelectorAll('.reveal')];
   const counters = [...document.querySelectorAll('[data-count]')];
   const showAll = () => reveals.forEach((el) => el.classList.add('in'));
+  // email pop-up: address is stored split in a JSON block and joined here, to keep it from scrapers
+  const dlg = document.getElementById('mail-dialog');
+  const parts = document.getElementById('mail-data');
+  if (dlg && parts && dlg.showModal) {
+    const address = JSON.parse(parts.textContent).join('@');
+    const to = dlg.querySelector('#mail-to');
+    to.value = address;
+    document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', () => dlg.showModal()));
+    dlg.querySelector('[data-close]').addEventListener('click', () => dlg.close());
+    dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); }); // click the backdrop to close
+    dlg.querySelector('[data-send]').addEventListener('click', () => {
+      const subject = encodeURIComponent(dlg.querySelector('#mail-subject').value);
+      const body = encodeURIComponent(dlg.querySelector('#mail-body').value);
+      location.href = `mailto:${address}?subject=${subject}&body=${body}`;
+      dlg.close();
+    });
+    const copy = dlg.querySelector('[data-copy]');
+    copy.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(address); } catch { to.select(); document.execCommand('copy'); }
+      copy.textContent = 'Copied ✓'; copy.classList.add('done');
+      setTimeout(() => { copy.textContent = 'Copy'; copy.classList.remove('done'); }, 1800);
+    });
+  } else if (parts) {
+    // very old browsers without <dialog>: fall back to a plain mailto link
+    const address = JSON.parse(parts.textContent).join('@');
+    document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', () => { location.href = `mailto:${address}`; }));
+  }
+
   // ripple on nav buttons, starting where the pointer pressed
   document.querySelectorAll('.links .pill').forEach((btn) => btn.addEventListener('pointerdown', (ev) => {
     const r = btn.getBoundingClientRect(), d = Math.max(r.width, r.height);
