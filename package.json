@@ -9,5 +9,9 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8"
+  },
+  "dependencies": {
+    "@borrowdale/charts": "0.3.0",
+    "@borrowdale/text": "0.3.0"
   }
 }

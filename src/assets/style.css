@@ -137,3 +137,12 @@ th { color: var(--muted); font-weight: 600; position: sticky; top: 0; background
   .hero { padding-top: 40px; }
 }
 .chart .bar, .chart .val, .chart .cat { pointer-events: none; }
+
+/* BorrowdaleJS draws in fixed inks (#333 text/axes, #c8c8c8 grid); map them onto the theme */
+.sketch svg { width: 100%; height: auto; display: block; }
+.sketch [fill="#333"] { fill: var(--text-2); }
+.sketch [stroke="#333"] { stroke: var(--text-2); }
+.sketch [stroke="#c8c8c8"] { stroke: var(--grid); }
+.sketch [stroke="#2a78d6"] { stroke: var(--series-1); }
+.sketch [fill="#2a78d6"] { fill: var(--series-1); }
+.credit { margin: 8px 0 0; font-size: .8rem; }

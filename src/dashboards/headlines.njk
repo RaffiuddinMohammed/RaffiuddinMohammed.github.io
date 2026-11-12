@@ -18,7 +18,12 @@ permalink: /dashboards/headlines/
   <div class="card chart-card">
     <h2>Busiest sections</h2>
     <p class="muted">Stories published in the last 24 hours</p>
+    {% if sketch.sections %}
+    <div class="chart sketch">{{ sketch.sections | safe }}</div>
+    <p class="muted credit">Hand-drawn with <a href="https://borrowdalejs.com" rel="noopener">BorrowdaleJS</a>. Hover a bar for its value.</p>
+    {% else %}
     <div class="chart" data-chart="bar" data-src="sections-data"></div>
+    {% endif %}
     <details class="table"><summary>View as table</summary><div class="tablewrap"><table>
       <thead><tr><th>Section</th><th>Stories</th></tr></thead>
       <tbody>{% for s in bbc.sections %}<tr><td>{{ s.name }}</td><td>{{ s.count }}</td></tr>{% endfor %}</tbody>
