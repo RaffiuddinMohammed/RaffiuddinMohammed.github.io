@@ -2,47 +2,51 @@
 layout: base.njk
 ---
 <section class="hero">
-  <div class="eyebrow">{{ site.role }}</div>
-  <h1>Hi, I'm {{ site.shortName }}.<br>I make data you can trust, and see.</h1>
+  <div class="glow" aria-hidden="true"></div>
+  <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
+  <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad">I make data you can trust, and see.</span></h1>
   <p class="lede">{{ site.tagline }} Everything on this site is live: it pulls real news data every morning, rebuilds itself, and publishes, with nobody touching it.</p>
   <div class="actions">
-    <a class="btn primary" href="#dashboards">Explore the dashboards</a>
+    <a class="btn primary" href="#dashboards">Explore the dashboards <span aria-hidden="true">→</span></a>
     <a class="btn" href="/about/#for-business">What I can build for you</a>
   </div>
 </section>
 
 <section aria-label="Today in numbers">
   <div class="grid three">
-    <div class="card stat">
-      <div class="value">{{ bbc.totalStories | num }}</div>
+    <div class="card stat tint-1 reveal">
+      <div class="value" data-count>{{ bbc.totalStories | num }}</div>
       <div class="label">BBC stories tracked across {{ bbc.sections.length }} sections</div>
     </div>
-    <div class="card stat">
-      <div class="value">{% if insights.leader %}{{ insights.leader.last.toFixed(2) }}%{% else %}n/a{% endif %}</div>
+    <div class="card stat tint-2 reveal">
+      <div class="value" data-count>{% if insights.leader %}{{ insights.leader.last.toFixed(2) }}%{% else %}n/a{% endif %}</div>
       <div class="label">of global news coverage is about <b>{{ insights.leader.label }}</b>, the top topic we track</div>
     </div>
-    <div class="card stat">
-      <div class="value">{{ hn.stories[0].points | num }}</div>
+    <div class="card stat tint-3 reveal">
+      <div class="value" data-count>{{ hn.stories[0].points | num }}</div>
       <div class="label">points on today's top Hacker News story</div>
     </div>
   </div>
-  <p class="muted">Data last refreshed {{ bbc.updated | when }}.</p>
+  <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
 </section>
 
 <section id="dashboards">
   <h2>Dashboards</h2>
   <div class="grid three">
-    <a class="card" href="/dashboards/global-coverage/">
+    <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
+      <span class="icon" aria-hidden="true">🌍</span>
       <h3>What the world is talking about</h3>
       <p class="muted">Share of global news coverage for {{ gdelt.topics.length }} big topics over the last three months, from the GDELT Project.</p>
       <span class="go">Open dashboard →</span>
     </a>
-    <a class="card" href="/dashboards/headlines/">
+    <a class="card dash tint-2 reveal" href="/dashboards/headlines/">
+      <span class="icon" aria-hidden="true">📰</span>
       <h3>Today's headlines, by the numbers</h3>
       <p class="muted">Which BBC News sections are busiest, and the words dominating today's headlines.</p>
       <span class="go">Open dashboard →</span>
     </a>
-    <a class="card" href="/dashboards/tech/">
+    <a class="card dash tint-3 reveal" href="/dashboards/tech/">
+      <span class="icon" aria-hidden="true">💻</span>
       <h3>What tech is reading</h3>
       <p class="muted">The most upvoted stories on the Hacker News front page right now.</p>
       <span class="go">Open dashboard →</span>
@@ -53,7 +57,7 @@ layout: base.njk
 <section>
   <h2>How this site runs itself</h2>
   <p class="muted">The same pattern I use for automated test pipelines: scheduled, self-checking, zero cost.</p>
-  <ol class="steps">
+  <ol class="steps colourful">
     <li><b>Schedule</b>A GitHub Action wakes up every morning.</li>
     <li><b>Collect</b>A Node script pulls GDELT, BBC and Hacker News data, with retries and fallbacks.</li>
     <li><b>Build</b>Eleventy turns the data into static pages and charts.</li>
