@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:21:06.629Z",
+  "updated": "2026-11-12T20:29:05.131Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -15,7 +15,7 @@
         },
         {
           "name": "Business",
-          "count": 11
+          "count": 12
         },
         {
           "name": "Health",
@@ -53,18 +53,18 @@
         },
         {
           "word": "nvidia",
-          "count": 8
+          "count": 9
         },
         {
           "word": "labour",
           "count": 7
         },
         {
-          "word": "science",
+          "word": "huang",
           "count": 6
         },
         {
-          "word": "take",
+          "word": "science",
           "count": 6
         }
       ],
@@ -529,6 +529,16 @@
       "topHeadlines": [
         {
           "title": "Jensen Huang has resigned, what's next for Nvidia?",
+          "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
+          "title": "Rolls-Royce incident prompts emergency response",
+          "link": "https://www.bbc.co.uk/news/articles/c6vg2w5pjj99o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Jensen Huang has resigned, what's next for Nvidia?",
           "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
           "section": "World"
         },
@@ -541,33 +551,23 @@
           "title": "Man jailed for 'appalling' catalogue of coercive control and abuse against partner",
           "link": "https://www.bbc.co.uk/news/articles/ckd71x39zyr4o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
-          "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-          "section": "World"
-        },
-        {
-          "title": "Rolls-Royce incident prompts emergency response",
-          "link": "https://www.bbc.co.uk/news/articles/c6vg2w5pjj99o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 2168
+          "points": 2187
         },
         {
           "title": "Anthropic IPO",
           "url": "https://ipo.anthropic.com/us/",
-          "points": 706
+          "points": 707
         },
         {
           "title": "Socratic Tutor",
           "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-          "points": 607
+          "points": 609
         }
       ]
     }

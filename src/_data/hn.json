@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-12T20:16:11.554Z",
+  "updated": "2026-11-12T20:22:09.957Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 2168,
-      "comments": 2167,
+      "points": 2187,
+      "comments": 2185,
       "domain": "apnews.com"
     },
     {
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
       "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 706,
+      "points": 707,
       "comments": 711,
       "domain": "ipo.anthropic.com"
     },
@@ -21,7 +21,7 @@
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 607,
+      "points": 609,
       "comments": 136,
       "domain": "github.com"
     },
@@ -29,7 +29,7 @@
       "title": "A live tree of systemd jobs on the boot console",
       "url": "https://codeberg.org/wvhulle/bootvine",
       "discuss": "https://news.ycombinator.com/item?id=50425017",
-      "points": 318,
+      "points": 322,
       "comments": 119,
       "domain": "codeberg.org"
     },
@@ -37,40 +37,40 @@
       "title": "Why Writing Correct Software Is Hard",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "discuss": "https://news.ycombinator.com/item?id=50465352",
-      "points": 314,
-      "comments": 140,
+      "points": 315,
+      "comments": 141,
       "domain": "pron.github.io"
     },
     {
       "title": "Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 307,
-      "comments": 214,
+      "points": 311,
+      "comments": 219,
       "domain": "blog.google"
     },
     {
       "title": "Rust 1.100.0",
       "url": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
       "discuss": "https://news.ycombinator.com/item?id=50471793",
-      "points": 290,
-      "comments": 61,
+      "points": 293,
+      "comments": 62,
       "domain": "github.com"
     },
     {
       "title": "Ask HN: Microsoft/Azure Outage?",
       "url": "https://news.ycombinator.com/item?id=50471668",
       "discuss": "https://news.ycombinator.com/item?id=50471668",
-      "points": 264,
-      "comments": 136,
+      "points": 265,
+      "comments": 139,
       "domain": "news.ycombinator.com"
     },
     {
       "title": "Outlook is down, and so is Microsoft's status page",
       "url": "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows/",
       "discuss": "https://news.ycombinator.com/item?id=50471731",
-      "points": 209,
-      "comments": 67,
+      "points": 213,
+      "comments": 68,
       "domain": "gvwire.com"
     },
     {
@@ -78,10 +78,10 @@
       "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
       "discuss": "https://news.ycombinator.com/item?id=50467618",
       "points": 198,
-      "comments": 66,
+      "comments": 67,
       "domain": "moddb.com"
     }
   ],
-  "totalPoints": 6802,
+  "totalPoints": 6877,
   "storyCount": 30
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:16:11.243Z",
+  "updated": "2026-11-12T20:22:09.715Z",
   "totalStories": 257,
   "sections": [
     {
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Health",
@@ -50,11 +50,15 @@
     },
     {
       "word": "nvidia",
-      "count": 8
+      "count": 9
     },
     {
       "word": "labour",
       "count": 7
+    },
+    {
+      "word": "huang",
+      "count": 6
     },
     {
       "word": "science",
@@ -73,11 +77,7 @@
       "count": 6
     },
     {
-      "word": "huang",
-      "count": 5
-    },
-    {
-      "word": "threats",
+      "word": "jensen",
       "count": 5
     }
   ],
@@ -584,6 +584,18 @@
   "latest": [
     {
       "title": "Jensen Huang has resigned, what's next for Nvidia?",
+      "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T20:21:03.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Rolls-Royce incident prompts emergency response",
+      "link": "https://www.bbc.co.uk/news/articles/c6vg2w5pjj99o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T20:18:43.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Jensen Huang has resigned, what's next for Nvidia?",
       "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T19:33:37.000Z",
       "section": "World"
@@ -605,12 +617,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T18:47:35.000Z",
       "section": "World"
-    },
-    {
-      "title": "Rolls-Royce incident prompts emergency response",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg2w5pjj99o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T18:41:03.000Z",
-      "section": "UK"
     },
     {
       "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
@@ -647,12 +653,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c6wy0e44pjgdo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T17:24:48.000Z",
       "section": "UK"
-    },
-    {
-      "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T17:11:48.000Z",
-      "section": "World"
     }
   ]
 }
