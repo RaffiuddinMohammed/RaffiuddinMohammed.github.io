@@ -17,9 +17,9 @@
       <a class="brand" href="/"><span class="logo" aria-hidden="true">{{ site.shortName | first }}</span><span class="full">{{ site.name }}</span><span class="short">{{ site.shortName }}</span></a>
       {% set here = page.url %}
       <div class="links">
-        <a class="pill{% if here.startsWith('/dashboards/') %} active{% endif %}" href="/#dashboards"{% if here.startsWith('/dashboards/') %} aria-current="page"{% endif %}>Dashboards</a>
-        <a class="pill{% if here == '/about/' %} active{% endif %}" href="/about/"{% if here == '/about/' %} aria-current="page"{% endif %}>About</a>
-        <a class="pill hide-sm" href="{{ site.github }}" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+        <a class="pill n1{% if here.startsWith('/dashboards/') %} active{% endif %}" href="/#dashboards"{% if here.startsWith('/dashboards/') %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">📊</span>Dashboards</a>
+        <a class="pill n2{% if here == '/about/' %} active{% endif %}" href="/about/"{% if here == '/about/' %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">👋</span>About</a>
+        <a class="pill n3 hide-sm" href="{{ site.github }}" rel="noopener"><span class="ico" aria-hidden="true">⭐</span>GitHub<span class="arr" aria-hidden="true">↗</span></a>
         <a class="pill cta" href="/about/#for-business">Work with me</a>
       </div>
     </nav>

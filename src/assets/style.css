@@ -263,3 +263,36 @@ a.card.dash:hover { border-color: var(--border); border-top-color: var(--c); }
   .brand .short { display: none; }
   .pill { padding: 6px 8px; }
 }
+
+/* ======================= Colourful nav buttons ======================= */
+:root { --deep1: #1c5cab; --deep2: #4a3aa7; --deep3: #0f7a55; }
+.links a.pill.n1 { --c: var(--c1); --ink: var(--ink1); --deep: var(--deep1); }
+.links a.pill.n2 { --c: var(--c2); --ink: var(--ink2); --deep: var(--deep2); }
+.links a.pill.n3 { --c: var(--c3); --ink: var(--ink3); --deep: var(--deep3); }
+.links a.pill.cta { --c: var(--c2); --deep: var(--deep1); }
+.links a.pill { position: relative; overflow: hidden; display: inline-flex; align-items: center;
+  transition: transform .25s cubic-bezier(.34, 1.56, .64, 1), background .25s, color .2s, box-shadow .25s, border-color .25s, padding .25s; }
+.links a.pill:is(.n1, .n2, .n3) { color: var(--ink); border: 1px solid color-mix(in srgb, var(--c) 35%, transparent);
+  background: color-mix(in srgb, var(--c) 12%, transparent); }
+/* hover: fill with gradient, grow, glow */
+.links a.pill:is(.n1, .n2, .n3):hover, .links a.pill:is(.n1, .n2, .n3):focus-visible, .links a.pill:is(.n1, .n2, .n3).active {
+  color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--deep), var(--c));
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--c) 45%, transparent); }
+.links a.pill:hover, .links a.pill:focus-visible { transform: translateY(-2px) scale(1.08); text-decoration: none; }
+/* click: quick squish */
+.links a.pill:active { transform: scale(.94); transition-duration: .08s; }
+/* icon slides out on hover (expand) */
+.pill .ico { display: inline-block; max-width: 0; opacity: 0; transform: scale(.4) rotate(-20deg); margin-right: 0; overflow: hidden;
+  transition: max-width .3s ease, opacity .25s, transform .35s cubic-bezier(.34, 1.56, .64, 1), margin-right .3s; }
+@media (hover: hover) {
+  .links a.pill:hover .ico, .links a.pill:focus-visible .ico { max-width: 1.4em; opacity: 1; transform: none; margin-right: 6px; }
+}
+.links a.pill.active .ico { max-width: 1.4em; opacity: 1; transform: none; margin-right: 6px; }
+/* ripple from the click point */
+.pill .ripple { position: absolute; border-radius: 50%; pointer-events: none; background: rgba(255, 255, 255, .55);
+  transform: scale(0); animation: ripple .55s ease-out forwards; }
+@keyframes ripple { to { transform: scale(2.6); opacity: 0; } }
+@media (max-width: 640px) { .links a.pill.active .ico { display: none; } }
+@media (prefers-reduced-motion: reduce) { .pill .ripple { display: none; } }
+.pill .arr { margin-left: 4px; }
+@media (max-width: 640px) { .links a.pill.hide-sm { display: none; } }

@@ -5,6 +5,16 @@
   const reveals = [...document.querySelectorAll('.reveal')];
   const counters = [...document.querySelectorAll('[data-count]')];
   const showAll = () => reveals.forEach((el) => el.classList.add('in'));
+  // ripple on nav buttons, starting where the pointer pressed
+  document.querySelectorAll('.links .pill').forEach((btn) => btn.addEventListener('pointerdown', (ev) => {
+    const r = btn.getBoundingClientRect(), d = Math.max(r.width, r.height);
+    const dot = document.createElement('span');
+    dot.className = 'ripple';
+    Object.assign(dot.style, { width: d + 'px', height: d + 'px', left: ev.clientX - r.left - d / 2 + 'px', top: ev.clientY - r.top - d / 2 + 'px' });
+    btn.appendChild(dot);
+    dot.addEventListener('animationend', () => dot.remove());
+  }));
+
   if (still || !('IntersectionObserver' in window)) { showAll(); return; }
 
   function countUp(el) {
