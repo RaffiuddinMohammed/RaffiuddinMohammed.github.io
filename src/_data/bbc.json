@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T13:51:35.859Z",
-  "totalStories": 254,
+  "updated": "2026-11-12T14:24:53.025Z",
+  "totalStories": 253,
   "sections": [
     {
       "name": "UK",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Politics",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Science",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Health",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Technology",
-      "count": 3
+      "count": 4
     }
   ],
   "topWords": [
@@ -41,16 +41,16 @@
       "count": 11
     },
     {
-      "word": "nvidia",
-      "count": 10
-    },
-    {
       "word": "health",
       "count": 10
     },
     {
       "word": "burnham",
       "count": 10
+    },
+    {
+      "word": "nvidia",
+      "count": 9
     },
     {
       "word": "labour",
@@ -65,10 +65,6 @@
       "count": 6
     },
     {
-      "word": "spy",
-      "count": 6
-    },
-    {
       "word": "science",
       "count": 6
     },
@@ -79,9 +75,25 @@
     {
       "word": "cold",
       "count": 5
+    },
+    {
+      "word": "take",
+      "count": 5
     }
   ],
   "latest": [
+    {
+      "title": "Nvidia's CEO was the rock star of AI before his dramatic unravelling",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:18:33.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Who could replace Jensen Huang as Nvidia's chief executive?",
+      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:11:51.000Z",
+      "section": "World"
+    },
     {
       "title": "Russell Brand's social media accounts disabled by Meta",
       "link": "https://www.bbc.co.uk/news/articles/ckedq1dxwylxo?at_medium=RSS&at_campaign=rss",
@@ -141,18 +153,6 @@
       "link": "https://www.bbc.co.uk/news/videos/cqz0k70990zpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T12:42:44.000Z",
       "section": "World"
-    },
-    {
-      "title": "Schools, libraries and parents face 'difficult decision' over David Walliams books",
-      "link": "https://www.bbc.co.uk/news/articles/cvkg5jkpl2pno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:42:43.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Oil spill closes 18 beaches across Kent",
-      "link": "https://www.bbc.co.uk/news/articles/cqvg25r6lx38o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:40:05.000Z",
-      "section": "UK"
     }
   ]
 }
