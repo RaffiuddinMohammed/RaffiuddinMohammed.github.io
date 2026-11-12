@@ -34,7 +34,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/_data/*.json
-          git diff --cached --quiet || (git commit -m "Refresh news data" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh news data"
+          # someone may have pushed while this ran: replay the data commit on top (fresh data wins)
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          echo "::warning::Could not save refreshed data back to the repo; the site still deploys with it"
       - name: Build site
         run: npm run build
         env:
