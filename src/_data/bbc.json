@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T14:24:53.025Z",
-  "totalStories": 253,
+  "updated": "2026-11-12T14:41:14.640Z",
+  "totalStories": 254,
   "sections": [
     {
       "name": "UK",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Politics",
@@ -83,6 +83,36 @@
   ],
   "latest": [
     {
+      "title": "Clean-up begins as oil spill shuts 18 Kent beaches",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg25r6lx38o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:35:16.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "What in the World",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct9955?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:30:00.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:29:59.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:27:30.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
+      "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T14:24:48.000Z",
+      "section": "World"
+    },
+    {
       "title": "Nvidia's CEO was the rock star of AI before his dramatic unravelling",
       "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T14:18:33.000Z",
@@ -122,36 +152,6 @@
       "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
       "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T13:02:46.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
-      "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:02:37.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:56:55.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Teenage girl admits murder in row over boy",
-      "link": "https://www.bbc.co.uk/news/articles/c6x28e243gg9o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:49:46.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "MPs urge Labour ministers to get on with trophy hunting ban",
-      "link": "https://www.bbc.co.uk/news/articles/ckdd17m79yldo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:48:37.000Z",
-      "section": "Politics"
-    },
-    {
-      "title": "Watch: The latest in the Jensen Huang Nvidia scandal",
-      "link": "https://www.bbc.co.uk/news/videos/cqz0k70990zpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T12:42:44.000Z",
       "section": "World"
     }
   ]

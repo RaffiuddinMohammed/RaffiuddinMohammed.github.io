@@ -1,35 +1,27 @@
 {
-  "updated": "2026-11-12T14:24:53.351Z",
+  "updated": "2026-11-12T14:41:14.889Z",
   "stories": [
     {
       "title": "Tim Peters has died",
       "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
       "discuss": "https://news.ycombinator.com/item?id=50450488",
-      "points": 1307,
-      "comments": 154,
+      "points": 1313,
+      "comments": 156,
       "domain": "discuss.python.org"
     },
     {
       "title": "Nvidia is preparing to oust Jensen Huang",
       "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
       "discuss": "https://news.ycombinator.com/item?id=50459703",
-      "points": 1166,
-      "comments": 1557,
+      "points": 1171,
+      "comments": 1562,
       "domain": "wsj.com"
-    },
-    {
-      "title": "My AI agents found an unmapped Maya site?",
-      "url": "https://pietromiotti.com/latest/maya-site",
-      "discuss": "https://news.ycombinator.com/item?id=50452455",
-      "points": 1014,
-      "comments": 372,
-      "domain": "pietromiotti.com"
     },
     {
       "title": "AWS emulator",
       "url": "https://github.com/aws/aws-emulator",
       "discuss": "https://news.ycombinator.com/item?id=50456631",
-      "points": 903,
+      "points": 905,
       "comments": 250,
       "domain": "github.com"
     },
@@ -37,15 +29,23 @@
       "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
       "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
       "discuss": "https://news.ycombinator.com/item?id=50458900",
-      "points": 600,
-      "comments": 626,
+      "points": 608,
+      "comments": 631,
       "domain": "cbsnews.com"
+    },
+    {
+      "title": "NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "discuss": "https://news.ycombinator.com/item?id=50467087",
+      "points": 535,
+      "comments": 379,
+      "domain": "nvidianews.nvidia.com"
     },
     {
       "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
       "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
       "discuss": "https://news.ycombinator.com/item?id=50455394",
-      "points": 526,
+      "points": 531,
       "comments": 255,
       "domain": "michael.bacarella.com"
     },
@@ -53,7 +53,7 @@
       "title": "93% of paint splatters are valid Perl programs (2019)",
       "url": "https://www.mcmillen.dev/sigbovik/",
       "discuss": "https://news.ycombinator.com/item?id=50459745",
-      "points": 505,
+      "points": 510,
       "comments": 64,
       "domain": "mcmillen.dev"
     },
@@ -61,7 +61,7 @@
       "title": "Gemini Decisions API",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
       "discuss": "https://news.ycombinator.com/item?id=50456791",
-      "points": 494,
+      "points": 499,
       "comments": 148,
       "domain": "blog.google"
     },
@@ -69,19 +69,19 @@
       "title": "Jane Street: Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 442,
-      "comments": 99,
+      "points": 453,
+      "comments": 101,
       "domain": "github.com"
     },
     {
-      "title": "Hyper-realistic sand with WebGL2",
-      "url": "https://av.github.io/safe-sand/",
-      "discuss": "https://news.ycombinator.com/item?id=50453288",
-      "points": 422,
-      "comments": 77,
-      "domain": "av.github.io"
+      "title": "Lock Your GitHub Actions",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
+      "discuss": "https://news.ycombinator.com/item?id=50459485",
+      "points": 302,
+      "comments": 59,
+      "domain": "hugovk.dev"
     }
   ],
-  "totalPoints": 10004,
+  "totalPoints": 8792,
   "storyCount": 30
 }
