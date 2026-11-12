@@ -240,7 +240,7 @@ async function globe(box) {
       const label = timeBox.querySelector('.gt-date');
       const note = timeBox.querySelector('.gt-note');
       if (!Array.isArray(days) || days.length < 2) {
-        note.textContent = `History started ${days?.[0] ? fmtDay(days[0].date) : 'today'}: a new day is saved every morning, then you can travel back in time here.`;
+        note.textContent = '🕐 Time travel unlocks tomorrow: a new day is saved every morning.';
         timeBox.classList.add('ready');
         return;
       }
@@ -253,7 +253,7 @@ async function globe(box) {
         setPlaces(latest ? { date: null, places: today } : d);
       };
       range.addEventListener('input', show);
-      note.textContent = `${days.length} days archived, since ${fmtDay(days[0].date)}`;
+      note.textContent = `🕐 Drag the slider to see past days · ${days.length} days saved since ${fmtDay(days[0].date)}`;
       timeBox.classList.add('ready', 'has-history');
     }).catch(() => {});
   }
