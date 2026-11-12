@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-12T20:31:13.418Z",
+  "updated": "2026-11-12T20:38:36.042Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 2225,
-      "comments": 2207,
+      "points": 2239,
+      "comments": 2226,
       "domain": "apnews.com"
     },
     {
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
       "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 709,
-      "comments": 715,
+      "points": 713,
+      "comments": 716,
       "domain": "ipo.anthropic.com"
     },
     {
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 610,
-      "comments": 137,
+      "points": 611,
+      "comments": 139,
       "domain": "github.com"
     },
     {
       "title": "Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 324,
+      "points": 326,
       "comments": 224,
       "domain": "blog.google"
     },
@@ -37,7 +37,7 @@
       "title": "A live tree of systemd jobs on the boot console",
       "url": "https://codeberg.org/wvhulle/bootvine",
       "discuss": "https://news.ycombinator.com/item?id=50425017",
-      "points": 324,
+      "points": 325,
       "comments": 123,
       "domain": "codeberg.org"
     },
@@ -45,7 +45,7 @@
       "title": "Why Writing Correct Software Is Hard",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "discuss": "https://news.ycombinator.com/item?id=50465352",
-      "points": 318,
+      "points": 319,
       "comments": 142,
       "domain": "pron.github.io"
     },
@@ -53,15 +53,15 @@
       "title": "Ask HN: Microsoft/Azure Outage?",
       "url": "https://news.ycombinator.com/item?id=50471668",
       "discuss": "https://news.ycombinator.com/item?id=50471668",
-      "points": 278,
-      "comments": 145,
+      "points": 282,
+      "comments": 147,
       "domain": "news.ycombinator.com"
     },
     {
       "title": "Outlook is down, and so is Microsoft's status page",
       "url": "https://gvwire.com/2026/11/12/microsoft-outlook-down-for-thousands-of-users-downdetector-shows/",
       "discuss": "https://news.ycombinator.com/item?id=50471731",
-      "points": 238,
+      "points": 250,
       "comments": 82,
       "domain": "gvwire.com"
     },
@@ -70,18 +70,18 @@
       "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
       "discuss": "https://news.ycombinator.com/item?id=50467618",
       "points": 201,
-      "comments": 67,
+      "comments": 70,
       "domain": "moddb.com"
     },
     {
       "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
       "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
       "discuss": "https://news.ycombinator.com/item?id=50469994",
-      "points": 190,
-      "comments": 121,
+      "points": 192,
+      "comments": 122,
       "domain": "ign.com"
     }
   ],
-  "totalPoints": 6826,
+  "totalPoints": 6893,
   "storyCount": 30
 }

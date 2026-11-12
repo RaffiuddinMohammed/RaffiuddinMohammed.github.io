@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:38:05.632Z",
+  "updated": "2026-11-12T20:45:52.050Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -117,7 +117,7 @@
               "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
               "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-12T18:28:59.000Z"
+              "date": "2026-11-12T20:37:36.000Z"
             },
             {
               "title": "Before Scott Colom, these two men were the last black US senators from Mississippi",
@@ -302,16 +302,16 @@
           "count": 2,
           "stories": [
             {
+              "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+              "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-12T20:37:36.000Z"
+            },
+            {
               "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
               "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-12T20:09:16.000Z"
-            },
-            {
-              "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-              "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-12T18:28:59.000Z"
             }
           ]
         },
@@ -540,6 +540,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+          "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
           "title": "Jensen Huang has resigned, what's next for Nvidia?",
           "link": "https://www.bbc.co.uk/news/videos/c6wy9l859r94o?at_medium=RSS&at_campaign=rss",
           "section": "Business"
@@ -558,28 +563,23 @@
           "title": "Jensen Huang has resigned, what's next for Nvidia?",
           "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-          "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 2225
+          "points": 2239
         },
         {
           "title": "Anthropic IPO",
           "url": "https://ipo.anthropic.com/us/",
-          "points": 709
+          "points": 713
         },
         {
           "title": "Socratic Tutor",
           "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-          "points": 610
+          "points": 611
         }
       ]
     }
