@@ -251,6 +251,8 @@ async function globe(box) {
         const i = +range.value, d = days[i], latest = i === days.length - 1;
         label.textContent = latest ? 'Today' : fmtDay(d.date);
         setPlaces(latest ? { date: null, places: today } : d);
+        const cap = box.querySelector('.globe-cap-text');
+        if (cap) cap.textContent = latest ? "Countries in today's BBC headlines · drag to spin" : `Countries in BBC headlines on ${fmtDay(d.date)}`;
       };
       range.addEventListener('input', show);
       note.textContent = `🕐 Drag the slider to see past days · ${days.length} days saved since ${fmtDay(days[0].date)}`;
@@ -287,7 +289,8 @@ async function globe(box) {
       v.project(camera);
       const half = l.el.offsetWidth / 2, W = box.clientWidth;
       const lx = Math.min(W - half - 4, Math.max(half + 4, (v.x * 0.5 + 0.5) * W));
-      l.el.style.transform = `translate(${lx}px, ${(-v.y * 0.5 + 0.5) * box.clientHeight}px) translate(-50%, -100%)`;
+      const ly = Math.min(box.clientHeight - 44, Math.max(l.el.offsetHeight + 4, (-v.y * 0.5 + 0.5) * box.clientHeight)); // stay clear of the caption
+      l.el.style.transform = `translate(${lx}px, ${ly}px) translate(-50%, -100%)`;
       l.el.style.opacity = front ? '1' : '0';
       l.el.style.pointerEvents = front ? 'auto' : 'none';
       l.el.tabIndex = front ? 0 : -1;
