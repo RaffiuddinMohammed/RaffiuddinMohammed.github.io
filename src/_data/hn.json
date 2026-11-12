@@ -1,37 +1,29 @@
 {
-  "updated": "2026-11-12T19:03:00.655Z",
+  "updated": "2026-11-12T19:13:18.329Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 1876,
-      "comments": 1903,
+      "points": 1914,
+      "comments": 1946,
       "domain": "apnews.com"
     },
     {
       "title": "Anthropic IPO",
       "url": "https://ipo.anthropic.com/us/",
       "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 666,
-      "comments": 675,
+      "points": 671,
+      "comments": 679,
       "domain": "ipo.anthropic.com"
     },
     {
       "title": "Socratic Tutor",
       "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
       "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 583,
-      "comments": 135,
+      "points": 588,
+      "comments": 136,
       "domain": "github.com"
-    },
-    {
-      "title": "Critical RCE Vulnerability in Apache HTTP Server",
-      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
-      "discuss": "https://news.ycombinator.com/item?id=50462177",
-      "points": 341,
-      "comments": 185,
-      "domain": "wiz.io"
     },
     {
       "title": "A live tree of systemd jobs on the boot console",
@@ -45,23 +37,23 @@
       "title": "Why Writing Correct Software Is Hard",
       "url": "https://pron.github.io/posts/correctness-and-complexity",
       "discuss": "https://news.ycombinator.com/item?id=50465352",
-      "points": 297,
-      "comments": 128,
+      "points": 303,
+      "comments": 131,
       "domain": "pron.github.io"
     },
     {
       "title": "Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 191,
-      "comments": 116,
+      "points": 216,
+      "comments": 135,
       "domain": "blog.google"
     },
     {
       "title": "Abandoned Quake 4 expansion finished by modders and now playable",
       "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
       "discuss": "https://news.ycombinator.com/item?id=50467618",
-      "points": 167,
+      "points": 171,
       "comments": 60,
       "domain": "moddb.com"
     },
@@ -69,19 +61,27 @@
       "title": "I'm making LLMs work on small and old devices",
       "url": "https://github.com/hyperionaidev/smolmaxxing/",
       "discuss": "https://news.ycombinator.com/item?id=50468888",
-      "points": 137,
-      "comments": 56,
+      "points": 144,
+      "comments": 58,
       "domain": "github.com"
     },
     {
       "title": "Nintendo Takes Down Emulators and Firmware in Massive GitHub DMCA Sweep",
       "url": "https://www.ign.com/articles/nintendo-takes-down-switch-emulators-and-mod-chip-firmware-in-massive-github-dmca-sweep",
       "discuss": "https://news.ycombinator.com/item?id=50469994",
-      "points": 135,
-      "comments": 81,
+      "points": 140,
+      "comments": 86,
       "domain": "ign.com"
+    },
+    {
+      "title": "Ask HN: Microsoft/Azure Outage?",
+      "url": "https://news.ycombinator.com/item?id=50471668",
+      "discuss": "https://news.ycombinator.com/item?id=50471668",
+      "points": 140,
+      "comments": 50,
+      "domain": "news.ycombinator.com"
     }
   ],
-  "totalPoints": 5760,
+  "totalPoints": 5626,
   "storyCount": 30
 }
