@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-12T20:29:05.131Z",
+  "updated": "2026-11-12T20:38:05.632Z",
   "days": [
     {
       "date": "2026-11-12",
-      "totalStories": 257,
+      "totalStories": 256,
       "sections": [
         {
           "name": "UK",
@@ -276,6 +276,46 @@
           ]
         },
         {
+          "name": "Ukraine",
+          "lat": 49,
+          "lon": 32,
+          "count": 2,
+          "stories": [
+            {
+              "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+              "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-12T20:09:16.000Z"
+            },
+            {
+              "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+              "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-12T13:02:46.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 2,
+          "stories": [
+            {
+              "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+              "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-12T20:09:16.000Z"
+            },
+            {
+              "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+              "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-12T18:28:59.000Z"
+            }
+          ]
+        },
+        {
           "name": "Iran",
           "lat": 32,
           "lon": 53,
@@ -358,30 +398,16 @@
           ]
         },
         {
-          "name": "Ukraine",
-          "lat": 49,
-          "lon": 32,
+          "name": "Finland",
+          "lat": 64,
+          "lon": 26,
           "count": 1,
           "stories": [
             {
-              "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-              "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+              "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-12T13:02:46.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Russia",
-          "lat": 60,
-          "lon": 90,
-          "count": 1,
-          "stories": [
-            {
-              "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-              "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-12T18:28:59.000Z"
+              "date": "2026-11-12T20:09:16.000Z"
             }
           ]
         },
@@ -424,20 +450,6 @@
               "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-12T16:54:12.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Egypt",
-          "lat": 27,
-          "lon": 30,
-          "count": 1,
-          "stories": [
-            {
-              "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
-              "link": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-11T13:25:47.000Z"
             }
           ]
         },
@@ -538,6 +550,11 @@
           "section": "UK"
         },
         {
+          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
           "title": "Jensen Huang has resigned, what's next for Nvidia?",
           "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -546,28 +563,23 @@
           "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
           "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "Man jailed for 'appalling' catalogue of coercive control and abuse against partner",
-          "link": "https://www.bbc.co.uk/news/articles/ckd71x39zyr4o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 2187
+          "points": 2225
         },
         {
           "title": "Anthropic IPO",
           "url": "https://ipo.anthropic.com/us/",
-          "points": 707
+          "points": 709
         },
         {
           "title": "Socratic Tutor",
           "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-          "points": 609
+          "points": 610
         }
       ]
     }

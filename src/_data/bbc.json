@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T20:22:09.715Z",
-  "totalStories": 257,
+  "updated": "2026-11-12T20:31:12.996Z",
+  "totalStories": 256,
   "sections": [
     {
       "name": "UK",
@@ -331,6 +331,46 @@
       ]
     },
     {
+      "name": "Ukraine",
+      "lat": 49,
+      "lon": 32,
+      "count": 2,
+      "stories": [
+        {
+          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-12T20:09:16.000Z"
+        },
+        {
+          "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+          "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-12T13:02:46.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "lat": 60,
+      "lon": 90,
+      "count": 2,
+      "stories": [
+        {
+          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-12T20:09:16.000Z"
+        },
+        {
+          "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
+          "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-12T18:28:59.000Z"
+        }
+      ]
+    },
+    {
       "name": "Iran",
       "lat": 32,
       "lon": 53,
@@ -413,30 +453,16 @@
       ]
     },
     {
-      "name": "Ukraine",
-      "lat": 49,
-      "lon": 32,
+      "name": "Finland",
+      "lat": 64,
+      "lon": 26,
       "count": 1,
       "stories": [
         {
-          "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-          "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-12T13:02:46.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Russia",
-      "lat": 60,
-      "lon": 90,
-      "count": 1,
-      "stories": [
-        {
-          "title": "US envoys head to meet Zelensky after talks with Putin in Moscow",
-          "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-12T18:28:59.000Z"
+          "date": "2026-11-12T20:09:16.000Z"
         }
       ]
     },
@@ -479,20 +505,6 @@
           "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-12T16:54:12.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Egypt",
-      "lat": 27,
-      "lon": 30,
-      "count": 1,
-      "stories": [
-        {
-          "title": "Egyptian journalist's retrial adjourned as UN warns of 'assaults on press freedom'",
-          "link": "https://www.bbc.co.uk/news/articles/cmkg5jr59835o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-11T13:25:47.000Z"
         }
       ]
     },
@@ -595,6 +607,12 @@
       "section": "UK"
     },
     {
+      "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+      "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T20:09:16.000Z",
+      "section": "World"
+    },
+    {
       "title": "Jensen Huang has resigned, what's next for Nvidia?",
       "link": "https://www.bbc.co.uk/news/videos/cmdx1r99kp9wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T19:33:37.000Z",
@@ -646,12 +664,6 @@
       "title": "Some under-25s should get fewer benefits, Milburn review to say",
       "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-12T17:32:14.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Some childhood offenders may no longer have to reveal convictions to employers",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy0e44pjgdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T17:24:48.000Z",
       "section": "UK"
     }
   ]
