@@ -1,44 +1,44 @@
 {
-  "updated": "2026-11-12T15:04:10.578Z",
-  "totalStories": 253,
+  "updated": "2026-11-12T18:06:55.737Z",
+  "totalStories": 256,
   "sections": [
     {
       "name": "UK",
-      "count": 32
+      "count": 28
     },
     {
       "name": "World",
-      "count": 20
+      "count": 23
     },
     {
       "name": "Business",
-      "count": 15
-    },
-    {
-      "name": "Politics",
       "count": 11
     },
     {
-      "name": "Science",
-      "count": 9
+      "name": "Health",
+      "count": 11
     },
     {
-      "name": "Health",
-      "count": 9
+      "name": "Politics",
+      "count": 10
+    },
+    {
+      "name": "Science",
+      "count": 10
     },
     {
       "name": "Technology",
-      "count": 4
+      "count": 5
     }
   ],
   "topWords": [
     {
       "word": "strike",
-      "count": 12
+      "count": 13
     },
     {
       "word": "tech",
-      "count": 11
+      "count": 12
     },
     {
       "word": "health",
@@ -46,15 +46,23 @@
     },
     {
       "word": "burnham",
-      "count": 10
-    },
-    {
-      "word": "nvidia",
       "count": 9
     },
     {
-      "word": "labour",
+      "word": "nvidia",
       "count": 7
+    },
+    {
+      "word": "science",
+      "count": 6
+    },
+    {
+      "word": "take",
+      "count": 6
+    },
+    {
+      "word": "labour",
+      "count": 6
     },
     {
       "word": "government",
@@ -65,94 +73,86 @@
       "count": 6
     },
     {
-      "word": "science",
-      "count": 6
-    },
-    {
       "word": "should",
       "count": 5
     },
     {
-      "word": "cold",
-      "count": 5
-    },
-    {
-      "word": "take",
+      "word": "affair",
       "count": 5
     }
   ],
   "latest": [
     {
-      "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:54:47.000Z",
-      "section": "World"
+      "title": "\"A mammogram can save your life.\"",
+      "link": "https://www.bbc.co.uk/news/videos/c6wy4994lkjno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:59:03.000Z",
+      "section": "Health"
     },
     {
-      "title": "Who could replace Jensen Huang as Nvidia's permanent chief executive?",
-      "link": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:48:26.000Z",
-      "section": "World"
-    },
-    {
-      "title": "How much art does your council own and is it locked away or on display?",
-      "link": "https://www.bbc.co.uk/news/articles/crgqwgzxeexno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:43:38.000Z",
+      "title": "Teenage girl admits murder in row over boy",
+      "link": "https://www.bbc.co.uk/news/articles/c6x28e243gg9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:54:50.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Clean-up begins as oil spill shuts 18 Kent beaches",
-      "link": "https://www.bbc.co.uk/news/articles/cqvg25r6lx38o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:35:16.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "What in the World",
-      "link": "https://www.bbc.co.uk/sounds/play/w3ct9955?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:30:00.000Z",
-      "section": "Business"
-    },
-    {
-      "title": "Poundland gets more time to secure a rescue deal as emergency talks continue",
-      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:29:59.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:27:30.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
-      "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:24:48.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Nvidia's CEO was the rock star of AI before his dramatic unravelling",
-      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T14:18:33.000Z",
-      "section": "Business"
-    },
-    {
-      "title": "Russell Brand's social media accounts disabled by Meta",
-      "link": "https://www.bbc.co.uk/news/articles/ckedq1dxwylxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:35:26.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Faisal Islam: Why the UK economy is surprisingly resilient",
-      "link": "https://www.bbc.co.uk/news/articles/cj62p32k90wyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:27:09.000Z",
-      "section": "Business"
     },
     {
       "title": "Some under-25s should get fewer benefits, Milburn review to say",
       "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-12T13:16:59.000Z",
+      "date": "2026-11-12T17:32:14.000Z",
       "section": "UK"
+    },
+    {
+      "title": "Some childhood offenders may no longer have to reveal convictions to employers",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy0e44pjgdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:24:48.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:11:48.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Parliament date set for 'summer of sex' debate",
+      "link": "https://www.bbc.co.uk/news/articles/ckjwjd39nyn3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:02:58.000Z",
+      "section": "Politics"
+    },
+    {
+      "title": "BBC Inside Science",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct978l?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T17:00:00.000Z",
+      "section": "Science"
+    },
+    {
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:54:12.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Pentagon backs war memorial guard who reprimanded Hegseth's group",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:52:53.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Activist Daniel Thomas admits criminal damage after slashing migrant dinghy in Channel",
+      "link": "https://www.bbc.co.uk/news/articles/c6x20x380z12o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:44:25.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Zoe Kleinman: How AI visionary Jensen Huang was undone by his own bad decisions",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:43:36.000Z",
+      "section": "Technology"
+    },
+    {
+      "title": "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-12T16:31:12.000Z",
+      "section": "World"
     }
   ]
 }

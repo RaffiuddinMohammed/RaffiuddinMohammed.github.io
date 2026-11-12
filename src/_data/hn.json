@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-12T15:04:10.978Z",
+  "updated": "2026-11-12T18:06:56.042Z",
   "stories": [
     {
-      "title": "Tim Peters has died",
-      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-      "discuss": "https://news.ycombinator.com/item?id=50450488",
-      "points": 1320,
-      "comments": 157,
-      "domain": "discuss.python.org"
-    },
-    {
-      "title": "Nvidia is preparing to oust Jensen Huang",
-      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
-      "discuss": "https://news.ycombinator.com/item?id=50459703",
-      "points": 1183,
-      "comments": 1570,
-      "domain": "wsj.com"
+      "title": "NVIDIA Announces CEO Transition",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "discuss": "https://news.ycombinator.com/item?id=50467087",
+      "points": 1601,
+      "comments": 1674,
+      "domain": "nvidianews.nvidia.com"
     },
     {
       "title": "AWS emulator",
       "url": "https://github.com/aws/aws-emulator",
       "discuss": "https://news.ycombinator.com/item?id=50456631",
-      "points": 913,
-      "comments": 251,
+      "points": 947,
+      "comments": 259,
       "domain": "github.com"
     },
     {
-      "title": "NVIDIA Announces CEO Transition",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
-      "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 764,
-      "comments": 570,
-      "domain": "nvidianews.nvidia.com"
-    },
-    {
-      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
-      "discuss": "https://news.ycombinator.com/item?id=50458900",
-      "points": 619,
-      "comments": 636,
-      "domain": "cbsnews.com"
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us/",
+      "discuss": "https://news.ycombinator.com/item?id=50465829",
+      "points": 625,
+      "comments": 631,
+      "domain": "ipo.anthropic.com"
     },
     {
       "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
       "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
       "discuss": "https://news.ycombinator.com/item?id=50455394",
-      "points": 534,
-      "comments": 256,
+      "points": 563,
+      "comments": 262,
       "domain": "michael.bacarella.com"
+    },
+    {
+      "title": "Socratic Tutor",
+      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
+      "discuss": "https://news.ycombinator.com/item?id=50438261",
+      "points": 558,
+      "comments": 129,
+      "domain": "github.com"
     },
     {
       "title": "93% of paint splatters are valid Perl programs (2019)",
       "url": "https://www.mcmillen.dev/sigbovik/",
       "discuss": "https://news.ycombinator.com/item?id=50459745",
-      "points": 513,
-      "comments": 66,
+      "points": 549,
+      "comments": 73,
       "domain": "mcmillen.dev"
     },
     {
-      "title": "Gemini Decisions API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "discuss": "https://news.ycombinator.com/item?id=50456791",
-      "points": 504,
-      "comments": 148,
-      "domain": "blog.google"
+      "title": "Critical RCE Vulnerability in Apache HTTP Server",
+      "url": "https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability",
+      "discuss": "https://news.ycombinator.com/item?id=50462177",
+      "points": 334,
+      "comments": 174,
+      "domain": "wiz.io"
     },
     {
-      "title": "Jane Street: Socratic Tutor",
-      "url": "https://github.com/janestreet/agent_skills/blob/master/socratic-tutor/SKILL.md",
-      "discuss": "https://news.ycombinator.com/item?id=50438261",
-      "points": 472,
-      "comments": 108,
-      "domain": "github.com"
+      "title": "A live tree of systemd jobs on the boot console",
+      "url": "https://codeberg.org/wvhulle/bootvine",
+      "discuss": "https://news.ycombinator.com/item?id=50425017",
+      "points": 289,
+      "comments": 109,
+      "domain": "codeberg.org"
     },
     {
-      "title": "Lock Your GitHub Actions",
-      "url": "https://hugovk.dev/blog/2026/lock-github-actions/",
-      "discuss": "https://news.ycombinator.com/item?id=50459485",
-      "points": 307,
-      "comments": 60,
-      "domain": "hugovk.dev"
+      "title": "Why Writing Correct Software Is Hard",
+      "url": "https://pron.github.io/posts/correctness-and-complexity",
+      "discuss": "https://news.ycombinator.com/item?id=50465352",
+      "points": 278,
+      "comments": 119,
+      "domain": "pron.github.io"
+    },
+    {
+      "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
+      "discuss": "https://news.ycombinator.com/item?id=50467618",
+      "points": 141,
+      "comments": 46,
+      "domain": "moddb.com"
     }
   ],
-  "totalPoints": 9219,
+  "totalPoints": 6840,
   "storyCount": 30
 }
