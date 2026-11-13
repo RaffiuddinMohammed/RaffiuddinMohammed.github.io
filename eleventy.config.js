@@ -18,6 +18,7 @@ export default function (cfg) {
     return h < 1 ? 'just now' : h < 24 ? `${h}h ago` : `${Math.round(h / 24)}d ago`;
   });
   // outage log helpers
+  cfg.addFilter('rejectLevel', (services, level) => (services ?? []).filter((s) => s.level !== level));
   cfg.addFilter('atLevel', (services, level) => (services ?? []).filter((s) => s.level === level));
   cfg.addFilter('incidentCounts', (list) => Object.entries((list ?? []).reduce((m, i) => ((m[i.service] = (m[i.service] ?? 0) + 1), m), {}))
     .sort((a, b) => b[1] - a[1]).map(([label, value]) => ({ label, value })));

@@ -29,6 +29,23 @@
         <a class="pill cta" href="/about/#for-business">Work with me</a>
       </div>
     </nav>
+    {% if outages.services and page.url != '/dashboards/outages/' %}
+    {% set downAll = outages.services | rejectLevel('ok') %}
+    {% set worst = 'major' if (outages.services | atLevel('major')).length else ('minor' if downAll.length else 'ok') %}
+    <a class="flash lvl-{{ worst }}" href="/dashboards/outages/" aria-label="Outage watch: {% if downAll.length %}{{ downAll.length }} services reporting problems{% else %}all services running normally{% endif %}. Open the dashboard.">
+      <span class="wrap flash-in">
+        <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>{% if downAll.length %}Live · Outages{% else %}All clear{% endif %}</span>
+        {% if downAll.length %}
+        <span class="flash-track" aria-hidden="true"><span class="flash-run">
+          {% for r in [1, 2] %}{% for o in downAll %}<span class="flash-item lvl-{{ o.level }}"><b>{{ o.name }}</b> {{ o.note }}</span>{% endfor %}{% endfor %}
+        </span></span>
+        {% else %}
+        <span class="flash-static">All {{ outages.services.length }} services we watch are running normally</span>
+        {% endif %}
+        <span class="flash-go">Outage watch →</span>
+      </span>
+    </a>
+    {% endif %}
   </header>
   <main class="wrap">
     {{ content | safe }}

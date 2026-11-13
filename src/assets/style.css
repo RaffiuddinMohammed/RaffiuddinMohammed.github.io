@@ -531,3 +531,28 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .outage-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 14px; font-size: .85rem; }
 .outage-strip .os-item { display: inline-flex; align-items: center; gap: 6px; color: var(--text-2); }
 .outage-strip .os-item .st-dot { width: 8px; height: 8px; }
+
+/* Flash-news outage ticker under the nav (every page) */
+.flash { display: block; color: var(--text); border-top: 1px solid var(--border); font-size: .82rem;
+  background: color-mix(in srgb, var(--lvl) 12%, var(--nav-bg)); }
+.flash:hover { text-decoration: none; background: color-mix(in srgb, var(--lvl) 20%, var(--nav-bg)); }
+.flash-in { display: flex; align-items: center; gap: 12px; height: 34px; }
+.flash-label { flex: none; display: inline-flex; align-items: center; gap: 6px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; font-size: .7rem;
+  color: #fff; background: var(--lvl); padding: 3px 10px; border-radius: 999px; }
+.flash-label .st-dot { width: 7px; height: 7px; background: #fff; }
+.flash.lvl-major .flash-label .st-dot, .flash.lvl-minor .flash-label .st-dot { animation: blink 1.2s steps(2, start) infinite; }
+@keyframes blink { to { visibility: hidden; } }
+.flash-track { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); mask-image: linear-gradient(90deg, transparent, #000 4%, #000 96%, transparent); }
+.flash-run { display: inline-flex; white-space: nowrap; animation: ticker 40s linear infinite; }
+.flash:hover .flash-run, .flash:focus-visible .flash-run { animation-play-state: paused; }
+@keyframes ticker { to { transform: translateX(-50%); } }
+.flash-item { padding-right: 40px; color: var(--text-2); }
+.flash-item b { color: var(--lvl); margin-right: 4px; }
+.flash-static { flex: 1; min-width: 0; color: var(--text-2); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.flash-go { flex: none; font-weight: 600; color: var(--ink1, var(--c1)); }
+@media (max-width: 560px) { .flash-go { display: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .flash-run { animation: none; } .flash-track { -webkit-mask-image: none; mask-image: none; text-overflow: ellipsis; }
+  .flash.lvl-major .flash-label .st-dot, .flash.lvl-minor .flash-label .st-dot { animation: none; }
+}
+.flash.lvl-minor .flash-label { color: #241a00; } .flash.lvl-minor .flash-label .st-dot { background: #241a00; } /* white on amber is too faint */
