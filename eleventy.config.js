@@ -22,6 +22,10 @@ export default function (cfg) {
   cfg.addFilter('atLevel', (services, level) => (services ?? []).filter((s) => s.level === level));
   cfg.addFilter('incidentCounts', (list) => Object.entries((list ?? []).reduce((m, i) => ((m[i.service] = (m[i.service] ?? 0) + 1), m), {}))
     .sort((a, b) => b[1] - a[1]).map(([label, value]) => ({ label, value })));
+  // RSS: one entry when an incident starts and another when it is resolved, newest first
+  cfg.addFilter('outageEvents', (list, n) => (list ?? [])
+    .flatMap((i) => [{ ...i, kind: 'start', at: i.start }, ...(i.end ? [{ ...i, kind: 'end', at: i.end }] : [])])
+    .sort((a, b) => Date.parse(b.at) - Date.parse(a.at)).slice(0, n));
   cfg.addFilter('lasted', (start, end) => {
     const m = Math.max(1, Math.round((Date.parse(end) - Date.parse(start)) / 6e4));
     return m < 60 ? `${m} min` : m < 2880 ? `${Math.round(m / 6) / 10} h`.replace('.0 h', ' h') : `${Math.round(m / 1440)} days`;

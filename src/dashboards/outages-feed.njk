@@ -1,0 +1,24 @@
+---
+permalink: /dashboards/outages/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Outage watch · {{ site.name }}</title>
+  <subtitle>Outages and recoveries at major online services, checked every 30 minutes against each company's own status page.</subtitle>
+  <link href="{{ site.url }}/dashboards/outages/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/dashboards/outages/"/>
+  <id>{{ site.url }}/dashboards/outages/</id>
+  <updated>{{ outages.checked }}</updated>
+  <author><name>{{ site.name }}</name></author>
+  {%- for e in outages.incidents | outageEvents(60) %}
+  <entry>
+    <title>{% if e.kind == 'end' %}Resolved · {{ e.service }}: {{ e.title }}{% else %}{% if e.impact == 'major' %}Major problem{% else %}Problem{% endif %} · {{ e.service }}: {{ e.title }}{% endif %}</title>
+    <link href="{{ e.url }}"/>
+    <id>tag:raffiuddinmohammed.github.io,2026:outage/{{ (e.kind + '/' + e.service + '/' + e.start) | urlencode }}</id>
+    <published>{{ e.at }}</published>
+    <updated>{{ e.at }}</updated>
+    <summary>{% if e.kind == 'end' %}{{ e.service }} resolved "{{ e.title }}" at {{ e.end | when }}, after {{ e.start | lasted(e.end) }}.{% else %}{{ e.service }} reported "{{ e.title }}" at {{ e.start | when }}.{% endif %} Live status of all services: {{ site.url }}/dashboards/outages/</summary>
+  </entry>
+  {%- endfor %}
+</feed>

@@ -7,7 +7,7 @@ permalink: /dashboards/outages/
 <div class="page-head">
   <div class="eyebrow">Dashboard · Status pages</div>
   <h1>Outage watch</h1>
-  <p class="lede">{% if down.length %}<b>{{ down.length }} of {{ outages.services.length }}</b> services we watch are reporting problems right now.{% else %}All {{ outages.services.length }} services we watch are running normally right now.{% endif %} Checked every 30 minutes against each company's own status page.</p>
+  <p class="lede">{% if down.length %}<b>{{ down.length }} of {{ outages.services.length }}</b> services we watch are reporting problems right now.{% else %}All {{ outages.services.length }} services we watch are running normally right now.{% endif %} Checked every 30 minutes against each company's own status page. <a href="/dashboards/outages/feed.xml">Subscribe by RSS</a> to hear about new problems as they happen.</p>
 </div>
 
 <section>
