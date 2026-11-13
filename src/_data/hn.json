@@ -1,35 +1,27 @@
 {
-  "updated": "2026-11-13T20:13:29.197Z",
+  "updated": "2026-11-13T20:37:05.231Z",
   "stories": [
-    {
-      "title": "Rust 1.100",
-      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-      "discuss": "https://news.ycombinator.com/item?id=50472038",
-      "points": 865,
-      "comments": 311,
-      "domain": "blog.rust-lang.org"
-    },
     {
       "title": "LibreOffice actually works 365 days a year",
       "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
       "discuss": "https://news.ycombinator.com/item?id=50486482",
-      "points": 624,
-      "comments": 205,
+      "points": 659,
+      "comments": 216,
       "domain": "twitter.com"
     },
     {
       "title": "Reverse engineering my Coway air purifier to ditch the cloud",
       "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
       "discuss": "https://news.ycombinator.com/item?id=50474959",
-      "points": 577,
-      "comments": 162,
+      "points": 589,
+      "comments": 164,
       "domain": "scottjg.com"
     },
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
       "discuss": "https://news.ycombinator.com/item?id=50481187",
-      "points": 465,
+      "points": 467,
       "comments": 373,
       "domain": "status.claude.com"
     },
@@ -37,8 +29,8 @@
       "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
       "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
       "discuss": "https://news.ycombinator.com/item?id=50482379",
-      "points": 386,
-      "comments": 272,
+      "points": 390,
+      "comments": 274,
       "domain": "science.org"
     },
     {
@@ -46,42 +38,50 @@
       "url": "https://ice-wm.org/",
       "discuss": "https://news.ycombinator.com/item?id=50478515",
       "points": 347,
-      "comments": 197,
+      "comments": 200,
       "domain": "ice-wm.org"
     },
     {
-      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
-      "url": "https://brave.com/blog/search-api-agentic-payments/",
-      "discuss": "https://news.ycombinator.com/item?id=50477649",
-      "points": 253,
-      "comments": 141,
-      "domain": "brave.com"
+      "title": "AI is destroying the trust between writers and readers",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "discuss": "https://news.ycombinator.com/item?id=50481870",
+      "points": 280,
+      "comments": 169,
+      "domain": "theatlantic.com"
     },
     {
       "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
       "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
       "discuss": "https://news.ycombinator.com/item?id=50486748",
-      "points": 198,
-      "comments": 46,
+      "points": 217,
+      "comments": 49,
       "domain": "theguardian.com"
     },
     {
       "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
       "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
       "discuss": "https://news.ycombinator.com/item?id=50485295",
-      "points": 149,
-      "comments": 57,
+      "points": 151,
+      "comments": 62,
       "domain": "filemanager-cdn.mziq.com"
     },
     {
-      "title": "Switcher (2004)",
-      "url": "https://folklore.org/Switcher.html",
-      "discuss": "https://news.ycombinator.com/item?id=50477714",
-      "points": 143,
-      "comments": 42,
-      "domain": "folklore.org"
+      "title": "A technical vision for the Haskell ecosystem",
+      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+      "discuss": "https://news.ycombinator.com/item?id=50484235",
+      "points": 141,
+      "comments": 62,
+      "domain": "discourse.haskell.org"
+    },
+    {
+      "title": "After 600 experiments, here's what I discovered about JEPA world models",
+      "url": "https://haddyalchaer.com/jepa",
+      "discuss": "https://news.ycombinator.com/item?id=50487185",
+      "points": 140,
+      "comments": 28,
+      "domain": "haddyalchaer.com"
     }
   ],
-  "totalPoints": 5178,
+  "totalPoints": 4531,
   "storyCount": 30
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T20:20:39.570Z",
+  "updated": "2026-11-13T20:44:00.850Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -597,11 +597,11 @@
         },
         {
           "name": "Business",
-          "count": 16
+          "count": 15
         },
         {
           "name": "Politics",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Technology",
@@ -642,12 +642,12 @@
           "count": 8
         },
         {
-          "word": "health",
+          "word": "labour",
           "count": 7
         },
         {
-          "word": "pay",
-          "count": 6
+          "word": "health",
+          "count": 7
         }
       ],
       "places": [
@@ -655,8 +655,21 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 27,
+          "count": 28,
+          "bySection": {
+            "Politics": 11,
+            "UK": 4,
+            "Business": 5,
+            "Health": 4,
+            "Science": 4
+          },
           "stories": [
+            {
+              "title": "Labour lost its connection with voters, says Welsh leader",
+              "link": "https://www.bbc.co.uk/news/articles/c6jre3q9jjwro?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-13T18:44:11.000Z"
+            },
             {
               "title": "Former Hamas bodyguard guilty of UK knife attack",
               "link": "https://www.bbc.co.uk/news/articles/c51k9709krxvo?at_medium=RSS&at_campaign=rss",
@@ -680,12 +693,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cknv4d307523o?at_medium=RSS&at_campaign=rss",
               "section": "Health",
               "date": "2026-11-13T06:35:34.000Z"
-            },
-            {
-              "title": "Scotland created Grand Theft Auto - is its video game industry still thriving?",
-              "link": "https://www.bbc.co.uk/news/articles/c60qkn5gz392o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-13T06:35:06.000Z"
             }
           ]
         },
@@ -694,6 +701,13 @@
           "lat": 39,
           "lon": -98,
           "count": 14,
+          "bySection": {
+            "Science": 2,
+            "World": 5,
+            "Business": 5,
+            "Health": 1,
+            "Politics": 1
+          },
           "stories": [
             {
               "title": "What could El Niño mean for winter weather in the US and Canada?",
@@ -732,6 +746,10 @@
           "lat": 35,
           "lon": 104,
           "count": 7,
+          "bySection": {
+            "Business": 6,
+            "Politics": 1
+          },
           "stories": [
             {
               "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
@@ -770,6 +788,9 @@
           "lat": 49,
           "lon": 32,
           "count": 3,
+          "bySection": {
+            "World": 3
+          },
           "stories": [
             {
               "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
@@ -796,6 +817,9 @@
           "lat": 56,
           "lon": -106,
           "count": 2,
+          "bySection": {
+            "Science": 2
+          },
           "stories": [
             {
               "title": "What could El Niño mean for winter weather in the US and Canada?",
@@ -816,6 +840,10 @@
           "lat": 22,
           "lon": 79,
           "count": 2,
+          "bySection": {
+            "World": 1,
+            "Business": 1
+          },
           "stories": [
             {
               "title": "At least 24 killed after bus collides with truck in north-east India",
@@ -836,6 +864,9 @@
           "lat": -10,
           "lon": -76,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "The Peruvian city that has embraced Pope Leo as one of its own",
@@ -850,6 +881,9 @@
           "lat": 51,
           "lon": 10,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
@@ -864,6 +898,9 @@
           "lat": 40,
           "lon": -4,
           "count": 1,
+          "bySection": {
+            "Business": 1
+          },
           "stories": [
             {
               "title": "Clashes erupt in Barcelona after thousands join Spain general strike",
@@ -878,6 +915,9 @@
           "lat": 60,
           "lon": 90,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
@@ -892,6 +932,9 @@
           "lat": 39,
           "lon": 35,
           "count": 1,
+          "bySection": {
+            "Science": 1
+          },
           "stories": [
             {
               "title": "World's oldest shipwreck found off coast of Turkey",
@@ -906,6 +949,9 @@
           "lat": 15,
           "lon": 30,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "Watch: Vinícius Jr's surprise message to boy who received prosthetic legs after Sudan drone strike",
@@ -920,6 +966,9 @@
           "lat": 9,
           "lon": 40,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
@@ -934,6 +983,9 @@
           "lat": 9,
           "lon": 8,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "Nigerian university in mourning after four students die at post-exam party",
@@ -948,6 +1000,9 @@
           "lat": 40,
           "lon": 127,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
@@ -962,6 +1017,9 @@
           "lat": -25,
           "lon": 134,
           "count": 1,
+          "bySection": {
+            "World": 1
+          },
           "stories": [
             {
               "title": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
@@ -976,6 +1034,9 @@
           "lat": -41,
           "lon": 174,
           "count": 1,
+          "bySection": {
+            "Politics": 1
+          },
           "stories": [
             {
               "title": "Chris vs Chris: Who's running and what's at stake this New Zealand election",
@@ -1015,19 +1076,19 @@
       ],
       "hnTop": [
         {
-          "title": "Rust 1.100",
-          "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-          "points": 865
-        },
-        {
           "title": "LibreOffice actually works 365 days a year",
           "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-          "points": 624
+          "points": 659
         },
         {
           "title": "Reverse engineering my Coway air purifier to ditch the cloud",
           "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-          "points": 577
+          "points": 589
+        },
+        {
+          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "url": "https://status.claude.com/incidents/nn11wk485zfn",
+          "points": 467
         }
       ]
     }
