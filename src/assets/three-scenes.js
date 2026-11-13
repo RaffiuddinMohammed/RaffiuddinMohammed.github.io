@@ -57,7 +57,7 @@ let glowTex = null;
 function glowTexture() {
   if (glowTex) return glowTex;
   const c = document.createElement('canvas'); c.width = c.height = 128;
-  const g = c.getContext('2d'), r = g.createRadialGradient(64, 64, 0, 64, 64, 64);
+  const g = c.getContext('2d'), r = g.createRadialGradient(64, 64, 0, 64, 64, 58); // ends inside the canvas, so no square edge
   r.addColorStop(0, 'rgba(255,255,255,1)'); r.addColorStop(0.25, 'rgba(255,255,255,.55)'); r.addColorStop(1, 'rgba(255,255,255,0)');
   g.fillStyle = r; g.fillRect(0, 0, 128, 128);
   glowTex = new THREE.CanvasTexture(c);
@@ -96,7 +96,7 @@ function discTexture() {
 const STYLES = {
   // one dot per story, packed in a sunflower around the country, coloured by BBC section: count them and it matches the label
   counted(group, places, max, ctx) {
-    const STEP = (0.95 * Math.PI) / 180; // angular gap between neighbouring dots
+    const STEP = (1.05 * Math.PI) / 180; // angular gap between neighbouring dots
     const items = places.map((p, i) => {
       const centre = toVec(p.lat, p.lon, 1).normalize();
       const u = new THREE.Vector3(0, 1, 0).cross(centre).normalize();
@@ -114,14 +114,23 @@ const STYLES = {
       const geo = new THREE.BufferGeometry();
       geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
       geo.setAttribute('color', new THREE.Float32BufferAttribute(new Float32Array(pos.length), 3));
-      const mat = new THREE.PointsMaterial({ size: 0.07, map: discTexture(), alphaTest: 0.5, vertexColors: true, transparent: true, depthWrite: false });
+      const mat = new THREE.PointsMaterial({ size: 0.08, map: discTexture(), alphaTest: 0.5, vertexColors: true, transparent: true, depthWrite: false });
       const pts = new THREE.Points(geo, mat);
       pts.renderOrder = 2; // drawn over the land dots
-      group.add(pts);
       const spread = STEP * Math.sqrt(keys.length);
-      return { geo, mat, idx, phase: i * 1.3, spread, parts: [pts] };
+      // a soft halo the size of the cluster, breathing gently
+      const glow = glowSprite(css('--c2'), 0.1 + 2.4 * spread, 0.4);
+      glow.position.copy(centre.clone().multiplyScalar(1.008));
+      // a ring that pings outward from the cluster now and then, like a radar return
+      const ring = new THREE.Mesh(new THREE.RingGeometry(0.9, 1, 48), new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false, side: THREE.DoubleSide }));
+      ring.position.copy(centre.clone().multiplyScalar(1.01));
+      ring.lookAt(centre.clone().multiplyScalar(2));
+      group.add(glow, ring, pts);
+      return { geo, mat, glow, ring, rb: Math.max(spread, 0.02), gb: glow.scale.x, n: keys.length, idx, phase: i * 1.3, spread, parts: [pts, glow, ring] };
     });
+    let t0 = null; // first frame, for the count-in
     const paint = () => {
+      items.forEach((it) => { it.glow.material.color.set(css('--c2')); it.ring.material.color.set(css('--ink2')); });
       const col = Object.fromEntries([...GROUPS.map((g) => [g, new THREE.Color(css(`--sec-${g}`))]), ['other', new THREE.Color(css('--muted'))]]);
       items.forEach((it) => {
         const a = it.geo.attributes.color;
@@ -134,8 +143,22 @@ const STYLES = {
       tip: () => 1.03,
       lift: (i) => (items[i].spread * 180) / Math.PI + 1.5, // degrees north, so the label sits above the cluster, not on it
       parts: (i) => items[i].parts,
-      update(k) { items.forEach((it) => { it.mat.opacity = 0.85 + 0.15 * Math.sin(k * 1.6 + it.phase); }); },
-      hot(i, on) { items[i].mat.size = on ? 0.09 : 0.07; },
+      update(k) {
+        t0 ??= k;
+        const e = k - t0;
+        items.forEach((it, i) => {
+          // count the dots in one by one (busiest first, ~20 a second), then breathe
+          it.geo.setDrawRange(0, Math.min(it.n, Math.max(0, Math.floor((e - 0.3 - i * 0.12) * 20))));
+          const s = Math.sin(k * 1.8 + it.phase);
+          it.glow.scale.setScalar(it.gb * (1 + 0.12 * s));
+          it.glow.material.opacity = 0.32 + 0.12 * s;
+          it.mat.opacity = 0.9 + 0.1 * s;
+          const p = (e / 3.2 + i * 0.37) % 1; // each country pings on its own beat, every 3.2s
+          it.ring.scale.setScalar(it.rb * (1 + 2.2 * p));
+          it.ring.material.opacity = e < 1.5 ? 0 : 0.55 * (1 - p) ** 2;
+        });
+      },
+      hot(i, on) { items[i].mat.size = on ? 0.1 : 0.08; },
       paint,
     };
   },
@@ -290,7 +313,7 @@ async function globe(box) {
   for (let i = 0; i < dots.length; i += 2) toVec(dots[i], dots[i + 1], 1.0).toArray(pos, (i / 2) * 3);
   const dotGeo = new THREE.BufferGeometry();
   dotGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-  const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: styleName === 'litup' || styleName === 'counted' ? 0.45 : 0.9 });
+  const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: styleName === 'litup' ? 0.45 : styleName === 'counted' ? 0.75 : 0.9 });
   world.add(new THREE.Points(dotGeo, dotMat));
 
   const glowMat = new THREE.ShaderMaterial({
