@@ -3,6 +3,8 @@ import { HtmlBasePlugin } from '@11ty/eleventy';
 export default function (cfg) {
   cfg.addPlugin(HtmlBasePlugin); // rewrites links when the site lives under a sub-path
   cfg.addPassthroughCopy('src/assets');
+  cfg.addPassthroughCopy('src/google*.html'); // Search Console ownership file: must stay byte-for-byte
+  cfg.ignores.add('src/google*.html'); // ...so copy it, don't render it as a page
   cfg.addGlobalData('built', () => new Date().toISOString());
   // JSON for <script type="application/json"> blocks; escapes "<" so a headline can't close the tag
   cfg.addFilter('json', (v) => JSON.stringify(v).replace(/</g, '\\u003c'));
