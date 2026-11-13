@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T19:56:16.173Z",
+  "updated": "2026-11-13T20:04:43.194Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -988,6 +988,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+          "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
           "title": "Man who transported Omagh bomb was an MI5 and Garda agent, inquiry told",
           "link": "https://www.bbc.co.uk/news/articles/cr0jxwv1v266o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
@@ -1006,28 +1011,23 @@
           "title": "Tories pay artist for Burnham images after legal threat",
           "link": "https://www.bbc.co.uk/news/articles/cr5y139wplppo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
-          "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3982
+          "points": 3985
         },
         {
           "title": "Rust 1.100",
           "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-          "points": 862
+          "points": 864
         },
         {
           "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
           "url": "https://github.com/simpsoka/zigzag",
-          "points": 711
+          "points": 712
         }
       ]
     }
