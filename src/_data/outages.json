@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T11:17:26.166Z",
+  "checked": "2026-11-13T18:30:30.637Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Cloudflare is seeing an issue with Workers API availability",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "DigitalOcean",
       "level": "ok",
-      "note": "All Systems Operational",
+      "note": "Service Under Maintenance",
       "url": "https://status.digitalocean.com"
     },
     {
@@ -87,6 +87,46 @@
     }
   ],
   "incidents": [
+    {
+      "service": "OpenAI",
+      "title": "Delayed Costs Data in the Compliance API",
+      "impact": "minor",
+      "start": "2026-11-13T16:10:07Z",
+      "end": null,
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Pull Requests",
+      "impact": "major",
+      "start": "2026-11-13T15:47:12.290Z",
+      "end": "2026-11-13T18:29:31.624Z",
+      "url": "https://stspg.io/qzj7qjdcr8jc"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare is seeing an issue with Workers API availability",
+      "impact": "minor",
+      "start": "2026-11-13T15:31:13.773Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted",
+      "impact": "minor",
+      "start": "2026-11-13T14:55:26.179Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/mc91s22odfvf"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated error rate for workers startup",
+      "impact": "minor",
+      "start": "2026-11-13T13:54:01.333Z",
+      "end": "2026-11-13T15:16:06.470Z",
+      "url": "https://www.cloudflarestatus.com/incidents/y03on2svrrxt"
+    },
     {
       "service": "Microsoft 365",
       "title": "Users may be unable to access or perform several actions in Microsoft 365 services",
@@ -801,14 +841,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/snth5ero95rz"
     },
     {
-      "service": "Cloudflare",
-      "title": "Increased Errors for Durable Objects in the Eastern North America region",
-      "impact": "minor",
-      "start": "2026-10-28T00:17:25.893Z",
-      "end": "2026-10-28T03:28:57.623Z",
-      "url": "https://www.cloudflarestatus.com/incidents/klub12zy71b4"
-    },
-    {
       "service": "DigitalOcean",
       "title": "Kubernetes Cluster Management Operations",
       "impact": "major",
@@ -942,14 +974,6 @@
       "impact": "minor",
       "start": "2026-10-22T02:18:32Z",
       "end": "2026-10-22T08:50:43Z",
-      "url": "https://status.openai.com"
-    },
-    {
-      "service": "OpenAI",
-      "title": "Authentication errors for some users",
-      "impact": "major",
-      "start": "2026-10-21T22:36:29Z",
-      "end": "2026-10-20T17:35:00Z",
       "url": "https://status.openai.com"
     },
     {
