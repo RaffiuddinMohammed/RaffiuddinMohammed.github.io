@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T19:32:52.685Z",
+  "updated": "2026-11-13T19:56:16.173Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -766,6 +766,32 @@
           ]
         },
         {
+          "name": "Ukraine",
+          "lat": 49,
+          "lon": 32,
+          "count": 3,
+          "stories": [
+            {
+              "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+              "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-13T16:40:31.000Z"
+            },
+            {
+              "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+              "link": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-13T13:11:23.000Z"
+            },
+            {
+              "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+              "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-12T13:02:46.000Z"
+            }
+          ]
+        },
+        {
           "name": "Canada",
           "lat": 56,
           "lon": -106,
@@ -782,26 +808,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
               "section": "Science",
               "date": "2026-11-11T13:24:29.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Ukraine",
-          "lat": 49,
-          "lon": 32,
-          "count": 2,
-          "stories": [
-            {
-              "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-              "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-13T16:40:31.000Z"
-            },
-            {
-              "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-              "link": "https://www.bbc.co.uk/news/videos/cm93rp3gxn6qo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-12T13:02:46.000Z"
             }
           ]
         },
@@ -868,6 +874,20 @@
           ]
         },
         {
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 1,
+          "stories": [
+            {
+              "title": "Aide to fugitive Ukrainian ex-PM wounded in latest Moscow car bombing",
+              "link": "https://www.bbc.co.uk/news/articles/c5gm3gnwl42eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-13T13:11:23.000Z"
+            }
+          ]
+        },
+        {
           "name": "Turkey",
           "lat": 39,
           "lon": 35,
@@ -878,20 +898,6 @@
               "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
               "section": "Science",
               "date": "2026-10-14T05:00:35.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Iran",
-          "lat": 32,
-          "lon": 53,
-          "count": 1,
-          "stories": [
-            {
-              "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-              "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-13T12:28:28.000Z"
             }
           ]
         },
@@ -1011,17 +1017,17 @@
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3975
+          "points": 3982
         },
         {
           "title": "Rust 1.100",
           "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-          "points": 859
+          "points": 862
         },
         {
           "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
           "url": "https://github.com/simpsoka/zigzag",
-          "points": 708
+          "points": 711
         }
       ]
     }

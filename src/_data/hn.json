@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-13T19:29:03.314Z",
+  "updated": "2026-11-13T19:49:07.693Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 3975,
+      "points": 3982,
       "comments": 3384,
       "domain": "apnews.com"
     },
@@ -13,7 +13,7 @@
       "title": "Rust 1.100",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
       "discuss": "https://news.ycombinator.com/item?id=50472038",
-      "points": 859,
+      "points": 862,
       "comments": 310,
       "domain": "blog.rust-lang.org"
     },
@@ -21,67 +21,67 @@
       "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "url": "https://github.com/simpsoka/zigzag",
       "discuss": "https://news.ycombinator.com/item?id=50470488",
-      "points": 708,
-      "comments": 229,
+      "points": 711,
+      "comments": 231,
       "domain": "github.com"
-    },
-    {
-      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
-      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-      "discuss": "https://news.ycombinator.com/item?id=50474959",
-      "points": 545,
-      "comments": 152,
-      "domain": "scottjg.com"
     },
     {
       "title": "LibreOffice actually works 365 days a year",
       "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
       "discuss": "https://news.ycombinator.com/item?id=50486482",
-      "points": 524,
-      "comments": 186,
+      "points": 573,
+      "comments": 196,
       "domain": "twitter.com"
+    },
+    {
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "discuss": "https://news.ycombinator.com/item?id=50474959",
+      "points": 556,
+      "comments": 157,
+      "domain": "scottjg.com"
     },
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
       "discuss": "https://news.ycombinator.com/item?id=50481187",
-      "points": 459,
-      "comments": 372,
+      "points": 460,
+      "comments": 373,
       "domain": "status.claude.com"
     },
     {
       "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
       "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
       "discuss": "https://news.ycombinator.com/item?id=50482379",
-      "points": 375,
-      "comments": 266,
+      "points": 383,
+      "comments": 267,
       "domain": "science.org"
     },
     {
       "title": "IceWM",
       "url": "https://ice-wm.org/",
       "discuss": "https://news.ycombinator.com/item?id=50478515",
-      "points": 344,
-      "comments": 192,
+      "points": 346,
+      "comments": 196,
       "domain": "ice-wm.org"
     },
     {
       "title": "AI is destroying the trust between writers and readers",
       "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
       "discuss": "https://news.ycombinator.com/item?id=50481870",
-      "points": 258,
-      "comments": 149,
+      "points": 263,
+      "comments": 156,
       "domain": "theatlantic.com"
     },
     {
       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
       "url": "https://brave.com/blog/search-api-agentic-payments/",
       "discuss": "https://news.ycombinator.com/item?id=50477649",
-      "points": 244,
-      "comments": 139,
+      "points": 250,
+      "comments": 140,
       "domain": "brave.com"
     }
   ],
-  "totalPoints": 9796,
+  "totalPoints": 10048,
   "storyCount": 30
 }
