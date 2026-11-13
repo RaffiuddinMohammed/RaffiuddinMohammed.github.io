@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T18:30:30.637Z",
+  "checked": "2026-11-13T19:14:48.474Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -22,7 +22,7 @@
     {
       "name": "OpenAI",
       "level": "minor",
-      "note": "Elevated errors affecting the Microsoft 365 connector",
+      "note": "Delayed Costs Data in the Compliance API",
       "url": "https://status.openai.com"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "DigitalOcean",
       "level": "ok",
-      "note": "Service Under Maintenance",
+      "note": "All Systems Operational",
       "url": "https://status.digitalocean.com"
     },
     {

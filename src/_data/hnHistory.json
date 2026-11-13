@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:17:26.106Z",
+  "updated": "2026-11-13T19:14:48.427Z",
   "months": [
     {
       "month": "2025-12",
@@ -325,15 +325,15 @@
       "stories": [
         {
           "title": "Jensen Huang resigns",
-          "points": 3609,
-          "comments": 3172,
+          "points": 3974,
+          "comments": 3385,
           "date": "2026-11-12",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
           "discuss": "https://news.ycombinator.com/item?id=50467087"
         },
         {
           "title": "sshole",
-          "points": 3003,
+          "points": 3004,
           "comments": 752,
           "date": "2026-11-05",
           "url": "https://sshhole.com",

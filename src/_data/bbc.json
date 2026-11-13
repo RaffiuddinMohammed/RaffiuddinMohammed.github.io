@@ -1,71 +1,71 @@
 {
-  "updated": "2026-11-13T11:12:29.527Z",
-  "totalStories": 240,
+  "updated": "2026-11-13T19:10:05.179Z",
+  "totalStories": 246,
   "sections": [
     {
       "name": "UK",
-      "count": 20
+      "count": 24
     },
     {
       "name": "World",
-      "count": 18
+      "count": 21
     },
     {
       "name": "Business",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Politics",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Technology",
       "count": 12
     },
     {
-      "name": "Health",
+      "name": "Science",
       "count": 9
     },
     {
-      "name": "Science",
-      "count": 7
+      "name": "Health",
+      "count": 6
     }
   ],
   "topWords": [
     {
       "word": "tech",
-      "count": 12
+      "count": 13
     },
     {
       "word": "burnham",
-      "count": 11
+      "count": 12
     },
     {
       "word": "nvidia",
-      "count": 10
+      "count": 9
+    },
+    {
+      "word": "microsoft",
+      "count": 8
+    },
+    {
+      "word": "outage",
+      "count": 8
     },
     {
       "word": "strike",
       "count": 8
     },
     {
-      "word": "huang",
-      "count": 7
-    },
-    {
-      "word": "labour",
-      "count": 7
-    },
-    {
       "word": "health",
       "count": 7
     },
     {
-      "word": "jensen",
+      "word": "pay",
       "count": 6
     },
     {
-      "word": "affair",
+      "word": "need",
       "count": 6
     },
     {
@@ -73,12 +73,12 @@
       "count": 6
     },
     {
-      "word": "doctors",
+      "word": "labour",
       "count": 6
     },
     {
-      "word": "microsoft",
-      "count": 5
+      "word": "doctors",
+      "count": 6
     }
   ],
   "places": [
@@ -89,16 +89,16 @@
       "count": 27,
       "stories": [
         {
-          "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
-          "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+          "title": "Former Hamas bodyguard guilty of UK knife attack",
+          "link": "https://www.bbc.co.uk/news/articles/c51k9709krxvo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-13T11:09:16.000Z"
+          "date": "2026-11-13T15:51:24.000Z"
         },
         {
-          "title": "England thrashed by Australia in first ODI",
-          "link": "https://www.bbc.co.uk/sport/cricket/articles/c6rrg52pvjpko?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-13T09:31:34.000Z"
+          "title": "Shoplifters 'stealing to order' in Scottish shops",
+          "link": "https://www.bbc.co.uk/news/videos/cw772xkxjm37o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-13T14:16:09.000Z"
         },
         {
           "title": "Smart glasses banned from Welsh Parliament after ruling they could be used for speeches",
@@ -125,16 +125,16 @@
           "date": "2026-11-13T06:31:51.000Z"
         },
         {
+          "title": "Young, Welsh and into politics - but with different views on independence",
+          "link": "https://www.bbc.co.uk/news/articles/ckvgdd9p7171o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-13T06:25:49.000Z"
+        },
+        {
           "title": "Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation",
           "link": "https://www.bbc.co.uk/news/articles/cmkgdw24l1kdo?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-13T06:00:44.000Z"
-        },
-        {
-          "title": "Burnham says 'win-win' deal can be agreed between UK and EU",
-          "link": "https://www.bbc.co.uk/news/articles/cm2l5n07l87vo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-13T01:17:58.000Z"
         }
       ]
     },
@@ -142,8 +142,26 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 11,
+      "count": 14,
       "stories": [
+        {
+          "title": "What could El Niño mean for winter weather in the US and Canada?",
+          "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
+          "section": "Science",
+          "date": "2026-11-13T18:50:15.000Z"
+        },
+        {
+          "title": "Watch: Divers explore US ship sunk off Florida coast to create new reef",
+          "link": "https://www.bbc.co.uk/news/videos/ckqx5ryx905qo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T15:09:40.000Z"
+        },
+        {
+          "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+          "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T12:22:30.000Z"
+        },
         {
           "title": "African Miss Universe beauty queens in limbo as US visa restrictions bite",
           "link": "https://www.bbc.co.uk/news/articles/cklyw3neqg2wo?at_medium=RSS&at_campaign=rss",
@@ -151,10 +169,10 @@
           "date": "2026-11-13T07:01:43.000Z"
         },
         {
-          "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-          "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "title": "Why midterm vote-counting is taking so long in America's largest state",
+          "link": "https://www.bbc.co.uk/news/articles/cqly4ljvr4pjo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-13T02:01:35.000Z"
+          "date": "2026-11-13T00:35:05.000Z"
         },
         {
           "title": "Before Scott Colom, these two men were the last black US senators from Mississippi",
@@ -173,24 +191,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-10T14:45:46.000Z"
-        },
-        {
-          "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-          "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-10T09:23:55.000Z"
-        },
-        {
-          "title": "Zoe Kleinman: Nvidia CEO's affair will cause ripples across US and beyond",
-          "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-09T21:52:28.000Z"
-        },
-        {
-          "title": "US rockets firm eyes up mothballed Highland spaceport",
-          "link": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
-          "section": "Science",
-          "date": "2026-11-06T12:47:23.000Z"
         }
       ]
     },
@@ -203,7 +203,7 @@
         {
           "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
           "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
+          "section": "Business",
           "date": "2026-11-13T03:57:01.000Z"
         },
         {
@@ -245,34 +245,22 @@
       ]
     },
     {
-      "name": "Australia",
-      "lat": -25,
-      "lon": 134,
-      "count": 4,
+      "name": "Canada",
+      "lat": 56,
+      "lon": -106,
+      "count": 2,
       "stories": [
         {
-          "title": "England thrashed by Australia in first ODI",
-          "link": "https://www.bbc.co.uk/sport/cricket/articles/c6rrg52pvjpko?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-13T09:31:34.000Z"
+          "title": "What could El Niño mean for winter weather in the US and Canada?",
+          "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
+          "section": "Science",
+          "date": "2026-11-13T18:50:15.000Z"
         },
         {
-          "title": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
-          "link": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-13T08:20:28.000Z"
-        },
-        {
-          "title": "Australian footballers will not be charged after hotel incident, police say",
-          "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-13T03:02:54.000Z"
-        },
-        {
-          "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-          "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-10T05:22:39.000Z"
+          "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+          "link": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
+          "section": "Science",
+          "date": "2026-11-11T13:24:29.000Z"
         }
       ]
     },
@@ -280,19 +268,13 @@
       "name": "Ukraine",
       "lat": 49,
       "lon": 32,
-      "count": 3,
+      "count": 2,
       "stories": [
         {
-          "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-          "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "title": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+          "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-13T02:01:35.000Z"
-        },
-        {
-          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-12T20:09:16.000Z"
+          "date": "2026-11-13T16:40:31.000Z"
         },
         {
           "title": "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
@@ -303,36 +285,50 @@
       ]
     },
     {
-      "name": "Russia",
-      "lat": 60,
-      "lon": 90,
+      "name": "India",
+      "lat": 22,
+      "lon": 79,
       "count": 2,
       "stories": [
         {
-          "title": "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-          "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
+          "title": "At least 24 killed after bus collides with truck in north-east India",
+          "link": "https://www.bbc.co.uk/news/articles/c6r7g5lp1zrxo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-13T02:01:35.000Z"
+          "date": "2026-11-13T15:16:50.000Z"
         },
         {
-          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-12T20:09:16.000Z"
+          "title": "The Indian workers filming their work to train AI",
+          "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-10-23T08:04:17.000Z"
         }
       ]
     },
     {
-      "name": "Canada",
-      "lat": 56,
-      "lon": -106,
+      "name": "Peru",
+      "lat": -10,
+      "lon": -76,
       "count": 1,
       "stories": [
         {
-          "title": "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
-          "link": "https://www.bbc.co.uk/news/articles/cwg5r8zrm11mo?at_medium=RSS&at_campaign=rss",
-          "section": "Science",
-          "date": "2026-11-11T13:24:29.000Z"
+          "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+          "link": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T18:34:45.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Germany",
+      "lat": 51,
+      "lon": 10,
+      "count": 1,
+      "stories": [
+        {
+          "title": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+          "link": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T15:42:52.000Z"
         }
       ]
     },
@@ -351,34 +347,6 @@
       ]
     },
     {
-      "name": "Italy",
-      "lat": 42,
-      "lon": 12,
-      "count": 1,
-      "stories": [
-        {
-          "title": "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-          "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-12T19:23:02.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Finland",
-      "lat": 64,
-      "lon": 26,
-      "count": 1,
-      "stories": [
-        {
-          "title": "Russian warship hit by Ukrainian drone in Gulf of Finland",
-          "link": "https://www.bbc.co.uk/news/articles/cmn0d33zz34zo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-12T20:09:16.000Z"
-        }
-      ]
-    },
-    {
       "name": "Turkey",
       "lat": 39,
       "lon": 35,
@@ -389,6 +357,20 @@
           "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
           "section": "Science",
           "date": "2026-10-14T05:00:35.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Iran",
+      "lat": 32,
+      "lon": 53,
+      "count": 1,
+      "stories": [
+        {
+          "title": "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+          "link": "https://www.bbc.co.uk/news/articles/cm75261e3pdko?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T12:28:28.000Z"
         }
       ]
     },
@@ -421,16 +403,16 @@
       ]
     },
     {
-      "name": "India",
-      "lat": 22,
-      "lon": 79,
+      "name": "Nigeria",
+      "lat": 9,
+      "lon": 8,
       "count": 1,
       "stories": [
         {
-          "title": "The Indian workers filming their work to train AI",
-          "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-10-23T08:04:17.000Z"
+          "title": "Nigerian university in mourning after four students die at post-exam party",
+          "link": "https://www.bbc.co.uk/news/articles/cmvg2dvw0355o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T11:37:08.000Z"
         }
       ]
     },
@@ -445,6 +427,20 @@
           "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-13T02:48:29.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "lat": -25,
+      "lon": 134,
+      "count": 1,
+      "stories": [
+        {
+          "title": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
+          "link": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-13T08:20:28.000Z"
         }
       ]
     },
@@ -465,76 +461,76 @@
   ],
   "latest": [
     {
-      "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T11:09:16.000Z",
+      "title": "Man who transported Omagh bomb was an MI5 and Garda agent, inquiry told",
+      "link": "https://www.bbc.co.uk/news/articles/cr0jxwv1v266o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T19:04:47.000Z",
       "section": "UK"
     },
     {
-      "title": "How the Microsoft outage has been felt worldwide",
-      "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T11:05:10.000Z",
-      "section": "Technology"
-    },
-    {
-      "title": "What we know about the global Microsoft outage",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:53:40.000Z",
+      "title": "Democratic Senate leader Schumer set to face leadership challenge",
+      "link": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T19:03:10.000Z",
       "section": "World"
     },
     {
-      "title": "Water firm pleads guilty after four killed in blast",
-      "link": "https://www.bbc.co.uk/news/articles/cm8x0l0jp150o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:44:00.000Z",
+      "title": "What could El Niño mean for winter weather in the US and Canada?",
+      "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T18:50:15.000Z",
+      "section": "Science"
+    },
+    {
+      "title": "Tories pay artist for Burnham images after legal threat",
+      "link": "https://www.bbc.co.uk/news/articles/cr5y139wplppo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T18:41:13.000Z",
       "section": "UK"
     },
     {
-      "title": "Piddington to bring legal challenge over asylum base plans",
-      "link": "https://www.bbc.co.uk/news/articles/ckzd91jqvm0lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:30:13.000Z",
-      "section": "UK"
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T18:36:57.000Z",
+      "section": "World"
     },
     {
-      "title": "Man charged over multiple sex assaults at university",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1jp7p5yko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:14:02.000Z",
-      "section": "UK"
+      "title": "The Peruvian city that has embraced Pope Leo as one of its own",
+      "link": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T18:34:45.000Z",
+      "section": "World"
     },
     {
-      "title": "Bride jilted at the altar gives marriage another go - on Friday 13th",
-      "link": "https://www.bbc.co.uk/news/articles/c6d918yppq1ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:01:02.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "England thrashed by Australia in first ODI",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/c6rrg52pvjpko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T09:31:34.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Heat pumps: How much heat does your home really need?",
-      "link": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T09:29:25.000Z",
+      "title": "Are board games making a comeback this Christmas?",
+      "link": "https://www.bbc.co.uk/news/videos/ckp80l667rdjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T18:00:40.000Z",
       "section": "Business"
     },
     {
-      "title": "Australian cricket's sandpapergate is back - and it cuts deep in a 'nation of good sports'",
-      "link": "https://www.bbc.co.uk/news/articles/c6702z750zvyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T08:20:28.000Z",
-      "section": "World"
+      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T17:38:19.000Z",
+      "section": "Technology"
     },
     {
-      "title": "Blink-182 to make Download debut as 2027 festival headliners",
-      "link": "https://www.bbc.co.uk/news/articles/cm62pd078kk7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T07:49:40.000Z",
+      "title": "Courts, spies and MPs: How the Microsoft outage has been felt around the world",
+      "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T17:34:58.000Z",
+      "section": "Technology"
+    },
+    {
+      "title": "Eleanor Donaldson given supervision order and placed on sex offenders' register",
+      "link": "https://www.bbc.co.uk/news/articles/cme87dnngnwjo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T17:19:35.000Z",
       "section": "UK"
     },
     {
-      "title": "Smart glasses banned from Welsh Parliament after ruling they could be used for speeches",
-      "link": "https://www.bbc.co.uk/news/articles/c6p3ew5e4d70o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T07:33:10.000Z",
-      "section": "Politics"
+      "title": "Man jailed for grooming at least 70 girls online",
+      "link": "https://www.bbc.co.uk/news/articles/ckqx5r3j2j4xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T17:10:27.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Mother whose newborn died after failed hospital checks was 'terrified and alone'",
+      "link": "https://www.bbc.co.uk/news/articles/cv62pdgj9g77o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T17:07:11.000Z",
+      "section": "UK"
     }
   ]
 }

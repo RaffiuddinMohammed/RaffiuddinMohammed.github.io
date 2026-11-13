@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-13T11:12:29.918Z",
+  "updated": "2026-11-13T19:10:06.151Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 3603,
-      "comments": 3170,
+      "points": 3970,
+      "comments": 3380,
       "domain": "apnews.com"
-    },
-    {
-      "title": "Anthropic IPO",
-      "url": "https://ipo.anthropic.com/us/",
-      "discuss": "https://news.ycombinator.com/item?id=50465829",
-      "points": 941,
-      "comments": 869,
-      "domain": "ipo.anthropic.com"
-    },
-    {
-      "title": "Service degradation on Microsoft 365",
-      "url": "https://status.cloud.microsoft/",
-      "discuss": "https://news.ycombinator.com/item?id=50471731",
-      "points": 928,
-      "comments": 803,
-      "domain": "status.cloud.microsoft"
     },
     {
       "title": "Rust 1.100",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
       "discuss": "https://news.ycombinator.com/item?id=50472038",
-      "points": 702,
-      "comments": 262,
+      "points": 856,
+      "comments": 309,
       "domain": "blog.rust-lang.org"
-    },
-    {
-      "title": "Nvidia employees petition to bring back Jensen Huang",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "discuss": "https://news.ycombinator.com/item?id=50477231",
-      "points": 618,
-      "comments": 457,
-      "domain": "wired.com"
     },
     {
       "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "url": "https://github.com/simpsoka/zigzag",
       "discuss": "https://news.ycombinator.com/item?id=50470488",
-      "points": 540,
-      "comments": 186,
+      "points": 705,
+      "comments": 229,
       "domain": "github.com"
     },
     {
-      "title": "Gemini 4 Hydrogen",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-      "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 532,
-      "comments": 334,
-      "domain": "blog.google"
+      "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+      "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+      "discuss": "https://news.ycombinator.com/item?id=50474959",
+      "points": 525,
+      "comments": 150,
+      "domain": "scottjg.com"
     },
     {
-      "title": "Gemini 4 Hydrogen and Orchestrator",
-      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
-      "discuss": "https://news.ycombinator.com/item?id=50472260",
-      "points": 423,
-      "comments": 119,
-      "domain": "antigravity.google"
-    },
-    {
-      "title": "I'm making LLMs work on small and old devices",
-      "url": "https://github.com/hyperionaidev/smolmaxxing/",
-      "discuss": "https://news.ycombinator.com/item?id=50468888",
-      "points": 383,
-      "comments": 136,
-      "domain": "github.com"
-    },
-    {
-      "title": "Microsoft Outlook/365 still down after 12 hours",
-      "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
-      "discuss": "https://news.ycombinator.com/item?id=50478609",
-      "points": 327,
-      "comments": 232,
+      "title": "LibreOffice actually works 365 days a year",
+      "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+      "discuss": "https://news.ycombinator.com/item?id=50486482",
+      "points": 477,
+      "comments": 168,
       "domain": "twitter.com"
+    },
+    {
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "discuss": "https://news.ycombinator.com/item?id=50481187",
+      "points": 457,
+      "comments": 366,
+      "domain": "status.claude.com"
+    },
+    {
+      "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+      "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+      "discuss": "https://news.ycombinator.com/item?id=50482379",
+      "points": 364,
+      "comments": 262,
+      "domain": "science.org"
+    },
+    {
+      "title": "IceWM",
+      "url": "https://ice-wm.org/",
+      "discuss": "https://news.ycombinator.com/item?id=50478515",
+      "points": 339,
+      "comments": 191,
+      "domain": "ice-wm.org"
+    },
+    {
+      "title": "AI is destroying the trust between writers and readers",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "discuss": "https://news.ycombinator.com/item?id=50481870",
+      "points": 249,
+      "comments": 137,
+      "domain": "theatlantic.com"
+    },
+    {
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "discuss": "https://news.ycombinator.com/item?id=50477649",
+      "points": 241,
+      "comments": 137,
+      "domain": "brave.com"
     }
   ],
-  "totalPoints": 12053,
+  "totalPoints": 9495,
   "storyCount": 30
 }
