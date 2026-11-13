@@ -33,8 +33,9 @@
     {% if outages.services and page.url != '/dashboards/outages/' %}
     {% set downAll = outages.services | rejectLevel('ok') %}
     {% set worst = 'major' if (outages.services | atLevel('major')).length else ('minor' if downAll.length else 'ok') %}
-    <a class="flash lvl-{{ worst }}" href="/dashboards/outages/" aria-label="Outage watch: {% if downAll.length %}{{ downAll.length }} services reporting problems{% else %}all services running normally{% endif %}. Open the dashboard.">
-      <span class="wrap flash-in">
+    <div class="flash lvl-{{ worst }}">
+      <div class="wrap flash-in">
+      <a class="flash-main" href="/dashboards/outages/" aria-label="Outage watch: {% if downAll.length %}{{ downAll.length }} services reporting problems{% else %}all services running normally{% endif %}. Open the dashboard.">
         <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>{% if downAll.length %}Live · Outages{% else %}All clear{% endif %}</span>
         {% if downAll.length %}
         <span class="flash-track" aria-hidden="true"><span class="flash-run">
@@ -44,8 +45,10 @@
         <span class="flash-static">All {{ outages.services.length }} services we watch are running normally</span>
         {% endif %}
         <span class="flash-go">Outage watch →</span>
-      </span>
-    </a>
+      </a>
+      <a class="flash-rss" href="/dashboards/outages/feed.xml" title="Get outage alerts in your feed reader" aria-label="Subscribe to Outage watch by RSS"><svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true"><circle cx="3" cy="13" r="2" fill="currentColor"/><path d="M1 7a8 8 0 0 1 8 8M1 2a13 13 0 0 1 13 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>RSS</a>
+      </div>
+    </div>
     {% endif %}
   </header>
   <main class="wrap">
