@@ -22,6 +22,7 @@ permalink: /dashboards/outages/
     {% endfor %}
   </div>
   <p class="muted live"><span class="pulse" aria-hidden="true"></span>Last checked {{ outages.checked | when }}</p>
+  <p class="muted credit">Thanks to Gabor for suggesting where the live outage ticker should sit, right under the navigation.</p>
 </section>
 
 {% set bars = { label: 'Incidents per service, last 30 days', unit: 'incidents', rows: outages.incidents | incidentCounts } %}
