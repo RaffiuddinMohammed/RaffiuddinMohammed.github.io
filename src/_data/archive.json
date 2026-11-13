@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T10:57:27.678Z",
+  "updated": "2026-11-13T11:05:10.239Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -585,11 +585,11 @@
     },
     {
       "date": "2026-11-13",
-      "totalStories": 239,
+      "totalStories": 240,
       "sections": [
         {
           "name": "UK",
-          "count": 19
+          "count": 20
         },
         {
           "name": "World",
@@ -992,8 +992,18 @@
       ],
       "topHeadlines": [
         {
+          "title": "What we know about the global Microsoft outage",
+          "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
           "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
           "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Water firm pleads guilty after four killed in blast",
+          "link": "https://www.bbc.co.uk/news/articles/cm8x0l0jp150o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
@@ -1005,23 +1015,13 @@
           "title": "Man charged over multiple sex assaults at university",
           "link": "https://www.bbc.co.uk/news/articles/cm5y1jp7p5yko?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Bride jilted at the altar gives marriage another go - on Friday 13th",
-          "link": "https://www.bbc.co.uk/news/articles/c6d918yppq1ko?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "What we know about the global Microsoft outage",
-          "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3593
+          "points": 3595
         },
         {
           "title": "Anthropic IPO",
@@ -1031,7 +1031,7 @@
         {
           "title": "Service degradation on Microsoft 365",
           "url": "https://status.cloud.microsoft/",
-          "points": 916
+          "points": 919
         }
       ]
     }

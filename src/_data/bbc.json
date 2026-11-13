@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-13T10:49:55.499Z",
-  "totalStories": 239,
+  "updated": "2026-11-13T10:58:02.743Z",
+  "totalStories": 240,
   "sections": [
     {
       "name": "UK",
-      "count": 19
+      "count": 20
     },
     {
       "name": "World",
@@ -471,9 +471,21 @@
   ],
   "latest": [
     {
+      "title": "What we know about the global Microsoft outage",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T10:53:40.000Z",
+      "section": "World"
+    },
+    {
       "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
       "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T10:45:21.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Water firm pleads guilty after four killed in blast",
+      "link": "https://www.bbc.co.uk/news/articles/cm8x0l0jp150o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T10:44:00.000Z",
       "section": "UK"
     },
     {
@@ -493,12 +505,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c6d918yppq1ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T10:01:02.000Z",
       "section": "UK"
-    },
-    {
-      "title": "What we know about the global Microsoft outage",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T09:59:20.000Z",
-      "section": "World"
     },
     {
       "title": "England thrashed by Australia in first ODI",
@@ -535,12 +541,6 @@
       "link": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T07:18:17.000Z",
       "section": "World"
-    },
-    {
-      "title": "National Trust takes back land for nature restoration",
-      "link": "https://www.bbc.co.uk/news/articles/cqvg257kl440o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T07:04:09.000Z",
-      "section": "Science"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-13T10:49:55.726Z",
+  "updated": "2026-11-13T10:58:03.060Z",
   "stories": [
     {
       "title": "Jensen Huang resigns",
       "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
       "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 3593,
-      "comments": 3162,
+      "points": 3595,
+      "comments": 3164,
       "domain": "apnews.com"
     },
     {
@@ -21,8 +21,8 @@
       "title": "Service degradation on Microsoft 365",
       "url": "https://status.cloud.microsoft/",
       "discuss": "https://news.ycombinator.com/item?id=50471731",
-      "points": 916,
-      "comments": 790,
+      "points": 919,
+      "comments": 796,
       "domain": "status.cloud.microsoft"
     },
     {
@@ -37,7 +37,7 @@
       "title": "Nvidia employees petition to bring back Jensen Huang",
       "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
       "discuss": "https://news.ycombinator.com/item?id=50477231",
-      "points": 611,
+      "points": 612,
       "comments": 452,
       "domain": "wired.com"
     },
@@ -45,7 +45,7 @@
       "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
       "url": "https://github.com/simpsoka/zigzag",
       "discuss": "https://news.ycombinator.com/item?id=50470488",
-      "points": 538,
+      "points": 539,
       "comments": 184,
       "domain": "github.com"
     },
@@ -53,7 +53,7 @@
       "title": "Gemini 4 Hydrogen",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
       "discuss": "https://news.ycombinator.com/item?id=50471431",
-      "points": 531,
+      "points": 532,
       "comments": 334,
       "domain": "blog.google"
     },
@@ -61,27 +61,27 @@
       "title": "Gemini 4 Hydrogen and Orchestrator",
       "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
       "discuss": "https://news.ycombinator.com/item?id=50472260",
-      "points": 421,
-      "comments": 116,
+      "points": 422,
+      "comments": 117,
       "domain": "antigravity.google"
     },
     {
       "title": "I'm making LLMs work on small and old devices",
       "url": "https://github.com/hyperionaidev/smolmaxxing/",
       "discuss": "https://news.ycombinator.com/item?id=50468888",
-      "points": 378,
+      "points": 379,
       "comments": 135,
       "domain": "github.com"
     },
     {
-      "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
-      "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/",
-      "discuss": "https://news.ycombinator.com/item?id=50472490",
+      "title": "Microsoft Outlook/365 still down after 12 hours",
+      "url": "https://twitter.com/MSFT365Status/status/2121079061774491735",
+      "discuss": "https://news.ycombinator.com/item?id=50478609",
       "points": 319,
-      "comments": 129,
-      "domain": "smithsonianmag.com"
+      "comments": 223,
+      "domain": "twitter.com"
     }
   ],
-  "totalPoints": 11914,
+  "totalPoints": 11967,
   "storyCount": 30
 }
