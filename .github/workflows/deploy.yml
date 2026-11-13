@@ -2,7 +2,7 @@ name: Refresh data and deploy
 
 on:
   schedule:
-    - cron: '0 6 * * *'   # every morning, 06:00 UTC
+    - cron: '23 5 * * *'  # every morning, 05:23 UTC (off the hour: GitHub drops busy on-the-hour schedules)
   push:
     branches: [main]
   workflow_dispatch:
