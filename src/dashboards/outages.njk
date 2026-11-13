@@ -1,0 +1,53 @@
+---
+layout: base.njk
+title: Outage watch
+permalink: /dashboards/outages/
+---
+{% set down = [] %}{% for s in outages.services %}{% if s.level != 'ok' %}{% set down = (down.push(s), down) %}{% endif %}{% endfor %}
+<div class="page-head">
+  <div class="eyebrow">Dashboard · Status pages</div>
+  <h1>Outage watch</h1>
+  <p class="lede">{% if down.length %}<b>{{ down.length }} of {{ outages.services.length }}</b> services we watch are reporting problems right now.{% else %}All {{ outages.services.length }} services we watch are running normally right now.{% endif %} Checked every 30 minutes against each company's own status page.</p>
+</div>
+
+<section>
+  <div class="status-grid">
+    {% for s in outages.services %}
+    <a class="card status-tile lvl-{{ s.level }} reveal" href="{{ s.url }}" rel="noopener" target="_blank">
+      <span class="st-head"><span class="st-dot" aria-hidden="true"></span><b>{{ s.name }}</b>
+        <span class="st-word">{% if s.level == 'major' %}Major problem{% elif s.level == 'minor' %}Having issues{% else %}Operational{% endif %}</span></span>
+      {% if s.level != 'ok' %}<span class="st-note">{{ s.note }}</span>{% endif %}
+      {% if s.stale %}<span class="st-note muted">Status page didn't answer; showing the last known state.</span>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  <p class="muted live"><span class="pulse" aria-hidden="true"></span>Last checked {{ outages.checked | when }}</p>
+</section>
+
+{% set bars = { label: 'Incidents per service, last 30 days', unit: 'incidents', rows: outages.incidents | incidentCounts } %}
+{% if bars.rows.length %}
+<section>
+  <div class="card chart-card">
+    <h2>Who had the most incidents</h2>
+    <p class="muted">Incidents each company reported on its status page in the last 30 days. More reports can mean more honesty, not just more trouble.</p>
+    <div class="chart" data-chart="bar" data-src="outage-bars"></div>
+  </div>
+</section>
+<script type="application/json" id="outage-bars">{{ bars | json | safe }}</script>
+{% endif %}
+
+<section>
+  <div class="card">
+    <h2>Incident log</h2>
+    <ul class="storylist">
+      {% for i in outages.incidents %}{% if loop.index <= 60 %}
+      <li><span class="tag lvl-{% if not i.end %}{{ i.impact }}{% else %}done{% endif %}">{% if not i.end %}Ongoing{% else %}Resolved{% endif %}</span>
+        <b>{{ i.service }}</b>: <a href="{{ i.url }}" rel="noopener" target="_blank">{{ i.title }}</a>
+        <div class="meta">{% if i.observed %}First seen by us{% else %}Started{% endif %} {{ i.start | when }}{% if i.end %} · lasted {{ i.start | lasted(i.end) }}{% endif %} · {{ i.impact }} impact</div></li>
+      {% endif %}{% endfor %}
+    </ul>
+  </div>
+  <p class="muted">Sources: the public status pages of each service (Atlassian Statuspage, Google Cloud, Microsoft 365 and Slack status APIs).
+    Microsoft 365 and Slack only publish what is happening now, so their history is what this site has seen since 13 Nov 2026, and their start time is when we first saw it.
+    Crowd-sourced sites such as Downdetector don't offer open data, so they aren't included.</p>
+</section>

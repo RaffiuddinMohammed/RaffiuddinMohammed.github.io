@@ -511,3 +511,23 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
   .dm-copy { width: 100%; }
   .code-body { max-height: 260px; }
 }
+
+/* ---------- Outage watch ---------- */
+:root { --ok: #1baf7a; --minor: #d9a21b; --major: #e0453a; }
+.status-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.status-tile { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; color: var(--text); border-left: 4px solid var(--lvl, var(--ok)); transition: transform .2s; }
+.status-tile:hover { text-decoration: none; transform: translateY(-2px); }
+.lvl-ok { --lvl: var(--ok); } .lvl-minor { --lvl: var(--minor); } .lvl-major { --lvl: var(--major); } .lvl-done { --lvl: var(--muted); }
+.st-head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.st-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--lvl); flex: none; }
+.lvl-minor .st-dot, .lvl-major .st-dot { animation: pulse 2s infinite; box-shadow: 0 0 0 0 var(--lvl); }
+.st-word { margin-left: auto; font-size: .75rem; font-weight: 600; color: var(--lvl); }
+.lvl-ok .st-word { color: var(--muted); }
+.st-note { font-size: .82rem; color: var(--text-2); overflow-wrap: anywhere; }
+.status-tile.lvl-major { background: color-mix(in srgb, var(--major) 8%, var(--surface)); }
+.status-tile.lvl-minor { background: color-mix(in srgb, var(--minor) 7%, var(--surface)); }
+.tag { display: inline-block; font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; padding: 2px 8px; border-radius: 999px; margin-right: 6px;
+  color: var(--lvl); background: color-mix(in srgb, var(--lvl) 14%, transparent); }
+.outage-strip { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 14px; font-size: .85rem; }
+.outage-strip .os-item { display: inline-flex; align-items: center; gap: 6px; color: var(--text-2); }
+.outage-strip .os-item .st-dot { width: 8px; height: 8px; }

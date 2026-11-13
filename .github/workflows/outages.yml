@@ -1,0 +1,61 @@
+name: Outage watch
+
+# Checks public status pages every 30 minutes and redeploys the site with the result.
+# Off the hour on purpose: GitHub drops busy on-the-hour schedules.
+on:
+  schedule:
+    - cron: '11,41 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # commit outages.json back so the incident log builds up
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages      # shared with the daily refresh, so two deploys never race
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Check status pages
+        id: check
+        run: echo "result=$(node scripts/fetch-outages.mjs | tail -1)" >> "$GITHUB_OUTPUT"
+      - name: Save the log (only when something changed, to keep commits down)
+        if: steps.check.outputs.result == 'changed'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/_data/outages.json
+          git commit -m "Outage watch: status changed"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          echo "::warning::Could not save outages.json back to the repo; the site still deploys with it"
+      - name: Build site
+        run: npm run build
+        env:
+          PATH_PREFIX: ${{ endsWith(github.event.repository.name, '.github.io') && '/' || format('/{0}/', github.event.repository.name) }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

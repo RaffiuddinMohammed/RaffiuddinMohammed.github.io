@@ -17,5 +17,13 @@ export default function (cfg) {
     const h = Math.round((Date.now() - Date.parse(iso)) / 36e5);
     return h < 1 ? 'just now' : h < 24 ? `${h}h ago` : `${Math.round(h / 24)}d ago`;
   });
+  // outage log helpers
+  cfg.addFilter('atLevel', (services, level) => (services ?? []).filter((s) => s.level === level));
+  cfg.addFilter('incidentCounts', (list) => Object.entries((list ?? []).reduce((m, i) => ((m[i.service] = (m[i.service] ?? 0) + 1), m), {}))
+    .sort((a, b) => b[1] - a[1]).map(([label, value]) => ({ label, value })));
+  cfg.addFilter('lasted', (start, end) => {
+    const m = Math.max(1, Math.round((Date.parse(end) - Date.parse(start)) / 6e4));
+    return m < 60 ? `${m} min` : m < 2880 ? `${Math.round(m / 6) / 10} h`.replace('.0 h', ' h') : `${Math.round(m / 1440)} days`;
+  });
   return { dir: { input: 'src', output: '_site' }, pathPrefix: process.env.PATH_PREFIX || '/' };
 }

@@ -43,6 +43,13 @@ three: true
     </div>
   </div>
   <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
+  {% if outages.services %}
+  <a class="outage-strip" href="/dashboards/outages/" aria-label="Outage watch: service status">
+    <b>Outage watch</b>
+    {% for o in outages.services %}{% if o.level != 'ok' %}<span class="os-item lvl-{{ o.level }}"><span class="st-dot" aria-hidden="true"></span>{{ o.name }}</span>{% endif %}{% endfor %}
+    <span class="muted">{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }} services OK · checked {{ outages.checked | when }} →</span>
+  </a>
+  {% endif %}
 </section>
 
 <section class="demo-teaser" aria-label="Test automation demo">
@@ -80,6 +87,13 @@ three: true
       <p class="muted">The most upvoted stories on the Hacker News front page right now.</p>
       <span class="go">Open dashboard →</span>
     </a>
+    {% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
+    <a class="card dash tint-4 reveal" href="/dashboards/outages/">
+      <span class="icon" aria-hidden="true">🚨</span>
+      <h3>Outage watch</h3>
+      <p class="muted">{% if downNow.length %}<b>Right now:</b> {{ downNow | join(', ') }} {{ 'is' if downNow.length == 1 else 'are' }} reporting problems.{% else %}{{ outages.services.length }} major online services, all running normally right now.{% endif %} Checked every 30 minutes.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
   </div>
 </section>
 
@@ -88,7 +102,7 @@ three: true
   <p class="muted">The same pattern I use for automated test pipelines: scheduled, self-checking, zero cost.</p>
   <ol class="steps colourful">
     <li><b>Schedule</b>A GitHub Action wakes up every morning.</li>
-    <li><b>Collect</b>A Node script pulls GDELT, BBC and Hacker News data, with retries and fallbacks.</li>
+    <li><b>Collect</b>A Node script pulls GDELT, BBC and Hacker News data, with retries and fallbacks. A second job checks 14 service status pages every 30 minutes.</li>
     <li><b>Build</b>Eleventy turns the data into static pages and charts.</li>
     <li><b>Publish</b>GitHub Pages serves it free. If a source is down, yesterday's data stays up.</li>
   </ol>

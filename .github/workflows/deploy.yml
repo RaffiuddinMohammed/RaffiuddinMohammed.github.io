@@ -29,6 +29,8 @@ jobs:
       - run: npm ci
       - name: Fetch news data
         run: npm run data
+      - name: Check status pages (so this deploy doesn't roll the outage watch back)
+        run: node scripts/fetch-outages.mjs || true
       - name: Save refreshed data
         run: |
           git config user.name "github-actions[bot]"

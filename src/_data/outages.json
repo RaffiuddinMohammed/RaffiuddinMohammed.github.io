@@ -1,0 +1,999 @@
+{
+  "checked": "2026-11-13T10:56:00.670Z",
+  "services": [
+    {
+      "name": "Microsoft 365",
+      "level": "minor",
+      "note": "Users may be unable to access or perform several actions in Microsoft 365 services",
+      "url": "https://status.cloud.microsoft"
+    },
+    {
+      "name": "GitHub",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://www.githubstatus.com"
+    },
+    {
+      "name": "Cloudflare",
+      "level": "minor",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "url": "https://www.cloudflarestatus.com"
+    },
+    {
+      "name": "OpenAI",
+      "level": "minor",
+      "note": "Elevated errors affecting the Microsoft 365 connector",
+      "url": "https://status.openai.com"
+    },
+    {
+      "name": "Atlassian",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://status.atlassian.com"
+    },
+    {
+      "name": "Stripe",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://www.stripestatus.com"
+    },
+    {
+      "name": "Reddit",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://www.redditstatus.com"
+    },
+    {
+      "name": "Dropbox",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://status.dropbox.com"
+    },
+    {
+      "name": "Figma",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://status.figma.com"
+    },
+    {
+      "name": "Vercel",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://www.vercel-status.com"
+    },
+    {
+      "name": "npm",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://status.npmjs.org"
+    },
+    {
+      "name": "DigitalOcean",
+      "level": "ok",
+      "note": "All Systems Operational",
+      "url": "https://status.digitalocean.com"
+    },
+    {
+      "name": "Google Cloud",
+      "level": "ok",
+      "note": "All services operational",
+      "url": "https://status.cloud.google.com"
+    },
+    {
+      "name": "Slack",
+      "level": "ok",
+      "note": "All services operational",
+      "url": "https://slack-status.com"
+    }
+  ],
+  "incidents": [
+    {
+      "service": "Microsoft 365",
+      "title": "Users may be unable to access or perform several actions in Microsoft 365 services",
+      "impact": "minor",
+      "url": "https://status.cloud.microsoft",
+      "observed": true,
+      "start": "2026-11-13T10:56:00.670Z",
+      "end": null
+    },
+    {
+      "service": "OpenAI",
+      "title": "Sites: Publishing failing",
+      "impact": "minor",
+      "start": "2026-11-13T03:59:08Z",
+      "end": "2026-11-13T05:55:44Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Durable Objects increased error rates in North America",
+      "impact": "minor",
+      "start": "2026-11-12T22:39:40.553Z",
+      "end": "2026-11-13T03:44:49.800Z",
+      "url": "https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7"
+    },
+    {
+      "service": "Dropbox",
+      "title": "Elevated Latency on help.dropbox.com",
+      "impact": "minor",
+      "start": "2026-11-12T22:20:40.476Z",
+      "end": "2026-11-12T22:33:51.692Z",
+      "url": "https://stspg.io/hghgm9x3735x"
+    },
+    {
+      "service": "GitHub",
+      "title": "Disruption with Email Delivery",
+      "impact": "minor",
+      "start": "2026-11-12T19:36:45.563Z",
+      "end": "2026-11-12T21:43:56.551Z",
+      "url": "https://stspg.io/lr8v4v8t7gs2"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Webhooks API",
+      "impact": "minor",
+      "start": "2026-11-12T18:43:13.817Z",
+      "end": "2026-11-12T19:33:54.248Z",
+      "url": "https://stspg.io/ns57pv7lmynl"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated errors affecting the Microsoft 365 connector",
+      "impact": "minor",
+      "start": "2026-11-12T18:29:14Z",
+      "end": null,
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "OpenAI",
+      "title": "GPT-image-2.5 and 2.6 Sunburst & Flare High error rate",
+      "impact": "minor",
+      "start": "2026-11-12T08:52:35Z",
+      "end": "2026-11-12T09:25:12Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Replicate Issue",
+      "impact": "minor",
+      "start": "2026-11-12T08:30:17.012Z",
+      "end": "2026-11-12T11:34:02.628Z",
+      "url": "https://www.cloudflarestatus.com/incidents/1na2mbfshgdh"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "DNSSEC Configuration Change Issues",
+      "impact": "minor",
+      "start": "2026-11-12T04:53:29.795Z",
+      "end": "2026-11-12T05:26:45.720Z",
+      "url": "https://www.cloudflarestatus.com/incidents/8odt36zmvm36"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Unable to start new Workspace Agent runs",
+      "impact": "major",
+      "start": "2026-11-11T22:50:17Z",
+      "end": "2026-11-12T08:32:37Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Impact across multiple GitHub products including Actions, Pages, and Copilot products.",
+      "impact": "major",
+      "start": "2026-11-11T20:48:12.265Z",
+      "end": "2026-11-11T21:21:39.473Z",
+      "url": "https://stspg.io/jdjlq5zjyl48"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated errors affecting logins, sign-ups, and ChatGPT features",
+      "impact": "minor",
+      "start": "2026-11-11T20:43:51Z",
+      "end": "2026-11-11T20:52:40Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Webhooks",
+      "impact": "minor",
+      "start": "2026-11-11T20:22:20.729Z",
+      "end": "2026-11-11T20:26:23.897Z",
+      "url": "https://stspg.io/r0jrtx03yvll"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Degraded",
+      "impact": "minor",
+      "start": "2026-11-11T15:53:19.709Z",
+      "end": "2026-11-11T16:18:51.073Z",
+      "url": "https://www.cloudflarestatus.com/incidents/804glbb3pq6t"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Workers deployments errors with D1 bindings",
+      "impact": "minor",
+      "start": "2026-11-11T13:09:04.520Z",
+      "end": "2026-11-11T13:03:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/3ptyvdaljq9b"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated number of 5xx errors in Hong Kong",
+      "impact": "minor",
+      "start": "2026-11-11T07:52:21.120Z",
+      "end": "2026-11-11T07:45:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/4qxszy04pdjw"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "SSL Certificate Provisioning Issue",
+      "impact": "minor",
+      "start": "2026-11-11T07:45:42.146Z",
+      "end": "2026-11-11T10:07:58.207Z",
+      "url": "https://www.cloudflarestatus.com/incidents/21vwp89eiyjx"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Worker Builds Issue",
+      "impact": "minor",
+      "start": "2026-11-11T06:29:09.044Z",
+      "end": "2026-11-11T06:41:33.983Z",
+      "url": "https://www.cloudflarestatus.com/incidents/byzl30zyfc47"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Replicate Model Registry Unavailable",
+      "impact": "minor",
+      "start": "2026-11-11T04:33:19.016Z",
+      "end": "2026-11-13T01:44:17.916Z",
+      "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in St. Louis, USA",
+      "impact": "minor",
+      "start": "2026-11-10T22:50:23.422Z",
+      "end": "2026-11-11T01:10:26.486Z",
+      "url": "https://www.cloudflarestatus.com/incidents/1h9c85fz6bm3"
+    },
+    {
+      "service": "Vercel",
+      "title": "Elevated Sandbox and Blob request latency and errors",
+      "impact": "minor",
+      "start": "2026-11-10T21:04:28.549Z",
+      "end": "2026-11-10T21:04:28.649Z",
+      "url": "https://stspg.io/16064cy91gh1"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Prediction issue on OpenAI models via Replicate",
+      "impact": "minor",
+      "start": "2026-11-10T18:35:39.915Z",
+      "end": "2026-11-10T19:06:59.931Z",
+      "url": "https://www.cloudflarestatus.com/incidents/3en9cdyjn2sq"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Git Operations and Pull Requests",
+      "impact": "major",
+      "start": "2026-11-10T16:10:52.174Z",
+      "end": "2026-11-10T17:55:03.552Z",
+      "url": "https://stspg.io/16nsnk2th3rv"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Account Analytics Filter Issue",
+      "impact": "minor",
+      "start": "2026-11-10T08:02:37.766Z",
+      "end": "2026-11-10T08:45:13.933Z",
+      "url": "https://www.cloudflarestatus.com/incidents/m644az5hr9xo"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "impact": "minor",
+      "start": "2026-11-10T01:53:58.905Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
+    },
+    {
+      "service": "GitHub",
+      "title": "Degraded availability for GPT-5.3 Codex and GPT-5.6 models in Copilot",
+      "impact": "major",
+      "start": "2026-11-09T23:16:32.233Z",
+      "end": "2026-11-10T00:05:52.345Z",
+      "url": "https://stspg.io/t5gqmprtrdf2"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated Errors On API",
+      "impact": "minor",
+      "start": "2026-11-09T23:08:12Z",
+      "end": "2026-11-09T23:50:46Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated ChatGPT Conversation Errors",
+      "impact": "minor",
+      "start": "2026-11-09T18:16:30Z",
+      "end": "2026-11-09T19:08:31Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions and Checks API",
+      "impact": "major",
+      "start": "2026-11-09T18:12:37.242Z",
+      "end": "2026-11-09T18:59:32.565Z",
+      "url": "https://stspg.io/7yw63xl9ztrv"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Eastern North America",
+      "impact": "minor",
+      "start": "2026-11-09T16:34:35.356Z",
+      "end": "2026-11-09T20:12:27.071Z",
+      "url": "https://www.cloudflarestatus.com/incidents/88hc76jnq2gn"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Changes made to Workers may be delayed or disrupted",
+      "impact": "minor",
+      "start": "2026-11-09T16:15:26.798Z",
+      "end": "2026-11-10T01:46:28.887Z",
+      "url": "https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Webhooks and Actions",
+      "impact": "major",
+      "start": "2026-11-09T10:00:35.232Z",
+      "end": "2026-11-09T11:50:35.774Z",
+      "url": "https://stspg.io/4vdghm7tycm4"
+    },
+    {
+      "service": "GitHub",
+      "title": "Increased timeouts due to surge in anonymous users",
+      "impact": "minor",
+      "start": "2026-11-09T05:59:07.851Z",
+      "end": "2026-11-09T09:09:56.174Z",
+      "url": "https://stspg.io/jztczfplj6yb"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated errors with image generation",
+      "impact": "minor",
+      "start": "2026-11-08T15:11:15Z",
+      "end": "2026-11-08T17:00:42Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Increase in timeouts for some unauthenticated users",
+      "impact": "minor",
+      "start": "2026-11-08T10:36:05.481Z",
+      "end": "2026-11-08T12:32:35.611Z",
+      "url": "https://stspg.io/5yt31mfmyc6p"
+    },
+    {
+      "service": "npm",
+      "title": "Minor issues impacting package publish",
+      "impact": "minor",
+      "start": "2026-11-07T14:28:25.152Z",
+      "end": "2026-11-07T15:05:04.230Z",
+      "url": "https://stspg.io/tf64mpt4xjfv"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Chicago",
+      "impact": "minor",
+      "start": "2026-11-07T05:34:24.281Z",
+      "end": "2026-11-07T05:12:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/x9orajjmvvwa"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Spectrum Availability Issue in Phoenix",
+      "impact": "minor",
+      "start": "2026-11-07T00:59:31.548Z",
+      "end": "2026-11-09T14:36:55.910Z",
+      "url": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Fedramp Customers have Delayed Purges",
+      "impact": "minor",
+      "start": "2026-11-06T17:47:15.545Z",
+      "end": "2026-11-12T16:36:32.465Z",
+      "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Wrangler Deployments, Pages, and Workers Builds failures",
+      "impact": "minor",
+      "start": "2026-11-06T09:47:17.426Z",
+      "end": "2026-11-06T10:08:30.899Z",
+      "url": "https://www.cloudflarestatus.com/incidents/wtsd415cavkc"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Singapore",
+      "impact": "minor",
+      "start": "2026-11-06T08:54:00.339Z",
+      "end": "2026-11-06T10:43:38.174Z",
+      "url": "https://www.cloudflarestatus.com/incidents/3ehw20ozwlkr"
+    },
+    {
+      "service": "GitHub",
+      "title": "Degraded performance for multiple GitHub services",
+      "impact": "minor",
+      "start": "2026-11-05T23:36:06.204Z",
+      "end": "2026-11-06T00:20:49.344Z",
+      "url": "https://stspg.io/s5bs6jn41fwh"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Workers Builds Issues",
+      "impact": "minor",
+      "start": "2026-11-05T19:51:39.176Z",
+      "end": "2026-11-05T20:20:10.166Z",
+      "url": "https://www.cloudflarestatus.com/incidents/yaa0witbl2me"
+    },
+    {
+      "service": "Vercel",
+      "title": "Build delays and degraded Vercel Dashboard performance",
+      "impact": "minor",
+      "start": "2026-11-05T18:25:10.527Z",
+      "end": "2026-11-05T18:50:23.107Z",
+      "url": "https://stspg.io/y6fmg7s9m5t2"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions",
+      "impact": "minor",
+      "start": "2026-11-05T16:50:11.086Z",
+      "end": "2026-11-05T17:42:35.425Z",
+      "url": "https://stspg.io/lv4q3xm9r0rk"
+    },
+    {
+      "service": "OpenAI",
+      "title": "ChatGPT Work and Dots Errors",
+      "impact": "minor",
+      "start": "2026-11-05T15:25:03Z",
+      "end": "2026-11-06T04:31:37Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network disruption across multiple colocations in India",
+      "impact": "minor",
+      "start": "2026-11-05T15:05:13.791Z",
+      "end": "2026-11-05T16:16:48.247Z",
+      "url": "https://www.cloudflarestatus.com/incidents/1i6fnludjh1m"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Errors for Durable Objects in Western Europe",
+      "impact": "minor",
+      "start": "2026-11-05T13:23:55.346Z",
+      "end": "2026-11-06T09:05:19.945Z",
+      "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated error rates across paid ChatGPT plans",
+      "impact": "minor",
+      "start": "2026-11-04T22:38:12Z",
+      "end": "2026-11-05T00:32:37Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions",
+      "impact": "major",
+      "start": "2026-11-04T17:40:33.675Z",
+      "end": "2026-11-04T18:16:08.361Z",
+      "url": "https://stspg.io/7pwv28hvkmz8"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions and Pages",
+      "impact": "major",
+      "start": "2026-11-04T16:05:31.580Z",
+      "end": "2026-11-04T17:01:11.503Z",
+      "url": "https://stspg.io/pjgptg3cfc6n"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Latency and Errors for R2 and Downstream Services in Western North America (WNAM)",
+      "impact": "minor",
+      "start": "2026-11-04T14:43:39.555Z",
+      "end": "2026-11-03T22:15:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/dr9s0uvzwk6n"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network latency issues in NRT",
+      "impact": "minor",
+      "start": "2026-11-04T13:39:26.804Z",
+      "end": "2026-11-04T15:33:09.877Z",
+      "url": "https://www.cloudflarestatus.com/incidents/nbnize4e990z"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Pull Requests, Git Operations and Issues",
+      "impact": "major",
+      "start": "2026-11-04T09:49:55.685Z",
+      "end": "2026-11-04T11:50:06.424Z",
+      "url": "https://stspg.io/18blsgwnbyy6"
+    },
+    {
+      "service": "GitHub",
+      "title": "Increased task-related errors for Copilot Mission Control",
+      "impact": "minor",
+      "start": "2026-11-04T08:45:00.281Z",
+      "end": "2026-11-04T10:01:44.560Z",
+      "url": "https://stspg.io/hj74883wgn0t"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Pages Upload Issue",
+      "impact": "minor",
+      "start": "2026-11-04T07:11:09.647Z",
+      "end": "2026-11-04T06:35:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/me060q7dbayp"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Git Operations",
+      "impact": "minor",
+      "start": "2026-11-03T20:57:14.438Z",
+      "end": "2026-11-03T22:41:03.289Z",
+      "url": "https://stspg.io/n478rfsspcmr"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Durable Object Errors in the Dallas, TX US region",
+      "impact": "minor",
+      "start": "2026-11-03T15:38:17.485Z",
+      "end": "2026-11-03T16:42:01.479Z",
+      "url": "https://www.cloudflarestatus.com/incidents/7gixemnw9oei"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Workers and Pages build errors ",
+      "impact": "minor",
+      "start": "2026-11-03T14:46:56.697Z",
+      "end": "2026-11-03T19:38:09.321Z",
+      "url": "https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with API, Git, and Copilot requests",
+      "impact": "minor",
+      "start": "2026-11-03T13:25:19.620Z",
+      "end": "2026-11-03T13:56:18.729Z",
+      "url": "https://stspg.io/h1xqhrcn5gqn"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated number of 5xx errors in HKG",
+      "impact": "minor",
+      "start": "2026-11-03T07:24:51.706Z",
+      "end": "2026-11-03T06:32:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/6c4ak19xodyt"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in APJC",
+      "impact": "minor",
+      "start": "2026-11-03T04:44:12.062Z",
+      "end": "2026-11-03T05:56:29.439Z",
+      "url": "https://www.cloudflarestatus.com/incidents/j25w3rpv45gs"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Container Issues",
+      "impact": "minor",
+      "start": "2026-11-03T04:12:18.432Z",
+      "end": "2026-11-03T05:23:01.651Z",
+      "url": "https://www.cloudflarestatus.com/incidents/n5mvqjs26jg9"
+    },
+    {
+      "service": "OpenAI",
+      "title": "File upload errors in ChatGPT",
+      "impact": "minor",
+      "start": "2026-11-03T00:46:58Z",
+      "end": "2026-11-03T05:39:36Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "Cloudflare",
+      "title": " Cloudflare Gateway DNS-over-TLS Connectivity Issues over IPv4",
+      "impact": "minor",
+      "start": "2026-11-02T22:12:39.280Z",
+      "end": "2026-11-03T00:34:13.604Z",
+      "url": "https://www.cloudflarestatus.com/incidents/3bv9locsg7ln"
+    },
+    {
+      "service": "GitHub",
+      "title": "Elevated errors on GPT-5.4 Nano",
+      "impact": "minor",
+      "start": "2026-11-02T17:46:23.166Z",
+      "end": "2026-11-02T18:24:23.169Z",
+      "url": "https://stspg.io/ns6pj9qy9glb"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Worker Deployments Delayed",
+      "impact": "minor",
+      "start": "2026-11-02T16:41:11.110Z",
+      "end": "2026-11-02T17:30:10.987Z",
+      "url": "https://www.cloudflarestatus.com/incidents/7he1pmetw77p"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cache purge delays in Qingdao Shandong, China",
+      "impact": "minor",
+      "start": "2026-10-31T06:41:15.562Z",
+      "end": "2026-10-31T06:57:35.247Z",
+      "url": "https://www.cloudflarestatus.com/incidents/5tlm9r9j9rpo"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Dependabot",
+      "impact": "minor",
+      "start": "2026-10-30T20:59:14.225Z",
+      "end": "2026-10-30T23:29:06.291Z",
+      "url": "https://stspg.io/5bh6qnzn76tk"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated errors with search in Dots, ChatGPT Work, and certain ChatGPT thinking experiences",
+      "impact": "minor",
+      "start": "2026-10-30T19:38:47Z",
+      "end": "2026-10-30T21:14:12Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions, Pages, and Webhooks",
+      "impact": "major",
+      "start": "2026-10-30T17:50:54.677Z",
+      "end": "2026-10-30T19:23:40.177Z",
+      "url": "https://stspg.io/5cd2m4n59spv"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated errors for GPT Image 2 API image edits",
+      "impact": "minor",
+      "start": "2026-10-30T14:35:28Z",
+      "end": "2026-10-30T18:36:55Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Disruption with GitHub services",
+      "impact": "major",
+      "start": "2026-10-30T14:31:16.537Z",
+      "end": "2026-10-30T15:02:51.002Z",
+      "url": "https://stspg.io/6p81rf34z4nc"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Errors for Browser Run",
+      "impact": "minor",
+      "start": "2026-10-30T02:41:48.427Z",
+      "end": "2026-10-30T03:48:59.143Z",
+      "url": "https://www.cloudflarestatus.com/incidents/2xiv8fdhk0bh"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "R2 Elevated Latency in Eastern Europe",
+      "impact": "minor",
+      "start": "2026-10-29T19:57:28.577Z",
+      "end": "2026-10-29T21:50:51.475Z",
+      "url": "https://www.cloudflarestatus.com/incidents/kp28d3kzgft1"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Errors for Durable Objects and Downstream Services in Eastern North America (ENAM)",
+      "impact": "minor",
+      "start": "2026-10-29T16:36:48.045Z",
+      "end": "2026-10-29T16:50:03.928Z",
+      "url": "https://www.cloudflarestatus.com/incidents/10m2bxjztzwh"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Durable Objects, D1 and Workflows Error Rates",
+      "impact": "minor",
+      "start": "2026-10-29T14:16:46.205Z",
+      "end": "2026-10-29T16:33:43.687Z",
+      "url": "https://www.cloudflarestatus.com/incidents/r4mz367vddi7"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased HTTP 429 Rate Limit Errors on Cloudflare Dashboard",
+      "impact": "minor",
+      "start": "2026-10-29T10:31:52.864Z",
+      "end": "2026-10-29T12:10:59.965Z",
+      "url": "https://www.cloudflarestatus.com/incidents/k2cd9e1fyskp"
+    },
+    {
+      "service": "GitHub",
+      "title": "Disruption with Copilot Cloud services",
+      "impact": "minor",
+      "start": "2026-10-29T10:19:55.318Z",
+      "end": "2026-10-29T12:49:52.145Z",
+      "url": "https://stspg.io/22p3vp78z20q"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Issues with Durable Objects availability in Eastern Europe",
+      "impact": "minor",
+      "start": "2026-10-29T10:06:17.344Z",
+      "end": "2026-10-29T11:47:23.364Z",
+      "url": "https://www.cloudflarestatus.com/incidents/bc7e93q3eigp"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Worker services errors",
+      "impact": "minor",
+      "start": "2026-10-29T09:22:53.373Z",
+      "end": "2026-10-29T11:49:16.376Z",
+      "url": "https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased errors and latency for CNI 2.0 traffic in LAX",
+      "impact": "minor",
+      "start": "2026-10-29T06:55:41.568Z",
+      "end": "2026-10-29T08:28:13.765Z",
+      "url": "https://www.cloudflarestatus.com/incidents/oco7f885d2v4"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Queretaro, MX",
+      "impact": "minor",
+      "start": "2026-10-29T01:50:23.037Z",
+      "end": "2026-10-29T00:35:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/jajp50huvxtz"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased latency and error rate for R2 in ENAM",
+      "impact": "minor",
+      "start": "2026-10-28T21:01:39.385Z",
+      "end": "2026-10-28T21:12:24.884Z",
+      "url": "https://www.cloudflarestatus.com/incidents/h6fgl47h6iht"
+    },
+    {
+      "service": "Stripe",
+      "title": "Elevated Issuing errors from 17:13 - 20:41 UTC",
+      "impact": "minor",
+      "start": "2026-10-28T17:39:01.872Z",
+      "end": "2026-10-28T22:15:06.958Z",
+      "url": "https://stspg.io/kj9ch2nd498j"
+    },
+    {
+      "service": "GitHub",
+      "title": "Disruption with some Copilot services",
+      "impact": "major",
+      "start": "2026-10-28T14:12:53.821Z",
+      "end": "2026-10-28T15:28:19.237Z",
+      "url": "https://stspg.io/bwcyq078jzms"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Errors for Durable Objects in the Eastern North America region",
+      "impact": "minor",
+      "start": "2026-10-28T09:45:10.615Z",
+      "end": "2026-10-28T11:10:59.205Z",
+      "url": "https://www.cloudflarestatus.com/incidents/lmmf23klsrxq"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Ashburn, IAD",
+      "impact": "minor",
+      "start": "2026-10-28T04:39:13.459Z",
+      "end": "2026-10-28T22:18:26.488Z",
+      "url": "https://www.cloudflarestatus.com/incidents/snth5ero95rz"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased Errors for Durable Objects in the Eastern North America region",
+      "impact": "minor",
+      "start": "2026-10-28T00:17:25.893Z",
+      "end": "2026-10-28T03:28:57.623Z",
+      "url": "https://www.cloudflarestatus.com/incidents/klub12zy71b4"
+    },
+    {
+      "service": "DigitalOcean",
+      "title": "Kubernetes Cluster Management Operations",
+      "impact": "major",
+      "start": "2026-10-27T22:14:46.900Z",
+      "end": "2026-10-28T01:55:12.407Z",
+      "url": "https://stspg.io/b16t5y07v5l4"
+    },
+    {
+      "service": "OpenAI",
+      "title": "6.1 Sol Degraded Model Performance",
+      "impact": "minor",
+      "start": "2026-10-27T15:02:15Z",
+      "end": "2026-10-27T16:20:06Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions, Issues, API Requests and Pull Requests",
+      "impact": "minor",
+      "start": "2026-10-26T18:48:26.235Z",
+      "end": "2026-10-26T18:57:22.958Z",
+      "url": "https://stspg.io/0622ty903b4d"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated error rates for Ads POST requests",
+      "impact": "minor",
+      "start": "2026-10-26T18:19:00Z",
+      "end": "2026-10-26T18:30:18Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "npm",
+      "title": "View package and auth outage on npmjs.com",
+      "impact": "major",
+      "start": "2026-10-26T05:54:32.531Z",
+      "end": "2026-10-26T06:30:18.628Z",
+      "url": "https://stspg.io/5rh64dpfcvqz"
+    },
+    {
+      "service": "GitHub",
+      "title": "Grok 4.6 and Grok 4.7 Service Issues",
+      "impact": "minor",
+      "start": "2026-10-23T23:41:54.223Z",
+      "end": "2026-10-24T00:23:32.689Z",
+      "url": "https://stspg.io/9hysn9g59lpg"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Degraded experience with ChatGPT app connections using CIMD",
+      "impact": "minor",
+      "start": "2026-10-23T22:52:56Z",
+      "end": "2026-10-23T23:43:22Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "Vercel",
+      "title": "Delays in Logs and Observability data",
+      "impact": "minor",
+      "start": "2026-10-23T16:31:02.356Z",
+      "end": "2026-10-23T17:32:46.892Z",
+      "url": "https://stspg.io/ywxtzgsnw6dn"
+    },
+    {
+      "service": "GitHub",
+      "title": "Disruption with Dependabot Alerts",
+      "impact": "minor",
+      "start": "2026-10-23T14:58:48.748Z",
+      "end": "2026-10-23T18:51:24.490Z",
+      "url": "https://stspg.io/zdk3zqt69fnz"
+    },
+    {
+      "service": "GitHub",
+      "title": "Delayed Actions status check results",
+      "impact": "minor",
+      "start": "2026-10-23T07:29:03.081Z",
+      "end": "2026-10-23T08:05:27.354Z",
+      "url": "https://stspg.io/kmk42jg3v1sm"
+    },
+    {
+      "service": "OpenAI",
+      "title": "New Ad Accounts failing to provision admins",
+      "impact": "minor",
+      "start": "2026-10-22T19:36:53Z",
+      "end": "2026-10-23T00:07:55Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Degraded Performance of Dots on Enterprise",
+      "impact": "minor",
+      "start": "2026-10-22T18:51:28Z",
+      "end": "2026-10-22T20:55:48Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Project updates delayed",
+      "impact": "minor",
+      "start": "2026-10-22T15:28:03.986Z",
+      "end": "2026-10-23T02:30:25.221Z",
+      "url": "https://stspg.io/sx51v1tlpqjc"
+    },
+    {
+      "service": "GitHub",
+      "title": "Incident with Actions",
+      "impact": "minor",
+      "start": "2026-10-22T14:18:15.723Z",
+      "end": "2026-10-22T15:18:46.284Z",
+      "url": "https://stspg.io/44w94j036yc8"
+    },
+    {
+      "service": "npm",
+      "title": "Degraded Publish, Install, and View Package",
+      "impact": "minor",
+      "start": "2026-10-22T06:43:54.961Z",
+      "end": "2026-10-22T11:59:57.053Z",
+      "url": "https://stspg.io/tskn6kv96vs9"
+    },
+    {
+      "service": "npm",
+      "title": "Degraded Package Install and Publishing",
+      "impact": "major",
+      "start": "2026-10-22T02:33:25.776Z",
+      "end": "2026-10-22T04:24:16.605Z",
+      "url": "https://stspg.io/fr89w5qkp7j4"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated ChatGPT conversation and Responses API errors",
+      "impact": "minor",
+      "start": "2026-10-22T02:18:32Z",
+      "end": "2026-10-22T08:50:43Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Authentication errors for some users",
+      "impact": "major",
+      "start": "2026-10-21T22:36:29Z",
+      "end": "2026-10-20T17:35:00Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Delays for Pull Requests and Webhook deliveries",
+      "impact": "major",
+      "start": "2026-10-21T14:52:49.979Z",
+      "end": "2026-10-21T19:22:52.633Z",
+      "url": "https://stspg.io/gnnt0tx9nxmk"
+    },
+    {
+      "service": "Google Cloud",
+      "title": "Multiple services were experiencing issues in the europe-west2 region.",
+      "impact": "minor",
+      "start": "2026-10-20T06:00:00+00:00",
+      "end": "2026-10-20T12:08:00+00:00",
+      "url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj"
+    },
+    {
+      "service": "GitHub",
+      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
+      "impact": "major",
+      "start": "2026-10-19T15:49:25.828Z",
+      "end": "2026-10-19T16:56:58.390Z",
+      "url": "https://stspg.io/nrv2k8s68bwn"
+    },
+    {
+      "service": "GitHub",
+      "title": "CCA Automations are delayed when starting an Automation",
+      "impact": "minor",
+      "start": "2026-10-15T18:31:49.838Z",
+      "end": "2026-10-15T18:56:04.250Z",
+      "url": "https://stspg.io/vk8t78vtswmg"
+    }
+  ],
+  "tracked": [
+    {
+      "service": "Microsoft 365",
+      "title": "Users may be unable to access or perform several actions in Microsoft 365 services",
+      "impact": "minor",
+      "url": "https://status.cloud.microsoft",
+      "observed": true,
+      "start": "2026-11-13T10:56:00.670Z",
+      "end": null
+    }
+  ]
+}
