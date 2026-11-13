@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-13T20:37:04.952Z",
-  "totalStories": 245,
+  "updated": "2026-11-13T20:52:26.054Z",
+  "totalStories": 247,
   "sections": [
     {
       "name": "UK",
-      "count": 24
+      "count": 25
     },
     {
       "name": "World",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Technology",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Science",
@@ -41,16 +41,16 @@
       "count": 12
     },
     {
-      "word": "nvidia",
+      "word": "microsoft",
       "count": 9
     },
     {
-      "word": "microsoft",
-      "count": 8
+      "word": "outage",
+      "count": 9
     },
     {
-      "word": "outage",
-      "count": 8
+      "word": "nvidia",
+      "count": 9
     },
     {
       "word": "strike",
@@ -149,8 +149,9 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 14,
+      "count": 15,
       "bySection": {
+        "UK": 1,
         "Science": 2,
         "World": 5,
         "Business": 5,
@@ -158,6 +159,12 @@
         "Politics": 1
       },
       "stories": [
+        {
+          "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+          "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-13T20:46:03.000Z"
+        },
         {
           "title": "What could El Niño mean for winter weather in the US and Canada?",
           "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
@@ -199,12 +206,6 @@
           "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-10T22:52:15.000Z"
-        },
-        {
-          "title": "US inflation higher than expected in October - here's what is happening with prices",
-          "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-10T14:45:46.000Z"
         }
       ]
     },
@@ -528,6 +529,18 @@
   ],
   "latest": [
     {
+      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T20:49:52.000Z",
+      "section": "Technology"
+    },
+    {
+      "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+      "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T20:46:03.000Z",
+      "section": "UK"
+    },
+    {
       "title": "SpaceX to attempt double catch of huge Starship rocket",
       "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T20:12:02.000Z",
@@ -586,18 +599,6 @@
       "link": "https://www.bbc.co.uk/news/videos/ckp80l667rdjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T18:00:40.000Z",
       "section": "Business"
-    },
-    {
-      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
-      "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T17:38:19.000Z",
-      "section": "Technology"
-    },
-    {
-      "title": "Courts, spies and MPs: How the Microsoft outage has been felt around the world",
-      "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T17:34:58.000Z",
-      "section": "Technology"
     }
   ]
 }

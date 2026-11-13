@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T20:44:00.850Z",
+  "updated": "2026-11-13T20:57:38.608Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -585,11 +585,11 @@
     },
     {
       "date": "2026-11-13",
-      "totalStories": 245,
+      "totalStories": 247,
       "sections": [
         {
           "name": "UK",
-          "count": 24
+          "count": 25
         },
         {
           "name": "World",
@@ -605,7 +605,7 @@
         },
         {
           "name": "Technology",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Science",
@@ -626,16 +626,16 @@
           "count": 12
         },
         {
-          "word": "nvidia",
+          "word": "microsoft",
           "count": 9
         },
         {
-          "word": "microsoft",
-          "count": 8
+          "word": "outage",
+          "count": 9
         },
         {
-          "word": "outage",
-          "count": 8
+          "word": "nvidia",
+          "count": 9
         },
         {
           "word": "strike",
@@ -700,8 +700,9 @@
           "name": "United States",
           "lat": 39,
           "lon": -98,
-          "count": 14,
+          "count": 15,
           "bySection": {
+            "UK": 1,
             "Science": 2,
             "World": 5,
             "Business": 5,
@@ -709,6 +710,12 @@
             "Politics": 1
           },
           "stories": [
+            {
+              "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+              "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-13T20:46:03.000Z"
+            },
             {
               "title": "What could El Niño mean for winter weather in the US and Canada?",
               "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
@@ -732,12 +739,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cklyw3neqg2wo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-13T07:01:43.000Z"
-            },
-            {
-              "title": "Why midterm vote-counting is taking so long in America's largest state",
-              "link": "https://www.bbc.co.uk/news/articles/cqly4ljvr4pjo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-13T00:35:05.000Z"
             }
           ]
         },
@@ -1049,6 +1050,16 @@
       ],
       "topHeadlines": [
         {
+          "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+          "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+          "section": "Technology"
+        },
+        {
+          "title": "US Air Force says it responded to 'suspected drones' over RAF Lakenheath",
+          "link": "https://www.bbc.co.uk/news/articles/c6jd75geegzyo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "SpaceX to attempt double catch of huge Starship rocket",
           "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
           "section": "Science"
@@ -1062,33 +1073,23 @@
           "title": "Man who transported Omagh bomb was an MI5 and Garda agent, inquiry told",
           "link": "https://www.bbc.co.uk/news/articles/cr0jxwv1v266o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Democratic Senate leader Schumer set to face leadership challenge",
-          "link": "https://www.bbc.co.uk/news/articles/cmy4930jq749o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
-        },
-        {
-          "title": "What could El Niño mean for winter weather in the US and Canada?",
-          "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
-          "section": "Science"
         }
       ],
       "hnTop": [
         {
           "title": "LibreOffice actually works 365 days a year",
           "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-          "points": 659
+          "points": 683
         },
         {
           "title": "Reverse engineering my Coway air purifier to ditch the cloud",
           "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
-          "points": 589
+          "points": 600
         },
         {
           "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
           "url": "https://status.claude.com/incidents/nn11wk485zfn",
-          "points": 467
+          "points": 471
         }
       ]
     }
