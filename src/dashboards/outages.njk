@@ -2,6 +2,7 @@
 layout: base.njk
 title: Outage watch
 permalink: /dashboards/outages/
+description: "Live status of major online services such as GitHub, OpenAI, Cloudflare and Microsoft 365, checked every 30 minutes, with a 30-day incident log and RSS alerts."
 ---
 {% set down = [] %}{% for s in outages.services %}{% if s.level != 'ok' %}{% set down = (down.push(s), down) %}{% endif %}{% endfor %}
 <div class="page-head">
