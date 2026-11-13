@@ -1,51 +1,35 @@
 {
-  "updated": "2026-11-13T19:58:48.786Z",
+  "updated": "2026-11-13T20:13:29.197Z",
   "stories": [
-    {
-      "title": "Jensen Huang resigns",
-      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-      "discuss": "https://news.ycombinator.com/item?id=50467087",
-      "points": 3985,
-      "comments": 3385,
-      "domain": "apnews.com"
-    },
     {
       "title": "Rust 1.100",
       "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
       "discuss": "https://news.ycombinator.com/item?id=50472038",
-      "points": 864,
-      "comments": 310,
+      "points": 865,
+      "comments": 311,
       "domain": "blog.rust-lang.org"
-    },
-    {
-      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-      "url": "https://github.com/simpsoka/zigzag",
-      "discuss": "https://news.ycombinator.com/item?id=50470488",
-      "points": 712,
-      "comments": 231,
-      "domain": "github.com"
     },
     {
       "title": "LibreOffice actually works 365 days a year",
       "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
       "discuss": "https://news.ycombinator.com/item?id=50486482",
-      "points": 597,
-      "comments": 202,
+      "points": 624,
+      "comments": 205,
       "domain": "twitter.com"
     },
     {
       "title": "Reverse engineering my Coway air purifier to ditch the cloud",
       "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
       "discuss": "https://news.ycombinator.com/item?id=50474959",
-      "points": 565,
-      "comments": 158,
+      "points": 577,
+      "comments": 162,
       "domain": "scottjg.com"
     },
     {
       "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
       "url": "https://status.claude.com/incidents/nn11wk485zfn",
       "discuss": "https://news.ycombinator.com/item?id=50481187",
-      "points": 462,
+      "points": 465,
       "comments": 373,
       "domain": "status.claude.com"
     },
@@ -53,8 +37,8 @@
       "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
       "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
       "discuss": "https://news.ycombinator.com/item?id=50482379",
-      "points": 384,
-      "comments": 267,
+      "points": 386,
+      "comments": 272,
       "domain": "science.org"
     },
     {
@@ -69,19 +53,35 @@
       "title": "Brave Search API now accepts agentic payments via the x402 protocol",
       "url": "https://brave.com/blog/search-api-agentic-payments/",
       "discuss": "https://news.ycombinator.com/item?id=50477649",
-      "points": 250,
+      "points": 253,
       "comments": 141,
       "domain": "brave.com"
     },
     {
-      "title": "Why Zig over C for Systems Programming",
-      "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
-      "discuss": "https://news.ycombinator.com/item?id=50483611",
-      "points": 194,
-      "comments": 168,
-      "domain": "mtsoukalos.eu"
+      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+      "discuss": "https://news.ycombinator.com/item?id=50486748",
+      "points": 198,
+      "comments": 46,
+      "domain": "theguardian.com"
+    },
+    {
+      "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
+      "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+      "discuss": "https://news.ycombinator.com/item?id=50485295",
+      "points": 149,
+      "comments": 57,
+      "domain": "filemanager-cdn.mziq.com"
+    },
+    {
+      "title": "Switcher (2004)",
+      "url": "https://folklore.org/Switcher.html",
+      "discuss": "https://news.ycombinator.com/item?id=50477714",
+      "points": 143,
+      "comments": 42,
+      "domain": "folklore.org"
     }
   ],
-  "totalPoints": 9929,
+  "totalPoints": 5178,
   "storyCount": 30
 }

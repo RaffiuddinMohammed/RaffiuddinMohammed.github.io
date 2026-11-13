@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T20:04:43.243Z",
+  "checked": "2026-11-13T20:20:39.617Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -9,8 +9,8 @@
     },
     {
       "name": "GitHub",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Copilot experiencing degraded model availability for some GPT models",
       "url": "https://www.githubstatus.com"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "DigitalOcean",
       "level": "ok",
-      "note": "All Systems Operational",
+      "note": "Service Under Maintenance",
       "url": "https://status.digitalocean.com"
     },
     {
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "GitHub",
+      "title": "Copilot experiencing degraded model availability for some GPT models",
+      "impact": "minor",
+      "start": "2026-11-13T20:13:51.325Z",
+      "end": null,
+      "url": "https://stspg.io/cppzsh0j19vy"
+    },
     {
       "service": "OpenAI",
       "title": "Delayed Costs Data in the Compliance API",

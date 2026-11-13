@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T19:58:48.367Z",
-  "totalStories": 246,
+  "updated": "2026-11-13T20:13:28.809Z",
+  "totalStories": 245,
   "sections": [
     {
       "name": "UK",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Science",
-      "count": 9
+      "count": 12
     },
     {
       "name": "Health",
@@ -65,10 +65,6 @@
       "count": 6
     },
     {
-      "word": "need",
-      "count": 6
-    },
-    {
       "word": "science",
       "count": 6
     },
@@ -79,6 +75,10 @@
     {
       "word": "doctors",
       "count": 6
+    },
+    {
+      "word": "long",
+      "count": 5
     }
   ],
   "places": [
@@ -467,6 +467,12 @@
   ],
   "latest": [
     {
+      "title": "SpaceX to attempt double catch of huge Starship rocket",
+      "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T20:12:02.000Z",
+      "section": "Science"
+    },
+    {
       "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
       "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T19:53:57.000Z",
@@ -530,12 +536,6 @@
       "title": "Eleanor Donaldson given supervision order and placed on sex offenders' register",
       "link": "https://www.bbc.co.uk/news/articles/cme87dnngnwjo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T17:19:35.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Man jailed for grooming at least 70 girls online",
-      "link": "https://www.bbc.co.uk/news/articles/ckqx5r3j2j4xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T17:10:27.000Z",
       "section": "UK"
     }
   ]

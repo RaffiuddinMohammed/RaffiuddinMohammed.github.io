@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T20:04:43.194Z",
+  "updated": "2026-11-13T20:20:39.570Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -585,7 +585,7 @@
     },
     {
       "date": "2026-11-13",
-      "totalStories": 246,
+      "totalStories": 245,
       "sections": [
         {
           "name": "UK",
@@ -609,7 +609,7 @@
         },
         {
           "name": "Science",
-          "count": 9
+          "count": 12
         },
         {
           "name": "Health",
@@ -988,6 +988,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "SpaceX to attempt double catch of huge Starship rocket",
+          "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+          "section": "Science"
+        },
+        {
           "title": "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
           "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -1006,28 +1011,23 @@
           "title": "What could El Niño mean for winter weather in the US and Canada?",
           "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
           "section": "Science"
-        },
-        {
-          "title": "Tories pay artist for Burnham images after legal threat",
-          "link": "https://www.bbc.co.uk/news/articles/cr5y139wplppo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
-          "title": "Jensen Huang resigns",
-          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3985
-        },
-        {
           "title": "Rust 1.100",
           "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
-          "points": 864
+          "points": 865
         },
         {
-          "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-          "url": "https://github.com/simpsoka/zigzag",
-          "points": 712
+          "title": "LibreOffice actually works 365 days a year",
+          "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
+          "points": 624
+        },
+        {
+          "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+          "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+          "points": 577
         }
       ]
     }
