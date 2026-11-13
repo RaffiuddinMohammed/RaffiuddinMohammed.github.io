@@ -71,7 +71,75 @@ const glowSprite = (color, size, opacity = 1) => {
 
 // ---- the four ways of drawing "this country is in the news"; each returns { anchors, update, hot, paint }
 // anchors[i] is a point on the surface for place i (used to hide markers on the far side and to place labels)
+// BBC sections folded into four colour groups (seven hues are too many to tell apart as dots)
+const SECTION_GROUP = { UK: 'uk', Politics: 'uk', World: 'world', Business: 'biz', Technology: 'biz', Science: 'sci', Health: 'sci' };
+const GROUPS = ['uk', 'world', 'biz', 'sci']; // fixed order: inner ring outwards
+// how many of a place's stories fall in each group; old archived days have no bySection, so the unknown rest is 'other'
+function groupCounts(p) {
+  const by = p.bySection ?? (p.stories ?? []).reduce((m, s) => ((m[s.section] = (m[s.section] ?? 0) + 1), m), {});
+  const out = Object.fromEntries([...GROUPS, 'other'].map((g) => [g, 0]));
+  for (const [sec, n] of Object.entries(by)) out[SECTION_GROUP[sec] ?? 'other'] += n;
+  out.other += Math.max(0, p.count - Object.values(out).reduce((a, b) => a + b, 0));
+  return out;
+}
+const GOLDEN = Math.PI * (3 - Math.sqrt(5));
+// a crisp round dot (points are squares by default)
+let discTex = null;
+function discTexture() {
+  if (discTex) return discTex;
+  const c = document.createElement('canvas'); c.width = c.height = 64;
+  const g = c.getContext('2d'); g.fillStyle = '#fff'; g.beginPath(); g.arc(32, 32, 28, 0, Math.PI * 2); g.fill();
+  discTex = new THREE.CanvasTexture(c);
+  return discTex;
+}
+
 const STYLES = {
+  // one dot per story, packed in a sunflower around the country, coloured by BBC section: count them and it matches the label
+  counted(group, places, max, ctx) {
+    const STEP = (0.95 * Math.PI) / 180; // angular gap between neighbouring dots
+    const items = places.map((p, i) => {
+      const centre = toVec(p.lat, p.lon, 1).normalize();
+      const u = new THREE.Vector3(0, 1, 0).cross(centre).normalize();
+      if (!u.lengthSq()) u.set(1, 0, 0);
+      const v = centre.clone().cross(u);
+      const gc = groupCounts(p);
+      const keys = [...GROUPS, 'other'].flatMap((g) => Array(gc[g]).fill(g));
+      const pos = [], idx = [];
+      keys.forEach((g, k) => {
+        const r = STEP * Math.sqrt(k + 0.5), th = k * GOLDEN;
+        const d = u.clone().multiplyScalar(Math.cos(th)).add(v.clone().multiplyScalar(Math.sin(th)));
+        pos.push(...centre.clone().multiplyScalar(Math.cos(r)).add(d.multiplyScalar(Math.sin(r))).multiplyScalar(1.012).toArray());
+        idx.push(g);
+      });
+      const geo = new THREE.BufferGeometry();
+      geo.setAttribute('position', new THREE.Float32BufferAttribute(pos, 3));
+      geo.setAttribute('color', new THREE.Float32BufferAttribute(new Float32Array(pos.length), 3));
+      const mat = new THREE.PointsMaterial({ size: 0.07, map: discTexture(), alphaTest: 0.5, vertexColors: true, transparent: true, depthWrite: false });
+      const pts = new THREE.Points(geo, mat);
+      pts.renderOrder = 2; // drawn over the land dots
+      group.add(pts);
+      const spread = STEP * Math.sqrt(keys.length);
+      return { geo, mat, idx, phase: i * 1.3, spread, parts: [pts] };
+    });
+    const paint = () => {
+      const col = Object.fromEntries([...GROUPS.map((g) => [g, new THREE.Color(css(`--sec-${g}`))]), ['other', new THREE.Color(css('--muted'))]]);
+      items.forEach((it) => {
+        const a = it.geo.attributes.color;
+        it.idx.forEach((g, k) => a.setXYZ(k, col[g].r, col[g].g, col[g].b));
+        a.needsUpdate = true;
+      });
+    };
+    paint();
+    return {
+      tip: () => 1.03,
+      lift: (i) => (items[i].spread * 180) / Math.PI + 1.5, // degrees north, so the label sits above the cluster, not on it
+      parts: (i) => items[i].parts,
+      update(k) { items.forEach((it) => { it.mat.opacity = 0.85 + 0.15 * Math.sin(k * 1.6 + it.phase); }); },
+      hot(i, on) { items[i].mat.size = on ? 0.09 : 0.07; },
+      paint,
+    };
+  },
+
   // soft pulsing orbs of light
   hotspots(group, places, max, ctx) {
     const items = places.map((p, i) => {
@@ -194,16 +262,10 @@ const STYLES = {
 };
 const STYLE_NAMES = Object.keys(STYLES);
 
-// Pick a different style from last time (?globe=arcs forces one, for testing)
+// Always the counted dots, so the picture matches the numbers (?globe=arcs still shows an old style, for comparison)
 function pickStyle() {
   const forced = new URLSearchParams(location.search).get('globe');
-  if (STYLE_NAMES.includes(forced)) return forced;
-  let last = null;
-  try { last = localStorage.getItem('globe-style'); } catch {}
-  const options = STYLE_NAMES.filter((s) => s !== last);
-  const chosen = options[Math.floor(Math.random() * options.length)];
-  try { localStorage.setItem('globe-style', chosen); } catch {}
-  return chosen;
+  return STYLE_NAMES.includes(forced) ? forced : 'counted';
 }
 
 async function globe(box) {
@@ -228,7 +290,7 @@ async function globe(box) {
   for (let i = 0; i < dots.length; i += 2) toVec(dots[i], dots[i + 1], 1.0).toArray(pos, (i / 2) * 3);
   const dotGeo = new THREE.BufferGeometry();
   dotGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-  const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: styleName === 'litup' ? 0.45 : 0.9 });
+  const dotMat = new THREE.PointsMaterial({ size: 0.018, sizeAttenuation: true, transparent: true, opacity: styleName === 'litup' || styleName === 'counted' ? 0.45 : 0.9 });
   world.add(new THREE.Points(dotGeo, dotMat));
 
   const glowMat = new THREE.ShaderMaterial({
@@ -318,7 +380,7 @@ async function globe(box) {
         b.setAttribute('aria-label', `${p.name}: ${p.count} stories. Show them`);
         b.addEventListener('click', () => openPanel(p));
         box.appendChild(b);
-        labels.push({ el: b, tip: toVec(p.lat, p.lon, style.tip(i)) });
+        labels.push({ el: b, tip: toVec(Math.min(85, p.lat + (style.lift?.(i) ?? 0)), p.lon, style.tip(i)) });
       }
     });
   }
@@ -333,7 +395,10 @@ async function globe(box) {
   paint();
   matchMedia('(prefers-color-scheme: dark)').addEventListener('change', paint);
 
-  world.rotation.set(0.35, -Math.PI / 2 + 0.25, 0);
+  // start facing the country with the most stories (a Y turn of -(90 + lon) brings a longitude to the front)
+  const lead = today?.[0];
+  if (lead) world.rotation.set((lead.lat * 0.75 * Math.PI) / 180, (-(90 + lead.lon) * Math.PI) / 180, 0);
+  else world.rotation.set(0.35, -Math.PI / 2 + 0.25, 0);
 
   // ---- pointer: drag to spin, click a country to open its stories, hover to see its name
   const canvas = renderer.domElement;

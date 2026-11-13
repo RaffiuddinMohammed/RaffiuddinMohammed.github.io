@@ -138,6 +138,7 @@ function countPlaces(items) {
     const hits = items.filter((i) => p.re.some((r) => r.test(i.title)));
     if (hits.length) out.push({
       name: p.name, lat: p.lat, lon: p.lon, count: hits.length,
+      bySection: hits.reduce((m, h) => ((m[h.section] = (m[h.section] ?? 0) + 1), m), {}), // colours the globe's dots
       // the headlines behind the beam, newest first, so the globe can list them on click
       stories: hits.slice(0, 8).map(({ title, link, section, date }) => ({ title, link, section, date })),
     });
