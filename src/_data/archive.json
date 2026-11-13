@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:11:56.488Z",
+  "updated": "2026-11-13T11:17:26.108Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -661,7 +661,7 @@
               "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
               "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
               "section": "UK",
-              "date": "2026-11-13T10:45:21.000Z"
+              "date": "2026-11-13T11:09:16.000Z"
             },
             {
               "title": "England thrashed by Australia in first ODI",
@@ -986,6 +986,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
+          "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "How the Microsoft outage has been felt worldwide",
           "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
           "section": "Technology"
@@ -994,11 +999,6 @@
           "title": "What we know about the global Microsoft outage",
           "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
-          "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         },
         {
           "title": "Water firm pleads guilty after four killed in blast",
@@ -1015,7 +1015,7 @@
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3598
+          "points": 3603
         },
         {
           "title": "Anthropic IPO",
@@ -1025,7 +1025,7 @@
         {
           "title": "Service degradation on Microsoft 365",
           "url": "https://status.cloud.microsoft/",
-          "points": 922
+          "points": 928
         }
       ]
     }

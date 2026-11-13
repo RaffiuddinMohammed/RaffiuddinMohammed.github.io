@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:06:29.603Z",
+  "updated": "2026-11-13T11:12:29.527Z",
   "totalStories": 240,
   "sections": [
     {
@@ -92,7 +92,7 @@
           "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
           "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-13T10:45:21.000Z"
+          "date": "2026-11-13T11:09:16.000Z"
         },
         {
           "title": "England thrashed by Australia in first ODI",
@@ -465,6 +465,12 @@
   ],
   "latest": [
     {
+      "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
+      "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-13T11:09:16.000Z",
+      "section": "UK"
+    },
+    {
       "title": "How the Microsoft outage has been felt worldwide",
       "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T11:05:10.000Z",
@@ -475,12 +481,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-13T10:53:40.000Z",
       "section": "World"
-    },
-    {
-      "title": "GPs, police and pharmacies among UK services affected by Microsoft outage",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-13T10:45:21.000Z",
-      "section": "UK"
     },
     {
       "title": "Water firm pleads guilty after four killed in blast",
