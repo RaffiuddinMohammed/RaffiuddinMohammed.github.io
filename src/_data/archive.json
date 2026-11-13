@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T11:05:10.239Z",
+  "updated": "2026-11-13T11:11:56.488Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -601,19 +601,19 @@
         },
         {
           "name": "Politics",
-          "count": 14
+          "count": 13
         },
         {
           "name": "Technology",
-          "count": 11
-        },
-        {
-          "name": "Science",
-          "count": 9
+          "count": 12
         },
         {
           "name": "Health",
           "count": 9
+        },
+        {
+          "name": "Science",
+          "count": 7
         }
       ],
       "topWords": [
@@ -844,26 +844,6 @@
           ]
         },
         {
-          "name": "India",
-          "lat": 22,
-          "lon": 79,
-          "count": 2,
-          "stories": [
-            {
-              "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
-              "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-              "section": "Technology",
-              "date": "2026-11-11T11:33:24.000Z"
-            },
-            {
-              "title": "The Indian workers filming their work to train AI",
-              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-10-23T08:04:17.000Z"
-            }
-          ]
-        },
-        {
           "name": "Canada",
           "lat": 56,
           "lon": -106,
@@ -962,6 +942,20 @@
           ]
         },
         {
+          "name": "India",
+          "lat": 22,
+          "lon": 79,
+          "count": 1,
+          "stories": [
+            {
+              "title": "The Indian workers filming their work to train AI",
+              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-23T08:04:17.000Z"
+            }
+          ]
+        },
+        {
           "name": "North Korea",
           "lat": 40,
           "lon": 127,
@@ -992,6 +986,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "How the Microsoft outage has been felt worldwide",
+          "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
+          "section": "Technology"
+        },
+        {
           "title": "What we know about the global Microsoft outage",
           "link": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -1010,28 +1009,23 @@
           "title": "Piddington to bring legal challenge over asylum base plans",
           "link": "https://www.bbc.co.uk/news/articles/ckzd91jqvm0lo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Man charged over multiple sex assaults at university",
-          "link": "https://www.bbc.co.uk/news/articles/cm5y1jp7p5yko?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3595
+          "points": 3598
         },
         {
           "title": "Anthropic IPO",
           "url": "https://ipo.anthropic.com/us/",
-          "points": 940
+          "points": 941
         },
         {
           "title": "Service degradation on Microsoft 365",
           "url": "https://status.cloud.microsoft/",
-          "points": 919
+          "points": 922
         }
       ]
     }
