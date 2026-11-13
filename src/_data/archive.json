@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T19:14:48.428Z",
+  "updated": "2026-11-13T19:26:29.974Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -1011,7 +1011,7 @@
         {
           "title": "Jensen Huang resigns",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "points": 3970
+          "points": 3974
         },
         {
           "title": "Rust 1.100",
@@ -1021,7 +1021,7 @@
         {
           "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
           "url": "https://github.com/simpsoka/zigzag",
-          "points": 705
+          "points": 707
         }
       ]
     }
