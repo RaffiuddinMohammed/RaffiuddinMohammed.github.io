@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:45:52.048Z",
+  "updated": "2026-11-13T10:57:27.675Z",
   "months": [
     {
       "month": "2025-12",
@@ -304,8 +304,8 @@
         },
         {
           "title": "HackerTube: YouTube built from videos recommended by HN",
-          "points": 2893,
-          "comments": 645,
+          "points": 2894,
+          "comments": 646,
           "date": "2026-10-31",
           "url": "https://karpathy.bearblog.dev/hacker-tube/",
           "discuss": "https://news.ycombinator.com/item?id=50319510"
@@ -324,8 +324,16 @@
       "month": "2026-11",
       "stories": [
         {
+          "title": "Jensen Huang resigns",
+          "points": 3596,
+          "comments": 3165,
+          "date": "2026-11-12",
+          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+          "discuss": "https://news.ycombinator.com/item?id=50467087"
+        },
+        {
           "title": "sshole",
-          "points": 3002,
+          "points": 3003,
           "comments": 752,
           "date": "2026-11-05",
           "url": "https://sshhole.com",
@@ -338,14 +346,6 @@
           "date": "2026-11-02",
           "url": "https://rikiyat.github.io/blog/weight-space-programming/",
           "discuss": "https://news.ycombinator.com/item?id=50341174"
-        },
-        {
-          "title": "Jensen Huang resigns",
-          "points": 2263,
-          "comments": 2257,
-          "date": "2026-11-12",
-          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-          "discuss": "https://news.ycombinator.com/item?id=50467087"
         }
       ]
     }

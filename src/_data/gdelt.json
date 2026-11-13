@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T20:45:44.110Z",
+  "updated": "2026-11-13T10:57:19.914Z",
   "topics": [
     {
       "key": "ai",
@@ -2899,10 +2899,6 @@
       "label": "Elections",
       "query": "election",
       "series": [
-        {
-          "date": "2025-11-24",
-          "value": 1.3349
-        },
         {
           "date": "2025-11-25",
           "value": 1.2877
