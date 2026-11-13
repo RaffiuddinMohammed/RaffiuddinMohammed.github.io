@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T20:57:38.659Z",
+  "checked": "2026-11-13T23:53:02.579Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -9,8 +9,8 @@
     },
     {
       "name": "GitHub",
-      "level": "minor",
-      "note": "Copilot experiencing degraded model availability for some GPT models",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://www.githubstatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Copilot experiencing degraded model availability for some GPT models",
       "impact": "minor",
       "start": "2026-11-13T20:13:51.325Z",
-      "end": null,
+      "end": "2026-11-13T21:27:59.028Z",
       "url": "https://stspg.io/cppzsh0j19vy"
     },
     {
