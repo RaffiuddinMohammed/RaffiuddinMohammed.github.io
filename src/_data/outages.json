@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-14T06:18:39.948Z",
+  "checked": "2026-11-14T12:25:53.890Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Increased errors for R2 and Tiered Cache",
+      "note": "Cloudflare is seeing an issue with Workers API availability",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -34,7 +34,7 @@
     {
       "name": "Stripe",
       "level": "ok",
-      "note": "Elevated API Processing Errors",
+      "note": "All Systems Operational",
       "url": "https://www.stripestatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Increased errors for R2 and Tiered Cache",
       "impact": "minor",
       "start": "2026-11-14T05:30:35.270Z",
-      "end": null,
+      "end": "2026-11-14T06:45:47.731Z",
       "url": "https://www.cloudflarestatus.com/incidents/a643zcsfc71q"
     },
     {

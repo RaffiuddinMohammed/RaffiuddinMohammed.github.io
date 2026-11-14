@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-13T20:52:26.376Z",
+  "updated": "2026-11-14T12:18:07.497Z",
   "stories": [
     {
-      "title": "LibreOffice actually works 365 days a year",
-      "url": "https://twitter.com/LibreOffice/status/2121205272479998268",
-      "discuss": "https://news.ycombinator.com/item?id=50486482",
-      "points": 683,
-      "comments": 218,
-      "domain": "twitter.com"
+      "title": "FAA issues national ground stop – lifted 4.5 hours later",
+      "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+      "discuss": "https://news.ycombinator.com/item?id=50489641",
+      "points": 1565,
+      "comments": 1187,
+      "domain": "nbcnews.com"
     },
     {
       "title": "Reverse engineering my Coway air purifier to ditch the cloud",
       "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
       "discuss": "https://news.ycombinator.com/item?id=50474959",
-      "points": 600,
-      "comments": 170,
+      "points": 763,
+      "comments": 215,
       "domain": "scottjg.com"
     },
     {
-      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
-      "url": "https://status.claude.com/incidents/nn11wk485zfn",
-      "discuss": "https://news.ycombinator.com/item?id=50481187",
-      "points": 471,
-      "comments": 375,
-      "domain": "status.claude.com"
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "discuss": "https://news.ycombinator.com/item?id=50493251",
+      "points": 675,
+      "comments": 390,
+      "domain": "techpowerup.com"
     },
     {
-      "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
-      "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
-      "discuss": "https://news.ycombinator.com/item?id=50482379",
-      "points": 397,
-      "comments": 277,
-      "domain": "science.org"
+      "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "discuss": "https://news.ycombinator.com/item?id=50484658",
+      "points": 323,
+      "comments": 428,
+      "domain": "youtube.com"
     },
     {
-      "title": "IceWM",
-      "url": "https://ice-wm.org/",
-      "discuss": "https://news.ycombinator.com/item?id=50478515",
-      "points": 349,
-      "comments": 202,
-      "domain": "ice-wm.org"
+      "title": "Terminal borders that don't cost a cell",
+      "url": "https://www.joshka.net/cell-borders/",
+      "discuss": "https://news.ycombinator.com/item?id=50491423",
+      "points": 296,
+      "comments": 133,
+      "domain": "joshka.net"
     },
     {
-      "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
-      "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-      "discuss": "https://news.ycombinator.com/item?id=50486748",
-      "points": 230,
-      "comments": 60,
-      "domain": "theguardian.com"
+      "title": "Ggml v1.0.0",
+      "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "discuss": "https://news.ycombinator.com/item?id=50493062",
+      "points": 295,
+      "comments": 46,
+      "domain": "github.com"
     },
     {
-      "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
-      "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
-      "discuss": "https://news.ycombinator.com/item?id=50485295",
-      "points": 153,
+      "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+      "url": "https://orcasairband.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50490593",
+      "points": 271,
       "comments": 63,
-      "domain": "filemanager-cdn.mziq.com"
-    },
-    {
-      "title": "It Takes 16 Clicks for a Student to Open a PowerPoint on an iPad",
-      "url": "https://www.reddit.com/r/Teachers/comments/1xuup7a/technology_sucks_it_literally_takes_16_clicks_for/",
-      "discuss": "https://news.ycombinator.com/item?id=50487522",
-      "points": 150,
-      "comments": 70,
-      "domain": "reddit.com"
+      "domain": "orcasairband.com"
     },
     {
       "title": "After 600 experiments, here's what I discovered about JEPA world models",
       "url": "https://haddyalchaer.com/jepa",
       "discuss": "https://news.ycombinator.com/item?id=50487185",
-      "points": 150,
-      "comments": 29,
+      "points": 268,
+      "comments": 45,
       "domain": "haddyalchaer.com"
     },
     {
-      "title": "A technical vision for the Haskell ecosystem",
-      "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
-      "discuss": "https://news.ycombinator.com/item?id=50484235",
-      "points": 144,
-      "comments": 63,
-      "domain": "discourse.haskell.org"
+      "title": "FM-1 Workbench",
+      "url": "https://open.m-vave.com/fm1-workbench",
+      "discuss": "https://news.ycombinator.com/item?id=50488325",
+      "points": 241,
+      "comments": 159,
+      "domain": "open.m-vave.com"
+    },
+    {
+      "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+      "url": "https://isometricsf.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50487228",
+      "points": 219,
+      "comments": 71,
+      "domain": "isometricsf.com"
     }
   ],
-  "totalPoints": 4541,
+  "totalPoints": null,
   "storyCount": 30
 }
