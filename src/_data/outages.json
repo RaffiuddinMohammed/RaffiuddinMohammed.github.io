@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-14T13:48:11.433Z",
+  "checked": "2026-11-14T19:09:52.982Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Stripe",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Elevated PayNow errors",
       "url": "https://www.stripestatus.com"
     },
     {
@@ -999,14 +999,6 @@
       "start": "2026-10-19T15:49:25.828Z",
       "end": "2026-10-19T16:56:58.390Z",
       "url": "https://stspg.io/nrv2k8s68bwn"
-    },
-    {
-      "service": "GitHub",
-      "title": "CCA Automations are delayed when starting an Automation",
-      "impact": "minor",
-      "start": "2026-10-15T18:31:49.838Z",
-      "end": "2026-10-15T18:56:04.250Z",
-      "url": "https://stspg.io/vk8t78vtswmg"
     }
   ],
   "tracked": [
