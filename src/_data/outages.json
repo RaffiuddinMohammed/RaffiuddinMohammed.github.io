@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-13T23:53:02.579Z",
+  "checked": "2026-11-14T06:18:39.948Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Cloudflare is seeing an issue with Workers API availability",
+      "note": "Increased errors for R2 and Tiered Cache",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -34,7 +34,7 @@
     {
       "name": "Stripe",
       "level": "ok",
-      "note": "All Systems Operational",
+      "note": "Elevated API Processing Errors",
       "url": "https://www.stripestatus.com"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "DigitalOcean",
       "level": "ok",
-      "note": "Service Under Maintenance",
+      "note": "All Systems Operational",
       "url": "https://status.digitalocean.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Increased errors for R2 and Tiered Cache",
+      "impact": "minor",
+      "start": "2026-11-14T05:30:35.270Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/a643zcsfc71q"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Issues with 1.1.1.1 public resolver in Canada",
+      "impact": "minor",
+      "start": "2026-11-13T23:53:18.687Z",
+      "end": "2026-11-14T01:01:17.641Z",
+      "url": "https://www.cloudflarestatus.com/incidents/rikplz89rpml"
+    },
     {
       "service": "GitHub",
       "title": "Copilot experiencing degraded model availability for some GPT models",
@@ -124,7 +140,7 @@
       "title": "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted",
       "impact": "minor",
       "start": "2026-11-13T14:55:26.179Z",
-      "end": null,
+      "end": "2026-11-14T00:51:29.308Z",
       "url": "https://www.cloudflarestatus.com/incidents/mc91s22odfvf"
     },
     {
@@ -189,7 +205,7 @@
       "title": "Elevated errors affecting the Microsoft 365 connector",
       "impact": "minor",
       "start": "2026-11-12T18:29:14Z",
-      "end": null,
+      "end": "2026-11-14T00:18:13Z",
       "url": "https://status.openai.com"
     },
     {
@@ -809,14 +825,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/jajp50huvxtz"
     },
     {
-      "service": "Cloudflare",
-      "title": "Increased latency and error rate for R2 in ENAM",
-      "impact": "minor",
-      "start": "2026-10-28T21:01:39.385Z",
-      "end": "2026-10-28T21:12:24.884Z",
-      "url": "https://www.cloudflarestatus.com/incidents/h6fgl47h6iht"
-    },
-    {
       "service": "Stripe",
       "title": "Elevated Issuing errors from 17:13 - 20:41 UTC",
       "impact": "minor",
@@ -831,14 +839,6 @@
       "start": "2026-10-28T14:12:53.821Z",
       "end": "2026-10-28T15:28:19.237Z",
       "url": "https://stspg.io/bwcyq078jzms"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Errors for Durable Objects in the Eastern North America region",
-      "impact": "minor",
-      "start": "2026-10-28T09:45:10.615Z",
-      "end": "2026-10-28T11:10:59.205Z",
-      "url": "https://www.cloudflarestatus.com/incidents/lmmf23klsrxq"
     },
     {
       "service": "Cloudflare",
@@ -975,14 +975,6 @@
       "start": "2026-10-22T02:33:25.776Z",
       "end": "2026-10-22T04:24:16.605Z",
       "url": "https://stspg.io/fr89w5qkp7j4"
-    },
-    {
-      "service": "OpenAI",
-      "title": "Elevated ChatGPT conversation and Responses API errors",
-      "impact": "minor",
-      "start": "2026-10-22T02:18:32Z",
-      "end": "2026-10-22T08:50:43Z",
-      "url": "https://status.openai.com"
     },
     {
       "service": "GitHub",
