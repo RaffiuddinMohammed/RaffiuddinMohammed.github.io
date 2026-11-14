@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-14T12:25:53.890Z",
+  "checked": "2026-11-14T13:48:11.433Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Cloudflare is seeing an issue with Workers API availability",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -132,7 +132,7 @@
       "title": "Cloudflare is seeing an issue with Workers API availability",
       "impact": "minor",
       "start": "2026-11-13T15:31:13.773Z",
-      "end": null,
+      "end": "2026-11-14T13:37:40.811Z",
       "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
     },
     {
