@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-14T19:09:52.982Z",
+  "checked": "2026-11-14T23:00:53.028Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -33,8 +33,8 @@
     },
     {
       "name": "Stripe",
-      "level": "minor",
-      "note": "Elevated PayNow errors",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://www.stripestatus.com"
     },
     {
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Elevated error rates on R2 buckets in West North America",
+      "impact": "minor",
+      "start": "2026-11-14T20:18:18.649Z",
+      "end": "2026-11-14T20:20:37.898Z",
+      "url": "https://www.cloudflarestatus.com/incidents/dpao7idy3zei"
+    },
     {
       "service": "Cloudflare",
       "title": "Increased errors for R2 and Tiered Cache",
@@ -839,14 +847,6 @@
       "start": "2026-10-28T14:12:53.821Z",
       "end": "2026-10-28T15:28:19.237Z",
       "url": "https://stspg.io/bwcyq078jzms"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network Performance Issues in Ashburn, IAD",
-      "impact": "minor",
-      "start": "2026-10-28T04:39:13.459Z",
-      "end": "2026-10-28T22:18:26.488Z",
-      "url": "https://www.cloudflarestatus.com/incidents/snth5ero95rz"
     },
     {
       "service": "DigitalOcean",
