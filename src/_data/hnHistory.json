@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T12:25:53.845Z",
+  "updated": "2026-11-15T12:55:24.466Z",
   "months": [
     {
       "month": "2025-12",
@@ -325,8 +325,8 @@
       "stories": [
         {
           "title": "Jensen Huang resigns",
-          "points": 4026,
-          "comments": 3435,
+          "points": 4045,
+          "comments": 3450,
           "date": "2026-11-12",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
           "discuss": "https://news.ycombinator.com/item?id=50467087"
@@ -341,7 +341,7 @@
         },
         {
           "title": "Astra can read and write weights to improve Qwen",
-          "points": 2967,
+          "points": 2968,
           "comments": 901,
           "date": "2026-11-02",
           "url": "https://rikiyat.github.io/blog/weight-space-programming/",
