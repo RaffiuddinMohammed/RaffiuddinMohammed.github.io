@@ -1,10 +1,10 @@
 {
-  "checked": "2026-11-14T23:00:53.028Z",
+  "checked": "2026-11-15T09:56:37.997Z",
   "services": [
     {
       "name": "Microsoft 365",
-      "level": "minor",
-      "note": "Users may be unable to access or perform several actions in Microsoft 365 services",
+      "level": "ok",
+      "note": "All services operational",
       "url": "https://status.cloud.microsoft"
     },
     {
@@ -89,6 +89,14 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "Elevated number of errors in Bogotá",
+      "impact": "minor",
+      "start": "2026-11-15T03:12:13.031Z",
+      "end": "2026-11-15T03:00:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/sozoycnmog2m"
+    },
+    {
+      "service": "Cloudflare",
       "title": "Elevated error rates on R2 buckets in West North America",
       "impact": "minor",
       "start": "2026-11-14T20:18:18.649Z",
@@ -166,7 +174,7 @@
       "url": "https://status.cloud.microsoft",
       "observed": true,
       "start": "2026-11-13T10:56:00.670Z",
-      "end": null
+      "end": "2026-11-15T09:56:37.997Z"
     },
     {
       "service": "OpenAI",
@@ -825,14 +833,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/oco7f885d2v4"
     },
     {
-      "service": "Cloudflare",
-      "title": "Network Performance Issues in Queretaro, MX",
-      "impact": "minor",
-      "start": "2026-10-29T01:50:23.037Z",
-      "end": "2026-10-29T00:35:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/jajp50huvxtz"
-    },
-    {
       "service": "Stripe",
       "title": "Elevated Issuing errors from 17:13 - 20:41 UTC",
       "impact": "minor",
@@ -1009,7 +1009,7 @@
       "url": "https://status.cloud.microsoft",
       "observed": true,
       "start": "2026-11-13T10:56:00.670Z",
-      "end": null
+      "end": "2026-11-15T09:56:37.997Z"
     }
   ]
 }
