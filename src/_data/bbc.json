@@ -1,84 +1,84 @@
 {
-  "updated": "2026-11-15T12:50:39.275Z",
-  "totalStories": 251,
+  "updated": "2026-11-16T13:47:13.281Z",
+  "totalStories": 253,
   "sections": [
     {
       "name": "UK",
-      "count": 20
+      "count": 27
     },
     {
       "name": "World",
       "count": 18
     },
     {
-      "name": "Science",
-      "count": 6
+      "name": "Business",
+      "count": 10
     },
     {
       "name": "Politics",
-      "count": 5
-    },
-    {
-      "name": "Business",
-      "count": 1
-    },
-    {
-      "name": "Technology",
-      "count": 1
+      "count": 7
     },
     {
       "name": "Health",
-      "count": 1
+      "count": 6
+    },
+    {
+      "name": "Science",
+      "count": 5
+    },
+    {
+      "name": "Technology",
+      "count": 4
     }
   ],
   "topWords": [
     {
       "word": "burnham",
-      "count": 13
+      "count": 12
     },
     {
       "word": "tech",
-      "count": 13
-    },
-    {
-      "word": "health",
-      "count": 9
-    },
-    {
-      "word": "labour",
-      "count": 9
-    },
-    {
-      "word": "microsoft",
-      "count": 8
-    },
-    {
-      "word": "outage",
-      "count": 8
-    },
-    {
-      "word": "nvidia",
-      "count": 8
+      "count": 12
     },
     {
       "word": "strike",
       "count": 7
     },
     {
-      "word": "take",
-      "count": 6
-    },
-    {
-      "word": "welsh",
-      "count": 6
-    },
-    {
       "word": "pay",
-      "count": 6
+      "count": 7
+    },
+    {
+      "word": "health",
+      "count": 7
+    },
+    {
+      "word": "labour",
+      "count": 7
     },
     {
       "word": "science",
       "count": 6
+    },
+    {
+      "word": "doctors",
+      "count": 6
+    },
+    {
+      "word": "hospital",
+      "count": 5
+    },
+    {
+      "word": "young",
+      "count": 5
+    },
+    {
+      "word": "home",
+      "count": 5
+    },
+    {
+      "word": "should",
+      "count": 5
     }
   ],
   "places": [
@@ -89,59 +89,60 @@
       "count": 28,
       "bySection": {
         "UK": 5,
+        "World": 1,
         "Politics": 10,
         "Business": 6,
-        "Science": 4,
+        "Science": 3,
         "Health": 3
       },
       "stories": [
         {
-          "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
-          "link": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss",
+          "title": "Tourette's film I Swear wins three Scottish Baftas",
+          "link": "https://www.bbc.co.uk/news/articles/crgqx11wkzy8o?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-15T11:51:51.000Z"
+          "date": "2026-11-16T12:04:13.000Z"
         },
         {
-          "title": "UK papers: 'I was only 16' says alleged Brand victim, as disgraced comedian 'moved to soft jail'",
-          "link": "https://www.bbc.co.uk/news/articles/ckq6elm8lj2zo?at_medium=RSS&at_campaign=rss",
+          "title": "UK lost more than it gained from Brexit, Burnham to say ahead of EU summit",
+          "link": "https://www.bbc.co.uk/news/articles/crp3e1n5kezpo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-15T05:16:44.000Z"
+          "date": "2026-11-16T11:27:53.000Z"
+        },
+        {
+          "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+          "link": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-16T08:56:04.000Z"
+        },
+        {
+          "title": "Prince and Princess of Wales play street cricket in Mumbai",
+          "link": "https://www.bbc.co.uk/news/videos/cmvg2nl8v22do?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-16T08:13:17.000Z"
+        },
+        {
+          "title": "Prince and Princess of Wales arrive in India ahead of meeting with Modi",
+          "link": "https://www.bbc.co.uk/news/articles/c5lyk0e3n1jxo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-16T07:19:11.000Z"
+        },
+        {
+          "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+          "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-15T22:00:24.000Z"
         },
         {
           "title": "UK ethics watchdog chief steps back from role over sexual misconduct claims",
           "link": "https://www.bbc.co.uk/news/articles/cmewv2kzq2e5o?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
+          "section": "Politics",
           "date": "2026-11-14T21:14:52.000Z"
-        },
-        {
-          "title": "'One of the greatest wins' - Wales stun All Blacks to go from no-hopers to heroes",
-          "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-14T19:33:46.000Z"
         },
         {
           "title": "Welsh Labour 'didn't focus on improving people's lives'",
           "link": "https://www.bbc.co.uk/news/videos/c8e39y006qx1o?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-14T16:41:53.000Z"
-        },
-        {
-          "title": "Burnham suggests Welsh Labour lost sight of devolution as review criticises ex-first minister's strategy",
-          "link": "https://www.bbc.co.uk/news/articles/cmgj340w6g8yo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-14T16:12:38.000Z"
-        },
-        {
-          "title": "Welsh Labour leader says party has focused too much on powers for Senedd",
-          "link": "https://www.bbc.co.uk/news/articles/c6jre3q9jjwro?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-14T14:56:05.000Z"
-        },
-        {
-          "title": "Shoplifters 'stealing to order' in Scottish shops",
-          "link": "https://www.bbc.co.uk/news/videos/cw772xkxjm37o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-13T14:16:09.000Z"
         }
       ]
     },
@@ -149,44 +150,32 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 16,
+      "count": 11,
       "bySection": {
-        "World": 6,
+        "World": 4,
         "Health": 2,
         "Science": 1,
-        "Business": 6,
+        "Business": 3,
         "Politics": 1
       },
       "stories": [
         {
-          "title": "Copper wire upgrade behind US flight suspension, transport secretary says",
-          "link": "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
+          "title": "US basketball player arrested with 34kg of cannabis at Nigerian airport",
+          "link": "https://www.bbc.co.uk/news/articles/cj93rggenq4xo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-15T07:10:31.000Z"
+          "date": "2026-11-16T07:24:45.000Z"
         },
         {
-          "title": "Judge temporarily blocks Trump from closing Washington DC golf course for renovation",
-          "link": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o?at_medium=RSS&at_campaign=rss",
+          "title": "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+          "link": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-15T03:21:04.000Z"
+          "date": "2026-11-15T19:32:39.000Z"
         },
         {
           "title": "How telecoms upgrade work sparked US flight chaos",
           "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-14T23:11:27.000Z"
-        },
-        {
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-14T22:37:25.000Z"
-        },
-        {
-          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-          "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-14T15:53:55.000Z"
+          "date": "2026-11-15T14:57:15.000Z"
         },
         {
           "title": "'I cycled across America in memory of my wife - I know she's proud of me'",
@@ -205,6 +194,18 @@
           "link": "https://www.bbc.co.uk/news/videos/ckqx5ryx905qo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-13T15:09:40.000Z"
+        },
+        {
+          "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+          "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-13T12:22:30.000Z"
+        },
+        {
+          "title": "Nvidia hires major US law firm to investigate alleged Chinese spy affair",
+          "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-10T22:52:15.000Z"
         }
       ]
     },
@@ -212,18 +213,17 @@
       "name": "China",
       "lat": 35,
       "lon": 104,
-      "count": 8,
+      "count": 5,
       "bySection": {
-        "World": 1,
-        "Business": 6,
+        "Business": 4,
         "Politics": 1
       },
       "stories": [
         {
-          "title": "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-          "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-14T15:53:55.000Z"
+          "title": "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
+          "link": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-16T01:47:57.000Z"
         },
         {
           "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
@@ -244,24 +244,6 @@
           "date": "2026-11-10T22:52:15.000Z"
         },
         {
-          "title": "Faisal Islam: What the boss of US tech giant Nvidia told me about China and national security",
-          "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-10T09:23:55.000Z"
-        },
-        {
-          "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-          "link": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-10T08:23:21.000Z"
-        },
-        {
-          "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-          "link": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-09T19:58:01.000Z"
-        },
-        {
           "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
           "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
           "section": "Business",
@@ -273,18 +255,11 @@
       "name": "Canada",
       "lat": 56,
       "lon": -106,
-      "count": 3,
+      "count": 2,
       "bySection": {
-        "World": 1,
         "Science": 2
       },
       "stories": [
-        {
-          "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-          "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-15T09:26:37.000Z"
-        },
         {
           "title": "What could El Niño mean for winter weather in the US and Canada?",
           "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
@@ -305,21 +280,38 @@
       "lon": 79,
       "count": 2,
       "bySection": {
-        "World": 1,
+        "UK": 1,
         "Business": 1
       },
       "stories": [
         {
-          "title": "After a summer win, India's Gen Z protesters face a winter of uncertainty",
-          "link": "https://www.bbc.co.uk/news/articles/cq99e0z4vg1eo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-13T23:11:51.000Z"
+          "title": "Prince and Princess of Wales arrive in India ahead of meeting with Modi",
+          "link": "https://www.bbc.co.uk/news/articles/c5lyk0e3n1jxo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-16T07:19:11.000Z"
         },
         {
           "title": "The Indian workers filming their work to train AI",
           "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-10-23T08:04:17.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Mexico",
+      "lat": 23,
+      "lon": -102,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "Mexican drug lord Miguel Ángel Félix Gallardo dies age 80",
+          "link": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-16T03:21:56.000Z"
         }
       ]
     },
@@ -346,31 +338,14 @@
       "lon": 12,
       "count": 1,
       "bySection": {
-        "World": 1
+        "Technology": 1
       },
       "stories": [
         {
           "title": "Italy fines Meta €805m over accessing users' photos",
           "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
+          "section": "Technology",
           "date": "2026-11-14T18:28:06.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Hungary",
-      "lat": 47,
-      "lon": 19,
-      "count": 1,
-      "bySection": {
-        "World": 1
-      },
-      "stories": [
-        {
-          "title": "Hungarian authorities uncover $20m during probe of Orbán-era minister",
-          "link": "https://www.bbc.co.uk/news/articles/ckjwj03w4w0qo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-14T10:42:20.000Z"
         }
       ]
     },
@@ -380,14 +355,31 @@
       "lon": 32,
       "count": 1,
       "bySection": {
+        "UK": 1
+      },
+      "stories": [
+        {
+          "title": "'You're going to win the war': Harry praises war veterans on surprise Ukraine visit",
+          "link": "https://www.bbc.co.uk/news/articles/c60evn992jq8o?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-16T09:21:31.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "lat": 60,
+      "lon": 90,
+      "count": 1,
+      "bySection": {
         "World": 1
       },
       "stories": [
         {
-          "title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-          "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "title": "Russia's mega-rich are already imagining a future after Putin",
+          "link": "https://www.bbc.co.uk/news/articles/c60733mxm0x0o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-14T22:37:25.000Z"
+          "date": "2026-11-16T00:13:14.000Z"
         }
       ]
     },
@@ -418,10 +410,10 @@
       },
       "stories": [
         {
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+          "link": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-15T08:17:41.000Z"
+          "date": "2026-11-16T08:56:04.000Z"
         }
       ]
     },
@@ -435,27 +427,44 @@
       },
       "stories": [
         {
-          "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-          "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
+          "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+          "link": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-15T08:17:41.000Z"
+          "date": "2026-11-16T08:56:04.000Z"
         }
       ]
     },
     {
-      "name": "Ethiopia",
-      "lat": 9,
-      "lon": 40,
+      "name": "Yemen",
+      "lat": 15.5,
+      "lon": 48,
       "count": 1,
       "bySection": {
         "World": 1
       },
       "stories": [
         {
-          "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
-          "link": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&at_campaign=rss",
+          "title": "Yemeni forces retreat to defend port city from Houthis",
+          "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-14T15:42:54.000Z"
+          "date": "2026-11-16T11:09:38.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Libya",
+      "lat": 27,
+      "lon": 17,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "Town rebuilt after devastating floods becomes showcase for Libyan strongman's rule",
+          "link": "https://www.bbc.co.uk/news/articles/cr0qjz77j4k1o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-16T00:11:12.000Z"
         }
       ]
     },
@@ -469,120 +478,154 @@
       },
       "stories": [
         {
-          "title": "Nigeria cautions against travel via Ethiopia's main airport due to altitude",
-          "link": "https://www.bbc.co.uk/news/articles/cmz6qjpdy2wqo?at_medium=RSS&at_campaign=rss",
+          "title": "US basketball player arrested with 34kg of cannabis at Nigerian airport",
+          "link": "https://www.bbc.co.uk/news/articles/cj93rggenq4xo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-14T15:42:54.000Z"
+          "date": "2026-11-16T07:24:45.000Z"
         }
       ]
     },
     {
-      "name": "Philippines",
-      "lat": 13,
-      "lon": 122,
+      "name": "South Africa",
+      "lat": -29,
+      "lon": 24,
       "count": 1,
       "bySection": {
         "World": 1
       },
       "stories": [
         {
-          "title": "Philippines wins first Eurovision Song Contest Asia",
-          "link": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
+          "title": "Two mass shootings in South Africa leave 17 dead",
+          "link": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-14T18:17:58.000Z"
+          "date": "2026-11-16T10:57:48.000Z"
         }
       ]
     },
     {
-      "name": "New Zealand",
-      "lat": -41,
-      "lon": 174,
+      "name": "Bangladesh",
+      "lat": 24,
+      "lon": 90,
       "count": 1,
       "bySection": {
-        "UK": 1
+        "World": 1
       },
       "stories": [
         {
-          "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
-          "link": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-15T11:51:51.000Z"
+          "title": "Clothing factories shut in Bangladesh as workers strike over pay",
+          "link": "https://www.bbc.co.uk/news/articles/cx5y1pzr9604o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-16T01:05:44.000Z"
+        }
+      ]
+    },
+    {
+      "name": "South Korea",
+      "lat": 36,
+      "lon": 128,
+      "count": 1,
+      "bySection": {
+        "Technology": 1
+      },
+      "stories": [
+        {
+          "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+          "link": "https://www.bbc.co.uk/news/articles/ckvg2ezvpe08o?at_medium=RSS&at_campaign=rss",
+          "section": "Technology",
+          "date": "2026-11-15T13:37:45.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Australia",
+      "lat": -25,
+      "lon": 134,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+          "link": "https://www.bbc.co.uk/news/articles/cmpqr9j81888o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-16T03:09:49.000Z"
         }
       ]
     }
   ],
   "latest": [
     {
-      "title": "Man and woman die and four arrested after police pursuit crash in Leeds",
-      "link": "https://www.bbc.co.uk/news/articles/cm3eg8x9zkvno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T12:38:28.000Z",
+      "title": "Miliband says he won't resign if government approves Rosebank oil field",
+      "link": "https://www.bbc.co.uk/news/articles/crvg2n8vwyqdo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T13:42:37.000Z",
+      "section": "Politics"
+    },
+    {
+      "title": "Russell Brand prison message denying rape 'appalling' and being investigated, No 10 says",
+      "link": "https://www.bbc.co.uk/news/articles/cm9d7pe8y559o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T13:40:27.000Z",
       "section": "UK"
     },
     {
-      "title": "Man dies after being hit by ambulance",
-      "link": "https://www.bbc.co.uk/news/articles/c6wy492w3wpwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T12:36:39.000Z",
+      "title": "GTA 6 hacker pleads guilty after release from secure hospital",
+      "link": "https://www.bbc.co.uk/news/articles/cq99exy89dngo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T13:34:22.000Z",
+      "section": "Technology"
+    },
+    {
+      "title": "Barristers must stop using rape myths in trials, justice secretary says",
+      "link": "https://www.bbc.co.uk/news/articles/cj04w7n74gqno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T13:28:44.000Z",
       "section": "UK"
     },
     {
-      "title": "Staggered age of consent to be 'discussed' after Brand allegations, minister says",
-      "link": "https://www.bbc.co.uk/news/articles/cwdr1dmn563do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T12:31:20.000Z",
+      "title": "Create more jobs for under-25s by cutting National Insurance, key report urges",
+      "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T13:19:33.000Z",
       "section": "UK"
     },
     {
-      "title": "'We've waited 73 years to be here' - Wales fans ecstatic after win over New Zealand",
-      "link": "https://www.bbc.co.uk/news/articles/crz9dxnd5weeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T11:51:51.000Z",
+      "title": "I had to explain to my teacher what a young carer was - we need more support",
+      "link": "https://www.bbc.co.uk/news/articles/cqgm0myvjv12o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T13:00:21.000Z",
       "section": "UK"
     },
     {
-      "title": "Minister backs legal right to job support for young people",
-      "link": "https://www.bbc.co.uk/news/articles/cqr7gn1zmlj1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T11:51:19.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
-      "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T11:06:32.000Z",
+      "title": "Five EU countries expected to announce migrant deportation centre in Rwanda",
+      "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T12:54:44.000Z",
       "section": "World"
     },
     {
-      "title": "Man in life-threatening state after shop robbery",
-      "link": "https://www.bbc.co.uk/news/articles/cqrlgnj33knwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T11:05:25.000Z",
+      "title": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
+      "link": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T12:42:14.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Man sentenced over 'horrific' attempted murder of three children",
+      "link": "https://www.bbc.co.uk/news/articles/cr0qj0nzwj34o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T12:27:15.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Elon Musk joins 'Bring Jensen Back' campaign to reinstate the ex-Nvidia boss",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T12:20:49.000Z",
+      "section": "World"
+    },
+    {
+      "title": "The Scouse actor reaching new heights in Liverpool drama This City Is Ours",
+      "link": "https://www.bbc.co.uk/news/articles/cm15e3xg9njeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T12:12:39.000Z",
       "section": "UK"
     },
     {
-      "title": "How to spot November's planetary parade in the pre-dawn sky",
-      "link": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T10:49:57.000Z",
-      "section": "Science"
-    },
-    {
-      "title": "Pope Leo speaks of community 'suffering' on visit to remote Andes town",
-      "link": "https://www.bbc.co.uk/news/articles/cr4gnz0lv2vlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T09:57:25.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Fifth Canadian soldier dies from injuries caused by large fire at military base",
-      "link": "https://www.bbc.co.uk/news/articles/cmrlgn4x2xw8o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T09:26:37.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Milder day in store before more cold health alerts take effect",
-      "link": "https://www.bbc.co.uk/weather/articles/cqe879916895o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T08:24:45.000Z",
+      "title": "Tourette's film I Swear wins three Scottish Baftas",
+      "link": "https://www.bbc.co.uk/news/articles/crgqx11wkzy8o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-16T12:04:13.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Israel kills Hamas commander in strike on Gaza camp, officials say",
-      "link": "https://www.bbc.co.uk/news/articles/cqrkg4r6mg7xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-15T08:17:41.000Z",
-      "section": "World"
     }
   ]
 }

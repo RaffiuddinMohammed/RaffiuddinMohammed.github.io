@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16T02:04:00.417Z",
+  "checked": "2026-11-16T13:49:05.059Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -9,8 +9,8 @@
     },
     {
       "name": "GitHub",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Incident with Pull Requests",
       "url": "https://www.githubstatus.com"
     },
     {
@@ -39,8 +39,8 @@
     },
     {
       "name": "Reddit",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Apple iOS App - Apple Account login issues",
       "url": "https://www.redditstatus.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "GitHub",
+      "title": "Incident with Pull Requests",
+      "impact": "minor",
+      "start": "2026-11-16T11:59:40.900Z",
+      "end": null,
+      "url": "https://stspg.io/ljtn69jlt087"
+    },
+    {
+      "service": "Reddit",
+      "title": "Apple iOS App - Apple Account login issues",
+      "impact": "minor",
+      "start": "2026-11-16T02:02:29.579-08:00",
+      "end": null,
+      "url": "https://stspg.io/p1cwzf1yhftr"
+    },
     {
       "service": "Cloudflare",
       "title": "Elevated number of errors in Bogotá",

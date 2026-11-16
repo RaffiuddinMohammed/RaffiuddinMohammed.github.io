@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-15T12:50:39.589Z",
+  "updated": "2026-11-16T13:47:13.681Z",
   "stories": [
     {
-      "title": "SpaceX catches the Starship to end Flight 15",
-      "url": "https://www.spacex.com/launches/starship-flight-15",
-      "discuss": "https://news.ycombinator.com/item?id=50500963",
-      "points": 1317,
-      "comments": 898,
-      "domain": "spacex.com"
+      "title": "Qwen4-Max",
+      "url": "https://qwen.ai/blog?id=qwen4-max",
+      "discuss": "https://news.ycombinator.com/item?id=50513215",
+      "points": 655,
+      "comments": 303,
+      "domain": "qwen.ai"
     },
     {
-      "title": "Lovable apps expose passport details and more than 200K private messages",
-      "url": "https://www.crissyfield.de/research/lovable-en/",
-      "discuss": "https://news.ycombinator.com/item?id=50499017",
-      "points": 865,
-      "comments": 338,
-      "domain": "crissyfield.de"
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "discuss": "https://news.ycombinator.com/item?id=50513160",
+      "points": 464,
+      "comments": 132,
+      "domain": "iter.ca"
     },
     {
-      "title": "Why get an expensive Pi when I have an old phone?",
-      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
-      "discuss": "https://news.ycombinator.com/item?id=50440709",
-      "points": 572,
-      "comments": 308,
-      "domain": "so.long.thanks.fish"
+      "title": "How to make almost anything",
+      "url": "https://pub.cba.mit.edu/863.26/site/",
+      "discuss": "https://news.ycombinator.com/item?id=50514470",
+      "points": 454,
+      "comments": 86,
+      "domain": "pub.cba.mit.edu"
     },
     {
-      "title": "KDE: The documentary [video]",
-      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-      "discuss": "https://news.ycombinator.com/item?id=50496976",
-      "points": 506,
-      "comments": 113,
-      "domain": "tube.kockatoo.org"
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "url": "https://bruceroettgers.eu/blog/protomaps/",
+      "discuss": "https://news.ycombinator.com/item?id=50509837",
+      "points": 389,
+      "comments": 66,
+      "domain": "bruceroettgers.eu"
     },
     {
-      "title": "A family tree of software job titles",
-      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "discuss": "https://news.ycombinator.com/item?id=50499038",
-      "points": 349,
-      "comments": 174,
-      "domain": "zwischenzugs.com"
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "discuss": "https://news.ycombinator.com/item?id=50509972",
+      "points": 346,
+      "comments": 62,
+      "domain": "ductus.sorenblank.com"
     },
     {
-      "title": "Project Zero will disclose vulnerabilities 90 days after reporting",
-      "url": "https://projectzero.google/2026/11/disclosure-policy.html",
-      "discuss": "https://news.ycombinator.com/item?id=50496051",
-      "points": 270,
-      "comments": 150,
-      "domain": "projectzero.google"
+      "title": "What's Next for Nvidia?",
+      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
+      "discuss": "https://news.ycombinator.com/item?id=50512235",
+      "points": 331,
+      "comments": 410,
+      "domain": "steveblank.com"
     },
     {
-      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
-      "url": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
-      "discuss": "https://news.ycombinator.com/item?id=50503255",
-      "points": 258,
-      "comments": 72,
-      "domain": "eff.org"
+      "title": "Old Bitly links are being hijacked",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
+      "discuss": "https://news.ycombinator.com/item?id=50511395",
+      "points": 326,
+      "comments": 164,
+      "domain": "ransomnews.com"
     },
     {
-      "title": "PyPI's redesigned project pages with clearer security signals are now live",
-      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "discuss": "https://news.ycombinator.com/item?id=50497892",
-      "points": 254,
-      "comments": 110,
-      "domain": "blog.pypi.org"
+      "title": "Crows make decisions faster than we can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "discuss": "https://news.ycombinator.com/item?id=50509023",
+      "points": 261,
+      "comments": 178,
+      "domain": "nytimes.com"
     },
     {
-      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
-      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-      "discuss": "https://news.ycombinator.com/item?id=50497589",
-      "points": 246,
-      "comments": 23,
-      "domain": "github.com"
+      "title": "A short explainer on how El Niño works [video]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "discuss": "https://news.ycombinator.com/item?id=50509308",
+      "points": 260,
+      "comments": 139,
+      "domain": "youtube.com"
     },
     {
-      "title": "Court denies motion to dismiss DRAM price fixing case",
-      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
-      "discuss": "https://news.ycombinator.com/item?id=50502988",
-      "points": 244,
-      "comments": 91,
-      "domain": "litnews.ai"
+      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
+      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
+      "discuss": "https://news.ycombinator.com/item?id=50512441",
+      "points": 181,
+      "comments": 51,
+      "domain": "forum.torproject.org"
     }
   ],
-  "totalPoints": 6391,
+  "totalPoints": 4968,
   "storyCount": 30
 }
