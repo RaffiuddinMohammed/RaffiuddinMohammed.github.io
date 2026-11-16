@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16T13:49:05.059Z",
+  "checked": "2026-11-16T19:52:53.253Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -9,8 +9,8 @@
     },
     {
       "name": "GitHub",
-      "level": "minor",
-      "note": "Incident with Pull Requests",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://www.githubstatus.com"
     },
     {
@@ -88,11 +88,19 @@
   ],
   "incidents": [
     {
+      "service": "Cloudflare",
+      "title": "Errors creating predictions for some models",
+      "impact": "minor",
+      "start": "2026-11-16T14:30:20.417Z",
+      "end": "2026-11-16T16:19:08.732Z",
+      "url": "https://www.cloudflarestatus.com/incidents/69855o2zz6kl"
+    },
+    {
       "service": "GitHub",
       "title": "Incident with Pull Requests",
       "impact": "minor",
       "start": "2026-11-16T11:59:40.900Z",
-      "end": null,
+      "end": "2026-11-16T16:26:26.775Z",
       "url": "https://stspg.io/ljtn69jlt087"
     },
     {
@@ -839,14 +847,6 @@
       "start": "2026-10-29T09:22:53.373Z",
       "end": "2026-10-29T11:49:16.376Z",
       "url": "https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased errors and latency for CNI 2.0 traffic in LAX",
-      "impact": "minor",
-      "start": "2026-10-29T06:55:41.568Z",
-      "end": "2026-10-29T08:28:13.765Z",
-      "url": "https://www.cloudflarestatus.com/incidents/oco7f885d2v4"
     },
     {
       "service": "Stripe",
