@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17T11:48:28.089Z",
+  "checked": "2026-11-17T14:43:10.836Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Turnstile verification failures",
+      "note": "Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized",
+      "impact": "minor",
+      "start": "2026-11-17T13:54:19.030Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/tawn3zx7wh0z"
+    },
     {
       "service": "Cloudflare",
       "title": "Turnstile verification failures",
@@ -823,14 +831,6 @@
       "start": "2026-10-29T19:57:28.577Z",
       "end": "2026-10-29T21:50:51.475Z",
       "url": "https://www.cloudflarestatus.com/incidents/kp28d3kzgft1"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Errors for Durable Objects and Downstream Services in Eastern North America (ENAM)",
-      "impact": "minor",
-      "start": "2026-10-29T16:36:48.045Z",
-      "end": "2026-10-29T16:50:03.928Z",
-      "url": "https://www.cloudflarestatus.com/incidents/10m2bxjztzwh"
     },
     {
       "service": "GitHub",

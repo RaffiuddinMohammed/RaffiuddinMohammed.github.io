@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-16T13:47:13.681Z",
+  "updated": "2026-11-17T14:38:50.742Z",
   "stories": [
     {
-      "title": "Qwen4-Max",
-      "url": "https://qwen.ai/blog?id=qwen4-max",
-      "discuss": "https://news.ycombinator.com/item?id=50513215",
-      "points": 655,
-      "comments": 303,
-      "domain": "qwen.ai"
+      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+      "url": "https://www.cs.cmu.edu/learn/",
+      "discuss": "https://news.ycombinator.com/item?id=50522980",
+      "points": 1885,
+      "comments": 256,
+      "domain": "cs.cmu.edu"
     },
     {
-      "title": "Universal XSS in uBlock Origin from website-driven element picker",
-      "url": "https://iter.ca/post/ubo-uxss/",
-      "discuss": "https://news.ycombinator.com/item?id=50513160",
-      "points": 464,
-      "comments": 132,
-      "domain": "iter.ca"
+      "title": "BugMeNot has closed",
+      "url": "https://www.bugmenot.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50523601",
+      "points": 635,
+      "comments": 284,
+      "domain": "bugmenot.com"
     },
     {
-      "title": "How to make almost anything",
-      "url": "https://pub.cba.mit.edu/863.26/site/",
-      "discuss": "https://news.ycombinator.com/item?id=50514470",
-      "points": 454,
-      "comments": 86,
-      "domain": "pub.cba.mit.edu"
+      "title": "Optimizely compromised, served malware on Zoom, GitLab",
+      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
+      "discuss": "https://news.ycombinator.com/item?id=50524767",
+      "points": 480,
+      "comments": 195,
+      "domain": "blog.report-uri.com"
     },
     {
-      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-      "url": "https://bruceroettgers.eu/blog/protomaps/",
-      "discuss": "https://news.ycombinator.com/item?id=50509837",
-      "points": 389,
-      "comments": 66,
-      "domain": "bruceroettgers.eu"
+      "title": "Frame – 31.5\" color ePaper display",
+      "url": "https://trmnl.com/blog/introducing-frame",
+      "discuss": "https://news.ycombinator.com/item?id=50519354",
+      "points": 476,
+      "comments": 332,
+      "domain": "trmnl.com"
     },
     {
-      "title": "Handwriting, as a Font",
-      "url": "https://ductus.sorenblank.com",
-      "discuss": "https://news.ycombinator.com/item?id=50509972",
-      "points": 346,
-      "comments": 62,
-      "domain": "ductus.sorenblank.com"
+      "title": "Jiff 1.0: A datetime library for Rust",
+      "url": "https://burntsushi.net/jiff/",
+      "discuss": "https://news.ycombinator.com/item?id=50519744",
+      "points": 411,
+      "comments": 88,
+      "domain": "burntsushi.net"
     },
     {
-      "title": "What's Next for Nvidia?",
-      "url": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-      "discuss": "https://news.ycombinator.com/item?id=50512235",
-      "points": 331,
-      "comments": 410,
-      "domain": "steveblank.com"
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "discuss": "https://news.ycombinator.com/item?id=50517321",
+      "points": 381,
+      "comments": 290,
+      "domain": "theregister.com"
     },
     {
-      "title": "Old Bitly links are being hijacked",
-      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
-      "discuss": "https://news.ycombinator.com/item?id=50511395",
-      "points": 326,
-      "comments": 164,
-      "domain": "ransomnews.com"
+      "title": "What is w2rt6byl5nf1opmc-a.com?",
+      "url": "https://jack.cab/blog/siterate",
+      "discuss": "https://news.ycombinator.com/item?id=50517602",
+      "points": 379,
+      "comments": 155,
+      "domain": "jack.cab"
     },
     {
-      "title": "Crows make decisions faster than we can",
-      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
-      "discuss": "https://news.ycombinator.com/item?id=50509023",
-      "points": 261,
-      "comments": 178,
+      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+      "discuss": "https://news.ycombinator.com/item?id=50530163",
+      "points": 343,
+      "comments": 166,
       "domain": "nytimes.com"
     },
     {
-      "title": "A short explainer on how El Niño works [video]",
-      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
-      "discuss": "https://news.ycombinator.com/item?id=50509308",
-      "points": 260,
-      "comments": 139,
-      "domain": "youtube.com"
+      "title": "OpenCode Browse",
+      "url": "https://opencode.ai/product/browse",
+      "discuss": "https://news.ycombinator.com/item?id=50523459",
+      "points": 309,
+      "comments": 188,
+      "domain": "opencode.ai"
     },
     {
-      "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
-      "url": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-      "discuss": "https://news.ycombinator.com/item?id=50512441",
-      "points": 181,
-      "comments": 51,
-      "domain": "forum.torproject.org"
+      "title": "Grazing sheep in fields with solar arrays",
+      "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
+      "discuss": "https://news.ycombinator.com/item?id=50520182",
+      "points": 301,
+      "comments": 301,
+      "domain": "news.cornell.edu"
     }
   ],
-  "totalPoints": 4968,
+  "totalPoints": 7631,
   "storyCount": 30
 }

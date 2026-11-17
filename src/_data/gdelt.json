@@ -1,15 +1,11 @@
 {
-  "updated": "2026-11-16T13:48:56.888Z",
+  "updated": "2026-11-17T14:43:01.690Z",
   "topics": [
     {
       "key": "ai",
       "label": "AI",
       "query": "\"artificial intelligence\"",
       "series": [
-        {
-          "date": "2025-11-28",
-          "value": 0.6604
-        },
         {
           "date": "2025-11-29",
           "value": 0.6395
@@ -2637,10 +2633,6 @@
       "query": "inflation",
       "series": [
         {
-          "date": "2025-11-28",
-          "value": 0.7659
-        },
-        {
           "date": "2025-11-29",
           "value": 0.783
         },
@@ -3951,10 +3943,6 @@
       "label": "Elections",
       "query": "election",
       "series": [
-        {
-          "date": "2025-11-28",
-          "value": 1.2418
-        },
         {
           "date": "2025-11-29",
           "value": 1.2279
