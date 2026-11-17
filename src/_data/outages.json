@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-16T19:52:53.253Z",
+  "checked": "2026-11-17T02:55:05.363Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -39,8 +39,8 @@
     },
     {
       "name": "Reddit",
-      "level": "minor",
-      "note": "Apple iOS App - Apple Account login issues",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://www.redditstatus.com"
     },
     {
@@ -89,6 +89,14 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "Network Performance Issues in Montreal, Canada",
+      "impact": "minor",
+      "start": "2026-11-16T21:36:50.596Z",
+      "end": "2026-11-16T20:40:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/wscmdyvmpb5d"
+    },
+    {
+      "service": "Cloudflare",
       "title": "Errors creating predictions for some models",
       "impact": "minor",
       "start": "2026-11-16T14:30:20.417Z",
@@ -108,7 +116,7 @@
       "title": "Apple iOS App - Apple Account login issues",
       "impact": "minor",
       "start": "2026-11-16T02:02:29.579-08:00",
-      "end": null,
+      "end": "2026-11-16T13:00:50.072-08:00",
       "url": "https://stspg.io/p1cwzf1yhftr"
     },
     {
@@ -831,22 +839,6 @@
       "start": "2026-10-29T10:19:55.318Z",
       "end": "2026-10-29T12:49:52.145Z",
       "url": "https://stspg.io/22p3vp78z20q"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Issues with Durable Objects availability in Eastern Europe",
-      "impact": "minor",
-      "start": "2026-10-29T10:06:17.344Z",
-      "end": "2026-10-29T11:47:23.364Z",
-      "url": "https://www.cloudflarestatus.com/incidents/bc7e93q3eigp"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Worker services errors",
-      "impact": "minor",
-      "start": "2026-10-29T09:22:53.373Z",
-      "end": "2026-10-29T11:49:16.376Z",
-      "url": "https://www.cloudflarestatus.com/incidents/6yfpsos7ksp3"
     },
     {
       "service": "Stripe",
