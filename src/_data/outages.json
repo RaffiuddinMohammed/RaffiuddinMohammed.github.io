@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17T02:55:05.363Z",
+  "checked": "2026-11-17T11:48:28.089Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Turnstile verification failures",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Turnstile verification failures",
+      "impact": "minor",
+      "start": "2026-11-17T10:24:59.409Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/5831aw44ia7i"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated number of 52x origin connectivity errors in Seoul",
+      "impact": "minor",
+      "start": "2026-11-17T08:51:03.499Z",
+      "end": "2026-11-17T05:50:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/1nqok7v173qg"
+    },
     {
       "service": "Cloudflare",
       "title": "Network Performance Issues in Montreal, Canada",
@@ -815,22 +831,6 @@
       "start": "2026-10-29T16:36:48.045Z",
       "end": "2026-10-29T16:50:03.928Z",
       "url": "https://www.cloudflarestatus.com/incidents/10m2bxjztzwh"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Durable Objects, D1 and Workflows Error Rates",
-      "impact": "minor",
-      "start": "2026-10-29T14:16:46.205Z",
-      "end": "2026-10-29T16:33:43.687Z",
-      "url": "https://www.cloudflarestatus.com/incidents/r4mz367vddi7"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased HTTP 429 Rate Limit Errors on Cloudflare Dashboard",
-      "impact": "minor",
-      "start": "2026-10-29T10:31:52.864Z",
-      "end": "2026-10-29T12:10:59.965Z",
-      "url": "https://www.cloudflarestatus.com/incidents/k2cd9e1fyskp"
     },
     {
       "service": "GitHub",
