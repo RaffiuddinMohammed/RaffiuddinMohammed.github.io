@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17T14:43:10.836Z",
+  "checked": "2026-11-17T20:53:01.221Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,13 +16,13 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized",
+      "note": "R2 elevated errors and timeouts for requests from South America",
       "url": "https://www.cloudflarestatus.com"
     },
     {
       "name": "OpenAI",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Costs API data is delayed",
       "url": "https://status.openai.com"
     },
     {
@@ -45,8 +45,8 @@
     },
     {
       "name": "Dropbox",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Sign in with Apple is not working as expected for some users",
       "url": "https://status.dropbox.com"
     },
     {
@@ -89,10 +89,58 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "R2 elevated errors and timeouts for requests from South America",
+      "impact": "minor",
+      "start": "2026-11-17T20:05:29.550Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/gcn9xop0f7zm"
+    },
+    {
+      "service": "Dropbox",
+      "title": "Sign in with Apple is not working as expected for some users",
+      "impact": "major",
+      "start": "2026-11-17T19:36:39.703Z",
+      "end": null,
+      "url": "https://stspg.io/m6867jzjgb18"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Costs API data is delayed",
+      "impact": "minor",
+      "start": "2026-11-17T17:46:15Z",
+      "end": null,
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network performance issues in Los Angeles (LAX) and Frankfurt (FRA) datacenters",
+      "impact": "minor",
+      "start": "2026-11-17T17:12:37.707Z",
+      "end": "2026-11-17T18:00:07.525Z",
+      "url": "https://www.cloudflarestatus.com/incidents/du63c25qjgjs"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated number of 5xx and 499 errors",
+      "impact": "minor",
+      "start": "2026-11-17T15:50:54.167Z",
+      "end": "2026-11-17T14:35:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/1ip2m5rvk7vb"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Errors and stalled predictions on some models",
+      "impact": "minor",
+      "start": "2026-11-17T15:02:47.698Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
+    },
+    {
+      "service": "Cloudflare",
       "title": "Cloudflare One Gateway traffic unable to connect to Cloudflare domains that are regionalized",
       "impact": "minor",
       "start": "2026-11-17T13:54:19.030Z",
-      "end": null,
+      "end": "2026-11-17T14:56:52.677Z",
       "url": "https://www.cloudflarestatus.com/incidents/tawn3zx7wh0z"
     },
     {
@@ -100,7 +148,7 @@
       "title": "Turnstile verification failures",
       "impact": "minor",
       "start": "2026-11-17T10:24:59.409Z",
-      "end": null,
+      "end": "2026-11-17T16:37:10.717Z",
       "url": "https://www.cloudflarestatus.com/incidents/5831aw44ia7i"
     },
     {
@@ -761,22 +809,6 @@
       "url": "https://stspg.io/ns6pj9qy9glb"
     },
     {
-      "service": "Cloudflare",
-      "title": "Worker Deployments Delayed",
-      "impact": "minor",
-      "start": "2026-11-02T16:41:11.110Z",
-      "end": "2026-11-02T17:30:10.987Z",
-      "url": "https://www.cloudflarestatus.com/incidents/7he1pmetw77p"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Cache purge delays in Qingdao Shandong, China",
-      "impact": "minor",
-      "start": "2026-10-31T06:41:15.562Z",
-      "end": "2026-10-31T06:57:35.247Z",
-      "url": "https://www.cloudflarestatus.com/incidents/5tlm9r9j9rpo"
-    },
-    {
       "service": "GitHub",
       "title": "Incident with Dependabot",
       "impact": "minor",
@@ -815,22 +847,6 @@
       "start": "2026-10-30T14:31:16.537Z",
       "end": "2026-10-30T15:02:51.002Z",
       "url": "https://stspg.io/6p81rf34z4nc"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Errors for Browser Run",
-      "impact": "minor",
-      "start": "2026-10-30T02:41:48.427Z",
-      "end": "2026-10-30T03:48:59.143Z",
-      "url": "https://www.cloudflarestatus.com/incidents/2xiv8fdhk0bh"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "R2 Elevated Latency in Eastern Europe",
-      "impact": "minor",
-      "start": "2026-10-29T19:57:28.577Z",
-      "end": "2026-10-29T21:50:51.475Z",
-      "url": "https://www.cloudflarestatus.com/incidents/kp28d3kzgft1"
     },
     {
       "service": "GitHub",
@@ -942,14 +958,6 @@
       "impact": "minor",
       "start": "2026-10-22T19:36:53Z",
       "end": "2026-10-23T00:07:55Z",
-      "url": "https://status.openai.com"
-    },
-    {
-      "service": "OpenAI",
-      "title": "Degraded Performance of Dots on Enterprise",
-      "impact": "minor",
-      "start": "2026-10-22T18:51:28Z",
-      "end": "2026-10-22T20:55:48Z",
       "url": "https://status.openai.com"
     },
     {
