@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:29:19.089Z",
+  "updated": "2026-11-18T21:59:28.976Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,11 +3097,11 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 252,
+      "totalStories": 251,
       "sections": [
         {
           "name": "World",
-          "count": 30
+          "count": 29
         },
         {
           "name": "UK",
@@ -3641,17 +3641,17 @@
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 825
+          "points": 893
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 498
+          "points": 517
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 421
+          "points": 451
         }
       ]
     }
