@@ -61,6 +61,37 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
   {% endif %}
 </section>
 
+{% if markets.headlineCount %}
+{% set topTheme = markets.themes[0] %}{% set topCo = markets.mag7[0] %}
+<section class="mk-teaser card tint-5 reveal" aria-labelledby="mk-teaser-title">
+  <div class="mk-head">
+    <div>
+      <div class="eyebrow"><span class="new-badge">New</span>Markets · US &amp; UK</div>
+      <h2 id="mk-teaser-title">Markets today</h2>
+      <p class="muted">The Magnificent 7, top US and UK shares, today's movers and what's driving the market news, live.</p>
+    </div>
+    <a class="btn primary" href="/dashboards/markets/">Open markets <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="tv-widget tv-tape" data-widget="ticker-tape" data-config-src="tv-home-tape"><p class="muted">Loading market prices…</p></div>
+  <div class="mk-facts">
+    {% if topTheme.count %}<a class="mk-fact" href="/dashboards/markets/"><b>{{ topTheme.name }}</b><span>is the top theme: {{ topTheme.count }} of {{ markets.headlineCount }} market headlines</span></a>{% endif %}
+    {% if topCo.count %}<a class="mk-fact" href="/dashboards/markets/"><b>{{ topCo.name }}</b><span>leads the Magnificent 7 in the news, in {{ topCo.count }} headline{{ 's' if topCo.count != 1 }}</span></a>{% endif %}
+    {% if markets.yields %}<a class="mk-fact" href="/dashboards/markets/"><b>{{ markets.yields.latest.y10.toFixed(2) }}%</b><span>US 10-year Treasury yield</span></a>{% endif %}
+  </div>
+  {% if markets.latest.length %}
+  <ul class="mk-news">
+    {% for h in markets.latest.slice(0, 3) %}<li><a href="{{ h.link }}" rel="noopener" target="_blank">{{ h.title }}</a> <span class="muted">{{ h.source }}</span></li>{% endfor %}
+  </ul>
+  {% endif %}
+</section>
+<script type="application/json" id="tv-home-tape">{"symbols":[
+  {"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},{"proName":"FOREXCOM:NSXUSD","title":"Nasdaq 100"},{"proName":"FOREXCOM:UKXGBP","title":"FTSE 100"},
+  {"proName":"NASDAQ:NVDA","title":"Nvidia"},{"proName":"NASDAQ:AAPL","title":"Apple"},{"proName":"NASDAQ:MSFT","title":"Microsoft"},
+  {"proName":"NASDAQ:GOOGL","title":"Alphabet"},{"proName":"NASDAQ:AMZN","title":"Amazon"},{"proName":"NASDAQ:META","title":"Meta"},
+  {"proName":"NASDAQ:TSLA","title":"Tesla"},{"proName":"BITSTAMP:BTCUSD","title":"Bitcoin"}],"showSymbolLogo":true,"displayMode":"adaptive"}</script>
+<script src="/assets/markets.js" defer></script>
+{% endif %}
+
 <section class="demo-teaser" aria-label="Test automation demo">
   <div class="demo-mini" data-demo="mini">
     <div class="dm-phone">{% include "demo-phone.njk" %}</div>
@@ -97,7 +128,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
       <p class="muted">The most upvoted stories on the Hacker News front page right now.</p>
       <span class="go">Open dashboard →</span>
     </a>
-    <a class="card dash tint-2 reveal" href="/dashboards/markets/">
+    <a class="card dash tint-5 reveal" href="/dashboards/markets/">
       <span class="icon" aria-hidden="true">📈</span>
       <h3>Markets today</h3>
       <p class="muted">The Magnificent 7 and top US and UK stocks, today's movers, Treasury yields and what market news is talking about.</p>

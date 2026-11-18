@@ -581,3 +581,50 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 /* The page declares color-scheme: dark; an iframe whose document doesn't match gets an opaque white
    backdrop, which turned TradingView's dark widgets into pale text on white. Match their (light) default. */
 .tv-widget iframe { color-scheme: light; }
+
+/* ======================= Markets: 5th colour (gold), nav pill, homepage teaser ======================= */
+:root { --c5: #c98a00; --ink5: #8a5f00; --deep5: #8a5f00; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --c5: #d9a227; --ink5: #f2c46d; } }
+:root[data-theme="dark"] { --c5: #d9a227; --ink5: #f2c46d; }
+.tint-5 { --c: var(--c5); --ink: var(--ink5); }
+.links a.pill.n6 { --c: var(--c5); --ink: var(--ink5); --deep: var(--deep5); color: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--c) 35%, transparent); background: color-mix(in srgb, var(--c) 12%, transparent); }
+.links a.pill.n6:hover, .links a.pill.n6:focus-visible, .links a.pill.n6.active {
+  color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--deep), var(--c));
+  box-shadow: 0 6px 18px color-mix(in srgb, var(--c) 45%, transparent); }
+.new-badge { display: inline-block; margin-left: 6px; padding: 1px 6px; border-radius: 999px; font-size: .62rem; font-weight: 700;
+  letter-spacing: .04em; text-transform: uppercase; line-height: 1.5; color: #1a1300; background: var(--c5); }
+.eyebrow .new-badge { margin: 0 8px 0 0; }
+.links a.pill.n6:hover .new-badge { background: #fff; }
+
+.mk-teaser { margin-top: 32px; }
+.js .mk-teaser.reveal.in:hover, .card.mk-teaser[class*="tint-"]:hover { transform: none; box-shadow: var(--shadow); }
+.mk-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; }
+.mk-head h2 { margin: 6px 0 4px; }
+.mk-head .muted { margin: 0; max-width: 60ch; }
+.mk-teaser .tv-tape { margin: 16px 0 4px; }
+.mk-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 12px; }
+.mk-fact { display: flex; flex-direction: column; gap: 2px; padding: 12px 14px; border-radius: 10px; color: var(--text-2);
+  border: 1px solid var(--border); background: color-mix(in srgb, var(--c5) 6%, transparent); }
+.mk-fact b { color: var(--ink5); font-size: 1.25rem; }
+.mk-fact span { font-size: .85rem; }
+.mk-fact:hover { text-decoration: none; border-color: var(--c5); }
+.mk-news { list-style: none; margin: 14px 0 0; padding: 0; }
+.mk-news li { padding: 8px 0; border-top: 1px solid var(--grid); font-size: .92rem; }
+.mk-news .muted { font-size: .78rem; margin-left: 6px; }
+/* Five dashboard cards: three per row (3 + 2) instead of four plus an orphan */
+#dashboards .grid.three { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+/* Phones: the Markets pill made the bar wider than the screen ("Work with me" was cut off). The footer's
+   contact row already covers email on phones, and the logo alone identifies the site. */
+@media (max-width: 640px) {
+  .links .pill .new-badge, .brand .short, .links .pill.n5 { display: none; }
+}
+/* Tablets: the full name + GitHub pill + badges overflowed between 641 and 960px (even before Markets). */
+@media (min-width: 641px) and (max-width: 960px) {
+  .brand .full, .links .pill.n3, .links .pill .new-badge { display: none; }
+  .brand .short { display: inline; }
+}
+/* Small phones: About is still one tap away via "Work with me" (/about/#for-business). */
+@media (max-width: 400px) { .links .pill.n2 { display: none; } }
+@media (min-width: 641px) and (max-width: 720px) { .links .pill.n4 { display: none; } }
+@media (max-width: 340px) { .links .pill { padding: 6px 6px; } }
