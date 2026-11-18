@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:26:49.257Z",
+  "updated": "2026-11-18T22:43:47.053Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3101,7 +3101,7 @@
       "sections": [
         {
           "name": "World",
-          "count": 29
+          "count": 28
         },
         {
           "name": "UK",
@@ -3302,7 +3302,7 @@
               "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
               "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-18T20:14:57.000Z"
+              "date": "2026-11-18T22:34:56.000Z"
             },
             {
               "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
@@ -3404,7 +3404,7 @@
               "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
               "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-18T20:14:57.000Z"
+              "date": "2026-11-18T22:34:56.000Z"
             },
             {
               "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
@@ -3612,6 +3612,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
           "title": "UK government asks for Russell Brand's YouTube account to be removed",
           "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
@@ -3630,28 +3635,23 @@
           "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
           "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Torrential rain causes widespread flooding in South Florida",
-          "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
-          "section": "Science"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 921
+          "points": 941
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 524
+          "points": 527
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 463
+          "points": 470
         }
       ]
     }

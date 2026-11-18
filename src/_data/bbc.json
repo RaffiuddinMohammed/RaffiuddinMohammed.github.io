@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-18T22:20:27.739Z",
+  "updated": "2026-11-18T22:36:05.120Z",
   "totalStories": 251,
   "sections": [
     {
       "name": "World",
-      "count": 29
+      "count": 28
     },
     {
       "name": "UK",
@@ -257,7 +257,7 @@
           "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
           "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-18T20:14:57.000Z"
+          "date": "2026-11-18T22:34:56.000Z"
         },
         {
           "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
@@ -359,7 +359,7 @@
           "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
           "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-18T20:14:57.000Z"
+          "date": "2026-11-18T22:34:56.000Z"
         },
         {
           "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
@@ -567,6 +567,12 @@
   ],
   "latest": [
     {
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:34:56.000Z",
+      "section": "World"
+    },
+    {
       "title": "UK government asks for Russell Brand's YouTube account to be removed",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T21:17:50.000Z",
@@ -595,12 +601,6 @@
       "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T20:29:18.000Z",
       "section": "Science"
-    },
-    {
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:14:57.000Z",
-      "section": "World"
     },
     {
       "title": "Hundreds could be hit by chemotherapy scandal, trust says",

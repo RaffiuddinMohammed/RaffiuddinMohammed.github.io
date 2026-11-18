@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T22:20:26.840Z",
-  "headlineCount": 85,
+  "updated": "2026-11-18T22:36:02.984Z",
+  "headlineCount": 84,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 40
+      "count": 39
     },
     {
       "name": "MarketWatch",
@@ -22,15 +22,15 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 22
-    },
-    {
-      "name": "Interest rates",
-      "count": 15
+      "count": 25
     },
     {
       "name": "Earnings",
-      "count": 10
+      "count": 18
+    },
+    {
+      "name": "Interest rates",
+      "count": 12
     },
     {
       "name": "Inflation",
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 12
+      "count": 17
     },
     {
       "name": "Apple",
@@ -89,144 +89,144 @@
   ],
   "latest": [
     {
-      "title": "Update: Wall Street Mixed Amid Nvidia Sell-Off, Fed Minutes",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mixed-amid-nvidia-220050802.html?.tsrc=rss",
-      "date": "2026-11-18T22:00:50.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
-      "date": "2026-11-18T22:00:40.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic IPO to mint thousands of millionaires",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
-      "date": "2026-11-18T22:00:26.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:00:00.000Z",
+      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
+      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:31:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Where Will Palantir Stock Be in 1 Year?",
-      "link": "https://www.fool.com/investing/2026/11/18/where-will-palantir-stock-be-in-1-year/?.tsrc=rss",
-      "date": "2026-11-18T21:59:02.000Z",
+      "title": "Target's Shoppers Are Coming Back as Store Traffic Jumps 5% After Falling 2.2% a Year Ago. Can the Momentum Last?",
+      "link": "https://www.fool.com/investing/2026/11/18/targets-shoppers-are-coming-back-as-store-traffic-jumps-5-after-falling-22-a-year-ago-can-the-momentum-last/?.tsrc=rss",
+      "date": "2026-11-18T22:29:36.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "After-Hours Movers: PANW, CRWD, P, RRGB",
-      "link": "https://www.investing.com/news/stock-market-news/afterhours-movers-panw-crwd-p-rrgb-432SI-5037183",
-      "date": "2026-11-18T21:59:02.000Z",
+      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
+      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
+      "date": "2026-11-18T22:25:04.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
-      "link": "https://finance.yahoo.com/video/memory-supply-constraints-will-be-even-tighter-in-2027-micron-cto-215815321.html?.tsrc=rss",
-      "date": "2026-11-18T21:58:15.000Z",
+      "title": "I Listened to MP Materials' Earnings Call. Here's the 1 Thing That Stuck With Me.",
+      "link": "https://www.fool.com/investing/2026/11/18/i-listened-to-xs-earnings-call-heres-the-1-thing-t/?.tsrc=rss",
+      "date": "2026-11-18T22:25:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
-      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:58:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Jump After Market Mixed On Nvidia, Target, UnitedHealth, Fed 'Shock'",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
-      "date": "2026-11-18T21:57:35.000Z",
+      "title": "Anthropic prices its IPO at $83 per share, valuing the artificial intelligence giant at 1.5 trillion",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-per-222443646.html?.tsrc=rss",
+      "date": "2026-11-18T22:24:43.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Can Anthropic's IPO Revive Investor Excitement for the AI Trade?",
-      "link": "https://finance.yahoo.com/video/anthropic-ipo-revive-investor-excitement-215700294.html?.tsrc=rss",
-      "date": "2026-11-18T21:57:00.000Z",
+      "title": "The 5 Best Stocks in Nvidia's Portfolio",
+      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-nvidias-portfolio?ref=yahoofinance&tlnk=yf-261118-w3gg2hcj&.tsrc=rss",
+      "date": "2026-11-18T22:23:15.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Surge in software patches likely behind recent tech outages, experts say",
-      "link": "https://www.investing.com/news/stock-market-news/patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say-5036726",
-      "date": "2026-11-18T21:56:30.000Z",
+      "title": "Bank of Japan to raise interest rates in December and again by end-March, economists say",
+      "link": "https://www.investing.com/news/economy-news/bank-of-japan-to-raise-interest-rates-in-december-and-again-by-endmarch-economistssay-5037220",
+      "date": "2026-11-18T22:19:31.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Stocks slip with eyes on Anthropic and Nvidia, oil prices slide",
-      "link": "https://www.investing.com/news/economy-news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-5034510",
-      "date": "2026-11-18T21:56:12.000Z",
+      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
+      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
+      "date": "2026-11-18T22:18:40.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Exclusive-Trump administration weighs forcing US firms to disclose Chinese AI use",
-      "link": "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455",
-      "date": "2026-11-18T21:55:56.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "As Meta bets big on Muse AI agent, early safety mishaps surface",
-      "link": "https://www.investing.com/news/stock-market-news/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface-5035458",
-      "date": "2026-11-18T21:55:27.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Governments warn Java flaw leaves computer systems open to hackers",
-      "link": "https://www.investing.com/news/stock-market-news/us-south-korea-issue-urgent-advisories-over-flaws-in-java-programming-language-5034710",
-      "date": "2026-11-18T21:55:11.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "3 Energy Stocks With Dividends Built to Last the Next 10 Years",
-      "link": "https://www.fool.com/investing/2026/11/18/3-energy-stocks-with-dividends-built-to-last-the-next-10-years/?.tsrc=rss",
-      "date": "2026-11-18T21:55:02.000Z",
+      "title": "Dan Sundheim's Fund Still Has More Than Half of Its $32 Billion Stock Portfolio in One Stock",
+      "link": "https://247wallst.com/investing/2026/11/18/dan-sundheims-fund-still-has-more-than-half-of-its-32-billion-stock-portfolio-in-one-stock/?.tsrc=rss",
+      "date": "2026-11-18T22:18:37.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Copper’s plunge could make the AI data-center buildout more painful",
-      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:55:00.000Z",
-      "source": "MarketWatch"
+      "title": "Anthropic valued at over $1 trillion in historic IPO",
+      "link": "https://www.axios.com/2026/11/18/anthropic-ipo-1-trillion#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+      "date": "2026-11-18T22:16:32.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Palo Alto Networks’ stock soars as earnings show AI has upped the stakes for cybersecurity",
-      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:55:00.000Z",
-      "source": "MarketWatch"
+      "title": "The data center bottlenecks that Mavria aims to solve",
+      "link": "https://finance.yahoo.com/video/the-data-center-bottlenecks-that-mavria-aims-to-solve-221600157.html?.tsrc=rss",
+      "date": "2026-11-18T22:16:00.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Barbados sets out $160 million health system-focused debt swap",
-      "link": "https://www.investing.com/news/economy-news/barbados-sets-out-160-million-health-systemfocused-debt-swap-5036927",
-      "date": "2026-11-18T21:54:53.000Z",
+      "title": "Pony AI Inc. American Depositary Shares Q3 2026 Earnings Call Summary",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-pony-ai-inc-american-depositary-shares-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+      "date": "2026-11-18T22:15:23.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Update: US Equity Indexes Mixed as Investors Await Anthropic IPO After Nvidia Hits Risk Sentiment, Fed Minutes Favor Tighter Policy",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-221521655.html?.tsrc=rss",
+      "date": "2026-11-18T22:15:21.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Arrow Electronics (ARW) Launches ArrowSphere Cloud Portal, Is The 16% Undervaluation Case Convincing?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-launches-arrowsphere-221407018.html?.tsrc=rss",
+      "date": "2026-11-18T22:14:07.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Former federal prosecutor weighs in on Nvidia's legal strategy after Huang exit",
+      "link": "https://www.investing.com/news/stock-market-news/former-federal-prosecutor-breaks-down-nvidias-legal-strategy-after-huang-exit-5037223",
+      "date": "2026-11-18T22:14:04.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Fed's Kashkari says interest rates can impact tech investment",
-      "link": "https://www.investing.com/news/economy-news/feds-kashkari-says-interest-rates-can-impact-tech-investment-5037179",
-      "date": "2026-11-18T21:53:17.000Z",
+      "title": "Nvidia's AI Boom Faces Three Major Tests. Investor Flags Risks Beyond Record Sales.",
+      "link": "https://www.ibtimes.com/nvidia-growth-margin-ai-spending-leadership-tests-3809942?.tsrc=rss",
+      "date": "2026-11-18T22:13:30.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Client files at KPMG Canada compromised in data breach, The Globe and Mail reports",
+      "link": "https://www.investing.com/news/stock-market-news/client-files-at-kpmg-canada-compromised-in-data-breach-the-globe-and-mail-reports-5037148",
+      "date": "2026-11-18T22:12:58.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/?.tsrc=rss",
+      "date": "2026-11-18T22:11:35.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Prenetics Global Limited Q3 2026 Earnings Call Summary",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-prenetics-global-limited-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+      "date": "2026-11-18T22:11:18.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Kornit Digital Ltd. Q3 2026 Earnings Call Summary",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kornit-digital-ltd-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+      "date": "2026-11-18T22:07:13.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Update: Wall Street Mixed Amid Nvidia Sell-Off, Fed Minutes",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mixed-amid-nvidia-220050802.html?.tsrc=rss",
-      "date": "2026-11-18T22:00:50.000Z",
-      "source": "Yahoo Finance"
+      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
+      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:31:00.000Z",
+      "source": "MarketWatch"
     },
     {
-      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
-      "date": "2026-11-18T22:00:40.000Z",
+      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
+      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
+      "date": "2026-11-18T22:25:04.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
-      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:58:00.000Z",
-      "source": "MarketWatch"
+      "title": "Anthropic prices its IPO at $83 per share, valuing the artificial intelligence giant at 1.5 trillion",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-per-222443646.html?.tsrc=rss",
+      "date": "2026-11-18T22:24:43.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "yields": {

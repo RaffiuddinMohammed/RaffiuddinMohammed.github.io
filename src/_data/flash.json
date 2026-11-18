@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:39:06.602Z",
+  "updated": "2026-11-18T22:43:47.444Z",
   "breaking": [
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
@@ -39,92 +39,6 @@
       "date": "2026-11-18T20:09:06.000Z"
     }
   ],
-  "business": [
-    {
-      "source": "Investing.com",
-      "title": "Anthropic reportedly prices IPO at $83 a share, valuing it at about $1.5 trillion",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-weighs-ipo-pricing-of-8085-a-share-bloomberg-reports-5036963",
-      "date": "2026-11-18T22:34:00.000Z",
-      "breaking": true
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
-      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:31:00.000Z",
-      "breaking": true
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-18T22:09:15.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "date": "2026-11-18T19:41:59.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
-      "date": "2026-11-18T13:55:14.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Investing.com",
-      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
-      "date": "2026-11-18T22:30:35.000Z",
-      "breaking": true
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:00:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
-      "link": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-18T21:57:35.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
-      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-      "date": "2026-11-18T15:13:39.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo",
-      "date": "2026-11-18T13:17:06.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Investing.com",
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
-      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
-      "date": "2026-11-18T22:25:04.000Z",
-      "breaking": true
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
-      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:58:00.000Z",
-      "breaking": false
-    }
-  ],
   "trending": [
     {
       "term": "Mariella Frostrup",
@@ -157,7 +71,7 @@
     {
       "term": "Anthony Joshua",
       "traffic": "500+",
-      "title": "Anthony Joshua reveals he’s had a BABY girl and says ‘it was my duty to bring life in’ after pals died in horror crash",
+      "title": "AJ reveals he’s had a BABY girl & says ‘it was my duty’ after pals died",
       "link": "https://www.thesun.co.uk/sport/41063044/anthony-joshua-secret-baby-girl/",
       "source": "The Sun"
     }
