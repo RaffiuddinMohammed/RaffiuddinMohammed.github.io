@@ -396,7 +396,7 @@ async function globe(box) {
       hit.position.copy(at); hit.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), at.clone().normalize());
       hit.userData = { place: p, i };
       spots.add(hit); hits.push(hit);
-      if (i < 6) {
+      if (i < (+box.dataset.labels || 6)) { // small globes (home page) ask for fewer via data-labels
         const b = el('button', 'globe-label clickable');
         b.type = 'button';
         b.append(el('b', null, p.name), el('span', null, ` ${p.count} ${p.count === 1 ? 'story' : 'stories'}`));
