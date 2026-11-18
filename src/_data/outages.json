@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T13:41:23.497Z",
+  "checked": "2026-11-18T14:21:30.234Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,13 +16,13 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "R2 Downloads Stalling in Japan",
       "url": "https://www.cloudflarestatus.com"
     },
     {
       "name": "OpenAI",
       "level": "minor",
-      "note": "Elevated conversation errors for Free and Go users",
+      "note": "Costs API data is delayed",
       "url": "https://status.openai.com"
     },
     {
@@ -88,11 +88,19 @@
   ],
   "incidents": [
     {
+      "service": "Cloudflare",
+      "title": "R2 Downloads Stalling in Japan",
+      "impact": "minor",
+      "start": "2026-11-18T13:45:19.653Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/2wjvsj2kqt07"
+    },
+    {
       "service": "OpenAI",
       "title": "Elevated conversation errors for Free and Go users",
       "impact": "minor",
       "start": "2026-11-18T12:15:02Z",
-      "end": null,
+      "end": "2026-11-18T14:13:46Z",
       "url": "https://status.openai.com"
     },
     {
@@ -751,14 +759,6 @@
       "start": "2026-11-04T16:05:31.580Z",
       "end": "2026-11-04T17:01:11.503Z",
       "url": "https://stspg.io/pjgptg3cfc6n"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Latency and Errors for R2 and Downstream Services in Western North America (WNAM)",
-      "impact": "minor",
-      "start": "2026-11-04T14:43:39.555Z",
-      "end": "2026-11-03T22:15:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/dr9s0uvzwk6n"
     },
     {
       "service": "Cloudflare",

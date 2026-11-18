@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-18T13:34:15.282Z",
-  "totalStories": 242,
+  "updated": "2026-11-18T14:16:20.620Z",
+  "totalStories": 244,
   "sections": [
     {
       "name": "UK",
-      "count": 25
+      "count": 26
     },
     {
       "name": "World",
-      "count": 22
+      "count": 24
     },
     {
       "name": "Business",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Science",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Politics",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Technology",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Health",
@@ -61,8 +61,16 @@
       "count": 7
     },
     {
+      "word": "trump",
+      "count": 7
+    },
+    {
       "word": "strike",
       "count": 7
+    },
+    {
+      "word": "police",
+      "count": 6
     },
     {
       "word": "neets",
@@ -71,14 +79,6 @@
     {
       "word": "take",
       "count": 6
-    },
-    {
-      "word": "trump",
-      "count": 6
-    },
-    {
-      "word": "pay",
-      "count": 6
     }
   ],
   "places": [
@@ -86,11 +86,11 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 26,
+      "count": 25,
       "bySection": {
         "UK": 5,
         "World": 2,
-        "Politics": 14,
+        "Politics": 13,
         "Health": 2,
         "Business": 2,
         "Science": 1
@@ -150,14 +150,20 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 14,
+      "count": 15,
       "bySection": {
-        "World": 8,
+        "World": 9,
         "Business": 4,
         "Health": 1,
         "Politics": 1
       },
       "stories": [
+        {
+          "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+          "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T13:04:48.000Z"
+        },
         {
           "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
           "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
@@ -199,12 +205,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-17T21:04:00.000Z"
-        },
-        {
-          "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-          "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T17:37:04.000Z"
         }
       ]
     },
@@ -405,6 +405,29 @@
       ]
     },
     {
+      "name": "Iran",
+      "lat": 32,
+      "lon": 53,
+      "count": 2,
+      "bySection": {
+        "World": 2
+      },
+      "stories": [
+        {
+          "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+          "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T13:04:48.000Z"
+        },
+        {
+          "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+          "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-17T17:37:04.000Z"
+        }
+      ]
+    },
+    {
       "name": "Spain",
       "lat": 40,
       "lon": -4,
@@ -435,23 +458,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
           "section": "Science",
           "date": "2026-10-14T05:00:35.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Iran",
-      "lat": 32,
-      "lon": 53,
-      "count": 1,
-      "bySection": {
-        "World": 1
-      },
-      "stories": [
-        {
-          "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-          "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T17:37:04.000Z"
         }
       ]
     },
@@ -529,19 +535,31 @@
       "lon": 174,
       "count": 1,
       "bySection": {
-        "World": 1
+        "Technology": 1
       },
       "stories": [
         {
           "title": "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
           "link": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
+          "section": "Technology",
           "date": "2026-11-17T11:49:01.000Z"
         }
       ]
     }
   ],
   "latest": [
+    {
+      "title": "Anthropic: The seven founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:55:14.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Police investigate death of boy, 3, after incident at nursery",
+      "link": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:34:58.000Z",
+      "section": "UK"
+    },
     {
       "title": "Toilets: Are you a squatter or a sitter?",
       "link": "https://www.bbc.co.uk/videos/c804wngelw22o?at_medium=RSS&at_campaign=rss",
@@ -555,7 +573,7 @@
       "section": "UK"
     },
     {
-      "title": "Home secretary announces plans to tackle 'perception of two-tier policing'",
+      "title": "Home secretary plans to tackle 'corrosive' perception of two-tier policing",
       "link": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T13:19:39.000Z",
       "section": "UK"
@@ -579,6 +597,12 @@
       "section": "Business"
     },
     {
+      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:04:48.000Z",
+      "section": "World"
+    },
+    {
       "title": "Brain cancer patients demand public inquiry into chemotherapy scandal",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T13:00:07.000Z",
@@ -595,24 +619,6 @@
       "link": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T12:46:12.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Extra £500m for NHS as Reform boycott the Senedd",
-      "link": "https://www.bbc.co.uk/news/videos/crvg2lq64nv7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:45:31.000Z",
-      "section": "Politics"
-    },
-    {
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:39:24.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:22:15.000Z",
-      "section": "Technology"
     }
   ]
 }
