@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-18T22:58:01.114Z",
-  "headlineCount": 84,
+  "updated": "2026-11-18T23:07:03.545Z",
+  "headlineCount": 80,
   "sources": [
     {
       "name": "CNBC",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Yahoo Finance",
-      "count": 39
+      "count": 37
     },
     {
       "name": "MarketWatch",
@@ -16,17 +16,17 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 26
+      "count": 27
     },
     {
       "name": "Earnings",
-      "count": 17
+      "count": 12
     },
     {
       "name": "Interest rates",
@@ -37,15 +37,15 @@
       "count": 7
     },
     {
+      "name": "Housing",
+      "count": 3
+    },
+    {
       "name": "Jobs",
       "count": 2
     },
     {
       "name": "Oil and energy",
-      "count": 2
-    },
-    {
-      "name": "Housing",
       "count": 2
     },
     {
@@ -60,14 +60,14 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 16
-    },
-    {
-      "name": "Apple",
-      "count": 1
+      "count": 14
     },
     {
       "name": "Microsoft",
+      "count": 2
+    },
+    {
+      "name": "Apple",
       "count": 1
     },
     {
@@ -89,16 +89,10 @@
   ],
   "latest": [
     {
-      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
-      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
-      "date": "2026-11-18T22:54:27.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "First US Bancshares stock rises on buyback extension",
-      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
-      "date": "2026-11-18T22:53:22.000Z",
-      "source": "Investing.com"
+      "title": "How copper’s plunge could hurt the AI buildout",
+      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:02:00.000Z",
+      "source": "MarketWatch"
     },
     {
       "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
@@ -113,16 +107,34 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Markel Group stock jumps on $2.5B buyback boost",
-      "link": "https://www.investing.com/news/stock-market-news/markel-group-stock-jumps-on-25b-buyback-boost-5037308",
-      "date": "2026-11-18T22:51:45.000Z",
-      "source": "Investing.com"
+      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
+      "date": "2026-11-18T22:44:59.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stock Market Today, Nov. 18: Opendoor Extends Rally for Second Straight Session as Investors Watch Housing",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-opendoor-extends-rally-for-second-straight-session-as-investors-watch-housing/?.tsrc=rss",
+      "date": "2026-11-18T22:44:46.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Moody's cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
       "link": "https://www.investing.com/news/stock-market-news/moodys-cuts-nvidia-credit-outlook-to-stable-after-ceo-jensen-huang-exits-5037292",
       "date": "2026-11-18T22:44:05.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Former federal prosecutor weighs in on Nvidia's legal strategy after Huang exit",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/former-federal-prosecutor-weighs-nvidia-224404415.html?.tsrc=rss",
+      "date": "2026-11-18T22:44:04.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Hot demand lifts Anthropic IPO price to $83 a share: US media",
+      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html?.tsrc=rss",
+      "date": "2026-11-18T22:43:50.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Anthropic IPO to mint thousands of millionaires",
@@ -137,16 +149,34 @@
       "source": "Investing.com"
     },
     {
+      "title": "Invesco QQQ Is 14% Below Its October Record. Here's Where I Think It Will Be in 2030.",
+      "link": "https://www.fool.com/investing/2026/11/18/invesco-qqq-is-14-below-its-october-record-here-s-where-i-think-it-will-be-in-2030/?.tsrc=rss",
+      "date": "2026-11-18T22:43:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Surge in software patches likely behind recent tech outages, experts say",
       "link": "https://www.investing.com/news/stock-market-news/patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say-5036726",
       "date": "2026-11-18T22:42:49.000Z",
       "source": "Investing.com"
     },
     {
+      "title": "Billionaire Bill Ackman Sold 2 Million Shares of Microsoft Stock. But Here's Why He Says He's Still Bullish",
+      "link": "https://www.fool.com/investing/2026/11/18/billionaire-bill-ackman-sold-2-million-shares-of-microsoft-stock-but-here-s-why-he-says-he-s-still-bullish/?.tsrc=rss",
+      "date": "2026-11-18T22:42:31.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "How the Anthropic IPO stacks up against SpaceX",
       "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
       "date": "2026-11-18T22:42:29.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Dan Ives' Top 10 AI Revolution Stock Picks: Inside The IVES ETF",
+      "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-top-10-ai-223943794.html?.tsrc=rss",
+      "date": "2026-11-18T22:39:43.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "It's Official: Anthropic Prices Its IPO at $83 a Share. Here's What We Know (and What We Don't)",
@@ -177,56 +207,26 @@
       "link": "https://www.investing.com/news/economy-news/bank-of-japan-to-raise-interest-rates-in-december-and-again-by-endmarch-economistssay-5037220",
       "date": "2026-11-18T22:30:51.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
-      "date": "2026-11-18T22:30:35.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Target's Shoppers Are Coming Back as Store Traffic Jumps 5% After Falling 2.2% a Year Ago. Can the Momentum Last?",
-      "link": "https://www.fool.com/investing/2026/11/18/targets-shoppers-are-coming-back-as-store-traffic-jumps-5-after-falling-22-a-year-ago-can-the-momentum-last/?.tsrc=rss",
-      "date": "2026-11-18T22:29:36.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
-      "date": "2026-11-18T22:28:14.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
-      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
-      "date": "2026-11-18T22:25:04.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "I Listened to MP Materials' Earnings Call. Here's the 1 Thing That Stuck With Me.",
-      "link": "https://www.fool.com/investing/2026/11/18/i-listened-to-xs-earnings-call-heres-the-1-thing-t/?.tsrc=rss",
-      "date": "2026-11-18T22:25:00.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "First US Bancshares stock rises on buyback extension",
-      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
-      "date": "2026-11-18T22:53:22.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:53:00.000Z",
+      "title": "How copper’s plunge could hurt the AI buildout",
+      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:02:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "It's Official: Anthropic Prices Its IPO at $83 a Share. Here's What We Know (and What We Don't)",
-      "link": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/?.tsrc=rss",
-      "date": "2026-11-18T22:37:02.000Z",
+      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
+      "date": "2026-11-18T22:44:59.000Z",
       "source": "Yahoo Finance"
+    },
+    {
+      "title": "Moody's cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
+      "link": "https://www.investing.com/news/stock-market-news/moodys-cuts-nvidia-credit-outlook-to-stable-after-ceo-jensen-huang-exits-5037292",
+      "date": "2026-11-18T22:44:05.000Z",
+      "source": "Investing.com"
     }
   ],
   "yields": {

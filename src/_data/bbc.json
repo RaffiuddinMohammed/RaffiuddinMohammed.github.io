@@ -1,9 +1,13 @@
 {
-  "updated": "2026-11-18T22:58:02.895Z",
+  "updated": "2026-11-18T23:07:04.138Z",
   "totalStories": 252,
   "sections": [
     {
       "name": "World",
+      "count": 27
+    },
+    {
+      "name": "UK",
       "count": 27
     },
     {

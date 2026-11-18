@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:06:34.415Z",
+  "updated": "2026-11-18T23:14:12.664Z",
   "breaking": [
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
@@ -42,16 +42,16 @@
   "business": [
     {
       "source": "MarketWatch",
-      "title": "How copper’s plunge could hurt the AI buildout",
-      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:02:00.000Z",
+      "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:12:00.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Moody’s cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
-      "link": "https://www.investing.com/news/stock-market-news/moodys-cuts-nvidia-credit-outlook-to-stable-after-ceo-jensen-huang-exits-5037292",
-      "date": "2026-11-18T22:44:05.000Z",
+      "title": "How the Anthropic IPO stacks up against SpaceX",
+      "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
+      "date": "2026-11-18T22:54:40.000Z",
       "breaking": false
     },
     {
@@ -77,16 +77,16 @@
     },
     {
       "source": "MarketWatch",
-      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:53:00.000Z",
+      "title": "How copper’s plunge could hurt the AI buildout",
+      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:02:00.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Anthropic IPO to mint thousands of millionaires",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
-      "date": "2026-11-18T22:43:18.000Z",
+      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
+      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
+      "date": "2026-11-18T22:54:27.000Z",
       "breaking": false
     },
     {
@@ -119,26 +119,26 @@
     },
     {
       "source": "Investing.com",
-      "title": "Surge in software patches likely behind recent tech outages, experts say",
-      "link": "https://www.investing.com/news/stock-market-news/patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say-5036726",
-      "date": "2026-11-18T22:42:49.000Z",
+      "title": "First US Bancshares stock rises on buyback extension",
+      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
+      "date": "2026-11-18T22:53:22.000Z",
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:53:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Ricky Wilson Wife",
+      "term": "Ricky Wilson Kaiser Chiefs",
       "traffic": "2000+",
       "title": "I’m A Celebrity fans all say the same thing about ‘Marmite’ star’s appearance",
       "link": "https://www.thesun.co.uk/tv/41043225/im-a-celebrity-fans-react-marmite-star-ricky-wilson/",
       "source": "The Sun"
-    },
-    {
-      "term": "Cameron Menzies",
-      "traffic": "2000+",
-      "title": "Grand Slam of Darts 2026: Schedule, order of play, results, prize money and previous winners",
-      "link": "https://www.bbc.co.uk/sport/darts/articles/cmwyqy57ejy6o",
-      "source": "BBC"
     },
     {
       "term": "Hsbc",
@@ -155,11 +155,18 @@
       "source": "People.com"
     },
     {
-      "term": "Gk Barry",
-      "traffic": "500+",
-      "title": "I’m A Celebrity ‘feud brewing’ as star could become ‘unbearable’",
-      "link": "https://www.dailystar.co.uk/tv/im-celebrity-feud-brewing-star-37885477",
-      "source": "Daily Star"
+      "term": "Daniel Radcliffe",
+      "traffic": "200+",
+      "title": "Daniel Radcliffe Talks ‘Reggie Dinkins’ and Raising His Son in NYC",
+      "link": "https://www.today.com/video/daniel-radcliffe-talks-reggie-dinkins-and-raising-his-son-in-nyc-273576005546",
+      "source": "TODAY.com"
+    },
+    {
+      "term": "Sam Thompson",
+      "traffic": "200+",
+      "title": "Katie Price takes swipe at I'm A Celebrity... stars Sam Thompson and Kemi Rodgers",
+      "link": "https://uk.news.yahoo.com/katie-price-takes-swipe-im-123000282.html",
+      "source": "Yahoo News UK"
     }
   ]
 }
