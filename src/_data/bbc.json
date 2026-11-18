@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-18T23:07:04.138Z",
-  "totalStories": 252,
+  "updated": "2026-11-18T23:14:46.010Z",
+  "totalStories": 253,
   "sections": [
     {
       "name": "World",
-      "count": 27
+      "count": 28
     },
     {
       "name": "UK",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Business",
-      "count": 17
+      "count": 16
     },
     {
       "name": "Science",
@@ -535,6 +535,23 @@
       ]
     },
     {
+      "name": "Myanmar",
+      "lat": 21,
+      "lon": 96,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+          "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T23:04:06.000Z"
+        }
+      ]
+    },
+    {
       "name": "Philippines",
       "lat": 13,
       "lon": 122,
@@ -570,6 +587,12 @@
     }
   ],
   "latest": [
+    {
+      "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+      "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T23:04:06.000Z",
+      "section": "World"
+    },
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
@@ -634,12 +657,6 @@
       "title": "Raise The Colours member guilty of dancefloor murder",
       "link": "https://www.bbc.co.uk/news/articles/cmd71dz58dnvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T19:15:27.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Police chief says racists and misogynists working inside force",
-      "link": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T19:10:40.000Z",
       "section": "UK"
     }
   ]

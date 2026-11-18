@@ -1,37 +1,53 @@
 {
-  "updated": "2026-11-18T23:07:04.737Z",
+  "updated": "2026-11-18T23:14:46.274Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 985,
-      "comments": 452,
+      "points": 1001,
+      "comments": 462,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 543,
-      "comments": 198,
+      "points": 551,
+      "comments": 201,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 490,
-      "comments": 179,
+      "points": 501,
+      "comments": 180,
       "domain": "inside-db.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 387,
-      "comments": 267,
+      "points": 392,
+      "comments": 270,
       "domain": "microsoft.ai"
+    },
+    {
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "discuss": "https://news.ycombinator.com/item?id=50547777",
+      "points": 301,
+      "comments": 136,
+      "domain": "europeanbusinessmagazine.com"
+    },
+    {
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "discuss": "https://news.ycombinator.com/item?id=50552424",
+      "points": 293,
+      "comments": 277,
+      "domain": "blog.google"
     },
     {
       "title": "Energy-Based Reasoners: 385x more efficient inference",
@@ -42,34 +58,18 @@
       "domain": "energy-based-reasoners.github.io"
     },
     {
-      "title": "AI agents ask better questions than KPMG accountants in audit trial",
-      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-      "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 291,
-      "comments": 136,
-      "domain": "europeanbusinessmagazine.com"
-    },
-    {
-      "title": "Gemini 4 Neon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "discuss": "https://news.ycombinator.com/item?id=50552424",
-      "points": 278,
-      "comments": 269,
-      "domain": "blog.google"
-    },
-    {
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 216,
-      "comments": 163,
+      "points": 220,
+      "comments": 164,
       "domain": "cam.ac.uk"
     },
     {
       "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
       "discuss": "https://news.ycombinator.com/item?id=50548004",
-      "points": 163,
+      "points": 164,
       "comments": 113,
       "domain": "cve.org"
     },
@@ -77,11 +77,11 @@
       "title": "Genie 4 is now available",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "discuss": "https://news.ycombinator.com/item?id=50550415",
-      "points": 161,
-      "comments": 136,
+      "points": 163,
+      "comments": 137,
       "domain": "blog.google"
     }
   ],
-  "totalPoints": null,
+  "totalPoints": 5211,
   "storyCount": 30
 }

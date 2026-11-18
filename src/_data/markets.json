@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:07:03.545Z",
-  "headlineCount": 80,
+  "updated": "2026-11-18T23:14:44.382Z",
+  "headlineCount": 81,
   "sources": [
     {
       "name": "CNBC",
@@ -22,11 +22,11 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 27
+      "count": 24
     },
     {
       "name": "Earnings",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Interest rates",
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Microsoft",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Amazon",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Meta",
@@ -89,10 +89,58 @@
   ],
   "latest": [
     {
+      "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:12:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
       "title": "How copper’s plunge could hurt the AI buildout",
       "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
       "date": "2026-11-18T23:02:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
+      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
+      "date": "2026-11-18T23:00:26.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/?.tsrc=rss",
+      "date": "2026-11-18T23:00:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jeff Bezos says Nvidia shouldn't hire an outsider if Jensen Huang doesn't return — it's ‘too complicated'",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-says-nvidia-shouldn-230000767.html?.tsrc=rss",
+      "date": "2026-11-18T23:00:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "The 5 Best Stocks in Brad Gerstner's Portfolio",
+      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-brad-gerstners-portfolio?ref=yahoofinance&tlnk=yf-261118-4869989x&.tsrc=rss",
+      "date": "2026-11-18T22:54:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "How the Anthropic IPO stacks up against SpaceX",
+      "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
+      "date": "2026-11-18T22:54:40.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
+      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
+      "date": "2026-11-18T22:54:27.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "First US Bancshares stock rises on buyback extension",
+      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
+      "date": "2026-11-18T22:53:22.000Z",
+      "source": "Investing.com"
     },
     {
       "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
@@ -105,6 +153,18 @@
       "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
       "date": "2026-11-18T22:53:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
+      "date": "2026-11-18T22:44:59.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stock Market Today, Nov. 18: Opendoor Extends Rally for Second Straight Session as Investors Watch Housing",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-opendoor-extends-rally-for-second-straight-session-as-investors-watch-housing/?.tsrc=rss",
+      "date": "2026-11-18T22:44:46.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
@@ -153,73 +213,25 @@
       "link": "https://www.fool.com/investing/2026/11/18/invesco-qqq-is-14-below-its-october-record-here-s-where-i-think-it-will-be-in-2030/?.tsrc=rss",
       "date": "2026-11-18T22:43:01.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Surge in software patches likely behind recent tech outages, experts say",
-      "link": "https://www.investing.com/news/stock-market-news/patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say-5036726",
-      "date": "2026-11-18T22:42:49.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Billionaire Bill Ackman Sold 2 Million Shares of Microsoft Stock. But Here's Why He Says He's Still Bullish",
-      "link": "https://www.fool.com/investing/2026/11/18/billionaire-bill-ackman-sold-2-million-shares-of-microsoft-stock-but-here-s-why-he-says-he-s-still-bullish/?.tsrc=rss",
-      "date": "2026-11-18T22:42:31.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "How the Anthropic IPO stacks up against SpaceX",
-      "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
-      "date": "2026-11-18T22:42:29.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Dan Ives' Top 10 AI Revolution Stock Picks: Inside The IVES ETF",
-      "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-top-10-ai-223943794.html?.tsrc=rss",
-      "date": "2026-11-18T22:39:43.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "It's Official: Anthropic Prices Its IPO at $83 a Share. Here's What We Know (and What We Don't)",
-      "link": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/?.tsrc=rss",
-      "date": "2026-11-18T22:37:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Brazil Senate approves fiscal package as government seeks to calm markets",
-      "link": "https://www.investing.com/news/economy-news/brazil-senate-approves-fiscal-package-as-government-seeks-to-calm-markets-5037284",
-      "date": "2026-11-18T22:36:23.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic reportedly prices IPO at $83 a share, valuing it at about $1.5 trillion",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-weighs-ipo-pricing-of-8085-a-share-bloomberg-reports-5036963",
-      "date": "2026-11-18T22:34:00.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
-      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:31:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Bank of Japan to raise interest rates in December and again by end-March, economists say",
-      "link": "https://www.investing.com/news/economy-news/bank-of-japan-to-raise-interest-rates-in-december-and-again-by-endmarch-economistssay-5037220",
-      "date": "2026-11-18T22:30:51.000Z",
-      "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "How copper’s plunge could hurt the AI buildout",
-      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:02:00.000Z",
+      "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
+      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:12:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
-      "date": "2026-11-18T22:44:59.000Z",
+      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
+      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
+      "date": "2026-11-18T23:00:26.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/?.tsrc=rss",
+      "date": "2026-11-18T23:00:02.000Z",
       "source": "Yahoo Finance"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:14:12.216Z",
+  "updated": "2026-11-18T23:18:41.181Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,11 +3097,11 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 252,
+      "totalStories": 253,
       "sections": [
         {
           "name": "World",
-          "count": 27
+          "count": 28
         },
         {
           "name": "UK",
@@ -3113,7 +3113,7 @@
         },
         {
           "name": "Business",
-          "count": 17
+          "count": 16
         },
         {
           "name": "Science",
@@ -3580,6 +3580,23 @@
           ]
         },
         {
+          "name": "Myanmar",
+          "lat": 21,
+          "lon": 96,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+              "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T23:04:06.000Z"
+            }
+          ]
+        },
+        {
           "name": "Philippines",
           "lat": 13,
           "lon": 122,
@@ -3616,6 +3633,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
+          "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
           "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
           "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -3634,28 +3656,23 @@
           "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
           "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "Thousands regain water supply after major outage",
-          "link": "https://www.bbc.co.uk/news/articles/c9e85y3ex824o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 985
+          "points": 1001
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 543
+          "points": 551
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 490
+          "points": 501
         }
       ]
     }

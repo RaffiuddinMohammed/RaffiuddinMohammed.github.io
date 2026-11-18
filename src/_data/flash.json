@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:14:12.664Z",
+  "updated": "2026-11-18T23:18:41.608Z",
   "breaking": [
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
@@ -80,7 +80,7 @@
       "title": "How copper’s plunge could hurt the AI buildout",
       "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
       "date": "2026-11-18T23:02:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Investing.com",
@@ -109,13 +109,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
       "date": "2026-11-18T13:55:14.000Z",
       "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:53:00.000Z",
-      "breaking": true
     },
     {
       "source": "Investing.com",
