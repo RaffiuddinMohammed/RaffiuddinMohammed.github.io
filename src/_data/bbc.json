@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:45:32.889Z",
+  "updated": "2026-11-18T20:57:30.186Z",
   "totalStories": 251,
   "sections": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "Politics",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Technology",
@@ -41,6 +41,10 @@
       "count": 12
     },
     {
+      "word": "government",
+      "count": 8
+    },
+    {
       "word": "health",
       "count": 8
     },
@@ -54,10 +58,6 @@
     },
     {
       "word": "labour",
-      "count": 7
-    },
-    {
-      "word": "government",
       "count": 7
     },
     {
@@ -88,14 +88,20 @@
       "lon": -2,
       "count": 25,
       "bySection": {
-        "Business": 3,
         "Politics": 15,
+        "Business": 3,
         "World": 2,
         "UK": 2,
         "Health": 2,
         "Science": 1
       },
       "stories": [
+        {
+          "title": "UK government asks for Russell Brand's YouTube account to be removed",
+          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-18T20:48:58.000Z"
+        },
         {
           "title": "How high is UK inflation and how will you be affected?",
           "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
@@ -137,12 +143,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-17T22:46:30.000Z"
-        },
-        {
-          "title": "UK sanctions firms over Israeli West Bank settlements",
-          "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-17T18:27:27.000Z"
         }
       ]
     },
@@ -560,6 +560,12 @@
   ],
   "latest": [
     {
+      "title": "UK government asks for Russell Brand's YouTube account to be removed",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:48:58.000Z",
+      "section": "Politics"
+    },
+    {
       "title": "Torrential rain causes widespread flooding in South Florida",
       "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T20:29:18.000Z",
@@ -624,12 +630,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T17:48:10.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T17:34:25.000Z",
-      "section": "World"
     }
   ]
 }

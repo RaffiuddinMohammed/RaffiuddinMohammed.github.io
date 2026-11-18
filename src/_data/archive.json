@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:49:49.373Z",
+  "updated": "2026-11-18T21:04:49.244Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3117,7 +3117,7 @@
         },
         {
           "name": "Politics",
-          "count": 12
+          "count": 13
         },
         {
           "name": "Technology",
@@ -3138,6 +3138,10 @@
           "count": 12
         },
         {
+          "word": "government",
+          "count": 8
+        },
+        {
           "word": "health",
           "count": 8
         },
@@ -3154,10 +3158,6 @@
           "count": 7
         },
         {
-          "word": "government",
-          "count": 7
-        },
-        {
           "word": "take",
           "count": 6
         }
@@ -3169,14 +3169,20 @@
           "lon": -2,
           "count": 25,
           "bySection": {
-            "Business": 3,
             "Politics": 15,
+            "Business": 3,
             "World": 2,
             "UK": 2,
             "Health": 2,
             "Science": 1
           },
           "stories": [
+            {
+              "title": "UK government asks for Russell Brand's YouTube account to be removed",
+              "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-18T20:48:58.000Z"
+            },
             {
               "title": "How high is UK inflation and how will you be affected?",
               "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
@@ -3200,12 +3206,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cm752w35lkz3o?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-18T06:12:44.000Z"
-            },
-            {
-              "title": "Largest British study to check social media ban's effect on youth mental health",
-              "link": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-18T00:49:31.000Z"
             }
           ]
         },
@@ -3605,6 +3605,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "UK government asks for Russell Brand's YouTube account to be removed",
+          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics"
+        },
+        {
           "title": "Torrential rain causes widespread flooding in South Florida",
           "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
           "section": "Science"
@@ -3623,28 +3628,23 @@
           "title": "William and Kate meet PM Modi as they wrap up India tour",
           "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "How high is UK inflation and how will you be affected?",
-          "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 743
+          "points": 766
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 473
+          "points": 478
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 383
+          "points": 400
         }
       ]
     }

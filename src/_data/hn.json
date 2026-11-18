@@ -1,43 +1,43 @@
 {
-  "updated": "2026-11-18T20:45:33.726Z",
+  "updated": "2026-11-18T20:57:30.419Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 743,
-      "comments": 311,
+      "points": 766,
+      "comments": 323,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 473,
-      "comments": 159,
+      "points": 478,
+      "comments": 164,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 383,
-      "comments": 140,
+      "points": 400,
+      "comments": 141,
       "domain": "inside-db.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 321,
-      "comments": 208,
+      "points": 330,
+      "comments": 214,
       "domain": "microsoft.ai"
     },
     {
       "title": "Energy-Based Reasoners: 385x more efficient inference",
       "url": "https://energy-based-reasoners.github.io/",
       "discuss": "https://news.ycombinator.com/item?id=50543989",
-      "points": 279,
+      "points": 281,
       "comments": 44,
       "domain": "energy-based-reasoners.github.io"
     },
@@ -45,43 +45,43 @@
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 186,
-      "comments": 142,
+      "points": 189,
+      "comments": 144,
       "domain": "cam.ac.uk"
     },
     {
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 182,
-      "comments": 94,
+      "points": 189,
+      "comments": 99,
       "domain": "europeanbusinessmagazine.com"
     },
     {
       "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
       "discuss": "https://news.ycombinator.com/item?id=50548004",
-      "points": 143,
-      "comments": 94,
+      "points": 149,
+      "comments": 97,
       "domain": "cve.org"
     },
     {
       "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
       "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
       "discuss": "https://news.ycombinator.com/item?id=50547583",
-      "points": 119,
+      "points": 121,
       "comments": 76,
       "domain": "sam.gov"
     },
     {
-      "title": "Show HN: Type Fighter 2",
-      "url": "https://typefighter2.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50544821",
-      "points": 109,
-      "comments": 50,
-      "domain": "typefighter2.com"
+      "title": "The x86 CPU: From 4004 to 486",
+      "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+      "discuss": "https://news.ycombinator.com/item?id=50546967",
+      "points": 110,
+      "comments": 29,
+      "domain": "pikuma.com"
     }
   ],
-  "totalPoints": null,
-  "storyCount": 29
+  "totalPoints": 3882,
+  "storyCount": 30
 }

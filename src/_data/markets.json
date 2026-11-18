@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:45:31.924Z",
+  "updated": "2026-11-18T20:57:28.686Z",
   "headlineCount": 85,
   "sources": [
     {
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 39
+      "count": 38
     },
     {
       "name": "MarketWatch",
@@ -16,29 +16,25 @@
     },
     {
       "name": "Investing.com",
-      "count": 19
+      "count": 20
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 14
+      "count": 16
     },
     {
       "name": "Interest rates",
-      "count": 14
-    },
-    {
-      "name": "Earnings",
-      "count": 9
+      "count": 13
     },
     {
       "name": "Inflation",
-      "count": 7
+      "count": 8
     },
     {
-      "name": "Crypto",
-      "count": 3
+      "name": "Earnings",
+      "count": 8
     },
     {
       "name": "Oil and energy",
@@ -53,6 +49,10 @@
       "count": 1
     },
     {
+      "name": "Crypto",
+      "count": 1
+    },
+    {
       "name": "Trade and tariffs",
       "count": 0
     }
@@ -60,11 +60,11 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 14
+      "count": 9
     },
     {
       "name": "Alphabet",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Apple",
@@ -89,15 +89,117 @@
   ],
   "latest": [
     {
+      "title": "Skydance's David Ellison calls Elon Musk 'the greatest entrepreneur of our time'",
+      "link": "https://finance.yahoo.com/media-advertising/article/skydances-david-ellison-calls-elon-musk-the-greatest-entrepreneur-of-our-time-205405607.html?.tsrc=rss",
+      "date": "2026-11-18T20:54:05.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Update: US Equity Indexes Mixed as Nvidia Undermines Risk Sentiment, Fed Minutes Favor Policy Tightening",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-nvidia-205207511.html?.tsrc=rss",
+      "date": "2026-11-18T20:52:07.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Fed minutes show growing unease about the outlook for inflation",
+      "link": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d?mod=mw_rss_topstories",
+      "date": "2026-11-18T20:51:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "CoreWeave Stock Forecast: Can Nvidia's AI Boom Drive More Gains?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-stock-forecast-nvidia-ai-204347762.html?.tsrc=rss",
+      "date": "2026-11-18T20:43:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Sector Update: Tech Stocks Retreat Late Afternoon",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-retreat-afternoon-204316548.html?.tsrc=rss",
+      "date": "2026-11-18T20:43:16.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why Beta Technologies Stock Lost Altitude Today",
+      "link": "https://www.fool.com/investing/2026/11/18/why-beta-technologies-stock-lost-altitude-today/?.tsrc=rss",
+      "date": "2026-11-18T20:42:33.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Anthropic IPO to mint thousands of millionaires",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
+      "date": "2026-11-18T20:42:26.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Dan Ives' Top 5 AI Revolution Stock Picks",
+      "link": "https://finance.yahoo.com/technology/ai/articles/dan-ives-top-5-ai-204111527.html?.tsrc=rss",
+      "date": "2026-11-18T20:41:11.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Is Micron Undervalued?",
+      "link": "https://www.fool.com/investing/2026/11/18/is-micron-undervalued/?.tsrc=rss",
+      "date": "2026-11-18T20:41:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
       "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
       "date": "2026-11-18T20:39:00.000Z",
       "source": "MarketWatch"
     },
     {
+      "title": "New Zealand central bank chief says inflation still elevated, recovery uneven",
+      "link": "https://www.investing.com/news/economy-news/new-zealand-central-bank-chief-says-inflation-still-elevated-recovery-uneven-5036937",
+      "date": "2026-11-18T20:36:35.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "US judge rejects JPMorgan bid to dismiss lurid sexual harassment case",
+      "link": "https://www.investing.com/news/stock-market-news/us-judge-rejects-jpmorgan-bid-to-dismiss-lurid-sexual-harassment-case-5036931",
+      "date": "2026-11-18T20:36:18.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Correction: 1 Investing Move I'm Avoiding Right Now",
+      "link": "https://www.fool.com/investing/2026/11/18/stock-market-correction-1-investing-move-im-avoidi/?.tsrc=rss",
+      "date": "2026-11-18T20:35:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Forget Market Crashes: These Dow Jones Giants Have Recession-Proof Dividends",
+      "link": "https://247wallst.com/investing/2026/11/18/forget-market-crashes-these-dow-jones-giants-have-recession-proof-dividends/?.tsrc=rss",
+      "date": "2026-11-18T20:32:36.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Starboard Value sees upside in Flowserve and Riot Platforms",
+      "link": "https://www.investing.com/news/stock-market-news/starboard-value-sees-upside-in-flowserve-and-riot-platforms-93CH-5036933",
+      "date": "2026-11-18T20:31:36.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "US House panel seeks Microsoft briefing on reported AI deal talks with China's ByteDance",
+      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
+      "date": "2026-11-18T20:30:56.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Brazil stocks lower at close of trade; Bovespa down 1.25%",
+      "link": "https://www.investing.com/news/stock-market-news/brazil-stocks-lower-at-close-of-trade-bovespa-down-125-5036929",
+      "date": "2026-11-18T20:30:04.000Z",
+      "source": "Investing.com"
+    },
+    {
       "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
       "link": "https://finance.yahoo.com/video/coinbase-ai-blocks-4-7-203000913.html?.tsrc=rss",
       "date": "2026-11-18T20:30:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Can UnitedHealth Group Stock Crash From Here?",
+      "link": "https://www.trefis.com/stock/unh/articles/626177/can-unitedhealth-group-stock-crash-from-here/2026-11-18?.tsrc=rss",
+      "date": "2026-11-18T20:29:45.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -105,137 +207,35 @@
       "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
       "date": "2026-11-18T20:29:00.000Z",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Nvidia's interim CEO Colette Kress has taken over one of the most consequential companies on the planet; those who know her say she's up to the task",
-      "link": "https://finance.yahoo.com/technology/article/nvidias-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-202619183.html?.tsrc=rss",
-      "date": "2026-11-18T20:26:19.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "IREN, CoreWeave and Nebius Stock Prices Have Plunged More Than 60%. Here's What It Means for AI Investors",
-      "link": "https://www.fool.com/investing/2026/11/18/iren-coreweave-and-nebius-stock-prices-have-plunged-more-than-60-here-s-what-it-means-for-ai-investors/?.tsrc=rss",
-      "date": "2026-11-18T20:25:47.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Alphabet is Buying Around $10 Billion More Anthropic Shares on Day 1. Should You Follow?",
-      "link": "https://www.fool.com/investing/2026/11/18/alphabet-is-buying-around-usd10-billion-more-anthropic-shares-on-day-1-should-you-follow/?.tsrc=rss",
-      "date": "2026-11-18T20:25:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Should You Sell Your Archer Aviation Stock As Boeing Comes Aboard?",
-      "link": "https://www.trefis.com/stock/achr/articles/626170/should-you-sell-your-archer-aviation-stock-as-boeing-comes-aboard/2026-11-18?.tsrc=rss",
-      "date": "2026-11-18T20:21:42.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "GoodRx's $32 million privacy settlement: See if you qualify for a payment",
-      "link": "https://finance.yahoo.com/personal-finance/banking/article/goodrxs-32-million-privacy-settlement-see-if-you-qualify-for-a-payment-201906769.html?.tsrc=rss",
-      "date": "2026-11-18T20:19:06.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-prepares-for-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-5035325",
-      "date": "2026-11-18T20:18:38.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
-      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
-      "date": "2026-11-18T20:18:24.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX.",
-      "link": "https://www.fool.com/investing/2026/11/18/spacex-is-now-nvidia-s-biggest-stock-holding-ahead-of-intel-here-s-what-that-says-about-spacex/?.tsrc=rss",
-      "date": "2026-11-18T20:17:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Stock Market Today: Dow Drops On Heightened Fed Rate-Hike Fears; Palo Alto Jumps (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-drops.html?.tsrc=rss",
-      "date": "2026-11-18T20:15:32.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Microsoft Copilot's cost advantage claim: plausible but unproven",
-      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-copilot-cost-advantage-claim-201123346.html?.tsrc=rss",
-      "date": "2026-11-18T20:11:23.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Should You Trim Or Add To Your Rivian Position Now?",
-      "link": "https://www.trefis.com/stock/rivn/articles/626168/should-you-trim-or-add-to-your-rivian-position-now/2026-11-18?.tsrc=rss",
-      "date": "2026-11-18T20:11:12.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Which Funds With Semiconductor Exposure Best Capture The China AI Chip Curbs?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/funds-semiconductor-exposure-best-capture-200931859.html?.tsrc=rss",
-      "date": "2026-11-18T20:09:31.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why Isn't Alphabet Stock Taking Off After Reporting Record Cloud Growth?",
-      "link": "https://www.fool.com/investing/2026/11/18/why-isn-t-alphabet-stock-taking-off-after-reporting-record-cloud-growth/?.tsrc=rss",
-      "date": "2026-11-18T20:07:01.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dollar firmer as hawkish Waller backs aggressive Fed action",
-      "link": "https://www.investing.com/news/economy-news/dollar-holds-near-19month-high-as-data-supports-case-for-us-rate-hikes-5034498",
-      "date": "2026-11-18T20:06:39.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "The Best Recession-Proof Consumer Stock to Buy With $1,000 Before 2027",
-      "link": "https://www.fool.com/investing/2026/11/18/the-best-recession-proof-consumer-stock-to-buy-with-1000-before-2027/?.tsrc=rss",
-      "date": "2026-11-18T20:05:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Mizuho raises Costco price target but removes stock from Top Picks list",
-      "link": "https://www.investing.com/news/stock-market-news/mizuho-raises-costco-price-target-but-removes-stock-from-top-picks-list-5036907",
-      "date": "2026-11-18T20:03:49.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First?",
-      "link": "https://247wallst.com/investing/2026/11/18/nvidia-is-near-its-52-week-low-will-nvda-stock-hit-100-or-200-first/?.tsrc=rss",
-      "date": "2026-11-18T20:03:09.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
-      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
-      "date": "2026-11-18T20:39:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
-      "link": "https://finance.yahoo.com/video/coinbase-ai-blocks-4-7-203000913.html?.tsrc=rss",
-      "date": "2026-11-18T20:30:00.000Z",
+      "title": "Update: US Equity Indexes Mixed as Nvidia Undermines Risk Sentiment, Fed Minutes Favor Policy Tightening",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-nvidia-205207511.html?.tsrc=rss",
+      "date": "2026-11-18T20:52:07.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-prepares-for-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-5035325",
-      "date": "2026-11-18T20:18:38.000Z",
+      "title": "Fed minutes show growing unease about the outlook for inflation",
+      "link": "https://www.marketwatch.com/story/fed-minutes-show-growing-unease-about-the-outlook-for-inflation-59e3c13d?mod=mw_rss_topstories",
+      "date": "2026-11-18T20:51:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Anthropic IPO to mint thousands of millionaires",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
+      "date": "2026-11-18T20:42:26.000Z",
       "source": "Investing.com"
     }
   ],
   "yields": {
     "latest": {
-      "date": "2026-11-17",
-      "y3m": 4.33,
+      "date": "2026-11-18",
+      "y3m": 4.34,
       "y2": 4.8,
-      "y10": 5.1,
-      "y30": 5.46
+      "y10": 5.07,
+      "y30": 5.41
     },
     "monthAgo": {
       "date": "2026-10-19",
@@ -679,6 +679,13 @@
         "y2": 4.8,
         "y10": 5.1,
         "y30": 5.46
+      },
+      {
+        "date": "2026-11-18",
+        "y3m": 4.34,
+        "y2": 4.8,
+        "y10": 5.07,
+        "y30": 5.41
       }
     ]
   }
