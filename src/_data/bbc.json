@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:25:38.603Z",
+  "updated": "2026-11-18T23:34:28.426Z",
   "totalStories": 254,
   "sections": [
     {
@@ -90,6 +90,7 @@
       "bySection": {
         "Business": 4,
         "UK": 3,
+        "Business": 4,
         "Politics": 14,
         "World": 2,
         "Health": 2,
@@ -97,16 +98,16 @@
       },
       "stories": [
         {
+          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-18T23:29:14.000Z"
+        },
+        {
           "title": "Gilts v kilts: What is happening with Scottish government bonds?",
           "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-18T23:01:09.000Z"
-        },
-        {
-          "title": "UK government asks for Russell Brand's YouTube account to be removed",
-          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-18T21:17:50.000Z"
         },
         {
           "title": "How high is UK inflation and how will you be affected?",
@@ -586,6 +587,12 @@
   ],
   "latest": [
     {
+      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T23:29:14.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
       "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T23:04:06.000Z",
@@ -614,12 +621,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T21:28:08.000Z",
       "section": "Business"
-    },
-    {
-      "title": "UK government asks for Russell Brand's YouTube account to be removed",
-      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T21:17:50.000Z",
-      "section": "UK"
     },
     {
       "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",

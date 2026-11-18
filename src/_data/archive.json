@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:33:52.866Z",
+  "updated": "2026-11-18T23:43:10.541Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3171,6 +3171,7 @@
           "bySection": {
             "Business": 4,
             "UK": 3,
+            "Business": 4,
             "Politics": 14,
             "World": 2,
             "Health": 2,
@@ -3178,16 +3179,16 @@
           },
           "stories": [
             {
+              "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+              "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T23:29:14.000Z"
+            },
+            {
               "title": "Gilts v kilts: What is happening with Scottish government bonds?",
               "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
               "section": "Business",
               "date": "2026-11-18T23:01:09.000Z"
-            },
-            {
-              "title": "UK government asks for Russell Brand's YouTube account to be removed",
-              "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-18T21:17:50.000Z"
             },
             {
               "title": "How high is UK inflation and how will you be affected?",
@@ -3631,6 +3632,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
           "link": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -3649,28 +3655,23 @@
           "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
           "link": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
-          "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 1010
+          "points": 1021
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 553
+          "points": 556
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 503
+          "points": 510
         }
       ]
     }

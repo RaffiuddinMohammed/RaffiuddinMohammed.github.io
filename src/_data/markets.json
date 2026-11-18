@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:25:37.980Z",
-  "headlineCount": 79,
+  "updated": "2026-11-18T23:34:27.676Z",
+  "headlineCount": 80,
   "sources": [
     {
       "name": "CNBC",
@@ -22,7 +22,7 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 23
+      "count": 22
     },
     {
       "name": "Earnings",
@@ -50,7 +50,11 @@
     },
     {
       "name": "Crypto",
-      "count": 1
+      "count": 2
+    },
+    {
+      "name": "Housing",
+      "count": 2
     },
     {
       "name": "Trade and tariffs",
@@ -60,7 +64,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 13
+      "count": 14
     },
     {
       "name": "Microsoft",
@@ -89,6 +93,12 @@
   ],
   "latest": [
     {
+      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
+      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
+      "date": "2026-11-18T23:24:29.000Z",
+      "source": "Investing.com"
+    },
+    {
       "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
       "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3B.html?.tsrc=rss",
       "date": "2026-11-18T23:17:13.000Z",
@@ -101,10 +111,34 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "Exclusive-UniCredit and Germany reach broad agreement on Commerzbank takeover",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-and-germany-reach-broad-agreement-on-commerzbank-takeover-5037328",
+      "date": "2026-11-18T23:12:38.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
+      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
+      "date": "2026-11-18T23:12:24.000Z",
+      "source": "Investing.com"
+    },
+    {
       "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
       "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
       "date": "2026-11-18T23:12:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
+      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
+      "date": "2026-11-18T23:07:13.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Anthropic IPO to mint thousands of millionaires",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
+      "date": "2026-11-18T23:06:27.000Z",
+      "source": "Investing.com"
     },
     {
       "title": "Two Retirees Each Hold $500,000 in a 401(k) Index Fund as Nvidia's CFO Takes the Wheel. One Has About $28,950 Riding on a Single Stock. The Other Has About $1,000",
@@ -119,12 +153,6 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
-      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
-      "date": "2026-11-18T23:00:26.000Z",
-      "source": "Investing.com"
-    },
-    {
       "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
       "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/?.tsrc=rss",
       "date": "2026-11-18T23:00:02.000Z",
@@ -134,6 +162,12 @@
       "title": "Jeff Bezos says Nvidia shouldn't hire an outsider if Jensen Huang doesn't return — it's ‘too complicated'",
       "link": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-says-nvidia-shouldn-230000767.html?.tsrc=rss",
       "date": "2026-11-18T23:00:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "link": "https://finance.yahoo.com/technology/ai/articles/satya-nadella-predicts-ai-agents-225811295.html?.tsrc=rss",
+      "date": "2026-11-18T22:58:11.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -177,39 +211,15 @@
       "link": "https://www.investing.com/news/stock-market-news/markel-group-stock-jumps-on-25b-buyback-boost-5037308",
       "date": "2026-11-18T22:51:45.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "Stock Market Today, Nov. 18: Opendoor Extends Rally for Second Straight Session as Investors Watch Housing",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-opendoor-extends-rally-for-second-straight-session-as-investors-watch-housing/?.tsrc=rss",
-      "date": "2026-11-18T22:44:46.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Former federal prosecutor weighs in on Nvidia's legal strategy after Huang exit",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/former-federal-prosecutor-weighs-nvidia-224404415.html?.tsrc=rss",
-      "date": "2026-11-18T22:44:04.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Hot demand lifts Anthropic IPO price to $83 a share: US media",
-      "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html?.tsrc=rss",
-      "date": "2026-11-18T22:43:50.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic IPO to mint thousands of millionaires",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
-      "date": "2026-11-18T22:43:18.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "UK inflation rises to one-year high but markets trim rate hike bets",
-      "link": "https://www.investing.com/news/economy-news/uk-inflation-rose-to-36-in-october-5034916",
-      "date": "2026-11-18T22:43:04.000Z",
-      "source": "Investing.com"
     }
   ],
   "featured": [
+    {
+      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
+      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
+      "date": "2026-11-18T23:24:29.000Z",
+      "source": "Investing.com"
+    },
     {
       "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
       "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3B.html?.tsrc=rss",
@@ -221,12 +231,6 @@
       "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
       "date": "2026-11-18T23:12:00.000Z",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
-      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
-      "date": "2026-11-18T23:00:26.000Z",
-      "source": "Investing.com"
     }
   ],
   "yields": {

@@ -1,18 +1,28 @@
 {
-  "updated": "2026-11-18T23:33:53.363Z",
+  "updated": "2026-11-18T23:43:10.929Z",
   "breaking": [
+    {
+      "title": "Seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
+      "date": "2026-11-18T23:42:07.000Z"
+    },
+    {
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-18T23:36:04.000Z"
+    },
     {
       "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
       "date": "2026-11-18T23:29:14.000Z"
-    },
+    }
+  ],
+  "latest": [
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
       "date": "2026-11-18T22:34:56.000Z"
-    }
-  ],
-  "latest": [
+    },
     {
       "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
@@ -46,24 +56,24 @@
   ],
   "business": [
     {
+      "source": "BBC Business",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
+      "date": "2026-11-18T23:42:07.000Z",
+      "breaking": true
+    },
+    {
       "source": "Investing.com",
       "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
       "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
       "date": "2026-11-18T23:24:29.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
       "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
       "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
       "date": "2026-11-18T23:12:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo",
-      "date": "2026-11-18T23:01:09.000Z",
       "breaking": false
     },
     {
@@ -79,6 +89,13 @@
       "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
       "date": "2026-11-18T19:41:59.000Z",
       "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-18T23:36:04.000Z",
+      "breaking": true
     },
     {
       "source": "Investing.com",
@@ -102,13 +119,6 @@
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
-      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
-      "date": "2026-11-18T21:28:08.000Z",
-      "breaking": false
-    },
-    {
       "source": "CNBC",
       "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
       "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
@@ -123,21 +133,14 @@
       "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:53:00.000Z",
+      "source": "BBC Business",
+      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo",
+      "date": "2026-11-18T23:01:09.000Z",
       "breaking": false
     }
   ],
   "trending": [
-    {
-      "term": "Anshul Kamboj",
-      "traffic": "2000+",
-      "title": "India leave Siraj and Jadeja out of opening Test in New Zealand",
-      "link": "https://www.cricinfo.com/story/india-leave-mohammed-siraj-and-ravindra-jadeja-out-of-opening-test-in-new-zealand-1563144",
-      "source": "Cricinfo"
-    },
     {
       "term": "Lea Seydoux",
       "traffic": "500+",
@@ -148,9 +151,9 @@
     {
       "term": "Hsbc",
       "traffic": "500+",
-      "title": "Cyberattack targets BBC, Zoom and Ikea as 178 websites hacked",
-      "link": "https://www.thetimes.com/uk/technology-uk/article/cyberattack-bbc-zoom-ikea-websites-hacked-5lm75zjdm",
-      "source": "The Times"
+      "title": "HSBC Holdings (HSBA) Completes Buyback of 1.16 Million Shares on November 18, 2026, Total Spend Hits US$248.3 Million",
+      "link": "https://kalkinemedia.com/uk/news/announcements/hsbc-holdings-hsba-completes-buyback-of-116-million-shares-on-november-18-2026-total-spend-hits-us2483-million",
+      "source": "Kalkine Media"
     },
     {
       "term": "Mckenna Grace",
@@ -158,6 +161,13 @@
       "title": "Method Dressing Won at the ‘Hunger Games: Sunrise on the Reaping’ N.Y.C. Premiere",
       "link": "https://people.com/method-dressing-won-at-the-hunger-games-sunrise-on-the-reaping-n-y-c-premiere-12260634",
       "source": "People.com"
+    },
+    {
+      "term": "Immigration",
+      "traffic": "200+",
+      "title": "Ex-Tory MPs barred from shaping Reform UK’s immigration policy, says Zia Yusuf",
+      "link": "https://www.theguardian.com/politics/2026/nov/18/ex-tory-defectors-barred-from-shaping-reform-uks-immigration-policy-says-yusuf",
+      "source": "The Guardian"
     },
     {
       "term": "Elbridge A. Colby",
