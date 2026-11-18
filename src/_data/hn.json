@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-17T14:38:50.742Z",
+  "updated": "2026-11-18T12:20:54.981Z",
   "stories": [
     {
-      "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-      "url": "https://www.cs.cmu.edu/learn/",
-      "discuss": "https://news.ycombinator.com/item?id=50522980",
-      "points": 1885,
-      "comments": 256,
-      "domain": "cs.cmu.edu"
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "discuss": "https://news.ycombinator.com/item?id=50535230",
+      "points": 1291,
+      "comments": 808,
+      "domain": "openai.com"
     },
     {
-      "title": "BugMeNot has closed",
-      "url": "https://www.bugmenot.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50523601",
-      "points": 635,
-      "comments": 284,
-      "domain": "bugmenot.com"
+      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+      "url": "https://calif.io/java4shell/",
+      "discuss": "https://news.ycombinator.com/item?id=50538240",
+      "points": 983,
+      "comments": 253,
+      "domain": "calif.io"
     },
     {
-      "title": "Optimizely compromised, served malware on Zoom, GitLab",
-      "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
-      "discuss": "https://news.ycombinator.com/item?id=50524767",
-      "points": 480,
-      "comments": 195,
-      "domain": "blog.report-uri.com"
+      "title": "Quad9's withdrawal from France: A canary in the coal mine",
+      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+      "discuss": "https://news.ycombinator.com/item?id=50538994",
+      "points": 661,
+      "comments": 239,
+      "domain": "blog.cloudflare.com"
     },
     {
-      "title": "Frame – 31.5\" color ePaper display",
-      "url": "https://trmnl.com/blog/introducing-frame",
-      "discuss": "https://news.ycombinator.com/item?id=50519354",
-      "points": 476,
-      "comments": 332,
-      "domain": "trmnl.com"
+      "title": "Highly classified US national security communications network goes down",
+      "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
+      "discuss": "https://news.ycombinator.com/item?id=50532849",
+      "points": 602,
+      "comments": 690,
+      "domain": "cnn.com"
     },
     {
-      "title": "Jiff 1.0: A datetime library for Rust",
-      "url": "https://burntsushi.net/jiff/",
-      "discuss": "https://news.ycombinator.com/item?id=50519744",
-      "points": 411,
-      "comments": 88,
-      "domain": "burntsushi.net"
+      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
+      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
+      "discuss": "https://news.ycombinator.com/item?id=50534631",
+      "points": 570,
+      "comments": 261,
+      "domain": "ft.com"
     },
     {
-      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
-      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
-      "discuss": "https://news.ycombinator.com/item?id=50517321",
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "discuss": "https://news.ycombinator.com/item?id=50540178",
+      "points": 459,
+      "comments": 339,
+      "domain": "revscope.co"
+    },
+    {
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "discuss": "https://news.ycombinator.com/item?id=50542705",
+      "points": 429,
+      "comments": 403,
+      "domain": "nicolasbouliane.com"
+    },
+    {
+      "title": "Phrack 73",
+      "url": "https://phrack.org/issues/73/introduction_md",
+      "discuss": "https://news.ycombinator.com/item?id=50535992",
+      "points": 402,
+      "comments": 56,
+      "domain": "phrack.org"
+    },
+    {
+      "title": "What is the best harness for each model?",
+      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+      "discuss": "https://news.ycombinator.com/item?id=50532191",
+      "points": 385,
+      "comments": 128,
+      "domain": "runta.com"
+    },
+    {
+      "title": "ID.me terms required for IRS sign-in",
+      "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
+      "discuss": "https://news.ycombinator.com/item?id=50540437",
       "points": 381,
-      "comments": 290,
-      "domain": "theregister.com"
-    },
-    {
-      "title": "What is w2rt6byl5nf1opmc-a.com?",
-      "url": "https://jack.cab/blog/siterate",
-      "discuss": "https://news.ycombinator.com/item?id=50517602",
-      "points": 379,
-      "comments": 155,
-      "domain": "jack.cab"
-    },
-    {
-      "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-      "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-      "discuss": "https://news.ycombinator.com/item?id=50530163",
-      "points": 343,
-      "comments": 166,
-      "domain": "nytimes.com"
-    },
-    {
-      "title": "OpenCode Browse",
-      "url": "https://opencode.ai/product/browse",
-      "discuss": "https://news.ycombinator.com/item?id=50523459",
-      "points": 309,
-      "comments": 188,
-      "domain": "opencode.ai"
-    },
-    {
-      "title": "Grazing sheep in fields with solar arrays",
-      "url": "https://news.cornell.edu/stories/2026/10/sheep-grazing-solar-fields-offers-farmers-economic-ecological-gains",
-      "discuss": "https://news.ycombinator.com/item?id=50520182",
-      "points": 301,
-      "comments": 301,
-      "domain": "news.cornell.edu"
+      "comments": 172,
+      "domain": "consumerrights.wiki"
     }
   ],
-  "totalPoints": 7631,
+  "totalPoints": 9158,
   "storyCount": 30
 }

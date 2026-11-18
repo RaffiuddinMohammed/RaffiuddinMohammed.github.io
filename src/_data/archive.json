@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T14:43:10.795Z",
+  "updated": "2026-11-18T12:27:10.393Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3092,6 +3092,537 @@
           "title": "Optimizely compromised, served malware on Zoom, GitLab",
           "url": "https://blog.report-uri.com/worlds-largest-brands-infected-with-malware-via-optimizely/",
           "points": 480
+        }
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "totalStories": 238,
+      "sections": [
+        {
+          "name": "UK",
+          "count": 24
+        },
+        {
+          "name": "World",
+          "count": 20
+        },
+        {
+          "name": "Business",
+          "count": 16
+        },
+        {
+          "name": "Science",
+          "count": 15
+        },
+        {
+          "name": "Politics",
+          "count": 14
+        },
+        {
+          "name": "Technology",
+          "count": 9
+        },
+        {
+          "name": "Health",
+          "count": 8
+        }
+      ],
+      "topWords": [
+        {
+          "word": "burnham",
+          "count": 13
+        },
+        {
+          "word": "tech",
+          "count": 12
+        },
+        {
+          "word": "labour",
+          "count": 8
+        },
+        {
+          "word": "health",
+          "count": 8
+        },
+        {
+          "word": "government",
+          "count": 8
+        },
+        {
+          "word": "cancer",
+          "count": 7
+        },
+        {
+          "word": "strike",
+          "count": 7
+        },
+        {
+          "word": "take",
+          "count": 6
+        }
+      ],
+      "places": [
+        {
+          "name": "United Kingdom",
+          "lat": 54,
+          "lon": -2,
+          "count": 27,
+          "bySection": {
+            "UK": 7,
+            "World": 1,
+            "Politics": 14,
+            "Health": 2,
+            "Business": 2,
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "Lammy urges Burnham to take UK back into the EU",
+              "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T11:52:30.000Z"
+            },
+            {
+              "title": "Energy bills forecast to go up by £443 a year from January as UK inflation rises again",
+              "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T10:10:12.000Z"
+            },
+            {
+              "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
+              "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T09:28:35.000Z"
+            },
+            {
+              "title": "What's gone wrong at Britain's worst bathing site?",
+              "link": "https://www.bbc.co.uk/news/articles/cm752w35lkz3o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T06:12:44.000Z"
+            },
+            {
+              "title": "Is there any more snow on the way for England and Scotland?",
+              "link": "https://www.bbc.co.uk/weather/articles/cmvg2p9qlkz9o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T01:13:16.000Z"
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "lat": 39,
+          "lon": -98,
+          "count": 14,
+          "bySection": {
+            "UK": 1,
+            "Business": 4,
+            "World": 7,
+            "Health": 1,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
+              "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T09:28:35.000Z"
+            },
+            {
+              "title": "How important are Nvidia and Jensen Huang to the US economy?",
+              "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-18T06:04:21.000Z"
+            },
+            {
+              "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
+              "link": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T05:11:42.000Z"
+            },
+            {
+              "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+              "link": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T04:57:06.000Z"
+            },
+            {
+              "title": "Waymo pulls driverless taxis from all US freeways",
+              "link": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-18T03:07:22.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ukraine",
+          "lat": 49,
+          "lon": 32,
+          "count": 4,
+          "bySection": {
+            "World": 4
+          },
+          "stories": [
+            {
+              "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+              "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T21:24:35.000Z"
+            },
+            {
+              "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+              "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T17:19:57.000Z"
+            },
+            {
+              "title": "BBC reports from Kyiv bridge hit by Russian attack",
+              "link": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T15:54:15.000Z"
+            },
+            {
+              "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+              "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T05:59:01.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 4,
+          "bySection": {
+            "World": 4
+          },
+          "stories": [
+            {
+              "title": "Russian military plane crashes, killing all 19 on board",
+              "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T21:06:11.000Z"
+            },
+            {
+              "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+              "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T17:19:57.000Z"
+            },
+            {
+              "title": "BBC reports from Kyiv bridge hit by Russian attack",
+              "link": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T15:54:15.000Z"
+            },
+            {
+              "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
+              "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T05:59:01.000Z"
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "lat": 35,
+          "lon": 104,
+          "count": 4,
+          "bySection": {
+            "World": 3,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+              "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T23:02:12.000Z"
+            },
+            {
+              "title": "How new US chip restrictions on South East Asia will hit China",
+              "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T14:25:45.000Z"
+            },
+            {
+              "title": "Inside the Chinese 'AI wonderland' where Xi will host Trump",
+              "link": "https://www.bbc.co.uk/news/videos/ckjwjl6ywgn9o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T06:23:51.000Z"
+            },
+            {
+              "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
+              "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-14T23:01:28.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Israel",
+          "lat": 31,
+          "lon": 35,
+          "count": 3,
+          "bySection": {
+            "World": 1,
+            "Politics": 2
+          },
+          "stories": [
+            {
+              "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+              "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T20:30:20.000Z"
+            },
+            {
+              "title": "UK sanctions firms over Israeli West Bank settlements",
+              "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-17T18:27:27.000Z"
+            },
+            {
+              "title": "Wilson apologises for not declaring Israel debate interest",
+              "link": "https://www.bbc.co.uk/news/articles/c68j49r4r10go?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-16T21:25:48.000Z"
+            }
+          ]
+        },
+        {
+          "name": "India",
+          "lat": 22,
+          "lon": 79,
+          "count": 3,
+          "bySection": {
+            "World": 2,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
+              "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T09:27:44.000Z"
+            },
+            {
+              "title": "Street cricket with a legend then metro ride as William and Kate begin India visit",
+              "link": "https://www.bbc.co.uk/news/videos/crkgvnl51w1vo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-16T15:08:59.000Z"
+            },
+            {
+              "title": "The Indian workers filming their work to train AI",
+              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-23T08:04:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Gaza",
+          "lat": 31.4,
+          "lon": 34.4,
+          "count": 2,
+          "bySection": {
+            "World": 1,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+              "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T20:30:20.000Z"
+            },
+            {
+              "title": "UK sanctions firms over Israeli West Bank settlements",
+              "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-17T18:27:27.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "lat": 40,
+          "lon": -4,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Who to watch in Spain's election race",
+              "link": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T11:44:25.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Turkey",
+          "lat": 39,
+          "lon": 35,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "World's oldest shipwreck found off coast of Turkey",
+              "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-10-14T05:00:35.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Iran",
+          "lat": 32,
+          "lon": 53,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
+              "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T17:37:04.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ghana",
+          "lat": 8,
+          "lon": -1,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Ghana's new $60m presidential jet sparks public outrage",
+              "link": "https://www.bbc.co.uk/news/articles/ck792dez8dp3o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T09:27:51.000Z"
+            }
+          ]
+        },
+        {
+          "name": "DR Congo",
+          "lat": -3,
+          "lon": 23,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
+              "link": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T05:11:42.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Pakistan",
+          "lat": 30,
+          "lon": 70,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+              "link": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-17T23:34:56.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Philippines",
+          "lat": 13,
+          "lon": 122,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+              "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T07:48:18.000Z"
+            }
+          ]
+        },
+        {
+          "name": "New Zealand",
+          "lat": -41,
+          "lon": 174,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T11:49:01.000Z"
+            }
+          ]
+        }
+      ],
+      "topHeadlines": [
+        {
+          "title": "Environment department failing to protect wild birds, OEP finds",
+          "link": "https://www.bbc.co.uk/news/articles/c8p3vwevreyqo?at_medium=RSS&at_campaign=rss",
+          "section": "Science"
+        },
+        {
+          "title": "Minister criticises media for 'amplifying' Russell Brand's prison message",
+          "link": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Lammy urges Burnham to take UK back into the EU",
+          "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Who to watch in Spain's election race",
+          "link": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "Burnham promises to 'move quickly' on Neets report",
+          "link": "https://www.bbc.co.uk/news/articles/c8n50457edd4o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        }
+      ],
+      "hnTop": [
+        {
+          "title": "GPT‑6.2 Astra and Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "points": 1291
+        },
+        {
+          "title": "Java4Shell: RCE in OpenJDK when processing Base64",
+          "url": "https://calif.io/java4shell/",
+          "points": 983
+        },
+        {
+          "title": "Quad9's withdrawal from France: A canary in the coal mine",
+          "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
+          "points": 661
         }
       ]
     }

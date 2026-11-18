@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T14:43:01.690Z",
+  "updated": "2026-11-18T12:27:02.425Z",
   "topics": [
     {
       "key": "ai",
@@ -1317,14 +1317,6 @@
       "label": "Climate",
       "query": "\"climate change\"",
       "series": [
-        {
-          "date": "2025-11-28",
-          "value": 0.4514
-        },
-        {
-          "date": "2025-11-29",
-          "value": 0.4083
-        },
         {
           "date": "2025-11-30",
           "value": 0.3342
@@ -3943,10 +3935,6 @@
       "label": "Elections",
       "query": "election",
       "series": [
-        {
-          "date": "2025-11-29",
-          "value": 1.2279
-        },
         {
           "date": "2025-11-30",
           "value": 1.2204
