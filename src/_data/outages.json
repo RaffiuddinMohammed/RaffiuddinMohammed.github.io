@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-17T20:53:01.221Z",
+  "checked": "2026-11-18T02:53:27.905Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "R2 elevated errors and timeouts for requests from South America",
+      "note": "Errors and stalled predictions on some models",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -45,8 +45,8 @@
     },
     {
       "name": "Dropbox",
-      "level": "minor",
-      "note": "Sign in with Apple is not working as expected for some users",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://status.dropbox.com"
     },
     {
@@ -89,10 +89,26 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "Cloudflare Access Issue",
+      "impact": "minor",
+      "start": "2026-11-18T01:10:14.795Z",
+      "end": "2026-11-18T02:39:55.324Z",
+      "url": "https://www.cloudflarestatus.com/incidents/0jozucwnpzy0"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Issues with Durable Objects and Dependent Services",
+      "impact": "minor",
+      "start": "2026-11-17T21:56:07.722Z",
+      "end": "2026-11-18T00:17:28.046Z",
+      "url": "https://www.cloudflarestatus.com/incidents/ylj5po752g6h"
+    },
+    {
+      "service": "Cloudflare",
       "title": "R2 elevated errors and timeouts for requests from South America",
       "impact": "minor",
       "start": "2026-11-17T20:05:29.550Z",
-      "end": null,
+      "end": "2026-11-17T22:08:34.050Z",
       "url": "https://www.cloudflarestatus.com/incidents/gcn9xop0f7zm"
     },
     {
@@ -100,7 +116,7 @@
       "title": "Sign in with Apple is not working as expected for some users",
       "impact": "major",
       "start": "2026-11-17T19:36:39.703Z",
-      "end": null,
+      "end": "2026-11-17T22:16:53.575Z",
       "url": "https://stspg.io/m6867jzjgb18"
     },
     {
@@ -777,28 +793,12 @@
       "url": "https://www.cloudflarestatus.com/incidents/j25w3rpv45gs"
     },
     {
-      "service": "Cloudflare",
-      "title": "Cloudflare Container Issues",
-      "impact": "minor",
-      "start": "2026-11-03T04:12:18.432Z",
-      "end": "2026-11-03T05:23:01.651Z",
-      "url": "https://www.cloudflarestatus.com/incidents/n5mvqjs26jg9"
-    },
-    {
       "service": "OpenAI",
       "title": "File upload errors in ChatGPT",
       "impact": "minor",
       "start": "2026-11-03T00:46:58Z",
       "end": "2026-11-03T05:39:36Z",
       "url": "https://status.openai.com"
-    },
-    {
-      "service": "Cloudflare",
-      "title": " Cloudflare Gateway DNS-over-TLS Connectivity Issues over IPv4",
-      "impact": "minor",
-      "start": "2026-11-02T22:12:39.280Z",
-      "end": "2026-11-03T00:34:13.604Z",
-      "url": "https://www.cloudflarestatus.com/incidents/3bv9locsg7ln"
     },
     {
       "service": "GitHub",
