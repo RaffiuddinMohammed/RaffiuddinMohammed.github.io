@@ -1,0 +1,89 @@
+{
+  "updated": "2026-11-18T21:52:10.096Z",
+  "breaking": [
+    {
+      "title": "UK government asks for Russell Brand's YouTube account to be removed",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
+      "date": "2026-11-18T21:17:50.000Z"
+    },
+    {
+      "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
+      "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko",
+      "date": "2026-11-18T20:55:15.000Z"
+    },
+    {
+      "title": "FA explored legal challenge to Infantino staying on",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o",
+      "date": "2026-11-18T20:55:01.000Z"
+    }
+  ],
+  "latest": [
+    {
+      "title": "TfL photocard breach exposes 265,000 customers",
+      "link": "https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o",
+      "date": "2026-11-18T20:49:53.000Z"
+    },
+    {
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+      "date": "2026-11-18T20:14:57.000Z"
+    },
+    {
+      "title": "Hundreds could be hit by chemotherapy scandal, trust says",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo",
+      "date": "2026-11-18T20:09:06.000Z"
+    },
+    {
+      "title": "William and Kate meet PM Modi as they wrap up India tour",
+      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o",
+      "date": "2026-11-18T20:07:08.000Z"
+    },
+    {
+      "title": "Wales police chief says racists and misogynists working inside force",
+      "link": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o",
+      "date": "2026-11-18T19:10:40.000Z"
+    },
+    {
+      "title": "'Lip King unbothered' when mum collapsed after BBL",
+      "link": "https://www.bbc.co.uk/news/articles/cmrrg02nkpjeo",
+      "date": "2026-11-18T18:49:35.000Z"
+    }
+  ],
+  "trending": [
+    {
+      "term": "Leomie Anderson",
+      "traffic": "10000+",
+      "title": "I'm A Celeb beauty Leomie Anderson vows to recreate sexy Myleene shower scene",
+      "link": "https://www.thesun.co.uk/tv/41019136/leomie-anderson-strip-jungle-shower-myleene-klass/",
+      "source": "The Sun"
+    },
+    {
+      "term": "Im A Celeb Vote",
+      "traffic": "5000+",
+      "title": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
+      "link": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo",
+      "source": "BBC"
+    },
+    {
+      "term": "Kaiser Chiefs",
+      "traffic": "500+",
+      "title": "Star of chart-topping rock band describes upcoming Norwich show as a 'homecoming'",
+      "link": "https://www.eveningnews24.co.uk/news/26734016.darkness-frontman-calls-norwich-show-homecoming/",
+      "source": "Norwich Evening News"
+    },
+    {
+      "term": "Coleen Rooney",
+      "traffic": "500+",
+      "title": "Wayne Rooney says he contemplated taking own life during playing career",
+      "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
+      "source": "The Guardian"
+    },
+    {
+      "term": "Star Wars: Episode IV - A New Hope",
+      "traffic": "200+",
+      "title": "Celebrate 50 Years of Star Wars with New Documentary, Key Art, and Limited-Edition Merch",
+      "link": "https://www.starwars.com/news/star-wars-50-campaign",
+      "source": "StarWars.com"
+    }
+  ]
+}

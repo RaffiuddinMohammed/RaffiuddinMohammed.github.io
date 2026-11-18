@@ -4,144 +4,99 @@ three: true
 seoTitle: "Raffiuddin Mohammed · QA Automation Engineer & Delivery Lead"
 description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Test automation that runs itself for web, iOS and Android, plus live data dashboards that rebuild every day."
 ---
-<section class="hero hero-3d">
-  <div class="glow" aria-hidden="true"></div>
-  <div class="hero-text">
-  <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
-  <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad">I make data you can trust, and see.</span></h1>
-  <p class="lede">{{ site.tagline }} Everything on this site is live: it pulls real news data every morning, rebuilds itself, and publishes, with nobody touching it.</p>
-  <div class="actions">
-    <a class="btn primary" href="#dashboards">Explore the dashboards <span aria-hidden="true">→</span></a>
-    <a class="btn" href="/about/#for-business">What I can build for you</a>
-  </div>
-  </div>
-  {% if bbc.places and bbc.places.length %}
-  <div class="globe-col">
-  <figure class="globe" data-globe data-src="places-data" data-dots="/assets/globe-dots.json">
-    <figcaption class="globe-cap"><span class="pulse" aria-hidden="true"></span><span class="globe-cap-text">Countries in today's BBC headlines · drag to spin</span></figcaption>
-  </figure>
-  <ul class="globe-key" aria-label="Dot colours: each dot is one story">
-    <li><i style="background:var(--sec-uk)"></i>UK &amp; Politics</li>
-    <li><i style="background:var(--sec-world)"></i>World</li>
-    <li><i style="background:var(--sec-biz)"></i>Business &amp; Tech</li>
-    <li><i style="background:var(--sec-sci)"></i>Science &amp; Health</li>
-    <li class="muted">1 dot = 1 story</li>
-  </ul>
-  <div class="globe-time" data-globe-time data-history="/data/globe-history.json">
-    <label class="gt-row"><span class="gt-k">Travel back in time</span><input type="range" min="0" max="0" value="0" disabled aria-label="Choose a day"><span class="gt-date">Today</span></label>
-    <p class="gt-note muted">Loading history…</p>
-  </div>
-  </div>
-  <script type="application/json" id="places-data">{{ bbc.places | json | safe }}</script>
-  {% endif %}
-</section>
 
-<section aria-label="Today in numbers">
-  <div class="grid three">
-    <div class="card stat tint-1 reveal">
-      <div class="value" data-count>{{ bbc.totalStories | num }}</div>
-      <div class="label">BBC stories tracked across {{ bbc.sections.length }} sections</div>
-    </div>
-    <div class="card stat tint-2 reveal">
-      <div class="value" data-count>{% if insights.leader %}{{ insights.leader.last.toFixed(2) }}%{% else %}n/a{% endif %}</div>
-      <div class="label">of global news coverage is about <b>{{ insights.leader.label }}</b>, the top topic we track</div>
-    </div>
-    <div class="card stat tint-3 reveal">
-      <div class="value" data-count>{{ hn.stories[0].points | num }}</div>
-      <div class="label">points on today's top Hacker News story</div>
+<section class="hero hero-home">
+  <div class="hero-intro">
+    <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
+    <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad">I build test automation that runs itself.</span></h1>
+    <p class="lede">Web, iOS and Android tests that run on a schedule, check the results and report back, with nobody touching them. Below: a test running right now, and a globe that rebuilds itself from the news every day.</p>
+    <div class="actions">
+      <a class="btn primary" href="/about/#for-business">What I can build for you <span aria-hidden="true">→</span></a>
+      <a class="btn" href="#dashboards">See the live dashboards</a>
     </div>
   </div>
-  <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
-  {% if outages.services %}
-  <a class="outage-strip" href="/dashboards/outages/" aria-label="Outage watch: service status">
-    <b>Outage watch</b>
-    {% for o in outages.services %}{% if o.level != 'ok' %}<span class="os-item lvl-{{ o.level }}"><span class="st-dot" aria-hidden="true"></span>{{ o.name }}</span>{% endif %}{% endfor %}
-    <span class="muted">{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }} services OK · checked {{ outages.checked | when }} →</span>
-  </a>
-  {% endif %}
-</section>
-
-{% if markets.headlineCount %}
-{% set topTheme = markets.themes[0] %}{% set topCo = markets.mag7[0] %}
-<section class="mk-teaser card tint-5 reveal" aria-labelledby="mk-teaser-title">
-  <div class="mk-head">
-    <div>
-      <div class="eyebrow"><span class="new-badge">New</span>Markets · US &amp; UK</div>
-      <h2 id="mk-teaser-title">Markets today</h2>
-      <p class="muted">The Magnificent 7, top US and UK shares, today's movers and what's driving the market news, live.</p>
+  <div class="hero-pair">
+    <div class="demo-mini hero-card" data-demo="mini">
+      <div class="dm-phone">{% include "demo-phone.njk" %}</div>
+      <div class="dm-copy">
+        <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Live demo · Appium</div>
+        <h2>Watch a test run itself</h2>
+        <p class="muted">An automated test signs in, shops and checks out, with nobody touching the phone.</p>
+        <div class="term-pane small"><div class="pane-head"><span class="dots"><i></i><i></i><i></i></span>Terminal</div><div class="term-body"></div></div>
+        <div class="actions">
+          <button type="button" class="btn primary" data-act="voice" aria-pressed="false" hidden>🔊 Play with commentary</button>
+          <a class="btn" href="/automation/">Full test run <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
     </div>
-    <a class="btn primary" href="/dashboards/markets/">Open markets <span aria-hidden="true">→</span></a>
-  </div>
-  <div class="tv-widget tv-tape" data-widget="ticker-tape" data-config-src="tv-home-tape"><p class="muted">Loading market prices…</p></div>
-  <div class="mk-facts">
-    {% if topTheme.count %}<a class="mk-fact" href="/dashboards/markets/"><b>{{ topTheme.name }}</b><span>is the top theme: {{ topTheme.count }} of {{ markets.headlineCount }} market headlines</span></a>{% endif %}
-    {% if topCo.count %}<a class="mk-fact" href="/dashboards/markets/"><b>{{ topCo.name }}</b><span>leads the Magnificent 7 in the news, in {{ topCo.count }} headline{{ 's' if topCo.count != 1 }}</span></a>{% endif %}
-    {% if markets.yields %}<a class="mk-fact" href="/dashboards/markets/"><b>{{ markets.yields.latest.y10.toFixed(2) }}%</b><span>US 10-year Treasury yield</span></a>{% endif %}
-  </div>
-  {% if markets.latest.length %}
-  <ul class="mk-news">
-    {% for h in (markets.featured or markets.latest.slice(0, 3)) %}<li><a href="{{ h.link }}" rel="noopener" target="_blank">{{ h.title }}</a> <span class="muted">{{ h.source }}</span></li>{% endfor %}
-  </ul>
-  {% endif %}
-</section>
-<script type="application/json" id="tv-home-tape">{"symbols":[
-  {"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},{"proName":"FOREXCOM:NSXUSD","title":"Nasdaq 100"},{"proName":"FOREXCOM:UKXGBP","title":"FTSE 100"},
-  {"proName":"NASDAQ:NVDA","title":"Nvidia"},{"proName":"NASDAQ:AAPL","title":"Apple"},{"proName":"NASDAQ:MSFT","title":"Microsoft"},
-  {"proName":"NASDAQ:GOOGL","title":"Alphabet"},{"proName":"NASDAQ:AMZN","title":"Amazon"},{"proName":"NASDAQ:META","title":"Meta"},
-  {"proName":"NASDAQ:TSLA","title":"Tesla"},{"proName":"BITSTAMP:BTCUSD","title":"Bitcoin"}],"showSymbolLogo":true,"displayMode":"adaptive"}</script>
-<script src="/assets/markets.js" defer></script>
-{% endif %}
-
-<section class="demo-teaser" aria-label="Test automation demo">
-  <div class="demo-mini" data-demo="mini">
-    <div class="dm-phone">{% include "demo-phone.njk" %}</div>
-    <div class="dm-copy">
-      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Live demo · Appium</div>
-      <h2>Watch a mobile test run itself</h2>
-      <p class="muted">An automated test signs in, shops and checks out in a sample app, with no human touching it. This is what I build for web, iOS and Android.</p>
-      <div class="term-pane small"><div class="pane-head"><span class="dots"><i></i><i></i><i></i></span>Terminal</div><div class="term-body"></div></div>
-      <a class="btn primary" href="/automation/">Learn more: see the code run <span aria-hidden="true">→</span></a>
+    {% if bbc.places and bbc.places.length %}
+    <div class="hero-card hero-globe">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Live data · BBC News</div>
+      <h2>Where today's news is happening</h2>
+      <p class="muted">Every dot is one story, rebuilt every morning. Drag to spin, click a country to read its stories.</p>
+      <div class="globe-col">
+        <figure class="globe" data-globe data-src="places-data" data-dots="/assets/globe-dots.json">
+          <figcaption class="globe-cap"><span class="pulse" aria-hidden="true"></span><span class="globe-cap-text">Countries in today's BBC headlines · drag to spin</span></figcaption>
+        </figure>
+        <ul class="globe-key" aria-label="Dot colours: each dot is one story">
+          <li><i style="background:var(--sec-uk)"></i>UK &amp; Politics</li>
+          <li><i style="background:var(--sec-world)"></i>World</li>
+          <li><i style="background:var(--sec-biz)"></i>Business &amp; Tech</li>
+          <li><i style="background:var(--sec-sci)"></i>Science &amp; Health</li>
+        </ul>
+      </div>
+      <a class="go-link" href="/dashboards/headlines/">Travel back in time on the headlines page →</a>
+      <script type="application/json" id="places-data">{{ bbc.places | json | safe }}</script>
     </div>
+    {% endif %}
   </div>
 </section>
 <script src="/assets/automation-demo.js" defer></script>
 
+{% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
 <section id="dashboards">
-  <h2>Dashboards</h2>
-  <p class="muted">Updated automatically, with nobody touching them. Get outage alerts as they happen: <a href="/dashboards/outages/feed.xml">subscribe by RSS</a>.</p>
+  <h2>Proof: this site runs itself</h2>
+  <p class="muted">The same kind of automation, pointed at live data. These five dashboards collect, check and publish themselves, with nobody touching them. Get outage alerts as they happen: <a href="/dashboards/outages/feed.xml">subscribe by RSS</a>.</p>
   <div class="grid three">
-    <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
-      <span class="icon" aria-hidden="true">🌍</span>
-      <h3>What the world is talking about</h3>
-      <p class="muted">Share of global news coverage for {{ gdelt.topics.length }} big topics over the last three months, from the GDELT Project.</p>
+    {% if markets.headlineCount %}
+    <a class="card dash tint-5 reveal" href="/dashboards/markets/">
+      <span class="icon" aria-hidden="true">📈</span>
+      <h3>Markets today <span class="new-badge">New</span></h3>
+      {% if markets.yields %}<div class="big">{{ markets.yields.latest.y10.toFixed(2) }}%</div>{% endif %}
+      <p class="muted">US 10-year Treasury yield. Plus live prices for the Magnificent 7 and top US and UK shares{% if markets.themes[0].count %}, and today's top market theme: <b>{{ markets.themes[0].name }}</b>{% endif %}.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+    {% endif %}
+    <a class="card dash tint-4 reveal" href="/dashboards/outages/">
+      <span class="icon" aria-hidden="true">🚨</span>
+      <h3>Outage watch</h3>
+      <div class="big">{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }}</div>
+      <p class="muted">major online services running normally.{% if downNow.length %} <b>Right now:</b> {{ downNow | join(', ') }} {{ 'is' if downNow.length == 1 else 'are' }} reporting problems.{% endif %} Checked every 30 minutes.</p>
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-2 reveal" href="/dashboards/headlines/">
       <span class="icon" aria-hidden="true">📰</span>
       <h3>Today's headlines, by the numbers</h3>
-      <p class="muted">Which BBC News sections are busiest, and the words dominating today's headlines.</p>
+      <div class="big">{{ bbc.totalStories | num }}</div>
+      <p class="muted">BBC News stories today, by section and top words, with a 3D globe of where the news is happening.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+    <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
+      <span class="icon" aria-hidden="true">🌍</span>
+      <h3>What the world is talking about</h3>
+      {% if insights.leader %}<div class="big">{{ insights.leader.last.toFixed(2) }}%</div>{% endif %}
+      <p class="muted">{% if insights.leader %}of global news coverage is about <b>{{ insights.leader.label }}</b>, the top of {{ gdelt.topics.length }} topics tracked over three months.{% else %}Share of global news coverage for {{ gdelt.topics.length }} big topics over three months.{% endif %}</p>
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-3 reveal" href="/dashboards/tech/">
       <span class="icon" aria-hidden="true">💻</span>
       <h3>What tech is reading</h3>
-      <p class="muted">The most upvoted stories on the Hacker News front page right now.</p>
-      <span class="go">Open dashboard →</span>
-    </a>
-    <a class="card dash tint-5 reveal" href="/dashboards/markets/">
-      <span class="icon" aria-hidden="true">📈</span>
-      <h3>Markets today</h3>
-      <p class="muted">The Magnificent 7 and top US and UK stocks, today's movers, Treasury yields and what market news is talking about.</p>
-      <span class="go">Open dashboard →</span>
-    </a>
-    {% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
-    <a class="card dash tint-4 reveal" href="/dashboards/outages/">
-      <span class="icon" aria-hidden="true">🚨</span>
-      <h3>Outage watch</h3>
-      <p class="muted">{% if downNow.length %}<b>Right now:</b> {{ downNow | join(', ') }} {{ 'is' if downNow.length == 1 else 'are' }} reporting problems.{% else %}{{ outages.services.length }} major online services, all running normally right now.{% endif %} Checked every 30 minutes.</p>
+      <div class="big">{{ hn.stories[0].points | num }}</div>
+      <p class="muted">points on today's top Hacker News story, and the rest of the front page.</p>
       <span class="go">Open dashboard →</span>
     </a>
   </div>
+  <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
   <p class="muted credit">A big thank you to Gabor, whose ideas and feedback helped shape these dashboards.</p>
 </section>
 
@@ -149,9 +104,19 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
   <h2>How this site runs itself</h2>
   <p class="muted">The same pattern I use for automated test pipelines: scheduled, self-checking, zero cost.</p>
   <ol class="steps colourful">
-    <li><b>Schedule</b>A GitHub Action wakes up every morning.</li>
-    <li><b>Collect</b>A Node script pulls GDELT, BBC and Hacker News data, with retries and fallbacks. A second job checks 14 service status pages every 30 minutes.</li>
+    <li><b>Schedule</b>GitHub Actions run every morning, and every 30 minutes for outages and markets.</li>
+    <li><b>Collect</b>A Node script pulls news, market and service-status data, with retries and fallbacks.</li>
     <li><b>Build</b>Eleventy turns the data into static pages and charts.</li>
-    <li><b>Publish</b>GitHub Pages serves it free. If a source is down, yesterday's data stays up.</li>
+    <li><b>Publish</b>GitHub Pages serves it free. If a source is down, the last good data stays up.</li>
   </ol>
+</section>
+
+<section class="home-cta card tint-2 reveal">
+  <h2>Want this for your team?</h2>
+  <p class="muted">I set up test automation and reporting that keeps running without anyone watching it: web, iOS and Android, wired into CI, with alerts when something breaks.</p>
+  <div class="actions">
+    <a class="btn primary" href="/about/#for-business">What I can build for you <span aria-hidden="true">→</span></a>
+    {% if site.email %}<button type="button" class="btn" data-email-open aria-haspopup="dialog">✉️ Email me</button>{% endif %}
+    {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>{% endif %}
+  </div>
 </section>

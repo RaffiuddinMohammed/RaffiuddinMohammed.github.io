@@ -63,23 +63,21 @@
         <a class="pill cta" href="/about/#for-business">Work with me</a>
       </div>
     </nav>
-    {% if outages.services and page.url != '/dashboards/outages/' %}
-    {% set downAll = outages.services | rejectLevel('ok') %}
-    {% set worst = 'major' if (outages.services | atLevel('major')).length else ('minor' if downAll.length else 'ok') %}
-    <div class="flash lvl-{{ worst }}">
+    {% if flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
+    {% set nItems = flash.breaking.length + flash.latest.length + flash.trending.length %}
+    <div class="flash news {{ 'has-breaking' if flash.breaking.length }}" role="region" aria-label="Live news">
       <div class="wrap flash-in">
-      <a class="flash-main" href="/dashboards/outages/" aria-label="Outage watch: {% if downAll.length %}{{ downAll.length }} services reporting problems{% else %}all services running normally{% endif %}. Open the dashboard.">
-        <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>{% if downAll.length %}Live · Outages{% else %}All clear{% endif %}</span>
-        {% if downAll.length %}
-        <span class="flash-track" aria-hidden="true"><span class="flash-run">
-          {% for r in [1, 2] %}{% for o in downAll %}<span class="flash-item lvl-{{ o.level }}"><b>{{ o.name }}</b> {{ o.note }}</span>{% endfor %}{% endfor %}
-        </span></span>
-        {% else %}
-        <span class="flash-static">All {{ outages.services.length }} services we watch are running normally</span>
-        {% endif %}
-        <span class="flash-go">Outage watch →</span>
-      </a>
-      <a class="flash-rss" href="/dashboards/outages/feed.xml" title="Get outage alerts in your feed reader" aria-label="Subscribe to Outage watch by RSS"><svg viewBox="0 0 16 16" width="11" height="11" aria-hidden="true"><circle cx="3" cy="13" r="2" fill="currentColor"/><path d="M1 7a8 8 0 0 1 8 8M1 2a13 13 0 0 1 13 13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>RSS</a>
+      <div class="flash-main">
+        <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>Live · News</span>
+        <div class="flash-track"><div class="flash-run" style="animation-duration: {{ nItems * 7 }}s">
+          {% for r in [1, 2] %}<span class="flash-set"{% if r == 2 %} aria-hidden="true"{% endif %}>
+            {% for h in flash.breaking %}<a class="flash-item k-breaking" href="{{ h.link }}" rel="noopener" target="_blank"{% if r == 2 %} tabindex="-1"{% endif %}><b>Breaking</b>{{ h.title }}</a>{% endfor %}
+            {% for t in flash.trending %}<a class="flash-item k-trending" href="{{ t.link }}" rel="noopener" target="_blank" title="{{ t.traffic }} searches in the UK · {{ t.source }}"{% if r == 2 %} tabindex="-1"{% endif %}><b>Trending</b>{{ t.term }}</a>{% if loop.index == 2 %}{% for h in flash.latest.slice(0, 3) %}<a class="flash-item k-latest" href="{{ h.link }}" rel="noopener" target="_blank"{% if r == 2 %} tabindex="-1"{% endif %}><b>Latest</b>{{ h.title }}</a>{% endfor %}{% endif %}{% endfor %}
+            {% for h in flash.latest.slice(3 if flash.trending.length >= 2 else 0) %}<a class="flash-item k-latest" href="{{ h.link }}" rel="noopener" target="_blank"{% if r == 2 %} tabindex="-1"{% endif %}><b>Latest</b>{{ h.title }}</a>{% endfor %}
+          </span>{% endfor %}
+        </div></div>
+      </div>
+      <a class="flash-go" href="/dashboards/headlines/">Headlines →</a>
       </div>
     </div>
     {% endif %}

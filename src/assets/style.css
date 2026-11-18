@@ -371,7 +371,7 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 
 /* ---- globe: clickable countries, story panel, time slider ---- */
 .globe-col { position: relative; min-width: 0; }
-@media (min-width: 861px) { .globe-col { margin-top: -80px; } } /* sphere sits low in its 520px canvas; centre it on the hero text */
+@media (min-width: 861px) { .hero-3d .globe-col { margin-top: -80px; } } /* sphere sits low in its 520px canvas; centre it on the hero text */
 .globe-label.clickable { pointer-events: auto; cursor: pointer; font: inherit; font-size: .75rem; transition: opacity .3s, border-color .2s, box-shadow .2s; }
 .globe-label.clickable:hover, .globe-label.clickable:focus-visible { border-color: var(--c4); box-shadow: 0 4px 14px color-mix(in srgb, var(--c4) 30%, transparent); outline: none; }
 .hover-tip { z-index: 4; }
@@ -629,3 +629,45 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 @media (max-width: 400px) { .links .pill.n2 { display: none; } }
 @media (min-width: 641px) and (max-width: 720px) { .links .pill.n4 { display: none; } }
 @media (max-width: 340px) { .links .pill { padding: 6px 6px; } }
+
+/* ---- homepage (2026-11-18 tidy): hero = automation demo, dashboards as proof, closing CTA ---- */
+.hero-home { padding-top: 32px; }
+.hero-home h1 { font-size: clamp(2rem, 4.4vw, 3.1rem); margin: 8px 0 12px; }
+.hero-home .actions { margin-top: 4px; }
+.dash .big { font-size: 2rem; font-weight: 700; letter-spacing: -.02em; line-height: 1.1; margin: 4px 0 6px; color: var(--ink, var(--text)); }
+.dash h3 .new-badge { vertical-align: middle; margin-left: 6px; font-size: .65rem; }
+.globe-card { margin-bottom: 24px; }
+.home-cta { padding: 28px; margin-top: 8px; }
+.home-cta h2 { margin-top: 0; }
+.home-cta .actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.globe-card .globe { margin-top: -40px; }
+@media (max-width: 860px) { .globe-card .globe { margin-top: 0; } }
+
+/* ---- Live news ticker (replaced the outage ticker, 18 Nov) ---- */
+.flash.news { --lvl: var(--c1); }
+.flash.news.has-breaking { --lvl: var(--major); }
+.flash.news:hover { background: color-mix(in srgb, var(--lvl) 12%, var(--nav-bg)); }
+.flash.news.has-breaking .flash-label .st-dot { animation: blink 1.2s steps(2, start) infinite; }
+.flash-set { display: inline-flex; }
+.flash-main .flash-item { color: var(--text-2); }
+.flash-main .flash-item:hover, .flash-main .flash-item:focus-visible { color: var(--text); text-decoration: underline; }
+.flash-item b { text-transform: uppercase; font-size: .68rem; letter-spacing: .05em; margin-right: 7px; }
+.flash-item.k-breaking b { color: var(--major); }
+.flash-item.k-trending b { color: var(--c4); }
+.flash-item.k-latest b { color: var(--c5); }
+.flash-main:hover .flash-run, .flash-main:focus-within .flash-run { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) { .flash-track { overflow-x: auto; } }
+
+/* hero: intro on top, demo + globe side by side (18 Nov) */
+.hero-intro { max-width: 820px; margin-bottom: 28px; }
+.hero-pair { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 20px; align-items: stretch; }
+.hero-card { position: relative; padding: 22px; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); min-width: 0; }
+.hero-pair .demo-mini { gap: 20px; padding: 22px; }
+.hero-pair .dm-copy h2, .hero-globe h2 { font-family: Fraunces, Georgia, serif; font-size: clamp(1.25rem, 2.2vw, 1.6rem); margin: 6px 0 6px; }
+.hero-pair .dm-copy .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.hero-globe { display: flex; flex-direction: column; background: linear-gradient(160deg, color-mix(in srgb, var(--c4) 9%, var(--surface)), var(--surface) 60%); }
+.hero-globe .globe { height: 400px; margin-top: -64px; }
+.hero-globe .globe-key { margin-top: 0; }
+.hero-globe .go-link { margin-top: auto; padding-top: 12px; font-weight: 600; font-size: .9rem; }
+@media (max-width: 1100px) { .hero-pair { grid-template-columns: 1fr; } }
+@media (max-width: 860px) { .hero-globe .globe { height: 340px; margin-top: 0; } }
