@@ -55,7 +55,7 @@ jobs:
       # After the save step on purpose: an uncommitted markets.json would make its `git pull --rebase` fail.
       # Not committed here (the daily refresh commits it); this run only builds with fresh headlines.
       - name: Refresh market headlines and yields
-        run: ONLY=markets node scripts/fetch-data.mjs || true
+        run: ONLY=markets,calendar node scripts/fetch-data.mjs || true
       - name: Refresh flash news (ticker bar)
         run: node scripts/fetch-flash.mjs || true
       - name: Build site

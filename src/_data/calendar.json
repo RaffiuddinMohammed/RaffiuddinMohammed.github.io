@@ -1,0 +1,575 @@
+{
+  "updated": "2026-11-18T22:26:25.722Z",
+  "days": [
+    {
+      "date": "2026-11-18",
+      "label": "Wed 18 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "PANW",
+          "name": "Palo Alto Networks",
+          "cap": 253136273000,
+          "when": "after",
+          "eps": "$0.52",
+          "big": true,
+          "mag7": false,
+          "capText": "$253B"
+        },
+        {
+          "symbol": "TJX",
+          "name": "The TJX Companies",
+          "cap": 142831632000,
+          "when": "before",
+          "eps": "$1.33",
+          "big": true,
+          "mag7": false,
+          "capText": "$143B"
+        },
+        {
+          "symbol": "LOW",
+          "name": "Lowe's Companies",
+          "cap": 123689968000,
+          "when": "before",
+          "eps": "$2.86",
+          "big": true,
+          "mag7": false,
+          "capText": "$124B"
+        },
+        {
+          "symbol": "TGT",
+          "name": "Target",
+          "cap": 72473960000,
+          "when": "before",
+          "eps": "$2.05",
+          "big": false,
+          "mag7": false,
+          "capText": "$72B"
+        },
+        {
+          "symbol": "P",
+          "name": "Everpure",
+          "cap": 33919201300,
+          "when": "after",
+          "eps": "$0.28",
+          "big": false,
+          "mag7": false,
+          "capText": "$34B"
+        },
+        {
+          "symbol": "WWD",
+          "name": "Woodward",
+          "cap": 18288853000,
+          "when": "after",
+          "eps": "$2.50",
+          "big": false,
+          "mag7": false,
+          "capText": "$18B"
+        }
+      ],
+      "events": [
+        {
+          "country": "UK",
+          "what": "Inflation (CPI)",
+          "name": "Core CPI",
+          "time": "07:00",
+          "previous": "2.8%",
+          "consensus": "2.8%"
+        },
+        {
+          "country": "UK",
+          "what": "Producer prices (PPI)",
+          "name": "Core PPI Output",
+          "time": "07:00",
+          "previous": "2.9%",
+          "consensus": null
+        },
+        {
+          "country": "UK",
+          "what": "Central bank chief speaks",
+          "name": "BoE Gov Bailey Speaks",
+          "time": "07:30",
+          "previous": null,
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Fed meeting minutes",
+          "name": "FOMC Meeting Minutes",
+          "time": "19:00",
+          "previous": null,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-19",
+      "label": "Thu 19 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "WMT",
+          "name": "Walmart",
+          "cap": 1011711340000,
+          "when": "before",
+          "eps": "$0.64",
+          "big": true,
+          "mag7": false,
+          "capText": "$1.01T"
+        },
+        {
+          "symbol": "BABA",
+          "name": "Alibaba Group",
+          "cap": 209908417000,
+          "when": "before",
+          "eps": "$1.56",
+          "big": true,
+          "mag7": false,
+          "capText": "$210B"
+        },
+        {
+          "symbol": "PDD",
+          "name": "PDD",
+          "cap": 110156653000,
+          "when": "before",
+          "eps": "$2.61",
+          "big": true,
+          "mag7": false,
+          "capText": "$110B"
+        },
+        {
+          "symbol": "INTU",
+          "name": "Intuit",
+          "cap": 85726634000,
+          "when": "after",
+          "eps": "$2.47",
+          "big": false,
+          "mag7": false,
+          "capText": "$86B"
+        },
+        {
+          "symbol": "NTES",
+          "name": "NetEase",
+          "cap": 76332884000,
+          "when": "before",
+          "eps": "$2.40",
+          "big": false,
+          "mag7": false,
+          "capText": "$76B"
+        },
+        {
+          "symbol": "ROST",
+          "name": "Ross Stores",
+          "cap": 70423437000,
+          "when": "after",
+          "eps": "$1.85",
+          "big": false,
+          "mag7": false,
+          "capText": "$70B"
+        },
+        {
+          "symbol": "KEYS",
+          "name": "Keysight Technologies",
+          "cap": 48426119000,
+          "when": "after",
+          "eps": "$3.09",
+          "big": false,
+          "mag7": false,
+          "capText": "$48B"
+        },
+        {
+          "symbol": "WSM",
+          "name": "Williams-Sonoma",
+          "cap": 29450682400,
+          "when": "before",
+          "eps": "$2.18",
+          "big": false,
+          "mag7": false,
+          "capText": "$29B"
+        },
+        {
+          "symbol": "WMG",
+          "name": "Warner Music Group",
+          "cap": 16964450300,
+          "when": "before",
+          "eps": "$0.39",
+          "big": false,
+          "mag7": false,
+          "capText": "$17B"
+        },
+        {
+          "symbol": "FUTU",
+          "name": "Futu",
+          "cap": 12179165200,
+          "when": "before",
+          "eps": null,
+          "big": false,
+          "mag7": false,
+          "capText": "$12B"
+        }
+      ],
+      "events": [
+        {
+          "country": "US",
+          "what": "Weekly jobless claims",
+          "name": "Initial Jobless Claims",
+          "time": "13:30",
+          "previous": "200K",
+          "consensus": "198K"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "label": "Fri 20 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "BSP",
+          "name": "Bending Spoons S.p.A.",
+          "cap": 29397309400,
+          "when": "before",
+          "eps": "$0.25",
+          "big": false,
+          "mag7": false,
+          "capText": "$29B"
+        },
+        {
+          "symbol": "BJ",
+          "name": "BJ's Wholesale Club",
+          "cap": 14075246600,
+          "when": "before",
+          "eps": "$1.24",
+          "big": false,
+          "mag7": false,
+          "capText": "$14B"
+        },
+        {
+          "symbol": "MOG.A",
+          "name": "Moog",
+          "cap": 10385293300,
+          "when": "before",
+          "eps": "$2.70",
+          "big": false,
+          "mag7": false,
+          "capText": "$10B"
+        },
+        {
+          "symbol": "FRO",
+          "name": "Frontline",
+          "cap": 10089269200,
+          "when": "before",
+          "eps": null,
+          "big": false,
+          "mag7": false,
+          "capText": "$10B"
+        }
+      ],
+      "events": [
+        {
+          "country": "UK",
+          "what": "Retail sales",
+          "name": "Core Retail Sales",
+          "time": "07:00",
+          "previous": "-0.7%",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Consumer sentiment (Michigan)",
+          "name": "Michigan Consumer Sentiment",
+          "time": "15:00",
+          "previous": "51.0",
+          "consensus": "51.0"
+        }
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "label": "Mon 23 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "HPE",
+          "name": "Hewlett Packard Enterprise Company",
+          "cap": 61182853000,
+          "when": "after",
+          "eps": "$1.17",
+          "big": false,
+          "mag7": false,
+          "capText": "$61B"
+        },
+        {
+          "symbol": "A",
+          "name": "Agilent Technologies",
+          "cap": 48553787000,
+          "when": "after",
+          "eps": "$1.72",
+          "big": false,
+          "mag7": false,
+          "capText": "$49B"
+        },
+        {
+          "symbol": "ZM",
+          "name": "Zoom Communications",
+          "cap": 26704046100,
+          "when": "after",
+          "eps": "$1",
+          "big": false,
+          "mag7": false,
+          "capText": "$27B"
+        },
+        {
+          "symbol": "SYM",
+          "name": "Symbotic",
+          "cap": 19994744800,
+          "when": "after",
+          "eps": "$0.08",
+          "big": false,
+          "mag7": false,
+          "capText": "$20B"
+        },
+        {
+          "symbol": "J",
+          "name": "Jacobs Solutions",
+          "cap": 18519019500,
+          "when": "after",
+          "eps": "$2.11",
+          "big": false,
+          "mag7": false,
+          "capText": "$19B"
+        }
+      ],
+      "events": [
+        {
+          "country": "UK",
+          "what": "Business activity (PMI)",
+          "name": "S&P Global Composite PMI",
+          "time": "09:30",
+          "previous": "52.9",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Business activity (PMI)",
+          "name": "S&P Global Composite PMI",
+          "time": "14:45",
+          "previous": "55.9",
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "label": "Tue 24 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "DELL",
+          "name": "Dell Technologies",
+          "cap": 205233996000,
+          "when": "after",
+          "eps": "$6.41",
+          "big": true,
+          "mag7": false,
+          "capText": "$205B"
+        },
+        {
+          "symbol": "ADI",
+          "name": "Analog Devices",
+          "cap": 185913229000,
+          "when": "before",
+          "eps": "$3.89",
+          "big": true,
+          "mag7": false,
+          "capText": "$186B"
+        },
+        {
+          "symbol": "MDT",
+          "name": "Medtronic",
+          "cap": 130881389000,
+          "when": "before",
+          "eps": "$1.34",
+          "big": true,
+          "mag7": false,
+          "capText": "$131B"
+        },
+        {
+          "symbol": "ADSK",
+          "name": "Autodesk",
+          "cap": 53340979000,
+          "when": "after",
+          "eps": "$2.27",
+          "big": false,
+          "mag7": false,
+          "capText": "$53B"
+        },
+        {
+          "symbol": "WDAY",
+          "name": "Workday",
+          "cap": 44054798000,
+          "when": "after",
+          "eps": "$1.28",
+          "big": false,
+          "mag7": false,
+          "capText": "$44B"
+        },
+        {
+          "symbol": "DLTR",
+          "name": "Dollar Tree",
+          "cap": 26213828600,
+          "when": "before",
+          "eps": "$0.88",
+          "big": false,
+          "mag7": false,
+          "capText": "$26B"
+        },
+        {
+          "symbol": "HPQ",
+          "name": "HP",
+          "cap": 25890418700,
+          "when": "after",
+          "eps": "$0.74",
+          "big": false,
+          "mag7": false,
+          "capText": "$26B"
+        },
+        {
+          "symbol": "BBY",
+          "name": "Best Buy",
+          "cap": 20637204500,
+          "when": "before",
+          "eps": "$1.48",
+          "big": false,
+          "mag7": false,
+          "capText": "$21B"
+        },
+        {
+          "symbol": "NTNX",
+          "name": "Nutanix",
+          "cap": 15414829100,
+          "when": "after",
+          "eps": "$0.29",
+          "big": false,
+          "mag7": false,
+          "capText": "$15B"
+        },
+        {
+          "symbol": "BURL",
+          "name": "Burlington Stores",
+          "cap": 14770365400,
+          "when": "before",
+          "eps": "$1.67",
+          "big": false,
+          "mag7": false,
+          "capText": "$15B"
+        },
+        {
+          "symbol": "SJM",
+          "name": "The J.M. Smucker Company",
+          "cap": 14254485500,
+          "when": "before",
+          "eps": "$2.56",
+          "big": false,
+          "mag7": false,
+          "capText": "$14B"
+        },
+        {
+          "symbol": "DKS",
+          "name": "Dick's Sporting Goods",
+          "cap": 12527083500,
+          "when": "before",
+          "eps": "$1.38",
+          "big": false,
+          "mag7": false,
+          "capText": "$13B"
+        }
+      ],
+      "events": [
+        {
+          "country": "US",
+          "what": "Consumer confidence (Conference Board)",
+          "name": "CB Consumer Confidence",
+          "time": "15:00",
+          "previous": "91.7",
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-25",
+      "label": "Wed 25 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "DE",
+          "name": "Deere & Company",
+          "cap": 175048901000,
+          "when": "before",
+          "eps": "$4.07",
+          "big": true,
+          "mag7": false,
+          "capText": "$175B"
+        },
+        {
+          "symbol": "LI",
+          "name": "Li Auto",
+          "cap": 11307065300,
+          "when": "before",
+          "eps": "−$0.08",
+          "big": false,
+          "mag7": false,
+          "capText": "$11B"
+        }
+      ],
+      "events": [
+        {
+          "country": "US",
+          "what": "Durable goods orders",
+          "name": "Core Durable Goods Orders",
+          "time": "13:30",
+          "previous": "0.5%",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Inflation (PCE, the Fed's favourite gauge)",
+          "name": "Core PCE Price Index",
+          "time": "13:30",
+          "previous": "0.3%",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "GDP (economic growth)",
+          "name": "GDP",
+          "time": "13:30",
+          "previous": "2.2%",
+          "consensus": "3.4%"
+        },
+        {
+          "country": "US",
+          "what": "Weekly jobless claims",
+          "name": "Initial Jobless Claims",
+          "time": "13:30",
+          "previous": null,
+          "consensus": null
+        }
+      ]
+    },
+    {
+      "date": "2026-11-26",
+      "label": "Thu 26 Nov",
+      "closed": "Thanksgiving",
+      "early": null,
+      "earnings": [],
+      "events": []
+    }
+  ]
+}

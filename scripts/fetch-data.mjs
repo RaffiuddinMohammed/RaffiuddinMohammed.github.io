@@ -330,6 +330,90 @@ async function markets() {
 }
 
 await save('markets', markets);
+
+// ---------- 7. The week ahead: earnings + key US/UK economic events (Nasdaq public calendars) ----------
+// Dates, times and company names only: a schedule, not prices. Cached for 3 hours because the
+// 30-minute outage run refreshes markets too, and the calendar barely changes within a day.
+const NYSE_CLOSED = { // full-day US market holidays (NYSE published schedule)
+  '2026-11-26': 'Thanksgiving', '2026-12-25': 'Christmas Day',
+  '2027-01-01': "New Year's Day", '2027-01-18': 'Martin Luther King Jr. Day', '2027-02-15': "Presidents' Day",
+  '2027-03-26': 'Good Friday', '2027-05-31': 'Memorial Day', '2027-06-18': 'Juneteenth', '2027-07-05': 'Independence Day',
+  '2027-09-06': 'Labor Day', '2027-11-25': 'Thanksgiving', '2027-12-24': 'Christmas Day',
+};
+const NYSE_EARLY = { '2026-11-27': 'day after Thanksgiving', '2026-12-24': 'Christmas Eve', '2027-11-26': 'day after Thanksgiving' };
+// Releases that reliably move markets; everything else in the raw calendar (auctions, CFTC positions...) is noise here
+const KEY_EVENTS = [
+  [/\bCPI\b|Consumer Price/i, 'Inflation (CPI)'], [/\bPCE\b/i, 'Inflation (PCE, the Fed\'s favourite gauge)'], [/\bPPI\b|Producer Price/i, 'Producer prices (PPI)'],
+  [/Nonfarm Payrolls/i, 'US jobs report'], [/Unemployment Rate/i, 'Unemployment rate'], [/Initial Jobless Claims/i, 'Weekly jobless claims'],
+  [/Interest Rate Decision|Fed Interest Rate|BoE Interest Rate|Rate Statement/i, 'Interest rate decision'], [/FOMC (?:Meeting )?Minutes/i, 'Fed meeting minutes'],
+  [/Fed Chair|Powell|Warsh Speaks|BoE Gov|Bailey Speaks/i, 'Central bank chief speaks'],
+  [/\bGDP\b/i, 'GDP (economic growth)'], [/Retail Sales/i, 'Retail sales'], [/Composite PMI/i, 'Business activity (PMI)'],
+  [/Michigan Consumer Sentiment/i, 'Consumer sentiment (Michigan)'], [/CB Consumer Confidence/i, 'Consumer confidence (Conference Board)'], [/Durable Goods/i, 'Durable goods orders'],
+];
+const isoDay = (d) => d.toISOString().slice(0, 10);
+const money = (s) => parseFloat(String(s || '').replace(/[$,]/g, '')) || 0;
+// Nasdaq's event times are US Eastern; show them in UK time
+function etToUk(day, hhmm) {
+  if (!/^\d\d:\d\d$/.test(hhmm || '')) return null;
+  const guess = new Date(`${day}T${hhmm}:00Z`);
+  const etOffset = (d) => { const p = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', timeZoneName: 'shortOffset' }).formatToParts(d).find((x) => x.type === 'timeZoneName').value; return parseInt(p.replace('GMT', '') || '0', 10); };
+  const utc = new Date(guess.getTime() - etOffset(guess) * 3600e3);
+  return new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit' }).format(utc);
+}
+// "TJX Companies, Inc. (The)" -> "The TJX Companies"; "Alibaba Group Holding Limited" -> "Alibaba Group"
+const cleanName = (n) => { let s = n.trim(), the = /\s*\(The\)$/.test(s); s = s.replace(/\s*\(The\)$/, '');
+  for (let i = 0; i < 2; i++) s = s.replace(/,?\s+(?:Inc|Incorporated|Corp|Corporation|Ltd|Limited|plc|PLC|N\.V|S\.A|AG|SE|Holding|Holdings|Co)\.?$/i, '');
+  return (the ? 'The ' : '') + s; };
+const blank = (s) => { const t = decode(s || '').replace(/&nbsp;|\u00a0/g, '').trim(); return t || null; };
+const MAG7_TICKERS = ['AAPL', 'MSFT', 'NVDA', 'GOOGL', 'GOOG', 'AMZN', 'META', 'TSLA'];
+
+async function calendar() {
+  try {
+    const prev = JSON.parse(await readFile(new URL('calendar.json', DATA)));
+    if (Date.now() - Date.parse(prev.updated) < 3 * 3600e3 && prev.days?.[0]?.date >= isoDay(new Date())) { const { updated, ...rest } = prev; return rest; }
+  } catch {}
+  const days = [];
+  for (let i = 0; i < 9; i++) { // today + the next 8 days, so a full trading week is always in view
+    const date = isoDay(new Date(Date.now() + i * 864e5));
+    const dow = new Date(`${date}T12:00:00Z`).getUTCDay();
+    if (dow === 0 || dow === 6) continue;
+    let earnings = [], events = [];
+    try {
+      const e = await get(`https://api.nasdaq.com/api/calendar/earnings?date=${date}`, 'json', 2, 30);
+      earnings = (e.data?.rows ?? []).map((r) => ({
+        symbol: r.symbol, name: cleanName(r.name),
+        cap: money(r.marketCap), when: r.time === 'time-pre-market' ? 'before' : r.time === 'time-after-hours' ? 'after' : null,
+        eps: (r.epsForecast?.trim() || '').replace(/^\((.*)\)$/, '−$1') || null, // "($0.08)" is a forecast loss
+      })).filter((r, i, all) => r.cap >= 10e9 && all.findIndex((x) => x.name === r.name) === i) // one row per company (Moog has two share classes).sort((a, b) => b.cap - a.cap)
+        .map((r) => ({ ...r, big: r.cap >= 100e9 || MAG7_TICKERS.includes(r.symbol), mag7: MAG7_TICKERS.includes(r.symbol) }));
+    } catch (err) { console.warn(`  earnings ${date}: ${err.message}`); }
+    await wait(800);
+    try {
+      // Nasdaq files economic events one day late (checked 18 Nov 2026 against ForexFactory and the news:
+      // the Fed minutes, UK CPI, US retail sales and jobless claims all appeared under the next day), so ask for tomorrow
+      const next = isoDay(new Date(Date.parse(`${date}T12:00:00Z`) + 864e5));
+      const v = await get(`https://api.nasdaq.com/api/calendar/economicevents?date=${next}`, 'json', 2, 30);
+      const seen = new Set();
+      for (const r of v.data?.rows ?? []) {
+        const country = r.country === 'United States' ? 'US' : r.country === 'United Kingdom' ? 'UK' : null;
+        const hit = country && KEY_EVENTS.find(([re]) => re.test(r.eventName));
+        if (!hit || seen.has(country + hit[1])) continue;
+        seen.add(country + hit[1]);
+        events.push({ country, what: hit[1], name: decode(r.eventName), time: etToUk(date, r.gmt), previous: blank(r.previous), consensus: blank(r.consensus) });
+      }
+    } catch (err) { console.warn(`  events ${date}: ${err.message}`); }
+    await wait(800);
+    const label = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', weekday: 'short', day: 'numeric', month: 'short' }).format(new Date(`${date}T12:00:00Z`));
+    earnings = earnings.map((r) => ({ ...r, capText: r.cap >= 1e12 ? `$${(r.cap / 1e12).toFixed(2)}T` : `$${Math.round(r.cap / 1e9)}B` }));
+    events.sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+    days.push({ date, label, closed: NYSE_CLOSED[date] ?? null, early: NYSE_EARLY[date] ?? null, earnings, events });
+  }
+  const total = days.reduce((n, d) => n + d.earnings.length + d.events.length, 0);
+  if (total < 5) throw new Error(`calendar looks empty (${total} items)`);
+  return { days };
+}
+
+await save('calendar', calendar);
 await save('bbc', bbc);
 await save('hn', hn);
 await save('gdelt', gdelt);

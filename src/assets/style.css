@@ -672,3 +672,24 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .hero-globe .go-link { margin-top: auto; padding-top: 12px; font-weight: 600; font-size: .9rem; }
 @media (max-width: 1100px) { .hero-pair { grid-template-columns: 1fr; } }
 @media (max-width: 860px) { .hero-globe .globe { height: 340px; margin-top: 0; } }
+
+/* ---- Markets: week ahead + earnings calendar ---- */
+.week-ahead { margin: 20px 0 8px; padding: 24px; }
+.week-ahead h2 { margin: 6px 0 14px; }
+.wa-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.wa-grid h3 { font-size: 1rem; margin: 0 0 8px; }
+.wa-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; font-size: .92rem; }
+.wa-list .flag { margin-right: 6px; }
+.wa-note { margin: 16px 0 0; font-size: .8rem; }
+.badge { display: inline-block; font-size: .65rem; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; padding: 1px 7px; border-radius: 999px; vertical-align: middle; }
+.badge.big { color: #241a00; background: var(--c5); }
+.badge.mag7 { color: #fff; background: var(--c4); }
+.earn-days { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; margin-top: 14px; }
+.earn-day { border: 1px solid var(--border); border-radius: 14px; padding: 14px; background: color-mix(in srgb, var(--surface) 70%, transparent); }
+.earn-day.closed { opacity: .75; }
+.earn-day h3 { font-size: .95rem; margin: 0 0 10px; }
+.earn-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.earn-list li { display: grid; gap: 2px; padding: 7px 9px; border-radius: 10px; font-size: .85rem; border-left: 3px solid transparent; }
+.earn-list li.is-big { border-left-color: var(--c5); background: color-mix(in srgb, var(--c5) 12%, transparent); }
+.earn-list .e-meta { color: var(--text-2); font-size: .78rem; }
+@media (max-width: 900px) { .wa-grid { grid-template-columns: 1fr; gap: 18px; } }
