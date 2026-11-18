@@ -64,6 +64,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
   <div class="grid three">
     {% if markets.headlineCount %}
     <a class="card dash tint-5 reveal" href="/dashboards/markets/">
+      <img class="dash-img" src="/assets/img/markets-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
       <span class="icon" aria-hidden="true">📈</span>
       <h3>Markets today <span class="new-badge">New</span></h3>
       {% if markets.yields %}<div class="big" data-count>{{ markets.yields.latest.y10.toFixed(2) }}%</div>{% endif %}
@@ -72,6 +73,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
     </a>
     {% endif %}
     <a class="card dash tint-4 reveal" href="/dashboards/outages/">
+      <img class="dash-img" src="/assets/img/outages-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
       <span class="icon" aria-hidden="true">🚨</span>
       <h3>Outage watch</h3>
       <div class="big" data-count>{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }}</div>
@@ -79,6 +81,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-2 reveal" href="/dashboards/headlines/">
+      <img class="dash-img" src="/assets/img/headlines-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
       <span class="icon" aria-hidden="true">📰</span>
       <h3>Today's headlines, by the numbers</h3>
       <div class="big" data-count>{{ bbc.totalStories | num }}</div>
@@ -86,6 +89,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
+      <img class="dash-img" src="/assets/img/coverage-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
       <span class="icon" aria-hidden="true">🌍</span>
       <h3>What the world is talking about</h3>
       {% if insights.leader %}<div class="big" data-count>{{ insights.leader.last.toFixed(2) }}%</div>{% endif %}
@@ -93,6 +97,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-3 reveal" href="/dashboards/tech/">
+      <img class="dash-img" src="/assets/img/tech-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
       <span class="icon" aria-hidden="true">💻</span>
       <h3>What tech is reading</h3>
       <div class="big" data-count>{{ hn.stories[0].points | num }}</div>

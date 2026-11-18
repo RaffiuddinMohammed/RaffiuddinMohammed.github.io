@@ -4,7 +4,7 @@ title: Markets today
 permalink: /dashboards/markets/
 description: "A US-led market dashboard: the Magnificent 7 and top US and UK stocks, today's movers, what market news is talking about, Treasury yields and the week's big economic events."
 ---
-<div class="page-head">
+<div class="page-head has-photo" style="--photo: url(/assets/img/markets-hero.webp)">
   <div class="eyebrow">Dashboard · Markets</div>
   <h1>Markets today</h1>
   <p class="lede">The Magnificent 7, the biggest US and UK names and what moved today, alongside {{ markets.headlineCount | num }} market headlines from the last two days and the US Treasury yield curve.</p>
@@ -140,7 +140,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
     <div>
       <h3>📣 Big earnings</h3>
       {% if bigE.length %}<ul class="wa-list">
-        {% for x in bigE.slice(0, 8) %}<li><b>{{ x.e.name }}</b>{% if x.e.mag7 %} <span class="badge mag7">Mag 7</span>{% endif %} <span class="muted">{{ x.d.label }}, {{ 'before the open' if x.e.when == 'before' else ('after the close' if x.e.when == 'after' else 'time tbc') }}</span></li>{% endfor %}
+        {% for x in bigE.slice(0, 8) %}<li><span class="logo-tile" aria-hidden="true"><span class="logo-letter">{{ x.e.name[0] }}</span><img src="https://financialmodelingprep.com/image-stock/{{ x.e.symbol | urlencode }}.png" alt="" width="22" height="22" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="this.remove()"></span><b>{{ x.e.name }}</b>{% if x.e.mag7 %} <span class="badge mag7">Mag 7</span>{% endif %} <span class="muted">{{ x.d.label }}, {{ 'before the open' if x.e.when == 'before' else ('after the close' if x.e.when == 'after' else 'time tbc') }}</span></li>{% endfor %}
       </ul>{% else %}<p class="muted">No companies over $100 billion report this week.</p>{% endif %}
       <a class="go-link" href="#earnings">Full earnings calendar ↓</a>
     </div>
@@ -175,7 +175,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
         {% elif d.earnings.length %}
         <ul class="earn-list">
           {% for e in d.earnings %}<li class="{{ 'is-big' if e.big }}">
-            <span class="e-name"><b>{{ e.name }}</b> <span class="muted">{{ e.symbol }}</span>{% if e.mag7 %} <span class="badge mag7">Mag 7</span>{% elif e.big %} <span class="badge big">Big</span>{% endif %}</span>
+            <span class="e-name"><span class="logo-tile" aria-hidden="true"><span class="logo-letter">{{ e.name[0] }}</span><img src="https://financialmodelingprep.com/image-stock/{{ e.symbol | urlencode }}.png" alt="" width="22" height="22" loading="lazy" decoding="async" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="this.remove()"></span><b>{{ e.name }}</b> <span class="muted">{{ e.symbol }}</span>{% if e.mag7 %} <span class="badge mag7">Mag 7</span>{% elif e.big %} <span class="badge big">Big</span>{% endif %}</span>
             <span class="e-meta"><span title="{{ 'Reports before the US market opens' if e.when == 'before' else ('Reports after the US market closes' if e.when == 'after' else 'Time not announced') }}">{{ '☀️ Before open' if e.when == 'before' else ('🌙 After close' if e.when == 'after' else '⏱ Time tbc') }}</span> · {{ e.capText }}{% if e.eps %} · EPS est. {{ e.eps }}{% endif %}</span>
           </li>{% endfor %}
         </ul>
@@ -184,7 +184,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
       </div>
     {% endfor %}
     </div>
-    <p class="muted credit">Source: <a href="https://www.nasdaq.com/market-activity/earnings" rel="noopener">Nasdaq earnings calendar</a>, US-listed companies only. Updated {{ calendar.updated | when }}.</p>
+    <p class="muted credit">Source: <a href="https://www.nasdaq.com/market-activity/earnings" rel="noopener">Nasdaq earnings calendar</a>, US-listed companies only. Logos via <a href="https://financialmodelingprep.com/" rel="noopener">Financial Modeling Prep</a>. Updated {{ calendar.updated | when }}.</p>
   </div>
 </section>
 {% endif %}

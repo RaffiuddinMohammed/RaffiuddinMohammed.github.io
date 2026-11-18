@@ -780,3 +780,26 @@ a.card.dash:hover .icon { transform: scale(1.12) rotate(-6deg); }
   .hero-card:hover, a.card.dash:hover .icon { transform: none; }
 }
 @media (max-width: 560px) { .pl-steps li span:last-child { grid-column: 2 / -1; white-space: normal; } .pl-steps li { align-items: start; } }
+
+/* ---- v2.3 photos + logos ---- */
+.dash-img { display: block; width: calc(100% + 40px); max-width: none; height: 120px; object-fit: cover; margin: -20px -20px 14px; border-radius: 9px 9px 0 0;
+  -webkit-mask-image: linear-gradient(#000 55%, transparent); mask-image: linear-gradient(#000 55%, transparent); transition: transform .5s ease; }
+a.card.dash { overflow: hidden; }
+a.card.dash:hover .dash-img { transform: scale(1.05); }
+.dash .dash-img + .icon { margin-top: -38px; position: relative; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.page-head.has-photo::after { content: ""; position: absolute; z-index: -1; pointer-events: none; top: 0; right: -10vw; bottom: -20px; width: min(62vw, 820px);
+  background: var(--photo) center / cover no-repeat; opacity: .38;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 45%, #000 80%, transparent), linear-gradient(#000 60%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 45%, #000 80%, transparent); -webkit-mask-composite: source-in; mask-composite: intersect; }
+:root[data-theme="light"] .page-head.has-photo::after { opacity: .28; }
+@media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) .page-head.has-photo::after { opacity: .28; } }
+@media (max-width: 700px) { .page-head.has-photo::after { width: 100vw; right: -16px; opacity: .2; } }
+.logo-tile { position: relative; display: inline-grid; place-items: center; width: 26px; height: 26px; flex: none; border-radius: 7px; background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .25); vertical-align: middle; margin-right: 8px; overflow: hidden; }
+.logo-tile img { position: absolute; inset: 3px; width: 20px; height: 20px; object-fit: contain; background: #fff; }
+.logo-letter { font-weight: 800; font-size: .8rem; color: #333; }
+.earn-list .e-name { display: flex; align-items: center; flex-wrap: wrap; gap: 0 6px; }
+.earn-list .e-name .logo-tile { margin-right: 2px; }
+.wa-list li { display: block; }
+.logo-tile.dark, .logo-tile.dark img { background: #1d2430; }
+.logo-tile.dark .logo-letter { color: #fff; }

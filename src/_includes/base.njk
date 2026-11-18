@@ -42,7 +42,15 @@
   <link rel="stylesheet" href="/assets/style.css">
   {% if three %}
   <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
-  <script type="module" src="/assets/three-scenes.js"></script>
+  {# Three.js (~200KB) downloads only when a 3D scene is about to scroll into view #}
+  <script type="module">
+    const scenes = document.querySelectorAll('[data-globe], [data-grid3d]');
+    if (scenes.length) {
+      const load = () => { io.disconnect(); import('/assets/three-scenes.js'); };
+      const io = 'IntersectionObserver' in window ? new IntersectionObserver((es) => { if (es.some((e) => e.isIntersecting)) load(); }, { rootMargin: '300px 0px' }) : null;
+      io ? scenes.forEach((el) => io.observe(el)) : import('/assets/three-scenes.js');
+    }
+  </script>
   {% endif %}
   <script>document.documentElement.classList.replace('no-js', 'js')</script>
   <link rel="alternate" type="application/atom+xml" title="Outage watch" href="/dashboards/outages/feed.xml">

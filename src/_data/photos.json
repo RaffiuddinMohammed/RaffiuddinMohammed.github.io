@@ -1,0 +1,32 @@
+{
+ "markets": {
+  "by": "R\u00f4mulo Queiroz",
+  "url": "https://www.pexels.com/photo/sound-program-on-a-screen-16594725/",
+  "alt": "Detailed financial trading screen with colorful charts and data representing market fluctuations."
+ },
+ "headlines": {
+  "by": "Suzy Hazelwood",
+  "url": "https://www.pexels.com/photo/stack-of-newspapers-3866816/",
+  "alt": "A stack of folded newspapers placed on a wooden table, symbolizing news and information."
+ },
+ "coverage": {
+  "by": "Pixabay",
+  "url": "https://www.pexels.com/photo/black-textile-41949/",
+  "alt": "Satellite view of Earth at night with illuminated cities across continents."
+ },
+ "tech": {
+  "by": "Nemuel Sereti",
+  "url": "https://www.pexels.com/photo/monitor-displaying-lines-of-code-6424583/",
+  "alt": "Close-up of colorful programming code displayed on a computer monitor with a dark background."
+ },
+ "outages": {
+  "by": "panumas nikhomkhai",
+  "url": "https://www.pexels.com/photo/line-of-pc-towers-17489151/",
+  "alt": "Close-up of tower servers in a data center with blue and red lighting."
+ },
+ "automation": {
+  "by": "Amarnath Radhakrishnan",
+  "url": "https://www.pexels.com/photo/a-phone-s-user-interface-with-applications-5253002/",
+  "alt": "Close-up shot of a smartphone screen showing various app icons, indicating digital technology use."
+ }
+}

@@ -45,3 +45,9 @@ description: "Terms of use for this site: the data and dashboards are for inform
 
   <p class="muted">Last updated: 18 November 2026.</p>
 </section>
+
+<section class="card">
+  <h2>Photo credits</h2>
+  <p class="muted">Photos are free to use under the <a href="https://www.pexels.com/license/" rel="noopener">Pexels licence</a>. With thanks to:</p>
+  <ul>{% for k, p in photos %}<li><a href="{{ p.url }}" rel="noopener">{{ p.by }}</a> ({{ k }})</li>{% endfor %}</ul>
+</section>
