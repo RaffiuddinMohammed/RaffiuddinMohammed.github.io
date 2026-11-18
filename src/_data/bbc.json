@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:36:05.120Z",
+  "updated": "2026-11-18T22:44:29.697Z",
   "totalStories": 251,
   "sections": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "name": "Science",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Politics",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Health",
-      "count": 7
+      "count": 6
     }
   ],
   "topWords": [

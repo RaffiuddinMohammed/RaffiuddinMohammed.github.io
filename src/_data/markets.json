@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T22:36:02.984Z",
-  "headlineCount": 84,
+  "updated": "2026-11-18T22:44:28.087Z",
+  "headlineCount": 85,
   "sources": [
     {
       "name": "CNBC",
@@ -22,15 +22,15 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 25
+      "count": 23
     },
     {
       "name": "Earnings",
-      "count": 18
+      "count": 21
     },
     {
       "name": "Interest rates",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Inflation",
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Apple",
@@ -95,28 +95,10 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Target's Shoppers Are Coming Back as Store Traffic Jumps 5% After Falling 2.2% a Year Ago. Can the Momentum Last?",
-      "link": "https://www.fool.com/investing/2026/11/18/targets-shoppers-are-coming-back-as-store-traffic-jumps-5-after-falling-22-a-year-ago-can-the-momentum-last/?.tsrc=rss",
-      "date": "2026-11-18T22:29:36.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
       "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
       "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
       "date": "2026-11-18T22:25:04.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "I Listened to MP Materials' Earnings Call. Here's the 1 Thing That Stuck With Me.",
-      "link": "https://www.fool.com/investing/2026/11/18/i-listened-to-xs-earnings-call-heres-the-1-thing-t/?.tsrc=rss",
-      "date": "2026-11-18T22:25:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic prices its IPO at $83 per share, valuing the artificial intelligence giant at 1.5 trillion",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-per-222443646.html?.tsrc=rss",
-      "date": "2026-11-18T22:24:43.000Z",
-      "source": "Yahoo Finance"
     },
     {
       "title": "The 5 Best Stocks in Nvidia's Portfolio",
@@ -143,12 +125,6 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Anthropic valued at over $1 trillion in historic IPO",
-      "link": "https://www.axios.com/2026/11/18/anthropic-ipo-1-trillion#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
-      "date": "2026-11-18T22:16:32.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
       "title": "The data center bottlenecks that Mavria aims to solve",
       "link": "https://finance.yahoo.com/video/the-data-center-bottlenecks-that-mavria-aims-to-solve-221600157.html?.tsrc=rss",
       "date": "2026-11-18T22:16:00.000Z",
@@ -164,12 +140,6 @@
       "title": "Update: US Equity Indexes Mixed as Investors Await Anthropic IPO After Nvidia Hits Risk Sentiment, Fed Minutes Favor Tighter Policy",
       "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-indexes-mixed-investors-221521655.html?.tsrc=rss",
       "date": "2026-11-18T22:15:21.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Arrow Electronics (ARW) Launches ArrowSphere Cloud Portal, Is The 16% Undervaluation Case Convincing?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/arrow-electronics-arw-launches-arrowsphere-221407018.html?.tsrc=rss",
-      "date": "2026-11-18T22:14:07.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -207,6 +177,36 @@
       "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-kornit-digital-ltd-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
       "date": "2026-11-18T22:07:13.000Z",
       "source": "Yahoo Finance"
+    },
+    {
+      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+      "date": "2026-11-18T22:06:24.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Today, Nov. 18: CoreWeave Slides as Nvidia's Blowout Earnings Fail to Ease Debt Concerns",
+      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-coreweave-slides-as-nvidia-s-blowout-earnings-fail-to-ease-debt-concerns/?.tsrc=rss",
+      "date": "2026-11-18T22:05:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "J&J Snack Foods Corp. Q4 2026 Earnings Call Summary",
+      "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-jj-snack-foods-corp-q4-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+      "date": "2026-11-18T22:04:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally; Market Mixed On Nvidia, Target, UnitedHealth, Fed 'Shock'",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
+      "date": "2026-11-18T22:04:40.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Arm CEO Rene Haas Reportedly Approached By Recruitment Agency Hired By Nvidia Board",
+      "link": "https://stocktwits.com/news-articles/markets/equity/arm-ceo-rene-haas-reportedly-approached-by-recruitment-agency-hired-by-nvidia-board/cNbgiWnR9id?.tsrc=rss",
+      "date": "2026-11-18T22:03:15.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "featured": [
@@ -223,9 +223,9 @@
       "source": "Investing.com"
     },
     {
-      "title": "Anthropic prices its IPO at $83 per share, valuing the artificial intelligence giant at 1.5 trillion",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-per-222443646.html?.tsrc=rss",
-      "date": "2026-11-18T22:24:43.000Z",
+      "title": "The 5 Best Stocks in Nvidia's Portfolio",
+      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-nvidias-portfolio?ref=yahoofinance&tlnk=yf-261118-w3gg2hcj&.tsrc=rss",
+      "date": "2026-11-18T22:23:15.000Z",
       "source": "Yahoo Finance"
     }
   ],
