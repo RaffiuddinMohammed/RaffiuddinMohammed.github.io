@@ -1,0 +1,24 @@
+---
+permalink: /dashboards/markets/feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Markets news · {{ site.name }}</title>
+  <subtitle>Business, markets, money and crypto headlines from BBC Business, CNBC, MarketWatch, Investing.com and Cointelegraph, refreshed every 30 minutes. Headlines link to their publishers. Not financial advice.</subtitle>
+  <link href="{{ site.url }}/dashboards/markets/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/dashboards/markets/"/>
+  <id>{{ site.url }}/dashboards/markets/</id>
+  <updated>{{ flash.updated }}</updated>
+  <author><name>{{ site.name }}</name></author>
+  {%- for h in flash.business %}
+  <entry>
+    <title>{{ h.source }}: {{ h.title }}</title>
+    <link href="{{ h.link }}"/>
+    <id>{{ h.link }}</id>
+    <published>{{ h.date }}</published>
+    <updated>{{ h.date }}</updated>
+    <summary>{{ h.title }} ({{ h.source }}). More market news: {{ site.url }}/dashboards/markets/</summary>
+  </entry>
+  {%- endfor %}
+</feed>

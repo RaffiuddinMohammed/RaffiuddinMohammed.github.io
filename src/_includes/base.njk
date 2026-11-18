@@ -46,6 +46,7 @@
   {% endif %}
   <script>document.documentElement.classList.replace('no-js', 'js')</script>
   <link rel="alternate" type="application/atom+xml" title="Outage watch" href="/dashboards/outages/feed.xml">
+  {% if page.url == '/dashboards/markets/' %}<link rel="alternate" type="application/atom+xml" title="Markets news" href="/dashboards/markets/feed.xml">{% endif %}
 </head>
 <body>
   <header class="topbar">
