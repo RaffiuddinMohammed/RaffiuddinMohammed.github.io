@@ -1,36 +1,36 @@
 {
-  "updated": "2026-11-18T21:54:16.666Z",
+  "updated": "2026-11-18T22:09:42.094Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 893,
-      "comments": 387,
+      "points": 910,
+      "comments": 398,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 517,
-      "comments": 180,
+      "points": 521,
+      "comments": 181,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 451,
-      "comments": 153,
+      "points": 456,
+      "comments": 155,
       "domain": "inside-db.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 363,
-      "comments": 244,
+      "points": 367,
+      "comments": 249,
       "domain": "microsoft.ai"
     },
     {
@@ -38,48 +38,48 @@
       "url": "https://energy-based-reasoners.github.io/",
       "discuss": "https://news.ycombinator.com/item?id=50543989",
       "points": 291,
-      "comments": 48,
+      "comments": 49,
       "domain": "energy-based-reasoners.github.io"
     },
     {
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 242,
-      "comments": 118,
+      "points": 253,
+      "comments": 121,
       "domain": "europeanbusinessmagazine.com"
     },
     {
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 202,
-      "comments": 155,
+      "points": 204,
+      "comments": 158,
       "domain": "cam.ac.uk"
     },
     {
       "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
       "discuss": "https://news.ycombinator.com/item?id=50548004",
-      "points": 154,
-      "comments": 108,
+      "points": 155,
+      "comments": 110,
       "domain": "cve.org"
+    },
+    {
+      "title": "Gemini 4 Neon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "discuss": "https://news.ycombinator.com/item?id=50552424",
+      "points": 151,
+      "comments": 117,
+      "domain": "blog.google"
     },
     {
       "title": "Genie 4 is now available",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "discuss": "https://news.ycombinator.com/item?id=50550415",
-      "points": 141,
-      "comments": 117,
+      "points": 145,
+      "comments": 119,
       "domain": "blog.google"
-    },
-    {
-      "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
-      "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
-      "discuss": "https://news.ycombinator.com/item?id=50547583",
-      "points": 127,
-      "comments": 83,
-      "domain": "sam.gov"
     }
   ],
   "totalPoints": null,

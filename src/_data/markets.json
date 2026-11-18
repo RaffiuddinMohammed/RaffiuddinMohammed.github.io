@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:54:14.720Z",
+  "updated": "2026-11-18T22:09:41.390Z",
   "headlineCount": 87,
   "sources": [
     {
@@ -22,11 +22,11 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 18
+      "count": 22
     },
     {
       "name": "Interest rates",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Earnings",
@@ -37,7 +37,7 @@
       "count": 8
     },
     {
-      "name": "Housing",
+      "name": "Oil and energy",
       "count": 3
     },
     {
@@ -45,7 +45,7 @@
       "count": 2
     },
     {
-      "name": "Oil and energy",
+      "name": "Housing",
       "count": 2
     },
     {
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Apple",
@@ -75,11 +75,11 @@
       "count": 1
     },
     {
-      "name": "Amazon",
-      "count": 0
+      "name": "Meta",
+      "count": 1
     },
     {
-      "name": "Meta",
+      "name": "Amazon",
       "count": 0
     },
     {
@@ -88,6 +88,102 @@
     }
   ],
   "latest": [
+    {
+      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+      "date": "2026-11-18T22:00:40.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Anthropic IPO to mint thousands of millionaires",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
+      "date": "2026-11-18T22:00:26.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:00:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "After-Hours Movers: PANW, CRWD, P, RRGB",
+      "link": "https://www.investing.com/news/stock-market-news/afterhours-movers-panw-crwd-p-rrgb-432SI-5037183",
+      "date": "2026-11-18T21:59:02.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
+      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
+      "date": "2026-11-18T21:58:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Surge in software patches likely behind recent tech outages, experts say",
+      "link": "https://www.investing.com/news/stock-market-news/patching-in-the-ai-age-may-underlie-some-of-the-major-tech-outages-experts-say-5036726",
+      "date": "2026-11-18T21:56:30.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stocks slip with eyes on Anthropic and Nvidia, oil prices slide",
+      "link": "https://www.investing.com/news/economy-news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-5034510",
+      "date": "2026-11-18T21:56:12.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Exclusive-Trump administration weighs forcing US firms to disclose Chinese AI use",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivetrump-administration-weighs-forcing-us-firms-to-disclose-chinese-ai-use-5035455",
+      "date": "2026-11-18T21:55:56.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "As Meta bets big on Muse AI agent, early safety mishaps surface",
+      "link": "https://www.investing.com/news/stock-market-news/as-meta-bets-big-on-muse-ai-agent-early-safety-mishaps-surface-5035458",
+      "date": "2026-11-18T21:55:27.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Governments warn Java flaw leaves computer systems open to hackers",
+      "link": "https://www.investing.com/news/stock-market-news/us-south-korea-issue-urgent-advisories-over-flaws-in-java-programming-language-5034710",
+      "date": "2026-11-18T21:55:11.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "3 Energy Stocks With Dividends Built to Last the Next 10 Years",
+      "link": "https://www.fool.com/investing/2026/11/18/3-energy-stocks-with-dividends-built-to-last-the-next-10-years/?.tsrc=rss",
+      "date": "2026-11-18T21:55:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Copper’s plunge could make the AI data-center buildout more painful",
+      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+      "date": "2026-11-18T21:55:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Palo Alto Networks’ stock soars as earnings show AI has upped the stakes for cybersecurity",
+      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "date": "2026-11-18T21:55:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Barbados sets out $160 million health system-focused debt swap",
+      "link": "https://www.investing.com/news/economy-news/barbados-sets-out-160-million-health-systemfocused-debt-swap-5036927",
+      "date": "2026-11-18T21:54:53.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Fed's Kashkari says interest rates can impact tech investment",
+      "link": "https://www.investing.com/news/economy-news/feds-kashkari-says-interest-rates-can-impact-tech-investment-5037179",
+      "date": "2026-11-18T21:53:17.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Cathie Wood Keeps Buying Archer Aviation Stock. Should You?",
+      "link": "https://www.fool.com/investing/2026/11/18/cathie-wood-keeps-buying-archer-aviation-stock-should-you/?.tsrc=rss",
+      "date": "2026-11-18T21:50:02.000Z",
+      "source": "Yahoo Finance"
+    },
     {
       "title": "What StoneX Took From Its Boston Roadshow With Stagwell (STGW)",
       "link": "https://finance.yahoo.com/markets/stocks/articles/stonex-took-boston-roadshow-stagwell-214959678.html?.tsrc=rss",
@@ -107,126 +203,30 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why PhillipCapital Stopped Short of a Buy on Airbnb (ABNB)",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-phillipcapital-stopped-short-buy-214715166.html?.tsrc=rss",
-      "date": "2026-11-18T21:47:15.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Melius Upgraded Ingersoll Rand (IR) After Lagging Quarters. What Changed?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/melius-upgraded-ingersoll-rand-ir-214510841.html?.tsrc=rss",
-      "date": "2026-11-18T21:45:10.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "UBS Dropped Its Sell on Telefonica Brasil (VIV), Here's Why.",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/ubs-dropped-sell-telefonica-brasil-214416188.html?.tsrc=rss",
-      "date": "2026-11-18T21:44:16.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Grand Theft Auto VI draws rave reviews as gamers enter Vice City",
-      "link": "https://www.investing.com/news/stock-market-news/gamers-get-ready-to-enter-vice-city-as-grand-theft-auto-vi-begins-globalrollout-5035485",
-      "date": "2026-11-18T21:43:47.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "5 Stocks Analysts Upgraded On Monday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/5-stocks-analysts-upgraded-monday-214321122.html?.tsrc=rss",
-      "date": "2026-11-18T21:43:21.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
-      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
-      "date": "2026-11-18T21:43:20.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
-      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
-      "date": "2026-11-18T21:43:04.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Client files at KPMG Canada compromised in data breach, The Globe and Mail reports",
-      "link": "https://www.investing.com/news/stock-market-news/client-files-at-kpmg-canada-compromised-in-data-breach-the-globe-and-mail-reports-5037148",
-      "date": "2026-11-18T21:42:51.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
-      "date": "2026-11-18T21:42:35.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why Anthropic says cybersecurity is one of its 'most important' opportunities",
-      "link": "https://finance.yahoo.com/video/why-anthropic-says-cybersecurity-is-one-of-its-most-important-opportunities-214231043.html?.tsrc=rss",
-      "date": "2026-11-18T21:42:31.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Has the stock market’s correction hit bottom yet? Here’s what these contrarian indicators say.",
-      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:42:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Will Apollo's $40 billion for SpaceX to rent GPUs pay off?",
-      "link": "https://finance.yahoo.com/video/will-apollos-40-billion-for-spacex-to-rent-gpus-pay-off-214146452.html?.tsrc=rss",
-      "date": "2026-11-18T21:41:46.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic Is Eyeing Pricing Its IPO As High As $85 Per Share: Report",
-      "link": "https://stocktwits.com/news-articles/markets/equity/anthropic-is-eyeing-pricing-its-ipo-as-high-as-85-per-share-report/cNbghrhR9i5?.tsrc=rss",
-      "date": "2026-11-18T21:40:39.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Helmerich & Payne falls on weaker Middle East outlook",
-      "link": "https://www.investing.com/news/stock-market-news/helmerich--payne-falls-on-weaker-middle-east-outlook-5037144",
-      "date": "2026-11-18T21:38:19.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Are You Considering Buying Anthropic Stock on Day 1? Here's What I'm Doing.",
-      "link": "https://www.fool.com/investing/2026/11/18/considering-buying-anthropic-stock-on-day-1-here-s-what-i-m-doing/?.tsrc=rss",
-      "date": "2026-11-18T21:37:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Circle8 abandons pursuit of UK recruiter SThree",
-      "link": "https://www.investing.com/news/stock-market-news/circle8-abandons-pursuit-of-uk-recruiter-sthree-5036778",
-      "date": "2026-11-18T21:36:52.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "AI agent swarms could turn major outages into identity risks: Anthropic investor",
-      "link": "https://finance.yahoo.com/video/ai-agent-swarms-could-turn-major-outages-into-identity-risks-anthropic-investor-213612726.html?.tsrc=rss",
-      "date": "2026-11-18T21:36:12.000Z",
+      "title": "Dow Drops 561 Points. Nvidia Reverses Rally As Fed Signals More Rate Hikes.",
+      "link": "https://www.ibtimes.com/us-stocks-dow-falls-nvidia-earnings-fed-rate-hikes-3809938?.tsrc=rss",
+      "date": "2026-11-18T21:48:05.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Stock Market Today: Dow Ends In Red On Rate 'Shock' Fears; Nvidia Sinks As Anthropic IPO Looms",
-      "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-ends.html?.tsrc=rss",
-      "date": "2026-11-18T21:48:30.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
-      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
-      "date": "2026-11-18T21:43:04.000Z",
+      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+      "date": "2026-11-18T22:00:40.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Has the stock market’s correction hit bottom yet? Here’s what these contrarian indicators say.",
+      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
       "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:42:00.000Z",
+      "date": "2026-11-18T21:58:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "3 Energy Stocks With Dividends Built to Last the Next 10 Years",
+      "link": "https://www.fool.com/investing/2026/11/18/3-energy-stocks-with-dividends-built-to-last-the-next-10-years/?.tsrc=rss",
+      "date": "2026-11-18T21:55:02.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "yields": {
