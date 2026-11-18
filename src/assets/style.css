@@ -371,6 +371,7 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 
 /* ---- globe: clickable countries, story panel, time slider ---- */
 .globe-col { position: relative; min-width: 0; }
+@media (min-width: 861px) { .globe-col { margin-top: -80px; } } /* sphere sits low in its 520px canvas; centre it on the hero text */
 .globe-label.clickable { pointer-events: auto; cursor: pointer; font: inherit; font-size: .75rem; transition: opacity .3s, border-color .2s, box-shadow .2s; }
 .globe-label.clickable:hover, .globe-label.clickable:focus-visible { border-color: var(--c4); box-shadow: 0 4px 14px color-mix(in srgb, var(--c4) 30%, transparent); outline: none; }
 .hover-tip { z-index: 4; }
