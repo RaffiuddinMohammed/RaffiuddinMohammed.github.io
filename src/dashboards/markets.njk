@@ -1,0 +1,153 @@
+---
+layout: base.njk
+title: Markets today
+permalink: /dashboards/markets/
+description: "A US-led market dashboard: the Magnificent 7 and top US and UK stocks, today's movers, what market news is talking about, Treasury yields and the week's big economic events."
+---
+<div class="page-head">
+  <div class="eyebrow">Dashboard · Markets</div>
+  <h1>Markets today</h1>
+  <p class="lede">The Magnificent 7, the biggest US and UK names and what moved today, alongside {{ markets.headlineCount | num }} market headlines from the last two days and the US Treasury yield curve.</p>
+</div>
+
+<div class="tv-widget tv-tape" data-widget="ticker-tape" data-config-src="tv-tape"><p class="muted">Loading market prices…</p></div>
+
+{# ---------- Prices: TradingView widgets (delayed quotes, licensed for embedding) ---------- #}
+<section>
+  <div class="card">
+    <h2>The Magnificent 7</h2>
+    <p class="muted">Three months of price for each. Pick a tab to switch company.</p>
+    <div class="tv-widget" data-widget="symbol-overview" data-config-src="tv-mag7" data-height="420"></div>
+  </div>
+</section>
+
+<section class="grid two">
+  <div class="card">
+    <h2>Watchlist</h2>
+    <p class="muted">Today's price and change: Magnificent 7, more US leaders and the FTSE 100's biggest names.</p>
+    <div class="tv-widget" data-widget="market-quotes" data-config-src="tv-quotes" data-height="520"></div>
+  </div>
+  <div class="card">
+    <h2>Today's US movers</h2>
+    <p class="muted">Biggest gainers, losers and most active US stocks.</p>
+    <div class="tv-widget" data-widget="hotlists" data-config-src="tv-movers" data-height="520"></div>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h2>The S&amp;P 500 at a glance</h2>
+    <p class="muted">Each block is a company, sized by market value and coloured by today's move. The Magnificent 7 are the biggest blocks.</p>
+    <div class="tv-widget tv-heatmap" data-widget="stock-heatmap" data-config-src="tv-heatmap" data-height="520"></div>
+  </div>
+</section>
+
+{# ---------- News: built here from RSS ---------- #}
+{% set th = { label: 'Market headlines by theme', unit: 'headlines', rows: [] } %}
+{% for t in markets.themes %}{% if t.count %}{% set th = (th.rows.push({ label: t.name, value: t.count }), th) %}{% endif %}{% endfor %}
+{% set m7 = { label: 'Magnificent 7 mentions in market headlines', unit: 'headlines', rows: [] } %}
+{% for t in markets.mag7 %}{% set m7 = (m7.rows.push({ label: t.name, value: t.count }), m7) %}{% endfor %}
+
+<section>
+  <div class="page-head" style="padding-top:16px">
+    <div class="eyebrow">News · last 48 hours</div>
+    <h2 style="font-size:1.6rem">What the market is talking about</h2>
+    <p class="muted">{{ markets.headlineCount | num }} headlines from {% for s in markets.sources %}{{ s.name }}{% if not loop.last %}{{ ' and ' if loop.revindex0 == 1 else ', ' }}{% endif %}{% endfor %}, sorted into themes.</p>
+  </div>
+  <div class="grid two">
+    <div class="card chart-card">
+      <h2>Themes in the headlines</h2>
+      <p class="muted">Headlines mentioning each theme. One headline can count towards several.</p>
+      <div class="chart" data-chart="bar" data-src="themes-data"></div>
+      <details class="table"><summary>View as table</summary><div class="tablewrap"><table>
+        <thead><tr><th>Theme</th><th>Headlines</th></tr></thead>
+        <tbody>{% for t in markets.themes %}<tr><td>{{ t.name }}</td><td>{{ t.count }}</td></tr>{% endfor %}</tbody>
+      </table></div></details>
+    </div>
+    <div class="card chart-card">
+      <h2>Magnificent 7 in the news</h2>
+      <p class="muted">Headlines naming each company, its ticker or its best-known products.</p>
+      <div class="chart" data-chart="bar" data-src="mag7-data"></div>
+      <details class="table"><summary>View as table</summary><div class="tablewrap"><table>
+        <thead><tr><th>Company</th><th>Headlines</th></tr></thead>
+        <tbody>{% for t in markets.mag7 %}<tr><td>{{ t.name }}</td><td>{{ t.count }}</td></tr>{% endfor %}</tbody>
+      </table></div></details>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <h2>Latest market headlines</h2>
+    <ul class="storylist">
+      {% for s in markets.latest %}
+      <li><a href="{{ s.link }}" rel="noopener" target="_blank">{{ s.title }}</a><div class="meta">{{ s.source }} · {{ s.date | ago }}</div></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{# ---------- Rates: US Treasury (public domain) ---------- #}
+{% if markets.yields %}
+{% set y = markets.yields %}
+{% set yc = { label: 'US Treasury yields, last three months', unit: '%', yMin: y.chartFloor or 0, series: [
+  { label: '2-year', slot: 1, points: [] }, { label: '10-year', slot: 2, points: [] }, { label: '30-year', slot: 3, points: [] } ] } %}
+{% for r in y.history %}{% if r.y2 != null and r.y30 != null %}
+  {% set _ = yc.series[0].points.push({ date: r.date, value: r.y2 }) %}{% set _ = yc.series[1].points.push({ date: r.date, value: r.y10 }) %}{% set _ = yc.series[2].points.push({ date: r.date, value: r.y30 }) %}
+{% endif %}{% endfor %}
+<section>
+  <div class="page-head" style="padding-top:16px">
+    <div class="eyebrow">Rates · US Treasury</div>
+    <h2 style="font-size:1.6rem">The price of money</h2>
+    <p class="muted">Treasury yields set the cost of borrowing across the economy. Rising yields usually weigh on share prices, especially tech.</p>
+  </div>
+  <div class="grid three">
+    {% for k in [['y2', '2-year', 1], ['y10', '10-year', 2], ['y30', '30-year', 3]] %}
+    {% set now = y.latest[k[0]] %}{% set was = y.monthAgo[k[0]] %}{% set diff = ((now - was) * 100) | round %}
+    <div class="card stat tint-{{ k[2] }} reveal">
+      <div class="value">{{ now.toFixed(2) }}%</div>
+      <div class="label">{{ k[1] }} yield · {% if diff > 0 %}up {{ diff }}{% elif diff < 0 %}down {{ -diff }}{% else %}unchanged,{% endif %}{% if diff != 0 %} basis points{% endif %} in a month</div>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="card chart-card" style="margin-top:16px">
+    <h2>Yields over three months</h2>
+    <p class="muted">Daily closing yield. Hover for values.</p>
+    <div class="chart" data-chart="line" data-src="yields-data"></div>
+  </div>
+  <p class="muted">Source: <a href="https://home.treasury.gov/resource-center/data-chart-center/interest-rates" rel="noopener">US Department of the Treasury</a>, as of {{ y.latest.date }}.</p>
+</section>
+<script type="application/json" id="yields-data">{{ yc | json | safe }}</script>
+{% endif %}
+
+<section>
+  <div class="card">
+    <h2>Coming up</h2>
+    <p class="muted">The US and UK economic releases and central bank decisions that move markets: rate decisions, inflation and jobs data.</p>
+    <div class="tv-widget" data-widget="events" data-config-src="tv-events" data-height="520"></div>
+  </div>
+  <p class="muted disclaimer"><b>Not financial advice.</b> Prices are delayed and come from <a href="https://www.tradingview.com/" rel="noopener">TradingView</a>; headlines link to their publishers; nothing here is a recommendation to buy or sell. News updated {{ markets.updated | when }}.</p>
+</section>
+
+<script type="application/json" id="themes-data">{{ th | json | safe }}</script>
+<script type="application/json" id="mag7-data">{{ m7 | json | safe }}</script>
+
+{# Widget configs. Symbols use TradingView's names; FOREXCOM/OANDA CFDs stand in for indices, which exchanges don't licence for free embeds. #}
+<script type="application/json" id="tv-tape">{"symbols":[
+  {"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},{"proName":"FOREXCOM:NSXUSD","title":"Nasdaq 100"},{"proName":"FOREXCOM:DJI","title":"Dow Jones"},
+  {"proName":"FOREXCOM:UKXGBP","title":"FTSE 100"},{"proName":"FX:GBPUSD","title":"GBP/USD"},{"proName":"OANDA:XAUUSD","title":"Gold"},
+  {"proName":"TVC:USOIL","title":"US oil"},{"proName":"BITSTAMP:BTCUSD","title":"Bitcoin"}],
+  "showSymbolLogo":true,"displayMode":"adaptive"}</script>
+<script type="application/json" id="tv-mag7">{"symbols":[
+  ["Apple","NASDAQ:AAPL|3M"],["Microsoft","NASDAQ:MSFT|3M"],["Nvidia","NASDAQ:NVDA|3M"],["Alphabet","NASDAQ:GOOGL|3M"],
+  ["Amazon","NASDAQ:AMZN|3M"],["Meta","NASDAQ:META|3M"],["Tesla","NASDAQ:TSLA|3M"]],
+  "chartOnly":false,"chartType":"area","showVolume":false,"hideDateRanges":false,"scalePosition":"right","scaleMode":"Normal",
+  "dateRanges":["1d|1","1m|30","3m|60","12m|1D","60m|1W"]}</script>
+<script type="application/json" id="tv-quotes">{"showSymbolLogo":true,"symbolsGroups":[
+  {"name":"Magnificent 7","symbols":[{"name":"NASDAQ:AAPL","displayName":"Apple"},{"name":"NASDAQ:MSFT","displayName":"Microsoft"},{"name":"NASDAQ:NVDA","displayName":"Nvidia"},{"name":"NASDAQ:GOOGL","displayName":"Alphabet"},{"name":"NASDAQ:AMZN","displayName":"Amazon"},{"name":"NASDAQ:META","displayName":"Meta"},{"name":"NASDAQ:TSLA","displayName":"Tesla"}]},
+  {"name":"US leaders","symbols":[{"name":"NASDAQ:AVGO","displayName":"Broadcom"},{"name":"NYSE:BRK.B","displayName":"Berkshire Hathaway"},{"name":"NYSE:JPM","displayName":"JPMorgan Chase"},{"name":"NYSE:LLY","displayName":"Eli Lilly"},{"name":"NYSE:V","displayName":"Visa"},{"name":"NYSE:WMT","displayName":"Walmart"},{"name":"NYSE:ORCL","displayName":"Oracle"},{"name":"NASDAQ:NFLX","displayName":"Netflix"},{"name":"NYSE:XOM","displayName":"Exxon Mobil"},{"name":"NASDAQ:COST","displayName":"Costco"}]},
+  {"name":"UK leaders","symbols":[{"name":"LSE:AZN","displayName":"AstraZeneca"},{"name":"LSE:SHEL","displayName":"Shell"},{"name":"LSE:HSBA","displayName":"HSBC"},{"name":"LSE:ULVR","displayName":"Unilever"},{"name":"LSE:RR.","displayName":"Rolls-Royce"},{"name":"LSE:BP.","displayName":"BP"}]}]}</script>
+<script type="application/json" id="tv-movers">{"exchange":"US","showChart":true,"showSymbolLogo":true,"showFloatingTooltip":false}</script>
+<script type="application/json" id="tv-heatmap">{"exchanges":[],"dataSource":"SPX500","grouping":"sector","blockSize":"market_cap_basic","blockColor":"change","hasTopBar":false,"isDataSetEnabled":false,"isZoomEnabled":true,"hasSymbolTooltip":true,"isMonoSize":false}</script>
+<script type="application/json" id="tv-events">{"importanceFilter":"0,1","countryFilter":"us,gb"}</script>
+<script src="/assets/markets.js" defer></script>

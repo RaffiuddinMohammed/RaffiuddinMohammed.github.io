@@ -57,15 +57,17 @@
     const dates = [...new Set(data.series.flatMap((s) => s.points.map((p) => p.date)))].sort();
     const t0 = Date.parse(dates[0]), t1 = Date.parse(dates.at(-1));
     const x = (d) => m.l + ((Date.parse(d) - t0) / (t1 - t0)) * iw;
-    const ticks = niceTicks(Math.max(...data.series.flatMap((s) => s.points.map((p) => p.value))));
+    // yMin lifts the floor for series that never go near zero (e.g. bond yields); default stays 0
+    const lo = data.yMin ?? 0;
+    const ticks = niceTicks(Math.max(...data.series.flatMap((s) => s.points.map((p) => p.value))) - lo).map((t) => +(t + lo).toFixed(10));
     const yMax = ticks.at(-1);
-    const y = (v) => m.t + ih - (v / yMax) * ih;
+    const y = (v) => m.t + ih - ((v - lo) / (yMax - lo)) * ih;
     const fmt = (v) => v.toFixed(yMax < 2 ? 2 : 1) + (data.unit ?? '');
 
     const svg = el('svg', { viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': data.label ?? 'Line chart' });
     const g = el('g', { class: 'axis' }, svg);
     for (const v of ticks) {
-      el('line', { class: v === 0 ? 'baseline' : 'gridline', x1: m.l, x2: m.l + iw, y1: y(v), y2: y(v) }, g);
+      el('line', { class: v === lo ? 'baseline' : 'gridline', x1: m.l, x2: m.l + iw, y1: y(v), y2: y(v) }, g);
       text(g, v + (data.unit ?? ''), { x: m.l - 8, y: y(v) + 4, 'text-anchor': 'end' });
     }
     const start = new Date(t0);

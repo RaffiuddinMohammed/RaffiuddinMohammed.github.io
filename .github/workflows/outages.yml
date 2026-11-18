@@ -52,6 +52,10 @@ jobs:
             sleep 5
           done
           echo "::warning::Could not save outages.json back to the repo; the site still deploys with it"
+      # After the save step on purpose: an uncommitted markets.json would make its `git pull --rebase` fail.
+      # Not committed here (the daily refresh commits it); this run only builds with fresh headlines.
+      - name: Refresh market headlines and yields
+        run: ONLY=markets node scripts/fetch-data.mjs || true
       - name: Build site
         run: npm run build
         env:

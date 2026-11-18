@@ -97,6 +97,12 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
       <p class="muted">The most upvoted stories on the Hacker News front page right now.</p>
       <span class="go">Open dashboard →</span>
     </a>
+    <a class="card dash tint-2 reveal" href="/dashboards/markets/">
+      <span class="icon" aria-hidden="true">📈</span>
+      <h3>Markets today</h3>
+      <p class="muted">The Magnificent 7 and top US and UK stocks, today's movers, Treasury yields and what market news is talking about.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
     {% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
     <a class="card dash tint-4 reveal" href="/dashboards/outages/">
       <span class="icon" aria-hidden="true">🚨</span>

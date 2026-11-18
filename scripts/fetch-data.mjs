@@ -227,6 +227,97 @@ async function archive() {
   return { days };
 }
 
+// ---------- 6. Markets: finance headlines, themes and US Treasury yields ----------
+// Prices are NOT fetched here: free price APIs only licence personal use, so the page shows prices through
+// TradingView's embeddable widgets instead. Headlines come from RSS (link-out, like the BBC page).
+const MARKET_FEEDS = [
+  ['CNBC', 'https://www.cnbc.com/id/15839069/device/rss/rss.html'],  // Investing
+  ['CNBC', 'https://www.cnbc.com/id/10000664/device/rss/rss.html'],  // Finance
+  ['CNBC', 'https://www.cnbc.com/id/20910258/device/rss/rss.html'],  // Economy
+  ['Yahoo Finance', 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EGSPC,AAPL,MSFT,NVDA,GOOGL,AMZN,META,TSLA&region=US&lang=en-US'],
+  ['Yahoo Finance', 'https://feeds.finance.yahoo.com/rss/2.0/headline?s=%5EFTSE&region=GB&lang=en-GB'],
+  ['MarketWatch', 'https://feeds.content.dowjones.io/public/rss/mw_topstories'],
+  ['Investing.com', 'https://www.investing.com/rss/news_25.rss'],    // Stock market
+  ['Investing.com', 'https://www.investing.com/rss/news_14.rss'],    // Economy
+];
+// Each theme counts the headlines that match any of its patterns
+const THEMES = [
+  ['AI and chips', /\bA\.?I\b|artificial intelligence|\bchips?\b|semiconductor|data cent(?:er|re)s?|OpenAI|Anthropic/i],
+  ['Interest rates', /\brates?\b|rate cut|rate hike|\bFed\b|Federal Reserve|Powell|Bank of England|\bBoE\b|\bECB\b|bond yields?|Treasur(?:y|ies)/i],
+  ['Inflation', /inflation|\bCPI\b|\bPCE\b|consumer prices|price pressures/i],
+  ['Earnings', /earnings|quarterly|\bresults\b|revenue|profit|guidance|\bEPS\b/i],
+  ['Trade and tariffs', /tariffs?|trade (?:war|deal|talks)|export (?:controls|curbs|rules)|sanctions/i],
+  ['Jobs', /\bjobs?\b|payrolls|unemployment|jobless|labou?r market|layoffs/i],
+  ['Oil and energy', /\boil\b|crude|\bOPEC\b|\bgas prices\b|diesel|energy prices|Brent/i],
+  ['Crypto', /bitcoin|crypto|ether(?:eum)?\b|stablecoin|\bBTC\b/i],
+  ['Housing', /housing|mortgage|home sales|house prices|real estate/i],
+];
+const MAG7 = [
+  ['Apple', /\bApple\b|\bAAPL\b|iPhone/], ['Microsoft', /Microsoft|\bMSFT\b|Azure/], ['Nvidia', /Nvidia|\bNVDA\b|Jensen Huang/i],
+  ['Alphabet', /Alphabet|Google|\bGOOGL?\b|YouTube|Waymo/], ['Amazon', /Amazon|\bAMZN\b|\bAWS\b/], ['Meta', /\bMeta\b|Facebook|Instagram|WhatsApp|Zuckerberg|\bMETA\b/],
+  ['Tesla', /Tesla|\bTSLA\b/],
+];
+const decode = (s) => strip(s).replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+  .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d)).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&apos;/g, "'");
+// RSS dates: RFC 822 everywhere except Investing.com, which sends "2026-11-18 12:48:26" (UTC)
+const rssDate = (s) => { const d = new Date(/^\d{4}-\d\d-\d\d \d/.test(s) ? s.replace(' ', 'T') + 'Z' : s); return isNaN(d) ? null : d.toISOString(); };
+
+async function treasuryYields() {
+  const year = new Date().getUTCFullYear();
+  const rows = [];
+  for (const y of [year - 1, year]) {
+    const csv = await get(`https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/${y}/all?type=daily_treasury_yield_curve&field_tdr_date_value=${y}&page&_format=csv`, 'text');
+    const [head, ...lines] = csv.trim().split('\n');
+    const cols = head.split(',').map((c) => c.replace(/"/g, ''));
+    for (const line of lines) {
+      const v = line.split(','), [mm, dd, yyyy] = v[0].split('/');
+      const pick = (name) => { const n = parseFloat(v[cols.indexOf(name)]); return Number.isFinite(n) ? n : null; };
+      rows.push({ date: `${yyyy}-${mm}-${dd}`, y3m: pick('3 Mo'), y2: pick('2 Yr'), y10: pick('10 Yr'), y30: pick('30 Yr') });
+    }
+  }
+  rows.sort((a, b) => a.date.localeCompare(b.date));
+  const recent = rows.filter((r) => Date.parse(r.date) >= Date.now() - 92 * 864e5 && r.y10 != null);
+  if (recent.length < 20) throw new Error(`only ${recent.length} Treasury rows`);
+  const latest = recent.at(-1), monthAgo = recent.find((r) => Date.parse(r.date) >= Date.parse(latest.date) - 30 * 864e5);
+  // Chart floor: a whole percent at least half a point under the lowest 2/10/30-year yield, so the lines aren't squashed flat
+  const low = Math.min(...recent.flatMap((r) => [r.y2, r.y10, r.y30]).filter((v) => v != null));
+  return { latest, monthAgo, chartFloor: Math.max(0, Math.floor(low - 0.5)), history: recent };
+}
+
+async function markets() {
+  const seen = new Map();
+  const failed = [];
+  for (const [source, url] of MARKET_FEEDS) {
+    let xml;
+    try { xml = await get(url, 'text', 2, 30); } catch { failed.push(source); continue; }
+    for (const [, it] of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
+      const title = decode(it.match(/<title>([\s\S]*?)<\/title>/)?.[1] ?? '');
+      const link = decode(it.match(/<link>([\s\S]*?)<\/link>/)?.[1] ?? '');
+      const date = rssDate(decode(it.match(/<pubDate>([\s\S]*?)<\/pubDate>/)?.[1] ?? ''));
+      const key = title.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+      if (!title || !link || !date || seen.has(key)) continue;
+      seen.set(key, { title, link, date, source });
+    }
+  }
+  // Two days is the busiest window every feed still covers; older items are stale feed tails
+  const all = [...seen.values()].filter((h) => Date.now() - Date.parse(h.date) < 2 * 864e5)
+    .sort((a, b) => b.date.localeCompare(a.date));
+  if (all.length < 30) throw new Error(`only ${all.length} market headlines (failed: ${failed.join(', ') || 'none'})`);
+  const count = (list) => list.map(([name, re]) => ({ name, count: all.filter((h) => re.test(h.title)).length }))
+    .sort((a, b) => b.count - a.count);
+  const sources = [...new Set(MARKET_FEEDS.map(([s]) => s))].map((name) => ({ name, count: all.filter((h) => h.source === name).length }));
+  let yields = null;
+  try { yields = await treasuryYields(); } catch (e) {
+    console.warn(`  Treasury yields: ${e.message} — keeping previous`);
+    try { yields = JSON.parse(await readFile(new URL('markets.json', DATA))).yields ?? null; } catch {}
+  }
+  return {
+    headlineCount: all.length, sources, themes: count(THEMES), mag7: count(MAG7),
+    latest: all.slice(0, 20), yields,
+  };
+}
+
+await save('markets', markets);
 await save('bbc', bbc);
 await save('hn', hn);
 await save('gdelt', gdelt);
