@@ -1,43 +1,43 @@
 {
-  "updated": "2026-11-18T20:40:04.945Z",
+  "updated": "2026-11-18T20:45:33.726Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 740,
-      "comments": 309,
+      "points": 743,
+      "comments": 311,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 470,
-      "comments": 157,
+      "points": 473,
+      "comments": 159,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 378,
-      "comments": 139,
+      "points": 383,
+      "comments": 140,
       "domain": "inside-db.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 319,
-      "comments": 205,
+      "points": 321,
+      "comments": 208,
       "domain": "microsoft.ai"
     },
     {
       "title": "Energy-Based Reasoners: 385x more efficient inference",
       "url": "https://energy-based-reasoners.github.io/",
       "discuss": "https://news.ycombinator.com/item?id=50543989",
-      "points": 278,
+      "points": 279,
       "comments": 44,
       "domain": "energy-based-reasoners.github.io"
     },
@@ -53,8 +53,8 @@
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 180,
-      "comments": 92,
+      "points": 182,
+      "comments": 94,
       "domain": "europeanbusinessmagazine.com"
     },
     {
@@ -62,24 +62,24 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
       "discuss": "https://news.ycombinator.com/item?id=50548004",
       "points": 143,
-      "comments": 92,
+      "comments": 94,
       "domain": "cve.org"
     },
     {
       "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
       "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
       "discuss": "https://news.ycombinator.com/item?id=50547583",
-      "points": 117,
+      "points": 119,
       "comments": 76,
       "domain": "sam.gov"
     },
     {
-      "title": "The x86 CPU: From 4004 to 486",
-      "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
-      "discuss": "https://news.ycombinator.com/item?id=50546967",
-      "points": 108,
-      "comments": 26,
-      "domain": "pikuma.com"
+      "title": "Show HN: Type Fighter 2",
+      "url": "https://typefighter2.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50544821",
+      "points": 109,
+      "comments": 50,
+      "domain": "typefighter2.com"
     }
   ],
   "totalPoints": null,

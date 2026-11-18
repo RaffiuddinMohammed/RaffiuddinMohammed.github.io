@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:40:02.780Z",
+  "updated": "2026-11-18T20:45:31.924Z",
   "headlineCount": 85,
   "sources": [
     {
@@ -21,12 +21,12 @@
   ],
   "themes": [
     {
-      "name": "Interest rates",
+      "name": "AI and chips",
       "count": 14
     },
     {
-      "name": "AI and chips",
-      "count": 13
+      "name": "Interest rates",
+      "count": 14
     },
     {
       "name": "Earnings",
@@ -60,11 +60,11 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Alphabet",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Apple",
@@ -88,6 +88,12 @@
     }
   ],
   "latest": [
+    {
+      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
+      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
+      "date": "2026-11-18T20:39:00.000Z",
+      "source": "MarketWatch"
+    },
     {
       "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
       "link": "https://finance.yahoo.com/video/coinbase-ai-blocks-4-7-203000913.html?.tsrc=rss",
@@ -116,6 +122,12 @@
       "title": "Alphabet is Buying Around $10 Billion More Anthropic Shares on Day 1. Should You Follow?",
       "link": "https://www.fool.com/investing/2026/11/18/alphabet-is-buying-around-usd10-billion-more-anthropic-shares-on-day-1-should-you-follow/?.tsrc=rss",
       "date": "2026-11-18T20:25:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Should You Sell Your Archer Aviation Stock As Boeing Comes Aboard?",
+      "link": "https://www.trefis.com/stock/achr/articles/626170/should-you-sell-your-archer-aviation-stock-as-boeing-comes-aboard/2026-11-18?.tsrc=rss",
+      "date": "2026-11-18T20:21:42.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -195,21 +207,15 @@
       "link": "https://247wallst.com/investing/2026/11/18/nvidia-is-near-its-52-week-low-will-nvda-stock-hit-100-or-200-first/?.tsrc=rss",
       "date": "2026-11-18T20:03:09.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Bessent Wants an Outside CEO. Brad Gerstner Says Nvidia Should Wait on Jensen Huang",
-      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63409363/nvidia-ceo-search?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-      "date": "2026-11-18T20:00:07.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
-      "link": "https://www.wsj.com/finance/commodities-futures/stock-futures-rally-as-nvidia-earnings-calm-ai-trade-fears-96f51546?.tsrc=rss",
-      "date": "2026-11-18T19:59:00.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "featured": [
+    {
+      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
+      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
+      "date": "2026-11-18T20:39:00.000Z",
+      "source": "MarketWatch"
+    },
     {
       "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
       "link": "https://finance.yahoo.com/video/coinbase-ai-blocks-4-7-203000913.html?.tsrc=rss",
@@ -221,12 +227,6 @@
       "link": "https://www.investing.com/news/stock-market-news/wall-street-prepares-for-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-5035325",
       "date": "2026-11-18T20:18:38.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "date": "2026-11-18T19:41:59.000Z",
-      "source": "CNBC"
     }
   ],
   "yields": {

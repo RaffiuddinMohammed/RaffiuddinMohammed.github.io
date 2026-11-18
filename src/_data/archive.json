@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T20:44:58.896Z",
+  "updated": "2026-11-18T20:49:49.373Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3634,17 +3634,17 @@
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 740
+          "points": 743
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 470
+          "points": 473
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 378
+          "points": 383
         }
       ]
     }
