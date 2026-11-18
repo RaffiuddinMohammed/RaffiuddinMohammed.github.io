@@ -47,7 +47,8 @@ body {
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
-.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 16px; }
+@media (min-width: 900px) { .wrap { padding: 0 32px; } }
 h1, h2, h3 { line-height: 1.2; margin: 0 0 .5em; }
 h1 { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: clamp(2rem, 5vw, 3.2rem); letter-spacing: -.01em; }
 h2 { font-size: 1.35rem; }
@@ -666,7 +667,7 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .hero-pair .dm-copy h2, .hero-globe h2 { font-family: Fraunces, Georgia, serif; font-size: clamp(1.25rem, 2.2vw, 1.6rem); margin: 6px 0 6px; }
 .hero-pair .dm-copy .actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .hero-globe { display: flex; flex-direction: column; background: linear-gradient(160deg, color-mix(in srgb, var(--c4) 9%, var(--surface)), var(--surface) 60%); }
-.hero-globe .globe { height: 400px; margin-top: -64px; }
+.hero-globe .globe { height: 420px; margin-top: 0; }
 .hero-globe .globe-key { margin-top: 0; }
 .hero-globe .go-link { margin-top: auto; padding-top: 12px; font-weight: 600; font-size: .9rem; }
 @media (max-width: 1100px) { .hero-pair { grid-template-columns: 1fr; } }
