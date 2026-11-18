@@ -710,3 +710,15 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .hero-globe .globe-key { font-size: .72rem; gap: 4px 10px; }
 @media (max-width: 1100px) { .hero-pair { grid-template-columns: 1fr; } }
 @media (max-width: 860px) { .hero-pair .dm-phone { width: calc(272px * .78); height: calc(560px * .78); } .hero-pair .dm-phone .phone { transform: scale(.78); } .hero-globe .globe { height: 320px; } }
+
+/* outage chip + RSS back in the news bars (v2.1) */
+.outage-chip { flex: none; display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: .72rem; letter-spacing: .03em;
+  padding: 3px 10px; border-radius: 999px; color: var(--text); border: 1px solid color-mix(in srgb, var(--lvl) 60%, transparent);
+  background: color-mix(in srgb, var(--lvl) 16%, transparent); }
+.outage-chip:hover { text-decoration: none; background: color-mix(in srgb, var(--lvl) 28%, transparent); }
+.outage-chip.lvl-ok { --lvl: var(--ok); } .outage-chip.lvl-minor { --lvl: var(--minor); } .outage-chip.lvl-major { --lvl: var(--major); }
+.outage-chip .st-dot { width: 7px; height: 7px; background: var(--lvl); }
+.outage-chip.lvl-major .st-dot, .outage-chip.lvl-minor .st-dot { animation: blink 1.2s steps(2, start) infinite; }
+.oc-short { display: none; }
+@media (max-width: 560px) { .oc-long { display: none; } .oc-short { display: inline; } .flash-rss { padding: 4px 6px; } }
+@media (prefers-reduced-motion: reduce) { .outage-chip .st-dot { animation: none !important; } }

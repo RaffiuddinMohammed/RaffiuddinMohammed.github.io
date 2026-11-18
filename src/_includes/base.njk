@@ -76,6 +76,7 @@
         </div></div>
       </div>
       <a class="flash-go" href="#market-headlines">Market headlines →</a>
+      {% include "outage-chip.njk" %}
       </div>
     </div>
     {% elif flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
@@ -93,6 +94,7 @@
         </div></div>
       </div>
       <a class="flash-go" href="/dashboards/headlines/">Headlines →</a>
+      {% include "outage-chip.njk" %}
       </div>
     </div>
     {% endif %}
