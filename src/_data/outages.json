@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T14:21:30.234Z",
+  "checked": "2026-11-18T19:38:03.635Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,13 +16,13 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "R2 Downloads Stalling in Japan",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
       "name": "OpenAI",
-      "level": "minor",
-      "note": "Costs API data is delayed",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://status.openai.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "R2 Downloads Stalling in Japan",
       "impact": "minor",
       "start": "2026-11-18T13:45:19.653Z",
-      "end": null,
+      "end": "2026-11-18T15:03:07.334Z",
       "url": "https://www.cloudflarestatus.com/incidents/2wjvsj2kqt07"
     },
     {
@@ -180,7 +180,7 @@
       "title": "Costs API data is delayed",
       "impact": "minor",
       "start": "2026-11-17T17:46:15Z",
-      "end": null,
+      "end": "2026-11-18T17:15:46Z",
       "url": "https://status.openai.com"
     },
     {
@@ -1015,14 +1015,6 @@
       "start": "2026-10-20T06:00:00+00:00",
       "end": "2026-10-20T12:08:00+00:00",
       "url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj"
-    },
-    {
-      "service": "GitHub",
-      "title": "Degraded availability for GitHub Actions, GitHub Pages and Webhooks",
-      "impact": "major",
-      "start": "2026-10-19T15:49:25.828Z",
-      "end": "2026-10-19T16:56:58.390Z",
-      "url": "https://stspg.io/nrv2k8s68bwn"
     }
   ],
   "tracked": [
