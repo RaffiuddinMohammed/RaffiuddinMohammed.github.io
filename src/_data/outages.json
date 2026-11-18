@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T23:43:10.603Z",
+  "checked": "2026-11-18T23:47:57.660Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Elevated R2 and D1 error rates in EU and Asia Pacific region",
+      "note": "Degraded connectivity between Europe and Asia Pacific",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -89,7 +89,7 @@
   "incidents": [
     {
       "service": "Cloudflare",
-      "title": "Elevated R2 and D1 error rates in EU and Asia Pacific region",
+      "title": "Degraded connectivity between Europe and Asia Pacific",
       "impact": "minor",
       "start": "2026-11-18T22:26:41.943Z",
       "end": null,

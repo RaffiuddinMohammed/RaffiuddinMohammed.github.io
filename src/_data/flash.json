@@ -1,15 +1,15 @@
 {
-  "updated": "2026-11-18T23:43:10.929Z",
+  "updated": "2026-11-18T23:47:58.129Z",
   "breaking": [
+    {
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-18T23:44:27.000Z"
+    },
     {
       "title": "Seven Anthropic founders who are about to become multi-billionaires",
       "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
       "date": "2026-11-18T23:42:07.000Z"
-    },
-    {
-      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
-      "date": "2026-11-18T23:36:04.000Z"
     },
     {
       "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
@@ -47,27 +47,22 @@
       "title": "Hundreds could be hit by chemotherapy scandal, trust says",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo",
       "date": "2026-11-18T20:09:06.000Z"
-    },
-    {
-      "title": "William and Kate meet PM Modi as they wrap up India tour",
-      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o",
-      "date": "2026-11-18T20:07:08.000Z"
     }
   ],
   "business": [
     {
       "source": "BBC Business",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
-      "date": "2026-11-18T23:42:07.000Z",
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-18T23:44:27.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
-      "date": "2026-11-18T23:24:29.000Z",
-      "breaking": false
+      "title": "Exclusive-UniCredit and Germany reach broad agreement on Commerzbank takeover",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-and-germany-reach-broad-agreement-on-commerzbank-takeover-5037328",
+      "date": "2026-11-18T23:42:22.000Z",
+      "breaking": true
     },
     {
       "source": "MarketWatch",
@@ -92,16 +87,16 @@
     },
     {
       "source": "BBC Business",
-      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
-      "date": "2026-11-18T23:36:04.000Z",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
+      "date": "2026-11-18T23:42:07.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Exclusive-UniCredit and Germany reach broad agreement on Commerzbank takeover",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-and-germany-reach-broad-agreement-on-commerzbank-takeover-5037328",
-      "date": "2026-11-18T23:12:38.000Z",
+      "title": "Exclusive-Anthropic clinches biggest-ever IPO with $81 billion offering",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-clinches-biggestever-ipo-with-81-billion-offering-5037350",
+      "date": "2026-11-18T23:25:30.000Z",
       "breaking": false
     },
     {
@@ -127,9 +122,9 @@
     },
     {
       "source": "Investing.com",
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
-      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
-      "date": "2026-11-18T23:12:24.000Z",
+      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
+      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
+      "date": "2026-11-18T23:24:29.000Z",
       "breaking": false
     },
     {
@@ -175,6 +170,13 @@
       "title": "Pentagon chief walks out of Nato talks after admonishing Ukraine",
       "link": "https://www.telegraph.co.uk/world-news/2026/11/18/pentagon-chief-walks-out-of-nato-talks-admonishing-ukraine/",
       "source": "The Telegraph"
+    },
+    {
+      "term": "Immigration",
+      "traffic": "200+",
+      "title": "Ex-Tory MPs barred from shaping Reform UK’s immigration policy, says Zia Yusuf",
+      "link": "https://www.theguardian.com/politics/2026/nov/18/ex-tory-defectors-barred-from-shaping-reform-uks-immigration-policy-says-yusuf",
+      "source": "The Guardian"
     }
   ]
 }

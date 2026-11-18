@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:34:28.426Z",
-  "totalStories": 254,
+  "updated": "2026-11-18T23:43:40.790Z",
+  "totalStories": 252,
   "sections": [
     {
       "name": "World",
@@ -12,19 +12,19 @@
     },
     {
       "name": "Business",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Science",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Politics",
-      "count": 12
+      "count": 11
     },
     {
       "name": "Technology",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Health",
@@ -33,19 +33,15 @@
   ],
   "topWords": [
     {
+      "word": "tech",
+      "count": 13
+    },
+    {
       "word": "burnham",
       "count": 13
     },
     {
-      "word": "tech",
-      "count": 12
-    },
-    {
       "word": "government",
-      "count": 9
-    },
-    {
-      "word": "health",
       "count": 8
     },
     {
@@ -58,6 +54,10 @@
     },
     {
       "word": "labour",
+      "count": 7
+    },
+    {
+      "word": "health",
       "count": 7
     },
     {
@@ -88,7 +88,6 @@
       "lon": -2,
       "count": 26,
       "bySection": {
-        "Business": 4,
         "UK": 3,
         "Business": 4,
         "Politics": 14,
@@ -151,15 +150,21 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 15,
+      "count": 16,
       "bySection": {
-        "World": 9,
+        "World": 10,
         "Business": 3,
         "Technology": 1,
         "Health": 1,
         "Politics": 1
       },
       "stories": [
+        {
+          "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
+          "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T23:28:03.000Z"
+        },
         {
           "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
           "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
@@ -201,12 +206,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-18T03:07:22.000Z"
-        },
-        {
-          "title": "Irishman charged with destroying US military aircraft with axe",
-          "link": "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T02:00:37.000Z"
         }
       ]
     },
@@ -219,6 +218,12 @@
         "World": 4
       },
       "stories": [
+        {
+          "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
+          "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T23:28:03.000Z"
+        },
         {
           "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
           "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
@@ -236,48 +241,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-17T21:24:35.000Z"
-        },
-        {
-          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-          "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T17:19:57.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Israel",
-      "lat": 31,
-      "lon": 35,
-      "count": 4,
-      "bySection": {
-        "World": 2,
-        "Politics": 2
-      },
-      "stories": [
-        {
-          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-          "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T22:34:56.000Z"
-        },
-        {
-          "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-          "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T20:30:20.000Z"
-        },
-        {
-          "title": "UK sanctions firms over Israeli West Bank settlements",
-          "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-17T18:27:27.000Z"
-        },
-        {
-          "title": "Wilson apologises for not declaring Israel debate interest",
-          "link": "https://www.bbc.co.uk/news/articles/c68j49r4r10go?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-16T21:25:48.000Z"
         }
       ]
     },
@@ -324,10 +287,16 @@
       "lon": 90,
       "count": 3,
       "bySection": {
-        "UK": 1,
-        "World": 2
+        "World": 2,
+        "UK": 1
       },
       "stories": [
+        {
+          "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
+          "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T23:28:03.000Z"
+        },
         {
           "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
           "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
@@ -339,23 +308,17 @@
           "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-18T17:00:40.000Z"
-        },
-        {
-          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-          "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T17:19:57.000Z"
         }
       ]
     },
     {
-      "name": "Gaza",
-      "lat": 31.4,
-      "lon": 34.4,
+      "name": "Israel",
+      "lat": 31,
+      "lon": 35,
       "count": 3,
       "bySection": {
-        "World": 2,
-        "Politics": 1
+        "World": 1,
+        "Politics": 2
       },
       "stories": [
         {
@@ -365,10 +328,34 @@
           "date": "2026-11-18T22:34:56.000Z"
         },
         {
-          "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-          "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-17T18:27:27.000Z"
+        },
+        {
+          "title": "Wilson apologises for not declaring Israel debate interest",
+          "link": "https://www.bbc.co.uk/news/articles/c68j49r4r10go?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-16T21:25:48.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Gaza",
+      "lat": 31.4,
+      "lon": 34.4,
+      "count": 2,
+      "bySection": {
+        "World": 1,
+        "Politics": 1
+      },
+      "stories": [
+        {
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-17T20:30:20.000Z"
+          "date": "2026-11-18T22:34:56.000Z"
         },
         {
           "title": "UK sanctions firms over Israeli West Bank settlements",
@@ -466,23 +453,6 @@
       ]
     },
     {
-      "name": "Spain",
-      "lat": 40,
-      "lon": -4,
-      "count": 1,
-      "bySection": {
-        "World": 1
-      },
-      "stories": [
-        {
-          "title": "Who to watch in Spain's election race",
-          "link": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T11:44:25.000Z"
-        }
-      ]
-    },
-    {
       "name": "Turkey",
       "lat": 39,
       "lon": 35,
@@ -566,31 +536,32 @@
           "date": "2026-11-18T07:48:18.000Z"
         }
       ]
-    },
-    {
-      "name": "New Zealand",
-      "lat": -41,
-      "lon": 174,
-      "count": 1,
-      "bySection": {
-        "Technology": 1
-      },
-      "stories": [
-        {
-          "title": "Pretending to be in New Zealand, booking leave and buying consoles - the lengths fans are going to for GTA 6",
-          "link": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo?at_medium=RSS&at_campaign=rss",
-          "section": "Technology",
-          "date": "2026-11-17T11:49:01.000Z"
-        }
-      ]
     }
   ],
   "latest": [
+    {
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T23:42:07.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T23:36:04.000Z",
+      "section": "World"
+    },
     {
       "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T23:29:14.000Z",
       "section": "UK"
+    },
+    {
+      "title": "Russian man accused of spying on US tech defence company that assists Ukraine",
+      "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T23:28:03.000Z",
+      "section": "World"
     },
     {
       "title": "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
@@ -620,7 +591,7 @@
       "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
       "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T21:28:08.000Z",
-      "section": "Business"
+      "section": "World"
     },
     {
       "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
@@ -639,24 +610,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T20:55:15.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Torrential rain causes widespread flooding in South Florida",
-      "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:29:18.000Z",
-      "section": "Science"
-    },
-    {
-      "title": "Hundreds could be hit by chemotherapy scandal, trust says",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:09:06.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "William and Kate meet PM Modi as they wrap up India tour",
-      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:07:08.000Z",
-      "section": "World"
     }
   ]
 }
