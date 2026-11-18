@@ -1,14 +1,10 @@
 {
-  "updated": "2026-11-18T23:14:46.010Z",
-  "totalStories": 253,
+  "updated": "2026-11-18T23:25:38.603Z",
+  "totalStories": 254,
   "sections": [
     {
       "name": "World",
-      "count": 28
-    },
-    {
-      "name": "UK",
-      "count": 27
+      "count": 29
     },
     {
       "name": "UK",
@@ -16,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Science",
@@ -46,7 +42,7 @@
     },
     {
       "word": "government",
-      "count": 8
+      "count": 9
     },
     {
       "word": "health",
@@ -90,16 +86,22 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 25,
+      "count": 26,
       "bySection": {
+        "Business": 4,
         "UK": 3,
-        "Business": 3,
         "Politics": 14,
         "World": 2,
         "Health": 2,
         "Science": 1
       },
       "stories": [
+        {
+          "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+          "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-18T23:01:09.000Z"
+        },
         {
           "title": "UK government asks for Russell Brand's YouTube account to be removed",
           "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
@@ -141,12 +143,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-18T00:39:06.000Z"
-        },
-        {
-          "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
-          "link": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T22:46:30.000Z"
         }
       ]
     },
@@ -157,7 +153,8 @@
       "count": 15,
       "bySection": {
         "World": 9,
-        "Business": 4,
+        "Business": 3,
+        "Technology": 1,
         "Health": 1,
         "Politics": 1
       },
@@ -290,7 +287,8 @@
       "count": 4,
       "bySection": {
         "World": 1,
-        "Business": 3
+        "Business": 2,
+        "Technology": 1
       },
       "stories": [
         {
@@ -308,7 +306,7 @@
         {
           "title": "How new US chip restrictions on South East Asia will hit China",
           "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
+          "section": "Technology",
           "date": "2026-11-17T14:25:45.000Z"
         },
         {
@@ -594,9 +592,21 @@
       "section": "World"
     },
     {
+      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T23:01:09.000Z",
+      "section": "Business"
+    },
+    {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T22:34:56.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
+      "link": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T22:32:47.000Z",
       "section": "World"
     },
     {
@@ -646,18 +656,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T20:07:08.000Z",
       "section": "World"
-    },
-    {
-      "title": "How high is UK inflation and how will you be affected?",
-      "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T19:37:27.000Z",
-      "section": "Business"
-    },
-    {
-      "title": "Raise The Colours member guilty of dancefloor murder",
-      "link": "https://www.bbc.co.uk/news/articles/cmd71dz58dnvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T19:15:27.000Z",
-      "section": "UK"
     }
   ]
 }

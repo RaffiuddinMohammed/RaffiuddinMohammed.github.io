@@ -1,52 +1,52 @@
 {
-  "updated": "2026-11-18T23:14:46.274Z",
+  "updated": "2026-11-18T23:25:38.983Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 1001,
-      "comments": 462,
+      "points": 1010,
+      "comments": 465,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 551,
-      "comments": 201,
+      "points": 553,
+      "comments": 204,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 501,
-      "comments": 180,
+      "points": 503,
+      "comments": 181,
       "domain": "inside-db.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 392,
-      "comments": 270,
+      "points": 394,
+      "comments": 273,
       "domain": "microsoft.ai"
     },
     {
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 301,
-      "comments": 136,
+      "points": 304,
+      "comments": 140,
       "domain": "europeanbusinessmagazine.com"
     },
     {
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "discuss": "https://news.ycombinator.com/item?id=50552424",
-      "points": 293,
-      "comments": 277,
+      "points": 297,
+      "comments": 287,
       "domain": "blog.google"
     },
     {
@@ -54,16 +54,24 @@
       "url": "https://energy-based-reasoners.github.io/",
       "discuss": "https://news.ycombinator.com/item?id=50543989",
       "points": 293,
-      "comments": 49,
+      "comments": 50,
       "domain": "energy-based-reasoners.github.io"
     },
     {
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 220,
+      "points": 221,
       "comments": 164,
       "domain": "cam.ac.uk"
+    },
+    {
+      "title": "Genie 4 is now available",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "discuss": "https://news.ycombinator.com/item?id=50550415",
+      "points": 165,
+      "comments": 138,
+      "domain": "blog.google"
     },
     {
       "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
@@ -72,16 +80,8 @@
       "points": 164,
       "comments": 113,
       "domain": "cve.org"
-    },
-    {
-      "title": "Genie 4 is now available",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
-      "discuss": "https://news.ycombinator.com/item?id=50550415",
-      "points": 163,
-      "comments": 137,
-      "domain": "blog.google"
     }
   ],
-  "totalPoints": 5211,
+  "totalPoints": null,
   "storyCount": 30
 }

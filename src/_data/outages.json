@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T23:18:41.235Z",
+  "checked": "2026-11-18T23:33:52.928Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -108,7 +108,7 @@
       "title": "Increased latency on Analytics API (GraphQL) queries",
       "impact": "minor",
       "start": "2026-11-18T20:35:12.303Z",
-      "end": null,
+      "end": "2026-11-18T23:22:32.893Z",
       "url": "https://www.cloudflarestatus.com/incidents/9zpa7own49hb"
     },
     {

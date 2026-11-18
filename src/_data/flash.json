@@ -1,6 +1,11 @@
 {
-  "updated": "2026-11-18T23:18:41.608Z",
+  "updated": "2026-11-18T23:33:53.363Z",
   "breaking": [
+    {
+      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
+      "date": "2026-11-18T23:29:14.000Z"
+    },
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
       "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
@@ -12,11 +17,6 @@
       "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
       "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
       "date": "2026-11-18T21:28:08.000Z"
-    },
-    {
-      "title": "UK government asks for Russell Brand's YouTube account to be removed",
-      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
-      "date": "2026-11-18T21:17:50.000Z"
     },
     {
       "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
@@ -37,21 +37,33 @@
       "title": "Hundreds could be hit by chemotherapy scandal, trust says",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo",
       "date": "2026-11-18T20:09:06.000Z"
+    },
+    {
+      "title": "William and Kate meet PM Modi as they wrap up India tour",
+      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o",
+      "date": "2026-11-18T20:07:08.000Z"
     }
   ],
   "business": [
+    {
+      "source": "Investing.com",
+      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
+      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
+      "date": "2026-11-18T23:24:29.000Z",
+      "breaking": true
+    },
     {
       "source": "MarketWatch",
       "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
       "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
       "date": "2026-11-18T23:12:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "How the Anthropic IPO stacks up against SpaceX",
-      "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
-      "date": "2026-11-18T22:54:40.000Z",
+      "source": "BBC Business",
+      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo",
+      "date": "2026-11-18T23:01:09.000Z",
       "breaking": false
     },
     {
@@ -59,6 +71,34 @@
       "title": "Here’s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-11-18T22:09:15.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "date": "2026-11-18T19:41:59.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Exclusive-UniCredit and Germany reach broad agreement on Commerzbank takeover",
+      "link": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-and-germany-reach-broad-agreement-on-commerzbank-takeover-5037328",
+      "date": "2026-11-18T23:12:38.000Z",
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "How copper’s plunge could hurt the AI buildout",
+      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
+      "date": "2026-11-18T23:02:00.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
+      "link": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-18T21:57:35.000Z",
       "breaking": false
     },
     {
@@ -70,51 +110,16 @@
     },
     {
       "source": "CNBC",
-      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "date": "2026-11-18T19:41:59.000Z",
-      "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "How copper’s plunge could hurt the AI buildout",
-      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:02:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Investing.com",
-      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
-      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
-      "date": "2026-11-18T22:54:27.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
-      "link": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-18T21:57:35.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
       "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
       "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
       "date": "2026-11-18T15:13:39.000Z",
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
-      "date": "2026-11-18T13:55:14.000Z",
-      "breaking": false
-    },
-    {
       "source": "Investing.com",
-      "title": "First US Bancshares stock rises on buyback extension",
-      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
-      "date": "2026-11-18T22:53:22.000Z",
+      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
+      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
+      "date": "2026-11-18T23:12:24.000Z",
       "breaking": false
     },
     {
@@ -127,11 +132,18 @@
   ],
   "trending": [
     {
-      "term": "Ricky Wilson Kaiser Chiefs",
+      "term": "Anshul Kamboj",
       "traffic": "2000+",
-      "title": "I’m A Celebrity fans all say the same thing about ‘Marmite’ star’s appearance",
-      "link": "https://www.thesun.co.uk/tv/41043225/im-a-celebrity-fans-react-marmite-star-ricky-wilson/",
-      "source": "The Sun"
+      "title": "India leave Siraj and Jadeja out of opening Test in New Zealand",
+      "link": "https://www.cricinfo.com/story/india-leave-mohammed-siraj-and-ravindra-jadeja-out-of-opening-test-in-new-zealand-1563144",
+      "source": "Cricinfo"
+    },
+    {
+      "term": "Lea Seydoux",
+      "traffic": "500+",
+      "title": "Netflix has just added James Bond star's \"devastating\" drama to watch tonight",
+      "link": "https://uk.movies.yahoo.com/netflix-just-added-james-bond-125500206.html",
+      "source": "Yahoo Entertainment UK"
     },
     {
       "term": "Hsbc",
@@ -148,18 +160,11 @@
       "source": "People.com"
     },
     {
-      "term": "Daniel Radcliffe",
+      "term": "Elbridge A. Colby",
       "traffic": "200+",
-      "title": "Daniel Radcliffe Talks ‘Reggie Dinkins’ and Raising His Son in NYC",
-      "link": "https://www.today.com/video/daniel-radcliffe-talks-reggie-dinkins-and-raising-his-son-in-nyc-273576005546",
-      "source": "TODAY.com"
-    },
-    {
-      "term": "Sam Thompson",
-      "traffic": "200+",
-      "title": "Katie Price takes swipe at I'm A Celebrity... stars Sam Thompson and Kemi Rodgers",
-      "link": "https://uk.news.yahoo.com/katie-price-takes-swipe-im-123000282.html",
-      "source": "Yahoo News UK"
+      "title": "Pentagon chief walks out of Nato talks after admonishing Ukraine",
+      "link": "https://www.telegraph.co.uk/world-news/2026/11/18/pentagon-chief-walks-out-of-nato-talks-admonishing-ukraine/",
+      "source": "The Telegraph"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:18:41.181Z",
+  "updated": "2026-11-18T23:33:52.866Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,15 +3097,11 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 253,
+      "totalStories": 254,
       "sections": [
         {
           "name": "World",
-          "count": 28
-        },
-        {
-          "name": "UK",
-          "count": 27
+          "count": 29
         },
         {
           "name": "UK",
@@ -3113,7 +3109,7 @@
         },
         {
           "name": "Business",
-          "count": 16
+          "count": 17
         },
         {
           "name": "Science",
@@ -3143,7 +3139,7 @@
         },
         {
           "word": "government",
-          "count": 8
+          "count": 9
         },
         {
           "word": "health",
@@ -3171,16 +3167,22 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 25,
+          "count": 26,
           "bySection": {
+            "Business": 4,
             "UK": 3,
-            "Business": 3,
             "Politics": 14,
             "World": 2,
             "Health": 2,
             "Science": 1
           },
           "stories": [
+            {
+              "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+              "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-18T23:01:09.000Z"
+            },
             {
               "title": "UK government asks for Russell Brand's YouTube account to be removed",
               "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
@@ -3204,12 +3206,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-18T09:28:35.000Z"
-            },
-            {
-              "title": "What's gone wrong at Britain's worst bathing site?",
-              "link": "https://www.bbc.co.uk/news/articles/cm752w35lkz3o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-18T06:12:44.000Z"
             }
           ]
         },
@@ -3220,7 +3216,8 @@
           "count": 15,
           "bySection": {
             "World": 9,
-            "Business": 4,
+            "Business": 3,
+            "Technology": 1,
             "Health": 1,
             "Politics": 1
           },
@@ -3335,7 +3332,8 @@
           "count": 4,
           "bySection": {
             "World": 1,
-            "Business": 3
+            "Business": 2,
+            "Technology": 1
           },
           "stories": [
             {
@@ -3353,7 +3351,7 @@
             {
               "title": "How new US chip restrictions on South East Asia will hit China",
               "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
+              "section": "Technology",
               "date": "2026-11-17T14:25:45.000Z"
             },
             {
@@ -3638,41 +3636,41 @@
           "section": "World"
         },
         {
+          "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+          "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
           "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
           "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "Catherine visits Mumbai maternity hospital on the last day of royal trip",
+          "link": "https://www.bbc.co.uk/news/videos/c9gkljpgdn1lo?at_medium=RSS&at_campaign=rss",
           "section": "World"
         },
         {
           "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
           "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
           "section": "Business"
-        },
-        {
-          "title": "UK government asks for Russell Brand's YouTube account to be removed",
-          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
-          "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 1001
+          "points": 1010
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 551
+          "points": 553
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 501
+          "points": 503
         }
       ]
     }
