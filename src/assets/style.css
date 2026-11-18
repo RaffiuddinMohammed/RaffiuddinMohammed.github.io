@@ -343,7 +343,7 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 @media (max-width: 380px) { .links .pill.n5 { display: none; } }
 
 /* ======================= 3D: globe hero, bar grid, card tilt ======================= */
-.hero-3d { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: center; gap: 24px; padding-top: 40px; }
+.hero-3d { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); align-items: start; gap: 24px; padding-top: 24px; }
 .globe { position: relative; margin: 0; height: 520px; cursor: grab; user-select: none; -webkit-user-select: none; }
 .globe.grabbing { cursor: grabbing; }
 .globe canvas { position: absolute; inset: 0; width: 100% !important; height: 100% !important; opacity: 0; transition: opacity 1.2s ease; }
