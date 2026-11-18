@@ -512,17 +512,36 @@ async function globe(box) {
       style.parts(i).forEach((o) => { o.visible = facing; });
     });
     renderer.render(scene, camera);
+    // labels arrive biggest story count first: each keeps its spot and later ones are nudged
+    // up/down until they clear it, or fade out when there is no room nearby
+    const placed = [], W = box.clientWidth, H = box.clientHeight;
     for (const l of labels) {
       v.copy(l.tip).applyMatrix4(world.matrixWorld);
-      const front = w.copy(v).normalize().dot(camDir) > 0.15;
+      let show = w.copy(v).normalize().dot(camDir) > 0.15;
       v.project(camera);
-      const half = l.el.offsetWidth / 2, W = box.clientWidth;
+      const lw = l.el.offsetWidth, lh = l.el.offsetHeight, half = lw / 2;
       const lx = Math.min(W - half - 4, Math.max(half + 4, (v.x * 0.5 + 0.5) * W));
-      const ly = Math.min(box.clientHeight - 44, Math.max(l.el.offsetHeight + 4, (-v.y * 0.5 + 0.5) * box.clientHeight)); // stay clear of the caption
-      l.el.style.transform = `translate(${lx}px, ${ly}px) translate(-50%, -100%)`;
-      l.el.style.opacity = front ? '1' : '0';
-      l.el.style.pointerEvents = front ? 'auto' : 'none';
-      l.el.tabIndex = front ? 0 : -1;
+      const clampY = (y) => Math.min(H - 44, Math.max(lh + 4, y)); // stay clear of the caption
+      const baseY = clampY((-v.y * 0.5 + 0.5) * H);
+      let ly = baseY;
+      if (show) {
+        const hits = (y) => placed.some((r) => Math.abs(r.x - lx) < (r.w + lw) / 2 + 6 && Math.abs(r.y - (y - lh / 2)) < (r.h + lh) / 2 + 4);
+        const step = lh + 6;
+        let found = !hits(baseY);
+        for (let k = 1; !found && k <= 3; k++) {
+          for (const y of [clampY(baseY - k * step), clampY(baseY + k * step)]) {
+            if (!hits(y)) { ly = y; found = true; break; }
+          }
+        }
+        show = found;
+        if (show) placed.push({ x: lx, y: ly - lh / 2, w: lw, h: lh });
+      }
+      l.y = l.y == null || !show ? ly : l.y + (ly - l.y) * 0.25; // ease nudges so labels don't jump
+      if (show) placed[placed.length - 1].y = l.y - lh / 2;
+      l.el.style.transform = `translate(${lx}px, ${l.y}px) translate(-50%, -100%)`;
+      l.el.style.opacity = show ? '1' : '0';
+      l.el.style.pointerEvents = show ? 'auto' : 'none';
+      l.el.tabIndex = show ? 0 : -1;
     }
   });
   box.classList.add('ready');
