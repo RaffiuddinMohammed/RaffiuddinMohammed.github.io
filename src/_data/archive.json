@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T21:04:49.244Z",
+  "updated": "2026-11-18T21:29:19.089Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,15 +3097,15 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 251,
+      "totalStories": 252,
       "sections": [
         {
           "name": "World",
-          "count": 31
+          "count": 30
         },
         {
           "name": "UK",
-          "count": 26
+          "count": 28
         },
         {
           "name": "Business",
@@ -3113,11 +3113,11 @@
         },
         {
           "name": "Science",
-          "count": 16
+          "count": 15
         },
         {
           "name": "Politics",
-          "count": 13
+          "count": 12
         },
         {
           "name": "Technology",
@@ -3169,10 +3169,10 @@
           "lon": -2,
           "count": 25,
           "bySection": {
-            "Politics": 15,
+            "UK": 3,
             "Business": 3,
+            "Politics": 14,
             "World": 2,
-            "UK": 2,
             "Health": 2,
             "Science": 1
           },
@@ -3180,8 +3180,8 @@
             {
               "title": "UK government asks for Russell Brand's YouTube account to be removed",
               "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-              "section": "Politics",
-              "date": "2026-11-18T20:48:58.000Z"
+              "section": "UK",
+              "date": "2026-11-18T21:17:50.000Z"
             },
             {
               "title": "How high is UK inflation and how will you be affected?",
@@ -3225,7 +3225,7 @@
               "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
               "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-18T17:34:23.000Z"
+              "date": "2026-11-18T21:13:06.000Z"
             },
             {
               "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
@@ -3361,6 +3361,36 @@
           ]
         },
         {
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 3,
+          "bySection": {
+            "UK": 1,
+            "World": 2
+          },
+          "stories": [
+            {
+              "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
+              "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T20:55:15.000Z"
+            },
+            {
+              "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+              "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T17:00:40.000Z"
+            },
+            {
+              "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+              "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T17:19:57.000Z"
+            }
+          ]
+        },
+        {
           "name": "Gaza",
           "lat": 31.4,
           "lon": 34.4,
@@ -3387,29 +3417,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
               "section": "Politics",
               "date": "2026-11-17T18:27:27.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Russia",
-          "lat": 60,
-          "lon": 90,
-          "count": 2,
-          "bySection": {
-            "World": 2
-          },
-          "stories": [
-            {
-              "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-              "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-18T17:00:40.000Z"
-            },
-            {
-              "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-              "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-17T17:19:57.000Z"
             }
           ]
         },
@@ -3607,44 +3614,44 @@
         {
           "title": "UK government asks for Russell Brand's YouTube account to be removed",
           "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics"
+          "section": "UK"
+        },
+        {
+          "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+          "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "Thousands regain water supply after major outage",
+          "link": "https://www.bbc.co.uk/news/articles/c9e85y3ex824o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
+          "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
         },
         {
           "title": "Torrential rain causes widespread flooding in South Florida",
           "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
           "section": "Science"
-        },
-        {
-          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-          "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-          "section": "World"
-        },
-        {
-          "title": "Hundreds could be hit by chemotherapy scandal, trust says",
-          "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "William and Kate meet PM Modi as they wrap up India tour",
-          "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 766
+          "points": 825
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 478
+          "points": 498
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 400
+          "points": 421
         }
       ]
     }

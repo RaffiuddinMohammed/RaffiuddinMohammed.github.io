@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-18T20:57:30.186Z",
-  "totalStories": 251,
+  "updated": "2026-11-18T21:21:26.785Z",
+  "totalStories": 252,
   "sections": [
     {
       "name": "World",
-      "count": 31
+      "count": 30
     },
     {
       "name": "UK",
-      "count": 26
+      "count": 28
     },
     {
       "name": "Business",
@@ -16,11 +16,11 @@
     },
     {
       "name": "Science",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Politics",
-      "count": 13
+      "count": 12
     },
     {
       "name": "Technology",
@@ -88,10 +88,10 @@
       "lon": -2,
       "count": 25,
       "bySection": {
-        "Politics": 15,
+        "UK": 3,
         "Business": 3,
+        "Politics": 14,
         "World": 2,
-        "UK": 2,
         "Health": 2,
         "Science": 1
       },
@@ -99,8 +99,8 @@
         {
           "title": "UK government asks for Russell Brand's YouTube account to be removed",
           "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-18T20:48:58.000Z"
+          "section": "UK",
+          "date": "2026-11-18T21:17:50.000Z"
         },
         {
           "title": "How high is UK inflation and how will you be affected?",
@@ -162,7 +162,7 @@
           "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
           "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-18T17:34:23.000Z"
+          "date": "2026-11-18T21:13:06.000Z"
         },
         {
           "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
@@ -316,6 +316,36 @@
       ]
     },
     {
+      "name": "Russia",
+      "lat": 60,
+      "lon": 90,
+      "count": 3,
+      "bySection": {
+        "UK": 1,
+        "World": 2
+      },
+      "stories": [
+        {
+          "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
+          "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-18T20:55:15.000Z"
+        },
+        {
+          "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+          "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T17:00:40.000Z"
+        },
+        {
+          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+          "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-17T17:19:57.000Z"
+        }
+      ]
+    },
+    {
       "name": "Gaza",
       "lat": 31.4,
       "lon": 34.4,
@@ -342,29 +372,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-17T18:27:27.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Russia",
-      "lat": 60,
-      "lon": 90,
-      "count": 2,
-      "bySection": {
-        "World": 2
-      },
-      "stories": [
-        {
-          "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-          "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T17:00:40.000Z"
-        },
-        {
-          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-          "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T17:19:57.000Z"
         }
       ]
     },
@@ -562,8 +569,26 @@
     {
       "title": "UK government asks for Russell Brand's YouTube account to be removed",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T20:48:58.000Z",
-      "section": "Politics"
+      "date": "2026-11-18T21:17:50.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+      "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:13:06.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Thousands regain water supply after major outage",
+      "link": "https://www.bbc.co.uk/news/articles/c9e85y3ex824o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:01:46.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
+      "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:55:15.000Z",
+      "section": "UK"
     },
     {
       "title": "Torrential rain causes widespread flooding in South Florida",
@@ -611,24 +636,6 @@
       "title": "Council wins legal fight against flags on lamp-posts",
       "link": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T18:19:34.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears",
-      "link": "https://www.bbc.co.uk/news/articles/cmn80y2vxd2po?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T18:17:38.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "'Good for the people' if politicians stopped doing media, says NI secretary of state",
-      "link": "https://www.bbc.co.uk/news/articles/cr0qjw7xqqwlo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T18:01:05.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Regulator mistakenly sent complaints about doctors to newspaper",
-      "link": "https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T17:48:10.000Z",
       "section": "UK"
     }
   ]
