@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-18T22:44:29.928Z",
+  "updated": "2026-11-18T22:49:28.493Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 956,
-      "comments": 437,
+      "points": 961,
+      "comments": 445,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 530,
-      "comments": 194,
+      "points": 534,
+      "comments": 195,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 482,
+      "points": 484,
       "comments": 177,
       "domain": "inside-db.com"
     },
@@ -29,8 +29,8 @@
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 379,
-      "comments": 261,
+      "points": 381,
+      "comments": 262,
       "domain": "microsoft.ai"
     },
     {
@@ -45,23 +45,23 @@
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 274,
-      "comments": 130,
+      "points": 280,
+      "comments": 132,
       "domain": "europeanbusinessmagazine.com"
     },
     {
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "discuss": "https://news.ycombinator.com/item?id=50552424",
-      "points": 234,
-      "comments": 226,
+      "points": 251,
+      "comments": 238,
       "domain": "blog.google"
     },
     {
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 212,
+      "points": 213,
       "comments": 163,
       "domain": "cam.ac.uk"
     },
@@ -70,15 +70,15 @@
       "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
       "discuss": "https://news.ycombinator.com/item?id=50548004",
       "points": 161,
-      "comments": 111,
+      "comments": 112,
       "domain": "cve.org"
     },
     {
       "title": "Genie 4 is now available",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "discuss": "https://news.ycombinator.com/item?id=50550415",
-      "points": 154,
-      "comments": 130,
+      "points": 156,
+      "comments": 132,
       "domain": "blog.google"
     }
   ],

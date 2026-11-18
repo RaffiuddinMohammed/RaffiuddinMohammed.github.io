@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:48:50.496Z",
+  "updated": "2026-11-18T22:57:27.979Z",
   "breaking": [
     {
       "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
@@ -41,6 +41,13 @@
   ],
   "business": [
     {
+      "source": "MarketWatch",
+      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:53:00.000Z",
+      "breaking": true
+    },
+    {
       "source": "Investing.com",
       "title": "Moody’s cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
       "link": "https://www.investing.com/news/stock-market-news/moodys-cuts-nvidia-credit-outlook-to-stable-after-ceo-jensen-huang-exits-5037292",
@@ -48,17 +55,17 @@
       "breaking": true
     },
     {
-      "source": "MarketWatch",
-      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
-      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:31:00.000Z",
-      "breaking": false
-    },
-    {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-11-18T22:09:15.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
+      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
+      "date": "2026-11-18T21:28:08.000Z",
       "breaking": false
     },
     {
@@ -69,11 +76,11 @@
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
-      "date": "2026-11-18T13:55:14.000Z",
-      "breaking": false
+      "source": "MarketWatch",
+      "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:53:00.000Z",
+      "breaking": true
     },
     {
       "source": "Investing.com",
@@ -81,13 +88,6 @@
       "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
       "date": "2026-11-18T22:43:18.000Z",
       "breaking": true
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:00:00.000Z",
-      "breaking": false
     },
     {
       "source": "Cointelegraph",
@@ -105,9 +105,9 @@
     },
     {
       "source": "BBC Business",
-      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo",
-      "date": "2026-11-18T13:17:06.000Z",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
+      "date": "2026-11-18T13:55:14.000Z",
       "breaking": false
     },
     {
@@ -119,19 +119,33 @@
     },
     {
       "source": "MarketWatch",
-      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
-      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
-      "date": "2026-11-18T21:58:00.000Z",
+      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
+      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:31:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
+      "term": "Ricky Wilson Wife",
+      "traffic": "2000+",
+      "title": "I’m A Celebrity fans all say the same thing about ‘Marmite’ star’s appearance",
+      "link": "https://www.thesun.co.uk/tv/41043225/im-a-celebrity-fans-react-marmite-star-ricky-wilson/",
+      "source": "The Sun"
+    },
+    {
+      "term": "Mckenna Grace",
+      "traffic": "500+",
+      "title": "Method Dressing Won at the ‘Hunger Games: Sunrise on the Reaping’ N.Y.C. Premiere",
+      "link": "https://people.com/method-dressing-won-at-the-hunger-games-sunrise-on-the-reaping-n-y-c-premiere-12260634",
+      "source": "People.com"
+    },
+    {
       "term": "Gk Barry",
       "traffic": "500+",
-      "title": "I'm A Celebrity...Get Me Out Of Here!: GK Barry predicts Joanna Page will spark camp rows",
-      "link": "https://uk.news.yahoo.com/im-celebrity-gk-barry-predicts-100000960.html",
-      "source": "Yahoo News UK"
+      "title": "I’m A Celebrity ‘feud brewing’ as star could become ‘unbearable’",
+      "link": "https://www.dailystar.co.uk/tv/im-celebrity-feud-brewing-star-37885477",
+      "source": "Daily Star"
     },
     {
       "term": "Kemi Rodgers",
@@ -146,20 +160,6 @@
       "title": "I'm a Celeb: Joanna Page reveals 'awful' comments from male actor",
       "link": "https://www.bbc.co.uk/news/articles/cqj3kelenm0do",
       "source": "BBC"
-    },
-    {
-      "term": "Declan Donnelly",
-      "traffic": "500+",
-      "title": "Shirtless Ant McPartlin celebrates his 51st birthday with his wife Anne-Marie Corbett and their kids and his co-host Declan Donnelly on the beach during I'm A Celebrity filming break",
-      "link": "https://www.dailymail.com/tvshowbiz/article-16303241/Shirtless-Ant-McPartlin-celebrates-51st-birthday-wife-Anne-Marie-Corbett-kids-host-Declan-Donnelly-beach-Im-Celebrity-filming-break.html",
-      "source": "Daily Mail"
-    },
-    {
-      "term": "Coritiba Vs Santos",
-      "traffic": "200+",
-      "title": "Preview: Coritiba vs Santos - prediction, team news, lineups",
-      "link": "https://www.sportsmole.co.uk/football/coritiba/preview/coritiba-vs-santos-prediction-team-news-lineups_609230.html",
-      "source": "Sports Mole"
     }
   ]
 }
