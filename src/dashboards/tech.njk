@@ -26,7 +26,7 @@ description: "The most upvoted stories on the Hacker News front page right now, 
     <h2>The stories</h2>
     <ul class="storylist">
       {% for s in hn.stories %}
-      <li><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>
+      <li><img class="fav" src="{{ s.domain | favicon }}" alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"><a href="{{ s.url }}" rel="noopener">{{ s.title }}</a>
         <div class="meta">{{ s.points | num }} points · <a href="{{ s.discuss }}" rel="noopener">{{ s.comments | num }} comments</a> · {{ s.domain }}</div></li>
       {% endfor %}
     </ul>

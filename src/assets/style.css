@@ -803,3 +803,9 @@ a.card.dash:hover .dash-img { transform: scale(1.05); }
 .wa-list li { display: block; }
 .logo-tile.dark, .logo-tile.dark img { background: #1d2430; }
 .logo-tile.dark .logo-letter { color: #fff; }
+
+/* ---- v2.4 favicons (services, sources, story domains) ---- */
+.fav { display: inline-block; width: 16px; height: 16px; border-radius: 4px; vertical-align: -3px; margin-right: 6px; background: #fff; padding: 1px; object-fit: contain; }
+.status-tile .fav { width: 20px; height: 20px; vertical-align: -5px; margin: 0 2px 0 0; }
+.st-head { display: flex; align-items: center; gap: 6px; }
+.st-head .st-word { margin-left: auto; }

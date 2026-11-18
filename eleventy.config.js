@@ -3,6 +3,14 @@ import { HtmlBasePlugin } from '@11ty/eleventy';
 export default function (cfg) {
   cfg.addPlugin(HtmlBasePlugin); // rewrites links when the site lives under a sub-path
   cfg.addPassthroughCopy('src/assets');
+
+  // Small site logos (favicons) for services, news sources and story domains
+  const SOURCE_DOMAINS = { 'CNBC': 'cnbc.com', 'Yahoo Finance': 'finance.yahoo.com', 'MarketWatch': 'marketwatch.com', 'Investing.com': 'investing.com',
+    'BBC Business': 'bbc.co.uk', 'BBC': 'bbc.co.uk', 'Cointelegraph': 'cointelegraph.com', 'Reuters': 'reuters.com', 'Financial Times': 'ft.com' };
+  const SERVICE_DOMAINS = { 'Microsoft 365': 'microsoft.com', 'Google Cloud': 'cloud.google.com', 'npm': 'npmjs.com' };
+  cfg.addFilter('favicon', (domain) => domain ? `https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain)}&sz=64` : '');
+  cfg.addFilter('sourceDomain', (name) => SOURCE_DOMAINS[name] || '');
+  cfg.addFilter('serviceDomain', (name, url) => SERVICE_DOMAINS[name] || String(url || '').replace(/^https?:\/\/(?:www\.|status\.)?/, '').replace(/(?:-?status)?\.(?:com|io|org)$/, '').replace(/^/, '') + '.com');
   cfg.addPassthroughCopy('src/google*.html'); // Search Console ownership file: must stay byte-for-byte
   cfg.ignores.add('src/google*.html'); // ...so copy it, don't render it as a page
   cfg.addGlobalData('built', () => new Date().toISOString());
