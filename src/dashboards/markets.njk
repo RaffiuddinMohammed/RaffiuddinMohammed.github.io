@@ -16,7 +16,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
 <section>
   <div class="card">
     <h2>The Magnificent 7</h2>
-    <p class="muted">Three months of price for each. Pick a tab to switch company.</p>
+    <p class="muted">Three months of price for each. Pick a tab to switch company. Prices are delayed about 15 minutes.</p>
     <div class="tv-widget" data-widget="symbol-overview" data-config-src="tv-mag7" data-height="420"></div>
   </div>
 </section>
@@ -24,7 +24,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
 <section class="grid two">
   <div class="card">
     <h2>Watchlist</h2>
-    <p class="muted">Today's price and change: Magnificent 7, more US leaders and the FTSE 100's biggest names.</p>
+    <p class="muted">Today's price and change: Magnificent 7, more US leaders and the FTSE 100's biggest names. Delayed about 15 minutes.</p>
     <div class="tv-widget" data-widget="market-quotes" data-config-src="tv-quotes" data-height="520"></div>
   </div>
   <div class="card">
@@ -126,7 +126,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
     <p class="muted">The US and UK economic releases and central bank decisions that move markets: rate decisions, inflation and jobs data.</p>
     <div class="tv-widget" data-widget="events" data-config-src="tv-events" data-height="520"></div>
   </div>
-  <p class="muted disclaimer"><b>Not financial advice.</b> Prices are delayed and come from <a href="https://www.tradingview.com/" rel="noopener">TradingView</a>; headlines link to their publishers; nothing here is a recommendation to buy or sell. News updated {{ markets.updated | when }}.</p>
+  <p class="muted disclaimer"><b>Not financial advice.</b> Stock and index prices are delayed about 15 minutes (a <b>D</b> next to a price marks it as delayed) and come from <a href="https://www.tradingview.com/" rel="noopener">TradingView</a>; headlines link to their publishers; nothing here is a recommendation to buy or sell. News updated {{ markets.updated | when }}.</p>
 </section>
 
 <script type="application/json" id="themes-data">{{ th | json | safe }}</script>
