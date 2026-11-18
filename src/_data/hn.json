@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-18T14:16:20.917Z",
+  "updated": "2026-11-18T20:40:04.945Z",
   "stories": [
     {
-      "title": "GPT‑6.2 Astra and Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-      "discuss": "https://news.ycombinator.com/item?id=50535230",
-      "points": 1305,
-      "comments": 817,
-      "domain": "openai.com"
+      "title": "Unauthenticated remote code execution in Nginx",
+      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+      "discuss": "https://news.ycombinator.com/item?id=50547374",
+      "points": 740,
+      "comments": 309,
+      "domain": "wiz.io"
     },
     {
-      "title": "Java4Shell: RCE in OpenJDK when processing Base64",
-      "url": "https://calif.io/java4shell/",
-      "discuss": "https://news.ycombinator.com/item?id=50538240",
-      "points": 1052,
-      "comments": 277,
-      "domain": "calif.io"
+      "title": "DNS resolvers are the wrong place to fight piracy",
+      "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+      "discuss": "https://news.ycombinator.com/item?id=50545958",
+      "points": 470,
+      "comments": 157,
+      "domain": "techstackups.com"
     },
     {
-      "title": "Quad9's withdrawal from France: A canary in the coal mine",
-      "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-      "discuss": "https://news.ycombinator.com/item?id=50538994",
-      "points": 773,
-      "comments": 345,
-      "domain": "blog.cloudflare.com"
+      "title": "Inside Deutsche Bank",
+      "url": "https://www.inside-db.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50547620",
+      "points": 378,
+      "comments": 139,
+      "domain": "inside-db.com"
     },
     {
-      "title": "Highly classified US national security communications network goes down",
-      "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-      "discuss": "https://news.ycombinator.com/item?id=50532849",
-      "points": 636,
-      "comments": 713,
-      "domain": "cnn.com"
-    },
-    {
-      "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
-      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-      "discuss": "https://news.ycombinator.com/item?id=50534631",
-      "points": 620,
-      "comments": 272,
-      "domain": "ft.com"
-    },
-    {
-      "title": "AI is killing All About Berlin",
-      "url": "https://nicolasbouliane.com/blog/death-by-ai",
-      "discuss": "https://news.ycombinator.com/item?id=50542705",
-      "points": 564,
-      "comments": 525,
-      "domain": "nicolasbouliane.com"
-    },
-    {
-      "title": "Google's AI answers reducing search traffic by 40%",
-      "url": "https://revscope.co/blog/search-seo-geo-2026/",
-      "discuss": "https://news.ycombinator.com/item?id=50540178",
-      "points": 560,
-      "comments": 421,
-      "domain": "revscope.co"
-    },
-    {
-      "title": "Phrack 73",
-      "url": "https://phrack.org/issues/73/introduction_md",
-      "discuss": "https://news.ycombinator.com/item?id=50535992",
-      "points": 431,
-      "comments": 59,
-      "domain": "phrack.org"
-    },
-    {
-      "title": "ID.me terms required for IRS sign-in",
-      "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
-      "discuss": "https://news.ycombinator.com/item?id=50540437",
-      "points": 408,
+      "title": "Seven new models at scalable price-performance",
+      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+      "discuss": "https://news.ycombinator.com/item?id=50548021",
+      "points": 319,
       "comments": 205,
-      "domain": "consumerrights.wiki"
+      "domain": "microsoft.ai"
     },
     {
-      "title": "What is the best harness for each model?",
-      "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-      "discuss": "https://news.ycombinator.com/item?id=50532191",
-      "points": 400,
-      "comments": 129,
-      "domain": "runta.com"
+      "title": "Energy-Based Reasoners: 385x more efficient inference",
+      "url": "https://energy-based-reasoners.github.io/",
+      "discuss": "https://news.ycombinator.com/item?id=50543989",
+      "points": 278,
+      "comments": 44,
+      "domain": "energy-based-reasoners.github.io"
+    },
+    {
+      "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
+      "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+      "discuss": "https://news.ycombinator.com/item?id=50546914",
+      "points": 186,
+      "comments": 142,
+      "domain": "cam.ac.uk"
+    },
+    {
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "discuss": "https://news.ycombinator.com/item?id=50547777",
+      "points": 180,
+      "comments": 92,
+      "domain": "europeanbusinessmagazine.com"
+    },
+    {
+      "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+      "discuss": "https://news.ycombinator.com/item?id=50548004",
+      "points": 143,
+      "comments": 92,
+      "domain": "cve.org"
+    },
+    {
+      "title": "F-22 Next-Generation micro–Data Transfer Cartridge (mDTC)",
+      "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+      "discuss": "https://news.ycombinator.com/item?id=50547583",
+      "points": 117,
+      "comments": 76,
+      "domain": "sam.gov"
+    },
+    {
+      "title": "The x86 CPU: From 4004 to 486",
+      "url": "https://pikuma.com/blog/history-of-x86-4004-to-486",
+      "discuss": "https://news.ycombinator.com/item?id=50546967",
+      "points": 108,
+      "comments": 26,
+      "domain": "pikuma.com"
     }
   ],
   "totalPoints": null,
-  "storyCount": 30
+  "storyCount": 29
 }

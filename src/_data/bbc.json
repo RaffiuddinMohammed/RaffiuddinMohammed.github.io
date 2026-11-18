@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-18T14:16:20.620Z",
-  "totalStories": 244,
+  "updated": "2026-11-18T20:40:04.207Z",
+  "totalStories": 251,
   "sections": [
+    {
+      "name": "World",
+      "count": 31
+    },
     {
       "name": "UK",
       "count": 26
     },
     {
-      "name": "World",
-      "count": 24
-    },
-    {
       "name": "Business",
-      "count": 18
+      "count": 16
     },
     {
       "name": "Science",
@@ -20,15 +20,15 @@
     },
     {
       "name": "Politics",
-      "count": 15
-    },
-    {
-      "name": "Technology",
       "count": 12
     },
     {
+      "name": "Technology",
+      "count": 10
+    },
+    {
       "name": "Health",
-      "count": 9
+      "count": 7
     }
   ],
   "topWords": [
@@ -41,35 +41,31 @@
       "count": 12
     },
     {
-      "word": "labour",
-      "count": 8
-    },
-    {
       "word": "health",
       "count": 8
     },
     {
+      "word": "police",
+      "count": 7
+    },
+    {
+      "word": "doctors",
+      "count": 7
+    },
+    {
+      "word": "labour",
+      "count": 7
+    },
+    {
       "word": "government",
-      "count": 8
-    },
-    {
-      "word": "cancer",
       "count": 7
     },
     {
-      "word": "nhs",
-      "count": 7
+      "word": "take",
+      "count": 6
     },
     {
       "word": "trump",
-      "count": 7
-    },
-    {
-      "word": "strike",
-      "count": 7
-    },
-    {
-      "word": "police",
       "count": 6
     },
     {
@@ -77,7 +73,11 @@
       "count": 6
     },
     {
-      "word": "take",
+      "word": "nhs",
+      "count": 6
+    },
+    {
+      "word": "cancer",
       "count": 6
     }
   ],
@@ -88,19 +88,25 @@
       "lon": -2,
       "count": 25,
       "bySection": {
-        "UK": 5,
+        "Business": 3,
+        "Politics": 15,
         "World": 2,
-        "Politics": 13,
+        "UK": 2,
         "Health": 2,
-        "Business": 2,
         "Science": 1
       },
       "stories": [
         {
+          "title": "How high is UK inflation and how will you be affected?",
+          "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-18T19:37:27.000Z"
+        },
+        {
           "title": "Lammy urges Burnham to take UK back into the EU",
           "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-18T12:49:39.000Z"
+          "section": "Politics",
+          "date": "2026-11-18T17:09:35.000Z"
         },
         {
           "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
@@ -115,12 +121,6 @@
           "date": "2026-11-18T06:12:44.000Z"
         },
         {
-          "title": "Is there any more snow on the way for England and Scotland?",
-          "link": "https://www.bbc.co.uk/weather/articles/cmvg2p9qlkz9o?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-18T01:13:16.000Z"
-        },
-        {
           "title": "Largest British study to check social media ban's effect on youth mental health",
           "link": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o?at_medium=RSS&at_campaign=rss",
           "section": "UK",
@@ -129,7 +129,7 @@
         {
           "title": "The EU that Burnham is eyeing up is very different to the one Britain left",
           "link": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
+          "section": "Politics",
           "date": "2026-11-18T00:39:06.000Z"
         },
         {
@@ -158,6 +158,12 @@
         "Politics": 1
       },
       "stories": [
+        {
+          "title": "Democrats nominate Hakeem Jeffries to be US Speaker of the House",
+          "link": "https://www.bbc.co.uk/news/articles/cmy49873dn95o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T17:34:23.000Z"
+        },
         {
           "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
           "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
@@ -191,62 +197,14 @@
         {
           "title": "Waymo pulls driverless taxis from all US freeways",
           "link": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
+          "section": "World",
           "date": "2026-11-18T03:07:22.000Z"
         },
         {
-          "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
-          "link": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+          "title": "Irishman charged with destroying US military aircraft with axe",
+          "link": "https://www.bbc.co.uk/news/articles/cwd01jjl5zzzo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-17T22:46:30.000Z"
-        },
-        {
-          "title": "US loses measles elimination status after 26 years amid record case numbers",
-          "link": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T21:04:00.000Z"
-        }
-      ]
-    },
-    {
-      "name": "China",
-      "lat": 35,
-      "lon": 104,
-      "count": 5,
-      "bySection": {
-        "World": 3,
-        "Business": 2
-      },
-      "stories": [
-        {
-          "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-          "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T12:39:24.000Z"
-        },
-        {
-          "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-          "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-17T23:02:12.000Z"
-        },
-        {
-          "title": "How new US chip restrictions on South East Asia will hit China",
-          "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T14:25:45.000Z"
-        },
-        {
-          "title": "Inside the Chinese 'AI wonderland' where Xi will host Trump",
-          "link": "https://www.bbc.co.uk/news/videos/ckjwjl6ywgn9o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T06:23:51.000Z"
-        },
-        {
-          "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
-          "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-10-14T23:01:28.000Z"
+          "date": "2026-11-18T02:00:37.000Z"
         }
       ]
     },
@@ -260,6 +218,18 @@
       },
       "stories": [
         {
+          "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+          "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T17:00:40.000Z"
+        },
+        {
+          "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
+          "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T17:00:04.000Z"
+        },
+        {
           "title": "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
           "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
           "section": "World",
@@ -270,53 +240,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-17T17:19:57.000Z"
-        },
-        {
-          "title": "BBC reports from Kyiv bridge hit by Russian attack",
-          "link": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T15:54:15.000Z"
-        },
-        {
-          "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-          "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T05:59:01.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Russia",
-      "lat": 60,
-      "lon": 90,
-      "count": 4,
-      "bySection": {
-        "World": 4
-      },
-      "stories": [
-        {
-          "title": "Russian military plane crashes, killing all 19 on board",
-          "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T21:06:11.000Z"
-        },
-        {
-          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-          "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T17:19:57.000Z"
-        },
-        {
-          "title": "BBC reports from Kyiv bridge hit by Russian attack",
-          "link": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T15:54:15.000Z"
-        },
-        {
-          "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-          "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-17T05:59:01.000Z"
         }
       ]
     },
@@ -324,12 +247,18 @@
       "name": "Israel",
       "lat": 31,
       "lon": 35,
-      "count": 3,
+      "count": 4,
       "bySection": {
-        "World": 1,
+        "World": 2,
         "Politics": 2
       },
       "stories": [
+        {
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T20:14:57.000Z"
+        },
         {
           "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
           "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
@@ -351,32 +280,38 @@
       ]
     },
     {
-      "name": "India",
-      "lat": 22,
-      "lon": 79,
-      "count": 3,
+      "name": "China",
+      "lat": 35,
+      "lon": 104,
+      "count": 4,
       "bySection": {
-        "World": 2,
-        "Business": 1
+        "World": 1,
+        "Business": 3
       },
       "stories": [
         {
-          "title": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
-          "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+          "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-17T09:27:44.000Z"
+          "date": "2026-11-18T16:10:44.000Z"
         },
         {
-          "title": "Street cricket with a legend then metro ride as William and Kate begin India visit",
-          "link": "https://www.bbc.co.uk/news/videos/crkgvnl51w1vo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-16T15:08:59.000Z"
-        },
-        {
-          "title": "The Indian workers filming their work to train AI",
-          "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+          "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+          "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
           "section": "Business",
-          "date": "2026-10-23T08:04:17.000Z"
+          "date": "2026-11-17T23:02:12.000Z"
+        },
+        {
+          "title": "How new US chip restrictions on South East Asia will hit China",
+          "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-17T14:25:45.000Z"
+        },
+        {
+          "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
+          "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-10-14T23:01:28.000Z"
         }
       ]
     },
@@ -384,12 +319,18 @@
       "name": "Gaza",
       "lat": 31.4,
       "lon": 34.4,
-      "count": 2,
+      "count": 3,
       "bySection": {
-        "World": 1,
+        "World": 2,
         "Politics": 1
       },
       "stories": [
+        {
+          "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+          "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T20:14:57.000Z"
+        },
         {
           "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
           "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
@@ -401,6 +342,29 @@
           "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-17T18:27:27.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "lat": 60,
+      "lon": 90,
+      "count": 2,
+      "bySection": {
+        "World": 2
+      },
+      "stories": [
+        {
+          "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+          "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T17:00:40.000Z"
+        },
+        {
+          "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+          "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-17T17:19:57.000Z"
         }
       ]
     },
@@ -420,10 +384,74 @@
           "date": "2026-11-18T13:04:48.000Z"
         },
         {
-          "title": "Trump says US taking 'very seriously' any Iranian plot against Washington",
-          "link": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo?at_medium=RSS&at_campaign=rss",
+          "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+          "link": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-17T17:37:04.000Z"
+          "date": "2026-11-18T02:29:52.000Z"
+        }
+      ]
+    },
+    {
+      "name": "India",
+      "lat": 22,
+      "lon": 79,
+      "count": 2,
+      "bySection": {
+        "World": 1,
+        "Business": 1
+      },
+      "stories": [
+        {
+          "title": "William and Kate meet PM Modi as they wrap up India tour",
+          "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T20:07:08.000Z"
+        },
+        {
+          "title": "The Indian workers filming their work to train AI",
+          "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-10-23T08:04:17.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Pakistan",
+      "lat": 30,
+      "lon": 70,
+      "count": 2,
+      "bySection": {
+        "World": 2
+      },
+      "stories": [
+        {
+          "title": "Pakistani man sentenced to 27 years for Iran-backed plot to kill Trump",
+          "link": "https://www.bbc.co.uk/news/articles/cm15ezz8n394o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T02:29:52.000Z"
+        },
+        {
+          "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+          "link": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-17T23:34:56.000Z"
+        }
+      ]
+    },
+    {
+      "name": "France",
+      "lat": 46,
+      "lon": 2,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987",
+          "link": "https://www.bbc.co.uk/news/articles/c6lyw490z14jo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T15:39:57.000Z"
         }
       ]
     },
@@ -496,35 +524,18 @@
       ]
     },
     {
-      "name": "Pakistan",
-      "lat": 30,
-      "lon": 70,
-      "count": 1,
-      "bySection": {
-        "Science": 1
-      },
-      "stories": [
-        {
-          "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
-          "link": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
-          "section": "Science",
-          "date": "2026-11-17T23:34:56.000Z"
-        }
-      ]
-    },
-    {
       "name": "Philippines",
       "lat": 13,
       "lon": 122,
       "count": 1,
       "bySection": {
-        "World": 1
+        "UK": 1
       },
       "stories": [
         {
           "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
           "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
+          "section": "UK",
           "date": "2026-11-18T07:48:18.000Z"
         }
       ]
@@ -549,76 +560,76 @@
   ],
   "latest": [
     {
-      "title": "Anthropic: The seven founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:55:14.000Z",
-      "section": "Business"
+      "title": "Torrential rain causes widespread flooding in South Florida",
+      "link": "https://www.bbc.co.uk/news/videos/crgj3205jv98o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:29:18.000Z",
+      "section": "Science"
     },
     {
-      "title": "Police investigate death of boy, 3, after incident at nursery",
-      "link": "https://www.bbc.co.uk/news/articles/cm8x0q1p2q8jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:34:58.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Toilets: Are you a squatter or a sitter?",
-      "link": "https://www.bbc.co.uk/videos/c804wngelw22o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:25:05.000Z",
-      "section": "Health"
-    },
-    {
-      "title": "Burnham promises to 'move quickly' on Neets report",
-      "link": "https://www.bbc.co.uk/news/articles/c8n50457edd4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:23:49.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Home secretary plans to tackle 'corrosive' perception of two-tier policing",
-      "link": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:19:39.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
-      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:17:06.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
-      "link": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:16:53.000Z",
-      "section": "Technology"
-    },
-    {
-      "title": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
-      "link": "https://www.bbc.co.uk/news/articles/ckq6eg55n221o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:10:01.000Z",
-      "section": "Business"
-    },
-    {
-      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:04:48.000Z",
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:14:57.000Z",
       "section": "World"
     },
     {
-      "title": "Brain cancer patients demand public inquiry into chemotherapy scandal",
+      "title": "Hundreds could be hit by chemotherapy scandal, trust says",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T13:00:07.000Z",
+      "date": "2026-11-18T20:09:06.000Z",
       "section": "UK"
     },
     {
-      "title": "Lammy urges Burnham to take UK back into the EU",
-      "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:49:39.000Z",
+      "title": "William and Kate meet PM Modi as they wrap up India tour",
+      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T20:07:08.000Z",
+      "section": "World"
+    },
+    {
+      "title": "How high is UK inflation and how will you be affected?",
+      "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T19:37:27.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Raise The Colours member guilty of dancefloor murder",
+      "link": "https://www.bbc.co.uk/news/articles/cmd71dz58dnvo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T19:15:27.000Z",
       "section": "UK"
     },
     {
-      "title": "Ivan Toney loses bid to avoid Euro 2028 court clash",
-      "link": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:46:12.000Z",
+      "title": "Police chief says racists and misogynists working inside force",
+      "link": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T19:10:40.000Z",
       "section": "UK"
+    },
+    {
+      "title": "Council wins legal fight against flags on lamp-posts",
+      "link": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T18:19:34.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Grand Theft Auto staff 'caught red-handed' in confidentiality breach, tribunal hears",
+      "link": "https://www.bbc.co.uk/news/articles/cmn80y2vxd2po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T18:17:38.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "'Good for the people' if politicians stopped doing media, says NI secretary of state",
+      "link": "https://www.bbc.co.uk/news/articles/cr0qjw7xqqwlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T18:01:05.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Regulator mistakenly sent complaints about doctors to newspaper",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5erexq0ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T17:48:10.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Grand Theft Auto 6 is a masterpiece, say critics",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T17:34:25.000Z",
+      "section": "World"
     }
   ]
 }

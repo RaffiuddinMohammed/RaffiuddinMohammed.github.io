@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T14:16:19.546Z",
-  "headlineCount": 87,
+  "updated": "2026-11-18T20:40:02.780Z",
+  "headlineCount": 85,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 40
+      "count": 39
     },
     {
       "name": "MarketWatch",
@@ -16,25 +16,29 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
     {
-      "name": "AI and chips",
-      "count": 23
-    },
-    {
-      "name": "Earnings",
+      "name": "Interest rates",
       "count": 14
     },
     {
-      "name": "Interest rates",
-      "count": 12
+      "name": "AI and chips",
+      "count": 13
+    },
+    {
+      "name": "Earnings",
+      "count": 9
     },
     {
       "name": "Inflation",
       "count": 7
+    },
+    {
+      "name": "Crypto",
+      "count": 3
     },
     {
       "name": "Oil and energy",
@@ -45,15 +49,11 @@
       "count": 2
     },
     {
-      "name": "Crypto",
+      "name": "Jobs",
       "count": 1
     },
     {
       "name": "Trade and tariffs",
-      "count": 0
-    },
-    {
-      "name": "Jobs",
       "count": 0
     }
   ],
@@ -63,19 +63,15 @@
       "count": 15
     },
     {
-      "name": "Microsoft",
-      "count": 4
+      "name": "Alphabet",
+      "count": 2
     },
     {
       "name": "Apple",
       "count": 1
     },
     {
-      "name": "Alphabet",
-      "count": 1
-    },
-    {
-      "name": "Tesla",
+      "name": "Microsoft",
       "count": 1
     },
     {
@@ -85,128 +81,152 @@
     {
       "name": "Meta",
       "count": 0
+    },
+    {
+      "name": "Tesla",
+      "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Hackers are utilizing this AI tool to test their cyberattacks",
-      "link": "https://finance.yahoo.com/video/hackers-are-utilizing-this-ai-tool-to-test-their-cyberattacks-141206816.html?.tsrc=rss",
-      "date": "2026-11-18T14:12:06.000Z",
+      "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
+      "link": "https://finance.yahoo.com/video/coinbase-ai-blocks-4-7-203000913.html?.tsrc=rss",
+      "date": "2026-11-18T20:30:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "TeraWulf Rises 6%, Cipher Digital Gains 5% After NVIDIA's Record Quarter; IREN Climbs 4%",
-      "link": "https://247wallst.com/investing/2026/11/18/terawulf-rises-6-cipher-digital-gains-5-after-nvidias-record-quarter-iren-climbs-4/?.tsrc=rss",
-      "date": "2026-11-18T14:11:56.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Southeast Asia's data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
-      "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
-      "date": "2026-11-18T14:09:26.000Z",
-      "source": "CNBC"
-    },
-    {
-      "title": "Anthropic wants everyday investors to be part of its IPO. Those investors have their doubts.",
-      "link": "https://www.marketwatch.com/story/anthropic-wants-everyday-investors-to-be-part-of-its-ipo-some-are-not-buying-it-43576d2d?mod=mw_rss_topstories",
-      "date": "2026-11-18T14:09:00.000Z",
+      "title": "Grand Theft Callout: ‘GTA 6’ fans are missing work to play — and some companies are making the game’s release a holiday",
+      "link": "https://www.marketwatch.com/story/grand-theft-callout-gta-6-fans-are-missing-work-on-the-games-release-day-because-they-dont-want-to-wait-anymore-5f2fa2e3?mod=mw_rss_topstories",
+      "date": "2026-11-18T20:29:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Applied Optoelectronics Sinks 9% on $550 Million Stock Sale Plan; Coherent and Lumentum Rise 4%",
-      "link": "https://247wallst.com/investing/2026/11/18/applied-optoelectronics-sinks-9-on-550-million-stock-sale-plan-coherent-and-lumentum-rise-4/?.tsrc=rss",
-      "date": "2026-11-18T14:08:51.000Z",
+      "title": "Nvidia's interim CEO Colette Kress has taken over one of the most consequential companies on the planet; those who know her say she's up to the task",
+      "link": "https://finance.yahoo.com/technology/article/nvidias-interim-ceo-colette-kress-has-taken-over-one-of-the-most-consequential-companies-on-the-planet-those-who-know-her-say-shes-up-to-the-task-202619183.html?.tsrc=rss",
+      "date": "2026-11-18T20:26:19.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Wednesday Amid Nvidia Earnings, Upcoming Fed Meeting Minutes",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-140832688.html?.tsrc=rss",
-      "date": "2026-11-18T14:08:32.000Z",
+      "title": "IREN, CoreWeave and Nebius Stock Prices Have Plunged More Than 60%. Here's What It Means for AI Investors",
+      "link": "https://www.fool.com/investing/2026/11/18/iren-coreweave-and-nebius-stock-prices-have-plunged-more-than-60-here-s-what-it-means-for-ai-investors/?.tsrc=rss",
+      "date": "2026-11-18T20:25:47.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "NiCE Unites AI and Human Agents with Microsoft on One Connected Customer Service Stack",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nice-unites-ai-human-agents-140700300.html?.tsrc=rss",
-      "date": "2026-11-18T14:07:00.000Z",
+      "title": "Alphabet is Buying Around $10 Billion More Anthropic Shares on Day 1. Should You Follow?",
+      "link": "https://www.fool.com/investing/2026/11/18/alphabet-is-buying-around-usd10-billion-more-anthropic-shares-on-day-1-should-you-follow/?.tsrc=rss",
+      "date": "2026-11-18T20:25:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "NVIDIA Rises 3% After Record Quarter as Wells Fargo Sees $250 and Barclays Backs Board on Huang; Taiwan Semiconductor Climbs 3%, Broadcom Gains 2%",
-      "link": "https://247wallst.com/investing/2026/11/18/nvidia-rises-3-after-record-quarter-as-wells-fargo-sees-250-and-barclays-backs-board-on-huang-taiwan-semiconductor-climbs-3-broadcom-gains-2/?.tsrc=rss",
-      "date": "2026-11-18T14:06:50.000Z",
+      "title": "GoodRx's $32 million privacy settlement: See if you qualify for a payment",
+      "link": "https://finance.yahoo.com/personal-finance/banking/article/goodrxs-32-million-privacy-settlement-see-if-you-qualify-for-a-payment-201906769.html?.tsrc=rss",
+      "date": "2026-11-18T20:19:06.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is Nvidia's post earnings rally a green light to buy the correction?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-post-earnings-rally-green-140645707.html?.tsrc=rss",
-      "date": "2026-11-18T14:06:45.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The AI power scramble is in full force. Which companies really stand to profit?",
-      "link": "https://www.marketwatch.com/story/the-ai-power-scramble-is-in-full-force-which-companies-really-stand-to-profit-f719619c?mod=mw_rss_topstories",
-      "date": "2026-11-18T14:06:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Stock Market Today: Dow Wavers As Fed Official Calls For Larger Hike; Nvidia Shares Jump On Earnings (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow.html?.tsrc=rss",
-      "date": "2026-11-18T14:05:47.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Airbnb vs. Shopify: Which Consumer Stock Is a Better Buy for 2027?",
-      "link": "https://www.fool.com/coverage/better-buy/2026/11/18/airbnb-vs-shopify-which-consumer-stock-is-a-better-buy-for-2027/?.tsrc=rss",
-      "date": "2026-11-18T14:05:01.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Conga Brings Its Commerce Suite to Microsoft Marketplace, Integrated with Dynamics 365 and Copilot",
-      "link": "https://finance.yahoo.com/technology/articles/conga-brings-commerce-suite-microsoft-140500017.html?.tsrc=rss",
-      "date": "2026-11-18T14:05:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic Will Pay SpaceX Up to $120.5 Billion for Compute Through 2029. That's More Than SpaceX Raised in the Biggest IPO in History.",
-      "link": "https://www.fool.com/investing/2026/11/18/anthropic-pay-spacex-120-billion-compute-ipo/?.tsrc=rss",
-      "date": "2026-11-18T14:05:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The 3 Best AI Stocks to Buy Now (Yes, Nvidia Is One of Them)",
-      "link": "https://www.fool.com/investing/2026/11/18/the-3-best-ai-stocks-to-buy-now-yes-nvidia-is-one-of-them/?.tsrc=rss",
-      "date": "2026-11-18T14:04:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Here's How Much Passive Income $50,000 Generates in These 4 Dividend Aristocrats",
-      "link": "https://247wallst.com/investing/2026/11/18/heres-how-much-passive-income-50000-generates-in-these-4-dividend-aristocrats/?.tsrc=rss",
-      "date": "2026-11-18T14:02:19.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Tuesday's insider buys and sells: RA Capital invests $43M in PepGen",
-      "link": "https://www.investing.com/news/stock-market-news/tuesdays-insider-buys-and-sells-ra-capital-invests-43m-in-pepgen-93CH-5036253",
-      "date": "2026-11-18T14:01:18.000Z",
+      "title": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-prepares-for-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-5035325",
+      "date": "2026-11-18T20:18:38.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Syndigo Helps Brands and Retailers Get Products to Market Faster with Microsoft Copilot",
-      "link": "https://finance.yahoo.com/technology/ai/articles/syndigo-helps-brands-retailers-products-140100392.html?.tsrc=rss",
-      "date": "2026-11-18T14:01:00.000Z",
+      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
+      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
+      "date": "2026-11-18T20:18:24.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "SpaceX Is Now Nvidia's Biggest Stock Holding, Ahead of Intel. Here's What That Says About SpaceX.",
+      "link": "https://www.fool.com/investing/2026/11/18/spacex-is-now-nvidia-s-biggest-stock-holding-ahead-of-intel-here-s-what-that-says-about-spacex/?.tsrc=rss",
+      "date": "2026-11-18T20:17:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "EVERYTHING YOU NEED TO KNOW ABOUT THE 2026 LOS ANGELES AUTO SHOW",
-      "link": "https://finance.yahoo.com/technology/articles/everything-know-2026-los-angeles-140100583.html?.tsrc=rss",
-      "date": "2026-11-18T14:01:00.000Z",
+      "title": "Stock Market Today: Dow Drops On Heightened Fed Rate-Hike Fears; Palo Alto Jumps (Live Coverage)",
+      "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-drops.html?.tsrc=rss",
+      "date": "2026-11-18T20:15:32.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Bad News For Tesla, As Waymo Gets Pulled Off The Road",
-      "link": "https://247wallst.com/investing/2026/11/18/bad-news-for-tesla-as-waymo-gets-pulled-off-the-road/?.tsrc=rss",
-      "date": "2026-11-18T14:00:02.000Z",
+      "title": "Microsoft Copilot's cost advantage claim: plausible but unproven",
+      "link": "https://finance.yahoo.com/technology/ai/articles/microsoft-copilot-cost-advantage-claim-201123346.html?.tsrc=rss",
+      "date": "2026-11-18T20:11:23.000Z",
       "source": "Yahoo Finance"
+    },
+    {
+      "title": "Should You Trim Or Add To Your Rivian Position Now?",
+      "link": "https://www.trefis.com/stock/rivn/articles/626168/should-you-trim-or-add-to-your-rivian-position-now/2026-11-18?.tsrc=rss",
+      "date": "2026-11-18T20:11:12.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Which Funds With Semiconductor Exposure Best Capture The China AI Chip Curbs?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/funds-semiconductor-exposure-best-capture-200931859.html?.tsrc=rss",
+      "date": "2026-11-18T20:09:31.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why Isn't Alphabet Stock Taking Off After Reporting Record Cloud Growth?",
+      "link": "https://www.fool.com/investing/2026/11/18/why-isn-t-alphabet-stock-taking-off-after-reporting-record-cloud-growth/?.tsrc=rss",
+      "date": "2026-11-18T20:07:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dollar firmer as hawkish Waller backs aggressive Fed action",
+      "link": "https://www.investing.com/news/economy-news/dollar-holds-near-19month-high-as-data-supports-case-for-us-rate-hikes-5034498",
+      "date": "2026-11-18T20:06:39.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "The Best Recession-Proof Consumer Stock to Buy With $1,000 Before 2027",
+      "link": "https://www.fool.com/investing/2026/11/18/the-best-recession-proof-consumer-stock-to-buy-with-1000-before-2027/?.tsrc=rss",
+      "date": "2026-11-18T20:05:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Mizuho raises Costco price target but removes stock from Top Picks list",
+      "link": "https://www.investing.com/news/stock-market-news/mizuho-raises-costco-price-target-but-removes-stock-from-top-picks-list-5036907",
+      "date": "2026-11-18T20:03:49.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "NVIDIA Is Near Its 52-Week Low. Will NVDA Stock Hit $100 or $200 First?",
+      "link": "https://247wallst.com/investing/2026/11/18/nvidia-is-near-its-52-week-low-will-nvda-stock-hit-100-or-200-first/?.tsrc=rss",
+      "date": "2026-11-18T20:03:09.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bessent Wants an Outside CEO. Brad Gerstner Says Nvidia Should Wait on Jensen Huang",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63409363/nvidia-ceo-search?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "date": "2026-11-18T20:00:07.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "U.S. Stocks Mostly Lower After Nvidia Earnings Fail to Soothe Nerves",
+      "link": "https://www.wsj.com/finance/commodities-futures/stock-futures-rally-as-nvidia-earnings-calm-ai-trade-fears-96f51546?.tsrc=rss",
+      "date": "2026-11-18T19:59:00.000Z",
+      "source": "Yahoo Finance"
+    }
+  ],
+  "featured": [
+    {
+      "title": "Coinbase AI blocks $4.7 million deepfake Elon Musk crypto scam",
+      "link": "https://finance.yahoo.com/video/coinbase-ai-blocks-4-7-203000913.html?.tsrc=rss",
+      "date": "2026-11-18T20:30:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-prepares-for-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-5035325",
+      "date": "2026-11-18T20:18:38.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "date": "2026-11-18T19:41:59.000Z",
+      "source": "CNBC"
     }
   ],
   "yields": {

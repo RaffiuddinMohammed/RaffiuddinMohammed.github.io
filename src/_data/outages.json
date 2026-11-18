@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T19:38:03.635Z",
+  "checked": "2026-11-18T20:44:58.944Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Increased latency on Analytics API (GraphQL) queries",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -57,8 +57,8 @@
     },
     {
       "name": "Vercel",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "Delays in observability data",
       "url": "https://www.vercel-status.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Vercel",
+      "title": "Delays in observability data",
+      "impact": "major",
+      "start": "2026-11-18T20:44:33.567Z",
+      "end": null,
+      "url": "https://stspg.io/mskmcg5p67tp"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Increased latency on Analytics API (GraphQL) queries",
+      "impact": "minor",
+      "start": "2026-11-18T20:35:12.303Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/9zpa7own49hb"
+    },
     {
       "service": "Cloudflare",
       "title": "R2 Downloads Stalling in Japan",
@@ -783,14 +799,6 @@
       "start": "2026-11-04T08:45:00.281Z",
       "end": "2026-11-04T10:01:44.560Z",
       "url": "https://stspg.io/hj74883wgn0t"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Cloudflare Pages Upload Issue",
-      "impact": "minor",
-      "start": "2026-11-04T07:11:09.647Z",
-      "end": "2026-11-04T06:35:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/me060q7dbayp"
     },
     {
       "service": "GitHub",

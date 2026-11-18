@@ -1,15 +1,11 @@
 {
-  "updated": "2026-11-18T14:21:20.864Z",
+  "updated": "2026-11-18T20:44:51.036Z",
   "topics": [
     {
       "key": "ai",
       "label": "AI",
       "query": "\"artificial intelligence\"",
       "series": [
-        {
-          "date": "2025-11-29",
-          "value": 0.6395
-        },
         {
           "date": "2025-11-30",
           "value": 0.6144
