@@ -722,3 +722,61 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .oc-short { display: none; }
 @media (max-width: 560px) { .oc-long { display: none; } .oc-short { display: inline; } .flash-rss { padding: 4px 6px; } }
 @media (prefers-reduced-motion: reduce) { .outage-chip .st-dot { animation: none !important; } }
+
+/* ================= v2.2 motion pass (18 Nov) ================= */
+/* 1. hero: text + live pipeline panel side by side */
+.hero-intro { max-width: none; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+.pipeline { position: relative; border-radius: 18px; padding: 16px 18px; border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--surface) 88%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+  box-shadow: 0 20px 50px -24px color-mix(in srgb, var(--c3) 45%, transparent); transition: box-shadow .4s, border-color .4s; }
+.pipeline.passed { border-color: color-mix(in srgb, #22a35a 55%, var(--border)); box-shadow: 0 20px 50px -22px color-mix(in srgb, #22a35a 55%, transparent); }
+.pl-head { display: flex; align-items: center; gap: 8px; font-size: .82rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-bottom: 10px; }
+.pl-dot { width: 8px; height: 8px; border-radius: 50%; background: #22a35a; }
+.pipeline.running .pl-dot { background: var(--c1); animation: blink 1s steps(2, start) infinite; }
+.pl-state { margin-left: auto; font-family: inherit; font-size: .72rem; color: var(--text-2); }
+.pl-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.pl-steps li { display: grid; grid-template-columns: 22px auto 1fr; align-items: center; gap: 4px 10px; padding: 7px 8px; border-radius: 10px; font-size: .85rem;
+  transition: background .3s, opacity .3s; opacity: .45; }
+.pl-steps li span:last-child { color: var(--text-2); font-size: .78rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.pl-steps li.run, .pl-steps li.done { opacity: 1; }
+.pl-steps li.run { background: color-mix(in srgb, var(--c1) 12%, transparent); }
+.pl-ic { width: 18px; height: 18px; border-radius: 50%; border: 2px solid var(--border); display: inline-grid; place-items: center; font-size: .65rem; font-weight: 800; color: #fff; }
+.pl-steps li.run .pl-ic { border-color: var(--c1); border-top-color: transparent; animation: spin .8s linear infinite; }
+.pl-steps li.done .pl-ic { border-color: #22a35a; background: #22a35a; animation: pop .35s ease; }
+.pl-steps li.done .pl-ic::after { content: "✓"; }
+@keyframes pop { 0% { transform: scale(.4); } 70% { transform: scale(1.2); } 100% { transform: scale(1); } }
+.pl-foot { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border); font-size: .78rem; }
+.pl-pass { font-weight: 700; color: #22a35a; }
+@media (max-width: 960px) { .hero-intro { grid-template-columns: 1fr; gap: 24px; } }
+
+/* 2. moving glow + faint grid behind the hero */
+.hero-home { position: relative; isolation: isolate; }
+.hero-home .glow { height: 680px; inset: -120px -20vw auto; animation-duration: 14s; opacity: 1; }
+.hero-grid { position: absolute; z-index: -1; inset: -40px -10vw auto; height: 640px; pointer-events: none;
+  background-image: linear-gradient(color-mix(in srgb, var(--text) 7%, transparent) 1px, transparent 1px),
+                    linear-gradient(90deg, color-mix(in srgb, var(--text) 7%, transparent) 1px, transparent 1px);
+  background-size: 44px 44px; animation: gridmove 22s linear infinite;
+  -webkit-mask-image: radial-gradient(60% 60% at 60% 35%, #000, transparent 75%); mask-image: radial-gradient(60% 60% at 60% 35%, #000, transparent 75%); }
+@keyframes gridmove { to { background-position: 44px 44px, 44px 44px; } }
+
+/* 3. a light sweep across the gradient headline every few seconds */
+.grad.sweep { background-image: linear-gradient(110deg, transparent 42%, rgba(255, 255, 255, .7) 50%, transparent 58%), linear-gradient(90deg, var(--ink1), var(--ink2) 50%, var(--ink3));
+  background-size: 250% 100%, 200% auto; background-repeat: no-repeat, repeat; animation: sweep 6s ease-in-out infinite, shimmer 8s ease-in-out infinite alternate; }
+@keyframes sweep { 0%, 55% { background-position: 150% 0, 0% center; } 100% { background-position: -50% 0, 100% center; } }
+
+/* 5. hover: button arrows nudge, dashboard icons bounce, hero cards glow */
+.btn .arr { display: inline-block; transition: transform .2s; }
+.btn:hover .arr { transform: translateX(4px); }
+.dash .icon { transition: transform .3s cubic-bezier(.3, 1.6, .5, 1); }
+a.card.dash:hover .icon { transform: scale(1.12) rotate(-6deg); }
+.hero-card { transition: transform .3s, box-shadow .3s, border-color .3s; }
+.hero-globe:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--c4) 50%, var(--border)); box-shadow: 0 18px 44px -20px color-mix(in srgb, var(--c4) 50%, transparent); }
+.hero-pair .demo-mini:hover { transform: translateY(-3px); }
+.home-cta { transition: box-shadow .3s; } .home-cta:hover { box-shadow: 0 18px 44px -20px color-mix(in srgb, var(--c2) 55%, transparent); }
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-grid, .hero-home .glow, .grad.sweep { animation: none; }
+  .pl-steps li { opacity: 1; } .pl-ic { animation: none !important; }
+  .hero-card:hover, a.card.dash:hover .icon { transform: none; }
+}
+@media (max-width: 560px) { .pl-steps li span:last-child { grid-column: 2 / -1; white-space: normal; } .pl-steps li { align-items: start; } }

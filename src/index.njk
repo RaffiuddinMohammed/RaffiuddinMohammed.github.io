@@ -6,13 +6,30 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
 ---
 
 <section class="hero hero-home">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
   <div class="hero-intro">
-    <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
-    <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad">I build test automation that runs itself.</span></h1>
-    <p class="lede">Web, iOS and Android tests that run on a schedule, check the results and report back, with nobody touching them. Below: a test running right now, and a globe that rebuilds itself from the news every day.</p>
-    <div class="actions">
-      <a class="btn primary" href="/about/#for-business">What I can build for you <span aria-hidden="true">→</span></a>
-      <a class="btn" href="#dashboards">See the live dashboards</a>
+    <div class="hi-text">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
+      <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad sweep">I build test automation that runs itself.</span></h1>
+      <p class="lede">Web, iOS and Android tests that run on a schedule, check the results and report back, with nobody touching them. Below: a test running right now, and a globe that rebuilds itself from the news every day.</p>
+      <div class="actions">
+        <a class="btn primary" href="/about/#for-business">What I can build for you <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn" href="#dashboards">See the live dashboards</a>
+      </div>
+    </div>
+    {# A replay of this site's own pipeline, with real numbers from the last run #}
+    <div class="pipeline" data-pipeline data-last-run="{{ outages.checked }}" aria-label="This site's automated pipeline: every step passed on the last run">
+      <div class="pl-head"><span class="pl-dot" aria-hidden="true"></span><b>site-pipeline.yml</b><span class="pl-state" data-pl-state>All checks passed</span></div>
+      <ol class="pl-steps">
+        <li class="done"><span class="pl-ic" aria-hidden="true"></span><b>Schedule</b><span>GitHub Actions wakes up every 30 minutes</span></li>
+        <li class="done"><span class="pl-ic" aria-hidden="true"></span><b>Collect</b><span>{{ bbc.totalStories | num }} BBC stories, {{ markets.headlineCount | num }} market headlines</span></li>
+        <li class="done"><span class="pl-ic" aria-hidden="true"></span><b>Check</b><span>{{ outages.services.length }} service status pages</span></li>
+        <li class="done"><span class="pl-ic" aria-hidden="true"></span><b>Test</b><span>Validate the data, keep the last good copy if a source fails</span></li>
+        <li class="done"><span class="pl-ic" aria-hidden="true"></span><b>Build &amp; deploy</b><span>Eleventy to GitHub Pages</span></li>
+        <li class="done"><span class="pl-ic" aria-hidden="true"></span><b>Notify</b><span>RSS and alerts when something changes</span></li>
+      </ol>
+      <div class="pl-foot"><span class="pl-pass">✓ 6 of 6 passed</span><span class="muted">Last real run: <span data-pl-ago>{{ outages.checked | when }}</span></span></div>
     </div>
   </div>
   <div class="hero-pair">
@@ -52,6 +69,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
   </div>
 </section>
 <script src="/assets/automation-demo.js" defer></script>
+<script src="/assets/pipeline.js" defer></script>
 
 {% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
 <section id="dashboards">
@@ -62,7 +80,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
     <a class="card dash tint-5 reveal" href="/dashboards/markets/">
       <span class="icon" aria-hidden="true">📈</span>
       <h3>Markets today <span class="new-badge">New</span></h3>
-      {% if markets.yields %}<div class="big">{{ markets.yields.latest.y10.toFixed(2) }}%</div>{% endif %}
+      {% if markets.yields %}<div class="big" data-count>{{ markets.yields.latest.y10.toFixed(2) }}%</div>{% endif %}
       <p class="muted">US 10-year Treasury yield. Plus live prices for the Magnificent 7 and top US and UK shares{% if markets.themes[0].count %}, and today's top market theme: <b>{{ markets.themes[0].name }}</b>{% endif %}.</p>
       <span class="go">Open dashboard →</span>
     </a>
@@ -70,28 +88,28 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
     <a class="card dash tint-4 reveal" href="/dashboards/outages/">
       <span class="icon" aria-hidden="true">🚨</span>
       <h3>Outage watch</h3>
-      <div class="big">{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }}</div>
+      <div class="big" data-count>{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }}</div>
       <p class="muted">major online services running normally.{% if downNow.length %} <b>Right now:</b> {{ downNow | join(', ') }} {{ 'is' if downNow.length == 1 else 'are' }} reporting problems.{% endif %} Checked every 30 minutes.</p>
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-2 reveal" href="/dashboards/headlines/">
       <span class="icon" aria-hidden="true">📰</span>
       <h3>Today's headlines, by the numbers</h3>
-      <div class="big">{{ bbc.totalStories | num }}</div>
+      <div class="big" data-count>{{ bbc.totalStories | num }}</div>
       <p class="muted">BBC News stories today, by section and top words, with a 3D globe of where the news is happening.</p>
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
       <span class="icon" aria-hidden="true">🌍</span>
       <h3>What the world is talking about</h3>
-      {% if insights.leader %}<div class="big">{{ insights.leader.last.toFixed(2) }}%</div>{% endif %}
+      {% if insights.leader %}<div class="big" data-count>{{ insights.leader.last.toFixed(2) }}%</div>{% endif %}
       <p class="muted">{% if insights.leader %}of global news coverage is about <b>{{ insights.leader.label }}</b>, the top of {{ gdelt.topics.length }} topics tracked over three months.{% else %}Share of global news coverage for {{ gdelt.topics.length }} big topics over three months.{% endif %}</p>
       <span class="go">Open dashboard →</span>
     </a>
     <a class="card dash tint-3 reveal" href="/dashboards/tech/">
       <span class="icon" aria-hidden="true">💻</span>
       <h3>What tech is reading</h3>
-      <div class="big">{{ hn.stories[0].points | num }}</div>
+      <div class="big" data-count>{{ hn.stories[0].points | num }}</div>
       <p class="muted">points on today's top Hacker News story, and the rest of the front page.</p>
       <span class="go">Open dashboard →</span>
     </a>
