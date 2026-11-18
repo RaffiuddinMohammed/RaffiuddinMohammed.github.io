@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-18T22:49:28.163Z",
-  "totalStories": 251,
+  "updated": "2026-11-18T22:58:02.895Z",
+  "totalStories": 252,
   "sections": [
-    {
-      "name": "UK",
-      "count": 28
-    },
     {
       "name": "World",
       "count": 27
     },
     {
+      "name": "UK",
+      "count": 27
+    },
+    {
       "name": "Business",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Science",
@@ -573,6 +573,12 @@
       "section": "World"
     },
     {
+      "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
+      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T21:28:08.000Z",
+      "section": "Business"
+    },
+    {
       "title": "UK government asks for Russell Brand's YouTube account to be removed",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T21:17:50.000Z",
@@ -630,12 +636,6 @@
       "title": "Police chief says racists and misogynists working inside force",
       "link": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T19:10:40.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Council wins legal fight against flags on lamp-posts",
-      "link": "https://www.bbc.co.uk/news/articles/ckq5vg81805qo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T18:19:34.000Z",
       "section": "UK"
     }
   ]

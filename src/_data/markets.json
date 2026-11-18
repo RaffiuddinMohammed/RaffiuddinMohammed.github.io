@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:49:26.790Z",
+  "updated": "2026-11-18T22:58:01.114Z",
   "headlineCount": 84,
   "sources": [
     {
@@ -22,19 +22,19 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 23
+      "count": 26
     },
     {
       "name": "Earnings",
-      "count": 21
+      "count": 17
     },
     {
       "name": "Interest rates",
-      "count": 13
+      "count": 10
     },
     {
       "name": "Inflation",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Jobs",
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 18
+      "count": 16
     },
     {
       "name": "Apple",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Amazon",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Meta",
@@ -89,10 +89,34 @@
   ],
   "latest": [
     {
+      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
+      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
+      "date": "2026-11-18T22:54:27.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "First US Bancshares stock rises on buyback extension",
+      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
+      "date": "2026-11-18T22:53:22.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:53:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
       "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
       "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:48:00.000Z",
+      "date": "2026-11-18T22:53:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Markel Group stock jumps on $2.5B buyback boost",
+      "link": "https://www.investing.com/news/stock-market-news/markel-group-stock-jumps-on-25b-buyback-boost-5037308",
+      "date": "2026-11-18T22:51:45.000Z",
+      "source": "Investing.com"
     },
     {
       "title": "Moody's cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
@@ -123,6 +147,12 @@
       "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
       "date": "2026-11-18T22:42:29.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "It's Official: Anthropic Prices Its IPO at $83 a Share. Here's What We Know (and What We Don't)",
+      "link": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/?.tsrc=rss",
+      "date": "2026-11-18T22:37:02.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Brazil Senate approves fiscal package as government seeks to calm markets",
@@ -161,53 +191,41 @@
       "source": "Yahoo Finance"
     },
     {
+      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Rally After Nvidia, Target, UnitedHealth Drive Market",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
+      "date": "2026-11-18T22:28:14.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
       "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
       "date": "2026-11-18T22:25:04.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "The 5 Best Stocks in Nvidia's Portfolio",
-      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-nvidias-portfolio?ref=yahoofinance&tlnk=yf-261118-w3gg2hcj&.tsrc=rss",
-      "date": "2026-11-18T22:23:15.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
-      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
-      "date": "2026-11-18T22:18:40.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Dan Sundheim's Fund Still Has More Than Half of Its $32 Billion Stock Portfolio in One Stock",
-      "link": "https://247wallst.com/investing/2026/11/18/dan-sundheims-fund-still-has-more-than-half-of-its-32-billion-stock-portfolio-in-one-stock/?.tsrc=rss",
-      "date": "2026-11-18T22:18:37.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The data center bottlenecks that Mavria aims to solve",
-      "link": "https://finance.yahoo.com/video/the-data-center-bottlenecks-that-mavria-aims-to-solve-221600157.html?.tsrc=rss",
-      "date": "2026-11-18T22:16:00.000Z",
+      "title": "I Listened to MP Materials' Earnings Call. Here's the 1 Thing That Stuck With Me.",
+      "link": "https://www.fool.com/investing/2026/11/18/i-listened-to-xs-earnings-call-heres-the-1-thing-t/?.tsrc=rss",
+      "date": "2026-11-18T22:25:00.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:48:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Moody's cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
-      "link": "https://www.investing.com/news/stock-market-news/moodys-cuts-nvidia-credit-outlook-to-stable-after-ceo-jensen-huang-exits-5037292",
-      "date": "2026-11-18T22:44:05.000Z",
+      "title": "First US Bancshares stock rises on buyback extension",
+      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
+      "date": "2026-11-18T22:53:22.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "The 5 Best Stocks in Nvidia's Portfolio",
-      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-nvidias-portfolio?ref=yahoofinance&tlnk=yf-261118-w3gg2hcj&.tsrc=rss",
-      "date": "2026-11-18T22:23:15.000Z",
+      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
+      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:53:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "It's Official: Anthropic Prices Its IPO at $83 a Share. Here's What We Know (and What We Don't)",
+      "link": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/?.tsrc=rss",
+      "date": "2026-11-18T22:37:02.000Z",
       "source": "Yahoo Finance"
     }
   ],

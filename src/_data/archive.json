@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:57:27.491Z",
+  "updated": "2026-11-18T23:06:34.042Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,19 +3097,19 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 251,
+      "totalStories": 252,
       "sections": [
-        {
-          "name": "UK",
-          "count": 28
-        },
         {
           "name": "World",
           "count": 27
         },
         {
+          "name": "UK",
+          "count": 27
+        },
+        {
           "name": "Business",
-          "count": 16
+          "count": 17
         },
         {
           "name": "Science",
@@ -3617,6 +3617,11 @@
           "section": "World"
         },
         {
+          "title": "Can Anthropic's record breaking IPO stop the AI bubble bursting?",
+          "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
           "title": "UK government asks for Russell Brand's YouTube account to be removed",
           "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
@@ -3630,23 +3635,18 @@
           "title": "Thousands regain water supply after major outage",
           "link": "https://www.bbc.co.uk/news/articles/c9e85y3ex824o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
-          "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 961
+          "points": 970
         },
         {
           "title": "DNS resolvers are the wrong place to fight piracy",
           "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
-          "points": 534
+          "points": 539
         },
         {
           "title": "Inside Deutsche Bank",
