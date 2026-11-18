@@ -21,35 +21,6 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
   {% if d.closed %}{% set shut = (shut.push(d.label + ': US markets closed (' + d.closed + ')'), shut) %}{% endif %}
   {% if d.early %}{% set shut = (shut.push(d.label + ': US markets close early (' + d.early + ')'), shut) %}{% endif %}
 {% endfor %}
-<section class="card week-ahead tint-5">
-  <div class="eyebrow">The week ahead · {{ calendar.days[0].label }} to {{ calendar.days[calendar.days.length - 1].label }}</div>
-  <h2>What to watch this week</h2>
-  <div class="wa-grid">
-    <div>
-      <h3>📣 Big earnings</h3>
-      {% if bigE.length %}<ul class="wa-list">
-        {% for x in bigE.slice(0, 8) %}<li><b>{{ x.e.name }}</b>{% if x.e.mag7 %} <span class="badge mag7">Mag 7</span>{% endif %} <span class="muted">{{ x.d.label }}, {{ 'before the open' if x.e.when == 'before' else ('after the close' if x.e.when == 'after' else 'time tbc') }}</span></li>{% endfor %}
-      </ul>{% else %}<p class="muted">No companies over $100 billion report this week.</p>{% endif %}
-      <a class="go-link" href="#earnings">Full earnings calendar ↓</a>
-    </div>
-    <div>
-      <h3>📊 Key data and central banks</h3>
-      {% if keyEv.length %}<ul class="wa-list">
-        {% for x in keyEv.slice(0, 8) %}<li><span class="flag">{{ '🇺🇸' if x.v.country == 'US' else '🇬🇧' }}</span><b>{{ x.v.what }}</b> <span class="muted">{{ x.d.label }}{% if x.v.time %}, {{ x.v.time }} UK{% endif %}{% if x.v.previous %} · last {{ x.v.previous }}{% endif %}{% if x.v.consensus %} · expected {{ x.v.consensus }}{% endif %}</span></li>{% endfor %}
-      </ul>{% else %}<p class="muted">A quiet week for major US and UK data.</p>{% endif %}
-    </div>
-    <div>
-      <h3>🧭 Backdrop</h3>
-      <ul class="wa-list">
-        {% for x in shut %}<li><b>📅 {{ x }}</b></li>{% endfor %}
-        {% if markets.themes[0].count %}<li><b>{{ markets.themes[0].name }}</b> is the biggest theme in market news: {{ markets.themes[0].count }} of {{ markets.headlineCount }} headlines.</li>{% endif %}
-        {% if markets.yields %}{% set y = markets.yields %}{% set dy = ((y.latest.y10 - y.monthAgo.y10) * 100) | round %}<li>The US 10-year yield is <b>{{ y.latest.y10.toFixed(2) }}%</b>, {{ 'up' if dy > 0 else ('down' if dy < 0 else 'flat') }}{% if dy != 0 %} {{ dy | abs }} basis points{% endif %} on a month ago.</li>{% endif %}
-        {% if markets.mag7[0].count %}<li><b>{{ markets.mag7[0].name }}</b> is the Magnificent 7 name most in the news.</li>{% endif %}
-      </ul>
-    </div>
-  </div>
-  <p class="muted wa-note">Built automatically from public calendars. It lists what's scheduled, not what will happen: not financial advice.</p>
-</section>
 {% endif %}
 
 {# ---------- Prices: TradingView widgets (delayed quotes, licensed for embedding) ---------- #}
@@ -162,6 +133,36 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
 
 
 {% if calendar.days and calendar.days.length %}
+<section class="card week-ahead tint-5">
+  <div class="eyebrow">The week ahead · {{ calendar.days[0].label }} to {{ calendar.days[calendar.days.length - 1].label }}</div>
+  <h2>What to watch this week</h2>
+  <div class="wa-grid">
+    <div>
+      <h3>📣 Big earnings</h3>
+      {% if bigE.length %}<ul class="wa-list">
+        {% for x in bigE.slice(0, 8) %}<li><b>{{ x.e.name }}</b>{% if x.e.mag7 %} <span class="badge mag7">Mag 7</span>{% endif %} <span class="muted">{{ x.d.label }}, {{ 'before the open' if x.e.when == 'before' else ('after the close' if x.e.when == 'after' else 'time tbc') }}</span></li>{% endfor %}
+      </ul>{% else %}<p class="muted">No companies over $100 billion report this week.</p>{% endif %}
+      <a class="go-link" href="#earnings">Full earnings calendar ↓</a>
+    </div>
+    <div>
+      <h3>📊 Key data and central banks</h3>
+      {% if keyEv.length %}<ul class="wa-list">
+        {% for x in keyEv.slice(0, 8) %}<li><span class="flag">{{ '🇺🇸' if x.v.country == 'US' else '🇬🇧' }}</span><b>{{ x.v.what }}</b> <span class="muted">{{ x.d.label }}{% if x.v.time %}, {{ x.v.time }} UK{% endif %}{% if x.v.previous %} · last {{ x.v.previous }}{% endif %}{% if x.v.consensus %} · expected {{ x.v.consensus }}{% endif %}</span></li>{% endfor %}
+      </ul>{% else %}<p class="muted">A quiet week for major US and UK data.</p>{% endif %}
+    </div>
+    <div>
+      <h3>🧭 Backdrop</h3>
+      <ul class="wa-list">
+        {% for x in shut %}<li><b>📅 {{ x }}</b></li>{% endfor %}
+        {% if markets.themes[0].count %}<li><b>{{ markets.themes[0].name }}</b> is the biggest theme in market news: {{ markets.themes[0].count }} of {{ markets.headlineCount }} headlines.</li>{% endif %}
+        {% if markets.yields %}{% set y = markets.yields %}{% set dy = ((y.latest.y10 - y.monthAgo.y10) * 100) | round %}<li>The US 10-year yield is <b>{{ y.latest.y10.toFixed(2) }}%</b>, {{ 'up' if dy > 0 else ('down' if dy < 0 else 'flat') }}{% if dy != 0 %} {{ dy | abs }} basis points{% endif %} on a month ago.</li>{% endif %}
+        {% if markets.mag7[0].count %}<li><b>{{ markets.mag7[0].name }}</b> is the Magnificent 7 name most in the news.</li>{% endif %}
+      </ul>
+    </div>
+  </div>
+  <p class="muted wa-note">Built automatically from public calendars. It lists what's scheduled, not what will happen: not financial advice.</p>
+</section>
+
 <section id="earnings">
   <div class="card">
     <h2>Earnings calendar</h2>
