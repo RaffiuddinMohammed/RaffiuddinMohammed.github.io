@@ -1,43 +1,43 @@
 {
-  "updated": "2026-11-18T22:09:42.094Z",
+  "updated": "2026-11-18T22:20:28.065Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 910,
-      "comments": 398,
+      "points": 921,
+      "comments": 403,
       "domain": "wiz.io"
     },
     {
       "title": "DNS resolvers are the wrong place to fight piracy",
       "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
       "discuss": "https://news.ycombinator.com/item?id=50545958",
-      "points": 521,
-      "comments": 181,
+      "points": 524,
+      "comments": 183,
       "domain": "techstackups.com"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 456,
-      "comments": 155,
+      "points": 463,
+      "comments": 161,
       "domain": "inside-db.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 367,
-      "comments": 249,
+      "points": 371,
+      "comments": 252,
       "domain": "microsoft.ai"
     },
     {
       "title": "Energy-Based Reasoners: 385x more efficient inference",
       "url": "https://energy-based-reasoners.github.io/",
       "discuss": "https://news.ycombinator.com/item?id=50543989",
-      "points": 291,
+      "points": 292,
       "comments": 49,
       "domain": "energy-based-reasoners.github.io"
     },
@@ -45,40 +45,40 @@
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
       "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
       "discuss": "https://news.ycombinator.com/item?id=50547777",
-      "points": 253,
-      "comments": 121,
+      "points": 259,
+      "comments": 125,
       "domain": "europeanbusinessmagazine.com"
     },
     {
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 204,
-      "comments": 158,
+      "points": 205,
+      "comments": 159,
       "domain": "cam.ac.uk"
-    },
-    {
-      "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
-      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
-      "discuss": "https://news.ycombinator.com/item?id=50548004",
-      "points": 155,
-      "comments": 110,
-      "domain": "cve.org"
     },
     {
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "discuss": "https://news.ycombinator.com/item?id=50552424",
-      "points": 151,
-      "comments": 117,
+      "points": 187,
+      "comments": 156,
       "domain": "blog.google"
+    },
+    {
+      "title": "KVM: x86: Unconditionally reset MMU context when emulating INIT (CVE-2026-99312)",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-99312",
+      "discuss": "https://news.ycombinator.com/item?id=50548004",
+      "points": 157,
+      "comments": 110,
+      "domain": "cve.org"
     },
     {
       "title": "Genie 4 is now available",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "discuss": "https://news.ycombinator.com/item?id=50550415",
-      "points": 145,
-      "comments": 119,
+      "points": 146,
+      "comments": 124,
       "domain": "blog.google"
     }
   ],

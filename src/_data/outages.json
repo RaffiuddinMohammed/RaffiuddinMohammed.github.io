@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T22:16:35.578Z",
+  "checked": "2026-11-18T22:26:49.320Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Elevated R2 error rates in EU and Asia Pacific region",
+      "impact": "minor",
+      "start": "2026-11-18T22:26:41.943Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd"
+    },
     {
       "service": "Vercel",
       "title": "Delays in observability data",
@@ -775,14 +783,6 @@
       "start": "2026-11-04T16:05:31.580Z",
       "end": "2026-11-04T17:01:11.503Z",
       "url": "https://stspg.io/pjgptg3cfc6n"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network latency issues in NRT",
-      "impact": "minor",
-      "start": "2026-11-04T13:39:26.804Z",
-      "end": "2026-11-04T15:33:09.877Z",
-      "url": "https://www.cloudflarestatus.com/incidents/nbnize4e990z"
     },
     {
       "service": "GitHub",

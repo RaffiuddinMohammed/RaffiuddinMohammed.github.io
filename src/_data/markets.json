@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-18T22:09:41.390Z",
-  "headlineCount": 87,
+  "updated": "2026-11-18T22:20:26.840Z",
+  "headlineCount": 85,
   "sources": [
     {
       "name": "CNBC",
-      "count": 17
+      "count": 15
     },
     {
       "name": "Yahoo Finance",
@@ -26,7 +26,7 @@
     },
     {
       "name": "Interest rates",
-      "count": 13
+      "count": 15
     },
     {
       "name": "Earnings",
@@ -37,11 +37,11 @@
       "count": 8
     },
     {
-      "name": "Oil and energy",
-      "count": 3
+      "name": "Jobs",
+      "count": 2
     },
     {
-      "name": "Jobs",
+      "name": "Oil and energy",
       "count": 2
     },
     {
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Apple",
@@ -89,6 +89,12 @@
   ],
   "latest": [
     {
+      "title": "Update: Wall Street Mixed Amid Nvidia Sell-Off, Fed Minutes",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mixed-amid-nvidia-220050802.html?.tsrc=rss",
+      "date": "2026-11-18T22:00:50.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
       "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
       "date": "2026-11-18T22:00:40.000Z",
@@ -107,16 +113,40 @@
       "source": "MarketWatch"
     },
     {
+      "title": "Where Will Palantir Stock Be in 1 Year?",
+      "link": "https://www.fool.com/investing/2026/11/18/where-will-palantir-stock-be-in-1-year/?.tsrc=rss",
+      "date": "2026-11-18T21:59:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "After-Hours Movers: PANW, CRWD, P, RRGB",
       "link": "https://www.investing.com/news/stock-market-news/afterhours-movers-panw-crwd-p-rrgb-432SI-5037183",
       "date": "2026-11-18T21:59:02.000Z",
       "source": "Investing.com"
     },
     {
+      "title": "Memory supply constraints will be even 'tighter' in 2027: Micron CTO",
+      "link": "https://finance.yahoo.com/video/memory-supply-constraints-will-be-even-tighter-in-2027-micron-cto-215815321.html?.tsrc=rss",
+      "date": "2026-11-18T21:58:15.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
       "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
       "date": "2026-11-18T21:58:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Dow Jones Futures: Anthropic IPO Prices High, Palo Alto, Everpure Jump After Market Mixed On Nvidia, Target, UnitedHealth, Fed 'Shock'",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures%3A-anthropic.html?.tsrc=rss",
+      "date": "2026-11-18T21:57:35.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Can Anthropic's IPO Revive Investor Excitement for the AI Trade?",
+      "link": "https://finance.yahoo.com/video/anthropic-ipo-revive-investor-excitement-215700294.html?.tsrc=rss",
+      "date": "2026-11-18T21:57:00.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Surge in software patches likely behind recent tech outages, experts say",
@@ -177,39 +207,15 @@
       "link": "https://www.investing.com/news/economy-news/feds-kashkari-says-interest-rates-can-impact-tech-investment-5037179",
       "date": "2026-11-18T21:53:17.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "Cathie Wood Keeps Buying Archer Aviation Stock. Should You?",
-      "link": "https://www.fool.com/investing/2026/11/18/cathie-wood-keeps-buying-archer-aviation-stock-should-you/?.tsrc=rss",
-      "date": "2026-11-18T21:50:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "What StoneX Took From Its Boston Roadshow With Stagwell (STGW)",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stonex-took-boston-roadshow-stagwell-214959678.html?.tsrc=rss",
-      "date": "2026-11-18T21:49:59.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Stock Market Today: Dow Ends In Red On Rate 'Shock' Fears; Nvidia Sinks As Anthropic IPO Looms",
-      "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-ends.html?.tsrc=rss",
-      "date": "2026-11-18T21:48:30.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "What William Blair Sees in Bill.com (BILL)",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/william-blair-sees-bill-com-214821502.html?.tsrc=rss",
-      "date": "2026-11-18T21:48:21.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dow Drops 561 Points. Nvidia Reverses Rally As Fed Signals More Rate Hikes.",
-      "link": "https://www.ibtimes.com/us-stocks-dow-falls-nvidia-earnings-fed-rate-hikes-3809938?.tsrc=rss",
-      "date": "2026-11-18T21:48:05.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "featured": [
+    {
+      "title": "Update: Wall Street Mixed Amid Nvidia Sell-Off, Fed Minutes",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-mixed-amid-nvidia-220050802.html?.tsrc=rss",
+      "date": "2026-11-18T22:00:50.000Z",
+      "source": "Yahoo Finance"
+    },
     {
       "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
       "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
@@ -221,12 +227,6 @@
       "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
       "date": "2026-11-18T21:58:00.000Z",
       "source": "MarketWatch"
-    },
-    {
-      "title": "3 Energy Stocks With Dividends Built to Last the Next 10 Years",
-      "link": "https://www.fool.com/investing/2026/11/18/3-energy-stocks-with-dividends-built-to-last-the-next-10-years/?.tsrc=rss",
-      "date": "2026-11-18T21:55:02.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "yields": {
