@@ -43,10 +43,45 @@ async function trends() {
     .filter((t) => { const k = t.term.toLowerCase().replace(/[^a-z0-9]/g, ''); return !seen.has(k) && seen.add(k); }).slice(0, 5);
 }
 
+// Markets page ticker: business, markets, money and crypto only, from finance-specific feeds.
+const BUSINESS_FEEDS = [
+  ['BBC Business', 'https://feeds.bbci.co.uk/news/business/rss.xml', true],   // true = broad feed, keep money stories only
+  ['CNBC', 'https://www.cnbc.com/id/10000664/device/rss/rss.html', true],    // Finance
+  ['MarketWatch', 'https://feeds.content.dowjones.io/public/rss/mw_topstories'],
+  ['Investing.com', 'https://www.investing.com/rss/news_25.rss'],             // Stock market
+  ['Cointelegraph', 'https://cointelegraph.com/rss'],                          // Crypto
+];
+// a story from a broad feed must mention money to make the bar (drops politics, culture, HR stories)
+const MONEY = /\b(?:market|stock|share|shares|shareholder|investor|invest\w*|fund|ipo|price[sd]?|pric\w+|bank\w*|fed|interest|rates?|inflation|economy|economic|gdp|recession|earnings|profit\w*|revenue|sales|deal|merger|takeover|acquisition|tax\w*|tariffs?|trade|budget|debt|bonds?|yields?|mortgage\w*|pensions?|savings?|wages?|pay|jobs?|unemployment|dollar|pound|sterling|euro|currenc\w+|crypto\w*|bitcoin|ether\w*|oil|gold|billion\w*|million\w*|trillion|valuation|valued|ceo|retail\w*|company|companies|firms?|business\w*|bills?|costs?|spending)\b|[$£€]\d/i;
+async function business() {
+  const perSource = await Promise.all(BUSINESS_FEEDS.map(async ([source, url, broad]) => {
+    try {
+      const xml = await get(url);
+      return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => {
+        const d = Date.parse(tag(it, 'pubDate'));
+        return { source, title: tag(it, 'title'), link: tag(it, 'link').replace(/\?at_.*$/, ''), date: Number.isNaN(d) ? null : new Date(d).toISOString() };
+      }).filter((h) => h.title && h.link && h.date && !/\/(?:videos|sounds|iplayer|av)\//.test(h.link) && (!broad || MONEY.test(h.title)))
+        .sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3); // max 3 each, so no one source floods the bar
+    } catch (e) { console.warn(`${source}: ${e.message}`); return []; }
+  }));
+  // round-robin: each source's newest first, then each source's second, ... so every source gets a turn
+  const seen = new Set(), items = [];
+  for (let round = 0; round < 3; round++) {
+    perSource.map((list) => list[round]).filter(Boolean).sort((a, b) => b.date.localeCompare(a.date))
+      .forEach((h) => { const k = h.title.toLowerCase().replace(/[^a-z0-9]/g, ''); if (!seen.has(k)) { seen.add(k); items.push(h); } });
+  }
+  items.splice(12);
+  // finance feeds publish constantly, so "Breaking" means the last 15 minutes here, not the last hour
+  items.forEach((h) => { h.breaking = Date.now() - Date.parse(h.date) < 15 * 60e3; });
+  if (items.length < 4) throw new Error(`only ${items.length} business items`);
+  return items;
+}
+
 let prev = {};
 try { prev = JSON.parse(await readFile(OUT, 'utf8')); } catch {}
 const out = { updated: new Date().toISOString() };
 try { Object.assign(out, await bbc()); } catch (e) { console.warn(`BBC: ${e.message} — keeping previous`); out.breaking = []; out.latest = prev.latest ?? []; }
+try { out.business = await business(); } catch (e) { console.warn(`Business: ${e.message} — keeping previous`); out.business = prev.business ?? []; }
 try { out.trending = await trends(); } catch (e) { console.warn(`Trends: ${e.message} — keeping previous`); out.trending = prev.trending ?? []; }
 await writeFile(OUT, JSON.stringify(out, null, 2) + '\n');
-console.log(`flash: ${out.breaking.length} breaking, ${out.latest.length} latest, ${out.trending.length} trending`);
+console.log(`flash: ${out.breaking.length} breaking, ${out.latest.length} latest, ${out.trending.length} trending, ${out.business.length} business`);

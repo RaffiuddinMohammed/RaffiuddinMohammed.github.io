@@ -1,6 +1,18 @@
 {
-  "updated": "2026-11-18T21:52:10.096Z",
+  "updated": "2026-11-18T22:39:06.602Z",
   "breaking": [
+    {
+      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
+      "date": "2026-11-18T22:34:56.000Z"
+    }
+  ],
+  "latest": [
+    {
+      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
+      "date": "2026-11-18T21:28:08.000Z"
+    },
     {
       "title": "UK government asks for Russell Brand's YouTube account to be removed",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
@@ -15,75 +27,139 @@
       "title": "FA explored legal challenge to Infantino staying on",
       "link": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o",
       "date": "2026-11-18T20:55:01.000Z"
-    }
-  ],
-  "latest": [
+    },
     {
       "title": "TfL photocard breach exposes 265,000 customers",
       "link": "https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o",
       "date": "2026-11-18T20:49:53.000Z"
     },
     {
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
-      "date": "2026-11-18T20:14:57.000Z"
-    },
-    {
       "title": "Hundreds could be hit by chemotherapy scandal, trust says",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo",
       "date": "2026-11-18T20:09:06.000Z"
+    }
+  ],
+  "business": [
+    {
+      "source": "Investing.com",
+      "title": "Anthropic reportedly prices IPO at $83 a share, valuing it at about $1.5 trillion",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-weighs-ipo-pricing-of-8085-a-share-bloomberg-reports-5036963",
+      "date": "2026-11-18T22:34:00.000Z",
+      "breaking": true
     },
     {
-      "title": "William and Kate meet PM Modi as they wrap up India tour",
-      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o",
-      "date": "2026-11-18T20:07:08.000Z"
+      "source": "MarketWatch",
+      "title": "Nvidia’s booming demand is ‘hard to ignore,’ but these four questions loom over the stock",
+      "link": "https://www.marketwatch.com/story/what-wall-street-analysts-are-now-saying-after-nvidias-beat-and-raise-quarter-9311c85d?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:31:00.000Z",
+      "breaking": true
     },
     {
-      "title": "Wales police chief says racists and misogynists working inside force",
-      "link": "https://www.bbc.co.uk/news/articles/cm0qjw4d2gd3o",
-      "date": "2026-11-18T19:10:40.000Z"
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-18T22:09:15.000Z",
+      "breaking": false
     },
     {
-      "title": "'Lip King unbothered' when mum collapsed after BBL",
-      "link": "https://www.bbc.co.uk/news/articles/cmrrg02nkpjeo",
-      "date": "2026-11-18T18:49:35.000Z"
+      "source": "CNBC",
+      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+      "date": "2026-11-18T19:41:59.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "The seven Anthropic founders who are about to become multi-billionaires",
+      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
+      "date": "2026-11-18T13:55:14.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+      "date": "2026-11-18T22:30:35.000Z",
+      "breaking": true
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "date": "2026-11-18T22:00:00.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
+      "link": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-18T21:57:35.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "Fed’s Waller says central bank may need to ‘shock people’ with half-point rate hike",
+      "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+      "date": "2026-11-18T15:13:39.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo",
+      "date": "2026-11-18T13:17:06.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
+      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
+      "date": "2026-11-18T22:25:04.000Z",
+      "breaking": true
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Has the stock market’s slump hit bottom yet? Here’s what these contrarian indicators say.",
+      "link": "https://www.marketwatch.com/story/has-the-stock-markets-correction-hit-bottom-yet-heres-what-these-contrarian-indicators-say-f9104879?mod=mw_rss_topstories",
+      "date": "2026-11-18T21:58:00.000Z",
+      "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Leomie Anderson",
-      "traffic": "10000+",
-      "title": "I'm A Celeb beauty Leomie Anderson vows to recreate sexy Myleene shower scene",
-      "link": "https://www.thesun.co.uk/tv/41019136/leomie-anderson-strip-jungle-shower-myleene-klass/",
-      "source": "The Sun"
+      "term": "Mariella Frostrup",
+      "traffic": "5000+",
+      "title": "Why Mariella Frostrup is showing the nation what a true Second Act looks like on I’m A Celebrity",
+      "link": "https://www.hellomagazine.com/second-act/935720/why-were-rooting-for-mariella-frostrup-on-im-a-celebrity/",
+      "source": "HELLO!"
     },
     {
-      "term": "Im A Celeb Vote",
-      "traffic": "5000+",
-      "title": "Wayne Rooney leads I'm A Celebrity... Get Me Out of Here! line-up",
-      "link": "https://www.bbc.co.uk/news/articles/cwj3462yz21lo",
+      "term": "Gavin And Stacey",
+      "traffic": "500+",
+      "title": "I'm a Celeb: Joanna Page reveals 'awful' comments from male actor",
+      "link": "https://www.bbc.co.uk/news/articles/cqj3kelenm0do",
       "source": "BBC"
     },
     {
-      "term": "Kaiser Chiefs",
+      "term": "Declan Donnelly",
       "traffic": "500+",
-      "title": "Star of chart-topping rock band describes upcoming Norwich show as a 'homecoming'",
-      "link": "https://www.eveningnews24.co.uk/news/26734016.darkness-frontman-calls-norwich-show-homecoming/",
-      "source": "Norwich Evening News"
+      "title": "Shirtless Ant McPartlin celebrates his 51st birthday with his wife Anne-Marie Corbett and their kids and his co-host Declan Donnelly on the beach during I'm A Celebrity filming break",
+      "link": "https://www.dailymail.com/tvshowbiz/article-16303241/Shirtless-Ant-McPartlin-celebrates-51st-birthday-wife-Anne-Marie-Corbett-kids-host-Declan-Donnelly-beach-Im-Celebrity-filming-break.html",
+      "source": "Daily Mail"
     },
     {
-      "term": "Coleen Rooney",
+      "term": "Youtube Channel",
       "traffic": "500+",
-      "title": "Wayne Rooney says he contemplated taking own life during playing career",
-      "link": "https://www.theguardian.com/football/2026/nov/17/wayne-rooney-contemplated-taking-own-life-during-playing-career-mental-health",
-      "source": "The Guardian"
+      "title": "Studio Jadu YouTube Channel Tops 3 Million Subscribers",
+      "link": "https://www.awn.com/news/studio-jadu-youtube-channel-tops-3-million-subscribers",
+      "source": "Animation World Network"
     },
     {
-      "term": "Star Wars: Episode IV - A New Hope",
-      "traffic": "200+",
-      "title": "Celebrate 50 Years of Star Wars with New Documentary, Key Art, and Limited-Edition Merch",
-      "link": "https://www.starwars.com/news/star-wars-50-campaign",
-      "source": "StarWars.com"
+      "term": "Anthony Joshua",
+      "traffic": "500+",
+      "title": "Anthony Joshua reveals he’s had a BABY girl and says ‘it was my duty to bring life in’ after pals died in horror crash",
+      "link": "https://www.thesun.co.uk/sport/41063044/anthony-joshua-secret-baby-girl/",
+      "source": "The Sun"
     }
   ]
 }

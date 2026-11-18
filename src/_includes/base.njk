@@ -63,7 +63,22 @@
         <a class="pill cta" href="/about/#for-business">Work with me</a>
       </div>
     </nav>
-    {% if flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
+    {% if onMarkets and flash and flash.business and flash.business.length %}
+    {% set bizBreaking = flash.business | selectattr('breaking') | length %}
+    <div class="flash news {{ 'has-breaking' if bizBreaking }}" role="region" aria-label="Live business and markets news">
+      <div class="wrap flash-in">
+      <div class="flash-main">
+        <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>Live · Markets</span>
+        <div class="flash-track"><div class="flash-run" style="animation-duration: {{ flash.business.length * 7 }}s">
+          {% for r in [1, 2] %}<span class="flash-set"{% if r == 2 %} aria-hidden="true"{% endif %}>
+            {% for h in flash.business %}<a class="flash-item {{ 'k-breaking' if h.breaking else 'k-latest' }}" href="{{ h.link }}" rel="noopener" target="_blank" title="{{ h.source }}"{% if r == 2 %} tabindex="-1"{% endif %}><b>{{ 'Breaking' if h.breaking else h.source }}</b>{{ h.title }}</a>{% endfor %}
+          </span>{% endfor %}
+        </div></div>
+      </div>
+      <a class="flash-go" href="#market-headlines">Market headlines →</a>
+      </div>
+    </div>
+    {% elif flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
     {% set nItems = flash.breaking.length + flash.latest.length + flash.trending.length %}
     <div class="flash news {{ 'has-breaking' if flash.breaking.length }}" role="region" aria-label="Live news">
       <div class="wrap flash-in">
