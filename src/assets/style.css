@@ -725,7 +725,7 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 
 /* ================= v2.2 motion pass (18 Nov) ================= */
 /* 1. hero: text + live pipeline panel side by side */
-.hero-intro { max-width: none; display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 40px; align-items: center; }
+.hero-intro { max-width: 880px; }
 .pipeline { position: relative; border-radius: 18px; padding: 16px 18px; border: 1px solid var(--border);
   background: color-mix(in srgb, var(--surface) 88%, transparent); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
   box-shadow: 0 20px 50px -24px color-mix(in srgb, var(--c3) 45%, transparent); transition: box-shadow .4s, border-color .4s; }
