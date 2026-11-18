@@ -121,4 +121,14 @@ const log = incidents.filter((x) => { const k = `${x.service}|${x.title}|${x.sta
 const out = { services, incidents: log, tracked };
 const changed = JSON.stringify(out) !== JSON.stringify({ services: prev.services, incidents: prev.incidents, tracked: prev.tracked });
 await writeFile(FILE, JSON.stringify({ checked: now, ...out }, null, 2));
+
+// Level changes since the last check, for scripts/notify-telegram.mjs. A source that failed keeps its
+// previous level (above), so a flaky fetch never reads as an outage or a recovery.
+if (process.env.OUTAGE_ALERTS_FILE) {
+  const alerts = services.flatMap((s) => {
+    const was = prev.services?.find((p) => p.name === s.name)?.level;
+    return was && was !== s.level ? [{ name: s.name, from: was, to: s.level, note: s.note, url: s.url }] : [];
+  });
+  await writeFile(process.env.OUTAGE_ALERTS_FILE, JSON.stringify(alerts, null, 2));
+}
 console.log(changed ? 'changed' : 'unchanged');

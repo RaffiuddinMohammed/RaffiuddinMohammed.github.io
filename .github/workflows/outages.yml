@@ -29,7 +29,17 @@ jobs:
       - run: npm ci
       - name: Check status pages
         id: check
+        env:
+          OUTAGE_ALERTS_FILE: ${{ runner.temp }}/outage-alerts.json
         run: echo "result=$(node scripts/fetch-outages.mjs | tail -1)" >> "$GITHUB_OUTPUT"
+      - name: Telegram alert (skips itself until the bot secrets exist)
+        if: steps.check.outputs.result == 'changed'
+        continue-on-error: true   # a Telegram hiccup must never stop the deploy
+        env:
+          OUTAGE_ALERTS_FILE: ${{ runner.temp }}/outage-alerts.json
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: node scripts/notify-telegram.mjs
       - name: Save the log (only when something changed, to keep commits down)
         if: steps.check.outputs.result == 'changed'
         run: |
