@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T12:27:10.393Z",
+  "updated": "2026-11-18T13:18:48.289Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,19 +3097,19 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 238,
+      "totalStories": 241,
       "sections": [
         {
           "name": "UK",
-          "count": 24
+          "count": 25
         },
         {
           "name": "World",
-          "count": 20
+          "count": 22
         },
         {
           "name": "Business",
-          "count": 16
+          "count": 15
         },
         {
           "name": "Science",
@@ -3121,7 +3121,7 @@
         },
         {
           "name": "Technology",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Health",
@@ -3154,12 +3154,12 @@
           "count": 7
         },
         {
-          "word": "strike",
+          "word": "nhs",
           "count": 7
         },
         {
-          "word": "take",
-          "count": 6
+          "word": "strike",
+          "count": 7
         }
       ],
       "places": [
@@ -3169,8 +3169,8 @@
           "lon": -2,
           "count": 27,
           "bySection": {
-            "UK": 7,
-            "World": 1,
+            "UK": 6,
+            "World": 2,
             "Politics": 14,
             "Health": 2,
             "Business": 2,
@@ -3181,7 +3181,7 @@
               "title": "Lammy urges Burnham to take UK back into the EU",
               "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
               "section": "UK",
-              "date": "2026-11-18T11:52:30.000Z"
+              "date": "2026-11-18T12:49:39.000Z"
             },
             {
               "title": "Energy bills forecast to go up by £443 a year from January as UK inflation rises again",
@@ -3192,7 +3192,7 @@
             {
               "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
               "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
+              "section": "World",
               "date": "2026-11-18T09:28:35.000Z"
             },
             {
@@ -3215,9 +3215,8 @@
           "lon": -98,
           "count": 14,
           "bySection": {
-            "UK": 1,
+            "World": 8,
             "Business": 4,
-            "World": 7,
             "Health": 1,
             "Politics": 1
           },
@@ -3225,7 +3224,7 @@
             {
               "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
               "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
+              "section": "World",
               "date": "2026-11-18T09:28:35.000Z"
             },
             {
@@ -3251,6 +3250,48 @@
               "link": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo?at_medium=RSS&at_campaign=rss",
               "section": "Business",
               "date": "2026-11-18T03:07:22.000Z"
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "lat": 35,
+          "lon": 104,
+          "count": 5,
+          "bySection": {
+            "World": 3,
+            "Business": 2
+          },
+          "stories": [
+            {
+              "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+              "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-18T12:39:24.000Z"
+            },
+            {
+              "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+              "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-17T23:02:12.000Z"
+            },
+            {
+              "title": "How new US chip restrictions on South East Asia will hit China",
+              "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T14:25:45.000Z"
+            },
+            {
+              "title": "Inside the Chinese 'AI wonderland' where Xi will host Trump",
+              "link": "https://www.bbc.co.uk/news/videos/ckjwjl6ywgn9o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-17T06:23:51.000Z"
+            },
+            {
+              "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
+              "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-14T23:01:28.000Z"
             }
           ]
         },
@@ -3321,42 +3362,6 @@
               "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-17T05:59:01.000Z"
-            }
-          ]
-        },
-        {
-          "name": "China",
-          "lat": 35,
-          "lon": 104,
-          "count": 4,
-          "bySection": {
-            "World": 3,
-            "Business": 1
-          },
-          "stories": [
-            {
-              "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-              "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-17T23:02:12.000Z"
-            },
-            {
-              "title": "How new US chip restrictions on South East Asia will hit China",
-              "link": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-17T14:25:45.000Z"
-            },
-            {
-              "title": "Inside the Chinese 'AI wonderland' where Xi will host Trump",
-              "link": "https://www.bbc.co.uk/news/videos/ckjwjl6ywgn9o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-17T06:23:51.000Z"
-            },
-            {
-              "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
-              "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-10-14T23:01:28.000Z"
             }
           ]
         },
@@ -3583,13 +3588,8 @@
       ],
       "topHeadlines": [
         {
-          "title": "Environment department failing to protect wild birds, OEP finds",
-          "link": "https://www.bbc.co.uk/news/articles/c8p3vwevreyqo?at_medium=RSS&at_campaign=rss",
-          "section": "Science"
-        },
-        {
-          "title": "Minister criticises media for 'amplifying' Russell Brand's prison message",
-          "link": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
+          "title": "Brain cancer patients demand public inquiry into chemotherapy scandal",
+          "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
@@ -3598,31 +3598,36 @@
           "section": "UK"
         },
         {
-          "title": "Who to watch in Spain's election race",
-          "link": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
-          "section": "World"
+          "title": "Ivan Toney loses bid to avoid Euro 2028 court clash",
+          "link": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
         },
         {
-          "title": "Burnham promises to 'move quickly' on Neets report",
-          "link": "https://www.bbc.co.uk/news/articles/c8n50457edd4o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
+          "title": "Extra £500m for NHS as Reform boycott the Senedd",
+          "link": "https://www.bbc.co.uk/news/videos/crvg2lq64nv7o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics"
+        },
+        {
+          "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
+          "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
+          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "GPT‑6.2 Astra and Sol",
           "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-          "points": 1291
+          "points": 1298
         },
         {
           "title": "Java4Shell: RCE in OpenJDK when processing Base64",
           "url": "https://calif.io/java4shell/",
-          "points": 983
+          "points": 1012
         },
         {
           "title": "Quad9's withdrawal from France: A canary in the coal mine",
           "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-          "points": 661
+          "points": 709
         }
       ]
     }

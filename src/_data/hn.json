@@ -1,75 +1,75 @@
 {
-  "updated": "2026-11-18T12:20:54.981Z",
+  "updated": "2026-11-18T13:09:56.597Z",
   "stories": [
     {
       "title": "GPT‑6.2 Astra and Sol",
       "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
       "discuss": "https://news.ycombinator.com/item?id=50535230",
-      "points": 1291,
-      "comments": 808,
+      "points": 1298,
+      "comments": 811,
       "domain": "openai.com"
     },
     {
       "title": "Java4Shell: RCE in OpenJDK when processing Base64",
       "url": "https://calif.io/java4shell/",
       "discuss": "https://news.ycombinator.com/item?id=50538240",
-      "points": 983,
-      "comments": 253,
+      "points": 1012,
+      "comments": 264,
       "domain": "calif.io"
     },
     {
       "title": "Quad9's withdrawal from France: A canary in the coal mine",
       "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
       "discuss": "https://news.ycombinator.com/item?id=50538994",
-      "points": 661,
-      "comments": 239,
+      "points": 709,
+      "comments": 279,
       "domain": "blog.cloudflare.com"
     },
     {
       "title": "Highly classified US national security communications network goes down",
       "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
       "discuss": "https://news.ycombinator.com/item?id=50532849",
-      "points": 602,
-      "comments": 690,
+      "points": 614,
+      "comments": 697,
       "domain": "cnn.com"
     },
     {
       "title": "Nvidia stopped disclosing Singapore sales as revenues hit $104B",
       "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
       "discuss": "https://news.ycombinator.com/item?id=50534631",
-      "points": 570,
-      "comments": 261,
+      "points": 591,
+      "comments": 267,
       "domain": "ft.com"
     },
     {
       "title": "Google's AI answers reducing search traffic by 40%",
       "url": "https://revscope.co/blog/search-seo-geo-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50540178",
-      "points": 459,
-      "comments": 339,
+      "points": 497,
+      "comments": 367,
       "domain": "revscope.co"
     },
     {
       "title": "AI is killing All About Berlin",
       "url": "https://nicolasbouliane.com/blog/death-by-ai",
       "discuss": "https://news.ycombinator.com/item?id=50542705",
-      "points": 429,
-      "comments": 403,
+      "points": 471,
+      "comments": 438,
       "domain": "nicolasbouliane.com"
     },
     {
       "title": "Phrack 73",
       "url": "https://phrack.org/issues/73/introduction_md",
       "discuss": "https://news.ycombinator.com/item?id=50535992",
-      "points": 402,
-      "comments": 56,
+      "points": 415,
+      "comments": 58,
       "domain": "phrack.org"
     },
     {
       "title": "What is the best harness for each model?",
       "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
       "discuss": "https://news.ycombinator.com/item?id=50532191",
-      "points": 385,
+      "points": 390,
       "comments": 128,
       "domain": "runta.com"
     },
@@ -77,11 +77,11 @@
       "title": "ID.me terms required for IRS sign-in",
       "url": "https://consumerrights.wiki/w/ID.me_terms_required_for_IRS_sign-in",
       "discuss": "https://news.ycombinator.com/item?id=50540437",
-      "points": 381,
-      "comments": 172,
+      "points": 388,
+      "comments": 181,
       "domain": "consumerrights.wiki"
     }
   ],
-  "totalPoints": 9158,
+  "totalPoints": null,
   "storyCount": 30
 }

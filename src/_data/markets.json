@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T13:07:50.617Z",
-  "headlineCount": 84,
+  "updated": "2026-11-18T13:09:54.781Z",
+  "headlineCount": 83,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 37
+      "count": 36
     },
     {
       "name": "MarketWatch",
@@ -26,11 +26,11 @@
     },
     {
       "name": "Earnings",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Interest rates",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Inflation",
@@ -41,11 +41,11 @@
       "count": 3
     },
     {
-      "name": "Crypto",
-      "count": 2
+      "name": "Jobs",
+      "count": 1
     },
     {
-      "name": "Jobs",
+      "name": "Crypto",
       "count": 1
     },
     {
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Apple",
@@ -68,7 +68,7 @@
     },
     {
       "name": "Microsoft",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Alphabet",
@@ -95,6 +95,18 @@
       "source": "Investing.com"
     },
     {
+      "title": "Dow Jones Futures Fall, Techs Rise After Nvidia Earnings, Waller's 'Shock' Warning; Anthropic IPO Ahead",
+      "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
+      "date": "2026-11-18T13:01:29.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Microsoft Stock Loses Key Level Amid Global Outage; Is Microsoft A Buy Now?",
+      "link": "https://finance.yahoo.com/m/efe593c1-a803-3c2b-91d2-d5b38ca68a4c/microsoft-stock-loses-key.html?.tsrc=rss",
+      "date": "2026-11-18T13:00:38.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Luxury goods sales seen returning to growth in 2026, but outlook fragile",
       "link": "https://www.investing.com/news/economy-news/luxury-goods-sales-seen-returning-to-growth-in-2026-but-outlook-fragile-5035571",
       "date": "2026-11-18T13:00:38.000Z",
@@ -117,6 +129,12 @@
       "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
       "date": "2026-11-18T13:00:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Equities Set to Rebound as Investors Parse Nvidia Results, Await Fed Minutes",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/equities-set-rebound-investors-parse-125931611.html?.tsrc=rss",
+      "date": "2026-11-18T12:59:31.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Fed's Waller says central bank may need to ‘shock people' with half-point rate hike",
@@ -149,9 +167,9 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Dow Jones Futures Fall, Techs Rise After Nvidia, Target Earnings, Hawkish Waller Comments; Anthropic IPO Ahead",
-      "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
-      "date": "2026-11-18T12:49:52.000Z",
+      "title": "A Recession Could Be Coming, and History Says This 1 Investing Move Has Never Once Failed",
+      "link": "https://www.fool.com/investing/2026/11/18/recession-coming-history-says-this-never-failed/?.tsrc=rss",
+      "date": "2026-11-18T12:50:00.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -173,6 +191,12 @@
       "source": "Investing.com"
     },
     {
+      "title": "Bristol Myers Stock's Dividends Couldn't Close The Gap",
+      "link": "https://www.trefis.com/stock/bmy/articles/626275/bristol-myers-stocks-dividends-couldnt-close-the-gap/2026-11-18?.tsrc=rss",
+      "date": "2026-11-18T12:44:46.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Why is Medline stock sliding today?",
       "link": "https://www.investing.com/news/stock-market-news/why-is-medline-stock-sliding-today-93CH-5035834",
       "date": "2026-11-18T12:44:26.000Z",
@@ -182,30 +206,6 @@
       "title": "Take-Two shares climb as GTA VI reviews impress ahead of blockbuster launch",
       "link": "https://www.investing.com/news/stock-market-news/taketwo-shares-climb-as-gta-vi-reviews-impress-ahead-of-blockbuster-launch-5035826",
       "date": "2026-11-18T12:44:12.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Deutz stock collapsing today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-deutz-stock-collapsing-today-93CH-5035833",
-      "date": "2026-11-18T12:44:07.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Update: Market Chatter: Nvidia Sales Team Introduced Alibaba to Megaspeed Founder Before US Chip Export Restrictions",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-sales-team-124404825.html?.tsrc=rss",
-      "date": "2026-11-18T12:44:04.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Java flaw leaves systems open to hackers, say US, South Korea, China's Tencent",
-      "link": "https://www.investing.com/news/stock-market-news/us-south-korea-issue-urgent-advisories-over-flaws-in-java-programming-language-5034710",
-      "date": "2026-11-18T12:42:41.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Exclusive-ECB to discuss raising reserve requirement next week, sources say",
-      "link": "https://www.investing.com/news/economy-news/exclusiveecb-to-discuss-raising-reserve-requirement-next-week-sources-say-5035827",
-      "date": "2026-11-18T12:42:23.000Z",
       "source": "Investing.com"
     }
   ],
