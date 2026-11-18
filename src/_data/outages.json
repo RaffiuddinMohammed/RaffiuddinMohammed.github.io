@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T02:53:27.905Z",
+  "checked": "2026-11-18T11:38:31.630Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Errors and stalled predictions on some models",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -89,6 +89,46 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "Network Performance Issues in North America",
+      "impact": "minor",
+      "start": "2026-11-18T10:56:57.188Z",
+      "end": "2026-11-18T10:00:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/76lqmua6x3tk"
+    },
+    {
+      "service": "GitHub",
+      "title": "Degraded Availability for MAI Code 2 Flash in Copilot",
+      "impact": "minor",
+      "start": "2026-11-18T09:00:12.808Z",
+      "end": "2026-11-18T09:34:15.883Z",
+      "url": "https://stspg.io/3sbmvyy2ctyx"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network disruption across multiple colocations in India",
+      "impact": "minor",
+      "start": "2026-11-18T08:04:29.059Z",
+      "end": "2026-11-18T08:46:42.445Z",
+      "url": "https://www.cloudflarestatus.com/incidents/njt9j3k2zdfw"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated 5xx error rates and latency in Mumbai",
+      "impact": "minor",
+      "start": "2026-11-18T04:05:37.087Z",
+      "end": "2026-11-18T03:04:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/pi6wgeh78wsn"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Paris",
+      "impact": "minor",
+      "start": "2026-11-18T03:39:01.644Z",
+      "end": "2026-11-18T04:51:31.574Z",
+      "url": "https://www.cloudflarestatus.com/incidents/k3r9i5tbre4i"
+    },
+    {
+      "service": "Cloudflare",
       "title": "Cloudflare Access Issue",
       "impact": "minor",
       "start": "2026-11-18T01:10:14.795Z",
@@ -148,7 +188,7 @@
       "title": "Errors and stalled predictions on some models",
       "impact": "minor",
       "start": "2026-11-17T15:02:47.698Z",
-      "end": null,
+      "end": "2026-11-18T03:23:23.095Z",
       "url": "https://www.cloudflarestatus.com/incidents/sv9tnfpjiojf"
     },
     {
@@ -753,44 +793,12 @@
       "url": "https://stspg.io/n478rfsspcmr"
     },
     {
-      "service": "Cloudflare",
-      "title": "Increased Durable Object Errors in the Dallas, TX US region",
-      "impact": "minor",
-      "start": "2026-11-03T15:38:17.485Z",
-      "end": "2026-11-03T16:42:01.479Z",
-      "url": "https://www.cloudflarestatus.com/incidents/7gixemnw9oei"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Cloudflare Workers and Pages build errors ",
-      "impact": "minor",
-      "start": "2026-11-03T14:46:56.697Z",
-      "end": "2026-11-03T19:38:09.321Z",
-      "url": "https://www.cloudflarestatus.com/incidents/nbyxn84kvb6o"
-    },
-    {
       "service": "GitHub",
       "title": "Incident with API, Git, and Copilot requests",
       "impact": "minor",
       "start": "2026-11-03T13:25:19.620Z",
       "end": "2026-11-03T13:56:18.729Z",
       "url": "https://stspg.io/h1xqhrcn5gqn"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Elevated number of 5xx errors in HKG",
-      "impact": "minor",
-      "start": "2026-11-03T07:24:51.706Z",
-      "end": "2026-11-03T06:32:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/6c4ak19xodyt"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network Performance Issues in APJC",
-      "impact": "minor",
-      "start": "2026-11-03T04:44:12.062Z",
-      "end": "2026-11-03T05:56:29.439Z",
-      "url": "https://www.cloudflarestatus.com/incidents/j25w3rpv45gs"
     },
     {
       "service": "OpenAI",
