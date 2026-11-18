@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T13:09:56.320Z",
-  "totalStories": 241,
+  "updated": "2026-11-18T13:34:15.282Z",
+  "totalStories": 242,
   "sections": [
     {
       "name": "UK",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Science",
@@ -20,15 +20,15 @@
     },
     {
       "name": "Politics",
-      "count": 14
+      "count": 13
     },
     {
       "name": "Technology",
-      "count": 10
+      "count": 11
     },
     {
       "name": "Health",
-      "count": 8
+      "count": 9
     }
   ],
   "topWords": [
@@ -65,15 +65,15 @@
       "count": 7
     },
     {
+      "word": "neets",
+      "count": 6
+    },
+    {
       "word": "take",
       "count": 6
     },
     {
       "word": "trump",
-      "count": 6
-    },
-    {
-      "word": "neets",
       "count": 6
     },
     {
@@ -86,9 +86,9 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 27,
+      "count": 26,
       "bySection": {
-        "UK": 6,
+        "UK": 5,
         "World": 2,
         "Politics": 14,
         "Health": 2,
@@ -101,12 +101,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
           "section": "UK",
           "date": "2026-11-18T12:49:39.000Z"
-        },
-        {
-          "title": "Energy bills forecast to go up by £443 a year from January as UK inflation rises again",
-          "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-18T10:10:12.000Z"
         },
         {
           "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
@@ -143,6 +137,12 @@
           "link": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-17T22:46:30.000Z"
+        },
+        {
+          "title": "UK sanctions firms over Israeli West Bank settlements",
+          "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-17T18:27:27.000Z"
         }
       ]
     },
@@ -543,6 +543,42 @@
   ],
   "latest": [
     {
+      "title": "Toilets: Are you a squatter or a sitter?",
+      "link": "https://www.bbc.co.uk/videos/c804wngelw22o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:25:05.000Z",
+      "section": "Health"
+    },
+    {
+      "title": "Burnham promises to 'move quickly' on Neets report",
+      "link": "https://www.bbc.co.uk/news/articles/c8n50457edd4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:23:49.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Home secretary announces plans to tackle 'perception of two-tier policing'",
+      "link": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:19:39.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+      "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:17:06.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+      "link": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:16:53.000Z",
+      "section": "Technology"
+    },
+    {
+      "title": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
+      "link": "https://www.bbc.co.uk/news/articles/ckq6eg55n221o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-18T13:10:01.000Z",
+      "section": "Business"
+    },
+    {
       "title": "Brain cancer patients demand public inquiry into chemotherapy scandal",
       "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T13:00:07.000Z",
@@ -577,42 +613,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-18T12:22:15.000Z",
       "section": "Technology"
-    },
-    {
-      "title": "Stormont department failing to protect wild birds, investigation finds",
-      "link": "https://www.bbc.co.uk/news/articles/c8p3vwevreyqo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:13:32.000Z",
-      "section": "Science"
-    },
-    {
-      "title": "Minister criticises media for 'amplifying' Russell Brand's prison message",
-      "link": "https://www.bbc.co.uk/news/articles/cq702k1w8xd3o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T12:11:39.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Who to watch in Spain's election race",
-      "link": "https://www.bbc.co.uk/news/articles/cxr5g4lyp94no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T11:44:25.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Burnham promises to 'move quickly' on Neets report",
-      "link": "https://www.bbc.co.uk/news/articles/c8n50457edd4o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T11:33:59.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "William and Kate honour Earthshot Prize winners in Mumbai",
-      "link": "https://www.bbc.co.uk/news/videos/cmwy97rj83n1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T11:18:04.000Z",
-      "section": "Science"
-    },
-    {
-      "title": "Bancroft sandpaper claims heap pressure on Cummins",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/cmqlqdevgl9ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-18T11:12:46.000Z",
-      "section": "World"
     }
   ]
 }

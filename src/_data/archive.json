@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T13:18:48.289Z",
+  "updated": "2026-11-18T13:41:23.456Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3097,7 +3097,7 @@
     },
     {
       "date": "2026-11-18",
-      "totalStories": 241,
+      "totalStories": 242,
       "sections": [
         {
           "name": "UK",
@@ -3109,7 +3109,7 @@
         },
         {
           "name": "Business",
-          "count": 15
+          "count": 17
         },
         {
           "name": "Science",
@@ -3117,15 +3117,15 @@
         },
         {
           "name": "Politics",
-          "count": 14
+          "count": 13
         },
         {
           "name": "Technology",
-          "count": 10
+          "count": 11
         },
         {
           "name": "Health",
-          "count": 8
+          "count": 9
         }
       ],
       "topWords": [
@@ -3167,9 +3167,9 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 27,
+          "count": 26,
           "bySection": {
-            "UK": 6,
+            "UK": 5,
             "World": 2,
             "Politics": 14,
             "Health": 2,
@@ -3182,12 +3182,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-18T12:49:39.000Z"
-            },
-            {
-              "title": "Energy bills forecast to go up by £443 a year from January as UK inflation rises again",
-              "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-18T10:10:12.000Z"
             },
             {
               "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
@@ -3206,6 +3200,12 @@
               "link": "https://www.bbc.co.uk/weather/articles/cmvg2p9qlkz9o?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-18T01:13:16.000Z"
+            },
+            {
+              "title": "Largest British study to check social media ban's effect on youth mental health",
+              "link": "https://www.bbc.co.uk/news/articles/cm0evw0d2wq4o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-18T00:49:31.000Z"
             }
           ]
         },
@@ -3588,46 +3588,46 @@
       ],
       "topHeadlines": [
         {
-          "title": "Brain cancer patients demand public inquiry into chemotherapy scandal",
-          "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo?at_medium=RSS&at_campaign=rss",
+          "title": "Toilets: Are you a squatter or a sitter?",
+          "link": "https://www.bbc.co.uk/videos/c804wngelw22o?at_medium=RSS&at_campaign=rss",
+          "section": "Health"
+        },
+        {
+          "title": "Burnham promises to 'move quickly' on Neets report",
+          "link": "https://www.bbc.co.uk/news/articles/c8n50457edd4o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
-          "title": "Lammy urges Burnham to take UK back into the EU",
-          "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
+          "title": "Home secretary announces plans to tackle 'perception of two-tier policing'",
+          "link": "https://www.bbc.co.uk/news/articles/c3vg24wpg040o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
-          "title": "Ivan Toney loses bid to avoid Euro 2028 court clash",
-          "link": "https://www.bbc.co.uk/news/articles/ckm2m1899mqyo?at_medium=RSS&at_campaign=rss",
+          "title": "Typical energy bill forecast to go up by £443 a year from January as inflation rate rises again",
+          "link": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
-          "title": "Extra £500m for NHS as Reform boycott the Senedd",
-          "link": "https://www.bbc.co.uk/news/videos/crvg2lq64nv7o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics"
-        },
-        {
-          "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-          "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-          "section": "World"
+          "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+          "link": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o?at_medium=RSS&at_campaign=rss",
+          "section": "Technology"
         }
       ],
       "hnTop": [
         {
           "title": "GPT‑6.2 Astra and Sol",
           "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-          "points": 1298
+          "points": 1301
         },
         {
           "title": "Java4Shell: RCE in OpenJDK when processing Base64",
           "url": "https://calif.io/java4shell/",
-          "points": 1012
+          "points": 1030
         },
         {
           "title": "Quad9's withdrawal from France: A canary in the coal mine",
           "url": "https://blog.cloudflare.com/quad9-withdrawal-from-france/",
-          "points": 709
+          "points": 731
         }
       ]
     }

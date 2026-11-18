@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T13:18:39.545Z",
+  "updated": "2026-11-18T13:41:15.469Z",
   "topics": [
     {
       "key": "ai",
@@ -1560,10 +1560,6 @@
       "label": "Inflation",
       "query": "inflation",
       "series": [
-        {
-          "date": "2025-11-29",
-          "value": 0.783
-        },
         {
           "date": "2025-11-30",
           "value": 0.7889

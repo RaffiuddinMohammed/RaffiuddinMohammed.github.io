@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T13:09:54.781Z",
-  "headlineCount": 83,
+  "updated": "2026-11-18T13:34:13.870Z",
+  "headlineCount": 84,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 36
+      "count": 37
     },
     {
       "name": "MarketWatch",
@@ -22,19 +22,19 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Earnings",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Interest rates",
-      "count": 10
+      "count": 13
     },
     {
       "name": "Inflation",
-      "count": 3
+      "count": 5
     },
     {
       "name": "Oil and energy",
@@ -45,22 +45,26 @@
       "count": 1
     },
     {
-      "name": "Crypto",
-      "count": 1
-    },
-    {
       "name": "Housing",
       "count": 1
     },
     {
       "name": "Trade and tariffs",
       "count": 0
+    },
+    {
+      "name": "Crypto",
+      "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 18
+      "count": 16
+    },
+    {
+      "name": "Alphabet",
+      "count": 2
     },
     {
       "name": "Apple",
@@ -71,142 +75,138 @@
       "count": 1
     },
     {
-      "name": "Alphabet",
-      "count": 0
-    },
-    {
       "name": "Amazon",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Meta",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Tesla",
-      "count": 0
+      "count": 1
     }
   ],
   "latest": [
     {
-      "title": "TSX futures slip amid lower gold, oil prices; Nvidia earnings in focus",
-      "link": "https://www.investing.com/news/stock-market-news/tsx-futures-slip-amid-lower-gold-oil-prices-nvidia-earnings-in-focus-5035920",
-      "date": "2026-11-18T13:02:09.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Dow Jones Futures Fall, Techs Rise After Nvidia Earnings, Waller's 'Shock' Warning; Anthropic IPO Ahead",
-      "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
-      "date": "2026-11-18T13:01:29.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Microsoft Stock Loses Key Level Amid Global Outage; Is Microsoft A Buy Now?",
-      "link": "https://finance.yahoo.com/m/efe593c1-a803-3c2b-91d2-d5b38ca68a4c/microsoft-stock-loses-key.html?.tsrc=rss",
-      "date": "2026-11-18T13:00:38.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Luxury goods sales seen returning to growth in 2026, but outlook fragile",
-      "link": "https://www.investing.com/news/economy-news/luxury-goods-sales-seen-returning-to-growth-in-2026-but-outlook-fragile-5035571",
-      "date": "2026-11-18T13:00:38.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Exclusive: Most retail futures traders leaning into volatility, NinjaTrader finds",
-      "link": "https://www.investing.com/news/stock-market-news/exclusive-most-retail-futures-traders-leaning-into-volatility-ninjatrader-finds-5035895",
-      "date": "2026-11-18T13:00:05.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Measles cases in the U.S. are at a 35-year high. Here’s the staggering cost of these outbreaks for all Americans.",
-      "link": "https://www.marketwatch.com/story/measles-cases-in-the-u-s-are-at-a-35-year-high-heres-the-staggering-cost-of-falling-vaccination-rates-for-americans-e80a7ac6?mod=mw_rss_topstories",
-      "date": "2026-11-18T13:00:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "‘Nvidia’s turmoil has me spooked’: Has the time come to sell my stocks?",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "date": "2026-11-18T13:00:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Equities Set to Rebound as Investors Parse Nvidia Results, Await Fed Minutes",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/equities-set-rebound-investors-parse-125931611.html?.tsrc=rss",
-      "date": "2026-11-18T12:59:31.000Z",
+      "title": "Bill Gurley says giving away AI is Google's 'No. 1' move against Anthropic",
+      "link": "https://finance.yahoo.com/markets/article/bill-gurley-says-giving-away-ai-is-googles-no-1-move-against-anthropic-133314859.html?.tsrc=rss",
+      "date": "2026-11-18T13:33:14.000Z",
       "source": "Yahoo Finance"
     },
     {
       "title": "Fed's Waller says central bank may need to ‘shock people' with half-point rate hike",
       "link": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
-      "date": "2026-11-18T12:58:59.000Z",
+      "date": "2026-11-18T13:32:33.000Z",
       "source": "CNBC"
     },
     {
-      "title": "China Lost Its ‘Best Friend' at Nvidia. A Former Intelligence Officer Says the Fallout Is ‘a Catastrophe' for Beijing",
-      "link": "https://finance.yahoo.com/technology/ai/articles/china-lost-best-friend-nvidia-125632223.html?.tsrc=rss",
-      "date": "2026-11-18T12:56:32.000Z",
+      "title": "GUTSI Engages PLTFRM for Online Supplement Rollout",
+      "link": "https://finance.yahoo.com/small-business/articles/gutsi-engages-pltfrm-online-supplement-133000534.html?.tsrc=rss",
+      "date": "2026-11-18T13:30:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Off-price retailer TJX beats quarterly sales estimates",
-      "link": "https://www.investing.com/news/stock-market-news/offprice-retailer-tjx-beats-quarterly-sales-estimates-5035816",
-      "date": "2026-11-18T12:54:53.000Z",
+      "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
+      "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
+      "date": "2026-11-18T13:30:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "What Does Warren Buffett's 90/10 Rule Say to a 74-Year-Old With $1 Million of Coca-Cola at a Record?",
+      "link": "https://247wallst.com/investing/2026/11/16/what-does-warren-buffetts-90-10-rule-say-to-a-74-year-old-with-1-million-of-coca-cola-at-a-record/?.tsrc=rss",
+      "date": "2026-11-18T13:27:41.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Cessna jet maker Textron to sell industrial business for $1.2 billion",
+      "link": "https://www.investing.com/news/stock-market-news/cessna-jet-maker-textron-to-sell-industrial-business-for-12-billion-5036071",
+      "date": "2026-11-18T13:24:23.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Want to earn 5% on shorter-term Treasurys again? Watch for this shift.",
+      "link": "https://www.marketwatch.com/story/want-to-earn-5-on-shorter-term-treasurys-again-watch-for-this-shift-d6ff42f2?mod=mw_rss_topstories",
+      "date": "2026-11-18T13:24:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
+      "link": "https://www.wsj.com/finance/commodities-futures/stock-futures-rally-as-nvidia-earnings-calm-ai-trade-fears-96f51546?.tsrc=rss",
+      "date": "2026-11-18T13:22:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Wall Street prepares for Anthropic IPO frenzy, despite broader AI stock slump",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-prepares-for-anthropic-ipo-frenzy-despite-broader-ai-stock-slump-5035325",
+      "date": "2026-11-18T13:19:18.000Z",
       "source": "Investing.com"
     },
     {
       "title": "Stocks slip as investors mull Nvidia earnings; Anthropic IPO to test AI boom",
       "link": "https://www.investing.com/news/economy-news/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms-5034510",
-      "date": "2026-11-18T12:54:25.000Z",
+      "date": "2026-11-18T13:18:44.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Nvidia's Board Has Considered the CEOs of Arm and Marvell to Replace Huang",
-      "link": "https://247wallst.com/investing/2026/11/18/nvidias-board-has-considered-the-ceos-of-arm-and-marvell-to-replace-huang/?.tsrc=rss",
-      "date": "2026-11-18T12:52:50.000Z",
+      "title": "Wall Street reassured by Nvidia beat and raise despite leadership turmoil",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-reassured-by-nvidia-beat-and-raise-despite-leadership-turmoil-5036041",
+      "date": "2026-11-18T13:18:33.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nvidia options traders bank on longer-term stock recovery",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-options-traders-bank-on-longerterm-stock-recovery-5036040",
+      "date": "2026-11-18T13:18:29.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Today: Dow Falls As Fed Official Calls For Larger Hike; Nvidia Shares Jump On Earnings (Live Coverage)",
+      "link": "https://finance.yahoo.com/m/3b6d51d3-7bfb-3b08-a92e-3b70e9f0655b/stock-market-today%3A-dow-falls.html?.tsrc=rss",
+      "date": "2026-11-18T13:18:16.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "A Recession Could Be Coming, and History Says This 1 Investing Move Has Never Once Failed",
-      "link": "https://www.fool.com/investing/2026/11/18/recession-coming-history-says-this-never-failed/?.tsrc=rss",
-      "date": "2026-11-18T12:50:00.000Z",
+      "title": "FTSE 100 today: Stocks extend losses as metals slump; UK CPI rises to 3.6%",
+      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-slip-as-miners-sink-on-metals-rout-cpi-at-36-5035095",
+      "date": "2026-11-18T13:18:09.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Broadcom Stock Has Another Growth Driver. Here's Where I See It Going in 2027",
+      "link": "https://247wallst.com/investing/2026/11/18/broadcom-stock-has-another-growth-driver-heres-where-i-see-it-going-in-2027/?.tsrc=rss",
+      "date": "2026-11-18T13:17:52.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "U.S. stock futures advance as Nvidia earnings, outlook soothe AI worries",
-      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-jump-as-nvidia-earnings-revive-ai-optimism-5034391",
-      "date": "2026-11-18T12:48:26.000Z",
+      "title": "Why is BellRing Brands stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-bellring-brands-stock-surging-today-93CH-5036026",
+      "date": "2026-11-18T13:17:15.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.52%",
-      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-052-5035838",
-      "date": "2026-11-18T12:45:04.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Jefferies sees Voestalpine value after steep underperformance against peers",
-      "link": "https://www.investing.com/news/stock-market-news/jefferies-sees-voestalpine-value-after-steep-underperformance-against-peers-5035837",
-      "date": "2026-11-18T12:44:52.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Bristol Myers Stock's Dividends Couldn't Close The Gap",
-      "link": "https://www.trefis.com/stock/bmy/articles/626275/bristol-myers-stocks-dividends-couldnt-close-the-gap/2026-11-18?.tsrc=rss",
-      "date": "2026-11-18T12:44:46.000Z",
+      "title": "Dow Jones Futures Fall, Techs Rise After Nvidia Earnings, Waller's 'Shock' Warning; Anthropic IPO Ahead",
+      "link": "https://finance.yahoo.com/m/3b22ed8c-00c3-32f8-89f5-91bc21ccb366/dow-jones-futures-fall%2C-techs.html?.tsrc=rss",
+      "date": "2026-11-18T13:15:50.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why is Medline stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-medline-stock-sliding-today-93CH-5035834",
-      "date": "2026-11-18T12:44:26.000Z",
-      "source": "Investing.com"
+      "title": "Southeast Asia's data center boom leaned on Chinese demand. New U.S. rules put that pipeline at risk",
+      "link": "https://www.cnbc.com/2026/11/18/nvidia-us-ai-chip-export-controls-data-centers-.html",
+      "date": "2026-11-18T13:15:45.000Z",
+      "source": "CNBC"
     },
     {
-      "title": "Take-Two shares climb as GTA VI reviews impress ahead of blockbuster launch",
-      "link": "https://www.investing.com/news/stock-market-news/taketwo-shares-climb-as-gta-vi-reviews-impress-ahead-of-blockbuster-launch-5035826",
-      "date": "2026-11-18T12:44:12.000Z",
-      "source": "Investing.com"
+      "title": "‘It’s downright dirty’: My brother took over our ailing mother’s life and finances. What can I do?",
+      "link": "https://www.marketwatch.com/story/it-is-heartbreaking-exhausting-and-downright-dirty-my-brother-took-over-our-ailing-mothers-life-and-finances-what-can-i-do-b4d48817?mod=mw_rss_topstories",
+      "date": "2026-11-18T13:15:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "In China, Trump is greeted by Xi Jinping and meets with Canada's Mark Carney",
+      "link": "https://finance.yahoo.com/economy/article/in-china-trump-is-greeted-by-xi-jinping-and-meets-with-canadas-mark-carney-131412638.html?.tsrc=rss",
+      "date": "2026-11-18T13:14:12.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "yields": {
