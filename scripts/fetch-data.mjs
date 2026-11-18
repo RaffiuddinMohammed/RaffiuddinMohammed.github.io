@@ -257,6 +257,18 @@ const MAG7 = [
   ['Alphabet', /Alphabet|Google|\bGOOGL?\b|YouTube|Waymo/], ['Amazon', /Amazon|\bAMZN\b|\bAWS\b/], ['Meta', /\bMeta\b|Facebook|Instagram|WhatsApp|Zuckerberg|\bMETA\b/],
   ['Tesla', /Tesla|\bTSLA\b/],
 ];
+// Homepage picks: must read as market news, not advice columns, listicles or vendor press releases
+const MARKET_NEWS = /\bstocks?\b|\bshares?\b|\bDow\b|S&P|Nasdaq|FTSE|futures|Wall Street|rally|sell-?off|slump|surge|\bsinks?\b|\bjumps?\b|\bfalls?\b|\brises?\b|\bslides?\b|tumbles?|record high|\bIPO\b|bond|yields?|dollar|sterling|pound/i;
+const NOT_NEWS = /\?\s*$|\b(?:I|I'm|my|you|your)\b|best .* to buy|better buy|passive income|dividend aristocrats|insider buys|everything you need to know|\bwith Microsoft\b|Marketplace|Copilot|\bUnites\b|\bBrings\b|\bHelps\b/i;
+const MARKET_TERMS = [...THEMES, ...MAG7].map(([, re]) => re);
+function featured(list, n = 3) {
+  const ok = list.filter((h) => !NOT_NEWS.test(h.title) && (MARKET_NEWS.test(h.title) || MARKET_TERMS.some((re) => re.test(h.title))));
+  // One per source first so a single busy feed (usually Yahoo) can't fill the box, then top up by recency
+  const picks = [], used = new Set();
+  for (const h of ok) if (picks.length < n && !used.has(h.source)) { picks.push(h); used.add(h.source); }
+  for (const h of ok) if (picks.length < n && !picks.includes(h)) picks.push(h);
+  return picks.length === n ? picks : list.slice(0, n);
+}
 const decode = (s) => strip(s).replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
   .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d)).replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&apos;/g, "'");
 // RSS dates: RFC 822 everywhere except Investing.com, which sends "2026-11-18 12:48:26" (UTC)
@@ -313,7 +325,7 @@ async function markets() {
   }
   return {
     headlineCount: all.length, sources, themes: count(THEMES), mag7: count(MAG7),
-    latest: all.slice(0, 20), yields,
+    latest: all.slice(0, 20), featured: featured(all), yields,
   };
 }
 

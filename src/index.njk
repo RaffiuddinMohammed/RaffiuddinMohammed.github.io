@@ -80,7 +80,7 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
   </div>
   {% if markets.latest.length %}
   <ul class="mk-news">
-    {% for h in markets.latest.slice(0, 3) %}<li><a href="{{ h.link }}" rel="noopener" target="_blank">{{ h.title }}</a> <span class="muted">{{ h.source }}</span></li>{% endfor %}
+    {% for h in (markets.featured or markets.latest.slice(0, 3)) %}<li><a href="{{ h.link }}" rel="noopener" target="_blank">{{ h.title }}</a> <span class="muted">{{ h.source }}</span></li>{% endfor %}
   </ul>
   {% endif %}
 </section>
