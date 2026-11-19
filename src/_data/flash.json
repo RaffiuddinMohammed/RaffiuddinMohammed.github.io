@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-19T11:39:32.430Z",
+  "updated": "2026-11-19T11:43:45.097Z",
   "breaking": [
     {
-      "title": "Call for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
+      "title": "Surgeon calls for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
       "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o",
       "date": "2026-11-19T11:18:48.000Z"
     },
@@ -90,7 +90,14 @@
       "title": "Analysts bullish on Airtel Money as mobile payments drive growth",
       "link": "https://www.investing.com/news/stock-market-news/analysts-bullish-on-airtel-money-as-mobile-payments-drive-growth-5038453",
       "date": "2026-11-19T11:28:33.000Z",
-      "breaking": true
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "date": "2026-11-19T11:15:00.000Z",
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -125,7 +132,7 @@
       "title": "Nasdaq futures climb on optimism ahead of Anthropic’s market debut",
       "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
       "date": "2026-11-19T11:25:27.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",

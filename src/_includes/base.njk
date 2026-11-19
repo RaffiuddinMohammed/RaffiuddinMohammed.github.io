@@ -74,7 +74,7 @@
     </nav>
     {% if onMarkets and flash and flash.business and flash.business.length %}
     {% set bizBreaking = flash.business | selectattr('breaking') | length %}
-    <div class="flash news {{ 'has-breaking' if bizBreaking }}" role="region" aria-label="Live business and markets news">
+    <div class="flash news {{ 'has-breaking' if bizBreaking }}" role="region" data-kind="markets"{% if site.newsRelay %} data-live="{{ site.newsRelay }}"{% endif %} aria-label="Live business and markets news">
       <div class="wrap flash-in">
       <div class="flash-main">
         <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>Live · Markets</span>
@@ -90,7 +90,7 @@
     </div>
     {% elif flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
     {% set nItems = flash.breaking.length + flash.latest.length + flash.trending.length %}
-    <div class="flash news {{ 'has-breaking' if flash.breaking.length }}" role="region" aria-label="Live news">
+    <div class="flash news {{ 'has-breaking' if flash.breaking.length }}" role="region" data-kind="news"{% if site.newsRelay %} data-live="{{ site.newsRelay }}"{% endif %} aria-label="Live news">
       <div class="wrap flash-in">
       <div class="flash-main">
         <span class="flash-label"><span class="st-dot" aria-hidden="true"></span>Live · News</span>
@@ -142,5 +142,6 @@
   {% endif %}
   <script src="/assets/charts.js"></script>
   <script src="/assets/site.js"></script>
+  {% if site.newsRelay %}<script src="/assets/flash-live.js" defer></script>{% endif %}
 </body>
 </html>

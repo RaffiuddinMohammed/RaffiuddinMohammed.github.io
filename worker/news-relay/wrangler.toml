@@ -1,0 +1,4 @@
+# Live news relay for the site's ticker bars. Deploy: cd worker/news-relay && npx wrangler deploy
+name = "news-relay"
+main = "index.js"
+compatibility_date = "2026-11-01"
