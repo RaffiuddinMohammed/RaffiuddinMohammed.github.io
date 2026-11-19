@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T14:03:45.436Z",
+  "updated": "2026-11-19T14:35:37.689Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3646,7 +3646,7 @@
         },
         {
           "name": "Politics",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Health",
@@ -3700,16 +3700,22 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 28,
+          "count": 29,
           "bySection": {
+            "Politics": 15,
             "Health": 3,
-            "Politics": 14,
             "UK": 5,
             "Business": 4,
             "World": 1,
             "Science": 1
           },
           "stories": [
+            {
+              "title": "EU-UK talks going down to the wire, says No 10",
+              "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-19T14:17:32.000Z"
+            },
             {
               "title": "Welsh NHS in strongest pre-winter position ever, says health minister",
               "link": "https://www.bbc.co.uk/news/articles/cq702e33el83o?at_medium=RSS&at_campaign=rss",
@@ -3733,12 +3739,6 @@
               "link": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-19T12:26:39.000Z"
-            },
-            {
-              "title": "'Whole nation behind you' - Nessa delivers rallying cry for Wales rugby team",
-              "link": "https://www.bbc.co.uk/news/articles/ckjwj4w50e1zo?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-19T11:35:46.000Z"
             }
           ]
         },
@@ -3755,7 +3755,7 @@
           },
           "stories": [
             {
-              "title": "Venezuela signs military deal with US less than a year after Maduro's ouster",
+              "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
               "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-19T13:31:23.000Z"
@@ -3934,10 +3934,10 @@
           "name": "Israel",
           "lat": 31,
           "lon": 35,
-          "count": 3,
+          "count": 2,
           "bySection": {
             "World": 1,
-            "Politics": 2
+            "Politics": 1
           },
           "stories": [
             {
@@ -3951,12 +3951,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
               "section": "Politics",
               "date": "2026-11-17T18:27:27.000Z"
-            },
-            {
-              "title": "Wilson apologises for not declaring Israel debate interest",
-              "link": "https://www.bbc.co.uk/news/articles/c68j49r4r10go?at_medium=RSS&at_campaign=rss",
-              "section": "Politics",
-              "date": "2026-11-16T21:25:48.000Z"
             }
           ]
         },
@@ -4041,7 +4035,7 @@
           },
           "stories": [
             {
-              "title": "Venezuela signs military deal with US less than a year after Maduro's ouster",
+              "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
               "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-19T13:31:23.000Z"
@@ -4170,6 +4164,16 @@
       ],
       "topHeadlines": [
         {
+          "title": "EU-UK talks going down to the wire, says No 10",
+          "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+          "section": "Politics"
+        },
+        {
+          "title": "A tsunami river destroyed my kids' childhood in one day",
+          "link": "https://www.bbc.co.uk/news/articles/cwg7l8yxn7nxo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "Welsh NHS in strongest pre-winter position ever, says health minister",
           "link": "https://www.bbc.co.uk/news/articles/cq702e33el83o?at_medium=RSS&at_campaign=rss",
           "section": "Health"
@@ -4183,33 +4187,23 @@
           "title": "Wading bird called Phil tracked in epic migration to Siberia and back",
           "link": "https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss",
           "section": "Science"
-        },
-        {
-          "title": "Cleverly to run as Tory London mayor candidate",
-          "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
-          "section": "Politics"
-        },
-        {
-          "title": "Badenoch defends amputee marathon runners claim in benefits cut row",
-          "link": "https://www.bbc.co.uk/news/articles/cw62pz48vj4go?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 1444
+          "points": 1453
         },
         {
           "title": "Gemini 4 Neon",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-          "points": 900
+          "points": 911
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 737
+          "points": 741
         }
       ]
     }

@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-19T14:03:45.842Z",
+  "updated": "2026-11-19T14:35:38.325Z",
   "breaking": [
     {
-      "title": "Fiona Harvey to appear at Crown Court on harassment charge",
-      "link": "https://www.bbc.co.uk/news/articles/cq143j81g6l3o",
-      "date": "2026-11-19T13:39:56.000Z"
+      "title": "Furbank leads returning England trio for All Blacks visit",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ckdd1y064y0go",
+      "date": "2026-11-19T14:18:36.000Z"
     },
     {
-      "title": "Cleverly to run as Tory London mayor candidate",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo",
-      "date": "2026-11-19T13:34:39.000Z"
+      "title": "EU-UK talks going down to the wire, says No 10",
+      "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go",
+      "date": "2026-11-19T14:17:32.000Z"
     },
     {
-      "title": "Badenoch defends amputee marathon runners claim in benefits cut row",
-      "link": "https://www.bbc.co.uk/news/articles/cw62pz48vj4go",
-      "date": "2026-11-19T13:34:02.000Z"
+      "title": "Ireland hooker Sheehan named at number eight for Springboks game",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cm4gnpgn3z1wo",
+      "date": "2026-11-19T13:59:31.000Z"
     }
   ],
   "latest": [
@@ -39,30 +39,30 @@
       "date": "2026-11-19T12:26:39.000Z"
     },
     {
-      "title": "UK to provide Ukraine with 1,000 long-range strike drones",
-      "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo",
-      "date": "2026-11-19T10:00:02.000Z"
-    },
-    {
       "title": "Florence Pugh hits out at weight loss and cosmetic surgery speculation",
       "link": "https://www.bbc.co.uk/news/articles/cmge37e27r40o",
       "date": "2026-11-19T12:17:32.000Z"
+    },
+    {
+      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
+      "date": "2026-11-19T13:09:01.000Z"
     }
   ],
   "business": [
     {
       "source": "MarketWatch",
-      "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
-      "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c?mod=mw_rss_topstories",
-      "date": "2026-11-19T13:55:00.000Z",
+      "title": "Investors are rushing back into cybersecurity stocks after a string of outages. Here’s what to know before buying.",
+      "link": "https://www.marketwatch.com/story/investors-are-rushing-back-into-cybersecurity-stocks-after-a-string-of-outages-heres-what-to-know-before-buying-09e41107?mod=mw_rss_topstories",
+      "date": "2026-11-19T14:31:00.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "JPMorgan says third-party vendors targeted in cyberattack",
-      "link": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129",
-      "date": "2026-11-19T13:54:21.000Z",
-      "breaking": true
+      "title": "Musk pledges higher Tesla output at China plant, Chinese state media says",
+      "link": "https://www.investing.com/news/stock-market-news/musk-pledges-higher-tesla-output-at-china-plant-chinese-state-media-says-5037774",
+      "date": "2026-11-19T14:13:16.000Z",
+      "breaking": false
     },
     {
       "source": "Cointelegraph",
@@ -86,17 +86,17 @@
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Wall St set for higher open on AI optimism ahead of Anthropic’s market debut",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
-      "date": "2026-11-19T13:48:42.000Z",
-      "breaking": false
+      "source": "MarketWatch",
+      "title": "Ron Johnson’s Social Security gaffe buried important news",
+      "link": "https://www.marketwatch.com/story/ron-johnsons-social-security-gaffe-buried-important-news-b96e0ce8?mod=mw_rss_topstories",
+      "date": "2026-11-19T14:29:00.000Z",
+      "breaking": true
     },
     {
-      "source": "MarketWatch",
-      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "date": "2026-11-19T13:46:00.000Z",
+      "source": "Investing.com",
+      "title": "Google picks Bezos’ Blue Origin to launch AI computing satellites in 2029",
+      "link": "https://www.investing.com/news/stock-market-news/google-picks-bezos-blue-origin-to-launch-ai-computing-satellites-in-2029-5039183",
+      "date": "2026-11-19T14:12:59.000Z",
       "breaking": false
     },
     {
@@ -121,17 +121,17 @@
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Exclusive: Pearson’s Credly hits 150 million credentials as AI skills demand grows",
-      "link": "https://www.investing.com/news/stock-market-news/exclusive-pearsons-credly-hits-150-million-credentials-as-ai-skills-demand-grows-5039101",
-      "date": "2026-11-19T13:45:17.000Z",
+      "source": "MarketWatch",
+      "title": "My wife pays thousands for her family to visit us in New York. How can I ask her to choose between them and me?",
+      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "date": "2026-11-19T14:15:00.000Z",
       "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "If the AI trade unwinds, other pillars holding up the U.S. economy are ‘irrelevant,’ says Barclays",
-      "link": "https://www.marketwatch.com/story/if-the-ai-trade-unwinds-other-pillars-holding-up-the-u-s-economy-are-irrelevant-says-barclays-b6f1bdca?mod=mw_rss_topstories",
-      "date": "2026-11-19T12:45:00.000Z",
+      "source": "Investing.com",
+      "title": "JPMorgan says third-party vendors targeted in cyberattack",
+      "link": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129",
+      "date": "2026-11-19T14:12:29.000Z",
       "breaking": false
     }
   ],
@@ -144,32 +144,32 @@
       "source": "Financial Times"
     },
     {
-      "term": "Legionnaires Disease",
-      "traffic": "2000+",
-      "title": "Legionnaires' disease: Key questions after outbreak",
-      "link": "https://www.bbc.co.uk/news/articles/c38x0q57189wo",
-      "source": "BBC"
-    },
-    {
-      "term": "You Can See Everything Review",
+      "term": "Movies",
       "traffic": "1000+",
-      "title": "You Can See Everything review – unblinking, unhinged and unmissable",
-      "link": "https://www.theguardian.com/film/2026/nov/19/you-can-see-everything-review-docu-hybrid-masterpiece-nathan-fielder-elizabeth-holmes",
-      "source": "The Guardian"
-    },
-    {
-      "term": "Ageing",
-      "traffic": "500+",
-      "title": "How to combat brain ageing with 5 exercises every day",
-      "link": "https://www.gq-magazine.co.uk/article/how-to-combat-brain-ageing-with-5-exercises-every-day",
-      "source": "British GQ"
+      "title": "Nicolas Cage's 'Madden' biopic fails the coach and the movie while Christian Bale's Al Davis steals the show",
+      "link": "https://www.foxnews.com/outkick-sports/nicolas-cage-madden-biopic-fails-coach-movie-christian-bale-al-davis-steals-show",
+      "source": "Fox News"
     },
     {
       "term": "Ben Shelton",
-      "traffic": "200+",
+      "traffic": "500+",
       "title": "ATP Finals: Alexander Zverev beats Ben Shelton to reach semi-finals",
       "link": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o",
       "source": "BBC"
+    },
+    {
+      "term": "Uk Blackout Hoax November 2026",
+      "traffic": "200+",
+      "title": "Will There Be A Blackout In The UK Today? National Grid Responds To Power Outage Rumours",
+      "link": "https://www.countryliving.com/uk/news/a74465479/will-there-be-blackout-uk-tomorrow-national-grid-responds-to-rumours/",
+      "source": "Country Living Magazine"
+    },
+    {
+      "term": "Claudia Lawrence",
+      "traffic": "200+",
+      "title": "CCTV breakthrough in infamous cold case as mystery man seen ‘prowling’ by house",
+      "link": "https://www.thesun.co.uk/news/41068319/claudia-lawrence-cctv-mystery-man/",
+      "source": "The Sun"
     }
   ]
 }

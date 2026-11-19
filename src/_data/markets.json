@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T13:58:41.617Z",
+  "updated": "2026-11-19T14:30:43.003Z",
   "headlineCount": 82,
   "sources": [
     {
@@ -22,15 +22,15 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 27
+      "count": 28
     },
     {
       "name": "Earnings",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Interest rates",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Inflation",
@@ -64,169 +64,169 @@
     },
     {
       "name": "Alphabet",
-      "count": 3
+      "count": 2
     },
     {
       "name": "Apple",
-      "count": 2
-    },
-    {
-      "name": "Microsoft",
-      "count": 2
-    },
-    {
-      "name": "Amazon",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Meta",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Tesla",
+      "count": 1
+    },
+    {
+      "name": "Microsoft",
+      "count": 0
+    },
+    {
+      "name": "Amazon",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
-      "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c?mod=mw_rss_topstories",
-      "date": "2026-11-19T13:55:00.000Z",
+      "title": "With Netflix Stock Down Nearly 46% In The Last Year, Michael Burry Reveals The Price He'd Think About Buying",
+      "link": "https://247wallst.com/investing/2026/11/19/with-netflix-stock-down-nearly-46-in-the-last-year-michael-burry-reveals-the-price-hed-think-about-buying/?.tsrc=rss",
+      "date": "2026-11-19T14:25:45.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Chip giants suspend shipments to China in threat to Xi's AI ambitions",
+      "link": "https://uk.finance.yahoo.com/news/chip-giants-suspend-shipments-china-142306568.html?.tsrc=rss",
+      "date": "2026-11-19T14:23:06.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "At what price will Anthropic shares open? YF takes a guess",
+      "link": "https://finance.yahoo.com/video/at-what-price-will-anthropic-shares-open-yf-takes-a-guess-141835974.html?.tsrc=rss",
+      "date": "2026-11-19T14:18:35.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Billionaire Stanley Druckenmiller's New AI Warning and Top 5 Stock Picks",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-ai-warning-141748585.html?.tsrc=rss",
+      "date": "2026-11-19T14:17:48.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Before the Bell: Rate-Hike Signals, Health Insurer Losses and Cyber Gains",
+      "link": "https://finance.yahoo.com/news/bell-rate-hike-signals-health-141500346.html?.tsrc=rss",
+      "date": "2026-11-19T14:15:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "‘Country of geniuses in a data center': Anthropic CEO warns China with AI could outsmart the US in every conceivable way",
+      "link": "https://finance.yahoo.com/technology/ai/articles/country-geniuses-data-center-anthropic-141500272.html?.tsrc=rss",
+      "date": "2026-11-19T14:15:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "My wife pays thousands for her family to visit us in New York. How can I ask her to choose between them and me?",
+      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "date": "2026-11-19T14:15:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Stocks look to blockbuster Anthropic IPO to break losing streak",
-      "link": "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
-      "date": "2026-11-19T13:54:33.000Z",
+      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Ahead of Anthropic Stock Market Debut",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141450756.html?.tsrc=rss",
+      "date": "2026-11-19T14:14:50.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Anthropic's IPO Drew Nearly $500 Billion in Orders for $81 Billion of Stock",
+      "link": "https://247wallst.com/investing/2026/11/19/anthropics-ipo-drew-nearly-500-billion-in-orders-for-81-billion-of-stock/?.tsrc=rss",
+      "date": "2026-11-19T14:13:23.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Musk pledges higher Tesla output at China plant, Chinese state media says",
+      "link": "https://www.investing.com/news/stock-market-news/musk-pledges-higher-tesla-output-at-china-plant-chinese-state-media-says-5037774",
+      "date": "2026-11-19T14:13:16.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Anthropic Just Priced the Biggest IPO on Record. History Says What Record-Setting IPOs Have Meant for the S&P 500.",
+      "link": "https://www.fool.com/investing/2026/11/19/anthropic-just-priced-the-biggest-ipo-on-record-history-says-what-record-setting-ipos-have-meant-for-the-s-and-p-500/?.tsrc=rss",
+      "date": "2026-11-19T14:13:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Google picks Bezos' Blue Origin to launch AI computing satellites in 2029",
+      "link": "https://www.investing.com/news/stock-market-news/google-picks-bezos-blue-origin-to-launch-ai-computing-satellites-in-2029-5039183",
+      "date": "2026-11-19T14:12:59.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "STMicroelectronics Sees Data Center Revenue More Than Doubling in 2027 as AI Demand Surges",
+      "link": "https://www.marketbeat.com/instant-alerts/event-stmicroelectronics-sees-data-center-revenue-more-than-doubling-in-2027-as-ai-demand-surges-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "date": "2026-11-19T14:12:57.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "JPMorgan says third-party vendors targeted in cyberattack",
       "link": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129",
-      "date": "2026-11-19T13:54:21.000Z",
+      "date": "2026-11-19T14:12:29.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Wall St set for higher open on AI optimism ahead of Anthropic's market debut",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
-      "date": "2026-11-19T13:48:42.000Z",
-      "source": "Investing.com"
+      "title": "SanDisk and Micron Rise 4% as Anthropic's Record IPO Revives the AI Trade; Western Digital Gains 5%",
+      "link": "https://247wallst.com/investing/2026/11/19/sandisk-and-micron-rise-4-as-anthropics-record-ipo-revives-the-ai-trade-western-digital-gains-5/?.tsrc=rss",
+      "date": "2026-11-19T14:11:23.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "US weekly jobless claims increase slightly",
-      "link": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-increase-slightly-5039110",
-      "date": "2026-11-19T13:48:23.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
-      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
-      "date": "2026-11-19T13:46:00.000Z",
+      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
+      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
+      "date": "2026-11-19T14:11:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Exclusive: Pearson's Credly hits 150 million credentials as AI skills demand grows",
-      "link": "https://www.investing.com/news/stock-market-news/exclusive-pearsons-credly-hits-150-million-credentials-as-ai-skills-demand-grows-5039101",
-      "date": "2026-11-19T13:45:17.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Robotaxis, Exchange Switches and Exits: The Auto Sector's Busy Week",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/robotaxis-exchange-switches-exits-auto-134500155.html?.tsrc=rss",
-      "date": "2026-11-19T13:45:00.000Z",
+      "title": "How Much Downside Is Left In Fortinet Stock?",
+      "link": "https://www.trefis.com/stock/ftnt/articles/626674/how-much-downside-is-left-in-fortinet-stock/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T14:09:11.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
-      "link": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html?.tsrc=rss",
-      "date": "2026-11-19T13:44:08.000Z",
+      "title": "Credo Sinks 8% in a Week, Marvell 8%, as Bessent Calls for a Nvidia “Dramatic Shakeup.” Time to Buy?",
+      "link": "https://www.tikr.com/blog/credo-stock-drop-nvidia-turmoil-marvell-patent-settlement-buy?ref=yahoofinance&tlnk=yf-261119-7f4x9qjq&.tsrc=rss",
+      "date": "2026-11-19T14:07:37.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Top Third-Party Logistics (3PL) Companies in the US for 2026",
-      "link": "https://finance.yahoo.com/small-business/articles/top-third-party-logistics-3pl-134400513.html?.tsrc=rss",
-      "date": "2026-11-19T13:44:00.000Z",
+      "title": "Applied Materials Sinks 7% in a Week, but Customers Want Its Tools “As Fast as We Can Get Them”",
+      "link": "https://www.tikr.com/blog/applied-materials-stock-drop-chip-selloff-customer-demand-buy?ref=yahoofinance&tlnk=yf-261119-fm9wr8q7&.tsrc=rss",
+      "date": "2026-11-19T14:07:18.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Walmart raises forecasts ahead of holidays, warns of rising fuel costs",
-      "link": "https://www.investing.com/news/stock-market-news/walmart-nudges-up-annual-forecasts-ahead-of-crucial-holiday-season-5038616",
-      "date": "2026-11-19T13:43:07.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Google's New Gemini 4 Neon Joins Gemini 4 Argon at the Top of the DualEntry Accounting AI",
-      "link": "https://finance.yahoo.com/technology/ai/articles/googles-gemini-4-neon-joins-134300003.html?.tsrc=rss",
-      "date": "2026-11-19T13:43:00.000Z",
+      "title": "3 Reasons I Own More Disney Than Nvidia Stock Right Now",
+      "link": "https://www.fool.com/investing/2026/11/19/3-reasons-i-own-more-disney-than-nvidia-stock-right-now/?.tsrc=rss",
+      "date": "2026-11-19T14:07:02.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
-      "link": "https://www.investing.com/news/economy-news/jp-morgan-sees-fed-rate-hikes-at-next-three-meetings-as-inflation-persists-5039090",
-      "date": "2026-11-19T13:42:31.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Two supertankers struck mines in Strait of Hormuz, Iran's Revolutionary Guard says",
-      "link": "https://www.investing.com/news/economy-news/trump-weighs-fresh-military-strikes-on-iran-nyt-reports-5037423",
-      "date": "2026-11-19T13:40:32.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Stock Market Today: Dow Rises As Walmart Falls On Earnings; Anthropic IPO To Debut (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/81d1d9ec-afbb-3e6f-882b-7e094a9a305e/stock-market-today%3A-dow-rises.html?.tsrc=rss",
-      "date": "2026-11-19T13:39:14.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Here's the 1 Number Anthropic Investors Must Know",
-      "link": "https://www.fool.com/investing/2026/11/19/here-s-the-1-number-anthropic-investors-must-know/?.tsrc=rss",
-      "date": "2026-11-19T13:39:01.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "JD boss notes impact of ‘civil unrest' across Europe on brand sales",
-      "link": "https://uk.finance.yahoo.com/news/jd-boss-notes-impact-civil-081508961.html?.tsrc=rss",
-      "date": "2026-11-19T13:35:31.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "What Sent Cloudflare Stock Higher?",
-      "link": "https://www.trefis.com/stock/net/articles/626933/what-sent-cloudflare-stock-higher-3/2026-11-19?.tsrc=rss",
-      "date": "2026-11-19T13:34:11.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Trump unveils $17 billion of Southeast Asia deals for US firms, White House says",
-      "link": "https://www.investing.com/news/stock-market-news/trump-unveils-17-billion-of-southeast-asia-deals-for-us-firms-white-house-says-5038267",
-      "date": "2026-11-19T13:31:54.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Nasdaq 100 futures jump nearly 2% as Anthropic's record IPO reignites AI trade",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-climb-ahead-of-anthropics-15-trillion-mega-ipo-5037518",
-      "date": "2026-11-19T13:31:31.000Z",
-      "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
-      "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c?mod=mw_rss_topstories",
-      "date": "2026-11-19T13:55:00.000Z",
-      "source": "MarketWatch"
+      "title": "With Netflix Stock Down Nearly 46% In The Last Year, Michael Burry Reveals The Price He'd Think About Buying",
+      "link": "https://247wallst.com/investing/2026/11/19/with-netflix-stock-down-nearly-46-in-the-last-year-michael-burry-reveals-the-price-hed-think-about-buying/?.tsrc=rss",
+      "date": "2026-11-19T14:25:45.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Stocks look to blockbuster Anthropic IPO to break losing streak",
-      "link": "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
-      "date": "2026-11-19T13:54:33.000Z",
+      "title": "Musk pledges higher Tesla output at China plant, Chinese state media says",
+      "link": "https://www.investing.com/news/stock-market-news/musk-pledges-higher-tesla-output-at-china-plant-chinese-state-media-says-5037774",
+      "date": "2026-11-19T14:13:16.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
-      "link": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html?.tsrc=rss",
-      "date": "2026-11-19T13:44:08.000Z",
-      "source": "Yahoo Finance"
+      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
+      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
+      "date": "2026-11-19T14:11:00.000Z",
+      "source": "MarketWatch"
     }
   ],
   "yields": {
