@@ -39,17 +39,36 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
     <div class="tv-widget" data-widget="market-quotes" data-config-src="tv-quotes" data-height="520"></div>
   </div>
   <div class="card">
-    <h2>Today's US movers</h2>
-    <p class="muted">Biggest gainers, losers and most active US stocks.</p>
-    <div class="tv-widget" data-widget="hotlists" data-config-src="tv-movers" data-height="520"></div>
+    <h2>Gainers and losers</h2>
+    <p class="muted">Today's biggest gainers, losers and most traded stocks on each exchange.</p>
+    <div class="tv-tabs" role="tablist" aria-label="Exchange" data-for="movers-list">
+      <button type="button" role="tab" aria-selected="true" data-config='{"exchange":"US"}'>US</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"exchange":"XETR"}'>Germany</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"exchange":"ASX"}'>Australia</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"exchange":"SSE"}'>China</button>
+    </div>
+    <div class="tv-widget" id="movers-list" data-widget="hotlists" data-config-src="tv-movers" data-height="520"></div>
   </div>
 </section>
 
 <section>
   <div class="card">
-    <h2>The S&amp;P 500 at a glance</h2>
-    <p class="muted">Each block is a company, sized by market value and coloured by today's move. The Magnificent 7 are the biggest blocks.</p>
-    <div class="tv-widget tv-heatmap" data-widget="stock-heatmap" data-config-src="tv-heatmap" data-height="520"></div>
+    <h2>Market movers</h2>
+    <p class="muted">Every company in the index as a block, sized by market value: green rose today, red fell, and the deeper the colour the bigger the move.</p>
+    <div class="tv-tabs" role="tablist" aria-label="Index" data-for="movers-map">
+      <button type="button" role="tab" aria-selected="true" data-config='{"dataSource":"SPX500"}'>S&amp;P 500</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"NASDAQ100"}'>Nasdaq 100</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"DJDJI"}'>Dow 30</button>
+      <span class="tv-tabs-group">Europe</span>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"DAX"}'>Germany</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"IBEX35"}'>Spain</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"FTSEMIB"}'>Italy</button>
+      <span class="tv-tabs-group">Asia-Pacific</span>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"SENSEX"}'>India</button>
+      <button type="button" role="tab" aria-selected="false" data-config='{"dataSource":"ASX200"}'>Australia</button>
+    </div>
+    <div class="tv-widget tv-heatmap" id="movers-map" data-widget="stock-heatmap" data-config-src="tv-heatmap" data-height="520"></div>
+    <p class="muted credit">UK, Japan, Hong Kong and China indexes aren't offered by TradingView's free widgets, so they're left out rather than shown wrong.</p>
   </div>
 </section>
 

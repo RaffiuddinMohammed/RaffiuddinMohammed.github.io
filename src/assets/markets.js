@@ -7,6 +7,7 @@
 
   function mount(box) {
     const config = JSON.parse(document.getElementById(box.dataset.configSrc).textContent);
+    if (box.dataset.override) Object.assign(config, JSON.parse(box.dataset.override)); // set by a region tab
     Object.assign(config, { colorTheme: dark ? 'dark' : 'light', isTransparent: true, locale: 'en', width: '100%' });
     if (box.dataset.height) config.height = Number(box.dataset.height);
 
@@ -24,6 +25,28 @@
     wrap.append(inner, credit, script);
     box.replaceChildren(wrap);
   }
+
+  // Region tabs: each button carries the settings that differ (an exchange or an index); picking one
+  // re-mounts its widget. Before the widget has scrolled into view, the choice is just remembered.
+  document.querySelectorAll('.tv-tabs[data-for]').forEach((bar) => {
+    const box = document.getElementById(bar.dataset.for);
+    const tabs = [...bar.querySelectorAll('[role="tab"]')];
+    const pick = (btn) => {
+      tabs.forEach((t) => { t.setAttribute('aria-selected', String(t === btn)); t.tabIndex = t === btn ? 0 : -1; });
+      box.dataset.override = btn.dataset.config;
+      if (box.querySelector('.tradingview-widget-container')) mount(box);
+    };
+    tabs.forEach((t, i) => {
+      t.tabIndex = t.getAttribute('aria-selected') === 'true' ? 0 : -1;
+      t.addEventListener('click', () => pick(t));
+      t.addEventListener('keydown', (e) => { // arrow keys move between tabs, as screen-reader users expect
+        const step = { ArrowRight: 1, ArrowLeft: -1 }[e.key];
+        if (!step) return;
+        const next = tabs[(i + step + tabs.length) % tabs.length];
+        next.focus(); pick(next);
+      });
+    });
+  });
 
   const boxes = document.querySelectorAll('.tv-widget[data-widget]');
   if (!('IntersectionObserver' in window)) return boxes.forEach(mount);
