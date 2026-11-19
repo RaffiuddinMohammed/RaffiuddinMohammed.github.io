@@ -1,18 +1,18 @@
 {
-  "updated": "2026-11-19T11:30:27.033Z",
-  "totalStories": 249,
+  "updated": "2026-11-19T11:46:08.391Z",
+  "totalStories": 250,
   "sections": [
     {
       "name": "World",
       "count": 24
     },
     {
-      "name": "Business",
-      "count": 18
+      "name": "UK",
+      "count": 19
     },
     {
-      "name": "UK",
-      "count": 17
+      "name": "Business",
+      "count": 19
     },
     {
       "name": "Politics",
@@ -86,10 +86,10 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 25,
+      "count": 26,
       "bySection": {
+        "UK": 4,
         "Politics": 14,
-        "UK": 3,
         "Business": 4,
         "World": 1,
         "Health": 2,
@@ -97,16 +97,22 @@
       },
       "stories": [
         {
+          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-19T11:43:39.000Z"
+        },
+        {
+          "title": "'Whole nation behind you' – Nessa delivers rallying cry for Wales rugby team",
+          "link": "https://www.bbc.co.uk/news/articles/ckjwj4w50e1zo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-19T11:35:46.000Z"
+        },
+        {
           "title": "Cleverly to run as Tory London mayor candidate",
           "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-19T11:26:44.000Z"
-        },
-        {
-          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-19T10:51:35.000Z"
         },
         {
           "title": "UK to provide Ukraine with 1,000 long-range strike drones",
@@ -137,12 +143,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-18T17:09:35.000Z"
-        },
-        {
-          "title": "British hacker who stole $11m through text message scheme jailed for six years in US",
-          "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T09:28:35.000Z"
         }
       ]
     },
@@ -281,6 +281,42 @@
       ]
     },
     {
+      "name": "India",
+      "lat": 22,
+      "lon": 79,
+      "count": 4,
+      "bySection": {
+        "Business": 2,
+        "World": 2
+      },
+      "stories": [
+        {
+          "title": "Indian driver wins $1.3m in life-changing lottery prize",
+          "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-19T11:38:09.000Z"
+        },
+        {
+          "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
+          "link": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T00:38:52.000Z"
+        },
+        {
+          "title": "William and Kate meet PM Modi as they wrap up India tour",
+          "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T20:07:08.000Z"
+        },
+        {
+          "title": "The Indian workers filming their work to train AI",
+          "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-10-23T08:04:17.000Z"
+        }
+      ]
+    },
+    {
       "name": "Israel",
       "lat": 31,
       "lon": 35,
@@ -307,36 +343,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c68j49r4r10go?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-16T21:25:48.000Z"
-        }
-      ]
-    },
-    {
-      "name": "India",
-      "lat": 22,
-      "lon": 79,
-      "count": 3,
-      "bySection": {
-        "World": 2,
-        "Business": 1
-      },
-      "stories": [
-        {
-          "title": "India's religious make-up - what a new Pew study says about Hindus and Muslims",
-          "link": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-19T00:38:52.000Z"
-        },
-        {
-          "title": "William and Kate meet PM Modi as they wrap up India tour",
-          "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T20:07:08.000Z"
-        },
-        {
-          "title": "The Indian workers filming their work to train AI",
-          "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-10-23T08:04:17.000Z"
         }
       ]
     },
@@ -546,16 +552,34 @@
   ],
   "latest": [
     {
+      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T11:43:39.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Indian driver wins $1.3m in life-changing lottery prize",
+      "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T11:38:09.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "'Whole nation behind you' – Nessa delivers rallying cry for Wales rugby team",
+      "link": "https://www.bbc.co.uk/news/articles/ckjwj4w50e1zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T11:35:46.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Cleverly to run as Tory London mayor candidate",
       "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T11:26:44.000Z",
       "section": "Politics"
     },
     {
-      "title": "Call for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
+      "title": "Surgeon calls for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
       "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T11:18:48.000Z",
-      "section": "Health"
+      "section": "UK"
     },
     {
       "title": "'Dad was deteriorating': Two-hour ambulance target missed more than 2,000 times",
@@ -574,12 +598,6 @@
       "link": "https://www.bbc.co.uk/sport/tennis/videos/cw1mdn0n531lo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T10:55:19.000Z",
       "section": "Health"
-    },
-    {
-      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:51:35.000Z",
-      "section": "UK"
     },
     {
       "title": "Why children lying can be a good thing, according to experts",
@@ -604,18 +622,6 @@
       "link": "https://www.bbc.co.uk/news/videos/cmgqx0l7dzxno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T10:15:16.000Z",
       "section": "Health"
-    },
-    {
-      "title": "UK to provide Ukraine with 1,000 long-range strike drones",
-      "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:00:02.000Z",
-      "section": "Politics"
-    },
-    {
-      "title": "Leasehold system set to be scrapped in England and Wales",
-      "link": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T09:26:59.000Z",
-      "section": "UK"
     }
   ]
 }

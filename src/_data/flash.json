@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-19T11:43:45.097Z",
+  "updated": "2026-11-19T11:52:33.005Z",
   "breaking": [
     {
-      "title": "Surgeon calls for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
-      "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o",
-      "date": "2026-11-19T11:18:48.000Z"
+      "title": "Florida pastor found guilty over role in assassination of Haitian president",
+      "link": "https://www.bbc.co.uk/news/articles/cm702q0lg50po",
+      "date": "2026-11-19T11:44:57.000Z"
     },
     {
       "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
-      "date": "2026-11-19T10:51:35.000Z"
+      "date": "2026-11-19T11:43:39.000Z"
     },
     {
-      "title": "Why children lying can be a good thing, according to experts",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo",
-      "date": "2026-11-19T10:49:21.000Z"
+      "title": "Surgeon calls for corporate homicide probe over claims patients unnecessarily bled to death",
+      "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o",
+      "date": "2026-11-19T11:18:48.000Z"
     }
   ],
   "latest": [
@@ -34,6 +34,11 @@
       "date": "2026-11-19T09:26:59.000Z"
     },
     {
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-19T10:48:04.000Z"
+    },
+    {
       "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
       "link": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
       "date": "2026-11-19T00:49:19.000Z"
@@ -42,11 +47,6 @@
       "title": "UK to provide Ukraine with 1,000 long-range strike drones",
       "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo",
       "date": "2026-11-19T10:00:02.000Z"
-    },
-    {
-      "title": "Westside Cowboy named BBC Introducing Artist of the Year 2026",
-      "link": "https://www.bbc.co.uk/news/articles/c6eq4l4y81l2o",
-      "date": "2026-11-19T09:00:54.000Z"
     }
   ],
   "business": [
@@ -55,14 +55,14 @@
       "title": "This closely-watched investing guru just sold all of his stocks",
       "link": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
       "date": "2026-11-19T11:37:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Investing.com",
       "title": "Accenture launches plan to cut 950 Meta-linked jobs in Portugal",
       "link": "https://www.investing.com/news/stock-market-news/accenture-launches-plan-to-cut-950-metalinked-jobs-in-portugal-5038446",
       "date": "2026-11-19T11:30:22.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Cointelegraph",
@@ -90,13 +90,6 @@
       "title": "Analysts bullish on Airtel Money as mobile payments drive growth",
       "link": "https://www.investing.com/news/stock-market-news/analysts-bullish-on-airtel-money-as-mobile-payments-drive-growth-5038453",
       "date": "2026-11-19T11:28:33.000Z",
-      "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "date": "2026-11-19T11:15:00.000Z",
       "breaking": false
     },
     {
@@ -144,13 +137,6 @@
   ],
   "trending": [
     {
-      "term": "Cma Music Awards",
-      "traffic": "2000+",
-      "title": "Here Are the 2026 CMA Awards Winners: Full List",
-      "link": "https://www.billboard.com/music/awards/cma-2026-winners-list-1236385046/",
-      "source": "Billboard"
-    },
-    {
       "term": "Boardmasters",
       "traffic": "2000+",
       "title": "Four headline acts announced for Boardmasters Cornwall festival",
@@ -158,24 +144,31 @@
       "source": "BBC"
     },
     {
-      "term": "Myanmar",
+      "term": "James Cleverly",
       "traffic": "500+",
-      "title": "UN court delivering judgment over whether Myanmar committed genocide against Rohingya",
-      "link": "https://www.bbc.co.uk/news/live/cr93z32d2344t",
+      "title": "Sir James Cleverly is Tory candidate in mayor of London 2028 race",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo",
       "source": "BBC"
     },
     {
-      "term": "Sam Walker",
-      "traffic": "200+",
-      "title": "Ricky closes in on rep star; Chiefs' Walker bid as Souths' trump card emerges",
-      "link": "https://www.foxsports.com.au/en-AU/news/rugby-league/sam-walker-meets-with-chiefs-rabbitohs-contract-offer-signings-news-videos-highlightsliam-martin-raiders/effmi0ngbto19cpxcg5e9m05",
-      "source": "Fox Sports"
+      "term": "Myanmar",
+      "traffic": "500+",
+      "title": "Myanmar committed acts of genocide against Rohingya minority, world’s top court rules",
+      "link": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+      "source": "The Guardian"
     },
     {
-      "term": "Kemi Badenoch",
-      "traffic": "200+",
-      "title": "Badenoch says using amputee athletes to justify cutting disability benefits was ‘message of hope’ – UK politics live",
-      "link": "https://www.theguardian.com/politics/live/2026/nov/19/kemi-badenoch-andy-burnham-uk-politics-latest-news-updates",
+      "term": "Building",
+      "traffic": "500+",
+      "title": "Video from MTA Bus Captures Moments Before Fatal Brooklyn Building Collapse",
+      "link": "https://www.nytimes.com/2026/11/18/nyregion/brooklyn-building-collapse-video.html",
+      "source": "The New York Times"
+    },
+    {
+      "term": "Anthony Albanese Vladimir Putin Apec Summit",
+      "traffic": "500+",
+      "title": "‘End your war, end it now’: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war",
+      "link": "https://www.theguardian.com/world/2026/nov/19/end-your-war-end-it-now-anthony-albanese-tells-vladimir-putin-to-put-a-stop-to-ukraine-war",
       "source": "The Guardian"
     }
   ]
