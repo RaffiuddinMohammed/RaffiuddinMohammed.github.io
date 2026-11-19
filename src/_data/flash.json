@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-19T11:52:33.005Z",
+  "updated": "2026-11-19T14:03:45.842Z",
   "breaking": [
     {
-      "title": "Florida pastor found guilty over role in assassination of Haitian president",
-      "link": "https://www.bbc.co.uk/news/articles/cm702q0lg50po",
-      "date": "2026-11-19T11:44:57.000Z"
+      "title": "Fiona Harvey to appear at Crown Court on harassment charge",
+      "link": "https://www.bbc.co.uk/news/articles/cq143j81g6l3o",
+      "date": "2026-11-19T13:39:56.000Z"
     },
     {
-      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
-      "date": "2026-11-19T11:43:39.000Z"
+      "title": "Cleverly to run as Tory London mayor candidate",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo",
+      "date": "2026-11-19T13:34:39.000Z"
     },
     {
-      "title": "Surgeon calls for corporate homicide probe over claims patients unnecessarily bled to death",
-      "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o",
-      "date": "2026-11-19T11:18:48.000Z"
+      "title": "Badenoch defends amputee marathon runners claim in benefits cut row",
+      "link": "https://www.bbc.co.uk/news/articles/cw62pz48vj4go",
+      "date": "2026-11-19T13:34:02.000Z"
     }
   ],
   "latest": [
@@ -34,41 +34,41 @@
       "date": "2026-11-19T09:26:59.000Z"
     },
     {
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
-      "date": "2026-11-19T10:48:04.000Z"
-    },
-    {
-      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-      "link": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
-      "date": "2026-11-19T00:49:19.000Z"
+      "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+      "link": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo",
+      "date": "2026-11-19T12:26:39.000Z"
     },
     {
       "title": "UK to provide Ukraine with 1,000 long-range strike drones",
       "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo",
       "date": "2026-11-19T10:00:02.000Z"
+    },
+    {
+      "title": "Florence Pugh hits out at weight loss and cosmetic surgery speculation",
+      "link": "https://www.bbc.co.uk/news/articles/cmge37e27r40o",
+      "date": "2026-11-19T12:17:32.000Z"
     }
   ],
   "business": [
     {
       "source": "MarketWatch",
-      "title": "This closely-watched investing guru just sold all of his stocks",
-      "link": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
-      "date": "2026-11-19T11:37:00.000Z",
-      "breaking": false
+      "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
+      "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c?mod=mw_rss_topstories",
+      "date": "2026-11-19T13:55:00.000Z",
+      "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Accenture launches plan to cut 950 Meta-linked jobs in Portugal",
-      "link": "https://www.investing.com/news/stock-market-news/accenture-launches-plan-to-cut-950-metalinked-jobs-in-portugal-5038446",
-      "date": "2026-11-19T11:30:22.000Z",
-      "breaking": false
+      "title": "JPMorgan says third-party vendors targeted in cyberattack",
+      "link": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129",
+      "date": "2026-11-19T13:54:21.000Z",
+      "breaking": true
     },
     {
       "source": "Cointelegraph",
-      "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
-      "link": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-19T11:19:58.000Z",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19T13:48:14.000Z",
       "breaking": false
     },
     {
@@ -87,23 +87,23 @@
     },
     {
       "source": "Investing.com",
-      "title": "Analysts bullish on Airtel Money as mobile payments drive growth",
-      "link": "https://www.investing.com/news/stock-market-news/analysts-bullish-on-airtel-money-as-mobile-payments-drive-growth-5038453",
-      "date": "2026-11-19T11:28:33.000Z",
+      "title": "Wall St set for higher open on AI optimism ahead of Anthropic’s market debut",
+      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
+      "date": "2026-11-19T13:48:42.000Z",
       "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
-      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-      "date": "2026-11-19T11:15:00.000Z",
+      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "date": "2026-11-19T13:46:00.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
-      "link": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-19T10:32:05.000Z",
+      "title": "Ethereum’s new DeFi security tool raises questions over censorship",
+      "link": "https://cointelegraph.com/magazine/ethereums-new-defi-security-tool-raises-questions-over-censorship?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19T13:30:00.000Z",
       "breaking": false
     },
     {
@@ -122,54 +122,54 @@
     },
     {
       "source": "Investing.com",
-      "title": "Nasdaq futures climb on optimism ahead of Anthropic’s market debut",
-      "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
-      "date": "2026-11-19T11:25:27.000Z",
+      "title": "Exclusive: Pearson’s Credly hits 150 million credentials as AI skills demand grows",
+      "link": "https://www.investing.com/news/stock-market-news/exclusive-pearsons-credly-hits-150-million-credentials-as-ai-skills-demand-grows-5039101",
+      "date": "2026-11-19T13:45:17.000Z",
       "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "My wife pays thousands of dollars for her family to visit from Argentina. How can I convince her to stop?",
-      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
-      "date": "2026-11-19T10:15:00.000Z",
+      "title": "If the AI trade unwinds, other pillars holding up the U.S. economy are ‘irrelevant,’ says Barclays",
+      "link": "https://www.marketwatch.com/story/if-the-ai-trade-unwinds-other-pillars-holding-up-the-u-s-economy-are-irrelevant-says-barclays-b6f1bdca?mod=mw_rss_topstories",
+      "date": "2026-11-19T12:45:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Boardmasters",
+      "term": "Man City Premier League Rules Verdict",
       "traffic": "2000+",
-      "title": "Four headline acts announced for Boardmasters Cornwall festival",
-      "link": "https://www.bbc.co.uk/news/articles/cmjwj41qlqylo",
+      "title": "Apollo scraps planned $2bn loan to Manchester City owner after rule breaches",
+      "link": "https://www.ft.com/content/e2cfb9c4-a642-4ca9-9e78-32afc2549d9d?syn-25a6b1a6=1",
+      "source": "Financial Times"
+    },
+    {
+      "term": "Legionnaires Disease",
+      "traffic": "2000+",
+      "title": "Legionnaires' disease: Key questions after outbreak",
+      "link": "https://www.bbc.co.uk/news/articles/c38x0q57189wo",
       "source": "BBC"
     },
     {
-      "term": "James Cleverly",
+      "term": "You Can See Everything Review",
+      "traffic": "1000+",
+      "title": "You Can See Everything review – unblinking, unhinged and unmissable",
+      "link": "https://www.theguardian.com/film/2026/nov/19/you-can-see-everything-review-docu-hybrid-masterpiece-nathan-fielder-elizabeth-holmes",
+      "source": "The Guardian"
+    },
+    {
+      "term": "Ageing",
       "traffic": "500+",
-      "title": "Sir James Cleverly is Tory candidate in mayor of London 2028 race",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo",
+      "title": "How to combat brain ageing with 5 exercises every day",
+      "link": "https://www.gq-magazine.co.uk/article/how-to-combat-brain-ageing-with-5-exercises-every-day",
+      "source": "British GQ"
+    },
+    {
+      "term": "Ben Shelton",
+      "traffic": "200+",
+      "title": "ATP Finals: Alexander Zverev beats Ben Shelton to reach semi-finals",
+      "link": "https://www.bbc.co.uk/sport/tennis/articles/c6x2eveyyxp0o",
       "source": "BBC"
-    },
-    {
-      "term": "Myanmar",
-      "traffic": "500+",
-      "title": "Myanmar committed acts of genocide against Rohingya minority, world’s top court rules",
-      "link": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
-      "source": "The Guardian"
-    },
-    {
-      "term": "Building",
-      "traffic": "500+",
-      "title": "Video from MTA Bus Captures Moments Before Fatal Brooklyn Building Collapse",
-      "link": "https://www.nytimes.com/2026/11/18/nyregion/brooklyn-building-collapse-video.html",
-      "source": "The New York Times"
-    },
-    {
-      "term": "Anthony Albanese Vladimir Putin Apec Summit",
-      "traffic": "500+",
-      "title": "‘End your war, end it now’: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war",
-      "link": "https://www.theguardian.com/world/2026/nov/19/end-your-war-end-it-now-anthony-albanese-tells-vladimir-putin-to-put-a-stop-to-ukraine-war",
-      "source": "The Guardian"
     }
   ]
 }

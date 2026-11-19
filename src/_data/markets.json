@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19T11:46:07.453Z",
-  "headlineCount": 83,
+  "updated": "2026-11-19T13:58:41.617Z",
+  "headlineCount": 82,
   "sources": [
     {
       "name": "CNBC",
-      "count": 14
+      "count": 12
     },
     {
       "name": "Yahoo Finance",
@@ -12,7 +12,7 @@
     },
     {
       "name": "MarketWatch",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Investing.com",
@@ -22,15 +22,15 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 19
-    },
-    {
-      "name": "Interest rates",
-      "count": 10
+      "count": 27
     },
     {
       "name": "Earnings",
-      "count": 9
+      "count": 11
+    },
+    {
+      "name": "Interest rates",
+      "count": 8
     },
     {
       "name": "Inflation",
@@ -38,14 +38,6 @@
     },
     {
       "name": "Jobs",
-      "count": 4
-    },
-    {
-      "name": "Crypto",
-      "count": 2
-    },
-    {
-      "name": "Housing",
       "count": 2
     },
     {
@@ -53,33 +45,41 @@
       "count": 1
     },
     {
+      "name": "Housing",
+      "count": 1
+    },
+    {
       "name": "Trade and tariffs",
+      "count": 0
+    },
+    {
+      "name": "Crypto",
       "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
+      "count": 5
+    },
+    {
+      "name": "Alphabet",
       "count": 3
     },
     {
       "name": "Apple",
-      "count": 1
-    },
-    {
-      "name": "Alphabet",
-      "count": 1
-    },
-    {
-      "name": "Meta",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Microsoft",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Amazon",
+      "count": 0
+    },
+    {
+      "name": "Meta",
       "count": 0
     },
     {
@@ -89,144 +89,144 @@
   ],
   "latest": [
     {
-      "title": "This closely-watched investing guru just sold all of his stocks",
-      "link": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
-      "date": "2026-11-19T11:37:00.000Z",
+      "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
+      "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c?mod=mw_rss_topstories",
+      "date": "2026-11-19T13:55:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Dow Jones Futures Rise, Techs Jump 2%: Anthropic To Debut After Strong IPO; Palo Alto, Everpure Rally On Earnings",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "date": "2026-11-19T11:36:21.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "U.S., China, and Russia agree to increase energy supplies after historic summit",
-      "link": "https://www.investing.com/news/economy-news/trump-begins-historic-trilateral-talks-with-xi-putin-in-china-5038233",
-      "date": "2026-11-19T11:35:38.000Z",
+      "title": "Stocks look to blockbuster Anthropic IPO to break losing streak",
+      "link": "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
+      "date": "2026-11-19T13:54:33.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "This \"Unstoppable\" Cryptocurrency Is Ready to Deliver Massive Gains in 2027",
-      "link": "https://www.fool.com/investing/2026/11/19/this-unstoppable-cryptocurrency-is-ready-to-deliver-massive-gains-in-2027/?.tsrc=rss",
-      "date": "2026-11-19T11:32:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Accenture launches plan to cut 950 Meta-linked jobs in Portugal",
-      "link": "https://www.investing.com/news/stock-market-news/accenture-launches-plan-to-cut-950-metalinked-jobs-in-portugal-5038446",
-      "date": "2026-11-19T11:30:22.000Z",
+      "title": "JPMorgan says third-party vendors targeted in cyberattack",
+      "link": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129",
+      "date": "2026-11-19T13:54:21.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Analysts bullish on Airtel Money as mobile payments drive growth",
-      "link": "https://www.investing.com/news/stock-market-news/analysts-bullish-on-airtel-money-as-mobile-payments-drive-growth-5038453",
-      "date": "2026-11-19T11:28:33.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Can Apple Grow Cash Flow 17% a Year? That's What Its Record Price Implies",
-      "link": "https://www.tikr.com/blog/can-apple-grow-cash-flow-17-a-year-thats-what-its-record-price-implies?ref=yahoofinance&tlnk=yf-261119-c3pv52h9&.tsrc=rss",
-      "date": "2026-11-19T11:27:35.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Analysis-Record profits but record outflows: 'Sell Korea' trade stalks Seoul market",
-      "link": "https://www.investing.com/news/economy-news/analysisrecord-profits-but-record-outflows-sell-korea-trade-stalks-seoul-market-5037911",
-      "date": "2026-11-19T11:25:44.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Nasdaq futures climb on optimism ahead of Anthropic's market debut",
+      "title": "Wall St set for higher open on AI optimism ahead of Anthropic's market debut",
       "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-jump-as-anthropics-record-ipo-pricing-fuels-hopes-for-strong-debut-5038156",
-      "date": "2026-11-19T11:25:27.000Z",
+      "date": "2026-11-19T13:48:42.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "The US IPO market is bigger than ever, but not busier",
-      "link": "https://www.investing.com/news/stock-market-news/the-us-ipo-market-is-bigger-than-ever-but-not-busier-5038432",
-      "date": "2026-11-19T11:25:10.000Z",
+      "title": "US weekly jobless claims increase slightly",
+      "link": "https://www.investing.com/news/economy-news/us-weekly-jobless-claims-increase-slightly-5039110",
+      "date": "2026-11-19T13:48:23.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "RBC Raised Cannae (CNNE)'s Target. Why Downgrade Anyway?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-raised-cannae-cnne-target-112437145.html?.tsrc=rss",
-      "date": "2026-11-19T11:24:37.000Z",
+      "title": "Is Social Security a Ponzi scheme? No, but fear is fueling such talk.",
+      "link": "https://www.marketwatch.com/story/the-thought-of-living-to-100-terrifies-me-is-social-security-a-giant-ponzi-scheme-84a64e7e?mod=mw_rss_topstories",
+      "date": "2026-11-19T13:46:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Exclusive: Pearson's Credly hits 150 million credentials as AI skills demand grows",
+      "link": "https://www.investing.com/news/stock-market-news/exclusive-pearsons-credly-hits-150-million-credentials-as-ai-skills-demand-grows-5039101",
+      "date": "2026-11-19T13:45:17.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Robotaxis, Exchange Switches and Exits: The Auto Sector's Busy Week",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/robotaxis-exchange-switches-exits-auto-134500155.html?.tsrc=rss",
+      "date": "2026-11-19T13:45:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "What Does Jefferies See Ahead for Amrize (AMRZ) in 2027?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/does-jefferies-see-ahead-amrize-112432353.html?.tsrc=rss",
-      "date": "2026-11-19T11:24:32.000Z",
+      "title": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
+      "link": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html?.tsrc=rss",
+      "date": "2026-11-19T13:44:08.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Goldman Backed Yeti (YETI) in July. Why Did It Change Course?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-backed-yeti-yeti-july-112428999.html?.tsrc=rss",
-      "date": "2026-11-19T11:24:28.000Z",
+      "title": "Top Third-Party Logistics (3PL) Companies in the US for 2026",
+      "link": "https://finance.yahoo.com/small-business/articles/top-third-party-logistics-3pl-134400513.html?.tsrc=rss",
+      "date": "2026-11-19T13:44:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "KeyBanc Gives FMC (FMC) One More Year. Then What?",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/keybanc-gives-fmc-fmc-one-112423716.html?.tsrc=rss",
-      "date": "2026-11-19T11:24:23.000Z",
+      "title": "Walmart raises forecasts ahead of holidays, warns of rising fuel costs",
+      "link": "https://www.investing.com/news/stock-market-news/walmart-nudges-up-annual-forecasts-ahead-of-crucial-holiday-season-5038616",
+      "date": "2026-11-19T13:43:07.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Google's New Gemini 4 Neon Joins Gemini 4 Argon at the Top of the DualEntry Accounting AI",
+      "link": "https://finance.yahoo.com/technology/ai/articles/googles-gemini-4-neon-joins-134300003.html?.tsrc=rss",
+      "date": "2026-11-19T13:43:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why Mizuho Still Rates Corteva (CTVA) Outperform After a Cut",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-mizuho-still-rates-corteva-112416987.html?.tsrc=rss",
-      "date": "2026-11-19T11:24:16.000Z",
+      "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
+      "link": "https://www.investing.com/news/economy-news/jp-morgan-sees-fed-rate-hikes-at-next-three-meetings-as-inflation-persists-5039090",
+      "date": "2026-11-19T13:42:31.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Two supertankers struck mines in Strait of Hormuz, Iran's Revolutionary Guard says",
+      "link": "https://www.investing.com/news/economy-news/trump-weighs-fresh-military-strikes-on-iran-nyt-reports-5037423",
+      "date": "2026-11-19T13:40:32.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stock Market Today: Dow Rises As Walmart Falls On Earnings; Anthropic IPO To Debut (Live Coverage)",
+      "link": "https://finance.yahoo.com/m/81d1d9ec-afbb-3e6f-882b-7e094a9a305e/stock-market-today%3A-dow-rises.html?.tsrc=rss",
+      "date": "2026-11-19T13:39:14.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Analysts Turned Bearish on These 5 Stocks on Monday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/analysts-turned-bearish-5-stocks-112403055.html?.tsrc=rss",
-      "date": "2026-11-19T11:24:03.000Z",
+      "title": "Here's the 1 Number Anthropic Investors Must Know",
+      "link": "https://www.fool.com/investing/2026/11/19/here-s-the-1-number-anthropic-investors-must-know/?.tsrc=rss",
+      "date": "2026-11-19T13:39:01.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Should You Buy Micron Technology Stock While It's Under $1,000? The Answer Might Surprise You.",
-      "link": "https://www.fool.com/investing/2026/11/19/should-buy-micron-technology-stock-under-usd1-000-answer-surprise/?.tsrc=rss",
-      "date": "2026-11-19T11:23:02.000Z",
+      "title": "JD boss notes impact of ‘civil unrest' across Europe on brand sales",
+      "link": "https://uk.finance.yahoo.com/news/jd-boss-notes-impact-civil-081508961.html?.tsrc=rss",
+      "date": "2026-11-19T13:35:31.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Atlassian Looks Cheap Until You Count Stock Pay",
-      "link": "https://www.trefis.com/stock/team/articles/626857/atlassian-looks-cheap-until-you-count-stock-pay/2026-11-19?.tsrc=rss",
-      "date": "2026-11-19T11:22:27.000Z",
+      "title": "What Sent Cloudflare Stock Higher?",
+      "link": "https://www.trefis.com/stock/net/articles/626933/what-sent-cloudflare-stock-higher-3/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T13:34:11.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is GitLab Stock Worth The Wait?",
-      "link": "https://www.trefis.com/stock/gtlb/articles/626874/is-gitlab-stock-worth-the-wait/2026-11-19?.tsrc=rss",
-      "date": "2026-11-19T11:22:27.000Z",
-      "source": "Yahoo Finance"
+      "title": "Trump unveils $17 billion of Southeast Asia deals for US firms, White House says",
+      "link": "https://www.investing.com/news/stock-market-news/trump-unveils-17-billion-of-southeast-asia-deals-for-us-firms-white-house-says-5038267",
+      "date": "2026-11-19T13:31:54.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "$1 Million In Cash Five Years Ago: What Is It Worth Now?",
-      "link": "https://www.trefis.com/stock/shv/articles/626573/1-million-in-cash-five-years-ago-what-is-it-worth-now/2026-11-19?.tsrc=rss",
-      "date": "2026-11-19T11:22:27.000Z",
-      "source": "Yahoo Finance"
+      "title": "Nasdaq 100 futures jump nearly 2% as Anthropic's record IPO reignites AI trade",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-climb-ahead-of-anthropics-15-trillion-mega-ipo-5037518",
+      "date": "2026-11-19T13:31:31.000Z",
+      "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "This closely-watched investing guru just sold all of his stocks",
-      "link": "https://www.marketwatch.com/story/this-closely-watched-guru-just-sold-everything-474b4389?mod=mw_rss_topstories",
-      "date": "2026-11-19T11:37:00.000Z",
+      "title": "Alibaba’s cloud business is thriving. But those profits are completely offset by losses from its AI labs.",
+      "link": "https://www.marketwatch.com/story/alibabas-cloud-business-is-thriving-but-those-profits-are-completely-offset-by-losses-from-its-ai-labs-74bf4b3c?mod=mw_rss_topstories",
+      "date": "2026-11-19T13:55:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Dow Jones Futures Rise, Techs Jump 2%: Anthropic To Debut After Strong IPO; Palo Alto, Everpure Rally On Earnings",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "date": "2026-11-19T11:36:21.000Z",
-      "source": "Yahoo Finance"
+      "title": "Stocks look to blockbuster Anthropic IPO to break losing streak",
+      "link": "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
+      "date": "2026-11-19T13:54:33.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "Accenture launches plan to cut 950 Meta-linked jobs in Portugal",
-      "link": "https://www.investing.com/news/stock-market-news/accenture-launches-plan-to-cut-950-metalinked-jobs-in-portugal-5038446",
-      "date": "2026-11-19T11:30:22.000Z",
-      "source": "Investing.com"
+      "title": "Nvidia, AMD, Micron stocks lead chip sector higher amid Anthropic IPO optimism",
+      "link": "https://finance.yahoo.com/markets/article/copy-nvidia-stock-slips-as-investors-digest-ceo-exit-rest-of-chip-sector-falls-134408467.html?.tsrc=rss",
+      "date": "2026-11-19T13:44:08.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "yields": {

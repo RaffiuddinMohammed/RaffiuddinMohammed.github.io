@@ -1,29 +1,29 @@
 {
-  "updated": "2026-11-19T11:46:08.391Z",
-  "totalStories": 250,
+  "updated": "2026-11-19T13:58:42.160Z",
+  "totalStories": 254,
   "sections": [
     {
       "name": "World",
-      "count": 24
+      "count": 25
     },
     {
       "name": "UK",
-      "count": 19
+      "count": 21
     },
     {
       "name": "Business",
-      "count": 19
+      "count": 17
     },
     {
       "name": "Politics",
-      "count": 10
-    },
-    {
-      "name": "Science",
-      "count": 8
+      "count": 9
     },
     {
       "name": "Health",
+      "count": 9
+    },
+    {
+      "name": "Science",
       "count": 7
     },
     {
@@ -38,10 +38,14 @@
     },
     {
       "word": "tech",
-      "count": 12
+      "count": 11
     },
     {
       "word": "government",
+      "count": 9
+    },
+    {
+      "word": "health",
       "count": 8
     },
     {
@@ -58,10 +62,6 @@
     },
     {
       "word": "labour",
-      "count": 7
-    },
-    {
-      "word": "health",
       "count": 7
     },
     {
@@ -86,33 +86,45 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 26,
+      "count": 28,
       "bySection": {
-        "UK": 4,
+        "Health": 3,
         "Politics": 14,
+        "UK": 5,
         "Business": 4,
         "World": 1,
-        "Health": 2,
         "Science": 1
       },
       "stories": [
         {
-          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-19T11:43:39.000Z"
-        },
-        {
-          "title": "'Whole nation behind you' – Nessa delivers rallying cry for Wales rugby team",
-          "link": "https://www.bbc.co.uk/news/articles/ckjwj4w50e1zo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-19T11:35:46.000Z"
+          "title": "Welsh NHS in strongest pre-winter position ever, says health minister",
+          "link": "https://www.bbc.co.uk/news/articles/cq702e33el83o?at_medium=RSS&at_campaign=rss",
+          "section": "Health",
+          "date": "2026-11-19T13:52:35.000Z"
         },
         {
           "title": "Cleverly to run as Tory London mayor candidate",
           "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
-          "date": "2026-11-19T11:26:44.000Z"
+          "date": "2026-11-19T13:34:39.000Z"
+        },
+        {
+          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-19T13:09:01.000Z"
+        },
+        {
+          "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+          "link": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-19T12:26:39.000Z"
+        },
+        {
+          "title": "'Whole nation behind you' - Nessa delivers rallying cry for Wales rugby team",
+          "link": "https://www.bbc.co.uk/news/articles/ckjwj4w50e1zo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-19T11:35:46.000Z"
         },
         {
           "title": "UK to provide Ukraine with 1,000 long-range strike drones",
@@ -131,18 +143,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-19T06:15:57.000Z"
-        },
-        {
-          "title": "How high is UK inflation and how will you be affected?",
-          "link": "https://www.bbc.co.uk/news/videos/cxp80q5pv4q5o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-18T19:37:27.000Z"
-        },
-        {
-          "title": "Lammy urges Burnham to take UK back into the EU",
-          "link": "https://www.bbc.co.uk/news/articles/cm9q8jx05q3go?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-18T17:09:35.000Z"
         }
       ]
     },
@@ -158,6 +158,18 @@
         "Politics": 1
       },
       "stories": [
+        {
+          "title": "Venezuela signs military deal with US less than a year after Maduro's ouster",
+          "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T13:31:23.000Z"
+        },
+        {
+          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+          "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T12:56:30.000Z"
+        },
         {
           "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
           "link": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
@@ -193,18 +205,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cm87987w1qz5o?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-18T09:28:35.000Z"
-        },
-        {
-          "title": "How important are Nvidia and Jensen Huang to the US economy?",
-          "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-18T06:04:21.000Z"
-        },
-        {
-          "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
-          "link": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T05:11:42.000Z"
         }
       ]
     },
@@ -212,12 +212,18 @@
       "name": "Ukraine",
       "lat": 49,
       "lon": 32,
-      "count": 4,
+      "count": 5,
       "bySection": {
-        "Politics": 1,
-        "World": 3
+        "World": 4,
+        "Politics": 1
       },
       "stories": [
+        {
+          "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+          "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T13:07:35.000Z"
+        },
         {
           "title": "UK to provide Ukraine with 1,000 long-range strike drones",
           "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo?at_medium=RSS&at_campaign=rss",
@@ -241,42 +247,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-18T17:00:04.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Russia",
-      "lat": 60,
-      "lon": 90,
-      "count": 4,
-      "bySection": {
-        "World": 3,
-        "UK": 1
-      },
-      "stories": [
-        {
-          "title": "Crimean Bridge attacked again, Russia says",
-          "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-19T07:32:06.000Z"
-        },
-        {
-          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
-          "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T23:28:03.000Z"
-        },
-        {
-          "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
-          "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-18T20:55:15.000Z"
-        },
-        {
-          "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-          "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T17:00:40.000Z"
         }
       ]
     },
@@ -317,6 +287,72 @@
       ]
     },
     {
+      "name": "China",
+      "lat": 35,
+      "lon": 104,
+      "count": 4,
+      "bySection": {
+        "World": 2,
+        "Business": 2
+      },
+      "stories": [
+        {
+          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+          "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T12:56:30.000Z"
+        },
+        {
+          "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+          "link": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T04:42:52.000Z"
+        },
+        {
+          "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
+          "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-17T23:02:12.000Z"
+        },
+        {
+          "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
+          "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-10-14T23:01:28.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Russia",
+      "lat": 60,
+      "lon": 90,
+      "count": 3,
+      "bySection": {
+        "World": 2,
+        "UK": 1
+      },
+      "stories": [
+        {
+          "title": "Russian arrested for spying on US defence company Palantir over Ukraine support",
+          "link": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T23:28:03.000Z"
+        },
+        {
+          "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
+          "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-18T20:55:15.000Z"
+        },
+        {
+          "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+          "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-18T17:00:40.000Z"
+        }
+      ]
+    },
+    {
       "name": "Israel",
       "lat": 31,
       "lon": 35,
@@ -343,36 +379,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c68j49r4r10go?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-16T21:25:48.000Z"
-        }
-      ]
-    },
-    {
-      "name": "China",
-      "lat": 35,
-      "lon": 104,
-      "count": 3,
-      "bySection": {
-        "World": 1,
-        "Business": 2
-      },
-      "stories": [
-        {
-          "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-          "link": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-19T04:42:52.000Z"
-        },
-        {
-          "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-          "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-17T23:02:12.000Z"
-        },
-        {
-          "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
-          "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-10-14T23:01:28.000Z"
         }
       ]
     },
@@ -448,6 +454,40 @@
       ]
     },
     {
+      "name": "Venezuela",
+      "lat": 7,
+      "lon": -66,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "Venezuela signs military deal with US less than a year after Maduro's ouster",
+          "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T13:31:23.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "lat": 53,
+      "lon": -8,
+      "count": 1,
+      "bySection": {
+        "UK": 1
+      },
+      "stories": [
+        {
+          "title": "'Inconceivable' that Irish government would not hold Omagh inquiry - Sir Chris Bryant",
+          "link": "https://www.bbc.co.uk/news/articles/cx1l0p50g23ro?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-19T12:07:39.000Z"
+        }
+      ]
+    },
+    {
       "name": "France",
       "lat": 46,
       "lon": 2,
@@ -478,6 +518,23 @@
           "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
           "section": "Science",
           "date": "2026-10-14T05:00:35.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Kenya",
+      "lat": 0,
+      "lon": 38,
+      "count": 1,
+      "bySection": {
+        "World": 1
+      },
+      "stories": [
+        {
+          "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+          "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-19T12:56:30.000Z"
         }
       ]
     },
@@ -516,23 +573,6 @@
       ]
     },
     {
-      "name": "DR Congo",
-      "lat": -3,
-      "lon": 23,
-      "count": 1,
-      "bySection": {
-        "World": 1
-      },
-      "stories": [
-        {
-          "title": "Can a US-backed mineral highway bring peace and prosperity to DR Congo?",
-          "link": "https://www.bbc.co.uk/news/articles/cx053jrv9rz9o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-18T05:11:42.000Z"
-        }
-      ]
-    },
-    {
       "name": "Uganda",
       "lat": 1,
       "lon": 32,
@@ -552,76 +592,76 @@
   ],
   "latest": [
     {
-      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:43:39.000Z",
-      "section": "UK"
+      "title": "Welsh NHS in strongest pre-winter position ever, says health minister",
+      "link": "https://www.bbc.co.uk/news/articles/cq702e33el83o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:52:35.000Z",
+      "section": "Health"
     },
     {
-      "title": "Indian driver wins $1.3m in life-changing lottery prize",
-      "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:38:09.000Z",
+      "title": "Viagogo may have broken law on hidden fees, watchdog provisionally finds",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2ex7j30lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:35:52.000Z",
       "section": "Business"
     },
     {
-      "title": "'Whole nation behind you' – Nessa delivers rallying cry for Wales rugby team",
-      "link": "https://www.bbc.co.uk/news/articles/ckjwj4w50e1zo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:35:46.000Z",
-      "section": "UK"
+      "title": "Wading bird called Phil tracked in epic migration to Siberia and back",
+      "link": "https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:35:29.000Z",
+      "section": "Science"
     },
     {
       "title": "Cleverly to run as Tory London mayor candidate",
       "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:26:44.000Z",
+      "date": "2026-11-19T13:34:39.000Z",
       "section": "Politics"
     },
     {
-      "title": "Surgeon calls for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
+      "title": "Badenoch defends amputee marathon runners claim in benefits cut row",
+      "link": "https://www.bbc.co.uk/news/articles/cw62pz48vj4go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:34:02.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Venezuela signs military deal with US less than a year after Maduro's ouster",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:31:23.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Surgeon calls for corporate homicide probe over claims patients unnecessarily bled to death",
       "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:18:48.000Z",
+      "date": "2026-11-19T13:31:03.000Z",
       "section": "UK"
     },
     {
-      "title": "'Dad was deteriorating': Two-hour ambulance target missed more than 2,000 times",
-      "link": "https://www.bbc.co.uk/news/articles/cm752zx62n62o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:14:38.000Z",
+      "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
+      "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:09:01.000Z",
       "section": "UK"
     },
     {
-      "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T11:07:37.000Z",
+      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+      "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T13:07:35.000Z",
       "section": "World"
     },
     {
-      "title": "Tennis my 'saviour' after trying to take my own life - Riedi",
-      "link": "https://www.bbc.co.uk/sport/tennis/videos/cw1mdn0n531lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:55:19.000Z",
+      "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+      "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T12:56:30.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Covid inquiry report: key findings on testing, tracing and 'the pingdemic'",
+      "link": "https://www.bbc.co.uk/news/articles/crx20q8ql4gwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T12:47:27.000Z",
       "section": "Health"
     },
     {
-      "title": "Why children lying can be a good thing, according to experts",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:49:21.000Z",
+      "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+      "link": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T12:26:39.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Anthropic raises $81bn in record-breaking stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:48:04.000Z",
-      "section": "World"
-    },
-    {
-      "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
-      "link": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:32:10.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Football match remembers boxing legend Ricky Hatton",
-      "link": "https://www.bbc.co.uk/news/videos/cmgqx0l7dzxno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:15:16.000Z",
-      "section": "Health"
     }
   ]
 }

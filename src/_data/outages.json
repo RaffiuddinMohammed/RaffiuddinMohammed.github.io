@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-19T11:52:32.478Z",
+  "checked": "2026-11-19T14:03:45.487Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Durable Objects and D1 – Increased Errors",
+      "impact": "minor",
+      "start": "2026-11-19T13:05:04.489Z",
+      "end": "2026-11-19T13:37:02.379Z",
+      "url": "https://www.cloudflarestatus.com/incidents/5pe5mb9fefi8"
+    },
     {
       "service": "Cloudflare",
       "title": "Cloudflare Access Issue",
@@ -759,14 +767,6 @@
       "start": "2026-11-05T15:25:03Z",
       "end": "2026-11-06T04:31:37Z",
       "url": "https://status.openai.com"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network disruption across multiple colocations in India",
-      "impact": "minor",
-      "start": "2026-11-05T15:05:13.791Z",
-      "end": "2026-11-05T16:16:48.247Z",
-      "url": "https://www.cloudflarestatus.com/incidents/1i6fnludjh1m"
     },
     {
       "service": "Cloudflare",
