@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-18T23:47:57.660Z",
+  "checked": "2026-11-19T01:30:23.305Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -57,8 +57,8 @@
     },
     {
       "name": "Vercel",
-      "level": "minor",
-      "note": "Delays in observability data",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://www.vercel-status.com"
     },
     {
@@ -100,7 +100,7 @@
       "title": "Delays in observability data",
       "impact": "major",
       "start": "2026-11-18T20:44:33.567Z",
-      "end": null,
+      "end": "2026-11-18T23:53:54.342Z",
       "url": "https://stspg.io/mskmcg5p67tp"
     },
     {
