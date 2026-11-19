@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-19T14:35:37.748Z",
+  "checked": "2026-11-19T18:40:16.408Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Observability ingestion delay and query failures",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "DigitalOcean",
       "level": "ok",
-      "note": "Increased Error Rates in SFO3",
+      "note": "All Systems Operational",
       "url": "https://status.digitalocean.com"
     },
     {
@@ -87,6 +87,38 @@
     }
   ],
   "incidents": [
+    {
+      "service": "GitHub",
+      "title": "Disruption with some GitHub services",
+      "impact": "minor",
+      "start": "2026-11-19T17:06:26.807Z",
+      "end": "2026-11-19T18:17:42.581Z",
+      "url": "https://stspg.io/pvjz2g01trc7"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Observability ingestion delay and query failures",
+      "impact": "minor",
+      "start": "2026-11-19T16:30:04.141Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/ljrvdciu7syf"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated error rates for gpt-6 Luna API requests",
+      "impact": "major",
+      "start": "2026-11-19T16:01:12Z",
+      "end": "2026-11-19T16:58:04Z",
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Degraded availability for GPT-6 Luna in Copilot",
+      "impact": "minor",
+      "start": "2026-11-19T15:56:02.730Z",
+      "end": "2026-11-19T16:37:00.866Z",
+      "url": "https://stspg.io/vv0kzmyd9wqs"
+    },
     {
       "service": "Cloudflare",
       "title": "Durable Objects and D1 – Increased Errors",
@@ -108,7 +140,7 @@
       "title": "Increased Error Rates in SFO3",
       "impact": "minor",
       "start": "2026-11-19T04:37:54.324Z",
-      "end": null,
+      "end": "2026-11-19T18:04:36.598Z",
       "url": "https://stspg.io/bnb8ltd5ct7l"
     },
     {
@@ -735,14 +767,6 @@
       "start": "2026-11-05T23:36:06.204Z",
       "end": "2026-11-06T00:20:49.344Z",
       "url": "https://stspg.io/s5bs6jn41fwh"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Workers Builds Issues",
-      "impact": "minor",
-      "start": "2026-11-05T19:51:39.176Z",
-      "end": "2026-11-05T20:20:10.166Z",
-      "url": "https://www.cloudflarestatus.com/incidents/yaa0witbl2me"
     },
     {
       "service": "Vercel",
