@@ -19,11 +19,13 @@ async function bbc() {
   const xml = await get('https://feeds.bbci.co.uk/news/rss.xml');
   const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(([, it]) => ({
     title: tag(it, 'title'), link: tag(it, 'link').replace(/\?at_.*$/, ''), date: new Date(tag(it, 'pubDate')).toISOString(),
-  })).filter((h) => h.title && h.link && !/\/(?:videos|sounds|iplayer)\//.test(h.link))
-    .sort((a, b) => b.date.localeCompare(a.date));
+  })).filter((h) => h.title && h.link && !/\/(?:sounds|iplayer)\//.test(h.link)); // news videos stay: BBC often leads with one
+  // Keep the feed's order: it is BBC's editorial ranking, so the day's big story stays in "Latest"
+  // even when newer, smaller stories land. Sorting by publish time used to push it out.
   if (items.length < 5) throw new Error(`only ${items.length} BBC items`);
   const fresh = (h) => Date.now() - Date.parse(h.date) < BREAKING_MINUTES * 60e3;
-  return { breaking: items.filter(fresh).slice(0, 3), latest: items.filter((h) => !fresh(h)).slice(0, 6) };
+  const breaking = items.filter(fresh).sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+  return { breaking, latest: items.filter((h) => !breaking.includes(h) && !fresh(h)).slice(0, 6) };
 }
 
 async function trends() {

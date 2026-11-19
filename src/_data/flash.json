@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:16:43.143Z",
+  "updated": "2026-11-19T11:30:02.612Z",
   "breaking": [
     {
       "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
@@ -19,9 +19,14 @@
   ],
   "latest": [
     {
-      "title": "UK to provide Ukraine with 1,000 long-range strike drones",
-      "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo",
-      "date": "2026-11-19T10:00:02.000Z"
+      "title": "Watch: Trump greets 'my friend' Putin as pair shake hands",
+      "link": "https://www.bbc.co.uk/news/videos/c6j9m19llmv3o",
+      "date": "2026-11-19T08:31:09.000Z"
+    },
+    {
+      "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2eve321jno",
+      "date": "2026-11-19T00:00:59.000Z"
     },
     {
       "title": "Leasehold system set to be scrapped in England and Wales",
@@ -29,39 +34,41 @@
       "date": "2026-11-19T09:26:59.000Z"
     },
     {
-      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-      "link": "https://www.bbc.co.uk/news/articles/c920xgxp5785o",
-      "date": "2026-11-19T09:21:54.000Z"
+      "title": "UK to provide Ukraine with 1,000 long-range strike drones",
+      "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo",
+      "date": "2026-11-19T10:00:02.000Z"
     },
     {
-      "title": "Wainwright and Adams back for Wales against Australia",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6wy97v7j0g3o",
-      "date": "2026-11-19T09:05:24.000Z"
+      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+      "link": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
+      "date": "2026-11-19T00:49:19.000Z"
     },
     {
       "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
       "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo",
       "date": "2026-11-19T09:02:52.000Z"
-    },
-    {
-      "title": "Westside Cowboy named BBC Introducing Artist of the Year 2026",
-      "link": "https://www.bbc.co.uk/news/articles/c6eq4l4y81l2o",
-      "date": "2026-11-19T09:00:54.000Z"
     }
   ],
   "business": [
+    {
+      "source": "Investing.com",
+      "title": "Wall Street futures climb as Anthropic’s mega-IPO reinvigorates AI sentiment",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-climb-ahead-of-anthropics-15-trillion-mega-ipo-5037518",
+      "date": "2026-11-19T11:21:21.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Sweden’s H100 could tap Bitcoin trading pool to fund share buybacks",
+      "link": "https://cointelegraph.com/news/swedens-h100-13m-q3-loss-share-buyback-approval?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19T11:19:58.000Z",
+      "breaking": true
+    },
     {
       "source": "MarketWatch",
       "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
       "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
       "date": "2026-11-19T11:15:00.000Z",
-      "breaking": true
-    },
-    {
-      "source": "Investing.com",
-      "title": "Berenberg sees Wacker Neuson growth slowing as machinery demand weakens",
-      "link": "https://www.investing.com/news/stock-market-news/berenberg-sees-wacker-neuson-growth-slowing-as-machinery-demand-weakens-5038364",
-      "date": "2026-11-19T10:51:47.000Z",
       "breaking": false
     },
     {
@@ -69,13 +76,6 @@
       "title": "Anthropic raises $81bn in record-breaking stock market debut",
       "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
       "date": "2026-11-19T10:48:04.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
-      "link": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-19T10:32:05.000Z",
       "breaking": false
     },
     {
@@ -87,9 +87,16 @@
     },
     {
       "source": "Investing.com",
-      "title": "Why is Investec stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-investec-stock-sliding-today-93CH-5038331",
-      "date": "2026-11-19T10:44:08.000Z",
+      "title": "Analysis-UN could soon be leaderless as race to succeed Guterres stalls",
+      "link": "https://www.investing.com/news/stock-market-news/analysisun-could-soon-be-leaderless-as-race-to-succeed-guterres-stalls-5038439",
+      "date": "2026-11-19T11:20:08.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
+      "link": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19T10:32:05.000Z",
       "breaking": false
     },
     {
@@ -97,13 +104,6 @@
       "title": "My wife pays thousands of dollars for her family to visit from Argentina. How can I convince her to stop?",
       "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
       "date": "2026-11-19T10:15:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
-      "link": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-19T08:54:58.000Z",
       "breaking": false
     },
     {
@@ -122,10 +122,10 @@
     },
     {
       "source": "Investing.com",
-      "title": "Why is Saipem stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-saipem-stock-surging-today-93CH-5038322",
-      "date": "2026-11-19T10:43:36.000Z",
-      "breaking": false
+      "title": "Trump nominees to lead SEC face Capitol Hill test",
+      "link": "https://www.investing.com/news/stock-market-news/trump-nominees-to-lead-sec-face-capitol-hill-test-5038433",
+      "date": "2026-11-19T11:19:08.000Z",
+      "breaking": true
     },
     {
       "source": "MarketWatch",
@@ -151,24 +151,24 @@
       "source": "BBC"
     },
     {
-      "term": "Anthony Albanese Vladimir Putin Apec Summit",
-      "traffic": "500+",
-      "title": "‘End your war, end it now’: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war",
-      "link": "https://www.theguardian.com/world/2026/nov/19/end-your-war-end-it-now-anthony-albanese-tells-vladimir-putin-to-put-a-stop-to-ukraine-war",
+      "term": "Sam Walker",
+      "traffic": "200+",
+      "title": "Ricky closes in on rep star; Chiefs' Walker bid as Souths' trump card emerges",
+      "link": "https://www.foxsports.com.au/en-AU/news/rugby-league/sam-walker-meets-with-chiefs-rabbitohs-contract-offer-signings-news-videos-highlightsliam-martin-raiders/effmi0ngbto19cpxcg5e9m05",
+      "source": "Fox Sports"
+    },
+    {
+      "term": "Kemi Badenoch",
+      "traffic": "200+",
+      "title": "Badenoch says using amputee athletes to justify cutting disability benefits was ‘message of hope’ – UK politics live",
+      "link": "https://www.theguardian.com/politics/live/2026/nov/19/kemi-badenoch-andy-burnham-uk-politics-latest-news-updates",
       "source": "The Guardian"
     },
     {
-      "term": "Esteban Ocon",
-      "traffic": "500+",
-      "title": "Camara offers update on plans for final races of 2026",
-      "link": "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv",
-      "source": "Formula 1"
-    },
-    {
-      "term": "James Cleverly",
+      "term": "Rohingya",
       "traffic": "200+",
-      "title": "Sir James Cleverly is Tory candidate in mayor of London 2028 race",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo",
+      "title": "UN court delivering judgment over whether Myanmar committed genocide against Rohingya",
+      "link": "https://www.bbc.co.uk/news/live/cr93z32d2344t",
       "source": "BBC"
     }
   ]
