@@ -1,15 +1,11 @@
 {
-  "updated": "2026-11-18T23:47:49.972Z",
+  "updated": "2026-11-19T11:16:34.463Z",
   "topics": [
     {
       "key": "ai",
       "label": "AI",
       "query": "\"artificial intelligence\"",
       "series": [
-        {
-          "date": "2025-11-30",
-          "value": 0.6144
-        },
         {
           "date": "2025-12-01",
           "value": 0.6517
@@ -1313,10 +1309,6 @@
       "label": "Climate",
       "query": "\"climate change\"",
       "series": [
-        {
-          "date": "2026-08-27",
-          "value": 0.3634
-        },
         {
           "date": "2026-08-28",
           "value": 0.3818

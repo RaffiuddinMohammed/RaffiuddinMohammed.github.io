@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T23:43:40.187Z",
-  "headlineCount": 80,
+  "updated": "2026-11-19T11:07:59.508Z",
+  "headlineCount": 82,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 37
+      "count": 39
     },
     {
       "name": "MarketWatch",
@@ -22,222 +22,210 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 22
-    },
-    {
-      "name": "Earnings",
-      "count": 11
+      "count": 19
     },
     {
       "name": "Interest rates",
+      "count": 11
+    },
+    {
+      "name": "Earnings",
       "count": 10
     },
     {
       "name": "Inflation",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Jobs",
-      "count": 2
-    },
-    {
-      "name": "Oil and energy",
-      "count": 2
-    },
-    {
-      "name": "Crypto",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Housing",
       "count": 2
     },
     {
+      "name": "Oil and energy",
+      "count": 1
+    },
+    {
       "name": "Trade and tariffs",
+      "count": 0
+    },
+    {
+      "name": "Crypto",
       "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 14
+      "count": 5
     },
     {
       "name": "Microsoft",
       "count": 2
     },
     {
-      "name": "Apple",
-      "count": 1
-    },
-    {
-      "name": "Alphabet",
-      "count": 1
-    },
-    {
-      "name": "Amazon",
-      "count": 0
-    },
-    {
       "name": "Meta",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Tesla",
+      "count": 1
+    },
+    {
+      "name": "Apple",
+      "count": 0
+    },
+    {
+      "name": "Alphabet",
+      "count": 0
+    },
+    {
+      "name": "Amazon",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
-      "date": "2026-11-18T23:24:29.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3B.html?.tsrc=rss",
-      "date": "2026-11-18T23:26:29.000Z",
+      "title": "Dow Jones Futures Rise, Techs Jump: Anthropic IPO To Debut After Pricing High; Palo Alto, Everpure Rally On Earnings",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+      "date": "2026-11-19T10:53:34.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
-      "date": "2026-11-18T23:24:29.000Z",
+      "title": "Berenberg sees Wacker Neuson growth slowing as machinery demand weakens",
+      "link": "https://www.investing.com/news/stock-market-news/berenberg-sees-wacker-neuson-growth-slowing-as-machinery-demand-weakens-5038364",
+      "date": "2026-11-19T10:51:47.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Moody's cuts Nvidia credit outlook to stable after CEO Jensen Huang exits",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/moody-cuts-nvidia-credit-outlook-231405579.html?.tsrc=rss",
-      "date": "2026-11-18T23:14:05.000Z",
+      "title": "What Berkshire Hathaway's Third-Quarter Report Says About Its Insurance Business",
+      "link": "https://www.fool.com/investing/2026/11/19/what-berkshire-hathaway-q3-report-says-insurance-business/?.tsrc=rss",
+      "date": "2026-11-19T10:50:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Exclusive-UniCredit and Germany reach broad agreement on Commerzbank takeover",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-and-germany-reach-broad-agreement-on-commerzbank-takeover-5037328",
-      "date": "2026-11-18T23:12:38.000Z",
+      "title": "Why is Investec stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-investec-stock-sliding-today-93CH-5038331",
+      "date": "2026-11-19T10:44:08.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "US lawmakers seek Microsoft briefing on reported AI deal talks with ByteDance",
-      "link": "https://www.investing.com/news/stock-market-news/us-house-panel-seeks-microsoft-briefing-on-reported-ai-deal-talks-with-chinas-bytedance-5036932",
-      "date": "2026-11-18T23:12:24.000Z",
+      "title": "Why is Saipem stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-saipem-stock-surging-today-93CH-5038322",
+      "date": "2026-11-19T10:43:36.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
-      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:12:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Trading Day: Markets mixed in a Nvidia, Anthropic, minutes swirl",
-      "link": "https://www.investing.com/news/economy-news/trading-day-markets-mixed-in-a-nvidiaanthropic-minutes-swirl-5037221",
-      "date": "2026-11-18T23:07:13.000Z",
+      "title": "Anthropic's rise from AI upstart to world's largest IPO",
+      "link": "https://www.investing.com/news/stock-market-news/anthropics-rise-from-ai-upstart-to-worlds-largest-ipo-5038313",
+      "date": "2026-11-19T10:42:49.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Anthropic IPO to mint thousands of millionaires",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-ipo-to-mint-thousands-ofmillionaires-5036941",
-      "date": "2026-11-18T23:06:27.000Z",
+      "title": "Anthropic raises record $81 billion in IPO at $1.5 trillion valuation",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
+      "date": "2026-11-19T10:42:23.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Two Retirees Each Hold $500,000 in a 401(k) Index Fund as Nvidia's CFO Takes the Wheel. One Has About $28,950 Riding on a Single Stock. The Other Has About $1,000",
-      "link": "https://247wallst.com/personal-finance/2026/11/18/two-retirees-each-hold-500000-in-a-401k-index-fund-as-nvidias-cfo-takes-the-wheel-one-has-about-28950-riding-on-a-single-stock-the-other-has-about-1000/?.tsrc=rss",
-      "date": "2026-11-18T23:02:24.000Z",
+      "title": "+60%, +55%, +54% upside: These undervalued AI-picked stocks can beat Fed hikes",
+      "link": "https://www.investing.com/news/stock-market-news/60-55-54-upside-these-undervalued-aipicked-stocks-can-beat-fed-hikes-5038305",
+      "date": "2026-11-19T10:40:04.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "European stocks inch up as massive Anthropic IPO counters hawkish Fed",
+      "link": "https://www.investing.com/news/stock-market-news/european-stocks-inch-up-as-massive-anthropic-ipo-counters-hawkish-fed-5037955",
+      "date": "2026-11-19T10:38:46.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Analysis-Brazil's corn ethanol boom accelerating growth of feedlot beef",
+      "link": "https://www.investing.com/news/stock-market-news/analysisbrazils-corn-ethanol-boom-accelerating-growth-of-feedlot-beef-5038296",
+      "date": "2026-11-19T10:36:21.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Anthropic's Amended S-1 Shows $895 Billion in Spending Commitments. Here's How Much Flows Straight to SpaceX -- and When.",
+      "link": "https://www.fool.com/investing/2026/11/19/anthropics-amended-s-1-shows-895-billion-in-spending-commitments-heres-how-much-flows-straight-to-spacex-and-when/?.tsrc=rss",
+      "date": "2026-11-19T10:35:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "How copper’s plunge could hurt the AI buildout",
-      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:02:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
-      "link": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/?.tsrc=rss",
-      "date": "2026-11-18T23:00:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Jeff Bezos says Nvidia shouldn't hire an outsider if Jensen Huang doesn't return — it's ‘too complicated'",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-says-nvidia-shouldn-230000767.html?.tsrc=rss",
-      "date": "2026-11-18T23:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
-      "link": "https://finance.yahoo.com/technology/ai/articles/satya-nadella-predicts-ai-agents-225811295.html?.tsrc=rss",
-      "date": "2026-11-18T22:58:11.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The 5 Best Stocks in Brad Gerstner's Portfolio",
-      "link": "https://www.tikr.com/blog/the-5-best-stocks-in-brad-gerstners-portfolio?ref=yahoofinance&tlnk=yf-261118-4869989x&.tsrc=rss",
-      "date": "2026-11-18T22:54:47.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "How the Anthropic IPO stacks up against SpaceX",
-      "link": "https://www.investing.com/news/stock-market-news/how-theanthropic-ipo-stacks-up-against-spacex-5036604",
-      "date": "2026-11-18T22:54:40.000Z",
+      "title": "Why is Alibaba stock slipping today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-alibaba-stock-slipping-today-93CH-5038289",
+      "date": "2026-11-19T10:33:39.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Pennsylvania confirms eighth measles-related death amid US outbreak",
-      "link": "https://www.investing.com/news/stock-market-news/pennsylvania-confirms-eighth-measlesrelated-death-amid-outbreak-5036902",
-      "date": "2026-11-18T22:54:27.000Z",
+      "title": "Market Chatter: Meta Platforms Suspends Plan to Issue Non-Voting Shares",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-platforms-suspends-103305579.html?.tsrc=rss",
+      "date": "2026-11-19T10:33:05.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Morgan Stanley cuts Accor on debt concerns and reduced buyback room",
+      "link": "https://www.investing.com/news/stock-market-news/morgan-stanley-cuts-accor-on-debt-concerns-and-reduced-buyback-room-5038287",
+      "date": "2026-11-19T10:32:32.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "First US Bancshares stock rises on buyback extension",
-      "link": "https://www.investing.com/news/stock-market-news/first-us-bancshares-stock-rises-on-buyback-extension-5037309",
-      "date": "2026-11-18T22:53:22.000Z",
+      "title": "Stocks look to break losing streak ahead of blockbuster Anthropic IPO",
+      "link": "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
+      "date": "2026-11-19T10:30:32.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "The stock market is being rocked by the biggest shake-up in a generation as tech falls behind",
-      "link": "https://www.marketwatch.com/story/the-stock-market-is-being-rocked-by-the-biggest-shake-up-in-a-generation-as-tech-falls-behind-66c1f281?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:53:00.000Z",
-      "source": "MarketWatch"
+      "title": "Wall Street's Next Blockbuster Stock Split Arrives Later Today -- and This Industry Titan Has Skyrocketed Nearly 2,400% in Less Than 2 Years",
+      "link": "https://www.fool.com/investing/2026/11/19/wall-street-next-blockbuster-stock-split-arrives-today-skyrocketed-nearly-2400-in-less-than-2-years/?.tsrc=rss",
+      "date": "2026-11-19T10:26:01.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
-      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
-      "date": "2026-11-18T22:53:00.000Z",
-      "source": "MarketWatch"
+      "title": "Is Investing in an S&P 500 ETF Really Enough? Here's My Honest Take.",
+      "link": "https://www.fool.com/investing/2026/11/19/is-investing-in-an-sp-500-etf-really-enough-heres-my-honest-take/?.tsrc=rss",
+      "date": "2026-11-19T10:22:01.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Markel Group stock jumps on $2.5B buyback boost",
-      "link": "https://www.investing.com/news/stock-market-news/markel-group-stock-jumps-on-25b-buyback-boost-5037308",
-      "date": "2026-11-18T22:51:45.000Z",
-      "source": "Investing.com"
+      "title": "Could Buying XRP Today Set You Up for Life?",
+      "link": "https://www.fool.com/investing/2026/11/19/could-buying-xrp-today-set-you-up-for-life/?.tsrc=rss",
+      "date": "2026-11-19T10:20:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Intel and Microsoft agree long-term deal on Azure cloud hardware",
+      "link": "https://www.verdict.co.uk/intel-microsoft-deal-azure-cloud/?.tsrc=rss",
+      "date": "2026-11-19T10:19:08.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "AlumiFuel Power And 2 More Hydrogen Fuel Cell Stocks To Watch",
+      "link": "https://finance.yahoo.com/energy/articles/alumifuel-power-2-more-hydrogen-101627261.html?.tsrc=rss",
+      "date": "2026-11-19T10:16:27.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
-      "date": "2026-11-18T23:24:29.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Dow Jones Futures Rise; Anthropic IPO Prices High, Palo Alto And Everpure Rally On Earnings",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%3B.html?.tsrc=rss",
-      "date": "2026-11-18T23:26:29.000Z",
+      "title": "Dow Jones Futures Rise, Techs Jump: Anthropic IPO To Debut After Pricing High; Palo Alto, Everpure Rally On Earnings",
+      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
+      "date": "2026-11-19T10:53:34.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
-      "date": "2026-11-18T23:24:29.000Z",
+      "title": "Anthropic's rise from AI upstart to world's largest IPO",
+      "link": "https://www.investing.com/news/stock-market-news/anthropics-rise-from-ai-upstart-to-worlds-largest-ipo-5038313",
+      "date": "2026-11-19T10:42:49.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
-      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:12:00.000Z",
+      "title": "Palo Alto Networks’ stock gets a fresh AI-fueled boost from earnings",
+      "link": "https://www.marketwatch.com/story/palo-alto-networks-stock-soars-as-earnings-show-ai-has-upped-the-stakes-for-cybersecurity-308e34b8?mod=mw_rss_topstories",
+      "date": "2026-11-19T01:02:00.000Z",
       "source": "MarketWatch"
     }
   ],
@@ -258,13 +246,6 @@
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-19",
-        "y3m": 3.86,
-        "y2": 4.19,
-        "y10": 4.65,
-        "y30": 5.19
-      },
       {
         "date": "2026-08-20",
         "y3m": 3.87,

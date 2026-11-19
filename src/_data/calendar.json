@@ -1,108 +1,6 @@
 {
-  "updated": "2026-11-18T23:43:40.189Z",
+  "updated": "2026-11-19T11:08:38.917Z",
   "days": [
-    {
-      "date": "2026-11-18",
-      "label": "Wed 18 Nov",
-      "closed": null,
-      "early": null,
-      "earnings": [
-        {
-          "symbol": "PANW",
-          "name": "Palo Alto Networks",
-          "cap": 253136273000,
-          "when": "after",
-          "eps": "$0.52",
-          "big": true,
-          "mag7": false,
-          "capText": "$253B"
-        },
-        {
-          "symbol": "TJX",
-          "name": "The TJX Companies",
-          "cap": 142831632000,
-          "when": "before",
-          "eps": "$1.33",
-          "big": true,
-          "mag7": false,
-          "capText": "$143B"
-        },
-        {
-          "symbol": "LOW",
-          "name": "Lowe's Companies",
-          "cap": 123689968000,
-          "when": "before",
-          "eps": "$2.86",
-          "big": true,
-          "mag7": false,
-          "capText": "$124B"
-        },
-        {
-          "symbol": "TGT",
-          "name": "Target",
-          "cap": 72473960000,
-          "when": "before",
-          "eps": "$2.05",
-          "big": false,
-          "mag7": false,
-          "capText": "$72B"
-        },
-        {
-          "symbol": "P",
-          "name": "Everpure",
-          "cap": 33919201300,
-          "when": "after",
-          "eps": "$0.28",
-          "big": false,
-          "mag7": false,
-          "capText": "$34B"
-        },
-        {
-          "symbol": "WWD",
-          "name": "Woodward",
-          "cap": 18288853000,
-          "when": "after",
-          "eps": "$2.50",
-          "big": false,
-          "mag7": false,
-          "capText": "$18B"
-        }
-      ],
-      "events": [
-        {
-          "country": "UK",
-          "what": "Inflation (CPI)",
-          "name": "Core CPI",
-          "time": "07:00",
-          "previous": "2.8%",
-          "consensus": "2.8%"
-        },
-        {
-          "country": "UK",
-          "what": "Producer prices (PPI)",
-          "name": "Core PPI Output",
-          "time": "07:00",
-          "previous": "2.9%",
-          "consensus": null
-        },
-        {
-          "country": "UK",
-          "what": "Central bank chief speaks",
-          "name": "BoE Gov Bailey Speaks",
-          "time": "07:30",
-          "previous": null,
-          "consensus": null
-        },
-        {
-          "country": "US",
-          "what": "Fed meeting minutes",
-          "name": "FOMC Meeting Minutes",
-          "time": "19:00",
-          "previous": null,
-          "consensus": null
-        }
-      ]
-    },
     {
       "date": "2026-11-19",
       "label": "Thu 19 Nov",
@@ -568,6 +466,14 @@
       "label": "Thu 26 Nov",
       "closed": "Thanksgiving",
       "early": null,
+      "earnings": [],
+      "events": []
+    },
+    {
+      "date": "2026-11-27",
+      "label": "Fri 27 Nov",
+      "closed": null,
+      "early": "day after Thanksgiving",
       "earnings": [],
       "events": []
     }

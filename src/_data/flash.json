@@ -1,81 +1,81 @@
 {
-  "updated": "2026-11-18T23:47:58.129Z",
+  "updated": "2026-11-19T11:16:43.143Z",
   "breaking": [
-    {
-      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
-      "date": "2026-11-18T23:44:27.000Z"
-    },
-    {
-      "title": "Seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
-      "date": "2026-11-18T23:42:07.000Z"
-    },
     {
       "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
       "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o",
-      "date": "2026-11-18T23:29:14.000Z"
+      "date": "2026-11-19T10:51:35.000Z"
+    },
+    {
+      "title": "Why children lying can be a good thing, according to experts",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo",
+      "date": "2026-11-19T10:49:21.000Z"
+    },
+    {
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-19T10:48:04.000Z"
     }
   ],
   "latest": [
     {
-      "title": "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno",
-      "date": "2026-11-18T22:34:56.000Z"
+      "title": "UK to provide Ukraine with 1,000 long-range strike drones",
+      "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo",
+      "date": "2026-11-19T10:00:02.000Z"
     },
     {
-      "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
-      "link": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o",
-      "date": "2026-11-18T21:28:08.000Z"
+      "title": "Leasehold system set to be scrapped in England and Wales",
+      "link": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o",
+      "date": "2026-11-19T09:26:59.000Z"
     },
     {
-      "title": "Prince Harry says he would rejoin army as he warns of Russia threat",
-      "link": "https://www.bbc.co.uk/news/articles/cm0qjw3edzkko",
-      "date": "2026-11-18T20:55:15.000Z"
+      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+      "link": "https://www.bbc.co.uk/news/articles/c920xgxp5785o",
+      "date": "2026-11-19T09:21:54.000Z"
     },
     {
-      "title": "FA explored legal challenge to Infantino staying on",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o",
-      "date": "2026-11-18T20:55:01.000Z"
+      "title": "Wainwright and Adams back for Wales against Australia",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/c6wy97v7j0g3o",
+      "date": "2026-11-19T09:05:24.000Z"
     },
     {
-      "title": "TfL photocard breach exposes 265,000 customers",
-      "link": "https://www.bbc.co.uk/news/articles/c6n4kz3lgdz5o",
-      "date": "2026-11-18T20:49:53.000Z"
+      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+      "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo",
+      "date": "2026-11-19T09:02:52.000Z"
     },
     {
-      "title": "Hundreds could be hit by chemotherapy scandal, trust says",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy83q9wzpvo",
-      "date": "2026-11-18T20:09:06.000Z"
+      "title": "Westside Cowboy named BBC Introducing Artist of the Year 2026",
+      "link": "https://www.bbc.co.uk/news/articles/c6eq4l4y81l2o",
+      "date": "2026-11-19T09:00:54.000Z"
     }
   ],
   "business": [
     {
-      "source": "BBC Business",
-      "title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
-      "date": "2026-11-18T23:44:27.000Z",
+      "source": "MarketWatch",
+      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "date": "2026-11-19T11:15:00.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Exclusive-UniCredit and Germany reach broad agreement on Commerzbank takeover",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveunicredit-and-germany-reach-broad-agreement-on-commerzbank-takeover-5037328",
-      "date": "2026-11-18T23:42:22.000Z",
-      "breaking": true
+      "title": "Berenberg sees Wacker Neuson growth slowing as machinery demand weakens",
+      "link": "https://www.investing.com/news/stock-market-news/berenberg-sees-wacker-neuson-growth-slowing-as-machinery-demand-weakens-5038364",
+      "date": "2026-11-19T10:51:47.000Z",
+      "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "What the ‘death cross’ in small-cap stocks means for the rest of the market",
-      "link": "https://www.marketwatch.com/story/what-the-death-cross-in-small-cap-stocks-means-for-the-rest-of-the-stock-market-edd8e86e?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:12:00.000Z",
+      "source": "BBC Business",
+      "title": "Anthropic raises $81bn in record-breaking stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+      "date": "2026-11-19T10:48:04.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-18T22:09:15.000Z",
+      "title": "IOSCO warns quantum upgrades could slow blockchains, leave security gaps",
+      "link": "https://cointelegraph.com/news/iosco-quantum-blockchain-upgrades-security-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19T10:32:05.000Z",
       "breaking": false
     },
     {
@@ -86,31 +86,31 @@
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "The seven Anthropic founders who are about to become multi-billionaires",
-      "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o",
-      "date": "2026-11-18T23:42:07.000Z",
-      "breaking": true
-    },
-    {
       "source": "Investing.com",
-      "title": "Exclusive-Anthropic clinches biggest-ever IPO with $81 billion offering",
-      "link": "https://www.investing.com/news/stock-market-news/exclusiveanthropic-clinches-biggestever-ipo-with-81-billion-offering-5037350",
-      "date": "2026-11-18T23:25:30.000Z",
+      "title": "Why is Investec stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-investec-stock-sliding-today-93CH-5038331",
+      "date": "2026-11-19T10:44:08.000Z",
       "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "How copper’s plunge could hurt the AI buildout",
-      "link": "https://www.marketwatch.com/story/coppers-plunge-could-make-the-ai-data-center-buildout-more-painful-7057f41c?mod=mw_rss_topstories",
-      "date": "2026-11-18T23:02:00.000Z",
+      "title": "My wife pays thousands of dollars for her family to visit from Argentina. How can I convince her to stop?",
+      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
+      "date": "2026-11-19T10:15:00.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "Tether invokes The Big Short in swipe at S&P over USDT reserve risks",
-      "link": "https://cointelegraph.com/news/tether-usdt-sp-stability-assessment-reserve-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-18T21:57:35.000Z",
+      "title": "Singapore settles $77.5M tokenized bill sale with wholesale CBDC",
+      "link": "https://cointelegraph.com/news/mas-issues-77m-tokenized-bills-singapore-dollar-test-network?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-19T08:54:58.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo",
+      "date": "2026-11-19T06:15:57.000Z",
       "breaking": false
     },
     {
@@ -122,61 +122,54 @@
     },
     {
       "source": "Investing.com",
-      "title": "Democrats probe whether Lutnick helped Cantor Fitzgerald avoid Nvidia-linked losses",
-      "link": "https://www.investing.com/news/stock-market-news/democrats-probe-whether-howardlutnick-helped-cantor-avoid-nvidia-losses-ft-reports-5035313",
-      "date": "2026-11-18T23:24:29.000Z",
+      "title": "Why is Saipem stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-saipem-stock-surging-today-93CH-5038322",
+      "date": "2026-11-19T10:43:36.000Z",
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "Gilts v kilts: What is happening with Scottish government bonds?",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo",
-      "date": "2026-11-18T23:01:09.000Z",
+      "source": "MarketWatch",
+      "title": "The real beneficiary of the AI tech revolution fueled by Anthropic may surprise you",
+      "link": "https://www.marketwatch.com/story/the-real-beneficiary-of-the-ai-tech-revolution-fueled-by-anthropic-may-surprise-you-6fa098b2?mod=mw_rss_topstories",
+      "date": "2026-11-19T10:04:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Lea Seydoux",
-      "traffic": "500+",
-      "title": "Netflix has just added James Bond star's \"devastating\" drama to watch tonight",
-      "link": "https://uk.movies.yahoo.com/netflix-just-added-james-bond-125500206.html",
-      "source": "Yahoo Entertainment UK"
+      "term": "Cma Music Awards",
+      "traffic": "2000+",
+      "title": "Here Are the 2026 CMA Awards Winners: Full List",
+      "link": "https://www.billboard.com/music/awards/cma-2026-winners-list-1236385046/",
+      "source": "Billboard"
     },
     {
-      "term": "Hsbc",
-      "traffic": "500+",
-      "title": "HSBC Holdings (HSBA) Completes Buyback of 1.16 Million Shares on November 18, 2026, Total Spend Hits US$248.3 Million",
-      "link": "https://kalkinemedia.com/uk/news/announcements/hsbc-holdings-hsba-completes-buyback-of-116-million-shares-on-november-18-2026-total-spend-hits-us2483-million",
-      "source": "Kalkine Media"
+      "term": "Boardmasters",
+      "traffic": "2000+",
+      "title": "Four headline acts announced for Boardmasters Cornwall festival",
+      "link": "https://www.bbc.co.uk/news/articles/cmjwj41qlqylo",
+      "source": "BBC"
     },
     {
-      "term": "Mckenna Grace",
+      "term": "Anthony Albanese Vladimir Putin Apec Summit",
       "traffic": "500+",
-      "title": "Method Dressing Won at the ‘Hunger Games: Sunrise on the Reaping’ N.Y.C. Premiere",
-      "link": "https://people.com/method-dressing-won-at-the-hunger-games-sunrise-on-the-reaping-n-y-c-premiere-12260634",
-      "source": "People.com"
-    },
-    {
-      "term": "Immigration",
-      "traffic": "200+",
-      "title": "Ex-Tory MPs barred from shaping Reform UK’s immigration policy, says Zia Yusuf",
-      "link": "https://www.theguardian.com/politics/2026/nov/18/ex-tory-defectors-barred-from-shaping-reform-uks-immigration-policy-says-yusuf",
+      "title": "‘End your war, end it now’: Anthony Albanese tells Vladimir Putin to put a stop to Ukraine war",
+      "link": "https://www.theguardian.com/world/2026/nov/19/end-your-war-end-it-now-anthony-albanese-tells-vladimir-putin-to-put-a-stop-to-ukraine-war",
       "source": "The Guardian"
     },
     {
-      "term": "Elbridge A. Colby",
-      "traffic": "200+",
-      "title": "Pentagon chief walks out of Nato talks after admonishing Ukraine",
-      "link": "https://www.telegraph.co.uk/world-news/2026/11/18/pentagon-chief-walks-out-of-nato-talks-admonishing-ukraine/",
-      "source": "The Telegraph"
+      "term": "Esteban Ocon",
+      "traffic": "500+",
+      "title": "Camara offers update on plans for final races of 2026",
+      "link": "https://www.formula1.com/en/latest/article/camara-looks-ahead-to-second-f1-outing-and-offers-update-on-plans-for-final-races.75aokJ7GXrP44nJ1p7NZbv",
+      "source": "Formula 1"
     },
     {
-      "term": "Immigration",
+      "term": "James Cleverly",
       "traffic": "200+",
-      "title": "Ex-Tory MPs barred from shaping Reform UK’s immigration policy, says Zia Yusuf",
-      "link": "https://www.theguardian.com/politics/2026/nov/18/ex-tory-defectors-barred-from-shaping-reform-uks-immigration-policy-says-yusuf",
-      "source": "The Guardian"
+      "title": "Sir James Cleverly is Tory candidate in mayor of London 2028 race",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo",
+      "source": "BBC"
     }
   ]
 }
