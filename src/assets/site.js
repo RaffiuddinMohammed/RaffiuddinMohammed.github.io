@@ -1,3 +1,19 @@
+// "3h ago" is baked in at build time, so it goes stale; recompute it from the visitor's clock.
+(() => {
+  const stamps = document.querySelectorAll('time[data-ago]');
+  if (!stamps.length) return;
+  const tick = () => stamps.forEach((el) => {
+    const t = Date.parse(el.getAttribute('datetime'));
+    if (Number.isNaN(t)) return;
+    const m = Math.max(0, Math.round((Date.now() - t) / 6e4));
+    const h = Math.round(m / 60);
+    el.textContent = m < 5 ? 'just now' : m < 60 ? `${m}m ago` : h < 24 ? `${h}h ago` : `${Math.round(h / 24)}d ago`;
+    el.title = new Date(t).toLocaleString('en-GB', { dateStyle: 'medium', timeStyle: 'short' });
+  });
+  tick();
+  setInterval(tick, 60e3);
+})();
+
 // Small touches of motion: numbers count up and cards fade in as they scroll into view.
 // Everything is visible without JS, and both are skipped for reduced-motion users.
 (() => {

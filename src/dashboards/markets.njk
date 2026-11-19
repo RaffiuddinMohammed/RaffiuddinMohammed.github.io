@@ -92,7 +92,7 @@ description: "A US-led market dashboard: the Magnificent 7 and top US and UK sto
     <h2>Latest market headlines</h2>
     <ul class="storylist">
       {% for s in markets.latest %}
-      <li><a href="{{ s.link }}" rel="noopener" target="_blank">{{ s.title }}</a><div class="meta"><img class="fav" src="{{ s.source | sourceDomain | favicon }}" alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">{{ s.source }} · {{ s.date | ago }}</div></li>
+      <li><a href="{{ s.link }}" rel="noopener" target="_blank">{{ s.title }}</a><div class="meta"><img class="fav" src="{{ s.source | sourceDomain | favicon }}" alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">{{ s.source }} · <time datetime="{{ s.date }}" data-ago>{{ s.date | ago }}</time></div></li>
       {% endfor %}
     </ul>
   </div>

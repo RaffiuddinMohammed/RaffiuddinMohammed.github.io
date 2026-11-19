@@ -73,7 +73,7 @@ description: "Today's BBC News headlines by the numbers: which sections are busi
     <h2>Latest stories</h2>
     <ul class="storylist">
       {% for s in bbc.latest %}
-      <li><a href="{{ s.link }}" rel="noopener">{{ s.title }}</a><div class="meta"><img class="fav" src="{{ 'bbc.co.uk' | favicon }}" alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">BBC {{ s.section }} · {{ s.date | ago }}</div></li>
+      <li><a href="{{ s.link }}" rel="noopener">{{ s.title }}</a><div class="meta"><img class="fav" src="{{ 'bbc.co.uk' | favicon }}" alt="" width="16" height="16" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">BBC {{ s.section }} · <time datetime="{{ s.date }}" data-ago>{{ s.date | ago }}</time></div></li>
       {% endfor %}
     </ul>
   </div>
