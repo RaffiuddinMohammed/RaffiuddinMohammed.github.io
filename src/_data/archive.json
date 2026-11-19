@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:16:42.638Z",
+  "updated": "2026-11-19T11:39:31.911Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -3630,11 +3630,11 @@
     },
     {
       "date": "2026-11-19",
-      "totalStories": 248,
+      "totalStories": 249,
       "sections": [
         {
           "name": "World",
-          "count": 25
+          "count": 24
         },
         {
           "name": "Business",
@@ -3650,14 +3650,14 @@
         },
         {
           "name": "Science",
-          "count": 9
-        },
-        {
-          "name": "Technology",
-          "count": 6
+          "count": 8
         },
         {
           "name": "Health",
+          "count": 7
+        },
+        {
+          "name": "Technology",
           "count": 6
         }
       ],
@@ -3702,8 +3702,8 @@
           "lon": -2,
           "count": 25,
           "bySection": {
-            "UK": 3,
             "Politics": 14,
+            "UK": 3,
             "Business": 4,
             "World": 1,
             "Health": 2,
@@ -3711,16 +3711,16 @@
           },
           "stories": [
             {
+              "title": "Cleverly to run as Tory London mayor candidate",
+              "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-19T11:26:44.000Z"
+            },
+            {
               "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
               "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-19T10:51:35.000Z"
-            },
-            {
-              "title": "Cleverly to run as Tory London mayor candidate",
-              "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
-              "section": "Politics",
-              "date": "2026-11-19T10:33:34.000Z"
             },
             {
               "title": "UK to provide Ukraine with 1,000 long-range strike drones",
@@ -4124,6 +4124,21 @@
       ],
       "topHeadlines": [
         {
+          "title": "Cleverly to run as Tory London mayor candidate",
+          "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
+          "section": "Politics"
+        },
+        {
+          "title": "Call for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
+          "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o?at_medium=RSS&at_campaign=rss",
+          "section": "Health"
+        },
+        {
+          "title": "'Dad was deteriorating': Two-hour ambulance target missed more than 2,000 times",
+          "link": "https://www.bbc.co.uk/news/articles/cm752zx62n62o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
           "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -4132,38 +4147,23 @@
           "title": "Tennis my 'saviour' after trying to take my own life - Riedi",
           "link": "https://www.bbc.co.uk/sport/tennis/videos/cw1mdn0n531lo?at_medium=RSS&at_campaign=rss",
           "section": "Health"
-        },
-        {
-          "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
-          "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "Why children lying can be a good thing, according to experts",
-          "link": "https://www.bbc.co.uk/news/articles/cwvg2mp0de2jo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "Anthropic raises $81bn in record-breaking stock market debut",
-          "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Unauthenticated remote code execution in Nginx",
           "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-          "points": 1396
+          "points": 1406
         },
         {
           "title": "Gemini 4 Neon",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-          "points": 850
+          "points": 856
         },
         {
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
-          "points": 704
+          "points": 708
         }
       ]
     }

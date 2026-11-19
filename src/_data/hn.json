@@ -1,43 +1,35 @@
 {
-  "updated": "2026-11-19T11:08:40.293Z",
+  "updated": "2026-11-19T11:30:29.872Z",
   "stories": [
     {
       "title": "Unauthenticated remote code execution in Nginx",
       "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
       "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 1396,
-      "comments": 600,
+      "points": 1406,
+      "comments": 603,
       "domain": "wiz.io"
     },
     {
       "title": "Gemini 4 Neon",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
       "discuss": "https://news.ycombinator.com/item?id=50552424",
-      "points": 850,
-      "comments": 677,
+      "points": 856,
+      "comments": 682,
       "domain": "blog.google"
     },
     {
       "title": "Inside Deutsche Bank",
       "url": "https://www.inside-db.com/",
       "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 704,
+      "points": 708,
       "comments": 240,
       "domain": "inside-db.com"
-    },
-    {
-      "title": "We need smart people who give a shit",
-      "url": "https://violetpixel.com/blog/2026-11-17-we-need-smart-people-who-give-a-shit/",
-      "discuss": "https://news.ycombinator.com/item?id=50554045",
-      "points": 633,
-      "comments": 313,
-      "domain": "violetpixel.com"
     },
     {
       "title": "Seven new models at scalable price-performance",
       "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
       "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 543,
+      "points": 546,
       "comments": 355,
       "domain": "microsoft.ai"
     },
@@ -45,43 +37,51 @@
       "title": "The Cambridge Dictionary has named ‘human’ as the Word of the Year 2026",
       "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
       "discuss": "https://news.ycombinator.com/item?id=50546914",
-      "points": 280,
-      "comments": 213,
+      "points": 281,
+      "comments": 214,
       "domain": "cam.ac.uk"
     },
     {
       "title": "Multiple vulnerabilities in Regexp and String case conversion",
       "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
       "discuss": "https://news.ycombinator.com/item?id=50554038",
-      "points": 277,
-      "comments": 92,
+      "points": 281,
+      "comments": 95,
       "domain": "ruby-lang.org"
     },
     {
       "title": "Genie 4 is now available",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
       "discuss": "https://news.ycombinator.com/item?id=50550415",
-      "points": 260,
-      "comments": 169,
+      "points": 262,
+      "comments": 170,
       "domain": "blog.google"
     },
     {
       "title": "Anthropic prices initial public offering",
       "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
       "discuss": "https://news.ycombinator.com/item?id=50553843",
-      "points": 244,
-      "comments": 414,
+      "points": 252,
+      "comments": 440,
       "domain": "anthropic.com"
     },
     {
       "title": "LLM assisted reverse engineering",
       "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
       "discuss": "https://news.ycombinator.com/item?id=50553225",
-      "points": 223,
-      "comments": 56,
+      "points": 227,
+      "comments": 55,
       "domain": "slowchronicle.com"
+    },
+    {
+      "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
+      "url": "https://exitpath-ruddy.vercel.app/",
+      "discuss": "https://news.ycombinator.com/item?id=50547980",
+      "points": 222,
+      "comments": 73,
+      "domain": "exitpath-ruddy.vercel.app"
     }
   ],
-  "totalPoints": 7345,
+  "totalPoints": 6866,
   "storyCount": 30
 }

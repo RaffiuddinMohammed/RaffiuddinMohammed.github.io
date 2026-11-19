@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T11:07:59.508Z",
-  "headlineCount": 82,
+  "updated": "2026-11-19T11:30:26.031Z",
+  "headlineCount": 84,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 39
+      "count": 40
     },
     {
       "name": "MarketWatch",
@@ -16,13 +16,13 @@
     },
     {
       "name": "Investing.com",
-      "count": 19
+      "count": 20
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Interest rates",
@@ -30,11 +30,11 @@
     },
     {
       "name": "Earnings",
-      "count": 10
+      "count": 9
     },
     {
       "name": "Inflation",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Jobs",
@@ -42,18 +42,18 @@
     },
     {
       "name": "Housing",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Oil and energy",
       "count": 1
     },
     {
-      "name": "Trade and tariffs",
-      "count": 0
+      "name": "Crypto",
+      "count": 1
     },
     {
-      "name": "Crypto",
+      "name": "Trade and tariffs",
       "count": 0
     }
   ],
@@ -63,163 +63,163 @@
       "count": 5
     },
     {
+      "name": "Apple",
+      "count": 3
+    },
+    {
       "name": "Microsoft",
       "count": 2
     },
     {
-      "name": "Meta",
-      "count": 1
-    },
-    {
-      "name": "Tesla",
-      "count": 1
-    },
-    {
-      "name": "Apple",
-      "count": 0
-    },
-    {
       "name": "Alphabet",
-      "count": 0
+      "count": 2
     },
     {
       "name": "Amazon",
+      "count": 1
+    },
+    {
+      "name": "Meta",
+      "count": 0
+    },
+    {
+      "name": "Tesla",
       "count": 0
     }
   ],
   "latest": [
     {
+      "title": "RBC Raised Cannae (CNNE)'s Target. Why Downgrade Anyway?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rbc-raised-cannae-cnne-target-112437145.html?.tsrc=rss",
+      "date": "2026-11-19T11:24:37.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Goldman Backed Yeti (YETI) in July. Why Did It Change Course?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-backed-yeti-yeti-july-112428999.html?.tsrc=rss",
+      "date": "2026-11-19T11:24:28.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Not Bitcoin. Not Ethereum. This Could Be the Best Cryptocurrency to Hold During the Next 5 Years.",
+      "link": "https://www.fool.com/investing/2026/11/19/not-bitcoin-not-ethereum-this-could-be-the-best-cryptocurrency-to-hold-over-the-next-5-years/?.tsrc=rss",
+      "date": "2026-11-19T11:20:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Tech stocks rise as Anthropic to start trading after record IPO",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-drop-anthropics-record-025108034.html?.tsrc=rss",
+      "date": "2026-11-19T11:19:32.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Google's No. 1 Move Against Anthropic Is Free AI, per Bill Gurley. Alphabet Will Own  14% of Anthropic",
+      "link": "https://www.tikr.com/blog/googles-no-1-move-against-anthropic-is-free-ai-per-bill-gurley-alphabet-will-own-14-of-anthropic?ref=yahoofinance&tlnk=yf-261119-2jq65vqq&.tsrc=rss",
+      "date": "2026-11-19T11:16:18.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "‘Nvidia’s turmoil has me spooked’: Should I sell my stocks and buy real estate — or ride out the storm?",
+      "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
+      "date": "2026-11-19T11:15:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Your Nvidia Weight Sets How Much A Fall Hurts",
+      "link": "https://www.trefis.com/stock/nvda/articles/626647/your-nvidia-weight-sets-how-much-a-fall-hurts/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T11:13:05.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why Is Alphabet Stock Down 30%?",
+      "link": "https://www.trefis.com/stock/googl/articles/626522/why-is-alphabet-stock-down-30/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T11:13:05.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Should I Buy Humana Stock Now?",
+      "link": "https://www.trefis.com/stock/hum/articles/626742/should-i-buy-humana-stock-now/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T11:08:59.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Can Akamai Stock Jump 40%?",
+      "link": "https://www.trefis.com/stock/akam/articles/626809/can-akamai-stock-jump-40/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T11:08:59.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Could Anthropic Stock Fall 25%?",
+      "link": "https://www.trefis.com/stock/ant/articles/626034/could-anthropic-stock-fall-26/2026-11-19?.tsrc=rss",
+      "date": "2026-11-19T11:08:59.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "CoreWeave, Nebius and IREN Stocks Rise Ahead of Anthropic Debut",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/coreweave-nebius-iren-stocks-rise-110732326.html?.tsrc=rss",
+      "date": "2026-11-19T11:07:32.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Dow Jones Futures Rise, Techs Jump: Anthropic IPO To Debut After Pricing High; Palo Alto, Everpure Rally On Earnings",
       "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "date": "2026-11-19T10:53:34.000Z",
+      "date": "2026-11-19T11:07:17.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Berenberg sees Wacker Neuson growth slowing as machinery demand weakens",
-      "link": "https://www.investing.com/news/stock-market-news/berenberg-sees-wacker-neuson-growth-slowing-as-machinery-demand-weakens-5038364",
-      "date": "2026-11-19T10:51:47.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "What Berkshire Hathaway's Third-Quarter Report Says About Its Insurance Business",
-      "link": "https://www.fool.com/investing/2026/11/19/what-berkshire-hathaway-q3-report-says-insurance-business/?.tsrc=rss",
-      "date": "2026-11-19T10:50:02.000Z",
+      "title": "iShares Russell 3000 ETF (IWV) Buys $10.5 Million More Apple on Nov. 17",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-3000-etf-iwv-110634387.html?.tsrc=rss",
+      "date": "2026-11-19T11:06:34.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why is Investec stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-investec-stock-sliding-today-93CH-5038331",
-      "date": "2026-11-19T10:44:08.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Saipem stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-saipem-stock-surging-today-93CH-5038322",
-      "date": "2026-11-19T10:43:36.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic's rise from AI upstart to world's largest IPO",
-      "link": "https://www.investing.com/news/stock-market-news/anthropics-rise-from-ai-upstart-to-worlds-largest-ipo-5038313",
-      "date": "2026-11-19T10:42:49.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic raises record $81 billion in IPO at $1.5 trillion valuation",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-prices-blockbuster-ipo-at-83-a-share-source-says-5037110",
-      "date": "2026-11-19T10:42:23.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "+60%, +55%, +54% upside: These undervalued AI-picked stocks can beat Fed hikes",
-      "link": "https://www.investing.com/news/stock-market-news/60-55-54-upside-these-undervalued-aipicked-stocks-can-beat-fed-hikes-5038305",
-      "date": "2026-11-19T10:40:04.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "European stocks inch up as massive Anthropic IPO counters hawkish Fed",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-inch-up-as-massive-anthropic-ipo-counters-hawkish-fed-5037955",
-      "date": "2026-11-19T10:38:46.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Analysis-Brazil's corn ethanol boom accelerating growth of feedlot beef",
-      "link": "https://www.investing.com/news/stock-market-news/analysisbrazils-corn-ethanol-boom-accelerating-growth-of-feedlot-beef-5038296",
-      "date": "2026-11-19T10:36:21.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic's Amended S-1 Shows $895 Billion in Spending Commitments. Here's How Much Flows Straight to SpaceX -- and When.",
-      "link": "https://www.fool.com/investing/2026/11/19/anthropics-amended-s-1-shows-895-billion-in-spending-commitments-heres-how-much-flows-straight-to-spacex-and-when/?.tsrc=rss",
-      "date": "2026-11-19T10:35:02.000Z",
+      "title": "First Trust NASDAQ-100 Tech (QTEC) Sells AppLovin and Texas Instruments on Tuesday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/first-trust-nasdaq-100-tech-110626243.html?.tsrc=rss",
+      "date": "2026-11-19T11:06:26.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why is Alibaba stock slipping today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-alibaba-stock-slipping-today-93CH-5038289",
-      "date": "2026-11-19T10:33:39.000Z",
+      "title": "Trump holds historic trilateral talks with Xi, Putin in China",
+      "link": "https://www.investing.com/news/economy-news/trump-begins-historic-trilateral-talks-with-xi-putin-in-china-5038233",
+      "date": "2026-11-19T11:06:18.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Market Chatter: Meta Platforms Suspends Plan to Issue Non-Voting Shares",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-meta-platforms-suspends-103305579.html?.tsrc=rss",
-      "date": "2026-11-19T10:33:05.000Z",
+      "title": "JPMorgan Nasdaq Equity Premium Income (JEPQ) Adds Apple and Microsoft on Nov. 17",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-nasdaq-equity-premium-income-110557529.html?.tsrc=rss",
+      "date": "2026-11-19T11:05:57.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Morgan Stanley cuts Accor on debt concerns and reduced buyback room",
-      "link": "https://www.investing.com/news/stock-market-news/morgan-stanley-cuts-accor-on-debt-concerns-and-reduced-buyback-room-5038287",
-      "date": "2026-11-19T10:32:32.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Stocks look to break losing streak ahead of blockbuster Anthropic IPO",
-      "link": "https://www.investing.com/news/economy-news/stocks-rise-after-anthropic-ipo-pricing-sets-stage-for-blockbuster-debut-5037540",
-      "date": "2026-11-19T10:30:32.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Wall Street's Next Blockbuster Stock Split Arrives Later Today -- and This Industry Titan Has Skyrocketed Nearly 2,400% in Less Than 2 Years",
-      "link": "https://www.fool.com/investing/2026/11/19/wall-street-next-blockbuster-stock-split-arrives-today-skyrocketed-nearly-2400-in-less-than-2-years/?.tsrc=rss",
-      "date": "2026-11-19T10:26:01.000Z",
+      "title": "iShares Expanded Tech-Software (IGV) Sells $17.3 Million More Microsoft on Nov. 17",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-expanded-tech-software-igv-110546407.html?.tsrc=rss",
+      "date": "2026-11-19T11:05:46.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is Investing in an S&P 500 ETF Really Enough? Here's My Honest Take.",
-      "link": "https://www.fool.com/investing/2026/11/19/is-investing-in-an-sp-500-etf-really-enough-heres-my-honest-take/?.tsrc=rss",
-      "date": "2026-11-19T10:22:01.000Z",
+      "title": "What State Street Consumer Discretionary SPDR (XLY) Sold: Amazon Leads on Nov. 17",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/state-street-consumer-discretionary-spdr-110530754.html?.tsrc=rss",
+      "date": "2026-11-19T11:05:30.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Could Buying XRP Today Set You Up for Life?",
-      "link": "https://www.fool.com/investing/2026/11/19/could-buying-xrp-today-set-you-up-for-life/?.tsrc=rss",
-      "date": "2026-11-19T10:20:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Intel and Microsoft agree long-term deal on Azure cloud hardware",
-      "link": "https://www.verdict.co.uk/intel-microsoft-deal-azure-cloud/?.tsrc=rss",
-      "date": "2026-11-19T10:19:08.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "AlumiFuel Power And 2 More Hydrogen Fuel Cell Stocks To Watch",
-      "link": "https://finance.yahoo.com/energy/articles/alumifuel-power-2-more-hydrogen-101627261.html?.tsrc=rss",
-      "date": "2026-11-19T10:16:27.000Z",
+      "title": "iShares Russell 1000 Growth (IWF) Buys $26.7 Million More NVIDIA on Nov. 17",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-russell-1000-growth-iwf-110519538.html?.tsrc=rss",
+      "date": "2026-11-19T11:05:19.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Dow Jones Futures Rise, Techs Jump: Anthropic IPO To Debut After Pricing High; Palo Alto, Everpure Rally On Earnings",
-      "link": "https://finance.yahoo.com/m/107e5a2c-4fba-3df3-b2fd-5d1160e65516/dow-jones-futures-rise%2C-techs.html?.tsrc=rss",
-      "date": "2026-11-19T10:53:34.000Z",
+      "title": "Not Bitcoin. Not Ethereum. This Could Be the Best Cryptocurrency to Hold During the Next 5 Years.",
+      "link": "https://www.fool.com/investing/2026/11/19/not-bitcoin-not-ethereum-this-could-be-the-best-cryptocurrency-to-hold-over-the-next-5-years/?.tsrc=rss",
+      "date": "2026-11-19T11:20:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Anthropic's rise from AI upstart to world's largest IPO",
-      "link": "https://www.investing.com/news/stock-market-news/anthropics-rise-from-ai-upstart-to-worlds-largest-ipo-5038313",
-      "date": "2026-11-19T10:42:49.000Z",
+      "title": "Global chip stocks rally as Anthropic's record IPO boosts confidence in AI trade",
+      "link": "https://www.investing.com/news/stock-market-news/global-chip-stocks-rally-as-anthropics-record-ipo-boosts-confidence-in-ai-trade-5038371",
+      "date": "2026-11-19T10:57:07.000Z",
       "source": "Investing.com"
     },
     {

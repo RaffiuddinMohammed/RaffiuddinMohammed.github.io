@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19T11:08:39.926Z",
-  "totalStories": 248,
+  "updated": "2026-11-19T11:30:27.033Z",
+  "totalStories": 249,
   "sections": [
     {
       "name": "World",
-      "count": 25
+      "count": 24
     },
     {
       "name": "Business",
@@ -20,14 +20,14 @@
     },
     {
       "name": "Science",
-      "count": 9
-    },
-    {
-      "name": "Technology",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Health",
+      "count": 7
+    },
+    {
+      "name": "Technology",
       "count": 6
     }
   ],
@@ -65,6 +65,10 @@
       "count": 7
     },
     {
+      "word": "nhs",
+      "count": 6
+    },
+    {
       "word": "neets",
       "count": 6
     },
@@ -75,10 +79,6 @@
     {
       "word": "science",
       "count": 6
-    },
-    {
-      "word": "care",
-      "count": 5
     }
   ],
   "places": [
@@ -88,8 +88,8 @@
       "lon": -2,
       "count": 25,
       "bySection": {
-        "UK": 3,
         "Politics": 14,
+        "UK": 3,
         "Business": 4,
         "World": 1,
         "Health": 2,
@@ -97,16 +97,16 @@
       },
       "stories": [
         {
+          "title": "Cleverly to run as Tory London mayor candidate",
+          "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-19T11:26:44.000Z"
+        },
+        {
           "title": "Google rejects UK request for Russell Brand YouTube video to be removed, sources say",
           "link": "https://www.bbc.co.uk/news/articles/cmgrenln8p29o?at_medium=RSS&at_campaign=rss",
           "section": "UK",
           "date": "2026-11-19T10:51:35.000Z"
-        },
-        {
-          "title": "Cleverly to run as Tory London mayor candidate",
-          "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-19T10:33:34.000Z"
         },
         {
           "title": "UK to provide Ukraine with 1,000 long-range strike drones",
@@ -546,6 +546,24 @@
   ],
   "latest": [
     {
+      "title": "Cleverly to run as Tory London mayor candidate",
+      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T11:26:44.000Z",
+      "section": "Politics"
+    },
+    {
+      "title": "Call for corporate homicide probe over claims NHS Grampian patients unnecessarily bled to death",
+      "link": "https://www.bbc.co.uk/news/articles/crjeqxexyq05o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T11:18:48.000Z",
+      "section": "Health"
+    },
+    {
+      "title": "'Dad was deteriorating': Two-hour ambulance target missed more than 2,000 times",
+      "link": "https://www.bbc.co.uk/news/articles/cm752zx62n62o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-19T11:14:38.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
       "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T11:07:37.000Z",
@@ -576,12 +594,6 @@
       "section": "World"
     },
     {
-      "title": "Cleverly to run as Tory London mayor candidate",
-      "link": "https://www.bbc.co.uk/news/articles/cmy0ep02wn3lo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T10:33:34.000Z",
-      "section": "Politics"
-    },
-    {
       "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
       "link": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T10:32:10.000Z",
@@ -604,18 +616,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cw987ynpd0n1o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-19T09:26:59.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
-      "link": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T09:21:54.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
-      "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-19T09:02:52.000Z",
-      "section": "World"
     }
   ]
 }
