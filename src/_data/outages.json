@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-19T01:30:23.305Z",
+  "checked": "2026-11-19T09:30:13.326Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Degraded connectivity between Europe and Asia Pacific",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -70,7 +70,7 @@
     {
       "name": "DigitalOcean",
       "level": "ok",
-      "note": "All Systems Operational",
+      "note": "Increased Error Rates in SFO3",
       "url": "https://status.digitalocean.com"
     },
     {
@@ -89,10 +89,26 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "Cloudflare Access Issue",
+      "impact": "minor",
+      "start": "2026-11-19T06:48:06.017Z",
+      "end": "2026-11-19T08:56:14.612Z",
+      "url": "https://www.cloudflarestatus.com/incidents/sd2sya0mc6df"
+    },
+    {
+      "service": "DigitalOcean",
+      "title": "Increased Error Rates in SFO3",
+      "impact": "minor",
+      "start": "2026-11-19T04:37:54.324Z",
+      "end": null,
+      "url": "https://stspg.io/bnb8ltd5ct7l"
+    },
+    {
+      "service": "Cloudflare",
       "title": "Degraded connectivity between Europe and Asia Pacific",
       "impact": "minor",
       "start": "2026-11-18T22:26:41.943Z",
-      "end": null,
+      "end": "2026-11-19T03:19:28.782Z",
       "url": "https://www.cloudflarestatus.com/incidents/f33c51cw0ojd"
     },
     {
@@ -1015,14 +1031,6 @@
       "start": "2026-10-21T14:52:49.979Z",
       "end": "2026-10-21T19:22:52.633Z",
       "url": "https://stspg.io/gnnt0tx9nxmk"
-    },
-    {
-      "service": "Google Cloud",
-      "title": "Multiple services were experiencing issues in the europe-west2 region.",
-      "impact": "minor",
-      "start": "2026-10-20T06:00:00+00:00",
-      "end": "2026-10-20T12:08:00+00:00",
-      "url": "https://status.cloud.google.com/incidents/Xs2XTHzAVC9YnafnPyzj"
     }
   ],
   "tracked": [
