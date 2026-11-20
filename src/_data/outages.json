@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20T00:56:39.330Z",
+  "checked": "2026-11-20T08:31:54.819Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Network Performance Issues in Miami",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Miami",
+      "impact": "minor",
+      "start": "2026-11-20T05:00:56.036Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm"
+    },
+    {
+      "service": "Cloudflare",
+      "title": " R2 and Durable Objects availability issues",
+      "impact": "minor",
+      "start": "2026-11-20T02:52:58.156Z",
+      "end": "2026-11-20T04:35:18.149Z",
+      "url": "https://www.cloudflarestatus.com/incidents/pfwuex7qix27"
+    },
     {
       "service": "GitHub",
       "title": "Disruption with some GitHub services",
@@ -746,14 +762,6 @@
     },
     {
       "service": "Cloudflare",
-      "title": "Wrangler Deployments, Pages, and Workers Builds failures",
-      "impact": "minor",
-      "start": "2026-11-06T09:47:17.426Z",
-      "end": "2026-11-06T10:08:30.899Z",
-      "url": "https://www.cloudflarestatus.com/incidents/wtsd415cavkc"
-    },
-    {
-      "service": "Cloudflare",
       "title": "Network Performance Issues in Singapore",
       "impact": "minor",
       "start": "2026-11-06T08:54:00.339Z",
@@ -791,14 +799,6 @@
       "start": "2026-11-05T15:25:03Z",
       "end": "2026-11-06T04:31:37Z",
       "url": "https://status.openai.com"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Increased Errors for Durable Objects in Western Europe",
-      "impact": "minor",
-      "start": "2026-11-05T13:23:55.346Z",
-      "end": "2026-11-06T09:05:19.945Z",
-      "url": "https://www.cloudflarestatus.com/incidents/oy8gxjb38yse"
     },
     {
       "service": "OpenAI",
