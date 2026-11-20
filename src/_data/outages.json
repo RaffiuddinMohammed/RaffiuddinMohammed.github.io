@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20T14:17:42.483Z",
+  "checked": "2026-11-20T17:17:05.413Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Network Performance Issues in Miami",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Network Performance Issues in Miami",
       "impact": "minor",
       "start": "2026-11-20T05:00:56.036Z",
-      "end": null,
+      "end": "2026-11-20T14:28:03.009Z",
       "url": "https://www.cloudflarestatus.com/incidents/4lv21sf5fzhm"
     },
     {
@@ -1047,14 +1047,6 @@
       "start": "2026-10-22T02:33:25.776Z",
       "end": "2026-10-22T04:24:16.605Z",
       "url": "https://stspg.io/fr89w5qkp7j4"
-    },
-    {
-      "service": "GitHub",
-      "title": "Delays for Pull Requests and Webhook deliveries",
-      "impact": "major",
-      "start": "2026-10-21T14:52:49.979Z",
-      "end": "2026-10-21T19:22:52.633Z",
-      "url": "https://stspg.io/gnnt0tx9nxmk"
     }
   ],
   "tracked": [
