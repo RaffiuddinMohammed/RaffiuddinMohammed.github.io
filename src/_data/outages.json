@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20T17:17:05.413Z",
+  "checked": "2026-11-20T23:21:01.706Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Network Performance Issues in Washington, DC datacenter (IAD)",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,38 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Washington, DC datacenter (IAD)",
+      "impact": "minor",
+      "start": "2026-11-20T20:35:16.792Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/oz6to8yacrxe"
+    },
+    {
+      "service": "Dropbox",
+      "title": "Dropbox is not working as expected for some users",
+      "impact": "major",
+      "start": "2026-11-20T19:28:42.886Z",
+      "end": "2026-11-20T20:13:28.038Z",
+      "url": "https://stspg.io/njzlzrzr1yyh"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Dashboard and Cloudflare API service issues in EU region",
+      "impact": "major",
+      "start": "2026-11-20T18:24:29.481Z",
+      "end": "2026-11-20T18:53:14.770Z",
+      "url": "https://www.cloudflarestatus.com/incidents/iysf3fasf7wn"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cache Purging Delays in Amsterdam",
+      "impact": "minor",
+      "start": "2026-11-20T18:00:33.129Z",
+      "end": "2026-11-20T19:41:49.904Z",
+      "url": "https://www.cloudflarestatus.com/incidents/xsgbfncq7of7"
+    },
     {
       "service": "Cloudflare",
       "title": "Network Performance Issues in Miami",
@@ -682,14 +714,6 @@
     },
     {
       "service": "Cloudflare",
-      "title": "Network Performance Issues in Eastern North America",
-      "impact": "minor",
-      "start": "2026-11-09T16:34:35.356Z",
-      "end": "2026-11-09T20:12:27.071Z",
-      "url": "https://www.cloudflarestatus.com/incidents/88hc76jnq2gn"
-    },
-    {
-      "service": "Cloudflare",
       "title": "Changes made to Workers may be delayed or disrupted",
       "impact": "minor",
       "start": "2026-11-09T16:15:26.798Z",
@@ -738,35 +762,11 @@
     },
     {
       "service": "Cloudflare",
-      "title": "Network Performance Issues in Chicago",
-      "impact": "minor",
-      "start": "2026-11-07T05:34:24.281Z",
-      "end": "2026-11-07T05:12:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/x9orajjmvvwa"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Spectrum Availability Issue in Phoenix",
-      "impact": "minor",
-      "start": "2026-11-07T00:59:31.548Z",
-      "end": "2026-11-09T14:36:55.910Z",
-      "url": "https://www.cloudflarestatus.com/incidents/c60k3g4vsoc1"
-    },
-    {
-      "service": "Cloudflare",
       "title": "Fedramp Customers have Delayed Purges",
       "impact": "minor",
       "start": "2026-11-06T17:47:15.545Z",
       "end": "2026-11-12T16:36:32.465Z",
       "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network Performance Issues in Singapore",
-      "impact": "minor",
-      "start": "2026-11-06T08:54:00.339Z",
-      "end": "2026-11-06T10:43:38.174Z",
-      "url": "https://www.cloudflarestatus.com/incidents/3ehw20ozwlkr"
     },
     {
       "service": "GitHub",
