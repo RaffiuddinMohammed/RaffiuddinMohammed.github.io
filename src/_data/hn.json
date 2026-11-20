@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-19T14:30:46.355Z",
+  "updated": "2026-11-20T14:09:21.994Z",
   "stories": [
     {
-      "title": "Unauthenticated remote code execution in Nginx",
-      "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-      "discuss": "https://news.ycombinator.com/item?id=50547374",
-      "points": 1453,
-      "comments": 612,
-      "domain": "wiz.io"
+      "title": "Pancreatic cancer halted by virus injection in three patients",
+      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+      "discuss": "https://news.ycombinator.com/item?id=50563066",
+      "points": 821,
+      "comments": 141,
+      "domain": "newscientist.com"
     },
     {
-      "title": "Gemini 4 Neon",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-      "discuss": "https://news.ycombinator.com/item?id=50552424",
-      "points": 911,
-      "comments": 711,
-      "domain": "blog.google"
+      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "discuss": "https://news.ycombinator.com/item?id=50564159",
+      "points": 317,
+      "comments": 166,
+      "domain": "globalcommercegraph.com"
     },
     {
-      "title": "Inside Deutsche Bank",
-      "url": "https://www.inside-db.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50547620",
-      "points": 741,
-      "comments": 246,
-      "domain": "inside-db.com"
+      "title": "How to CAD Almost Anything",
+      "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+      "discuss": "https://news.ycombinator.com/item?id=50528119",
+      "points": 315,
+      "comments": 105,
+      "domain": "ocw.mit.edu"
     },
     {
-      "title": "Seven new models at scalable price-performance",
-      "url": "https://microsoft.ai/news/microsoft-ignite-2026/",
-      "discuss": "https://news.ycombinator.com/item?id=50548021",
-      "points": 574,
-      "comments": 361,
-      "domain": "microsoft.ai"
+      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
+      "url": "https://github.com/openssl/openssl/pull/33652",
+      "discuss": "https://news.ycombinator.com/item?id=50569226",
+      "points": 310,
+      "comments": 255,
+      "domain": "github.com"
     },
     {
-      "title": "Anthropic prices initial public offering",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "discuss": "https://news.ycombinator.com/item?id=50553843",
-      "points": 322,
-      "comments": 593,
-      "domain": "anthropic.com"
+      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+      "url": "https://architectlabs.com/blog/frostbite",
+      "discuss": "https://news.ycombinator.com/item?id=50572503",
+      "points": 291,
+      "comments": 195,
+      "domain": "architectlabs.com"
     },
     {
-      "title": "How the European Commission rolled out Matrix to more than 40k staff",
-      "url": "https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/",
-      "discuss": "https://news.ycombinator.com/item?id=50558533",
-      "points": 313,
-      "comments": 138,
-      "domain": "element.io"
+      "title": "\"I can tell you wrote this yourself\"",
+      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
+      "discuss": "https://news.ycombinator.com/item?id=50571189",
+      "points": 285,
+      "comments": 283,
+      "domain": "em-online.bearblog.dev"
     },
     {
-      "title": "Multiple vulnerabilities in Regexp and String case conversion",
-      "url": "https://www.ruby-lang.org/en/news/2026/11/18/multiple-vulnerabilities-in-regexp-and-string/",
-      "discuss": "https://news.ycombinator.com/item?id=50554038",
-      "points": 304,
-      "comments": 111,
-      "domain": "ruby-lang.org"
+      "title": "PostgreSQL 19",
+      "url": "https://www.postgresql.org/docs/release/19.0/",
+      "discuss": "https://news.ycombinator.com/item?id=50569890",
+      "points": 281,
+      "comments": 14,
+      "domain": "postgresql.org"
     },
     {
-      "title": "LLM assisted reverse engineering",
-      "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-      "discuss": "https://news.ycombinator.com/item?id=50553225",
-      "points": 274,
-      "comments": 68,
-      "domain": "slowchronicle.com"
+      "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
+      "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
+      "discuss": "https://news.ycombinator.com/item?id=50572116",
+      "points": 266,
+      "comments": 150,
+      "domain": "ecohustler.com"
     },
     {
-      "title": "Ruby2ßhell: Pre-authentication RCE on stock Rails",
-      "url": "https://verialabs.com/ruby2shell/",
-      "discuss": "https://news.ycombinator.com/item?id=50556287",
-      "points": 253,
-      "comments": 97,
-      "domain": "verialabs.com"
+      "title": "FFmpeg 9.1 'Gauss'",
+      "url": "https://ffmpeg.org/download.html#release_9.1",
+      "discuss": "https://news.ycombinator.com/item?id=50569998",
+      "points": 208,
+      "comments": 28,
+      "domain": "ffmpeg.org"
     },
     {
-      "title": "15M web servers on one VM – smoltcp, DPDK, AF_XDP",
-      "url": "https://kapteko.com/15-million-webservers/",
-      "discuss": "https://news.ycombinator.com/item?id=50556533",
-      "points": 253,
-      "comments": 29,
-      "domain": "kapteko.com"
+      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
+      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
+      "discuss": "https://news.ycombinator.com/item?id=50572355",
+      "points": 187,
+      "comments": 124,
+      "domain": "kottke.org"
     }
   ],
-  "totalPoints": 6745,
+  "totalPoints": 4706,
   "storyCount": 30
 }

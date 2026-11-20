@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-19T14:30:43.003Z",
-  "headlineCount": 82,
+  "updated": "2026-11-20T14:08:42.256Z",
+  "headlineCount": 83,
   "sources": [
     {
       "name": "CNBC",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Yahoo Finance",
@@ -22,52 +22,52 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 28
-    },
-    {
-      "name": "Earnings",
-      "count": 10
+      "count": 27
     },
     {
       "name": "Interest rates",
-      "count": 9
+      "count": 8
     },
     {
       "name": "Inflation",
-      "count": 6
+      "count": 4
     },
     {
-      "name": "Jobs",
-      "count": 2
-    },
-    {
-      "name": "Oil and energy",
-      "count": 1
-    },
-    {
-      "name": "Housing",
+      "name": "Earnings",
       "count": 1
     },
     {
       "name": "Trade and tariffs",
+      "count": 1
+    },
+    {
+      "name": "Jobs",
+      "count": 0
+    },
+    {
+      "name": "Oil and energy",
       "count": 0
     },
     {
       "name": "Crypto",
+      "count": 0
+    },
+    {
+      "name": "Housing",
       "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 5
+      "count": 6
     },
     {
-      "name": "Alphabet",
+      "name": "Amazon",
       "count": 2
     },
     {
-      "name": "Apple",
+      "name": "Alphabet",
       "count": 1
     },
     {
@@ -75,184 +75,177 @@
       "count": 1
     },
     {
-      "name": "Tesla",
-      "count": 1
+      "name": "Apple",
+      "count": 0
     },
     {
       "name": "Microsoft",
       "count": 0
     },
     {
-      "name": "Amazon",
+      "name": "Tesla",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "With Netflix Stock Down Nearly 46% In The Last Year, Michael Burry Reveals The Price He'd Think About Buying",
-      "link": "https://247wallst.com/investing/2026/11/19/with-netflix-stock-down-nearly-46-in-the-last-year-michael-burry-reveals-the-price-hed-think-about-buying/?.tsrc=rss",
-      "date": "2026-11-19T14:25:45.000Z",
+      "title": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Friday Amid Continued AI Stock Selloff",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html?.tsrc=rss",
+      "date": "2026-11-20T14:00:12.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Chip giants suspend shipments to China in threat to Xi's AI ambitions",
-      "link": "https://uk.finance.yahoo.com/news/chip-giants-suspend-shipments-china-142306568.html?.tsrc=rss",
-      "date": "2026-11-19T14:23:06.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "At what price will Anthropic shares open? YF takes a guess",
-      "link": "https://finance.yahoo.com/video/at-what-price-will-anthropic-shares-open-yf-takes-a-guess-141835974.html?.tsrc=rss",
-      "date": "2026-11-19T14:18:35.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Billionaire Stanley Druckenmiller's New AI Warning and Top 5 Stock Picks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-stanley-druckenmiller-ai-warning-141748585.html?.tsrc=rss",
-      "date": "2026-11-19T14:17:48.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Before the Bell: Rate-Hike Signals, Health Insurer Losses and Cyber Gains",
-      "link": "https://finance.yahoo.com/news/bell-rate-hike-signals-health-141500346.html?.tsrc=rss",
-      "date": "2026-11-19T14:15:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "‘Country of geniuses in a data center': Anthropic CEO warns China with AI could outsmart the US in every conceivable way",
-      "link": "https://finance.yahoo.com/technology/ai/articles/country-geniuses-data-center-anthropic-141500272.html?.tsrc=rss",
-      "date": "2026-11-19T14:15:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "My wife pays thousands for her family to visit us in New York. How can I ask her to choose between them and me?",
-      "link": "https://www.marketwatch.com/story/my-wife-pays-thousands-of-dollars-for-her-family-to-visit-from-argentina-how-can-i-convince-her-to-stop-9381351c?mod=mw_rss_topstories",
-      "date": "2026-11-19T14:15:00.000Z",
+      "title": "These little-known investments could be among the best bargains in a crash",
+      "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
+      "date": "2026-11-20T14:00:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Thursday Ahead of Anthropic Stock Market Debut",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141450756.html?.tsrc=rss",
-      "date": "2026-11-19T14:14:50.000Z",
+      "title": "Anthropic stock sinks sharply, while S&P 500 hits worst losing streak since 2024",
+      "link": "https://finance.yahoo.com/video/anthropic-stock-sinks-sharply-while-sp-500-hits-worst-losing-streak-since-2024-135521277.html?.tsrc=rss",
+      "date": "2026-11-20T13:55:21.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Anthropic's IPO Drew Nearly $500 Billion in Orders for $81 Billion of Stock",
-      "link": "https://247wallst.com/investing/2026/11/19/anthropics-ipo-drew-nearly-500-billion-in-orders-for-81-billion-of-stock/?.tsrc=rss",
-      "date": "2026-11-19T14:13:23.000Z",
+      "title": "Anthropic just went public. Here's what SpaceX and Facebook IPOs tell us about where the stock goes next.",
+      "link": "https://finance.yahoo.com/markets/article/anthropic-just-went-public-heres-what-spacex-and-facebook-ipos-tell-us-about-where-the-stock-goes-next-135422687.html?.tsrc=rss",
+      "date": "2026-11-20T13:54:22.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Musk pledges higher Tesla output at China plant, Chinese state media says",
-      "link": "https://www.investing.com/news/stock-market-news/musk-pledges-higher-tesla-output-at-china-plant-chinese-state-media-says-5037774",
-      "date": "2026-11-19T14:13:16.000Z",
+      "title": "Update: US Equity Futures Drop Pre-Bell as Anthropic Shares Decline One Day After Debut",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-drop-pre-135320294.html?.tsrc=rss",
+      "date": "2026-11-20T13:53:20.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia's financing risks could keep AI chip stocks under pressure, analyst says",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-financing-risks-could-keep-135314222.html?.tsrc=rss",
+      "date": "2026-11-20T13:53:14.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nasdaq 100 futures slide as tech sell-off shows no signs of letting up",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
+      "date": "2026-11-20T13:51:10.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Anthropic Just Priced the Biggest IPO on Record. History Says What Record-Setting IPOs Have Meant for the S&P 500.",
-      "link": "https://www.fool.com/investing/2026/11/19/anthropic-just-priced-the-biggest-ipo-on-record-history-says-what-record-setting-ipos-have-meant-for-the-s-and-p-500/?.tsrc=rss",
-      "date": "2026-11-19T14:13:02.000Z",
+      "title": "Prediction: Nvidia Will Hit a New All-Time High in 2027 (Hint: Watch This Metric)",
+      "link": "https://www.fool.com/investing/2026/11/20/prediction-nvidia-will-hit-a-new-all-time-high-in-2027-hint-watch-this-metric/?.tsrc=rss",
+      "date": "2026-11-20T13:50:01.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Google picks Bezos' Blue Origin to launch AI computing satellites in 2029",
-      "link": "https://www.investing.com/news/stock-market-news/google-picks-bezos-blue-origin-to-launch-ai-computing-satellites-in-2029-5039183",
-      "date": "2026-11-19T14:12:59.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "STMicroelectronics Sees Data Center Revenue More Than Doubling in 2027 as AI Demand Surges",
-      "link": "https://www.marketbeat.com/instant-alerts/event-stmicroelectronics-sees-data-center-revenue-more-than-doubling-in-2027-as-ai-demand-surges-2026-11-19/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "date": "2026-11-19T14:12:57.000Z",
+      "title": "Where Will VOO Be in 30 Years? Here's What History Says.",
+      "link": "https://www.fool.com/investing/2026/11/20/where-will-voo-be-30-years-what-history-says/?.tsrc=rss",
+      "date": "2026-11-20T13:50:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "JPMorgan says third-party vendors targeted in cyberattack",
-      "link": "https://www.investing.com/news/stock-market-news/jpmorgan-says-thirdparty-vendors-targeted-in-cyberattack-5039129",
-      "date": "2026-11-19T14:12:29.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "SanDisk and Micron Rise 4% as Anthropic's Record IPO Revives the AI Trade; Western Digital Gains 5%",
-      "link": "https://247wallst.com/investing/2026/11/19/sandisk-and-micron-rise-4-as-anthropics-record-ipo-revives-the-ai-trade-western-digital-gains-5/?.tsrc=rss",
-      "date": "2026-11-19T14:11:23.000Z",
+      "title": "Amazon and McDonald's just backed Uber—so why is the stock falling?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-mcdonald-just-backed-uber-134946614.html?.tsrc=rss",
+      "date": "2026-11-20T13:49:46.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
-      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
-      "date": "2026-11-19T14:11:00.000Z",
+      "title": "Tech investors are fleeing to CrowdStrike—ignoring a 5,552x P/E",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tech-investors-fleeing-crowdstrike-ignoring-134917233.html?.tsrc=rss",
+      "date": "2026-11-20T13:49:17.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Forget the Headlines: Novo Nordisk's (NVO) 4.6% Dividend Yield Is the Real Story for Patient Investors",
+      "link": "https://www.fool.com/investing/2026/11/20/forget-the-headlines-novo-nordisks-nvo-46-dividend/?.tsrc=rss",
+      "date": "2026-11-20T13:49:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+      "date": "2026-11-20T13:48:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "How Much Downside Is Left In Fortinet Stock?",
-      "link": "https://www.trefis.com/stock/ftnt/articles/626674/how-much-downside-is-left-in-fortinet-stock/2026-11-19?.tsrc=rss",
-      "date": "2026-11-19T14:09:11.000Z",
+      "title": "3 Tech Dividend Stocks Retirees Shouldn't Overlook",
+      "link": "https://247wallst.com/investing/2026/11/20/3-tech-dividend-stocks-retirees-shouldnt-overlook/?.tsrc=rss",
+      "date": "2026-11-20T13:47:40.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Credo Sinks 8% in a Week, Marvell 8%, as Bessent Calls for a Nvidia “Dramatic Shakeup.” Time to Buy?",
-      "link": "https://www.tikr.com/blog/credo-stock-drop-nvidia-turmoil-marvell-patent-settlement-buy?ref=yahoofinance&tlnk=yf-261119-7f4x9qjq&.tsrc=rss",
-      "date": "2026-11-19T14:07:37.000Z",
+      "title": "Stock Market Today: Tech Futures Sell Off As Anthropic Plunges 10% After IPO (Live Coverage)",
+      "link": "https://finance.yahoo.com/m/4b546235-124e-3fa4-b951-41a067ff7bf2/stock-market-today%3A-tech.html?.tsrc=rss",
+      "date": "2026-11-20T13:47:19.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Applied Materials Sinks 7% in a Week, but Customers Want Its Tools “As Fast as We Can Get Them”",
-      "link": "https://www.tikr.com/blog/applied-materials-stock-drop-chip-selloff-customer-demand-buy?ref=yahoofinance&tlnk=yf-261119-fm9wr8q7&.tsrc=rss",
-      "date": "2026-11-19T14:07:18.000Z",
+      "title": "Here's The Real Asymmetry That Keeps Me Buying NVIDIA in the $140s",
+      "link": "https://247wallst.com/investing/2026/11/20/heres-the-real-asymmetry-that-keeps-me-buying-nvidia-in-the-140s/?.tsrc=rss",
+      "date": "2026-11-20T13:45:54.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "3 Reasons I Own More Disney Than Nvidia Stock Right Now",
-      "link": "https://www.fool.com/investing/2026/11/19/3-reasons-i-own-more-disney-than-nvidia-stock-right-now/?.tsrc=rss",
-      "date": "2026-11-19T14:07:02.000Z",
+      "title": "Market is telling the Fed that rates are \"unsustainably high\": Citi",
+      "link": "https://www.investing.com/news/stock-market-news/market-is-telling-the-fed-that-rates-are-unsustainably-high-citi-5041776",
+      "date": "2026-11-20T13:45:26.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Savara stock plunging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-savara-stock-plunging-today-93CH-5041767",
+      "date": "2026-11-20T13:44:54.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Anthropic shares fall around 13% premarket as tech sell off continues",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-opens-34-above-ipo-price-reaches-2-trillion-valuation-in-nasdaq-debut-5039595",
+      "date": "2026-11-20T13:44:46.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Should You Sell Nvidia Stock For A Tax Loss?",
+      "link": "https://www.trefis.com/stock/nvda/articles/627207/should-you-sell-nvidia-stock-for-a-tax-loss/2026-11-20?.tsrc=rss",
+      "date": "2026-11-20T13:43:50.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "With Netflix Stock Down Nearly 46% In The Last Year, Michael Burry Reveals The Price He'd Think About Buying",
-      "link": "https://247wallst.com/investing/2026/11/19/with-netflix-stock-down-nearly-46-in-the-last-year-michael-burry-reveals-the-price-hed-think-about-buying/?.tsrc=rss",
-      "date": "2026-11-19T14:25:45.000Z",
+      "title": "Exchange-Traded Funds, Equity Futures Fall Pre-Bell Friday Amid Continued AI Stock Selloff",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-140012643.html?.tsrc=rss",
+      "date": "2026-11-20T14:00:12.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Musk pledges higher Tesla output at China plant, Chinese state media says",
-      "link": "https://www.investing.com/news/stock-market-news/musk-pledges-higher-tesla-output-at-china-plant-chinese-state-media-says-5037774",
-      "date": "2026-11-19T14:13:16.000Z",
+      "title": "Nasdaq 100 futures slide as tech sell-off shows no signs of letting up",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
+      "date": "2026-11-20T13:51:10.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Google turns to a volcano and rock-melting technology in a wild new bid to power AI",
-      "link": "https://www.marketwatch.com/story/google-turns-to-a-volcano-and-rock-melting-technology-in-a-wild-new-bid-to-power-ai-fbbe57ef?mod=mw_rss_topstories",
-      "date": "2026-11-19T14:11:00.000Z",
+      "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
+      "date": "2026-11-20T13:48:00.000Z",
       "source": "MarketWatch"
     }
   ],
   "yields": {
     "latest": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "y3m": 4.34,
-      "y2": 4.8,
-      "y10": 5.07,
-      "y30": 5.41
+      "y2": 4.76,
+      "y10": 5.04,
+      "y30": 5.4
     },
     "monthAgo": {
-      "date": "2026-10-19",
-      "y3m": 4.27,
-      "y2": 4.77,
-      "y10": 5.15,
-      "y30": 5.48
+      "date": "2026-10-20",
+      "y3m": 4.26,
+      "y2": 4.79,
+      "y10": 5.12,
+      "y30": 5.42
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-20",
-        "y3m": 3.87,
-        "y2": 4.19,
-        "y10": 4.69,
-        "y30": 5.23
-      },
       {
         "date": "2026-08-21",
         "y3m": 3.88,
@@ -679,6 +672,13 @@
         "y2": 4.8,
         "y10": 5.07,
         "y30": 5.41
+      },
+      {
+        "date": "2026-11-19",
+        "y3m": 4.34,
+        "y2": 4.76,
+        "y10": 5.04,
+        "y30": 5.4
       }
     ]
   }

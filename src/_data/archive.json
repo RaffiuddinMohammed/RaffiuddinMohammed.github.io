@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T14:35:37.689Z",
+  "updated": "2026-11-20T14:17:42.428Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -4204,6 +4204,682 @@
           "title": "Inside Deutsche Bank",
           "url": "https://www.inside-db.com/",
           "points": 741
+        }
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "totalStories": 266,
+      "sections": [
+        {
+          "name": "World",
+          "count": 27
+        },
+        {
+          "name": "UK",
+          "count": 27
+        },
+        {
+          "name": "Politics",
+          "count": 17
+        },
+        {
+          "name": "Business",
+          "count": 15
+        },
+        {
+          "name": "Science",
+          "count": 12
+        },
+        {
+          "name": "Health",
+          "count": 11
+        },
+        {
+          "name": "Technology",
+          "count": 7
+        }
+      ],
+      "topWords": [
+        {
+          "word": "tech",
+          "count": 11
+        },
+        {
+          "word": "burnham",
+          "count": 11
+        },
+        {
+          "word": "health",
+          "count": 8
+        },
+        {
+          "word": "cancer",
+          "count": 7
+        },
+        {
+          "word": "government",
+          "count": 7
+        },
+        {
+          "word": "labour",
+          "count": 7
+        },
+        {
+          "word": "young",
+          "count": 6
+        },
+        {
+          "word": "doctors",
+          "count": 6
+        }
+      ],
+      "places": [
+        {
+          "name": "United Kingdom",
+          "lat": 54,
+          "lon": -2,
+          "count": 28,
+          "bySection": {
+            "UK": 5,
+            "Health": 3,
+            "Politics": 13,
+            "Technology": 1,
+            "Business": 4,
+            "Science": 2
+          },
+          "stories": [
+            {
+              "title": "New EU-UK deal should reduce 'Irish Sea border' impact",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-20T13:25:22.000Z"
+            },
+            {
+              "title": "Some doctors in Northern Ireland go on strike over pay",
+              "link": "https://www.bbc.co.uk/news/videos/cjr4g2kyn040o?at_medium=RSS&at_campaign=rss",
+              "section": "Health",
+              "date": "2026-11-20T11:11:36.000Z"
+            },
+            {
+              "title": "Northern line upgrades give green light to colour blind London tube drivers",
+              "link": "https://www.bbc.co.uk/news/articles/ckz74vwx334do?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-20T10:18:00.000Z"
+            },
+            {
+              "title": "What the Brussels summit could mean for the UK-EU Brexit deal",
+              "link": "https://www.bbc.co.uk/news/videos/c6lymr5x4ye5o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-20T08:07:06.000Z"
+            },
+            {
+              "title": "UK and EU to agree youth mobility scheme, BBC understands",
+              "link": "https://www.bbc.co.uk/news/articles/c623j4kpg94go?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-20T07:14:46.000Z"
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "lat": 39,
+          "lon": -98,
+          "count": 13,
+          "bySection": {
+            "World": 6,
+            "Business": 5,
+            "Health": 1,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "White House removes cyber-security chief after series of tech outages",
+              "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T13:28:32.000Z"
+            },
+            {
+              "title": "US army warns detonation of unstable explosives will create toxic plume",
+              "link": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T01:27:27.000Z"
+            },
+            {
+              "title": "Why Canada is embracing AI data centres while the US pushes back",
+              "link": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T00:13:24.000Z"
+            },
+            {
+              "title": "Trump posthumously pardons US baseball legend Pete Rose",
+              "link": "https://www.bbc.co.uk/news/articles/cx1l0pm7l9jmo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T23:51:50.000Z"
+            },
+            {
+              "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+              "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T13:31:23.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ukraine",
+          "lat": 49,
+          "lon": 32,
+          "count": 5,
+          "bySection": {
+            "World": 4,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T13:52:04.000Z"
+            },
+            {
+              "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+              "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T13:01:16.000Z"
+            },
+            {
+              "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+              "link": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T00:50:24.000Z"
+            },
+            {
+              "title": "UK to provide Ukraine with 1,000 long-range strike drones",
+              "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-19T17:59:01.000Z"
+            },
+            {
+              "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+              "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T13:07:35.000Z"
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "lat": 35,
+          "lon": 104,
+          "count": 5,
+          "bySection": {
+            "World": 4,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "China issues Mount Fuji warning as family of missing climber offers reward",
+              "link": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T04:13:22.000Z"
+            },
+            {
+              "title": "California targets Nvidia in China AI chip probe",
+              "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T23:04:30.000Z"
+            },
+            {
+              "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+              "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T12:56:30.000Z"
+            },
+            {
+              "title": "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
+              "link": "https://www.bbc.co.uk/news/articles/cr9d75we51j1o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T04:42:52.000Z"
+            },
+            {
+              "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
+              "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-14T23:01:28.000Z"
+            }
+          ]
+        },
+        {
+          "name": "India",
+          "lat": 22,
+          "lon": 79,
+          "count": 4,
+          "bySection": {
+            "World": 2,
+            "UK": 1,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "Cumin-laced fizzy sodas are giving cola giants a tough fight in India",
+              "link": "https://www.bbc.co.uk/news/articles/cw1m4ym7ez2eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T23:29:00.000Z"
+            },
+            {
+              "title": "Weekly quiz: Which star played cricket with Catherine in India?",
+              "link": "https://www.bbc.co.uk/news/articles/cmvg2edq12nno?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-19T18:43:15.000Z"
+            },
+            {
+              "title": "Indian driver wins $1.3m in life-changing lottery prize",
+              "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T11:38:09.000Z"
+            },
+            {
+              "title": "The Indian workers filming their work to train AI",
+              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-23T08:04:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ireland",
+          "lat": 53,
+          "lon": -8,
+          "count": 3,
+          "bySection": {
+            "UK": 2,
+            "Health": 1
+          },
+          "stories": [
+            {
+              "title": "New EU-UK deal should reduce 'Irish Sea border' impact",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-20T13:25:22.000Z"
+            },
+            {
+              "title": "Some doctors in Northern Ireland go on strike over pay",
+              "link": "https://www.bbc.co.uk/news/videos/cjr4g2kyn040o?at_medium=RSS&at_campaign=rss",
+              "section": "Health",
+              "date": "2026-11-20T11:11:36.000Z"
+            },
+            {
+              "title": "Irish government denies 'foot-dragging' over Omagh Bombing Inquiry",
+              "link": "https://www.bbc.co.uk/news/articles/cx1l0p50g23ro?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-19T17:53:57.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 3,
+          "bySection": {
+            "World": 3
+          },
+          "stories": [
+            {
+              "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T13:52:04.000Z"
+            },
+            {
+              "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+              "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T13:01:16.000Z"
+            },
+            {
+              "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+              "link": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T00:50:24.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Israel",
+          "lat": 31,
+          "lon": 35,
+          "count": 2,
+          "bySection": {
+            "World": 1,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+              "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T17:03:23.000Z"
+            },
+            {
+              "title": "UK sanctions firms over Israeli West Bank settlements",
+              "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-17T18:27:27.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Gaza",
+          "lat": 31.4,
+          "lon": 34.4,
+          "count": 2,
+          "bySection": {
+            "World": 1,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "Israeli military completes ground operation in Gaza beyond Yellow Line",
+              "link": "https://www.bbc.co.uk/news/articles/cw8r7510degno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T17:03:23.000Z"
+            },
+            {
+              "title": "UK sanctions firms over Israeli West Bank settlements",
+              "link": "https://www.bbc.co.uk/news/articles/cvglr977x3z0o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-17T18:27:27.000Z"
+            }
+          ]
+        },
+        {
+          "name": "South Africa",
+          "lat": -29,
+          "lon": 24,
+          "count": 2,
+          "bySection": {
+            "World": 2
+          },
+          "stories": [
+            {
+              "title": "Nearly 600 women killed in South Africa within three months",
+              "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T10:56:02.000Z"
+            },
+            {
+              "title": "'It's a dream come true' – South African DJ celebrates featuring in GTA 6",
+              "link": "https://www.bbc.co.uk/news/articles/crx20q3qy0vxo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T10:32:10.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "lat": 56,
+          "lon": -106,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Why Canada is embracing AI data centres while the US pushes back",
+              "link": "https://www.bbc.co.uk/news/articles/cmx2q223z1jlo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T00:13:24.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Venezuela",
+          "lat": 7,
+          "lon": -66,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+              "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T13:31:23.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "lat": 40,
+          "lon": -4,
+          "count": 1,
+          "bySection": {
+            "UK": 1
+          },
+          "stories": [
+            {
+              "title": "England fined for fans' anti-Catholic chants in Spain",
+              "link": "https://www.bbc.co.uk/sport/football/articles/cmlye2n7p7d9o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-19T19:11:03.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "lat": 52,
+          "lon": 5,
+          "count": 1,
+          "bySection": {
+            "Technology": 1
+          },
+          "stories": [
+            {
+              "title": "Dutch watchdog tells people not to buy AI smart glasses",
+              "link": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
+              "section": "Technology",
+              "date": "2026-11-19T16:33:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Poland",
+          "lat": 52,
+          "lon": 19,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+              "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T13:52:04.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Turkey",
+          "lat": 39,
+          "lon": 35,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "World's oldest shipwreck found off coast of Turkey",
+              "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-10-14T05:00:35.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Yemen",
+          "lat": 15.5,
+          "lon": 48,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+              "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T00:13:21.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Kenya",
+          "lat": 0,
+          "lon": 38,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+              "link": "https://www.bbc.co.uk/news/articles/cm9q84gp0gr3o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T12:56:30.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Nigeria",
+          "lat": 9,
+          "lon": 8,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Nigeria moves to end jail terms for attempted suicide",
+              "link": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T06:32:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Uganda",
+          "lat": 1,
+          "lon": 32,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+              "link": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T09:21:54.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Pakistan",
+          "lat": 30,
+          "lon": 70,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "Pakistan's solar revolution is so successful the national grid is lagging behind",
+              "link": "https://www.bbc.co.uk/news/articles/ckvg2n2q3103o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-17T23:34:56.000Z"
+            }
+          ]
+        },
+        {
+          "name": "South Korea",
+          "lat": 36,
+          "lon": 128,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "South Korea catches 111 students with new measures against exam cheating",
+              "link": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T10:16:19.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Myanmar",
+          "lat": 21,
+          "lon": 96,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+              "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-19T20:07:02.000Z"
+            }
+          ]
+        }
+      ],
+      "topHeadlines": [
+        {
+          "title": "Man who nearly died during liver surgery at ARI says mistakes were made",
+          "link": "https://www.bbc.co.uk/news/articles/cr894yq07v23o?at_medium=RSS&at_campaign=rss",
+          "section": "Health"
+        },
+        {
+          "title": "Calls for consent defence change after Joanne Young rape case",
+          "link": "https://www.bbc.co.uk/news/articles/cqy4jvprxyrdo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+          "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "White House removes cyber-security chief after series of tech outages",
+          "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "New EU-UK deal should reduce 'Irish Sea border' impact",
+          "link": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        }
+      ],
+      "hnTop": [
+        {
+          "title": "Pancreatic cancer halted by virus injection in three patients",
+          "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+          "points": 821
+        },
+        {
+          "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+          "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+          "points": 317
+        },
+        {
+          "title": "How to CAD Almost Anything",
+          "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
+          "points": 315
         }
       ]
     }

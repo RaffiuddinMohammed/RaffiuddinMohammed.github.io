@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T14:35:37.686Z",
+  "updated": "2026-11-20T14:17:42.425Z",
   "months": [
     {
       "month": "2025-12",
@@ -325,8 +325,8 @@
       "stories": [
         {
           "title": "Jensen Huang resigns",
-          "points": 4059,
-          "comments": 3491,
+          "points": 4060,
+          "comments": 3493,
           "date": "2026-11-12",
           "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
           "discuss": "https://news.ycombinator.com/item?id=50467087"
