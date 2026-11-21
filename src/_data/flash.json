@@ -1,175 +1,170 @@
 {
-  "updated": "2026-11-20T14:17:42.798Z",
+  "updated": "2026-11-21T13:38:23.890Z",
   "breaking": [
     {
-      "title": "Arteta warns Arsenal players over FPL team news leak",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck62pz5r16pro",
-      "date": "2026-11-20T14:08:55.000Z"
+      "title": "Scouts say they face £1m tourist tax cost for overnight trips",
+      "link": "https://www.bbc.co.uk/news/articles/cxdd1e9yvlzjo",
+      "date": "2026-11-21T13:29:55.000Z"
     },
     {
-      "title": "Calls for consent defence change after Joanne Young rape case",
-      "link": "https://www.bbc.co.uk/news/articles/cqy4jvprxyrdo",
-      "date": "2026-11-20T13:52:37.000Z"
-    },
-    {
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro",
-      "date": "2026-11-20T13:52:04.000Z"
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo",
+      "date": "2026-11-21T13:17:38.000Z"
     }
   ],
   "latest": [
     {
-      "title": "Secret UK cyber operation protected tens of thousands of fridges from hackers",
-      "link": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
-      "date": "2026-11-20T00:02:07.000Z"
+      "title": "Catherine talks openly about how cancer changed her in documentary on BBC",
+      "link": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o",
+      "date": "2026-11-21T12:00:03.000Z"
     },
     {
-      "title": "'Dishonest' police officers guilty of misconduct over fatal crash",
-      "link": "https://www.bbc.co.uk/news/articles/cm2klg8512z0o",
-      "date": "2026-11-20T12:34:56.000Z"
+      "title": "'We're not meant to carry life's challenges alone', Catherine says in first clip",
+      "link": "https://www.bbc.co.uk/news/videos/cwe85gyedjp5o",
+      "date": "2026-11-21T12:17:45.000Z"
     },
     {
-      "title": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
-      "link": "https://www.bbc.co.uk/news/articles/cqrmgjnzz9l0o",
-      "date": "2026-11-20T00:08:22.000Z"
+      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+      "link": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o",
+      "date": "2026-11-21T09:40:55.000Z"
     },
     {
-      "title": "UK braces for coldest night of autumn so far with temperature of -10C forecast",
-      "link": "https://www.bbc.co.uk/weather/articles/c30rkzwvwy49o",
-      "date": "2026-11-20T08:12:15.000Z"
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o",
+      "date": "2026-11-21T09:52:11.000Z"
     },
     {
-      "title": "Moscow targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o",
-      "date": "2026-11-20T13:01:16.000Z"
+      "title": "Who will be Robert Pattinson's 'Bond girl' - and does the role need to change?",
+      "link": "https://www.bbc.co.uk/news/articles/cr4g1l7x52jno",
+      "date": "2026-11-21T00:03:16.000Z"
     },
     {
-      "title": "Texas death-row inmate screams as execution takes more than one hour",
-      "link": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo",
-      "date": "2026-11-20T12:42:37.000Z"
+      "title": "Phoebe Bridgers banned phones at her gigs, so fans are using art to remember them",
+      "link": "https://www.bbc.co.uk/news/articles/cq7821d0pv49o",
+      "date": "2026-11-21T00:08:19.000Z"
     }
   ],
   "business": [
     {
       "source": "MarketWatch",
-      "title": "GameStop has transformed from a meme stock into a ‘real company,’ analysts say",
-      "link": "https://www.marketwatch.com/story/gamestop-has-transformed-from-a-meme-stock-into-a-real-company-analysts-say-7ae5c7ed?mod=mw_rss_topstories",
-      "date": "2026-11-20T14:15:00.000Z",
+      "title": "Nvidia’s nonstop drama is keeping buyers away from a historically cheap stock",
+      "link": "https://www.marketwatch.com/story/nvidias-nonstop-drama-is-keeping-buyers-away-from-a-historically-cheap-stock-604022da?mod=mw_rss_topstories",
+      "date": "2026-11-21T13:30:00.000Z",
       "breaking": true
     },
     {
-      "source": "Investing.com",
-      "title": "Why Yardeni sees the AI selloff as a buying opportunity",
-      "link": "https://www.investing.com/news/stock-market-news/why-yardeni-sees-the-ai-selloff-as-a-buying-opportunity-5041919",
-      "date": "2026-11-20T14:10:06.000Z",
-      "breaking": true
+      "source": "BBC Business",
+      "title": "Sessions offer advice on rising energy costs",
+      "link": "https://www.bbc.co.uk/news/articles/cmy49l3x893jo",
+      "date": "2026-11-21T12:09:49.000Z",
+      "breaking": false
     },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-20T13:29:58.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia",
-      "link": "https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html",
-      "date": "2026-11-20T13:29:50.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "GTA 6 drives spike in download demand, as estimated sales top $2.3bn",
-      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o",
-      "date": "2026-11-20T13:08:30.000Z",
+      "date": "2026-11-21T11:18:52.000Z",
       "breaking": false
     },
     {
       "source": "Investing.com",
-      "title": "Should you accumulate Anthropic stock early after paring debut day gains?",
-      "link": "https://www.investing.com/news/stock-market-news/should-you-accumulate-anthropic-stock-early-after-paring-debut-day-gains-93CH-5041904",
-      "date": "2026-11-20T14:06:54.000Z",
-      "breaking": true
+      "title": "Spain to extend banking tax through 2027 to fund housing policies",
+      "link": "https://www.investing.com/news/stock-market-news/spain-to-extend-banking-tax-through-2027-to-fund-housing-policies-5043370",
+      "date": "2026-11-21T10:58:44.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+      "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
+      "date": "2026-11-20T21:10:48.000Z",
+      "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "These little-known investments could be among the best bargains in a crash",
-      "link": "https://www.marketwatch.com/story/these-little-known-investments-could-be-among-the-best-bargains-in-a-crash-78a379b4?mod=mw_rss_topstories",
-      "date": "2026-11-20T14:00:00.000Z",
+      "title": "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
+      "link": "https://www.marketwatch.com/story/america-is-definitely-rich-enough-to-fix-social-security-and-medicare-heres-how-30678aa5?mod=mw_rss_topstories",
+      "date": "2026-11-21T13:00:00.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "Lagarde warns Europe could miss chance to unify tokenized markets",
-      "link": "https://cointelegraph.com/news/lagarde-europe-limited-window-tokenization-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-20T13:21:39.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Tinned food and long-life milk boost retail sales after 'Be Ready' campaign launch",
-      "link": "https://www.bbc.co.uk/news/articles/ck053mzy2qqeo",
-      "date": "2026-11-20T09:44:56.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-      "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-      "date": "2026-11-18T19:41:59.000Z",
+      "title": "ECB seeks industry partners for tokenized deposits, securities experiments",
+      "link": "https://cointelegraph.com/news/ecb-tokenized-deposits-securities-experiments-appia?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-21T09:48:56.000Z",
       "breaking": false
     },
     {
       "source": "Investing.com",
-      "title": "Mercedes gets German approval for assisted point-to-point driving",
-      "link": "https://www.investing.com/news/stock-market-news/mercedes-gets-german-approval-for-assisted-pointtopoint-driving-5041903",
-      "date": "2026-11-20T14:06:43.000Z",
-      "breaking": true
+      "title": "UBS assesses impact of nationwide ground stop on US airlines’ 4Q outlook",
+      "link": "https://www.investing.com/news/stock-market-news/ubs-assesses-impact-of-nationwide-ground-stop-on-us-airlines-4q-outlook-5043328",
+      "date": "2026-11-21T09:46:58.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history",
+      "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o",
+      "date": "2026-11-20T22:53:24.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "The bull market has a new problem. The 'smart money' is selling",
+      "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+      "date": "2026-11-20T14:15:29.000Z",
+      "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "Anthropic’s stock slides closer to IPO price and drags down the AI trade",
-      "link": "https://www.marketwatch.com/story/anthropics-stock-slides-closer-to-ipo-price-and-drags-down-the-ai-trade-cc43a0c4?mod=mw_rss_topstories",
-      "date": "2026-11-20T13:48:00.000Z",
+      "title": "Larry McDonald survived Lehman’s collapse. Now he warns the credit market is signaling a growth shock for stocks.",
+      "link": "https://www.marketwatch.com/story/larry-mcdonald-survived-lehmans-collapse-now-he-warns-the-credit-market-is-signaling-a-growth-shock-for-stocks-5c3a62ef?mod=mw_rss_topstories",
+      "date": "2026-11-21T12:31:00.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Intesa Sanpaolo launches €34.5bn cash-and-share offer for Monte dei Paschi",
+      "link": "https://www.investing.com/news/stock-market-news/intesa-sanpaolo-launches-345bn-cashandshare-offer-for-monte-dei-paschi-5043303",
+      "date": "2026-11-21T08:56:23.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Ursula Von Der Leyen",
+      "term": "Zachert Private Equity Poundland Bid",
       "traffic": "2000+",
-      "title": "UK and EU agree new deal for food exports, youth mobility and emissions - live",
-      "link": "https://www.bbc.co.uk/news/live/cm1j6gd3k5pdt",
-      "source": "BBC"
+      "title": "German bidder stages last-gasp bid to rescue Poundland",
+      "link": "https://news.sky.com/story/german-bidder-stages-last-gasp-bid-to-rescue-poundland-13614626",
+      "source": "Sky News"
     },
     {
-      "term": "Carlos Alcaraz",
+      "term": "Football Games Today",
       "traffic": "1000+",
-      "title": "Carlos Alcaraz - Flavio Cobolli en directo, el partido de las ATP Finals en vivo|Comienza el encuentro",
-      "link": "https://elpais.com/deportes/tenis/2026-11-20/carlos-alcaraz-flavio-cobolli-en-directo-el-partido-de-las-atp-finals-en-vivo.html",
-      "source": "EL PAÍS"
+      "title": "Fifteen CFP Top 25 teams set for ESPN in Week 12, including a trio of ranked-on-ranked showdowns",
+      "link": "https://espnpressroom.com/press-release/fifteen-cfp-top-25-teams-set-for-espn-in-week-12-including-a-trio-of-ranked-on-ranked-showdowns/",
+      "source": "ESPN Press Room"
     },
     {
-      "term": "M25 Traffic",
-      "traffic": "500+",
-      "title": "Severe delays on busy south Essex roads as drivers avoid QEII Bridge closure",
-      "link": "https://www.echo-news.co.uk/news/26748373.qeii-bridge-closure-causing-severe-m25-a13-delays/",
-      "source": "Southend Echo"
+      "term": "Liverpool Christmas Markets 2026",
+      "traffic": "1000+",
+      "title": "27 festive photos of Liverpool's Christmas market through the years",
+      "link": "https://www.liverpoolecho.co.uk/news/nostalgia/27-festive-photos-liverpools-christmas-34931215",
+      "source": "Liverpool Echo"
     },
     {
-      "term": "Pontins",
+      "term": "Mcfc",
       "traffic": "500+",
-      "title": "Pontins fined £1m after grandmother's death at Brean Sands resort",
-      "link": "https://www.bbc.co.uk/news/articles/cw7829emdvxro",
-      "source": "BBC"
+      "title": "Merseyside Derby & Two More January Fixtures Moved For Live Broadcast",
+      "link": "https://www.evertonfc.com/news/2026/november/19/three-january-fixtures-moved-for-live-broadcast/",
+      "source": "Everton FC"
     },
     {
-      "term": "Bbc Licence Fee Funding Gap",
-      "traffic": "500+",
-      "title": "Next round of BBC cuts will be more noticeable to audiences, report warns",
-      "link": "https://www.bbc.co.uk/news/articles/cmpdwev0jgp6o",
-      "source": "BBC"
+      "term": "Arvid Lindblad Unsafe Release Las Vegas",
+      "traffic": "200+",
+      "title": "FIA confirms double Las Vegas Grand Prix punishment after investigations",
+      "link": "https://www.planetf1.com/news/fia-las-vegas-grand-prix-2026-investigation-double",
+      "source": "PlanetF1"
     }
   ]
 }

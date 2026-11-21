@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-20T14:09:21.994Z",
+  "updated": "2026-11-21T13:34:43.930Z",
   "stories": [
     {
-      "title": "Pancreatic cancer halted by virus injection in three patients",
-      "url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
-      "discuss": "https://news.ycombinator.com/item?id=50563066",
-      "points": 821,
-      "comments": 141,
-      "domain": "newscientist.com"
+      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+      "url": "https://alpo.ge/remark.pdf",
+      "discuss": "https://news.ycombinator.com/item?id=50574968",
+      "points": 2722,
+      "comments": 1899,
+      "domain": "alpo.ge"
     },
     {
-      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
-      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
-      "discuss": "https://news.ycombinator.com/item?id=50564159",
-      "points": 317,
-      "comments": 166,
-      "domain": "globalcommercegraph.com"
+      "title": "Hurried Announcement: Alessandro Masullo GRH",
+      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+      "discuss": "https://news.ycombinator.com/item?id=50579568",
+      "points": 2217,
+      "comments": 1040,
+      "domain": "math216.wordpress.com"
     },
     {
-      "title": "How to CAD Almost Anything",
-      "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
-      "discuss": "https://news.ycombinator.com/item?id=50528119",
-      "points": 315,
-      "comments": 105,
-      "domain": "ocw.mit.edu"
+      "title": "Inkling 2 Mini",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "discuss": "https://news.ycombinator.com/item?id=50581260",
+      "points": 1110,
+      "comments": 208,
+      "domain": "thinkingmachines.ai"
     },
     {
-      "title": "OpenSSL: Buffer overflow in EVP_EncodeBlock() (CVE-2026-121481, CVSS 9.8)",
-      "url": "https://github.com/openssl/openssl/pull/33652",
-      "discuss": "https://news.ycombinator.com/item?id=50569226",
-      "points": 310,
-      "comments": 255,
+      "title": "We promoted developers into architects without informing them",
+      "url": "https://manidoraisamy.com/developer-to-architect.html",
+      "discuss": "https://news.ycombinator.com/item?id=50579331",
+      "points": 482,
+      "comments": 269,
+      "domain": "manidoraisamy.com"
+    },
+    {
+      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+      "discuss": "https://news.ycombinator.com/item?id=50578358",
+      "points": 474,
+      "comments": 204,
+      "domain": "terrytao.wordpress.com"
+    },
+    {
+      "title": "Language Models Can Rewrite Their Own Weights",
+      "url": "https://arxiv.org/abs/2611.21885",
+      "discuss": "https://news.ycombinator.com/item?id=50577265",
+      "points": 430,
+      "comments": 126,
+      "domain": "arxiv.org"
+    },
+    {
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "discuss": "https://news.ycombinator.com/item?id=50574383",
+      "points": 371,
+      "comments": 673,
+      "domain": "theguardian.com"
+    },
+    {
+      "title": "Slopstrap – Make your site look hastily vibecoded",
+      "url": "https://slopstrap.mikelacher.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50576012",
+      "points": 341,
+      "comments": 62,
+      "domain": "slopstrap.mikelacher.com"
+    },
+    {
+      "title": "Finite-time blow-up for the Navier–Stokes equations",
+      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+      "discuss": "https://news.ycombinator.com/item?id=50576232",
+      "points": 300,
+      "comments": 94,
       "domain": "github.com"
     },
     {
-      "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-      "url": "https://architectlabs.com/blog/frostbite",
-      "discuss": "https://news.ycombinator.com/item?id=50572503",
-      "points": 291,
-      "comments": 195,
-      "domain": "architectlabs.com"
-    },
-    {
-      "title": "\"I can tell you wrote this yourself\"",
-      "url": "https://em-online.bearblog.dev/i-can-tell-you-wrote-this-yourself/",
-      "discuss": "https://news.ycombinator.com/item?id=50571189",
-      "points": 285,
-      "comments": 283,
-      "domain": "em-online.bearblog.dev"
-    },
-    {
-      "title": "PostgreSQL 19",
-      "url": "https://www.postgresql.org/docs/release/19.0/",
-      "discuss": "https://news.ycombinator.com/item?id=50569890",
-      "points": 281,
-      "comments": 14,
-      "domain": "postgresql.org"
-    },
-    {
-      "title": "Carnival Cruises emits ten times more sulphur oxide than all of Europe's cars (2019)",
-      "url": "https://ecohustler.com/article/one-corporation-to-pollute-them-all/",
-      "discuss": "https://news.ycombinator.com/item?id=50572116",
-      "points": 266,
-      "comments": 150,
-      "domain": "ecohustler.com"
-    },
-    {
-      "title": "FFmpeg 9.1 'Gauss'",
-      "url": "https://ffmpeg.org/download.html#release_9.1",
-      "discuss": "https://news.ycombinator.com/item?id=50569998",
-      "points": 208,
-      "comments": 28,
-      "domain": "ffmpeg.org"
-    },
-    {
-      "title": "If you can't explain something in simple terms, you don't understand it (2017)",
-      "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-      "discuss": "https://news.ycombinator.com/item?id=50572355",
-      "points": 187,
-      "comments": 124,
-      "domain": "kottke.org"
+      "title": "NINLIVE: The Nine Inch Nails live archive",
+      "url": "https://ninlive.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50583274",
+      "points": 294,
+      "comments": 76,
+      "domain": "ninlive.com"
     }
   ],
-  "totalPoints": 4706,
+  "totalPoints": 11022,
   "storyCount": 30
 }
