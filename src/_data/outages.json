@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-20T23:21:01.706Z",
+  "checked": "2026-11-21T04:17:28.183Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -1039,14 +1039,6 @@
       "start": "2026-10-22T06:43:54.961Z",
       "end": "2026-10-22T11:59:57.053Z",
       "url": "https://stspg.io/tskn6kv96vs9"
-    },
-    {
-      "service": "npm",
-      "title": "Degraded Package Install and Publishing",
-      "impact": "major",
-      "start": "2026-10-22T02:33:25.776Z",
-      "end": "2026-10-22T04:24:16.605Z",
-      "url": "https://stspg.io/fr89w5qkp7j4"
     }
   ],
   "tracked": [
