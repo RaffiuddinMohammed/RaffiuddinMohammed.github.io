@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-21T04:17:28.183Z",
+  "checked": "2026-11-21T13:01:53.755Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Network Performance Issues in Washington, DC datacenter (IAD)",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Network Performance Issues in Washington, DC datacenter (IAD)",
       "impact": "minor",
       "start": "2026-11-20T20:35:16.792Z",
-      "end": null,
+      "end": "2026-11-21T07:44:10.787Z",
       "url": "https://www.cloudflarestatus.com/incidents/oz6to8yacrxe"
     },
     {
@@ -1031,14 +1031,6 @@
       "start": "2026-10-22T14:18:15.723Z",
       "end": "2026-10-22T15:18:46.284Z",
       "url": "https://stspg.io/44w94j036yc8"
-    },
-    {
-      "service": "npm",
-      "title": "Degraded Publish, Install, and View Package",
-      "impact": "minor",
-      "start": "2026-10-22T06:43:54.961Z",
-      "end": "2026-10-22T11:59:57.053Z",
-      "url": "https://stspg.io/tskn6kv96vs9"
     }
   ],
   "tracked": [
