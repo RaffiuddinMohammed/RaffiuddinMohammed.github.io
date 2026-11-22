@@ -1,0 +1,69 @@
+---
+layout: base.njk
+title: How I deliver
+permalink: /delivery/
+description: "The release flow Raffiuddin Mohammed runs as a delivery lead: ticket, pull request, staging, automated and manual QA, production, then the same tests again on production."
+---
+<div class="page-head">
+  <div class="eyebrow">Delivery lead · Project lead</div>
+  <h1>How I get software from idea to production</h1>
+  <p class="lede">Every change goes through the same steps, with an owner and a gate at each one. Nothing reaches users until it has passed the gate before it, and the same tests run again once it's live.</p>
+</div>
+
+<section>
+  <div class="flow-wrap card">
+    <div class="flow-head">
+      <h2>The delivery flow</h2>
+      <div class="flow-ctl" role="group" aria-label="QA stages">
+        <button type="button" class="mini-btn" data-qa="2" aria-pressed="true">QA 1 + QA 2</button>
+        <button type="button" class="mini-btn" data-qa="1" aria-pressed="false">QA 1 only</button>
+      </div>
+    </div>
+    <ol class="flow" data-flow>
+      <li class="fs" style="--i:0"><span class="fs-ico" aria-hidden="true">📝</span><b>Plan</b><span>Ticket written, sized and prioritised</span><em>Product · Delivery lead</em></li>
+      <li class="fs" style="--i:1"><span class="fs-ico" aria-hidden="true">🌿</span><b>Build</b><span>Branch from the latest main, pull request</span><em>Developers</em></li>
+      <li class="fs" style="--i:2"><span class="fs-ico" aria-hidden="true">🔍</span><b>Review</b><span>Code review plus automated checks on the PR</span><em>Developers · CI</em></li>
+      <li class="fs" style="--i:3"><span class="fs-ico" aria-hidden="true">🧪</span><b>Staging</b><span>Merged build deploys to staging, traced to its commit</span><em>CI / CD</em></li>
+      <li class="fs" style="--i:4"><span class="fs-ico" aria-hidden="true">🤖</span><b>QA 1</b><span>Automated regression on web, Android and iOS</span><em>QA automation</em></li>
+      <li class="fs fs-opt" style="--i:5"><span class="fs-ico" aria-hidden="true">🧑‍💻</span><b>QA 2</b><span>Exploratory testing and product sign-off</span><em>QA · Product</em></li>
+      <li class="fs" style="--i:6"><span class="fs-ico" aria-hidden="true">🚀</span><b>Release</b><span>Production deploy or app store release</span><em>Delivery lead</em></li>
+      <li class="fs" style="--i:7"><span class="fs-ico" aria-hidden="true">📣</span><b>Verify</b><span>Same suite on production, results posted to Slack</span><em>QA automation · Everyone</em></li>
+    </ol>
+    <p class="flow-loop"><span aria-hidden="true">↺</span> A failed gate sends the change back to <b>Build</b> with the failing test attached, not to a meeting.</p>
+  </div>
+</section>
+
+<section id="gates">
+  <h2>What each gate checks</h2>
+  <div class="grid three">
+    <div class="card tint-1 reveal"><h3>Before merge</h3><p class="muted">Review approved, automated checks green, branch up to date with main. No exceptions for "small" changes.</p></div>
+    <div class="card tint-2 reveal"><h3>Before release</h3><p class="muted">The regression suite passes on staging for every platform, and the build on test is proven to be the commit that was approved.</p></div>
+    <div class="card tint-3 reveal"><h3>After release</h3><p class="muted">The same tests run against production and post to Slack, so the team hears about a problem before users report it.</p></div>
+  </div>
+</section>
+
+<section id="who">
+  <h2>Who does what</h2>
+  <div class="table-scroll">
+    <table class="raci">
+      <thead><tr><th scope="col">Step</th><th scope="col">Product</th><th scope="col">Developers</th><th scope="col">QA</th><th scope="col">Delivery lead</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Plan</th><td><b>Owns</b></td><td>Sizes</td><td>Adds test cases</td><td>Prioritises</td></tr>
+        <tr><th scope="row">Build &amp; review</th><td></td><td><b>Owns</b></td><td>Writes new tests</td><td>Unblocks</td></tr>
+        <tr><th scope="row">Staging &amp; QA</th><td>Signs off</td><td>Fixes</td><td><b>Owns</b></td><td>Tracks</td></tr>
+        <tr><th scope="row">Release</th><td>Informed</td><td>On hand</td><td>Verifies</td><td><b>Owns</b></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="callout">The process scales from one small team to several working in parallel: every team uses the same steps and gates, so releases can be coordinated without everyone sitting in the same meeting.</p>
+</section>
+
+<section class="home-cta card tint-2 reveal">
+  <h2>Need someone to run this for your team?</h2>
+  <p class="muted">Whether you need a delivery lead, a project lead or someone to build the test automation behind it, let's talk.</p>
+  <div class="actions">
+    {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">Talk to me <span aria-hidden="true">→</span></button>{% endif %}
+    <a class="btn" href="/projects/">See my projects</a>
+  </div>
+</section>
+<script src="/assets/delivery.js" defer></script>

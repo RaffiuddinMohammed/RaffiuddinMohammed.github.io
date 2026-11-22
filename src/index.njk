@@ -1,29 +1,30 @@
 ---
 layout: base.njk
-three: true
-seoTitle: "Raffiuddin Mohammed · QA Automation Engineer & Delivery Lead"
-description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Test automation that runs itself for web, iOS and Android, plus live data dashboards that rebuild every day."
+seoTitle: "Raffiuddin Mohammed · Delivery Lead, Project Lead & QA Automation Lead"
+description: "Raffiuddin Mohammed: delivery lead, project lead and QA automation lead. Five years getting web, iOS and Android software released, with test automation that proves it works."
 ---
 
-<section class="hero hero-home">
+<section class="hero hero-cv">
   <div class="glow" aria-hidden="true"></div>
   <div class="hero-grid" aria-hidden="true"></div>
-  <div class="hero-intro">
+  <div class="cv-top">
     <div class="hi-text">
-      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.role }}</div>
-      <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad sweep">I build test automation that runs itself.</span></h1>
-      <p class="lede">Web, iOS and Android tests that run on a schedule, check the results and report back, with nobody touching them. Below: a test running right now, and a globe that rebuilds itself from the news every day.</p>
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ cv.years }} years · web, iOS and Android</div>
+      <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad sweep">I get software delivered, and prove it works.</span></h1>
+      <ul class="role-chips" aria-label="Roles">
+        {% for r in cv.roles %}<li class="rc{{ loop.index }}">{{ r }}</li>{% endfor %}
+      </ul>
+      <p class="lede">For the last {{ cv.years }} years I've run releases from ticket to production, and built the test automation that checks every one of them: on a schedule, across staging and production, with results in Slack before anyone asks.</p>
       <div class="actions">
-        <a class="btn primary" href="/about/#for-business">What I can build for you <span class="arr" aria-hidden="true">→</span></a>
-        <a class="btn" href="#dashboards">See the live dashboards</a>
+        {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">Talk to me <span class="arr" aria-hidden="true">→</span></button>{% endif %}
+        <a class="btn" href="/delivery/">See how I deliver</a>
+        <a class="btn" href="/projects/">My projects</a>
       </div>
     </div>
-  </div>
-  <div class="hero-pair">
     <div class="demo-mini hero-card" data-demo="mini">
       <div class="dm-phone">{% include "demo-phone.njk" %}</div>
       <div class="dm-copy">
-        <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Live demo · Appium</div>
+        <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Featured project · QA automation</div>
         <h2>Watch a test run itself</h2>
         <p class="muted">An automated test signs in, shops and checks out, with nobody touching the phone.</p>
         <div class="term-pane small"><div class="pane-head"><span class="dots"><i></i><i></i><i></i></span>Terminal</div><div class="term-body"></div></div>
@@ -33,98 +34,79 @@ description: "Raffiuddin Mohammed, QA automation engineer and delivery lead. Tes
         </div>
       </div>
     </div>
-    {% if bbc.places and bbc.places.length %}
-    <div class="hero-card hero-globe">
-      <h2>Where today's news is happening</h2>
-      <p class="muted">Every dot is one story, rebuilt every morning. Drag to spin, click a country to read its stories.</p>
-      <div class="globe-col">
-        <figure class="globe" data-globe data-labels="3" data-src="places-data" data-dots="/assets/globe-dots.json">
-          <figcaption class="globe-cap"><span class="pulse" aria-hidden="true"></span><span class="globe-cap-text">Countries in today's BBC headlines · drag to spin</span></figcaption>
-        </figure>
-        <ul class="globe-key" aria-label="Dot colours: each dot is one story">
-          <li><i style="background:var(--sec-uk)"></i>UK &amp; Politics</li>
-          <li><i style="background:var(--sec-world)"></i>World</li>
-          <li><i style="background:var(--sec-biz)"></i>Business &amp; Tech</li>
-          <li><i style="background:var(--sec-sci)"></i>Science &amp; Health</li>
-        </ul>
-      </div>
-      <a class="go-link" href="/dashboards/headlines/">Travel back in time on the headlines page →</a>
-      <script type="application/json" id="places-data">{{ bbc.places | json | safe }}</script>
-    </div>
-    {% endif %}
   </div>
 </section>
 <script src="/assets/automation-demo.js" defer></script>
 
-{% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
-<section id="dashboards">
-  <h2>Proof: this site runs itself</h2>
-  <p class="muted">The same kind of automation, pointed at live data. These five dashboards collect, check and publish themselves, with nobody touching them. Get outage alerts as they happen: <a href="/dashboards/outages/feed.xml">subscribe by RSS</a>.</p>
+<section id="hire">
+  <h2>What you can hire me for</h2>
   <div class="grid three">
-    {% if markets.headlineCount %}
-    <a class="card dash tint-5 reveal" href="/dashboards/markets/">
-      <img class="dash-img" src="/assets/img/markets-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
-      <span class="icon" aria-hidden="true">📈</span>
-      <h3>Markets today <span class="new-badge">New</span></h3>
-      {% if markets.yields %}<div class="big" data-count>{{ markets.yields.latest.y10.toFixed(2) }}%</div>{% endif %}
-      <p class="muted">US 10-year Treasury yield. Plus live prices for the Magnificent 7 and top US and UK shares{% if markets.themes[0].count %}, and today's top market theme: <b>{{ markets.themes[0].name }}</b>{% endif %}.</p>
-      <span class="go">Open dashboard →</span>
+    <a class="card tint-1 reveal role-card" href="/delivery/">
+      <span class="icon" aria-hidden="true">🚀</span>
+      <h3>Delivery lead</h3>
+      <p class="muted">A release process teams actually follow: pull request, staging, QA, production, with a clear owner and a clear gate at every step.</p>
+      <span class="go">See the delivery flow →</span>
     </a>
-    {% endif %}
-    <a class="card dash tint-4 reveal" href="/dashboards/outages/">
-      <img class="dash-img" src="/assets/img/outages-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
-      <span class="icon" aria-hidden="true">🚨</span>
-      <h3>Outage watch</h3>
-      <div class="big" data-count>{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }}</div>
-      <p class="muted">major online services running normally.{% if downNow.length %} <b>Right now:</b> {{ downNow | join(', ') }} {{ 'is' if downNow.length == 1 else 'are' }} reporting problems.{% endif %} Checked every 30 minutes.</p>
-      <span class="go">Open dashboard →</span>
+    <a class="card tint-2 reveal role-card" href="/delivery/#who">
+      <span class="icon" aria-hidden="true">🧭</span>
+      <h3>Project lead</h3>
+      <p class="muted">Tickets written so developers can build them, priorities agreed, blockers chased, and everyone knowing what ships next.</p>
+      <span class="go">Who does what →</span>
     </a>
-    <a class="card dash tint-2 reveal" href="/dashboards/headlines/">
-      <img class="dash-img" src="/assets/img/headlines-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
-      <span class="icon" aria-hidden="true">📰</span>
-      <h3>Today's headlines, by the numbers</h3>
-      <div class="big" data-count>{{ bbc.totalStories | num }}</div>
-      <p class="muted">BBC News stories today, by section and top words, with a 3D globe of where the news is happening.</p>
-      <span class="go">Open dashboard →</span>
-    </a>
-    <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
-      <img class="dash-img" src="/assets/img/coverage-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
-      <span class="icon" aria-hidden="true">🌍</span>
-      <h3>What the world is talking about</h3>
-      {% if insights.leader %}<div class="big" data-count>{{ insights.leader.last.toFixed(2) }}%</div>{% endif %}
-      <p class="muted">{% if insights.leader %}of global news coverage is about <b>{{ insights.leader.label }}</b>, the top of {{ gdelt.topics.length }} topics tracked over three months.{% else %}Share of global news coverage for {{ gdelt.topics.length }} big topics over three months.{% endif %}</p>
-      <span class="go">Open dashboard →</span>
-    </a>
-    <a class="card dash tint-3 reveal" href="/dashboards/tech/">
-      <img class="dash-img" src="/assets/img/tech-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
-      <span class="icon" aria-hidden="true">💻</span>
-      <h3>What tech is reading</h3>
-      <div class="big" data-count>{{ hn.stories[0].points | num }}</div>
-      <p class="muted">points on today's top Hacker News story, and the rest of the front page.</p>
-      <span class="go">Open dashboard →</span>
+    <a class="card tint-3 reveal role-card" href="/projects/">
+      <span class="icon" aria-hidden="true">✅</span>
+      <h3>QA automation lead</h3>
+      <p class="muted">Test suites for web, Android and iOS that run on a schedule in CI and report to Slack, so bugs are caught before users see them.</p>
+      <span class="go">See the projects →</span>
     </a>
   </div>
-  <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
-  <p class="muted credit">A big thank you to Gabor, whose ideas and feedback helped shape these dashboards.</p>
 </section>
 
-<section>
-  <h2>How this site runs itself</h2>
-  <p class="muted">The same pattern I use for automated test pipelines: scheduled, self-checking, zero cost.</p>
-  <ol class="steps colourful">
-    <li><b>Schedule</b>GitHub Actions run every morning, and every 30 minutes for outages and markets.</li>
-    <li><b>Collect</b>A Node script pulls news, market and service-status data, with retries and fallbacks.</li>
-    <li><b>Build</b>Eleventy turns the data into static pages and charts.</li>
-    <li><b>Publish</b>GitHub Pages serves it free. If a source is down, the last good data stays up.</li>
+<section id="experience">
+  <h2>The last {{ cv.years }} years</h2>
+  <ol class="timeline">
+    {% for job in cv.experience %}
+    <li class="reveal">
+      <div class="tl-head">
+        <h3>{{ job.role }}{% if job.draft %} <span class="draft-badge">Draft</span>{% endif %}</h3>
+        <span class="tl-meta">{{ job.org }} · {{ job.dates }}</span>
+      </div>
+      <ul>{% for p in job.points %}<li>{{ p }}</li>{% endfor %}</ul>
+    </li>
+    {% endfor %}
   </ol>
 </section>
 
-<section class="home-cta card tint-2 reveal">
-  <h2>Want this for your team?</h2>
-  <p class="muted">I set up test automation and reporting that keeps running without anyone watching it: web, iOS and Android, wired into CI, with alerts when something breaks.</p>
+{% if cv.testimonials and cv.testimonials.length %}
+<section id="testimonials">
+  <h2>What people I've worked with say</h2>
+  <div class="grid two">
+    {% for t in cv.testimonials %}
+    <figure class="card quote reveal tint-{{ (loop.index0 % 4) + 1 }}">
+      <blockquote>“{{ t.quote }}”</blockquote>
+      <figcaption><b>{{ t.name }}</b>{% if t.title %} · {{ t.title }}{% endif %}{% if t.source %} · <span class="muted">{{ t.source }}</span>{% endif %}</figcaption>
+    </figure>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section>
+  <a class="card side-project reveal" href="/dashboards/">
+    <div>
+      <div class="eyebrow"><span class="pulse" aria-hidden="true"></span>Side project · {{ site.dataBrand }}</div>
+      <h3>Live dashboards that run themselves</h3>
+      <p class="muted">Markets, outages and the news on a 3D globe, collected and published automatically. The same automation, pointed at live data.</p>
+    </div>
+    <span class="go">Open {{ site.dataBrand }} →</span>
+  </a>
+</section>
+
+<section class="home-cta card tint-2 reveal" id="talk">
+  <h2>Talk to me</h2>
+  <p class="muted">Hiring for a delivery, project or QA automation lead? Or got a project that needs shipping? Pitch me the idea and let's have a chat.</p>
   <div class="actions">
-    <a class="btn primary" href="/about/#for-business">What I can build for you <span aria-hidden="true">→</span></a>
-    {% if site.email %}<button type="button" class="btn" data-email-open aria-haspopup="dialog">✉️ Email me</button>{% endif %}
+    {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">✉️ Email me</button>{% endif %}
     {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>{% endif %}
   </div>
 </section>

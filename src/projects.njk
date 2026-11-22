@@ -1,0 +1,59 @@
+---
+layout: base.njk
+title: Projects
+permalink: /projects/
+description: "Projects by Raffiuddin Mohammed: cross-platform test automation for web, Android and iOS, a release delivery flow, and self-running data dashboards."
+---
+<div class="page-head">
+  <div class="eyebrow">Projects</div>
+  <h1>What I'm working on</h1>
+  <p class="lede">The work behind the roles: automation that runs every week in a real product, the process that ships it, and side projects built the same way.</p>
+</div>
+
+<section>
+  <div class="grid two">
+    <article class="card tint-1 reveal project">
+      <div class="eyebrow">Current role</div>
+      <h3>Cross-platform test automation</h3>
+      <p class="muted">Automated suites for a consumer video app on web, Android and iOS. They run in GitHub Actions against staging and production three times a week and post every result to Slack.</p>
+      <ul class="facts">
+        <li>Playwright web suite, run on staging and production</li>
+        <li>Appium on Android emulators and iOS simulators</li>
+        <li>Slack pass/fail reports and a CI health alert</li>
+      </ul>
+      <div class="tags"><span>Playwright</span><span>Appium</span><span>XCUITest</span><span>GitHub Actions</span><span>Slack</span></div>
+    </article>
+    <article class="card tint-2 reveal project">
+      <div class="eyebrow">Current role</div>
+      <h3>The release delivery flow</h3>
+      <p class="muted">Ticket to production for three platforms: pull requests, staging, automated and manual QA, release, then verification on production.</p>
+      <ul class="facts">
+        <li>A gate and an owner at every step</li>
+        <li>Every build on test traced to its commit</li>
+        <li>Tickets tracked in Jira and YouTrack</li>
+      </ul>
+      <a class="go" href="/delivery/">See the flow →</a>
+    </article>
+    <a class="card tint-3 reveal project" href="/automation/">
+      <div class="eyebrow">Demo</div>
+      <h3>Watch a test run itself</h3>
+      <p class="muted">A replay of a real Appium and WebdriverIO run: the app on one side, the code and terminal on the other.</p>
+      <span class="go">Watch the run →</span>
+    </a>
+    <a class="card tint-4 reveal project" href="/dashboards/">
+      <div class="eyebrow">Side project</div>
+      <h3>{{ site.dataBrand }}</h3>
+      <p class="muted">Five live dashboards (markets, outages, headlines, global coverage, tech) that collect, check and publish themselves every day.</p>
+      <span class="go">Open {{ site.dataBrand }} →</span>
+    </a>
+  </div>
+</section>
+
+<section class="home-cta card tint-2 reveal">
+  <h2>Got a project?</h2>
+  <p class="muted">Pitch me the idea. If it's a fit, I'll tell you how I'd deliver it.</p>
+  <div class="actions">
+    {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">Talk to me <span aria-hidden="true">→</span></button>{% endif %}
+    {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>{% endif %}
+  </div>
+</section>

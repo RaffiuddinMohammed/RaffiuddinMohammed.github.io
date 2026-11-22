@@ -1,0 +1,27 @@
+{
+  "_readme": "CV content for the homepage. Entries with \"draft\": true show a DRAFT badge; replace the text and delete the draft flag before v3.0 goes live. Testimonials stay hidden until at least one is added. Only use real quotes (e.g. LinkedIn recommendations) that the person has agreed to.",
+  "years": 5,
+  "roles": ["Project lead", "Delivery lead", "QA automation lead"],
+  "experience": [
+    {
+      "role": "QA Automation & Delivery Lead",
+      "org": "Consumer social video app",
+      "dates": "Current role",
+      "draft": true,
+      "points": [
+        "Run the release flow from ticket to production across web, iOS and Android.",
+        "Built the automated test suites: Playwright for web, Appium for Android and iOS.",
+        "Suites run in GitHub Actions against staging and production three times a week, results straight to Slack.",
+        "Release gates: every build is traced to its commit before it is signed off."
+      ]
+    },
+    {
+      "role": "Previous role (fill in)",
+      "org": "Company or sector",
+      "dates": "Years",
+      "draft": true,
+      "points": ["What you led, delivered or improved, in one line each."]
+    }
+  ],
+  "testimonials": []
+}

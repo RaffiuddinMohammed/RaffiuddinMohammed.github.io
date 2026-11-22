@@ -8,6 +8,7 @@
   "linkedin": "https://www.linkedin.com/in/raffiuddin-m-399b3912/",
   "email": "emailrafi@gmail.com",
   "emailSubject": "Enquiry from your website",
-  "emailMessage": "Hi Raffi,\n\nI found your website and I'd like to talk about building a dashboard / test automation for us.\n\nA bit about what we need:\n\n\nThanks,\n",
-  "newsRelay": "https://news-relay.emailrafi.workers.dev/"
+  "emailMessage": "Hi Raffi,\n\nI found your website and I'd like to talk to you about:\n\n\nThanks,\n",
+  "newsRelay": "https://news-relay.emailrafi.workers.dev/",
+  "dataBrand": "Live Data Lab"
 }

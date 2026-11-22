@@ -1,0 +1,116 @@
+---
+layout: base.njk
+three: true
+permalink: /dashboards/
+eleventyComputed:
+  title: "{{ site.dataBrand }}"
+seoTitle: "Live dashboards that run themselves · Raffiuddin Mohammed"
+description: "Self-running data dashboards: markets, outages, BBC headlines on a 3D globe, global news coverage and Hacker News, collected and published automatically."
+---
+
+<section class="hero hero-home">
+  <div class="glow" aria-hidden="true"></div>
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-intro">
+    <div class="hi-text">
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ site.dataBrand }} · a project by {{ site.shortName }}</div>
+      <h1>Live data, <span class="grad sweep">collected and published with nobody touching it.</span></h1>
+      <p class="lede">Markets, outages, news and tech, gathered on a schedule, checked and charted automatically. The same pattern I use for test pipelines, pointed at live data.</p>
+      <div class="actions">
+        <a class="btn primary" href="#dashboards">Open the dashboards <span class="arr" aria-hidden="true">→</span></a>
+        <a class="btn" href="/">About {{ site.shortName }}</a>
+      </div>
+    </div>
+  </div>
+  {% if bbc.places and bbc.places.length %}
+  <div class="hero-card hero-globe hero-globe-solo">
+    <h2>Where today's news is happening</h2>
+    <p class="muted">Every dot is one story, rebuilt every morning. Drag to spin, click a country to read its stories.</p>
+    <div class="globe-col">
+      <figure class="globe" data-globe data-labels="3" data-src="places-data" data-dots="/assets/globe-dots.json">
+        <figcaption class="globe-cap"><span class="pulse" aria-hidden="true"></span><span class="globe-cap-text">Countries in today's BBC headlines · drag to spin</span></figcaption>
+      </figure>
+      <ul class="globe-key" aria-label="Dot colours: each dot is one story">
+        <li><i style="background:var(--sec-uk)"></i>UK &amp; Politics</li>
+        <li><i style="background:var(--sec-world)"></i>World</li>
+        <li><i style="background:var(--sec-biz)"></i>Business &amp; Tech</li>
+        <li><i style="background:var(--sec-sci)"></i>Science &amp; Health</li>
+      </ul>
+    </div>
+    <a class="go-link" href="/dashboards/headlines/">Travel back in time on the headlines page →</a>
+    <script type="application/json" id="places-data">{{ bbc.places | json | safe }}</script>
+  </div>
+  {% endif %}
+</section>
+
+{% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
+<section id="dashboards">
+  <h2>The dashboards</h2>
+  <p class="muted">Five dashboards that collect, check and publish themselves. Get outage alerts as they happen: <a href="/dashboards/outages/feed.xml">subscribe by RSS</a>.</p>
+  <div class="grid three">
+    {% if markets.headlineCount %}
+    <a class="card dash tint-5 reveal" href="/dashboards/markets/">
+      <img class="dash-img" src="/assets/img/markets-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
+      <span class="icon" aria-hidden="true">📈</span>
+      <h3>Markets today</h3>
+      {% if markets.yields %}<div class="big" data-count>{{ markets.yields.latest.y10.toFixed(2) }}%</div>{% endif %}
+      <p class="muted">US 10-year Treasury yield. Plus live prices for the Magnificent 7 and top US and UK shares{% if markets.themes[0].count %}, and today's top market theme: <b>{{ markets.themes[0].name }}</b>{% endif %}.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+    {% endif %}
+    <a class="card dash tint-4 reveal" href="/dashboards/outages/">
+      <img class="dash-img" src="/assets/img/outages-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
+      <span class="icon" aria-hidden="true">🚨</span>
+      <h3>Outage watch</h3>
+      <div class="big" data-count>{{ (outages.services | atLevel('ok')).length }} of {{ outages.services.length }}</div>
+      <p class="muted">major online services running normally.{% if downNow.length %} <b>Right now:</b> {{ downNow | join(', ') }} {{ 'is' if downNow.length == 1 else 'are' }} reporting problems.{% endif %} Checked every 30 minutes.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+    <a class="card dash tint-2 reveal" href="/dashboards/headlines/">
+      <img class="dash-img" src="/assets/img/headlines-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
+      <span class="icon" aria-hidden="true">📰</span>
+      <h3>Today's headlines, by the numbers</h3>
+      <div class="big" data-count>{{ bbc.totalStories | num }}</div>
+      <p class="muted">BBC News stories today, by section and top words, with a 3D globe of where the news is happening.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+    <a class="card dash tint-1 reveal" href="/dashboards/global-coverage/">
+      <img class="dash-img" src="/assets/img/coverage-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
+      <span class="icon" aria-hidden="true">🌍</span>
+      <h3>What the world is talking about</h3>
+      {% if insights.leader %}<div class="big" data-count>{{ insights.leader.last.toFixed(2) }}%</div>{% endif %}
+      <p class="muted">{% if insights.leader %}of global news coverage is about <b>{{ insights.leader.label }}</b>, the top of {{ gdelt.topics.length }} topics tracked over three months.{% else %}Share of global news coverage for {{ gdelt.topics.length }} big topics over three months.{% endif %}</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+    <a class="card dash tint-3 reveal" href="/dashboards/tech/">
+      <img class="dash-img" src="/assets/img/tech-card.webp" alt="" width="720" height="300" loading="lazy" decoding="async">
+      <span class="icon" aria-hidden="true">💻</span>
+      <h3>What tech is reading</h3>
+      <div class="big" data-count>{{ hn.stories[0].points | num }}</div>
+      <p class="muted">points on today's top Hacker News story, and the rest of the front page.</p>
+      <span class="go">Open dashboard →</span>
+    </a>
+  </div>
+  <p class="muted live"><span class="pulse" aria-hidden="true"></span>Live data, last refreshed {{ bbc.updated | when }}</p>
+  <p class="muted credit">A big thank you to Gabor, whose ideas and feedback helped shape these dashboards.</p>
+</section>
+
+<section>
+  <h2>How it runs itself</h2>
+  <p class="muted">The same pattern I use for automated test pipelines: scheduled, self-checking, zero cost.</p>
+  <ol class="steps colourful">
+    <li><b>Schedule</b>GitHub Actions run every morning, and every 30 minutes for outages and markets.</li>
+    <li><b>Collect</b>A Node script pulls news, market and service-status data, with retries and fallbacks.</li>
+    <li><b>Build</b>Eleventy turns the data into static pages and charts.</li>
+    <li><b>Publish</b>GitHub Pages serves it free. If a source is down, the last good data stays up.</li>
+  </ol>
+</section>
+
+<section class="home-cta card tint-2 reveal">
+  <h2>Want a dashboard like this for your data?</h2>
+  <p class="muted">Weekly reports, sales, support trends or release health: collected, checked and published on a schedule.</p>
+  <div class="actions">
+    <a class="btn primary" href="/about/#for-business">How it works <span aria-hidden="true">→</span></a>
+    {% if site.email %}<button type="button" class="btn" data-email-open aria-haspopup="dialog">✉️ Talk to me</button>{% endif %}
+  </div>
+</section>

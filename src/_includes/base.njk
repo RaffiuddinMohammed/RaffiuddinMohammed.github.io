@@ -62,16 +62,17 @@
       <a class="brand" href="/"><span class="logo" aria-hidden="true">{{ site.shortName | first }}</span><span class="full">{{ site.name }}</span><span class="short">{{ site.shortName }}</span></a>
       {% set here = page.url %}
       <div class="links">
-        {% set onMarkets = here == '/dashboards/markets/' %}{% set onDash = here.startsWith('/dashboards/') and not onMarkets %}
-        <a class="pill n1{% if onDash %} active{% endif %}" href="/#dashboards"{% if onDash %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">📊</span>Dashboards</a>
-        <a class="pill n6{% if onMarkets %} active{% endif %}" href="/dashboards/markets/"{% if onMarkets %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">📈</span>Markets{% if not onMarkets %}<span class="new-badge" aria-label="new">New</span>{% endif %}</a>
+        {% set onDash = here.startsWith('/dashboards/') %}
+        <a class="pill n1{% if here == '/delivery/' %} active{% endif %}" href="/delivery/"{% if here == '/delivery/' %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">🚀</span>Delivery</a>
+        <a class="pill n3{% if here == '/projects/' %} active{% endif %}" href="/projects/"{% if here == '/projects/' %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">🗂️</span>Projects</a>
+        <a class="pill n6{% if onDash %} active{% endif %}" href="/dashboards/"{% if onDash %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">📊</span>Live data</a>
         <a class="pill n2{% if here == '/about/' %} active{% endif %}" href="/about/"{% if here == '/about/' %} aria-current="page"{% endif %}><span class="ico" aria-hidden="true">👋</span>About</a>
-        <a class="pill n3 hide-sm" href="{{ site.github }}" rel="noopener" target="_blank" aria-label="GitHub (opens in a new tab)"><span class="ico" aria-hidden="true">⭐</span>GitHub<span class="arr" aria-hidden="true">↗</span></a>
         {% if site.linkedin %}<a class="pill icon-btn n4 hide-sm" href="{{ site.linkedin }}" rel="noopener" target="_blank" aria-label="LinkedIn profile (opens in a new tab)" title="LinkedIn"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>{% endif %}
         {% if site.email %}<button type="button" class="pill icon-btn n5" data-email-open aria-haspopup="dialog" aria-label="Email me" title="Email me"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11zM3.5 6l8.5 6.5L20.5 6"/></svg></button>{% endif %}
-        <a class="pill cta" href="/about/#for-business">Work with me</a>
+        <a class="pill cta" href="/#talk">Talk to me</a>
       </div>
     </nav>
+    {% set onMarkets = here == '/dashboards/markets/' %}
     {% if onMarkets and flash and flash.business and flash.business.length %}
     {% set bizBreaking = flash.business | selectattr('breaking') | length %}
     <div class="flash news {{ 'has-breaking' if bizBreaking }}" role="region" data-kind="markets"{% if site.newsRelay %} data-live="{{ site.newsRelay }}"{% endif %} aria-label="Live business and markets news">
@@ -88,7 +89,7 @@
       {% include "outage-chip.njk" %}
       </div>
     </div>
-    {% elif flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
+    {% elif onDash and flash and (flash.breaking.length or flash.latest.length or flash.trending.length) %}
     {% set nItems = flash.breaking.length + flash.latest.length + flash.trending.length %}
     <div class="flash news {{ 'has-breaking' if flash.breaking.length }}" role="region" data-kind="news"{% if site.newsRelay %} data-live="{{ site.newsRelay }}"{% endif %} aria-label="Live news">
       <div class="wrap flash-in">
