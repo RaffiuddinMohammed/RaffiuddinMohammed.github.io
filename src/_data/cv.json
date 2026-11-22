@@ -1,5 +1,5 @@
 {
-  "_readme": "CV content for the homepage. Entries with \"draft\": true show a DRAFT badge; replace the text and delete the draft flag before v3.0 goes live. Testimonials stay hidden until at least one is added. Only use real quotes (e.g. LinkedIn recommendations) that the person has agreed to.",
+  "_readme": "CV content for the homepage, taken from Raffi's LinkedIn (22 Nov 2026). Entries with \"draft\": true show a DRAFT badge. Testimonials are real LinkedIn recommendations, quoted word for word.",
   "roles": [
     "Project lead",
     "Delivery lead",
@@ -7,10 +7,10 @@
   ],
   "experience": [
     {
-      "role": "QA Automation & Delivery Lead",
-      "org": "Consumer social video app",
-      "dates": "Current role",
-      "draft": true,
+      "role": "Software Delivery & Quality Lead",
+      "org": "Recrd Group",
+      "dates": "Oct 2021 – present",
+      "place": "London",
       "points": [
         "Run the release flow from ticket to production across web, iOS and Android.",
         "Built the automated test suites: Playwright for web, Appium for Android and iOS.",
@@ -19,12 +19,37 @@
       ]
     },
     {
-      "role": "Previous role (fill in)",
-      "org": "Company or sector",
-      "dates": "Years",
-      "draft": true,
+      "role": "Director and Founder",
+      "org": "Limra Tech Limited",
+      "dates": "Mar 2015 – present",
+      "place": "London",
+      "points": []
+    },
+    {
+      "role": "Director",
+      "org": "Limra Solutions Limited (contract)",
+      "dates": "Feb 2013 – Feb 2019",
+      "place": "London",
+      "points": []
+    },
+    {
+      "role": "Lead iOS QA Engineer",
+      "org": "Expedia",
+      "dates": "Aug 2011 – Jan 2013",
+      "place": "London",
       "points": [
-        "What you led, delivered or improved, in one line each."
+        "Led testing of the Expedia and Hotels.com iPhone and iPad apps, from smoke and regression to end-to-end and UAT, in fast Agile release sprints.",
+        "Connectivity, memory, localisation and analytics testing; iOS automation with Cucumber and Frank.",
+        "Crash logs for developers through Xcode and Crashlytics; daily bug and progress reports in Jira; worked with offshore teams."
+      ]
+    },
+    {
+      "role": "QA Engineer",
+      "org": "Virgin Holidays",
+      "dates": "Oct 2008 – Jul 2011",
+      "place": "Crawley",
+      "points": [
+        "Web application testing, responsible for the majority of large web changes."
       ]
     }
   ],
@@ -41,5 +66,6 @@
       "title": "QA Architect and Technical Programme Test Manager",
       "source": "Worked together at Expedia · LinkedIn"
     }
-  ]
+  ],
+  "earlier": "QA Tester, Bupa (2007 – 2008) · Test Engineer, GlaxoSmithKline (2006 – 2007) · Test Analyst, Barclays Capital"
 }

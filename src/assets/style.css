@@ -922,3 +922,5 @@ a.project { color: inherit; } a.project:hover { text-decoration: none; }
 .project .eyebrow { display: inline-block; }
 .facts { margin: 4px 0 0; padding-left: 18px; color: var(--text-2); font-size: .92rem; }
 .hero-globe-solo { margin-top: 8px; }
+.tl-meta b { color: var(--text-2); font-weight: 600; }
+.tl-earlier p { margin: 8px 0 0; font-size: .92rem; }

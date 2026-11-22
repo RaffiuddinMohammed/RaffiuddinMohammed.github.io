@@ -69,11 +69,12 @@ description: "Raffiuddin Mohammed: delivery lead, project lead and QA automation
     <li class="reveal">
       <div class="tl-head">
         <h3>{{ job.role }}{% if job.draft %} <span class="draft-badge">Draft</span>{% endif %}</h3>
-        <span class="tl-meta">{{ job.org }} · {{ job.dates }}</span>
+        <span class="tl-meta"><b>{{ job.org }}</b> · {{ job.dates }}{% if job.place %} · {{ job.place }}{% endif %}</span>
       </div>
-      <ul>{% for p in job.points %}<li>{{ p }}</li>{% endfor %}</ul>
+      {% if job.points and job.points.length %}<ul>{% for p in job.points %}<li>{{ p }}</li>{% endfor %}</ul>{% endif %}
     </li>
     {% endfor %}
+    {% if cv.earlier %}<li class="reveal tl-earlier"><div class="tl-head"><h3>Earlier career</h3></div><p class="muted">{{ cv.earlier }}</p></li>{% endif %}
   </ol>
 </section>
 
