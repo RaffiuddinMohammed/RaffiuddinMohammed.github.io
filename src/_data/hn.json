@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-22T13:23:47.463Z",
+  "updated": "2026-11-22T13:31:09.798Z",
   "stories": [
     {
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "discuss": "https://news.ycombinator.com/item?id=50579568",
-      "points": 2428,
+      "points": 2430,
       "comments": 1182,
       "domain": "math216.wordpress.com"
     },
@@ -13,7 +13,7 @@
       "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
       "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
       "discuss": "https://news.ycombinator.com/item?id=50582069",
-      "points": 1122,
+      "points": 1124,
       "comments": 239,
       "domain": "theguardian.com"
     },
@@ -21,23 +21,23 @@
       "title": "Lean verification of the Riemann Hypothesis",
       "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
       "discuss": "https://news.ycombinator.com/item?id=50589618",
-      "points": 1089,
-      "comments": 909,
+      "points": 1090,
+      "comments": 910,
       "domain": "leanprover-community.github.io"
     },
     {
       "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
       "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
       "discuss": "https://news.ycombinator.com/item?id=50596133",
-      "points": 681,
-      "comments": 413,
+      "points": 687,
+      "comments": 416,
       "domain": "caranddriver.com"
     },
     {
       "title": "Detonating a pile of lead azide",
       "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
       "discuss": "https://news.ycombinator.com/item?id=50588982",
-      "points": 634,
+      "points": 635,
       "comments": 400,
       "domain": "science.org"
     },
@@ -45,7 +45,7 @@
       "title": "My monitor was cutting my download speed by 75%",
       "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
       "discuss": "https://news.ycombinator.com/item?id=50587875",
-      "points": 610,
+      "points": 611,
       "comments": 283,
       "domain": "blog.tymscar.com"
     },
@@ -53,7 +53,7 @@
       "title": "Inkling-2-Mini in 5.4 GB Memory",
       "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
       "discuss": "https://news.ycombinator.com/item?id=50591853",
-      "points": 492,
+      "points": 493,
       "comments": 124,
       "domain": "github.com"
     },
@@ -61,15 +61,15 @@
       "title": "Sandwich Simulator",
       "url": "https://stulle.app/",
       "discuss": "https://news.ycombinator.com/item?id=50594911",
-      "points": 335,
-      "comments": 119,
+      "points": 336,
+      "comments": 120,
       "domain": "stulle.app"
     },
     {
       "title": "Getting the mind to steer the body to steer you",
       "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
       "discuss": "https://news.ycombinator.com/item?id=50583028",
-      "points": 320,
+      "points": 321,
       "comments": 107,
       "domain": "notnottalmud.substack.com"
     },
@@ -77,11 +77,11 @@
       "title": "LLMs can read and write executables byte by byte from a hex dump",
       "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
       "discuss": "https://news.ycombinator.com/item?id=50546587",
-      "points": 270,
+      "points": 272,
       "comments": 162,
       "domain": "sgiannopoulos.github.io"
     }
   ],
-  "totalPoints": 9922,
+  "totalPoints": 9808,
   "storyCount": 30
 }

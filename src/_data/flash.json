@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:29:43.988Z",
+  "updated": "2026-11-22T13:37:43.775Z",
   "breaking": [
     {
       "title": "England won't get carried away by All Blacks win",
@@ -135,14 +135,14 @@
     },
     {
       "term": "Russian Navy Vessel Fire Benghazi",
-      "traffic": "1000+",
+      "traffic": "2000+",
       "title": "Russian Warship Destroyed In Huge Explosion In Libya",
       "link": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
       "source": "Naval News"
     },
     {
       "term": "Tanker",
-      "traffic": "500+",
+      "traffic": "1000+",
       "title": "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation",
       "link": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e",
       "source": "WSJ"
@@ -155,11 +155,11 @@
       "source": "Lancashire Business View"
     },
     {
-      "term": "British Food Exporters Eu Deal",
-      "traffic": "200+",
-      "title": "UK-EU food deal hailed by British firms: ‘We’re pretty aligned anyway’",
-      "link": "https://www.theguardian.com/business/2026/nov/22/uk-eu-food-sps-deal-brexit-checks",
-      "source": "The Guardian"
+      "term": "Derbyshire Police M1 Safety Warning",
+      "traffic": "500+",
+      "title": "Warning after stone thrown at police vehicle on M1",
+      "link": "https://www.bbc.co.uk/news/articles/cwj3kxr4eyk0o",
+      "source": "BBC"
     }
   ]
 }
