@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-21T20:05:35.564Z",
+  "checked": "2026-11-22T07:27:48.357Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Network Performance Issues in Chicago datacenter (ORD)",
+      "impact": "minor",
+      "start": "2026-11-22T00:32:59.264Z",
+      "end": "2026-11-22T01:11:58.075Z",
+      "url": "https://www.cloudflarestatus.com/incidents/d2m4kw94ut4f"
+    },
     {
       "service": "Cloudflare",
       "title": "Network Performance Issues in Washington, DC datacenter (IAD)",
@@ -711,14 +719,6 @@
       "start": "2026-11-09T18:12:37.242Z",
       "end": "2026-11-09T18:59:32.565Z",
       "url": "https://stspg.io/7yw63xl9ztrv"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Changes made to Workers may be delayed or disrupted",
-      "impact": "minor",
-      "start": "2026-11-09T16:15:26.798Z",
-      "end": "2026-11-10T01:46:28.887Z",
-      "url": "https://www.cloudflarestatus.com/incidents/1x0tbxpmmttu"
     },
     {
       "service": "GitHub",
