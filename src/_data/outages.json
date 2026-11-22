@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-22T07:27:48.357Z",
+  "checked": "2026-11-22T13:29:43.626Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -1007,14 +1007,6 @@
       "start": "2026-10-23T14:58:48.748Z",
       "end": "2026-10-23T18:51:24.490Z",
       "url": "https://stspg.io/zdk3zqt69fnz"
-    },
-    {
-      "service": "GitHub",
-      "title": "Delayed Actions status check results",
-      "impact": "minor",
-      "start": "2026-10-23T07:29:03.081Z",
-      "end": "2026-10-23T08:05:27.354Z",
-      "url": "https://stspg.io/kmk42jg3v1sm"
     }
   ],
   "tracked": [

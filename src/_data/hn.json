@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-21T13:34:43.930Z",
+  "updated": "2026-11-22T13:23:47.463Z",
   "stories": [
-    {
-      "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
-      "url": "https://alpo.ge/remark.pdf",
-      "discuss": "https://news.ycombinator.com/item?id=50574968",
-      "points": 2722,
-      "comments": 1899,
-      "domain": "alpo.ge"
-    },
     {
       "title": "Hurried Announcement: Alessandro Masullo GRH",
       "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
       "discuss": "https://news.ycombinator.com/item?id=50579568",
-      "points": 2217,
-      "comments": 1040,
+      "points": 2428,
+      "comments": 1182,
       "domain": "math216.wordpress.com"
     },
     {
-      "title": "Inkling 2 Mini",
-      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "discuss": "https://news.ycombinator.com/item?id=50581260",
-      "points": 1110,
-      "comments": 208,
-      "domain": "thinkingmachines.ai"
-    },
-    {
-      "title": "We promoted developers into architects without informing them",
-      "url": "https://manidoraisamy.com/developer-to-architect.html",
-      "discuss": "https://news.ycombinator.com/item?id=50579331",
-      "points": 482,
-      "comments": 269,
-      "domain": "manidoraisamy.com"
-    },
-    {
-      "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
-      "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
-      "discuss": "https://news.ycombinator.com/item?id=50578358",
-      "points": 474,
-      "comments": 204,
-      "domain": "terrytao.wordpress.com"
-    },
-    {
-      "title": "Language Models Can Rewrite Their Own Weights",
-      "url": "https://arxiv.org/abs/2611.21885",
-      "discuss": "https://news.ycombinator.com/item?id=50577265",
-      "points": 430,
-      "comments": 126,
-      "domain": "arxiv.org"
-    },
-    {
-      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
-      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-      "discuss": "https://news.ycombinator.com/item?id=50574383",
-      "points": 371,
-      "comments": 673,
+      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+      "discuss": "https://news.ycombinator.com/item?id=50582069",
+      "points": 1122,
+      "comments": 239,
       "domain": "theguardian.com"
     },
     {
-      "title": "Slopstrap – Make your site look hastily vibecoded",
-      "url": "https://slopstrap.mikelacher.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50576012",
-      "points": 341,
-      "comments": 62,
-      "domain": "slopstrap.mikelacher.com"
+      "title": "Lean verification of the Riemann Hypothesis",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "discuss": "https://news.ycombinator.com/item?id=50589618",
+      "points": 1089,
+      "comments": 909,
+      "domain": "leanprover-community.github.io"
     },
     {
-      "title": "Finite-time blow-up for the Navier–Stokes equations",
-      "url": "https://github.com/tristanbuckmaster/navier-stokes/",
-      "discuss": "https://news.ycombinator.com/item?id=50576232",
-      "points": 300,
-      "comments": 94,
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "discuss": "https://news.ycombinator.com/item?id=50596133",
+      "points": 681,
+      "comments": 413,
+      "domain": "caranddriver.com"
+    },
+    {
+      "title": "Detonating a pile of lead azide",
+      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+      "discuss": "https://news.ycombinator.com/item?id=50588982",
+      "points": 634,
+      "comments": 400,
+      "domain": "science.org"
+    },
+    {
+      "title": "My monitor was cutting my download speed by 75%",
+      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+      "discuss": "https://news.ycombinator.com/item?id=50587875",
+      "points": 610,
+      "comments": 283,
+      "domain": "blog.tymscar.com"
+    },
+    {
+      "title": "Inkling-2-Mini in 5.4 GB Memory",
+      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
+      "discuss": "https://news.ycombinator.com/item?id=50591853",
+      "points": 492,
+      "comments": 124,
       "domain": "github.com"
     },
     {
-      "title": "NINLIVE: The Nine Inch Nails live archive",
-      "url": "https://ninlive.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50583274",
-      "points": 294,
-      "comments": 76,
-      "domain": "ninlive.com"
+      "title": "Sandwich Simulator",
+      "url": "https://stulle.app/",
+      "discuss": "https://news.ycombinator.com/item?id=50594911",
+      "points": 335,
+      "comments": 119,
+      "domain": "stulle.app"
+    },
+    {
+      "title": "Getting the mind to steer the body to steer you",
+      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
+      "discuss": "https://news.ycombinator.com/item?id=50583028",
+      "points": 320,
+      "comments": 107,
+      "domain": "notnottalmud.substack.com"
+    },
+    {
+      "title": "LLMs can read and write executables byte by byte from a hex dump",
+      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
+      "discuss": "https://news.ycombinator.com/item?id=50546587",
+      "points": 270,
+      "comments": 162,
+      "domain": "sgiannopoulos.github.io"
     }
   ],
-  "totalPoints": 11022,
+  "totalPoints": 9922,
   "storyCount": 30
 }

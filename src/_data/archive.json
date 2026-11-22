@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T13:38:23.503Z",
+  "updated": "2026-11-22T13:29:43.582Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5377,6 +5377,568 @@
           "title": "Inkling 2 Mini",
           "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
           "points": 1110
+        }
+      ]
+    },
+    {
+      "date": "2026-11-22",
+      "totalStories": 248,
+      "sections": [
+        {
+          "name": "UK",
+          "count": 18
+        },
+        {
+          "name": "Science",
+          "count": 11
+        },
+        {
+          "name": "World",
+          "count": 9
+        },
+        {
+          "name": "Politics",
+          "count": 8
+        },
+        {
+          "name": "Health",
+          "count": 7
+        },
+        {
+          "name": "Business",
+          "count": 3
+        },
+        {
+          "name": "Technology",
+          "count": 0
+        }
+      ],
+      "topWords": [
+        {
+          "word": "burnham",
+          "count": 14
+        },
+        {
+          "word": "tech",
+          "count": 12
+        },
+        {
+          "word": "health",
+          "count": 10
+        },
+        {
+          "word": "deal",
+          "count": 9
+        },
+        {
+          "word": "cancer",
+          "count": 8
+        },
+        {
+          "word": "anthropic",
+          "count": 8
+        },
+        {
+          "word": "science",
+          "count": 7
+        },
+        {
+          "word": "cost",
+          "count": 6
+        }
+      ],
+      "places": [
+        {
+          "name": "United Kingdom",
+          "lat": 54,
+          "lon": -2,
+          "count": 27,
+          "bySection": {
+            "UK": 2,
+            "World": 2,
+            "Business": 7,
+            "Politics": 11,
+            "Health": 3,
+            "Technology": 1,
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "Will the Scotland-England border landmark star ever shine?",
+              "link": "https://www.bbc.co.uk/news/articles/c6jreyd4ey49o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-22T09:30:21.000Z"
+            },
+            {
+              "title": "UK should only rejoin EU if it innovates on technology, Blair warns",
+              "link": "https://www.bbc.co.uk/news/articles/c893r4923wngo?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-21T19:33:49.000Z"
+            },
+            {
+              "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+              "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T13:17:38.000Z"
+            },
+            {
+              "title": "What the new UK-EU deal could mean for future post-Brexit relations",
+              "link": "https://www.bbc.co.uk/news/videos/c90k6gl3lyxeo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T21:43:22.000Z"
+            },
+            {
+              "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+              "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-20T17:49:48.000Z"
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "lat": 39,
+          "lon": -98,
+          "count": 11,
+          "bySection": {
+            "World": 4,
+            "Science": 1,
+            "Technology": 1,
+            "Business": 4,
+            "Health": 1
+          },
+          "stories": [
+            {
+              "title": "Lock of former US President George Washington's hair sells for $4,000",
+              "link": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T22:01:19.000Z"
+            },
+            {
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T10:26:36.000Z"
+            },
+            {
+              "title": "US declassifies more UFO footage filmed in the Middle East",
+              "link": "https://www.bbc.co.uk/news/videos/cqdr1x8mypnko?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T23:15:20.000Z"
+            },
+            {
+              "title": "Birds killed in blaze at one of the largest foie gras farms in the US",
+              "link": "https://www.bbc.co.uk/news/articles/cq4gn0dg9194o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-20T22:57:26.000Z"
+            },
+            {
+              "title": "Trump threatens ban on US firms building AI data centres overseas",
+              "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T20:54:12.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 4,
+          "bySection": {
+            "World": 4
+          },
+          "stories": [
+            {
+              "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+              "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T11:25:14.000Z"
+            },
+            {
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T10:26:36.000Z"
+            },
+            {
+              "title": "Zelensky says Putin is a 'killer' after Trump calls Russian leader a friend",
+              "link": "https://www.bbc.co.uk/news/articles/cxnv4zvmdy0jo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T08:10:25.000Z"
+            },
+            {
+              "title": "What we know about the latest Russian missile strikes on Ukraine",
+              "link": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T15:14:01.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ukraine",
+          "lat": 49,
+          "lon": 32,
+          "count": 3,
+          "bySection": {
+            "World": 2,
+            "Politics": 1
+          },
+          "stories": [
+            {
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T10:26:36.000Z"
+            },
+            {
+              "title": "What we know about the latest Russian missile strikes on Ukraine",
+              "link": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T15:14:01.000Z"
+            },
+            {
+              "title": "UK to provide Ukraine with 1,000 long-range strike drones",
+              "link": "https://www.bbc.co.uk/news/articles/c5n4em9mkkzeo?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-19T17:59:01.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ireland",
+          "lat": 53,
+          "lon": -8,
+          "count": 2,
+          "bySection": {
+            "Politics": 1,
+            "Health": 1
+          },
+          "stories": [
+            {
+              "title": "What does the new Brexit deal mean for Northern Ireland?",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-20T14:41:53.000Z"
+            },
+            {
+              "title": "Some doctors in Northern Ireland go on strike over pay",
+              "link": "https://www.bbc.co.uk/news/videos/cjr4g2kyn040o?at_medium=RSS&at_campaign=rss",
+              "section": "Health",
+              "date": "2026-11-20T11:11:36.000Z"
+            }
+          ]
+        },
+        {
+          "name": "India",
+          "lat": 22,
+          "lon": 79,
+          "count": 2,
+          "bySection": {
+            "Business": 2
+          },
+          "stories": [
+            {
+              "title": "Indian driver wins $1.3m in life-changing lottery prize",
+              "link": "https://www.bbc.co.uk/news/videos/cke89vdn75gyo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-19T11:38:09.000Z"
+            },
+            {
+              "title": "The Indian workers filming their work to train AI",
+              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-23T08:04:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "lat": 35,
+          "lon": 104,
+          "count": 2,
+          "bySection": {
+            "Business": 2
+          },
+          "stories": [
+            {
+              "title": "California targets Nvidia in China AI chip probe",
+              "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-19T23:04:30.000Z"
+            },
+            {
+              "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
+              "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-14T23:01:28.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Mexico",
+          "lat": 23,
+          "lon": -102,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+              "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T01:25:03.000Z"
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "lat": 46,
+          "lon": 2,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "French police officers sentenced for beating of music producer Michel Zecler",
+              "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-20T22:37:09.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Italy",
+          "lat": 42,
+          "lon": 12,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+              "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T07:12:41.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "lat": 52,
+          "lon": 5,
+          "count": 1,
+          "bySection": {
+            "Technology": 1
+          },
+          "stories": [
+            {
+              "title": "Dutch watchdog tells people not to buy AI smart glasses",
+              "link": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
+              "section": "Technology",
+              "date": "2026-11-19T16:33:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Norway",
+          "lat": 62,
+          "lon": 10,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Trafalgar Square Christmas tree felled in Norway",
+              "link": "https://www.bbc.co.uk/news/articles/cx8dv4327dnpo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T08:10:03.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Denmark",
+          "lat": 56,
+          "lon": 10,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T10:26:36.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Finland",
+          "lat": 64,
+          "lon": 26,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+              "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T11:25:14.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Turkey",
+          "lat": 39,
+          "lon": 35,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "World's oldest shipwreck found off coast of Turkey",
+              "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-10-14T05:00:35.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Nigeria",
+          "lat": 9,
+          "lon": 8,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+              "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T00:10:37.000Z"
+            }
+          ]
+        },
+        {
+          "name": "South Africa",
+          "lat": -29,
+          "lon": 24,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "ANC fights to keep control of South Africa's key cities after election setback",
+              "link": "https://www.bbc.co.uk/news/articles/cqpv94d10rwpo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-21T00:34:51.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Uganda",
+          "lat": 1,
+          "lon": 32,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "Survivors of Uganda's deadly landslide seek justice at the UN",
+              "link": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-19T09:21:54.000Z"
+            }
+          ]
+        },
+        {
+          "name": "South Korea",
+          "lat": 36,
+          "lon": 128,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "South Korea education minister resigns over exam cheating scandal",
+              "link": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T09:20:45.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Indonesia",
+          "lat": -2,
+          "lon": 118,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Three killed and dozens missing after fire at Indonesian factory",
+              "link": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T06:05:00.000Z"
+            }
+          ]
+        }
+      ],
+      "topHeadlines": [
+        {
+          "title": "Man dies in M42 crash near Birmingham Airport",
+          "link": "https://www.bbc.co.uk/news/articles/c61k94ype8keo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "School wins mental health and wellbeing award",
+          "link": "https://www.bbc.co.uk/news/articles/c5n4eyv9wv7zo?at_medium=RSS&at_campaign=rss",
+          "section": "Health"
+        },
+        {
+          "title": "Theresa May 'aghast' at Burnham's EU plans and says 'Brexit is done'",
+          "link": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
+          "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "Mysterious Mercury gets a visitor - after spacecraft's eight-year epic voyage",
+          "link": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro?at_medium=RSS&at_campaign=rss",
+          "section": "Science"
+        }
+      ],
+      "hnTop": [
+        {
+          "title": "Hurried Announcement: Alessandro Masullo GRH",
+          "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+          "points": 2428
+        },
+        {
+          "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+          "points": 1122
+        },
+        {
+          "title": "Lean verification of the Riemann Hypothesis",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "points": 1089
         }
       ]
     }

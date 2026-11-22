@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-21T13:34:11.556Z",
-  "headlineCount": 81,
+  "updated": "2026-11-22T13:23:04.135Z",
+  "headlineCount": 69,
   "sources": [
     {
       "name": "CNBC",
-      "count": 13
+      "count": 11
     },
     {
       "name": "Yahoo Finance",
-      "count": 38
+      "count": 28
     },
     {
       "name": "MarketWatch",
@@ -22,26 +22,18 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 20
+      "count": 11
     },
     {
       "name": "Interest rates",
-      "count": 5
-    },
-    {
-      "name": "Earnings",
-      "count": 2
-    },
-    {
-      "name": "Oil and energy",
       "count": 2
     },
     {
       "name": "Inflation",
-      "count": 1
+      "count": 2
     },
     {
-      "name": "Trade and tariffs",
+      "name": "Jobs",
       "count": 1
     },
     {
@@ -49,7 +41,15 @@
       "count": 1
     },
     {
-      "name": "Jobs",
+      "name": "Earnings",
+      "count": 0
+    },
+    {
+      "name": "Trade and tariffs",
+      "count": 0
+    },
+    {
+      "name": "Oil and energy",
       "count": 0
     },
     {
@@ -60,11 +60,15 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 9
+      "count": 4
     },
     {
       "name": "Apple",
-      "count": 0
+      "count": 1
+    },
+    {
+      "name": "Amazon",
+      "count": 1
     },
     {
       "name": "Microsoft",
@@ -72,10 +76,6 @@
     },
     {
       "name": "Alphabet",
-      "count": 0
-    },
-    {
-      "name": "Amazon",
       "count": 0
     },
     {
@@ -89,144 +89,144 @@
   ],
   "latest": [
     {
-      "title": "Nvidia’s nonstop drama is keeping buyers away from a historically cheap stock",
-      "link": "https://www.marketwatch.com/story/nvidias-nonstop-drama-is-keeping-buyers-away-from-a-historically-cheap-stock-604022da?mod=mw_rss_topstories",
-      "date": "2026-11-21T13:30:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Warren Buffett Successor Greg Abel Piled $28 Billion Into This Stock in the First Half of 2026, But Opted Not to Buy More at a Lower Price Last Quarter",
-      "link": "https://www.fool.com/investing/2026/11/21/warren-buffett-successor-greg-abel-piled-28-billion-into-this-stock-in-the-first-half-of-2026-but-opted-not-to-buy-more-at-a-lower-price-last-quarter/?.tsrc=rss",
-      "date": "2026-11-21T13:18:02.000Z",
+      "title": "Disney Just Hit a 52-Week High. 3 Reasons It Still Has Room to Run.",
+      "link": "https://www.fool.com/investing/2026/11/22/disney-just-hit-a-52-week-high-3-reasons-it-still-has-room-to-run/?.tsrc=rss",
+      "date": "2026-11-22T13:05:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is AMD the Stock to Buy With Nvidia in Limbo?",
-      "link": "https://www.fool.com/investing/2026/11/21/is-amd-the-stock-to-buy-with-nvidia-in-limbo/?.tsrc=rss",
-      "date": "2026-11-21T13:00:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Here's How Many Shares of Starbucks You'd Need to Cover $744 in Coffee Using Dividends Alone",
-      "link": "https://www.fool.com/investing/2026/11/21/heres-how-many-shares-of-starbucks-youd-need-to-cover-744-in-coffee-using-dividends-alone/?.tsrc=rss",
-      "date": "2026-11-21T13:00:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Tech outages are fueling a new doomsday economy",
-      "link": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html",
-      "date": "2026-11-21T13:00:01.000Z",
-      "source": "CNBC"
-    },
-    {
-      "title": "The CEO of Telefónica Knows He's on the Front Lines of Europe's Scramble for Autonomy",
-      "link": "https://finance.yahoo.com/m/e175e7b0-4e65-3af8-abe8-162ca1fce0ee/the-ceo-of-telef%C3%B3nica-knows.html?.tsrc=rss",
-      "date": "2026-11-21T13:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "America is definitely rich enough to fix Social Security and Medicare. Here’s how.",
-      "link": "https://www.marketwatch.com/story/america-is-definitely-rich-enough-to-fix-social-security-and-medicare-heres-how-30678aa5?mod=mw_rss_topstories",
-      "date": "2026-11-21T13:00:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Goldman upgrades China H-shares on faster earnings growth outlook",
-      "link": "https://www.investing.com/news/economy-news/goldman-upgrades-china-hshares-on-faster-earnings-growth-outlook-5043437",
-      "date": "2026-11-21T12:54:24.000Z",
+      "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivelike-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-5043898",
+      "date": "2026-11-22T13:00:57.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "A $3.8 Billion Fund Just Bought These 3 Stocks",
-      "link": "https://www.tikr.com/blog/a-3-8-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261121-g555pj6m&.tsrc=rss",
-      "date": "2026-11-21T12:50:37.000Z",
+      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 1.95%",
+      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-195-5043961",
+      "date": "2026-11-22T12:45:03.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day",
+      "link": "https://finance.yahoo.com/markets/article/gpu-prices-are-rising-for-nvidias-older-chips-even-as-the-stock-keeps-going-down-chart-of-the-day-123721121.html?.tsrc=rss",
+      "date": "2026-11-22T12:37:21.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is This 6%-Yielding Dividend Stock a Bargain or a Trap? Its Payout Eats Up About 90% of Cash Flow.",
-      "link": "https://www.fool.com/investing/2026/11/21/is-this-6-yielding-dividend-stock-a-bargain-or-a-trap-its-payout-eats-up-about-90-of-cash-flow/?.tsrc=rss",
-      "date": "2026-11-21T12:50:02.000Z",
+      "title": "A $14 Billion Fund Just Bought These 3 Stocks",
+      "link": "https://www.tikr.com/blog/a-14-billion-fund-just-bought-these-3-stocks?ref=yahoofinance&tlnk=yf-261122-xrm65rcp&.tsrc=rss",
+      "date": "2026-11-22T12:35:37.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Nvidia Is CoreWeave's “Key Sole Supplier” and $6.3 Billion Backstop. Congress Is Now Looking",
-      "link": "https://www.tikr.com/blog/nvidia-is-coreweaves-key-sole-supplier-and-6-3-billion-backstop-congress-is-now-looking?ref=yahoofinance&tlnk=yf-261121-4qc52p65&.tsrc=rss",
-      "date": "2026-11-21T12:49:57.000Z",
+      "title": "OpenAI's Greg Brockman: AI Delivered “Roughly an Additional Year of Progress” on AMD's Chip in Under 5 Months",
+      "link": "https://www.tikr.com/blog/openais-greg-brockman-ai-delivered-roughly-an-additional-year-of-progress-on-amds-chip-in-under-5-months?ref=yahoofinance&tlnk=yf-261122-2vm39c6q&.tsrc=rss",
+      "date": "2026-11-22T12:35:32.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "AMD Is “A Direct Stakeholder in Anthropic.” That's Up to $5 Billion Riding on Its IPO",
-      "link": "https://www.tikr.com/blog/amd-is-a-direct-stakeholder-in-anthropic-thats-up-to-5-billion-riding-on-its-ipo?ref=yahoofinance&tlnk=yf-261121-5x6px635&.tsrc=rss",
-      "date": "2026-11-21T12:38:07.000Z",
+      "title": "Nvidia Must Become a Frontier Lab “Faster Than Frontier Labs Are Becoming Chip Companies.” Nemotron Is Its Head Start",
+      "link": "https://www.tikr.com/blog/nvidia-must-become-a-frontier-lab-faster-than-frontier-labs-are-becoming-chip-companies-nemotron-is-its-head-start?ref=yahoofinance&tlnk=yf-261122-g64ppxm4&.tsrc=rss",
+      "date": "2026-11-22T12:35:25.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Greg Abel Just Approved a Record $9.6 Billion in Stock Buybacks for Berkshire Hathaway Last Quarter, More Than Double the Pace Set in the Second Quarter. Is Berkshire Still a Buy as Shares Sit Near All-Time Highs?",
-      "link": "https://www.fool.com/investing/2026/11/21/greg-abel-just-approved-a-record-usd9-6-billion-in-stock-buybacks-for-berkshire-hathaway-last-quarter-more-than-double-the-pace-set-in-the-second-quarter-is-berkshire-still-a-buy-as-shares-sit-near/?.tsrc=rss",
-      "date": "2026-11-21T12:35:02.000Z",
+      "title": "The App Paradigm Will “Slowly, if Not Quickly, Dissipate,” Says Mark Gurman. That's a Problem for Apple",
+      "link": "https://www.tikr.com/blog/the-app-paradigm-will-slowly-if-not-quickly-dissipate-says-mark-gurman-thats-a-problem-for-apple?ref=yahoofinance&tlnk=yf-261122-whh6mr3f&.tsrc=rss",
+      "date": "2026-11-22T12:35:21.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Larry McDonald survived Lehman’s collapse. Now he warns the credit market is signaling a growth shock for stocks.",
-      "link": "https://www.marketwatch.com/story/larry-mcdonald-survived-lehmans-collapse-now-he-warns-the-credit-market-is-signaling-a-growth-shock-for-stocks-5c3a62ef?mod=mw_rss_topstories",
-      "date": "2026-11-21T12:31:00.000Z",
+      "title": "Is Netflix a Buy in November? The Bull and Bear Cases.",
+      "link": "https://www.fool.com/investing/2026/11/22/is-netflix-a-buy-in-november-the-bull-and-bear-cases/?.tsrc=rss",
+      "date": "2026-11-22T12:35:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Altria Yields 5.8% and Has Raised Its Dividend 61 Times in 57 Years. Here's Exactly How Much $5,000 Invested Pays Each Year.",
+      "link": "https://www.fool.com/investing/2026/11/22/altria-yields-58-and-has-raised-its-dividend-61-times-in-57-years-heres-exactly-how-much-5000-invested-pays-each-year/?.tsrc=rss",
+      "date": "2026-11-22T12:30:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
+      "link": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
+      "date": "2026-11-22T12:30:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Jensen Huang's next move: Wall Street floats Intel and SpaceX, but bettors are banking on a surprise second act",
-      "link": "https://finance.yahoo.com/markets/article/jensen-huangs-next-move-wall-street-floats-intel-and-spacex-but-bettors-are-banking-on-a-surprise-second-act-123015670.html?.tsrc=rss",
-      "date": "2026-11-21T12:30:15.000Z",
+      "title": "Not Lucid. Not Ford. The EV Stock Most Likely to Catch Every Refunded Cybertruck Buyer.",
+      "link": "https://www.fool.com/investing/2026/11/22/not-lucid-not-ford-the-ev-stock-most-likely-to-catch-every-refunded-cybertruck-buyer/?.tsrc=rss",
+      "date": "2026-11-22T12:27:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Quantum-Proof Accounts Are Coming to the XRP Blockchain by 2028. That's Not Likely to Be a Game Changer for XRP.",
-      "link": "https://www.fool.com/investing/2026/11/21/quantum-proof-accounts-are-coming-to-the-xrp-blockchain-by-2028-that-s-not-likely-to-be-a-game-changer-for-xrp/?.tsrc=rss",
-      "date": "2026-11-21T12:25:02.000Z",
+      "title": "A $164 Billion Fund Bought These 3 Stocks Last Quarter",
+      "link": "https://www.tikr.com/blog/a-164-billion-fund-bought-these-3-stocks-last-quarter?ref=yahoofinance&tlnk=yf-261122-9gjc63fr&.tsrc=rss",
+      "date": "2026-11-22T12:20:37.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is Bank of America Stock a Buy at 25% Below Its 52-Week High?",
-      "link": "https://www.fool.com/investing/2026/11/21/is-bank-of-america-stock-a-buy-about-25-below-its-52-week-high/?.tsrc=rss",
-      "date": "2026-11-21T12:20:02.000Z",
+      "title": "Here's How Many Shares of Coca-Cola You'd Need for $10,000 in Yearly Dividends.",
+      "link": "https://www.fool.com/investing/2026/11/22/heres-how-many-shares-of-coca-cola-youd-need-for-10000-in-yearly-dividends/?.tsrc=rss",
+      "date": "2026-11-22T12:19:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Trump Threatens a “Tremendous Tax” on Companies That Build Data Centers Overseas",
-      "link": "https://247wallst.com/investing/2026/11/21/trump-threatens-a-tremendous-tax-on-companies-that-build-data-centers-overseas/?.tsrc=rss",
-      "date": "2026-11-21T12:18:38.000Z",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "link": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "date": "2026-11-22T12:13:56.000Z",
+      "source": "CNBC"
+    },
+    {
+      "title": "The Nasdaq is in freefall. Here's one stock to look at",
+      "link": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "date": "2026-11-22T12:10:39.000Z",
+      "source": "CNBC"
+    },
+    {
+      "title": "‘It's greed': Zohran Mamdani blasts Amazon over new $5 fee hike in NYC. Is your next order about to get pricier?",
+      "link": "https://finance.yahoo.com/economy/policy/articles/greed-zohran-mamdani-blasts-amazon-121000124.html?.tsrc=rss",
+      "date": "2026-11-22T12:10:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Nvidia Just Issued a Major Warning to AMD and Intel Stock Investors",
-      "link": "https://www.fool.com/investing/2026/11/21/nvidia-just-issued-a-major-warning-to-amd-and-intel-stock-investors/?.tsrc=rss",
-      "date": "2026-11-21T12:14:02.000Z",
+      "title": "Analysis-Correction or deeper reckoning? Investors seek signs US stock selling will abate",
+      "link": "https://www.investing.com/news/stock-market-news/analysiscorrection-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-5043939",
+      "date": "2026-11-22T12:06:21.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Lumentum's CEO Says “the Laws of Physics Are Working in Favor of Fiber.” Marvell Holders Are Buying It Cheap",
+      "link": "https://www.tikr.com/blog/lumentums-ceo-says-the-laws-of-physics-are-working-in-favor-of-fiber-marvell-holders-are-buying-it-cheap?ref=yahoofinance&tlnk=yf-261122-6v9p23cj&.tsrc=rss",
+      "date": "2026-11-22T11:59:18.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Is Markel Group Stock a Buy After Falling 10% in 2026?",
-      "link": "https://www.fool.com/investing/2026/11/21/is-markel-group-stock-a-buy-after-falling-10-in-2026/?.tsrc=rss",
-      "date": "2026-11-21T12:05:02.000Z",
+      "title": "The Stock Market Is Doing Something for Only the 5th Time This Century, and History Says It's Obvious What Comes Next for Stocks",
+      "link": "https://www.fool.com/investing/2026/11/22/stock-market-doing-something-only-5th-time-this-century-history-says-obvious-what-next-for-stocks/?.tsrc=rss",
+      "date": "2026-11-22T11:56:02.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Nvidia’s nonstop drama is keeping buyers away from a historically cheap stock",
-      "link": "https://www.marketwatch.com/story/nvidias-nonstop-drama-is-keeping-buyers-away-from-a-historically-cheap-stock-604022da?mod=mw_rss_topstories",
-      "date": "2026-11-21T13:30:00.000Z",
-      "source": "MarketWatch"
+      "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+      "link": "https://www.investing.com/news/stock-market-news/exclusivelike-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-5043898",
+      "date": "2026-11-22T13:00:57.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "Warren Buffett Successor Greg Abel Piled $28 Billion Into This Stock in the First Half of 2026, But Opted Not to Buy More at a Lower Price Last Quarter",
-      "link": "https://www.fool.com/investing/2026/11/21/warren-buffett-successor-greg-abel-piled-28-billion-into-this-stock-in-the-first-half-of-2026-but-opted-not-to-buy-more-at-a-lower-price-last-quarter/?.tsrc=rss",
-      "date": "2026-11-21T13:18:02.000Z",
+      "title": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day",
+      "link": "https://finance.yahoo.com/markets/article/gpu-prices-are-rising-for-nvidias-older-chips-even-as-the-stock-keeps-going-down-chart-of-the-day-123721121.html?.tsrc=rss",
+      "date": "2026-11-22T12:37:21.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Goldman upgrades China H-shares on faster earnings growth outlook",
-      "link": "https://www.investing.com/news/economy-news/goldman-upgrades-china-hshares-on-faster-earnings-growth-outlook-5043437",
-      "date": "2026-11-21T12:54:24.000Z",
-      "source": "Investing.com"
+      "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
+      "link": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
+      "date": "2026-11-22T12:30:00.000Z",
+      "source": "MarketWatch"
     }
   ],
   "yields": {

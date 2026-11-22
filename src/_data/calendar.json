@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T13:34:43.356Z",
+  "updated": "2026-11-22T13:23:45.580Z",
   "days": [
     {
       "date": "2026-11-23",
@@ -231,7 +231,7 @@
           "name": "CB Consumer Confidence",
           "time": "15:00",
           "previous": "91.7",
-          "consensus": "92.0"
+          "consensus": "92.1"
         }
       ]
     },
@@ -276,8 +276,8 @@
           "what": "Inflation (PCE, the Fed's favourite gauge)",
           "name": "Core PCE Price Index",
           "time": "13:30",
-          "previous": "0.3%",
-          "consensus": "0.3%"
+          "previous": "3.1%",
+          "consensus": "3.2%"
         },
         {
           "country": "US",
@@ -293,6 +293,14 @@
           "name": "Initial Jobless Claims",
           "time": "13:30",
           "previous": "203K",
+          "consensus": "201K"
+        },
+        {
+          "country": "UK",
+          "what": "Central bank chief speaks",
+          "name": "BoE Gov Bailey Speaks",
+          "time": "14:15",
+          "previous": null,
           "consensus": null
         }
       ]
@@ -311,6 +319,25 @@
       "closed": null,
       "early": "day after Thanksgiving",
       "earnings": [],
+      "events": []
+    },
+    {
+      "date": "2026-11-30",
+      "label": "Mon 30 Nov",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "RBRK",
+          "name": "Rubrik",
+          "cap": 23748796400,
+          "when": "after",
+          "eps": "−$0.38",
+          "big": false,
+          "mag7": false,
+          "capText": "$24B"
+        }
+      ],
       "events": []
     }
   ]
