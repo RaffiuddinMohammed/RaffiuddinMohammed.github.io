@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 seoTitle: "Raffiuddin Mohammed · Delivery Lead, Project Lead & QA Automation Lead"
-description: "Raffiuddin Mohammed: delivery lead, project lead and QA automation lead. Five years getting web, iOS and Android software released, with test automation that proves it works."
+description: "Raffiuddin Mohammed: delivery lead, project lead and QA automation lead. Getting web, iOS and Android software released, with test automation that proves it works."
 ---
 
 <section class="hero hero-cv">
@@ -9,12 +9,12 @@ description: "Raffiuddin Mohammed: delivery lead, project lead and QA automation
   <div class="hero-grid" aria-hidden="true"></div>
   <div class="cv-top">
     <div class="hi-text">
-      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ cv.years }} years · web, iOS and Android</div>
+      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Web, iOS and Android</div>
       <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad sweep">I get software delivered, and prove it works.</span></h1>
       <ul class="role-chips" aria-label="Roles">
         {% for r in cv.roles %}<li class="rc{{ loop.index }}">{{ r }}</li>{% endfor %}
       </ul>
-      <p class="lede">For the last {{ cv.years }} years I've run releases from ticket to production, and built the test automation that checks every one of them: on a schedule, across staging and production, with results in Slack before anyone asks.</p>
+      <p class="lede">I run releases from ticket to production, and built the test automation that checks every one of them: on a schedule, across staging and production, with results in Slack before anyone asks.</p>
       <div class="actions">
         {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">Talk to me <span class="arr" aria-hidden="true">→</span></button>{% endif %}
         <a class="btn" href="/delivery/">See how I deliver</a>
@@ -63,7 +63,7 @@ description: "Raffiuddin Mohammed: delivery lead, project lead and QA automation
 </section>
 
 <section id="experience">
-  <h2>The last {{ cv.years }} years</h2>
+  <h2>Experience</h2>
   <ol class="timeline">
     {% for job in cv.experience %}
     <li class="reveal">

@@ -1,7 +1,10 @@
 {
   "_readme": "CV content for the homepage. Entries with \"draft\": true show a DRAFT badge; replace the text and delete the draft flag before v3.0 goes live. Testimonials stay hidden until at least one is added. Only use real quotes (e.g. LinkedIn recommendations) that the person has agreed to.",
-  "years": 5,
-  "roles": ["Project lead", "Delivery lead", "QA automation lead"],
+  "roles": [
+    "Project lead",
+    "Delivery lead",
+    "QA automation lead"
+  ],
   "experience": [
     {
       "role": "QA Automation & Delivery Lead",
@@ -20,8 +23,23 @@
       "org": "Company or sector",
       "dates": "Years",
       "draft": true,
-      "points": ["What you led, delivered or improved, in one line each."]
+      "points": [
+        "What you led, delivered or improved, in one line each."
+      ]
     }
   ],
-  "testimonials": []
+  "testimonials": [
+    {
+      "quote": "I worked with Raffi during my time at Virgin, where Raffi was responsible for the majority of large web changes. Raffi was very results focused and takes a great deal of pride in his work happy to go out of his way in order to benefit the project he is working on. I worked closely with Raffi on some projects and it was a pleasure to work alongside him, he certainly helped me develop and am glad we have managed to stay in touch since my departure.",
+      "name": "Neal Scott",
+      "title": "Test Analyst, Legal and General",
+      "source": "Worked together at Virgin · LinkedIn"
+    },
+    {
+      "quote": "I was fortunate to work with Rafi at Expedia. In simple words he is friendly, proactive, intelligent and hard working individual. He is always very open in suggesting and implementing various solutions, which is very rare quality in the technical space. Rafi is very approachable and keen eye for detail which results in getting the job done. His expertise in areas of testing and alternative views on the results of testing ensured that we took a second look and his knowledge in Mobile domain is a plus and makes him stand out from others.",
+      "name": "Dev Gowtham",
+      "title": "QA Architect and Technical Programme Test Manager",
+      "source": "Worked together at Expedia · LinkedIn"
+    }
+  ]
 }
