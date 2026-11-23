@@ -309,7 +309,8 @@ a.card.dash:hover { border-color: var(--border); border-top-color: var(--c); }
 .links .pill:is(.n4, .n5) { color: var(--ink); border: 1px solid color-mix(in srgb, var(--c) 35%, transparent); background: color-mix(in srgb, var(--c) 12%, transparent); }
 .links .pill:is(.n4, .n5):hover, .links .pill:is(.n4, .n5):focus-visible {
   color: #fff; border-color: transparent; background: linear-gradient(135deg, var(--deep), var(--c)); box-shadow: 0 6px 18px color-mix(in srgb, var(--c) 45%, transparent); }
-.links .icon-btn { width: 36px; height: 36px; padding: 0; justify-content: center; }
+.links .icon-btn { width: 36px; height: 36px; padding: 0; display: inline-flex; align-items: center; justify-content: center; line-height: 0; vertical-align: middle; }
+.links .icon-btn svg { display: block; }
 .links .icon-btn svg { transition: transform .35s cubic-bezier(.34, 1.56, .64, 1); }
 .links .icon-btn:hover svg { transform: rotate(-8deg) scale(1.12); }
 button.pill { font: inherit; cursor: pointer; }
