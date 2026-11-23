@@ -1,10 +1,6 @@
 {
   "_readme": "CV content for the homepage, taken from Raffi's LinkedIn (22 Nov 2026). Entries with \"draft\": true show a DRAFT badge. Testimonials are real LinkedIn recommendations, quoted word for word.",
-  "roles": [
-    "Project lead",
-    "Delivery lead",
-    "QA automation lead"
-  ],
+  "roles": ["QA Lead", "Project Manager", "Scrum Master", "Delivery Lead", "Test Automation"],
   "experience": [
     {
       "role": "Software Delivery & Quality Lead",
