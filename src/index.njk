@@ -9,11 +9,16 @@ description: "Raffiuddin Mohammed, London: delivery lead, project manager, Scrum
   <div class="hero-grid" aria-hidden="true"></div>
   <div class="cv-top">
     <div class="hi-text">
-      <div class="eyebrow"><span class="dot" aria-hidden="true"></span>Web, iOS and Android</div>
       <h1>Hi, I'm {{ site.shortName }}.<br><span class="grad sweep">I get software delivered, and prove it works.</span></h1>
       <ul class="role-chips" aria-label="Roles">
         {% for r in cv.roles %}<li class="rc{{ loop.index }}">{{ r }}</li>{% endfor %}
       </ul>
+      <div class="platforms" aria-label="Platforms I deliver on">
+        <span class="pf-label">Ships on</span>
+        <span class="pf pf-web"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg>Web</span>
+        <span class="pf pf-ios"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10 5h4"/></svg>iOS</span>
+        <span class="pf pf-and"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2"/><circle cx="12" cy="5.2" r=".6"/><path d="M10 18.5h4"/></svg>Android</span>
+      </div>
       <p class="lede">I run releases from ticket to production, and built the test automation that checks every one of them: on a schedule, across staging and production, with results in Slack before anyone asks.</p>
       <div class="actions">
         {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">Talk to me <span class="arr" aria-hidden="true">→</span></button>{% endif %}
