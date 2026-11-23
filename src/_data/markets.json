@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T15:46:18.513Z",
+  "updated": "2026-11-23T15:58:00.930Z",
   "headlineCount": 65,
   "sources": [
     {
@@ -22,11 +22,11 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 10
+      "count": 12
     },
     {
       "name": "Interest rates",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Inflation",
@@ -60,10 +60,10 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 17
+      "count": 15
     },
     {
-      "name": "Meta",
+      "name": "Amazon",
       "count": 1
     },
     {
@@ -79,7 +79,7 @@
       "count": 0
     },
     {
-      "name": "Amazon",
+      "name": "Meta",
       "count": 0
     },
     {
@@ -89,9 +89,99 @@
   ],
   "latest": [
     {
+      "title": "Why is Taiwan Semiconductor Manufacturing stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-5046019",
+      "date": "2026-11-23T15:52:54.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Western Digital stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-surging-today-93CH-5046016",
+      "date": "2026-11-23T15:50:07.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nvidia's $115B neocloud exposure and what its backstops really cover",
+      "link": "https://finance.yahoo.com/video/nvidias-115b-neocloud-exposure-and-what-its-backstops-really-cover-154907019.html?.tsrc=rss",
+      "date": "2026-11-23T15:49:07.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
+      "date": "2026-11-23T15:48:38.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal",
+      "link": "https://www.investing.com/news/stock-market-news/how-nvidia-ceo-jensen-huang-got-entangled-in-a-china-chip-and-spy-scandal-5046015",
+      "date": "2026-11-23T15:48:24.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Seagate Technology stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-surging-today-93CH-5046014",
+      "date": "2026-11-23T15:47:58.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Piper Sandler upgrades MiniMed, downgrades Insulet after doctor calls",
+      "link": "https://www.investing.com/news/stock-market-news/piper-sandler-upgrades-minimed-downgrades-insulet-after-doctor-calls-5046012",
+      "date": "2026-11-23T15:46:52.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Jensen Huang back at Nvidia, stock soars; Anthropic slides",
+      "link": "https://finance.yahoo.com/video/jensen-huang-back-at-nvidia-stock-soars-anthropic-slides-154615662.html?.tsrc=rss",
+      "date": "2026-11-23T15:46:15.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why is Coherent stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-coherent-stock-surging-today-93CH-5046011",
+      "date": "2026-11-23T15:45:45.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nvidia reinstates Jensen Huang as CEO",
+      "link": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/?.tsrc=rss",
+      "date": "2026-11-23T15:44:27.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang Is Back As Nvidia CEO. Stock Jumps.",
+      "link": "https://finance.yahoo.com/m/9d4f41fa-65db-3d79-8406-bd396f20b522/jensen-huang-is-back-as.html?.tsrc=rss",
+      "date": "2026-11-23T15:44:15.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why is Super Micro Computer stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-super-micro-computer-stock-surging-today-93CH-5046007",
+      "date": "2026-11-23T15:43:27.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Panama government, First Quantum restart negotiations on Cobre Panama mine",
+      "link": "https://www.investing.com/news/stock-market-news/panama-government-first-quantum-restart-negotiations-on-cobre-panama-mine-5046006",
+      "date": "2026-11-23T15:43:03.000Z",
+      "source": "Investing.com"
+    },
+    {
       "title": "Jensen Huang's Return Just Gave Nvidia the Biggest One-Day Dollar Gain in Stock Market History, and History Says This Is What Comes Next",
       "link": "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-just-gave-nvidia-the-biggest-one-day-dollar-gain-in-stock-market-history-and-history-says-this-is-what-comes-next/?.tsrc=rss",
       "date": "2026-11-23T15:43:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Amazon to buy Decart's AI chip optimization tech in latest AI talent grab",
+      "link": "https://www.investing.com/news/stock-market-news/amazon-to-buy-decarts-ai-chip-optimization-tech-in-latest-ai-talent-grab-5046000",
+      "date": "2026-11-23T15:42:44.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Michael Burry's Latest Top 10 Stock Picks Amid AI Crash",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-latest-top-10-154101772.html?.tsrc=rss",
+      "date": "2026-11-23T15:41:01.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -113,113 +203,23 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "If Stocks Keep Sliding, This Is the 1 ETF I'm Continuing to Buy",
-      "link": "https://www.fool.com/investing/2026/11/23/if-stocks-keep-sliding-this-is-the-1-etf-im-continuing-to-buy/?.tsrc=rss",
-      "date": "2026-11-23T15:35:01.000Z",
+      "title": "Stock Market Today: Dow, Nasdaq Surge As Jensen Huang Returns To Nvidia; Chip Plays Rocket (Live Coverage)",
+      "link": "https://finance.yahoo.com/m/8751de70-467e-380a-82cb-f4ee42adc461/stock-market-today%3A-dow%2C.html?.tsrc=rss",
+      "date": "2026-11-23T15:36:02.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia Shares Soar More Than 30% as Board Reinstates Jensen Huang as CEO",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-soar-more-30-153445282.html?.tsrc=rss",
-      "date": "2026-11-23T15:34:45.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The Next $1 Trillion Technology Opportunity Could Be Hiding in Plain Sight",
-      "link": "https://247wallst.com/investing/2026/11/23/the-next-1-trillion-technology-opportunity-could-be-hiding-in-plain-sight/?.tsrc=rss",
-      "date": "2026-11-23T15:34:30.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Canadian Investment Regulatory Organization Single Stock Circuit Breaker Halt - NVDD",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-investment-regulatory-organization-single-153400797.html?.tsrc=rss",
-      "date": "2026-11-23T15:34:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia CEO Search Ends as Jensen Huang Returns, Arm Boss Stays Put",
-      "link": "https://finance.yahoo.com/technology/articles/nvidia-ceo-search-ends-jensen-153342060.html?.tsrc=rss",
-      "date": "2026-11-23T15:33:42.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia shares jump over 30% at the open as Jensen Huang returns as CEO",
-      "link": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned?.tsrc=rss",
-      "date": "2026-11-23T15:33:11.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Cathie Wood Sells $107 Million of Nvidia Stock, Adds $74 Million to SpaceX",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-sells-107-million-153242383.html?.tsrc=rss",
-      "date": "2026-11-23T15:32:42.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia stock rally: Sell the news or hold after Jensen Huang's reinstatement",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-rally-sell-news-153217792.html?.tsrc=rss",
-      "date": "2026-11-23T15:32:17.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why stocks are having their wildest Monday morning since 2008",
-      "link": "https://finance.yahoo.com/markets/article/why-stocks-are-having-their-wildest-monday-morning-since-2008-153100381.html?.tsrc=rss",
-      "date": "2026-11-23T15:31:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Europe's STOXX 600 rises as tech shares rebound after AI-driven rout",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-recover-after-steep-technologyled-selloff-5044629",
-      "date": "2026-11-23T15:30:27.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "BC-Most Active Stocks",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153020024.html?.tsrc=rss",
-      "date": "2026-11-23T15:30:20.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Turkey stocks lower at close of trade; BIST 100 down 0.24%",
-      "link": "https://www.investing.com/news/stock-market-news/turkey-stocks-lower-at-close-of-trade-bist-100-down-024-5045989",
-      "date": "2026-11-23T15:30:04.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why SpaceX Stock Is Gaining Today",
-      "link": "https://www.fool.com/investing/2026/11/23/why-spacex-stock-is-gaining-today/?.tsrc=rss",
-      "date": "2026-11-23T15:30:01.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia shares surge 35% as board announces Jensen Huang's reinstatement",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-5045795",
-      "date": "2026-11-23T15:29:54.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Nvidia Faces November 25 Deadline -- Treasury Says Chipmaker Has Yet to Answer China Probe",
-      "link": "https://finance.yahoo.com/technology/articles/nvidia-faces-november-25-deadline-152916711.html?.tsrc=rss",
-      "date": "2026-11-23T15:29:16.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Eagle Nuclear Energy stock rises on Russell Microcap addition",
-      "link": "https://www.investing.com/news/stock-market-news/eagle-nuclear-energy-stock-rises-on-russell-microcap-addition-5045988",
-      "date": "2026-11-23T15:28:09.000Z",
-      "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "Jensen Huang's Return Just Gave Nvidia the Biggest One-Day Dollar Gain in Stock Market History, and History Says This Is What Comes Next",
-      "link": "https://247wallst.com/investing/2026/11/23/jensen-huangs-return-just-gave-nvidia-the-biggest-one-day-dollar-gain-in-stock-market-history-and-history-says-this-is-what-comes-next/?.tsrc=rss",
-      "date": "2026-11-23T15:43:00.000Z",
+      "title": "Nvidia's $115B neocloud exposure and what its backstops really cover",
+      "link": "https://finance.yahoo.com/video/nvidias-115b-neocloud-exposure-and-what-its-backstops-really-cover-154907019.html?.tsrc=rss",
+      "date": "2026-11-23T15:49:07.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Europe's STOXX 600 rises as tech shares rebound after AI-driven rout",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-recover-after-steep-technologyled-selloff-5044629",
-      "date": "2026-11-23T15:30:27.000Z",
+      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
+      "date": "2026-11-23T15:48:38.000Z",
       "source": "Investing.com"
     },
     {

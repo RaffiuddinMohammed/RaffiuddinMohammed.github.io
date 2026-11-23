@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T15:50:45.026Z",
+  "updated": "2026-11-23T16:04:48.984Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,23 +5944,23 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 254,
+      "totalStories": 252,
       "sections": [
         {
           "name": "UK",
           "count": 24
         },
         {
+          "name": "Business",
+          "count": 19
+        },
+        {
           "name": "World",
           "count": 18
         },
         {
-          "name": "Business",
-          "count": 18
-        },
-        {
           "name": "Science",
-          "count": 7
+          "count": 8
         },
         {
           "name": "Health",
@@ -5968,11 +5968,11 @@
         },
         {
           "name": "Politics",
-          "count": 4
+          "count": 5
         },
         {
           "name": "Technology",
-          "count": 4
+          "count": 5
         }
       ],
       "topWords": [
@@ -5986,7 +5986,7 @@
         },
         {
           "word": "tech",
-          "count": 13
+          "count": 12
         },
         {
           "word": "health",
@@ -6061,9 +6061,10 @@
           "name": "United States",
           "lat": 39,
           "lon": -98,
-          "count": 12,
+          "count": 13,
           "bySection": {
             "Business": 5,
+            "UK": 1,
             "World": 3,
             "Science": 2,
             "Technology": 1,
@@ -6075,6 +6076,12 @@
               "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
               "section": "Business",
               "date": "2026-11-23T15:15:48.000Z"
+            },
+            {
+              "title": "US rapper postpones O2 arena show after Manchester evacuation",
+              "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-23T14:42:46.000Z"
             },
             {
               "title": "Catering giant to switch main share listing to US in further blow to UK",
@@ -6093,12 +6100,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cwe9k23dpz0do?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-21T22:01:19.000Z"
-            },
-            {
-              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-21T10:26:36.000Z"
             }
           ]
         },
@@ -6329,7 +6330,7 @@
           },
           "stories": [
             {
-              "title": "Flights and train services cancelled in Belgium due to strike",
+              "title": "Flights cancelled in Belgium due to cost-of-living strike",
               "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-23T13:34:02.000Z"
@@ -6560,6 +6561,16 @@
       ],
       "topHeadlines": [
         {
+          "title": "The rise and fall and rise again of Jensen Huang",
+          "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
+          "title": "Village's concern over sewage discharge in dry river",
+          "link": "https://www.bbc.co.uk/news/articles/c60rkq78g05vo?at_medium=RSS&at_campaign=rss",
+          "section": "Science"
+        },
+        {
           "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
           "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
           "section": "World"
@@ -6570,36 +6581,26 @@
           "section": "Business"
         },
         {
-          "title": "Jury out in train stabbing attempted murder trial",
-          "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
+          "title": "Girl, 14, stabbed 55 times by 14-year-old boy, murder trial told",
+          "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Mother and son riot ringleaders jailed for 'disgraceful' acts",
-          "link": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "How important are Nvidia and Jensen Huang to the US economy?",
-          "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang Reinstated as Nvidia CEO",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "points": 1384
+          "points": 1461
         },
         {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 728
+          "points": 735
         },
         {
           "title": "Perplexity and Intelligence",
           "url": "https://openai.com/index/perplexity-and-intelligence/",
-          "points": 649
+          "points": 651
         }
       ]
     }

@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-23T15:46:19.906Z",
-  "totalStories": 254,
+  "updated": "2026-11-23T15:58:02.653Z",
+  "totalStories": 252,
   "sections": [
     {
       "name": "UK",
       "count": 24
     },
     {
+      "name": "Business",
+      "count": 19
+    },
+    {
       "name": "World",
       "count": 18
     },
     {
-      "name": "Business",
-      "count": 18
-    },
-    {
       "name": "Science",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Health",
@@ -24,11 +24,11 @@
     },
     {
       "name": "Politics",
-      "count": 4
+      "count": 5
     },
     {
       "name": "Technology",
-      "count": 4
+      "count": 5
     }
   ],
   "topWords": [
@@ -42,7 +42,7 @@
     },
     {
       "word": "tech",
-      "count": 13
+      "count": 12
     },
     {
       "word": "health",
@@ -151,9 +151,10 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 12,
+      "count": 13,
       "bySection": {
         "Business": 5,
+        "UK": 1,
         "World": 3,
         "Science": 2,
         "Technology": 1,
@@ -165,6 +166,12 @@
           "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-23T15:15:48.000Z"
+        },
+        {
+          "title": "US rapper postpones O2 arena show after Manchester evacuation",
+          "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-23T14:42:46.000Z"
         },
         {
           "title": "Catering giant to switch main share listing to US in further blow to UK",
@@ -201,12 +208,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-20T20:54:12.000Z"
-        },
-        {
-          "title": "White House removes cyber-security chief after series of tech outages",
-          "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
-          "section": "Technology",
-          "date": "2026-11-20T19:03:56.000Z"
         }
       ]
     },
@@ -443,7 +444,7 @@
       },
       "stories": [
         {
-          "title": "Flights and train services cancelled in Belgium due to strike",
+          "title": "Flights cancelled in Belgium due to cost-of-living strike",
           "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-23T13:34:02.000Z"
@@ -674,6 +675,18 @@
   ],
   "latest": [
     {
+      "title": "The rise and fall and rise again of Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:49:52.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Village's concern over sewage discharge in dry river",
+      "link": "https://www.bbc.co.uk/news/articles/c60rkq78g05vo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:48:07.000Z",
+      "section": "Science"
+    },
+    {
       "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
       "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T15:41:23.000Z",
@@ -684,6 +697,12 @@
       "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T15:39:41.000Z",
       "section": "Business"
+    },
+    {
+      "title": "Girl, 14, stabbed 55 times by 14-year-old boy, murder trial told",
+      "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:36:17.000Z",
+      "section": "UK"
     },
     {
       "title": "Jury out in train stabbing attempted murder trial",
@@ -716,33 +735,15 @@
       "section": "Business"
     },
     {
+      "title": "US rapper postpones O2 arena show after Manchester evacuation",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T14:42:46.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works",
       "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T14:30:04.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Presidential villa suffers water and power cuts, Nigerian leader says",
-      "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:26:33.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Burnham rejects EU deal criticism from former PMs",
-      "link": "https://www.bbc.co.uk/news/videos/cjdx1v0dp6pdo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:10:56.000Z",
-      "section": "Politics"
-    },
-    {
-      "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-      "link": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:08:50.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Welsh Greens back plan to separate from English party",
-      "link": "https://www.bbc.co.uk/news/articles/cjy5xewrw657o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:01:33.000Z",
       "section": "UK"
     }
   ]

@@ -1,6 +1,11 @@
 {
-  "updated": "2026-11-23T15:50:45.540Z",
+  "updated": "2026-11-23T16:04:49.409Z",
   "breaking": [
+    {
+      "title": "The rise and fall and rise again of Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo",
+      "date": "2026-11-23T15:49:52.000Z"
+    },
     {
       "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
       "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
@@ -10,11 +15,6 @@
       "title": "Jury out in train stabbing attempted murder trial",
       "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo",
       "date": "2026-11-23T15:24:33.000Z"
-    },
-    {
-      "title": "Raya to miss Dortmund game but injury 'not serious'",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo",
-      "date": "2026-11-23T15:23:09.000Z"
     }
   ],
   "latest": [
@@ -51,24 +51,24 @@
   ],
   "business": [
     {
-      "source": "BBC Business",
-      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
-      "date": "2026-11-23T15:39:41.000Z",
+      "source": "MarketWatch",
+      "title": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy.",
+      "link": "https://www.marketwatch.com/story/the-surprising-reason-businesses-cant-keep-up-with-customer-demand-hint-its-not-just-a-strong-u-s-economy-70be4a01?mod=mw_rss_topstories",
+      "date": "2026-11-23T16:03:00.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Europe’s STOXX 600 rises as tech shares rebound after AI-driven rout",
-      "link": "https://www.investing.com/news/stock-market-news/european-stocks-recover-after-steep-technologyled-selloff-5044629",
-      "date": "2026-11-23T15:30:27.000Z",
-      "breaking": false
+      "title": "Why is Taiwan Semiconductor Manufacturing stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-5046019",
+      "date": "2026-11-23T15:52:54.000Z",
+      "breaking": true
     },
     {
-      "source": "MarketWatch",
-      "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
-      "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
-      "date": "2026-11-23T15:15:00.000Z",
+      "source": "BBC Business",
+      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
+      "date": "2026-11-23T15:39:41.000Z",
       "breaking": false
     },
     {
@@ -87,10 +87,10 @@
     },
     {
       "source": "Investing.com",
-      "title": "Turkey stocks lower at close of trade; BIST 100 down 0.24%",
-      "link": "https://www.investing.com/news/stock-market-news/turkey-stocks-lower-at-close-of-trade-bist-100-down-024-5045989",
-      "date": "2026-11-23T15:30:04.000Z",
-      "breaking": false
+      "title": "Why is Western Digital stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-surging-today-93CH-5046016",
+      "date": "2026-11-23T15:50:07.000Z",
+      "breaking": true
     },
     {
       "source": "BBC Business",
@@ -101,9 +101,9 @@
     },
     {
       "source": "MarketWatch",
-      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
-      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:39:00.000Z",
+      "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
+      "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+      "date": "2026-11-23T15:15:00.000Z",
       "breaking": false
     },
     {
@@ -122,16 +122,16 @@
     },
     {
       "source": "Investing.com",
-      "title": "Nvidia shares surge 35% as board announces Jensen Huang’s reinstatement",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-5045795",
-      "date": "2026-11-23T15:29:54.000Z",
+      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
+      "date": "2026-11-23T15:48:38.000Z",
       "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
-      "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:37:00.000Z",
+      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:39:00.000Z",
       "breaking": false
     }
   ],
@@ -144,6 +144,20 @@
       "source": "BBC"
     },
     {
+      "term": "Uk Eu Post Brexit Relationship Reset",
+      "traffic": "1000+",
+      "title": "Burnham setting out new UK-EU deal in the House of Commons",
+      "link": "https://www.bbc.co.uk/news/live/c65y195llkvyt",
+      "source": "BBC"
+    },
+    {
+      "term": "Eugene Laverty",
+      "traffic": "500+",
+      "title": "Eugene Laverty: County Antrim man to make shock return in 2027",
+      "link": "https://www.bbc.co.uk/sport/motorsport/articles/c9rkg2jzpx43o",
+      "source": "BBC"
+    },
+    {
       "term": "Al-Shamal Vs Al-Ahli",
       "traffic": "200+",
       "title": "\"Yesterday's friend\": Riyad Mahrez surprises Al-Ahli players before Al-Shamal clash",
@@ -151,24 +165,10 @@
       "source": "LiveScore"
     },
     {
-      "term": "Xabi Alonso",
-      "traffic": "200+",
-      "title": "'Fragile' and 'miles off it' - Alonso's Chelsea honeymoon is over",
-      "link": "https://www.bbc.com/sport/football/articles/cwe8944d004yo",
-      "source": "BBC"
-    },
-    {
       "term": "Next Vendor Cyber Security Breach",
       "traffic": "200+",
       "title": "Next data accessed in cyber breach",
       "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo",
-      "source": "BBC"
-    },
-    {
-      "term": "Dow Jones Index",
-      "traffic": "200+",
-      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
-      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo",
       "source": "BBC"
     }
   ]
