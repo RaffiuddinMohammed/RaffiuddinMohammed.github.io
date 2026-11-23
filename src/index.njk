@@ -74,7 +74,7 @@ description: "Raffiuddin Mohammed, London: delivery lead, project manager, Scrum
     <li class="reveal">
       <div class="tl-head">
         <h3>{{ job.role }}{% if job.draft %} <span class="draft-badge">Draft</span>{% endif %}</h3>
-        <span class="tl-meta">{% if job.logos %}<span class="co-logos">{% for l in job.logos %}{% if l.text %}<span class="co-logo mono" role="img" aria-label="{{ l.alt }}">{{ l.text }}</span>{% else %}<img class="co-logo{% if l.square %} sq{% endif %}" src="{{ l.src }}" alt="{{ l.alt }}" loading="lazy" decoding="async">{% endif %}{% endfor %}</span>{% endif %}<b>{{ job.org }}</b> · {{ job.dates }}{% if job.place %} · {{ job.place }}{% endif %}</span>
+        <span class="tl-meta">{% if job.logos %}<span class="co-logos">{% for l in job.logos %}{% if l.text %}<span class="co-logo mono" role="img" aria-label="{{ l.alt }}">{{ l.text }}</span>{% else %}<img class="co-logo{% if l.square %} sq{% endif %}" src="{{ l.src }}" alt="{{ l.alt }}" loading="lazy" decoding="async">{% endif %}{% endfor %}</span>{% endif %}{% if job.url %}<a class="co-link" href="{{ job.url }}" target="_blank" rel="noopener" aria-label="{{ job.org }} website (opens in a new tab)">{% endif %}<b>{{ job.org }}</b>{% if job.url %}<span class="ext" aria-hidden="true">↗</span></a>{% endif %} · {{ job.dates }}{% if job.place %} · {{ job.place }}{% endif %}</span>
       </div>
       {% if job.points and job.points.length %}<ul>{% for p in job.points %}<li>{{ p }}</li>{% endfor %}</ul>{% endif %}
     </li>
