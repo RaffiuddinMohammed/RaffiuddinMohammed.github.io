@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-23T14:53:24.880Z",
+  "updated": "2026-11-23T15:17:00.305Z",
   "breaking": [
+    {
+      "title": "UK to host 2035 Women's World Cup, Fifa confirms",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
+      "date": "2026-11-23T15:09:50.000Z"
+    },
+    {
+      "title": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
+      "date": "2026-11-23T15:09:50.000Z"
+    },
     {
       "title": "US rapper Don Toliver postpones O2 arena show after Manchester evacuation",
       "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
       "date": "2026-11-23T14:42:46.000Z"
-    },
-    {
-      "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works",
-      "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo",
-      "date": "2026-11-23T14:30:04.000Z"
-    },
-    {
-      "title": "England's tearaway quick bowler reinvented as a top-order batter",
-      "link": "https://www.bbc.co.uk/sport/cricket/articles/cqlym8r7jvd5o",
-      "date": "2026-11-23T14:26:27.000Z"
     }
   ],
   "latest": [
@@ -24,14 +24,14 @@
       "date": "2026-11-23T11:40:01.000Z"
     },
     {
+      "title": "How Ukraine drone attacks on Russian ships unfolded",
+      "link": "https://www.bbc.co.uk/news/videos/c3y0xjqxy871o",
+      "date": "2026-11-23T14:16:36.000Z"
+    },
+    {
       "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
       "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
       "date": "2026-11-23T11:57:33.000Z"
-    },
-    {
-      "title": "Tyson Fury reveals schizophrenia diagnosis",
-      "link": "https://www.bbc.co.uk/sport/boxing/articles/c6y80n3dn15yo",
-      "date": "2026-11-23T09:53:52.000Z"
     },
     {
       "title": "Five takeaways from the failed climate talks COP31",
@@ -39,14 +39,14 @@
       "date": "2026-11-23T06:33:50.000Z"
     },
     {
-      "title": "NHS launches world's largest AI breast cancer screening trial",
-      "link": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo",
-      "date": "2026-11-23T00:49:22.000Z"
-    },
-    {
       "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
       "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo",
       "date": "2026-11-23T13:09:52.000Z"
+    },
+    {
+      "title": "Poundland is facing collapse - what's gone wrong?",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o",
+      "date": "2026-11-23T10:09:25.000Z"
     }
   ],
   "business": [
@@ -55,14 +55,14 @@
       "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
       "link": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-11-23T14:47:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
       "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
       "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
       "date": "2026-11-23T14:39:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Investing.com",
@@ -137,39 +137,39 @@
   ],
   "trending": [
     {
-      "term": "Nasdaq",
+      "term": "Dow Jones",
       "traffic": "2000+",
-      "title": "Nvidia shares surge 30% as Jensen Huang‘s return as CEO adds more than $900bn to company’s value – business live",
-      "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates",
-      "source": "The Guardian"
+      "title": "Futures rally after Wall Street's nightmare week",
+      "link": "https://www.cnbc.com/2026/11/23/futures-rally-after-wall-streets-nightmare-week-.html",
+      "source": "CNBC"
     },
     {
-      "term": "S&P 500",
-      "traffic": "2000+",
-      "title": "Nvidia shares soar 30% after board reinstates Jensen Huang",
-      "link": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
-      "source": "Financial Times"
+      "term": "Eugene Laverty",
+      "traffic": "200+",
+      "title": "Ex-MotoGP, World Superbike rider makes shock racing return in BSB with Ducati",
+      "link": "https://www.crash.net/bsb/news/1110842/1/ex-motogp-world-superbike-rider-makes-shock-racing-return-bsb-ducati",
+      "source": "Crash.net"
     },
     {
-      "term": "Amd Stock",
-      "traffic": "500+",
-      "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-nvidia-stock-prices-160402811.html",
+      "term": "Google Stock",
+      "traffic": "200+",
+      "title": "Prediction: Here’s Where Alphabet Stock Will Be in 5 Years",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-where-alphabet-stock-5-081002070.html",
       "source": "Yahoo Finance"
     },
     {
-      "term": "Nasdaq 100",
-      "traffic": "500+",
-      "title": "Nasdaq 100: AI Valuation Fears Meet Thanksgiving Seasonality",
-      "link": "https://www.stonex.com/en-gb/news-and-analysis/nasdaq-100-ai-valuation-fears-meet-thanksgiving-seasonality-2026-11-23/",
-      "source": "StoneX"
+      "term": "Micron Share Price",
+      "traffic": "200+",
+      "title": "Prediction: This Will Be Micron’s Stock Price by the End of 2028",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-price-end-143502058.html",
+      "source": "Yahoo Finance"
     },
     {
-      "term": "Marsala",
-      "traffic": "500+",
-      "title": "Pallacanestro Marsala sconfitta a Comiso",
-      "link": "https://www.siciliaogginotizie.it/2026/11/23/pallacanestro-marsala-sconfitta-a-comiso/",
-      "source": "Sicilia Oggi Notizie"
+      "term": "Qqq",
+      "traffic": "200+",
+      "title": "$QQQ: For the first time since the lows of September 2022",
+      "link": "https://www.kucoin.com/news/insight/QQQ/6b0405bb9278e40007d926e6",
+      "source": "KuCoin"
     }
   ]
 }

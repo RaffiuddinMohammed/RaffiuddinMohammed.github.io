@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T14:53:24.453Z",
+  "updated": "2026-11-23T15:17:00.016Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,7 +5944,7 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 254,
+      "totalStories": 253,
       "sections": [
         {
           "name": "UK",
@@ -5956,7 +5956,7 @@
         },
         {
           "name": "Business",
-          "count": 15
+          "count": 16
         },
         {
           "name": "Science",
@@ -5968,7 +5968,7 @@
         },
         {
           "name": "Politics",
-          "count": 3
+          "count": 4
         },
         {
           "name": "Technology",
@@ -6061,15 +6061,21 @@
           "name": "United States",
           "lat": 39,
           "lon": -98,
-          "count": 11,
+          "count": 12,
           "bySection": {
-            "Business": 4,
+            "Business": 5,
             "World": 3,
             "Science": 2,
             "Technology": 1,
             "Health": 1
           },
           "stories": [
+            {
+              "title": "US government reassured Nvidia board over Huang",
+              "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-23T14:51:05.000Z"
+            },
             {
               "title": "Catering giant to switch main share listing to US in further blow to UK",
               "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
@@ -6093,12 +6099,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-21T10:26:36.000Z"
-            },
-            {
-              "title": "Birds killed in blaze at one of the largest foie gras farms in the US",
-              "link": "https://www.bbc.co.uk/news/articles/cq4gn0dg9194o?at_medium=RSS&at_campaign=rss",
-              "section": "Science",
-              "date": "2026-11-20T22:57:26.000Z"
             }
           ]
         },
@@ -6198,7 +6198,7 @@
               "title": "Mexican soldiers attacked in wake of drug lord's arrest",
               "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-23T13:26:36.000Z"
+              "date": "2026-11-23T14:54:03.000Z"
             },
             {
               "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
@@ -6577,6 +6577,16 @@
       ],
       "topHeadlines": [
         {
+          "title": "Mexican soldiers attacked in wake of drug lord's arrest",
+          "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "US government reassured Nvidia board over Huang",
+          "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
           "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works",
           "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
@@ -6590,33 +6600,23 @@
           "title": "Burnham rejects EU deal criticism from former PMs",
           "link": "https://www.bbc.co.uk/news/videos/cjdx1v0dp6pdo?at_medium=RSS&at_campaign=rss",
           "section": "Politics"
-        },
-        {
-          "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
-          "link": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "Welsh Greens back plan to separate from English party",
-          "link": "https://www.bbc.co.uk/news/articles/cjy5xewrw657o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang Reinstated as Nvidia CEO",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "points": 786
+          "points": 1074
         },
         {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 691
+          "points": 710
         },
         {
           "title": "Perplexity and Intelligence",
           "url": "https://openai.com/index/perplexity-and-intelligence/",
-          "points": 637
+          "points": 641
         }
       ]
     }

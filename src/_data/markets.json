@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23T14:45:33.376Z",
-  "headlineCount": 62,
+  "updated": "2026-11-23T15:10:11.182Z",
+  "headlineCount": 66,
   "sources": [
     {
       "name": "CNBC",
-      "count": 6
+      "count": 5
     },
     {
       "name": "Yahoo Finance",
-      "count": 27
+      "count": 31
     },
     {
       "name": "MarketWatch",
@@ -16,20 +16,20 @@
     },
     {
       "name": "Investing.com",
-      "count": 19
+      "count": 20
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 10
-    },
-    {
-      "name": "Interest rates",
-      "count": 3
+      "count": 8
     },
     {
       "name": "Earnings",
+      "count": 4
+    },
+    {
+      "name": "Interest rates",
       "count": 3
     },
     {
@@ -41,15 +41,15 @@
       "count": 1
     },
     {
-      "name": "Crypto",
-      "count": 1
-    },
-    {
       "name": "Trade and tariffs",
       "count": 0
     },
     {
       "name": "Oil and energy",
+      "count": 0
+    },
+    {
+      "name": "Crypto",
       "count": 0
     },
     {
@@ -89,6 +89,108 @@
   ],
   "latest": [
     {
+      "title": "Dow Jumps Over 1,300 Points, Nasdaq Surges Nearly 7% As Jensen Huang's Return Lifts Market Sentiment",
+      "link": "https://stocktwits.com/news-articles/markets/equity/dow-jumps-over-1-300-points-nasdaq-surges-nearly-7-as-jensen-huang-s-return-lifts-market-sentiment/cNbpPZhR9ja?.tsrc=rss",
+      "date": "2026-11-23T14:52:09.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia Stock Delivers Biggest Gain in 23 Years as Huang Returns",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-delivers-biggest-gain-145043315.html?.tsrc=rss",
+      "date": "2026-11-23T14:50:43.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang is back — so are the national security questions",
+      "link": "https://finance.yahoo.com/video/jensen-huang-is-back--so-are-the-national-security-questions-145023153.html?.tsrc=rss",
+      "date": "2026-11-23T14:50:23.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Will Costco Do a Stock Split Before the End of 2026?",
+      "link": "https://www.fool.com/investing/2026/11/23/will-costco-do-a-stock-split-before-the-end-of-2026/?.tsrc=rss",
+      "date": "2026-11-23T14:50:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "This Tech Wreck Looks Just Like 2018. Back Then, Here's What Happened Next.",
+      "link": "https://www.fool.com/investing/2026/11/23/this-tech-wreck-looks-just-like-2018-back-then-here-s-what-happened-next/?.tsrc=rss",
+      "date": "2026-11-23T14:50:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Trump Hails Nvidia's Jensen Huang Comeback as Major Questions Remain",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/trump-hails-nvidias-jensen-huang-144921074.html?.tsrc=rss",
+      "date": "2026-11-23T14:49:21.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Trump praises 'correct and proper' return of Nvidia's Jensen Huang",
+      "link": "https://www.usatoday.com/story/news/politics/2026/11/23/trump-praises-jensen-huang-return-nvidia-ceo/92923655007/?.tsrc=rss",
+      "date": "2026-11-23T14:47:56.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Are Trump and Elon Musk responsible for Jensen Huang's return?",
+      "link": "https://finance.yahoo.com/video/are-trump-and-elon-musk-responsible-for-jensen-huangs-return-144602397.html?.tsrc=rss",
+      "date": "2026-11-23T14:46:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Will Pfizer Stock Ever Get Back To Its Old High?",
+      "link": "https://www.trefis.com/stock/pfe/articles/627687/will-pfizer-stock-ever-get-back-to-its-old-high/2026-11-23?.tsrc=rss",
+      "date": "2026-11-23T14:45:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "What Triggered The Fall In Applied Materials Stock?",
+      "link": "https://www.trefis.com/stock/amat/articles/627792/what-triggered-the-fall-in-applied-materials-stock/2026-11-23?.tsrc=rss",
+      "date": "2026-11-23T14:45:18.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang Returns As Nvidia CEO In Stunning Reversal. Shares Surge More Than 30%.",
+      "link": "https://www.ibtimes.com/nvidia-reinstates-jensen-huang-ceo-3810085?.tsrc=rss",
+      "date": "2026-11-23T14:43:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "The ETF That Copies Republican Lawmakers' Stock Trades Used to Be Called KRUZ. Now the Ticker Is Simply GOP",
+      "link": "https://247wallst.com/investing/etf/2026/11/23/the-etf-that-copies-republican-lawmakers-stock-trades-used-to-be-called-kruz-now-the-ticker-is-simply-gop/?.tsrc=rss",
+      "date": "2026-11-23T14:43:08.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Even If Sandisk's Profits Get Cut in Half, Here's What $5,000 in the Stock Could Be Worth by 2030",
+      "link": "https://www.fool.com/investing/2026/11/23/even-if-sandisk-s-profits-get-cut-in-half-here-s-what-usd5-000-in-the-stock-could-be-worth-by-2030/?.tsrc=rss",
+      "date": "2026-11-23T14:43:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Should You Buy Walmart Stock Now or Wait for a Dip?",
+      "link": "https://www.fool.com/investing/2026/11/23/should-you-buy-walmart-stock-now-or-wait-for-a-dip/?.tsrc=rss",
+      "date": "2026-11-23T14:42:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang Reinstated as Nvidia CEO Days After Board Said They Had No Plans to Bring Him Back",
+      "link": "https://firstformoney.com/jensen-huang-reinstated-as-nvidia-ceo-days-after-board-said-they-had-no-plans-to-bring-him-back/?.tsrc=rss",
+      "date": "2026-11-23T14:40:20.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia stock soars after Jensen Huang reinstated",
+      "link": "https://www.axios.com/2026/11/23/nvidia-stock-jensen-huang#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss",
+      "date": "2026-11-23T14:40:10.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "U.S. Stocks Soar On News Jensen Huang Is Back As Nvidia's CEO",
+      "link": "https://www.cryptoprowl.com/releases/us-stocks-soar-on-news-jensen-huang-is-back-as-nvidias-ceo-8027?.tsrc=rss",
+      "date": "2026-11-23T14:40:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
       "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
       "date": "2026-11-23T14:39:00.000Z",
@@ -101,131 +203,29 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
-      "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
+      "title": "Jensen Huang Has Used the Phrase '30 Days From Going Out of Business' for 33 Years. Today Nvidia Gave Him His Job Back",
+      "link": "https://247wallst.com/investing/2026/11/23/jensen-huang-has-used-the-phrase-30-days-from-going-out-of-business-for-33-years-today-nvidia-gave-him-his-job-back/?.tsrc=rss",
       "date": "2026-11-23T14:37:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week",
-      "link": "https://finance.yahoo.com/markets/article/jensen-huang-is-back-as-nvidia-ceo-after-12-days--steve-jobs-needed-12-years-sam-altman-less-than-a-week-143608266.html?.tsrc=rss",
-      "date": "2026-11-23T14:36:08.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Bitcoin Tops $63,000 as Nvidia Brings Back Jensen Huang and Tech Shares Rally",
-      "link": "https://unchainedcrypto.com/bitcoin-tops-63000-as-nvidia-brings-back-jensen-huang-and-tech-shares-rally/?.tsrc=rss",
-      "date": "2026-11-23T14:35:19.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Trump celebrates Jensen Huang's return after the White House amped up its push for reinstatement",
-      "link": "https://finance.yahoo.com/markets/article/trump-celebrates-jensen-huangs-return-after-the-white-house-amped-up-its-push-for-reinstatement-143505812.html?.tsrc=rss",
-      "date": "2026-11-23T14:35:05.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/?.tsrc=rss",
-      "date": "2026-11-23T14:34:46.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia re-appoints Jensen Huang as CEO after affair scandal",
-      "link": "https://www.independent.co.uk/tech/nvidia-jensen-huang-ceo-b3089946.html?.tsrc=rss",
-      "date": "2026-11-23T14:34:40.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Wall Street Is Watching AI Stocks. But This Stock Could Be a Bigger Nuclear Energy Opportunity",
-      "link": "https://247wallst.com/investing/2026/11/23/wall-street-is-watching-ai-stocks-but-this-stock-could-be-a-bigger-nuclear-energy-opportunity/?.tsrc=rss",
-      "date": "2026-11-23T14:33:23.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
-      "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:33:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as CEO 11 days after he resigned",
-      "link": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned?.tsrc=rss",
-      "date": "2026-11-23T14:30:19.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Compass Group's US listing plans could unlock further value, Jefferies suggests",
-      "link": "https://www.proactiveinvestors.com/companies/news/1102263/compass-group-s-us-listing-plans-could-unlock-further-value-jefferies-suggests-1102263.html?.tsrc=rss",
-      "date": "2026-11-23T14:30:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "5 things to consider as Nvidia restores Jensen Huang as the company's leader",
-      "link": "https://finance.yahoo.com/markets/stocks/article/5-things-to-consider-as-nvidia-restores-jensen-huang-as-the-companys-leader-142904538.html?.tsrc=rss",
-      "date": "2026-11-23T14:29:04.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Jensen Huang Back As Nvidia CEO. Stock Jumps.",
-      "link": "https://finance.yahoo.com/m/9d4f41fa-65db-3d79-8406-bd396f20b522/jensen-huang-back-as-nvidia.html?.tsrc=rss",
-      "date": "2026-11-23T14:27:35.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia Stock Jumped on Trump's Call to Rehire Jensen Huang. Don't Count on it Happening.",
-      "link": "https://www.fool.com/investing/2026/11/23/nvidia-stock-jumped-on-trump-s-call-to-rehire-jensen-huang-don-t-bet-on-it-happening/?.tsrc=rss",
-      "date": "2026-11-23T14:26:56.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nasdaq 100 Futures Surge 6% as Nvidia Reinstates Jensen Huang, Sparking Wall Street Rebound: Dow Jones, S&P, Wall Street",
-      "link": "https://investorshub.advfn.com/market-news/article/40543/nasdaq-100-futures-surge-6-as-nvidia-reinstates-jensen-huang-sparking-wall-street-rebound-dow-jones-sp-wall-street?.tsrc=rss",
-      "date": "2026-11-23T14:25:22.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Jensen Huang Returns to Nvidia",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-142039189.html?.tsrc=rss",
-      "date": "2026-11-23T14:20:39.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Sector Update: Consumer Stocks Mixed Premarket Monday",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-premarket-141547621.html?.tsrc=rss",
-      "date": "2026-11-23T14:15:47.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
-      "link": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/?.tsrc=rss",
-      "date": "2026-11-23T14:15:17.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:15:00.000Z",
-      "source": "MarketWatch"
     }
   ],
   "featured": [
     {
+      "title": "Dow Jumps Over 1,300 Points, Nasdaq Surges Nearly 7% As Jensen Huang's Return Lifts Market Sentiment",
+      "link": "https://stocktwits.com/news-articles/markets/equity/dow-jumps-over-1-300-points-nasdaq-surges-nearly-7-as-jensen-huang-s-return-lifts-market-sentiment/cNbpPZhR9ja?.tsrc=rss",
+      "date": "2026-11-23T14:52:09.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
       "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
       "date": "2026-11-23T14:39:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Jensen Huang's return as Nvidia CEO will likely result in a flurry of lawsuits",
-      "link": "https://finance.yahoo.com/video/jensen-huangs-return-as-nvidia-ceo-will-likely-result-in-a-flurry-of-lawsuits-143725758.html?.tsrc=rss",
-      "date": "2026-11-23T14:37:25.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nasdaq 100 futures extend gains, soar over 6% as Nvidia reinstates Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
-      "date": "2026-11-23T14:03:49.000Z",
+      "title": "Nvidia reinstates Jensen Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
+      "date": "2026-11-23T14:06:22.000Z",
       "source": "Investing.com"
     }
   ],

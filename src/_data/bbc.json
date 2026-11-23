@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T14:45:34.392Z",
-  "totalStories": 254,
+  "updated": "2026-11-23T15:10:11.907Z",
+  "totalStories": 253,
   "sections": [
     {
       "name": "UK",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 15
+      "count": 16
     },
     {
       "name": "Science",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Politics",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Technology",
@@ -77,7 +77,7 @@
       "count": 6
     },
     {
-      "word": "anthropic",
+      "word": "science",
       "count": 6
     }
   ],
@@ -151,15 +151,21 @@
       "name": "United States",
       "lat": 39,
       "lon": -98,
-      "count": 11,
+      "count": 12,
       "bySection": {
-        "Business": 4,
+        "Business": 5,
         "World": 3,
         "Science": 2,
         "Technology": 1,
         "Health": 1
       },
       "stories": [
+        {
+          "title": "US government reassured Nvidia board over Huang",
+          "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
+          "section": "Business",
+          "date": "2026-11-23T14:51:05.000Z"
+        },
         {
           "title": "Catering giant to switch main share listing to US in further blow to UK",
           "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
@@ -201,12 +207,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo?at_medium=RSS&at_campaign=rss",
           "section": "Technology",
           "date": "2026-11-20T19:03:56.000Z"
-        },
-        {
-          "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
-          "link": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o?at_medium=RSS&at_campaign=rss",
-          "section": "Science",
-          "date": "2026-11-19T02:59:06.000Z"
         }
       ]
     },
@@ -312,7 +312,7 @@
           "title": "Mexican soldiers attacked in wake of drug lord's arrest",
           "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-23T13:26:36.000Z"
+          "date": "2026-11-23T14:54:03.000Z"
         },
         {
           "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
@@ -691,6 +691,18 @@
   ],
   "latest": [
     {
+      "title": "Mexican soldiers attacked in wake of drug lord's arrest",
+      "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T14:54:03.000Z",
+      "section": "World"
+    },
+    {
+      "title": "US government reassured Nvidia board over Huang",
+      "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T14:51:05.000Z",
+      "section": "Business"
+    },
+    {
       "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works",
       "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T14:30:04.000Z",
@@ -745,22 +757,10 @@
       "section": "World"
     },
     {
-      "title": "Mexican soldiers attacked in wake of drug lord's arrest",
-      "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:26:36.000Z",
-      "section": "World"
-    },
-    {
       "title": "Pip assessments need 'fundamental overhaul', report to say",
       "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T13:20:32.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:02:05.000Z",
-      "section": "World"
     }
   ]
 }
