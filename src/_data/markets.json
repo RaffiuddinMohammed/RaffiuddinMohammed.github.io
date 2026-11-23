@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T16:09:41.333Z",
-  "headlineCount": 64,
+  "updated": "2026-11-23T16:16:21.064Z",
+  "headlineCount": 63,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 29
+      "count": 28
     },
     {
       "name": "MarketWatch",
@@ -29,11 +29,11 @@
       "count": 5
     },
     {
-      "name": "Inflation",
-      "count": 2
+      "name": "Earnings",
+      "count": 3
     },
     {
-      "name": "Earnings",
+      "name": "Inflation",
       "count": 2
     },
     {
@@ -41,8 +41,8 @@
       "count": 1
     },
     {
-      "name": "Trade and tariffs",
-      "count": 0
+      "name": "Jobs",
+      "count": 1
     },
     {
       "name": "Oil and energy",
@@ -60,39 +60,63 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 13
+      "count": 14
+    },
+    {
+      "name": "Microsoft",
+      "count": 3
     },
     {
       "name": "Apple",
       "count": 1
     },
     {
-      "name": "Amazon",
+      "name": "Meta",
       "count": 1
     },
     {
-      "name": "Microsoft",
-      "count": 0
+      "name": "Tesla",
+      "count": 1
     },
     {
       "name": "Alphabet",
       "count": 0
     },
     {
-      "name": "Meta",
-      "count": 0
-    },
-    {
-      "name": "Tesla",
+      "name": "Amazon",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Wall Street Is Focused on AI Software. But the Real Money Could Be Made Somewhere Else",
-      "link": "https://247wallst.com/investing/2026/11/23/wall-street-is-focused-on-ai-software-but-the-real-money-could-be-made-somewhere-else/?.tsrc=rss",
-      "date": "2026-11-23T16:03:55.000Z",
-      "source": "Yahoo Finance"
+      "title": "BWXT stock surges on Westinghouse AP1000 manufacturing deal",
+      "link": "https://www.investing.com/news/stock-market-news/bwxt-stock-surges-on-westinghouse-ap1000-manufacturing-deal-5046046",
+      "date": "2026-11-23T16:10:27.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Meta Platforms stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-meta-platforms-stock-surging-today-93CH-5046045",
+      "date": "2026-11-23T16:09:12.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
+      "date": "2026-11-23T16:07:31.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
+      "link": "https://www.investing.com/news/economy-news/nvidia-reinstates-jensen-huang-as-ceo-igniting-tech-surge-5045917",
+      "date": "2026-11-23T16:06:32.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nasdaq soars nearly 7% as Huang's return to Nvidia reignites AI trade",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
+      "date": "2026-11-23T16:05:59.000Z",
+      "source": "Investing.com"
     },
     {
       "title": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy.",
@@ -101,34 +125,34 @@
       "source": "MarketWatch"
     },
     {
-      "title": "Analog Devices Expected to Deliver a Solid Quarter, Ambarella to Face Memory Headwinds, Morgan Stanley Says",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-expected-deliver-solid-160155168.html?.tsrc=rss",
-      "date": "2026-11-23T16:01:55.000Z",
-      "source": "Yahoo Finance"
+      "title": "Tesla FSD senior marketing strategy carries liability risk for autonomy-driven valuation",
+      "link": "https://www.investing.com/news/stock-market-news/tesla-fsd-senior-marketing-strategy-carries-liability-risk-for-autonomydriven-valuation-93CH-5046034",
+      "date": "2026-11-23T16:02:39.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "/C O R R E C T I O N - Canadian Investment Regulatory Organization (CIRO) - Halts/Resumptions/",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/canadian-investment-regulatory-organization-trading-144100590.html?.tsrc=rss",
-      "date": "2026-11-23T16:01:00.000Z",
-      "source": "Yahoo Finance"
+      "title": "Why is Applied Materials stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-applied-materials-stock-surging-today-93CH-5046027",
+      "date": "2026-11-23T15:59:49.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "Oversold Indices and Spiking Volatility Leave Markets Searching for Footing",
-      "link": "https://finance.yahoo.com/news/oversold-indices-spiking-volatility-leave-160100573.html?.tsrc=rss",
-      "date": "2026-11-23T16:01:00.000Z",
-      "source": "Yahoo Finance"
+      "title": "Why is Lam Research stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-lam-research-stock-surging-today-93CH-5046025",
+      "date": "2026-11-23T15:56:47.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9%",
-      "link": "https://247wallst.com/investing/2026/11/23/rocket-lab-rallies-11-after-its-worst-week-ever-as-cfo-eyes-higher-electron-prices-ast-spacemobile-jumps-14-spacex-surges-9/?.tsrc=rss",
-      "date": "2026-11-23T15:58:23.000Z",
-      "source": "Yahoo Finance"
+      "title": "Norway stocks higher at close of trade; Oslo OBX up 0.46%",
+      "link": "https://www.investing.com/news/stock-market-news/norway-stocks-higher-at-close-of-trade-oslo-obx-up-046-5046023",
+      "date": "2026-11-23T15:56:01.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "Applied Optoelectronics and Lumentum Soar 22% as Jensen Huang's Return to NVIDIA Sparks AI Optics Rebound; Coherent Jumps 19%",
-      "link": "https://247wallst.com/investing/2026/11/23/applied-optoelectronics-and-lumentum-soar-22-as-jensen-huangs-return-to-nvidia-sparks-ai-optics-rebound-coherent-jumps-19/?.tsrc=rss",
-      "date": "2026-11-23T15:57:07.000Z",
-      "source": "Yahoo Finance"
+      "title": "Israel stocks higher at close of trade; TA 35 up 0.49%",
+      "link": "https://www.investing.com/news/stock-market-news/israel-stocks-higher-at-close-of-trade-ta-35-up-049-5046022",
+      "date": "2026-11-23T15:55:30.000Z",
+      "source": "Investing.com"
     },
     {
       "title": "Taiwan Semiconductor Rallies 17% as Jensen Huang's Return to NVIDIA Lifts Chip Stocks; Intel Surges 15%, AMD Jumps 8%",
@@ -137,9 +161,9 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why is Taiwan Semiconductor Manufacturing stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-5046019",
-      "date": "2026-11-23T15:52:54.000Z",
+      "title": "Greece stocks higher at close of trade; Athens General Composite up 0.38%",
+      "link": "https://www.investing.com/news/stock-market-news/greece-stocks-higher-at-close-of-trade-athens-general-composite-up-038-5046021",
+      "date": "2026-11-23T15:55:04.000Z",
       "source": "Investing.com"
     },
     {
@@ -161,12 +185,6 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why is Western Digital stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-surging-today-93CH-5046016",
-      "date": "2026-11-23T15:50:07.000Z",
-      "source": "Investing.com"
-    },
-    {
       "title": "Why Nvidia Rehiring Jensen Huang Is Making Micron Stock Skyrocket Today",
       "link": "https://www.fool.com/investing/2026/11/23/why-nvidia-rehiring-jensen-huang-is-making-micron-stock-skyrocket-today/?.tsrc=rss",
       "date": "2026-11-23T15:49:53.000Z",
@@ -185,42 +203,24 @@
       "source": "Yahoo Finance"
     },
     {
-      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
-      "date": "2026-11-23T15:48:38.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "How Nvidia CEO Jensen Huang got entangled in a China chip and spy scandal",
-      "link": "https://www.investing.com/news/stock-market-news/how-nvidia-ceo-jensen-huang-got-entangled-in-a-china-chip-and-spy-scandal-5046015",
-      "date": "2026-11-23T15:48:24.000Z",
-      "source": "Investing.com"
-    },
-    {
       "title": "Trump Gave Nvidia's Board Assurances That Jensen Huang Was Not A National Security Threat, And Now The Stock Is Soaring",
       "link": "https://247wallst.com/investing/2026/11/23/trump-gave-nvidias-board-assurances-that-jensen-huang-was-not-a-national-security-threat-and-now-the-stock-is-soaring/?.tsrc=rss",
       "date": "2026-11-23T15:48:06.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Seagate Technology stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-seagate-technology-stock-surging-today-93CH-5046014",
-      "date": "2026-11-23T15:47:58.000Z",
-      "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "Wall Street Is Focused on AI Software. But the Real Money Could Be Made Somewhere Else",
-      "link": "https://247wallst.com/investing/2026/11/23/wall-street-is-focused-on-ai-software-but-the-real-money-could-be-made-somewhere-else/?.tsrc=rss",
-      "date": "2026-11-23T16:03:55.000Z",
-      "source": "Yahoo Finance"
+      "title": "BWXT stock surges on Westinghouse AP1000 manufacturing deal",
+      "link": "https://www.investing.com/news/stock-market-news/bwxt-stock-surges-on-westinghouse-ap1000-manufacturing-deal-5046046",
+      "date": "2026-11-23T16:10:27.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
-      "date": "2026-11-23T15:48:38.000Z",
-      "source": "Investing.com"
+      "title": "Taiwan Semiconductor Rallies 17% as Jensen Huang's Return to NVIDIA Lifts Chip Stocks; Intel Surges 15%, AMD Jumps 8%",
+      "link": "https://247wallst.com/investing/2026/11/23/taiwan-semiconductor-rallies-17-as-jensen-huangs-return-to-nvidia-lifts-chip-stocks-intel-surges-15-amd-jumps-8/?.tsrc=rss",
+      "date": "2026-11-23T15:55:28.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",

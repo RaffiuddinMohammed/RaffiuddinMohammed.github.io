@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:15:44.352Z",
+  "updated": "2026-11-23T16:21:53.796Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,19 +5944,19 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 252,
+      "totalStories": 251,
       "sections": [
         {
           "name": "UK",
           "count": 24
         },
         {
-          "name": "Business",
+          "name": "World",
           "count": 19
         },
         {
-          "name": "World",
-          "count": 18
+          "name": "Business",
+          "count": 19
         },
         {
           "name": "Science",
@@ -6075,7 +6075,7 @@
               "title": "How important are Nvidia and Jensen Huang to the US economy?",
               "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
               "section": "Business",
-              "date": "2026-11-23T15:15:48.000Z"
+              "date": "2026-11-23T16:12:35.000Z"
             },
             {
               "title": "US rapper postpones O2 arena show after Manchester evacuation",
@@ -6561,6 +6561,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "How important are Nvidia and Jensen Huang to the US economy?",
+          "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
           "title": "Jury out in train stabbing attempted murder trial",
           "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
@@ -6568,7 +6573,7 @@
         {
           "title": "The rise and fall and rise again of Jensen Huang",
           "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
+          "section": "World"
         },
         {
           "title": "Village's concern over sewage discharge in dry river",
@@ -6579,28 +6584,23 @@
           "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
           "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
           "section": "World"
-        },
-        {
-          "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-          "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang Reinstated as Nvidia CEO",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "points": 1541
+          "points": 1612
         },
         {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 738
+          "points": 744
         },
         {
           "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "points": 655
+          "points": 658
         }
       ]
     }
