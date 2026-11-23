@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-23T15:10:11.907Z",
-  "totalStories": 253,
+  "updated": "2026-11-23T15:46:19.906Z",
+  "totalStories": 254,
   "sections": [
     {
       "name": "UK",
-      "count": 22
+      "count": 24
     },
     {
       "name": "World",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 16
+      "count": 18
     },
     {
       "name": "Science",
@@ -28,7 +28,7 @@
     },
     {
       "name": "Technology",
-      "count": 2
+      "count": 4
     }
   ],
   "topWords": [
@@ -38,23 +38,23 @@
     },
     {
       "word": "deal",
-      "count": 15
+      "count": 14
     },
     {
       "word": "tech",
-      "count": 12
+      "count": 13
     },
     {
       "word": "health",
       "count": 11
     },
     {
-      "word": "next",
+      "word": "climate",
       "count": 8
     },
     {
-      "word": "climate",
-      "count": 8
+      "word": "next",
+      "count": 7
     },
     {
       "word": "talks",
@@ -65,19 +65,19 @@
       "count": 7
     },
     {
+      "word": "former",
+      "count": 6
+    },
+    {
+      "word": "brexit",
+      "count": 6
+    },
+    {
       "word": "strike",
       "count": 6
     },
     {
       "word": "cop",
-      "count": 6
-    },
-    {
-      "word": "nhs",
-      "count": 6
-    },
-    {
-      "word": "science",
       "count": 6
     }
   ],
@@ -161,10 +161,10 @@
       },
       "stories": [
         {
-          "title": "US government reassured Nvidia board over Huang",
-          "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
+          "title": "How important are Nvidia and Jensen Huang to the US economy?",
+          "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
           "section": "Business",
-          "date": "2026-11-23T14:51:05.000Z"
+          "date": "2026-11-23T15:15:48.000Z"
         },
         {
           "title": "Catering giant to switch main share listing to US in further blow to UK",
@@ -223,7 +223,7 @@
           "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
           "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-23T11:40:01.000Z"
+          "date": "2026-11-23T15:41:23.000Z"
         },
         {
           "title": "Ukraine shares video of strikes on Russian ships off Libya",
@@ -271,7 +271,7 @@
           "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
           "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-23T11:40:01.000Z"
+          "date": "2026-11-23T15:41:23.000Z"
         },
         {
           "title": "Ukraine shares video of strikes on Russian ships off Libya",
@@ -383,7 +383,7 @@
           "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
           "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-23T11:40:01.000Z"
+          "date": "2026-11-23T15:41:23.000Z"
         },
         {
           "title": "Ukraine shares video of strikes on Russian ships off Libya",
@@ -430,23 +430,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-23T00:33:36.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Netherlands",
-      "lat": 52,
-      "lon": 5,
-      "count": 1,
-      "bySection": {
-        "Technology": 1
-      },
-      "stories": [
-        {
-          "title": "Dutch watchdog tells people not to buy AI smart glasses",
-          "link": "https://www.bbc.co.uk/news/articles/ckq6eyrzrzy5o?at_medium=RSS&at_campaign=rss",
-          "section": "Technology",
-          "date": "2026-11-19T16:33:17.000Z"
         }
       ]
     },
@@ -691,13 +674,43 @@
   ],
   "latest": [
     {
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:41:23.000Z",
+      "section": "World"
+    },
+    {
+      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:39:41.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Jury out in train stabbing attempted murder trial",
+      "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:24:33.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Mother and son riot ringleaders jailed for 'disgraceful' acts",
+      "link": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:24:20.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T15:15:48.000Z",
+      "section": "Business"
+    },
+    {
       "title": "Mexican soldiers attacked in wake of drug lord's arrest",
       "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T14:54:03.000Z",
       "section": "World"
     },
     {
-      "title": "US government reassured Nvidia board over Huang",
+      "title": "Nvidia reinstates CEO after affair with alleged spy",
       "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T14:51:05.000Z",
       "section": "Business"
@@ -730,36 +743,6 @@
       "title": "Welsh Greens back plan to separate from English party",
       "link": "https://www.bbc.co.uk/news/articles/cjy5xewrw657o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T14:01:33.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Welfare cuts: What's been happening with Pip and universal credit?",
-      "link": "https://www.bbc.co.uk/news/articles/cj924xvzrr2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:52:40.000Z",
-      "section": "Business"
-    },
-    {
-      "title": "'People were screaming in pain' during Co-op Live evacuation",
-      "link": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:43:22.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Two men admit sex offences in drugged wife case",
-      "link": "https://www.bbc.co.uk/news/articles/c52e83zy4ye0o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:35:30.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Flights and train services cancelled in Belgium due to strike",
-      "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:34:02.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Pip assessments need 'fundamental overhaul', report to say",
-      "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T13:20:32.000Z",
       "section": "UK"
     }
   ]

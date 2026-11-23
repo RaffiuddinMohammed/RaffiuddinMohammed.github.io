@@ -1,32 +1,32 @@
 {
-  "updated": "2026-11-23T15:17:00.305Z",
+  "updated": "2026-11-23T15:50:45.540Z",
   "breaking": [
     {
-      "title": "UK to host 2035 Women's World Cup, Fifa confirms",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
-      "date": "2026-11-23T15:09:50.000Z"
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
+      "date": "2026-11-23T15:41:23.000Z"
     },
     {
-      "title": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
-      "date": "2026-11-23T15:09:50.000Z"
+      "title": "Jury out in train stabbing attempted murder trial",
+      "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo",
+      "date": "2026-11-23T15:24:33.000Z"
+    },
+    {
+      "title": "Raya to miss Dortmund game but injury 'not serious'",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cjx2rqpr7l9lo",
+      "date": "2026-11-23T15:23:09.000Z"
+    }
+  ],
+  "latest": [
+    {
+      "title": "How Ukraine attacked Russian ships in Libya",
+      "link": "https://www.bbc.co.uk/news/videos/cmz6q3001pw6o",
+      "date": "2026-11-23T14:32:12.000Z"
     },
     {
       "title": "US rapper Don Toliver postpones O2 arena show after Manchester evacuation",
       "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
       "date": "2026-11-23T14:42:46.000Z"
-    }
-  ],
-  "latest": [
-    {
-      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
-      "date": "2026-11-23T11:40:01.000Z"
-    },
-    {
-      "title": "How Ukraine drone attacks on Russian ships unfolded",
-      "link": "https://www.bbc.co.uk/news/videos/c3y0xjqxy871o",
-      "date": "2026-11-23T14:16:36.000Z"
     },
     {
       "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
@@ -51,31 +51,31 @@
   ],
   "business": [
     {
-      "source": "Cointelegraph",
-      "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
-      "link": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T14:47:00.000Z",
+      "source": "BBC Business",
+      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
+      "date": "2026-11-23T15:39:41.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Investing.com",
+      "title": "Europe’s STOXX 600 rises as tech shares rebound after AI-driven rout",
+      "link": "https://www.investing.com/news/stock-market-news/european-stocks-recover-after-steep-technologyled-selloff-5044629",
+      "date": "2026-11-23T15:30:27.000Z",
       "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
-      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:39:00.000Z",
+      "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
+      "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+      "date": "2026-11-23T15:15:00.000Z",
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Even affluent shoppers are embracing buy now, pay later, Block data shows",
-      "link": "https://www.investing.com/news/stock-market-news/even-affluent-shoppers-are-embracing-buy-now-pay-later-block-data-shows-5045810",
-      "date": "2026-11-23T14:06:38.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
-      "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo",
-      "date": "2026-11-23T11:24:37.000Z",
+      "source": "Cointelegraph",
+      "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
+      "link": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T14:47:00.000Z",
       "breaking": false
     },
     {
@@ -86,10 +86,24 @@
       "breaking": false
     },
     {
+      "source": "Investing.com",
+      "title": "Turkey stocks lower at close of trade; BIST 100 down 0.24%",
+      "link": "https://www.investing.com/news/stock-market-news/turkey-stocks-lower-at-close-of-trade-bist-100-down-024-5045989",
+      "date": "2026-11-23T15:30:04.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo",
+      "date": "2026-11-23T15:15:48.000Z",
+      "breaking": false
+    },
+    {
       "source": "MarketWatch",
-      "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
-      "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:37:00.000Z",
+      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:39:00.000Z",
       "breaking": false
     },
     {
@@ -100,13 +114,6 @@
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
-      "date": "2026-11-23T14:06:22.000Z",
-      "breaking": false
-    },
-    {
       "source": "CNBC",
       "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
       "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
@@ -114,62 +121,55 @@
       "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
-      "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:33:00.000Z",
-      "breaking": false
-    },
-    {
       "source": "Investing.com",
-      "title": "Nasdaq 100 futures extend gains, soar over 6% as Nvidia reinstates Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
-      "date": "2026-11-23T14:03:49.000Z",
+      "title": "Nvidia shares surge 35% as board announces Jensen Huang’s reinstatement",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-5045795",
+      "date": "2026-11-23T15:29:54.000Z",
       "breaking": false
     },
     {
-      "source": "Cointelegraph",
-      "title": "OKX, ICE launch 113 tokenized assets despite issuer objections",
-      "link": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T14:00:00.000Z",
+      "source": "MarketWatch",
+      "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
+      "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:37:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Dow Jones",
-      "traffic": "2000+",
-      "title": "Futures rally after Wall Street's nightmare week",
-      "link": "https://www.cnbc.com/2026/11/23/futures-rally-after-wall-streets-nightmare-week-.html",
-      "source": "CNBC"
+      "term": "Hacker",
+      "traffic": "1000+",
+      "title": "GTA 6 hacker released on licence with warning 'don't let this happen again'",
+      "link": "https://www.bbc.co.uk/news/articles/cqpv9kr7pxmro",
+      "source": "BBC"
     },
     {
-      "term": "Eugene Laverty",
+      "term": "Al-Shamal Vs Al-Ahli",
       "traffic": "200+",
-      "title": "Ex-MotoGP, World Superbike rider makes shock racing return in BSB with Ducati",
-      "link": "https://www.crash.net/bsb/news/1110842/1/ex-motogp-world-superbike-rider-makes-shock-racing-return-bsb-ducati",
-      "source": "Crash.net"
+      "title": "\"Yesterday's friend\": Riyad Mahrez surprises Al-Ahli players before Al-Shamal clash",
+      "link": "https://www.livescore.com/en/news/football/more/yesterdays-friend-riyad-mahrez-surprises-al-ahli-players-before-al-shamal-clash-goal/",
+      "source": "LiveScore"
     },
     {
-      "term": "Google Stock",
+      "term": "Xabi Alonso",
       "traffic": "200+",
-      "title": "Prediction: Here’s Where Alphabet Stock Will Be in 5 Years",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-where-alphabet-stock-5-081002070.html",
-      "source": "Yahoo Finance"
+      "title": "'Fragile' and 'miles off it' - Alonso's Chelsea honeymoon is over",
+      "link": "https://www.bbc.com/sport/football/articles/cwe8944d004yo",
+      "source": "BBC"
     },
     {
-      "term": "Micron Share Price",
+      "term": "Next Vendor Cyber Security Breach",
       "traffic": "200+",
-      "title": "Prediction: This Will Be Micron’s Stock Price by the End of 2028",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-micron-stock-price-end-143502058.html",
-      "source": "Yahoo Finance"
+      "title": "Next data accessed in cyber breach",
+      "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo",
+      "source": "BBC"
     },
     {
-      "term": "Qqq",
+      "term": "Dow Jones Index",
       "traffic": "200+",
-      "title": "$QQQ: For the first time since the lows of September 2022",
-      "link": "https://www.kucoin.com/news/insight/QQQ/6b0405bb9278e40007d926e6",
-      "source": "KuCoin"
+      "title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo",
+      "source": "BBC"
     }
   ]
 }
