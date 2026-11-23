@@ -943,6 +943,8 @@ a.project { color: inherit; } a.project:hover { text-decoration: none; }
 .platforms > span + span { margin-left: 1.5px; }
 .platforms .pf-label { text-transform: uppercase; letter-spacing: .12em; font-size: .7rem; font-weight: 700; color: var(--muted); }
 .platforms svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.platforms svg.brand-ico { fill: currentColor; stroke: none; }
+.platforms .pf-and svg { width: 22px; height: 22px; }
 .platforms .pf-web { color: var(--ink1); } .platforms .pf-ios { color: var(--ink2); } .platforms .pf-and { color: var(--ink3); }
 @media (max-width: 560px) { .platforms > span { padding: 8px 12px; font-size: .92rem; } .platforms .pf-label { display: none; }
   .platforms > span.pf-web { border-radius: 12.5px 0 0 12.5px; } }
