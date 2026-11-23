@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23T02:43:41.236Z",
+  "checked": "2026-11-23T12:32:55.336Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Increased HTTP 5xx Errors in Brussels",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Increased HTTP 5xx Errors in Brussels",
       "impact": "minor",
       "start": "2026-11-23T02:34:56.549Z",
-      "end": null,
+      "end": "2026-11-23T02:46:14.797Z",
       "url": "https://www.cloudflarestatus.com/incidents/pnfv9wfy2q4y"
     },
     {
@@ -647,14 +647,6 @@
       "start": "2026-11-11T04:33:19.016Z",
       "end": "2026-11-13T01:44:17.916Z",
       "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network Performance Issues in St. Louis, USA",
-      "impact": "minor",
-      "start": "2026-11-10T22:50:23.422Z",
-      "end": "2026-11-11T01:10:26.486Z",
-      "url": "https://www.cloudflarestatus.com/incidents/1h9c85fz6bm3"
     },
     {
       "service": "Vercel",
