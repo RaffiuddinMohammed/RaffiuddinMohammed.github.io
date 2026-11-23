@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:58:14.273Z",
+  "updated": "2026-11-23T18:06:23.975Z",
   "totalStories": 251,
   "sections": [
     {
@@ -675,6 +675,12 @@
   ],
   "latest": [
     {
+      "title": "Pip assessments need 'fundamental overhaul', report to say",
+      "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T17:59:55.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
       "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T17:42:37.000Z",
@@ -739,12 +745,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T15:49:52.000Z",
       "section": "World"
-    },
-    {
-      "title": "Village's concern over sewage discharge in dry river",
-      "link": "https://www.bbc.co.uk/news/articles/c60rkq78g05vo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T15:48:07.000Z",
-      "section": "Science"
     }
   ]
 }

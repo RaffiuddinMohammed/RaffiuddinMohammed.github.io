@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:58:13.323Z",
+  "updated": "2026-11-23T18:06:22.494Z",
   "headlineCount": 67,
   "sources": [
     {
@@ -88,6 +88,12 @@
     }
   ],
   "latest": [
+    {
+      "title": "‘This establishes a bottom': Jensen Huang's return seen as likely to stop market sell-off, for now",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "date": "2026-11-23T18:00:47.000Z",
+      "source": "CNBC"
+    },
     {
       "title": "Trump says he ‘convinced' Nvidia board to reinstate Jensen Huang",
       "link": "https://finance.yahoo.com/technology/articles/trump-says-convinced-nvidia-board-161922078.html?.tsrc=rss",
@@ -201,15 +207,15 @@
       "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
       "date": "2026-11-23T17:36:27.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "Nvidia stock soars 30% after brutal selloff",
-      "link": "https://www.thestreet.com/investing/stocks/nvidia-stock-soars-after-jensen-huang-reinstated-as-ceo?.tsrc=rss",
-      "date": "2026-11-23T17:35:17.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "featured": [
+    {
+      "title": "‘This establishes a bottom': Jensen Huang's return seen as likely to stop market sell-off, for now",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "date": "2026-11-23T18:00:47.000Z",
+      "source": "CNBC"
+    },
     {
       "title": "Trump says he ‘convinced' Nvidia board to reinstate Jensen Huang",
       "link": "https://finance.yahoo.com/technology/articles/trump-says-convinced-nvidia-board-161922078.html?.tsrc=rss",
@@ -221,12 +227,6 @@
       "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
       "date": "2026-11-23T17:54:00.000Z",
       "source": "MarketWatch"
-    },
-    {
-      "title": "Wall Street roars back as Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-rebound-after-rough-week-for-ailinked-shares-5044594",
-      "date": "2026-11-23T17:37:15.000Z",
-      "source": "Investing.com"
     }
   ],
   "yields": {

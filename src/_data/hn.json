@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-23T17:58:14.519Z",
+  "updated": "2026-11-23T18:06:24.299Z",
   "stories": [
     {
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
       "discuss": "https://news.ycombinator.com/item?id=50611576",
-      "points": 825,
-      "comments": 1968,
+      "points": 882,
+      "comments": 2018,
       "domain": "cnbc.com"
     },
     {
       "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "url": "https://spelunkr.tv",
       "discuss": "https://news.ycombinator.com/item?id=50606192",
-      "points": 798,
+      "points": 805,
       "comments": 145,
       "domain": "spelunkr.tv"
     },
@@ -21,15 +21,15 @@
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://z.ai/blog/glm-5.4",
       "discuss": "https://news.ycombinator.com/item?id=50609685",
-      "points": 789,
-      "comments": 278,
+      "points": 798,
+      "comments": 286,
       "domain": "z.ai"
     },
     {
       "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
       "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "discuss": "https://news.ycombinator.com/item?id=50603845",
-      "points": 682,
+      "points": 685,
       "comments": 278,
       "domain": "gpupartner.com"
     },
@@ -37,15 +37,15 @@
       "title": "Perplexity and Intelligence",
       "url": "https://openai.com/index/perplexity-and-intelligence/",
       "discuss": "https://news.ycombinator.com/item?id=50601525",
-      "points": 666,
-      "comments": 432,
+      "points": 669,
+      "comments": 434,
       "domain": "openai.com"
     },
     {
       "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
       "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
       "discuss": "https://news.ycombinator.com/item?id=50602843",
-      "points": 613,
+      "points": 614,
       "comments": 347,
       "domain": "audubon.org"
     },
@@ -53,7 +53,7 @@
       "title": "XNU Linux: Full OS X GUI Userspace on Linux",
       "url": "https://github.com/AFK-surf/xnulinux",
       "discuss": "https://news.ycombinator.com/item?id=50607261",
-      "points": 529,
+      "points": 536,
       "comments": 221,
       "domain": "github.com"
     },
@@ -61,15 +61,15 @@
       "title": "Ladybird Is Now in Alpha",
       "url": "https://ladybird.org/posts/alpha/",
       "discuss": "https://news.ycombinator.com/item?id=50614249",
-      "points": 479,
-      "comments": 122,
+      "points": 510,
+      "comments": 133,
       "domain": "ladybird.org"
     },
     {
       "title": "A miniature San Francisco with live buses, planes and boats",
       "url": "https://smallsf.com/",
       "discuss": "https://news.ycombinator.com/item?id=50603589",
-      "points": 357,
+      "points": 359,
       "comments": 109,
       "domain": "smallsf.com"
     },
@@ -77,11 +77,11 @@
       "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
       "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
       "discuss": "https://news.ycombinator.com/item?id=50547698",
-      "points": 339,
+      "points": 340,
       "comments": 124,
       "domain": "apnews.com"
     }
   ],
-  "totalPoints": null,
+  "totalPoints": 8512,
   "storyCount": 30
 }

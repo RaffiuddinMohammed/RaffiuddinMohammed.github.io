@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T18:05:46.747Z",
+  "updated": "2026-11-23T18:13:08.184Z",
   "breaking": [
     {
       "title": "Pip assessments need 'fundamental overhaul', report to say",
@@ -39,14 +39,14 @@
       "date": "2026-11-23T16:37:43.000Z"
     },
     {
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
+      "date": "2026-11-23T17:07:25.000Z"
+    },
+    {
       "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
       "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo",
       "date": "2026-11-23T13:09:52.000Z"
-    },
-    {
-      "title": "Poundland is facing collapse - what's gone wrong?",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o",
-      "date": "2026-11-23T10:09:25.000Z"
     }
   ],
   "business": [
@@ -62,7 +62,7 @@
       "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, are among the S&P 500’s biggest losers Monday",
       "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
       "date": "2026-11-23T17:54:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Investing.com",
