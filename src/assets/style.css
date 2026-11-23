@@ -838,7 +838,7 @@ button.btn { font: inherit; font-weight: 600; font-size: .95rem; cursor: pointer
 .role-chips { list-style: none; padding: 0; margin: 0 0 14px; display: flex; flex-wrap: wrap; gap: 8px; }
 .role-chips li { padding: 6px 14px; border-radius: 999px; font-weight: 600; font-size: .92rem; color: var(--ink);
   border: 1px solid color-mix(in srgb, var(--c) 40%, transparent); background: color-mix(in srgb, var(--c) 12%, transparent); }
-.role-chips .rc1 { --c: var(--c1); --ink: var(--ink1); } .role-chips .rc2 { --c: var(--c2); --ink: var(--ink2); } .role-chips .rc3 { --c: var(--c3); --ink: var(--ink3); }
+.role-chips .rc1 { --c: var(--c1); --ink: var(--ink1); } .role-chips .rc2 { --c: var(--c2); --ink: var(--ink2); } .role-chips .rc3 { --c: var(--c3); --ink: var(--ink3); } .role-chips .rc4 { --c: var(--c4); --ink: var(--ink4); } .role-chips .rc5 { --c: var(--c5); --ink: var(--ink5); }
 
 a.role-card { color: inherit; display: flex; flex-direction: column; }
 a.role-card:hover { text-decoration: none; }
