@@ -1017,3 +1017,8 @@ main > section:nth-of-type(3n+4) { --wash: var(--c3); }
 .co-logo.mono { display: inline-grid; place-items: center; width: 28px; padding: 0; background: #fff; color: #5040c4;
   font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: .8rem; letter-spacing: -.02em; line-height: 1; }
 @media (max-width: 560px) { .co-logo.mono { width: 24px; font-size: .72rem; } }
+/* external link on a company name (Recrd only) */
+.co-link { color: inherit; display: inline-flex; align-items: baseline; gap: 3px; border-bottom: 1px dashed color-mix(in srgb, var(--accent) 55%, transparent); }
+.co-link:hover { text-decoration: none; color: var(--accent); border-bottom-style: solid; }
+.co-link .ext { font-size: .8em; color: var(--accent); display: inline-block; transition: transform .25s cubic-bezier(.34, 1.56, .64, 1); }
+.co-link:hover .ext { transform: translate(2px, -2px); }
