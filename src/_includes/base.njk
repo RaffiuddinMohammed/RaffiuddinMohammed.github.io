@@ -29,9 +29,11 @@
   <script type="application/ld+json">{{ {
     "@context": "https://schema.org",
     "@graph": [
-      { "@type": "Person", "@id": site.url + "/#me", "name": site.name, "alternateName": site.shortName, "jobTitle": "QA Automation Engineer and Delivery Lead",
+      { "@type": "Person", "@id": site.url + "/#me", "name": site.name, "alternateName": site.shortName, "jobTitle": "QA Lead, Delivery Lead and Test Automation Engineer",
+        "homeLocation": { "@type": "Place", "name": "London, United Kingdom" },
+        "address": { "@type": "PostalAddress", "addressLocality": "London", "addressCountry": "GB" },
         "description": site.tagline, "url": site.url + "/", "image": site.url + "/assets/og.png", "sameAs": [site.github, site.linkedin],
-        "knowsAbout": ["Test automation", "Playwright", "Appium", "WebdriverIO", "CI/CD", "GitHub Actions", "Data dashboards", "QA"] },
+        "knowsAbout": ["QA leadership", "Test management", "Test strategy", "Test automation", "Project management", "Delivery management", "Release management", "Scrum", "Agile", "Kanban", "Product ownership", "Stakeholder management", "Jira", "YouTrack", "Confluence", "Playwright", "Appium", "WebdriverIO", "XCUITest", "Espresso", "Postman", "API testing", "Mobile app testing", "iOS testing", "Android testing", "End-to-end testing", "Regression testing", "UAT", "CI/CD", "GitHub Actions", "Data dashboards", "QA"] },
       { "@type": "WebSite", "@id": site.url + "/#site", "name": site.name, "url": site.url + "/", "inLanguage": "en-GB", "author": { "@id": site.url + "/#me" } }
     ]
   } | json | safe }}</script>

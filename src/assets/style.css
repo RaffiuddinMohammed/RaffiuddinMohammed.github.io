@@ -924,3 +924,6 @@ a.project { color: inherit; } a.project:hover { text-decoration: none; }
 .hero-globe-solo { margin-top: 8px; }
 .tl-meta b { color: var(--text-2); font-weight: 600; }
 .tl-earlier p { margin: 8px 0 0; font-size: .92rem; }
+
+/* Full-width card inside a two-column grid (Projects: "Leading QA and delivery") */
+.grid.two > .wide { grid-column: 1 / -1; }
