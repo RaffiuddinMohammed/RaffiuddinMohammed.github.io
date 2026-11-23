@@ -1,71 +1,109 @@
 {
-  "updated": "2026-11-22T13:37:43.775Z",
+  "updated": "2026-11-23T14:43:25.702Z",
   "breaking": [
     {
-      "title": "England won't get carried away by All Blacks win",
-      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/ckr5gdpm1q5no",
-      "date": "2026-11-22T12:45:57.000Z"
+      "title": "US rapper postpones O2 arena show after Manchester evacuation",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
+      "date": "2026-11-23T14:42:46.000Z"
+    },
+    {
+      "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works",
+      "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo",
+      "date": "2026-11-23T14:30:04.000Z"
+    },
+    {
+      "title": "England's tearaway quick bowler reinvented as a top-order batter",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/cqlym8r7jvd5o",
+      "date": "2026-11-23T14:26:27.000Z"
     }
   ],
   "latest": [
     {
-      "title": "Theresa May 'aghast' at Burnham's EU plans and says 'Brexit is done'",
-      "link": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o",
-      "date": "2026-11-22T11:50:20.000Z"
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
+      "date": "2026-11-23T11:40:01.000Z"
     },
     {
-      "title": "'Move on!' Former PMs pile in with advice for Andy Burnham, but will he listen?",
-      "link": "https://www.bbc.co.uk/news/articles/cjn5023e6ez4o",
-      "date": "2026-11-22T06:01:49.000Z"
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
+      "date": "2026-11-23T11:57:33.000Z"
     },
     {
-      "title": "How a teen gamer and his mother helped rescue a missing girl",
-      "link": "https://www.bbc.co.uk/news/articles/cmq8lyv8lkjwo",
-      "date": "2026-11-22T00:09:58.000Z"
+      "title": "Tyson Fury reveals schizophrenia diagnosis",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/c6y80n3dn15yo",
+      "date": "2026-11-23T09:53:52.000Z"
     },
     {
-      "title": "Russia-bound ship still on fire after attack in Gulf of Finland",
-      "link": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
-      "date": "2026-11-22T11:25:14.000Z"
+      "title": "Five takeaways from the failed climate talks COP31",
+      "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo",
+      "date": "2026-11-23T06:33:50.000Z"
     },
     {
-      "title": "BBC apologises for 'any offence caused' by Strictly noise disruption",
-      "link": "https://www.bbc.co.uk/news/articles/cm8e0p5dexy6o",
-      "date": "2026-11-22T04:39:13.000Z"
+      "title": "NHS launches world's largest AI breast cancer screening trial",
+      "link": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo",
+      "date": "2026-11-23T00:49:22.000Z"
     },
     {
-      "title": "Miley Cyrus marries Maxx Morando in California ceremony",
-      "link": "https://www.bbc.co.uk/news/articles/cq8e0p87l89lo",
-      "date": "2026-11-22T08:46:28.000Z"
+      "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+      "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo",
+      "date": "2026-11-23T13:09:52.000Z"
     }
   ],
   "business": [
     {
-      "source": "Investing.com",
-      "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
-      "link": "https://www.investing.com/news/stock-market-news/exclusivelike-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-5043898",
-      "date": "2026-11-22T13:00:57.000Z",
-      "breaking": false
+      "source": "MarketWatch",
+      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:39:00.000Z",
+      "breaking": true
     },
     {
-      "source": "MarketWatch",
-      "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
-      "link": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
-      "date": "2026-11-22T12:30:00.000Z",
+      "source": "Investing.com",
+      "title": "Even affluent shoppers are embracing buy now, pay later, Block data shows",
+      "link": "https://www.investing.com/news/stock-market-news/even-affluent-shoppers-are-embracing-buy-now-pay-later-block-data-shows-5045810",
+      "date": "2026-11-23T14:06:38.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
       "title": "Here’s what happened in crypto today",
       "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-22T11:25:27.000Z",
+      "date": "2026-11-23T14:06:36.000Z",
       "breaking": false
     },
     {
       "source": "BBC Business",
-      "title": "MP criticises Guernsey and Jersey company ownership register plans",
-      "link": "https://www.bbc.co.uk/news/articles/cqkgmy2nxy4lo",
-      "date": "2026-11-22T07:22:05.000Z",
+      "title": "Capita shares plunge 70% as boss quits after civil service pensions failure",
+      "link": "https://www.bbc.co.uk/news/articles/c65y1qqw3kjxo",
+      "date": "2026-11-23T11:24:37.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "date": "2026-11-22T18:55:05.000Z",
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
+      "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:37:00.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Investing.com",
+      "title": "Nvidia reinstates Jensen Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
+      "date": "2026-11-23T14:06:22.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "OKX, ICE launch 113 tokenized assets despite issuer objections",
+      "link": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T14:00:00.000Z",
       "breaking": false
     },
     {
@@ -76,90 +114,62 @@
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 1.95%",
-      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-lower-at-close-of-trade-tadawul-all-share-down-195-5043961",
-      "date": "2026-11-22T12:45:03.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades",
-      "link": "https://cointelegraph.com/news/bitcoin-17k-kraken-canadian-dollar-market-trades-stand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-22T09:33:06.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
-      "link": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo",
-      "date": "2026-11-22T07:12:41.000Z",
-      "breaking": false
-    },
-    {
       "source": "MarketWatch",
-      "title": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-      "link": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-      "date": "2026-11-22T01:15:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "The bull market has a new problem. The 'smart money' is selling",
-      "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
-      "date": "2026-11-20T14:15:29.000Z",
-      "breaking": false
+      "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
+      "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:33:00.000Z",
+      "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Analysis-Correction or deeper reckoning? Investors seek signs US stock selling will abate",
-      "link": "https://www.investing.com/news/stock-market-news/analysiscorrection-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-5043939",
-      "date": "2026-11-22T12:06:21.000Z",
+      "title": "Nasdaq 100 futures extend gains, soar over 6% as Nvidia reinstates Huang as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
+      "date": "2026-11-23T14:03:49.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "South Korean exchanges halt CYBER transfers amid suspected bridge exploit",
-      "link": "https://cointelegraph.com/news/upbit-bithumb-suspend-cyber-transfers-bridge-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-22T07:24:05.000Z",
+      "title": "Trump-linked American Bitcoin secures $150M credit line from FalconX",
+      "link": "https://cointelegraph.com/news/trumps-american-bitcoin-rises-150m-credit-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T13:44:16.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Hull Vs Brighton",
-      "traffic": "5000+",
-      "title": "Hull City vs Brighton & Hove Albion LIVE: Premier League build-up, team news, stats & updates",
-      "link": "https://www.bbc.co.uk/sport/football/live/cky97ll8253wt",
+      "term": "Jensen Huang",
+      "traffic": "50000+",
+      "title": "Jensen Huang reinstated as Nvidia CEO, board says",
+      "link": "https://www.bbc.co.uk/news/live/crd61y5dwqgpt",
       "source": "BBC"
     },
     {
-      "term": "Russian Navy Vessel Fire Benghazi",
+      "term": "Nvidia Share Price",
+      "traffic": "10000+",
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
+      "source": "CNBC"
+    },
+    {
+      "term": "Nvidia Shares",
       "traffic": "2000+",
-      "title": "Russian Warship Destroyed In Huge Explosion In Libya",
-      "link": "https://www.navalnews.com/naval-news/2026/11/russian-warship-destroyed-in-huge-explosion-in-libya/",
-      "source": "Naval News"
+      "title": "Nvidia shares surge 30% as Jensen Huang‘s return as CEO adds more than $900bn to company’s value – business live",
+      "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates",
+      "source": "The Guardian"
     },
     {
-      "term": "Tanker",
-      "traffic": "1000+",
-      "title": "The U.A.E. Is Shuttling Oil Past Iran in Risky Hormuz Operation",
-      "link": "https://www.wsj.com/world/middle-east/the-u-a-e-is-shuttling-oil-past-iran-in-risky-hormuz-operation-9150693e",
-      "source": "WSJ"
+      "term": "Nvda",
+      "traffic": "2000+",
+      "title": "Nvidia shares soar 30% after board reinstates Jensen Huang",
+      "link": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
+      "source": "Financial Times"
     },
     {
-      "term": "David Dunn",
+      "term": "Marsala",
       "traffic": "500+",
-      "title": "David Dunn joins Nybble as business ambassador",
-      "link": "https://www.lancashirebusinessview.co.uk/latest-news-and-features/david-dunn-joins-nybble-as-business-ambassador",
-      "source": "Lancashire Business View"
-    },
-    {
-      "term": "Derbyshire Police M1 Safety Warning",
-      "traffic": "500+",
-      "title": "Warning after stone thrown at police vehicle on M1",
-      "link": "https://www.bbc.co.uk/news/articles/cwj3kxr4eyk0o",
-      "source": "BBC"
+      "title": "Pallacanestro Marsala sconfitta a Comiso",
+      "link": "https://www.siciliaogginotizie.it/2026/11/23/pallacanestro-marsala-sconfitta-a-comiso/",
+      "source": "Sicilia Oggi Notizie"
     }
   ]
 }

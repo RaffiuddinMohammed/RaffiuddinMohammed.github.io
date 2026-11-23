@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23T12:32:55.336Z",
+  "checked": "2026-11-23T14:43:25.360Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Cloudflare Workers API – Delayed or Inconsistent Responses",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Workers API – Delayed or Inconsistent Responses",
+      "impact": "minor",
+      "start": "2026-11-23T13:52:11.144Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt"
+    },
     {
       "service": "Cloudflare",
       "title": "Increased HTTP 5xx Errors in Brussels",
@@ -663,14 +671,6 @@
       "start": "2026-11-10T16:10:52.174Z",
       "end": "2026-11-10T17:55:03.552Z",
       "url": "https://stspg.io/16nsnk2th3rv"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Changes to Cloudflare Workers are not producing Event Subscription events",
-      "impact": "minor",
-      "start": "2026-11-10T01:53:58.905Z",
-      "end": null,
-      "url": "https://www.cloudflarestatus.com/incidents/0ocqieaifg7h"
     },
     {
       "service": "GitHub",

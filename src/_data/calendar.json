@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:31:06.783Z",
+  "updated": "2026-11-23T14:36:20.405Z",
   "days": [
     {
       "date": "2026-11-23",
@@ -75,7 +75,7 @@
           "name": "S&P Global Composite PMI",
           "time": "09:30",
           "previous": "52.9",
-          "consensus": null
+          "consensus": "51.9"
         },
         {
           "country": "US",
@@ -330,12 +330,91 @@
         {
           "symbol": "RBRK",
           "name": "Rubrik",
-          "cap": 23748796400,
+          "cap": 22125602800,
           "when": "after",
           "eps": "−$0.38",
           "big": false,
           "mag7": false,
-          "capText": "$24B"
+          "capText": "$22B"
+        }
+      ],
+      "events": []
+    },
+    {
+      "date": "2026-12-01",
+      "label": "Tue 1 Dec",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "CRWD",
+          "name": "CrowdStrike",
+          "cap": 234931618000,
+          "when": "after",
+          "eps": "$0",
+          "big": true,
+          "mag7": false,
+          "capText": "$235B"
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology",
+          "cap": 107227333000,
+          "when": "after",
+          "eps": "$0.79",
+          "big": true,
+          "mag7": false,
+          "capText": "$107B"
+        },
+        {
+          "symbol": "OKTA",
+          "name": "Okta",
+          "cap": 33471215600,
+          "when": "after",
+          "eps": "$0.43",
+          "big": false,
+          "mag7": false,
+          "capText": "$33B"
+        },
+        {
+          "symbol": "NTAP",
+          "name": "NetApp",
+          "cap": 30965456900,
+          "when": "after",
+          "eps": "$2.14",
+          "big": false,
+          "mag7": false,
+          "capText": "$31B"
+        },
+        {
+          "symbol": "CPRT",
+          "name": "Copart",
+          "cap": 28801091600,
+          "when": "before",
+          "eps": "$0.41",
+          "big": false,
+          "mag7": false,
+          "capText": "$29B"
+        },
+        {
+          "symbol": "MDB",
+          "name": "MongoDB",
+          "cap": 23031058400,
+          "when": "after",
+          "eps": "$0.08",
+          "big": false,
+          "mag7": false,
+          "capText": "$23B"
+        },
+        {
+          "symbol": "CRDO",
+          "name": "Credo Technology Group",
+          "cap": 18768877600,
+          "when": "after",
+          "eps": "$1.03",
+          "big": false,
+          "mag7": false,
+          "capText": "$19B"
         }
       ],
       "events": []

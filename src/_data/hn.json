@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-22T13:31:09.798Z",
+  "updated": "2026-11-23T14:36:22.369Z",
   "stories": [
     {
-      "title": "Hurried Announcement: Alessandro Masullo GRH",
-      "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-      "discuss": "https://news.ycombinator.com/item?id=50579568",
-      "points": 2430,
-      "comments": 1182,
-      "domain": "math216.wordpress.com"
+      "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
+      "url": "https://spelunkr.tv",
+      "discuss": "https://news.ycombinator.com/item?id=50606192",
+      "points": 684,
+      "comments": 127,
+      "domain": "spelunkr.tv"
     },
     {
-      "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-      "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-      "discuss": "https://news.ycombinator.com/item?id=50582069",
-      "points": 1124,
-      "comments": 239,
-      "domain": "theguardian.com"
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "discuss": "https://news.ycombinator.com/item?id=50601525",
+      "points": 636,
+      "comments": 415,
+      "domain": "openai.com"
     },
     {
-      "title": "Lean verification of the Riemann Hypothesis",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "discuss": "https://news.ycombinator.com/item?id=50589618",
-      "points": 1090,
-      "comments": 910,
-      "domain": "leanprover-community.github.io"
+      "title": "Jensen Huang Reinstated as Nvidia CEO",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "discuss": "https://news.ycombinator.com/item?id=50611588",
+      "points": 627,
+      "comments": 429,
+      "domain": "nvidianews.nvidia.com"
     },
     {
-      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-      "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-      "discuss": "https://news.ycombinator.com/item?id=50596133",
-      "points": 687,
-      "comments": 416,
-      "domain": "caranddriver.com"
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "discuss": "https://news.ycombinator.com/item?id=50603845",
+      "points": 619,
+      "comments": 256,
+      "domain": "gpupartner.com"
     },
     {
-      "title": "Detonating a pile of lead azide",
-      "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-      "discuss": "https://news.ycombinator.com/item?id=50588982",
-      "points": 635,
-      "comments": 400,
-      "domain": "science.org"
+      "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
+      "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
+      "discuss": "https://news.ycombinator.com/item?id=50602843",
+      "points": 568,
+      "comments": 307,
+      "domain": "audubon.org"
     },
     {
-      "title": "My monitor was cutting my download speed by 75%",
-      "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-      "discuss": "https://news.ycombinator.com/item?id=50587875",
-      "points": 611,
-      "comments": 283,
-      "domain": "blog.tymscar.com"
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "discuss": "https://news.ycombinator.com/item?id=50609685",
+      "points": 468,
+      "comments": 187,
+      "domain": "z.ai"
     },
     {
-      "title": "Inkling-2-Mini in 5.4 GB Memory",
-      "url": "https://github.com/ShinMegamiBoson/lookatmyquant",
-      "discuss": "https://news.ycombinator.com/item?id=50591853",
-      "points": 493,
-      "comments": 124,
+      "title": "XNU Linux: Full OS X GUI Userspace on Linux",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "discuss": "https://news.ycombinator.com/item?id=50607261",
+      "points": 460,
+      "comments": 197,
       "domain": "github.com"
     },
     {
-      "title": "Sandwich Simulator",
-      "url": "https://stulle.app/",
-      "discuss": "https://news.ycombinator.com/item?id=50594911",
-      "points": 336,
-      "comments": 120,
-      "domain": "stulle.app"
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "url": "https://smallsf.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50603589",
+      "points": 313,
+      "comments": 101,
+      "domain": "smallsf.com"
     },
     {
-      "title": "Getting the mind to steer the body to steer you",
-      "url": "https://notnottalmud.substack.com/p/getting-the-mind-to-steer-the-body",
-      "discuss": "https://news.ycombinator.com/item?id=50583028",
-      "points": 321,
-      "comments": 107,
-      "domain": "notnottalmud.substack.com"
+      "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
+      "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
+      "discuss": "https://news.ycombinator.com/item?id=50547698",
+      "points": 298,
+      "comments": 103,
+      "domain": "apnews.com"
     },
     {
-      "title": "LLMs can read and write executables byte by byte from a hex dump",
-      "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
-      "discuss": "https://news.ycombinator.com/item?id=50546587",
-      "points": 272,
-      "comments": 162,
-      "domain": "sgiannopoulos.github.io"
+      "title": "Masullo on the Riemann Hypothesis",
+      "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
+      "discuss": "https://news.ycombinator.com/item?id=50598441",
+      "points": 266,
+      "comments": 252,
+      "domain": "johncarlosbaez.wordpress.com"
     }
   ],
-  "totalPoints": 9808,
+  "totalPoints": null,
   "storyCount": 30
 }
