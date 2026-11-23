@@ -1,13 +1,14 @@
 ---
 layout: base.njk
 title: How I deliver
+seoTitle: "How I deliver · Agile Delivery, Scrum & Release Management · Raffiuddin Mohammed"
 permalink: /delivery/
 description: "The Agile release flow Raffiuddin Mohammed runs as delivery lead and Scrum Master, tracked in Jira, YouTrack and Confluence: ticket, pull request, staging, automated and manual QA, production, then the same tests again on production."
 ---
 <div class="page-head">
-  <div class="eyebrow">Delivery lead · Project lead</div>
+  <div class="eyebrow">Delivery lead · Project manager · Scrum Master</div>
   <h1>How I get software from idea to production</h1>
-  <p class="lede">Every change goes through the same steps, with an owner and a gate at each one. Nothing reaches users until it has passed the gate before it, and the same tests run again once it's live.</p>
+  <p class="lede">An Agile (Scrum or Kanban) release process: every change goes through the same steps, with an owner and a gate at each one. Nothing reaches users until it has passed the gate before it, and the same tests run again once it's live.</p>
 </div>
 
 <section>
@@ -20,7 +21,7 @@ description: "The Agile release flow Raffiuddin Mohammed runs as delivery lead a
       </div>
     </div>
     <ol class="flow" data-flow>
-      <li class="fs" style="--i:0"><span class="fs-ico" aria-hidden="true">📝</span><b>Plan</b><span>Ticket written, sized and prioritised</span><em>Product · Delivery lead</em></li>
+      <li class="fs" style="--i:0"><span class="fs-ico" aria-hidden="true">📝</span><b>Plan</b><span>Ticket written in Jira or YouTrack, sized and prioritised in sprint planning</span><em>Product · Delivery lead</em></li>
       <li class="fs" style="--i:1"><span class="fs-ico" aria-hidden="true">🌿</span><b>Build</b><span>Branch from the latest main, pull request</span><em>Developers</em></li>
       <li class="fs" style="--i:2"><span class="fs-ico" aria-hidden="true">🔍</span><b>Review</b><span>Code review plus automated checks on the PR</span><em>Developers · CI</em></li>
       <li class="fs" style="--i:3"><span class="fs-ico" aria-hidden="true">🧪</span><b>Staging</b><span>Merged build deploys to staging, traced to its commit</span><em>CI / CD</em></li>
@@ -42,6 +43,15 @@ description: "The Agile release flow Raffiuddin Mohammed runs as delivery lead a
   </div>
 </section>
 
+<section id="agile">
+  <h2>Agile ceremonies and tools</h2>
+  <div class="grid three">
+    <div class="card tint-4 reveal"><h3>Scrum and Kanban</h3><p class="muted">Sprint planning, daily stand-ups, backlog refinement and retrospectives, or a Kanban board with WIP limits when the team ships continuously.</p></div>
+    <div class="card tint-1 reveal"><h3>Jira, YouTrack, Confluence</h3><p class="muted">Boards and workflows in Jira or YouTrack, acceptance criteria on every ticket, and release notes, test plans and runbooks in Confluence.</p></div>
+    <div class="card tint-2 reveal"><h3>Release management</h3><p class="muted">Release planning, risk calls, stakeholder updates and app store submissions for web, iOS and Android, with QA sign-off before every release.</p></div>
+  </div>
+</section>
+
 <section id="who">
   <h2>Who does what</h2>
   <div class="table-scroll">
@@ -60,7 +70,7 @@ description: "The Agile release flow Raffiuddin Mohammed runs as delivery lead a
 
 <section class="home-cta card tint-2 reveal">
   <h2>Need someone to run this for your team?</h2>
-  <p class="muted">Whether you need a delivery lead, a project lead or someone to build the test automation behind it, let's talk.</p>
+  <p class="muted">Whether you need a delivery lead, project manager, Scrum Master, QA lead or someone to build the test automation behind it, let's talk.</p>
   <div class="actions">
     {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">Talk to me <span aria-hidden="true">→</span></button>{% endif %}
     <a class="btn" href="/projects/">See my projects</a>

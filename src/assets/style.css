@@ -927,3 +927,6 @@ a.project { color: inherit; } a.project:hover { text-decoration: none; }
 
 /* Full-width card inside a two-column grid (Projects: "Leading QA and delivery") */
 .grid.two > .wide { grid-column: 1 / -1; }
+
+/* Site-wide role line in the footer (SEO: repeats the key roles on every page) */
+.footer-roles { width: 100%; margin: 0 0 12px; font-size: .8rem; color: var(--text-2); text-align: center; }
