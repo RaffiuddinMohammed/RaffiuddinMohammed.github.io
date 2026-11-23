@@ -1,83 +1,83 @@
 {
-  "updated": "2026-11-23T17:23:29.087Z",
+  "updated": "2026-11-23T17:34:03.295Z",
   "stories": [
     {
       "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "url": "https://spelunkr.tv",
       "discuss": "https://news.ycombinator.com/item?id=50606192",
-      "points": 781,
-      "comments": 142,
+      "points": 787,
+      "comments": 143,
       "domain": "spelunkr.tv"
     },
     {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://z.ai/blog/glm-5.4",
       "discuss": "https://news.ycombinator.com/item?id=50609685",
-      "points": 749,
-      "comments": 266,
+      "points": 762,
+      "comments": 267,
       "domain": "z.ai"
     },
     {
       "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
       "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "discuss": "https://news.ycombinator.com/item?id=50603845",
-      "points": 675,
-      "comments": 274,
+      "points": 678,
+      "comments": 276,
       "domain": "gpupartner.com"
     },
     {
       "title": "Perplexity and Intelligence",
       "url": "https://openai.com/index/perplexity-and-intelligence/",
       "discuss": "https://news.ycombinator.com/item?id=50601525",
-      "points": 662,
-      "comments": 430,
+      "points": 663,
+      "comments": 432,
       "domain": "openai.com"
+    },
+    {
+      "title": "Nvidia Reinstates Jensen Huang as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "discuss": "https://news.ycombinator.com/item?id=50611576",
+      "points": 653,
+      "comments": 1834,
+      "domain": "cnbc.com"
     },
     {
       "title": "The Birds of GTA 6: A Field Guide to Vice City and Leonida's Wildlife",
       "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
       "discuss": "https://news.ycombinator.com/item?id=50602843",
       "points": 607,
-      "comments": 342,
+      "comments": 345,
       "domain": "audubon.org"
-    },
-    {
-      "title": "Nvidia Reinstates Jensen Huang as CEO",
-      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-      "discuss": "https://news.ycombinator.com/item?id=50611576",
-      "points": 585,
-      "comments": 1775,
-      "domain": "cnbc.com"
     },
     {
       "title": "XNU Linux: Full OS X GUI Userspace on Linux",
       "url": "https://github.com/AFK-surf/xnulinux",
       "discuss": "https://news.ycombinator.com/item?id=50607261",
-      "points": 521,
-      "comments": 213,
+      "points": 523,
+      "comments": 217,
       "domain": "github.com"
-    },
-    {
-      "title": "A miniature San Francisco with live buses, planes and boats",
-      "url": "https://smallsf.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50603589",
-      "points": 351,
-      "comments": 108,
-      "domain": "smallsf.com"
     },
     {
       "title": "Ladybird Is Now in Alpha",
       "url": "https://ladybird.org/posts/alpha/",
       "discuss": "https://news.ycombinator.com/item?id=50614249",
-      "points": 345,
-      "comments": 81,
+      "points": 390,
+      "comments": 89,
       "domain": "ladybird.org"
+    },
+    {
+      "title": "A miniature San Francisco with live buses, planes and boats",
+      "url": "https://smallsf.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50603589",
+      "points": 353,
+      "comments": 108,
+      "domain": "smallsf.com"
     },
     {
       "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
       "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
       "discuss": "https://news.ycombinator.com/item?id=50547698",
-      "points": 336,
+      "points": 337,
       "comments": 120,
       "domain": "apnews.com"
     }

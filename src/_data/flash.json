@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:30:51.573Z",
+  "updated": "2026-11-23T17:39:29.210Z",
   "breaking": [
     {
       "title": "What failure of COP31 reveals about a divided world",
@@ -34,6 +34,11 @@
       "date": "2026-11-23T15:09:50.000Z"
     },
     {
+      "title": "US rapper Don Toliver postpones O2 arena show after Manchester evacuation",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
+      "date": "2026-11-23T16:37:43.000Z"
+    },
+    {
       "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
       "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo",
       "date": "2026-11-23T13:09:52.000Z"
@@ -42,27 +47,22 @@
       "title": "Poundland is facing collapse - what's gone wrong?",
       "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o",
       "date": "2026-11-23T10:09:25.000Z"
-    },
-    {
-      "title": "Tyson Fury reveals schizophrenia diagnosis",
-      "link": "https://www.bbc.co.uk/sport/boxing/articles/c6y80n3dn15yo",
-      "date": "2026-11-23T09:53:52.000Z"
     }
   ],
   "business": [
     {
       "source": "MarketWatch",
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:15:00.000Z",
-      "breaking": false
+      "title": "More AI jobs are coming. That’s one of the big hiring trends in 2027.",
+      "link": "https://www.marketwatch.com/story/more-ai-jobs-are-coming-thats-one-of-the-big-hiring-trends-in-2027-3d810209?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:37:00.000Z",
+      "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Hub Group stock may move 2.1% on upcoming earnings report",
-      "link": "https://www.investing.com/news/stock-market-news/hub-group-stock-may-move-21-on-upcoming-earnings-report-93CH-5046131",
-      "date": "2026-11-23T17:13:13.000Z",
-      "breaking": false
+      "title": "Options on Anthropic shares start trading in brisk volume",
+      "link": "https://www.investing.com/news/stock-market-news/anthropic-options-debut-with-brisk-volume-5046078",
+      "date": "2026-11-23T17:30:29.000Z",
+      "breaking": true
     },
     {
       "source": "CNBC",
@@ -86,18 +86,18 @@
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Texas Instruments surges 10% on Cantor Fitzgerald upgrade and chip rally",
-      "link": "https://www.investing.com/news/stock-market-news/texas-instruments-surges-10-on-cantor-fitzgerald-upgrade-and-chip-rally-5046130",
-      "date": "2026-11-23T17:12:52.000Z",
-      "breaking": false
+      "source": "MarketWatch",
+      "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
+      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:30:00.000Z",
+      "breaking": true
     },
     {
-      "source": "MarketWatch",
-      "title": "The return of Jensen Huang has saved the U.S. stock market — for now. Why the rebound may not last.",
-      "link": "https://www.marketwatch.com/story/the-return-of-jensen-huang-has-saved-the-u-s-stock-market-for-now-why-the-rebound-may-not-last-f72656ce?mod=mw_rss_topstories",
-      "date": "2026-11-23T16:44:00.000Z",
-      "breaking": false
+      "source": "Investing.com",
+      "title": "Why is Invivyd stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-invivyd-stock-surging-today-93CH-5046166",
+      "date": "2026-11-23T17:26:53.000Z",
+      "breaking": true
     },
     {
       "source": "Cointelegraph",
@@ -122,16 +122,16 @@
     },
     {
       "source": "Investing.com",
-      "title": "Rubrik stock may move 11% on Nov. 30 earnings release",
-      "link": "https://www.investing.com/news/stock-market-news/rubrik-stock-may-move-11-on-nov-30-earnings-release-93CH-5046127",
-      "date": "2026-11-23T17:12:02.000Z",
-      "breaking": false
+      "title": "Nothing launches AI earbuds with recording on Dec. 8 - Bloomberg",
+      "link": "https://www.investing.com/news/stock-market-news/nothing-launches-ai-earbuds-with-recording-on-dec-8--bloomberg-93CH-5046164",
+      "date": "2026-11-23T17:26:01.000Z",
+      "breaking": true
     },
     {
       "source": "MarketWatch",
-      "title": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy.",
-      "link": "https://www.marketwatch.com/story/the-surprising-reason-businesses-cant-keep-up-with-customer-demand-hint-its-not-just-a-strong-u-s-economy-70be4a01?mod=mw_rss_topstories",
-      "date": "2026-11-23T16:03:00.000Z",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:15:00.000Z",
       "breaking": false
     }
   ],
@@ -144,6 +144,13 @@
       "source": "BBC"
     },
     {
+      "term": "Hotel Chocolat",
+      "traffic": "1000+",
+      "title": "Hotel Chocolat recalls several Christmas boxes over potential salmonella risk",
+      "link": "https://news.sky.com/story/hotel-chocolat-recalls-several-christmas-boxes-over-potential-salmonella-risk-13615043",
+      "source": "Sky News"
+    },
+    {
       "term": "Deontay Wilder",
       "traffic": "1000+",
       "title": "Fury vs Joshua: Deontay Wilder to fight Martin Bakole on undercard",
@@ -151,25 +158,18 @@
       "source": "BBC"
     },
     {
-      "term": "Space",
-      "traffic": "500+",
-      "title": "Germany taking seriously reports Russia may be planning to launch nuclear weapons into space",
-      "link": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence",
-      "source": "The Guardian"
-    },
-    {
-      "term": "Bbc Licence Fee Future Projections",
-      "traffic": "500+",
-      "title": "Fewer than half in UK will pay TV licence fee within a decade, report warns",
-      "link": "https://www.theguardian.com/media/2026/nov/23/bbc-tv-licence-fee-spiral-of-decline-report",
-      "source": "The Guardian"
-    },
-    {
       "term": "Everton",
-      "traffic": "500+",
+      "traffic": "1000+",
       "title": "Premier League LIVE: Brentford vs Everton - build-up, team news, stats & head-to-head",
       "link": "https://www.bbc.co.uk/sport/football/live/c64gnwyv7kvjt",
       "source": "BBC"
+    },
+    {
+      "term": "Mikey Moore",
+      "traffic": "1000+",
+      "title": "Mikey Moore recall clause clarified as Tottenham loanee announces himself in Bundesliga",
+      "link": "https://talksport.com/football/4723675/mikey-moore-cologne-bayern-munich-tottenham-hotspur-recall-loan/",
+      "source": "talkSPORT"
     }
   ]
 }

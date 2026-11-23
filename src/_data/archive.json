@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:30:50.179Z",
+  "updated": "2026-11-23T17:39:28.635Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,23 +5944,23 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 253,
+      "totalStories": 247,
       "sections": [
         {
           "name": "UK",
           "count": 23
         },
         {
-          "name": "World",
-          "count": 20
-        },
-        {
           "name": "Business",
           "count": 20
         },
         {
+          "name": "World",
+          "count": 19
+        },
+        {
           "name": "Science",
-          "count": 8
+          "count": 11
         },
         {
           "name": "Health",
@@ -5997,15 +5997,15 @@
           "count": 8
         },
         {
+          "word": "cop",
+          "count": 7
+        },
+        {
           "word": "next",
           "count": 7
         },
         {
           "word": "talks",
-          "count": 7
-        },
-        {
-          "word": "cancer",
           "count": 7
         }
       ],
@@ -6014,12 +6014,11 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 30,
+          "count": 29,
           "bySection": {
             "UK": 7,
             "Business": 6,
             "Politics": 11,
-            "World": 1,
             "Health": 3,
             "Technology": 1,
             "Science": 1
@@ -6061,11 +6060,11 @@
           "name": "United States",
           "lat": 39,
           "lon": -98,
-          "count": 13,
+          "count": 12,
           "bySection": {
             "UK": 1,
             "Business": 5,
-            "World": 3,
+            "World": 2,
             "Science": 2,
             "Technology": 1,
             "Health": 1
@@ -6107,9 +6106,9 @@
           "name": "Russia",
           "lat": 60,
           "lon": 90,
-          "count": 6,
+          "count": 5,
           "bySection": {
-            "World": 6
+            "World": 5
           },
           "stories": [
             {
@@ -6148,9 +6147,9 @@
           "name": "Ukraine",
           "lat": 49,
           "lon": 32,
-          "count": 5,
+          "count": 4,
           "bySection": {
-            "World": 4,
+            "World": 3,
             "Politics": 1
           },
           "stories": [
@@ -6171,12 +6170,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-23T05:33:17.000Z"
-            },
-            {
-              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-21T10:26:36.000Z"
             },
             {
               "title": "UK to provide Ukraine with 1,000 long-range strike drones",
@@ -6263,30 +6256,6 @@
           ]
         },
         {
-          "name": "France",
-          "lat": 46,
-          "lon": 2,
-          "count": 2,
-          "bySection": {
-            "Business": 1,
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "Who is taking part in France's recent street protests?",
-              "link": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-11-23T09:25:52.000Z"
-            },
-            {
-              "title": "French police officers sentenced for beating of music producer Michel Zecler",
-              "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-20T22:37:09.000Z"
-            }
-          ]
-        },
-        {
           "name": "Libya",
           "lat": 27,
           "lon": 17,
@@ -6306,6 +6275,23 @@
               "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-23T11:34:10.000Z"
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "lat": 46,
+          "lon": 2,
+          "count": 1,
+          "bySection": {
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "Who is taking part in France's recent street protests?",
+              "link": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-23T09:25:52.000Z"
             }
           ]
         },
@@ -6340,23 +6326,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cwdr155e2d05o?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-23T13:34:02.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Denmark",
-          "lat": 56,
-          "lon": 10,
-          "count": 1,
-          "bySection": {
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-              "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-21T10:26:36.000Z"
             }
           ]
         },
@@ -6567,6 +6536,16 @@
       ],
       "topHeadlines": [
         {
+          "title": "What failure of COP31 reveals about a divided world",
+          "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
+          "section": "Science"
+        },
+        {
+          "title": "Teenage girl stabbed multiple times by 14-year-old boy, murder trial told",
+          "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
           "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
           "section": "Business"
@@ -6577,18 +6556,8 @@
           "section": "World"
         },
         {
-          "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
-          "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
-        },
-        {
           "title": "'People were screaming in pain' during Co-op Live evacuation",
           "link": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "US rapper postpones O2 arena show after Manchester evacuation",
-          "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         }
       ],
@@ -6596,17 +6565,17 @@
         {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 781
+          "points": 787
         },
         {
           "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
           "url": "https://z.ai/blog/glm-5.4",
-          "points": 749
+          "points": 762
         },
         {
           "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "points": 675
+          "points": 678
         }
       ]
     }
