@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T14:35:43.861Z",
-  "headlineCount": 47,
+  "updated": "2026-11-23T14:45:33.376Z",
+  "headlineCount": 62,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 11
+      "count": 27
     },
     {
       "name": "MarketWatch",
@@ -16,13 +16,13 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 8
+      "count": 10
     },
     {
       "name": "Interest rates",
@@ -37,19 +37,19 @@
       "count": 1
     },
     {
+      "name": "Jobs",
+      "count": 1
+    },
+    {
+      "name": "Crypto",
+      "count": 1
+    },
+    {
       "name": "Trade and tariffs",
       "count": 0
     },
     {
-      "name": "Jobs",
-      "count": 0
-    },
-    {
       "name": "Oil and energy",
-      "count": 0
-    },
-    {
-      "name": "Crypto",
       "count": 0
     },
     {
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 5
+      "count": 17
     },
     {
       "name": "Apple",
@@ -89,144 +89,144 @@
   ],
   "latest": [
     {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:15:00.000Z",
+      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:39:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Grocery stores have ‘staggering deals’ for Thanksgiving — but don’t get used to these lower prices just yet",
-      "link": "https://www.marketwatch.com/story/grocery-stores-have-staggering-deals-for-thanksgiving-but-dont-get-used-to-these-lower-prices-just-yet-7adfc7f5?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:14:00.000Z",
+      "title": "Jensen Huang's return as Nvidia CEO will likely result in a flurry of lawsuits",
+      "link": "https://finance.yahoo.com/video/jensen-huangs-return-as-nvidia-ceo-will-likely-result-in-a-flurry-of-lawsuits-143725758.html?.tsrc=rss",
+      "date": "2026-11-23T14:37:25.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
+      "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:37:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "The number of 401(k) millionaires drops amid stock-market swings",
-      "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:10:00.000Z",
-      "source": "MarketWatch"
+      "title": "Jensen Huang is back as Nvidia CEO after 12 days — Steve Jobs needed 12 years, Sam Altman less than a week",
+      "link": "https://finance.yahoo.com/markets/article/jensen-huang-is-back-as-nvidia-ceo-after-12-days--steve-jobs-needed-12-years-sam-altman-less-than-a-week-143608266.html?.tsrc=rss",
+      "date": "2026-11-23T14:36:08.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bitcoin Tops $63,000 as Nvidia Brings Back Jensen Huang and Tech Shares Rally",
+      "link": "https://unchainedcrypto.com/bitcoin-tops-63000-as-nvidia-brings-back-jensen-huang-and-tech-shares-rally/?.tsrc=rss",
+      "date": "2026-11-23T14:35:19.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Trump celebrates Jensen Huang's return after the White House amped up its push for reinstatement",
+      "link": "https://finance.yahoo.com/markets/article/trump-celebrates-jensen-huangs-return-after-the-white-house-amped-up-its-push-for-reinstatement-143505812.html?.tsrc=rss",
+      "date": "2026-11-23T14:35:05.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia reinstates Jensen Huang as CEO",
+      "link": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/?.tsrc=rss",
+      "date": "2026-11-23T14:34:46.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia re-appoints Jensen Huang as CEO after affair scandal",
+      "link": "https://www.independent.co.uk/tech/nvidia-jensen-huang-ceo-b3089946.html?.tsrc=rss",
+      "date": "2026-11-23T14:34:40.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Wall Street Is Watching AI Stocks. But This Stock Could Be a Bigger Nuclear Energy Opportunity",
+      "link": "https://247wallst.com/investing/2026/11/23/wall-street-is-watching-ai-stocks-but-this-stock-could-be-a-bigger-nuclear-energy-opportunity/?.tsrc=rss",
+      "date": "2026-11-23T14:33:23.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
       "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:07:00.000Z",
+      "date": "2026-11-23T14:33:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Even affluent shoppers are embracing buy now, pay later, Block data shows",
-      "link": "https://www.investing.com/news/stock-market-news/even-affluent-shoppers-are-embracing-buy-now-pay-later-block-data-shows-5045810",
-      "date": "2026-11-23T14:06:38.000Z",
-      "source": "Investing.com"
+      "title": "Nvidia reinstates Jensen Huang as CEO 11 days after he resigned",
+      "link": "https://www.euronews.com/2026/11/23/nvidia-reinstates-jensen-huang-as-ceo-11-days-after-he-resigned?.tsrc=rss",
+      "date": "2026-11-23T14:30:19.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
-      "date": "2026-11-23T14:06:22.000Z",
-      "source": "Investing.com"
+      "title": "Compass Group's US listing plans could unlock further value, Jefferies suggests",
+      "link": "https://www.proactiveinvestors.com/companies/news/1102263/compass-group-s-us-listing-plans-could-unlock-further-value-jefferies-suggests-1102263.html?.tsrc=rss",
+      "date": "2026-11-23T14:30:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "5 things to consider as Nvidia restores Jensen Huang as the company's leader",
+      "link": "https://finance.yahoo.com/markets/stocks/article/5-things-to-consider-as-nvidia-restores-jensen-huang-as-the-companys-leader-142904538.html?.tsrc=rss",
+      "date": "2026-11-23T14:29:04.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang Back As Nvidia CEO. Stock Jumps.",
+      "link": "https://finance.yahoo.com/m/9d4f41fa-65db-3d79-8406-bd396f20b522/jensen-huang-back-as-nvidia.html?.tsrc=rss",
+      "date": "2026-11-23T14:27:35.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia Stock Jumped on Trump's Call to Rehire Jensen Huang. Don't Count on it Happening.",
+      "link": "https://www.fool.com/investing/2026/11/23/nvidia-stock-jumped-on-trump-s-call-to-rehire-jensen-huang-don-t-bet-on-it-happening/?.tsrc=rss",
+      "date": "2026-11-23T14:26:56.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nasdaq 100 Futures Surge 6% as Nvidia Reinstates Jensen Huang, Sparking Wall Street Rebound: Dow Jones, S&P, Wall Street",
+      "link": "https://investorshub.advfn.com/market-news/article/40543/nasdaq-100-futures-surge-6-as-nvidia-reinstates-jensen-huang-sparking-wall-street-rebound-dow-jones-sp-wall-street?.tsrc=rss",
+      "date": "2026-11-23T14:25:22.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Monday as Jensen Huang Returns to Nvidia",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-142039189.html?.tsrc=rss",
+      "date": "2026-11-23T14:20:39.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Sector Update: Consumer Stocks Mixed Premarket Monday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-consumer-stocks-mixed-premarket-141547621.html?.tsrc=rss",
+      "date": "2026-11-23T14:15:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stock Market Today: Dow, S&P 500, and Nasdaq Surge as Nvidia Leads a Major AI Rebound",
+      "link": "https://247wallst.com/investing/2026/11/23/stock-market-today-dow-sp-500-and-nasdaq-surge-as-nvidia-leads-a-major-ai-rebound/?.tsrc=rss",
+      "date": "2026-11-23T14:15:17.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:15:00.000Z",
+      "source": "MarketWatch"
+    }
+  ],
+  "featured": [
+    {
+      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
+      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
+      "date": "2026-11-23T14:39:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Jensen Huang's return as Nvidia CEO will likely result in a flurry of lawsuits",
+      "link": "https://finance.yahoo.com/video/jensen-huangs-return-as-nvidia-ceo-will-likely-result-in-a-flurry-of-lawsuits-143725758.html?.tsrc=rss",
+      "date": "2026-11-23T14:37:25.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Nasdaq 100 futures extend gains, soar over 6% as Nvidia reinstates Huang as CEO",
       "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
       "date": "2026-11-23T14:03:49.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "NVIDIA shares surge 30% as board announces Jensen Huang's reinstatement",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-5045795",
-      "date": "2026-11-23T14:03:30.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Top insider buys and sells disclosed on Friday",
-      "link": "https://www.investing.com/news/stock-market-news/top-insider-buys-and-sells-disclosed-on-friday-93CH-5045782",
-      "date": "2026-11-23T14:01:02.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Wall St set to rebound at open as beaten-down AI stocks gain ground",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-rebound-after-rough-week-for-ailinked-shares-5044594",
-      "date": "2026-11-23T14:00:50.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "US arrears leave chemical weapons watchdog facing budget crisis",
-      "link": "https://www.investing.com/news/economy-news/us-arrears-leave-chemical-weapons-watchdog-facing-budget-crisis-5045759",
-      "date": "2026-11-23T14:00:27.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Dell, HPE results to put AI demand to the test after tech rout",
-      "link": "https://www.investing.com/news/stock-market-news/dell-hpe-results-to-put-ai-demand-to-the-test-after-tech-rout-5045762",
-      "date": "2026-11-23T13:55:07.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Texas Stock Exchange captures some Goldman Sachs ETFs from NYSE, Cboe",
-      "link": "https://www.investing.com/news/stock-market-news/texas-stock-exchange-captures-some-goldman-sachsetfs-from-nyse-cboe-5045761",
-      "date": "2026-11-23T13:54:36.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Applied Digital signs $5.4 billion AI data center lease with hyperscaler",
-      "link": "https://www.investing.com/news/stock-market-news/applied-digital-signs-54-billion-ai-data-center-lease-with-hyperscaler-5045760",
-      "date": "2026-11-23T13:54:25.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Deutsche Bank sees S&P 500 hitting 9,000 in 2027",
-      "link": "https://www.investing.com/news/stock-market-news/deutsche-bank-sees-sp-500-hitting-9000-in-2027-5045752",
-      "date": "2026-11-23T13:51:38.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Cybersecurity stocks have been hot — and now CrowdStrike inks deal to buy Zscaler",
-      "link": "https://www.marketwatch.com/story/cybersecurity-stocks-have-been-hot-and-now-crowdstrike-inks-deal-to-buy-zscaler-df8fd163?mod=mw_rss_topstories",
-      "date": "2026-11-23T13:47:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
-      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-      "date": "2026-11-23T13:45:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
-      "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
-      "date": "2026-11-23T13:35:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Down 51% with a P/E of just 9.4! Why are investors suddenly buying Taylor Wimpey shares?",
-      "link": "https://www.twelfthmagpie.com/2026/11/23/down-51-with-a-p-e-of-just-9-4-why-are-investors-suddenly-buying-taylor-wimpey-shares/?.tsrc=rss",
-      "date": "2026-11-23T13:18:37.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Brazil's Galipolo says rising minimum wage pressures inflation, calls for policy recalibration",
-      "link": "https://www.investing.com/news/economy-news/brazils-galipolo-says-rising-minimum-wage-pressures-inflation-calls-for-policy-recalibration-5045477",
-      "date": "2026-11-23T13:00:36.000Z",
-      "source": "Investing.com"
-    }
-  ],
-  "featured": [
-    {
-      "title": "The number of 401(k) millionaires drops amid stock-market swings",
-      "link": "https://www.marketwatch.com/story/the-number-of-401-k-millionaires-drops-amid-stock-market-swings-23939b94?mod=mw_rss_topstories",
-      "date": "2026-11-23T14:10:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
-      "date": "2026-11-23T14:06:22.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "This boring old FTSE 100 stock has profits SpaceX would kill for!",
-      "link": "https://www.twelfthmagpie.com/2026/11/23/this-boring-old-ftse-100-stock-has-profits-spacex-would-kill-for/?.tsrc=rss",
-      "date": "2026-11-23T12:01:00.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "yields": {

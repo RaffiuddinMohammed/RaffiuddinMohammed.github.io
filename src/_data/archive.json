@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T14:43:25.302Z",
+  "updated": "2026-11-23T14:53:24.453Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -6604,19 +6604,19 @@
       ],
       "hnTop": [
         {
+          "title": "Jensen Huang Reinstated as Nvidia CEO",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "points": 786
+        },
+        {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 684
+          "points": 691
         },
         {
           "title": "Perplexity and Intelligence",
           "url": "https://openai.com/index/perplexity-and-intelligence/",
-          "points": 636
-        },
-        {
-          "title": "Jensen Huang Reinstated as Nvidia CEO",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "points": 627
+          "points": 637
         }
       ]
     }

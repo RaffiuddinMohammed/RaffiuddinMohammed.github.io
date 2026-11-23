@@ -1,8 +1,8 @@
 {
-  "updated": "2026-11-23T14:43:25.702Z",
+  "updated": "2026-11-23T14:53:24.880Z",
   "breaking": [
     {
-      "title": "US rapper postpones O2 arena show after Manchester evacuation",
+      "title": "US rapper Don Toliver postpones O2 arena show after Manchester evacuation",
       "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
       "date": "2026-11-23T14:42:46.000Z"
     },
@@ -51,6 +51,13 @@
   ],
   "business": [
     {
+      "source": "Cointelegraph",
+      "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
+      "link": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T14:47:00.000Z",
+      "breaking": true
+    },
+    {
       "source": "MarketWatch",
       "title": "UnitedHealth, Humana and CVS stocks slide as U.S targets Medicare Advantage ratings",
       "link": "https://www.marketwatch.com/story/unitedhealth-humana-and-cvs-stocks-slide-as-u-s-targets-medicare-advantage-ratings-6c2be5bb?mod=mw_rss_topstories",
@@ -62,13 +69,6 @@
       "title": "Even affluent shoppers are embracing buy now, pay later, Block data shows",
       "link": "https://www.investing.com/news/stock-market-news/even-affluent-shoppers-are-embracing-buy-now-pay-later-block-data-shows-5045810",
       "date": "2026-11-23T14:06:38.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T14:06:36.000Z",
       "breaking": false
     },
     {
@@ -90,20 +90,20 @@
       "title": "Jensen Huang is back at Nvidia, and the stock market is surging. Can it last?",
       "link": "https://www.marketwatch.com/story/trump-wants-jensen-huang-back-at-nvidia-what-will-it-take-to-stop-the-tech-selloff-3f6b091f?mod=mw_rss_topstories",
       "date": "2026-11-23T14:37:00.000Z",
-      "breaking": true
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T14:06:36.000Z",
+      "breaking": false
     },
     {
       "source": "Investing.com",
       "title": "Nvidia reinstates Jensen Huang as CEO",
       "link": "https://www.investing.com/news/stock-market-news/nvidia-reinstates-jensen-huang-as-ceo-5045809",
       "date": "2026-11-23T14:06:22.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "OKX, ICE launch 113 tokenized assets despite issuer objections",
-      "link": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T14:00:00.000Z",
       "breaking": false
     },
     {
@@ -118,7 +118,7 @@
       "title": "Nvidia’s stock soars 30%-plus as Jensen Huang returns as CEO",
       "link": "https://www.marketwatch.com/story/nvidia-stock-bounces-as-trump-administration-pushes-for-rehiring-of-jensen-huang-08057c29?mod=mw_rss_topstories",
       "date": "2026-11-23T14:33:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Investing.com",
@@ -129,40 +129,40 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Trump-linked American Bitcoin secures $150M credit line from FalconX",
-      "link": "https://cointelegraph.com/news/trumps-american-bitcoin-rises-150m-credit-falconx?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T13:44:16.000Z",
+      "title": "OKX, ICE launch 113 tokenized assets despite issuer objections",
+      "link": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T14:00:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Jensen Huang",
-      "traffic": "50000+",
-      "title": "Jensen Huang reinstated as Nvidia CEO, board says",
-      "link": "https://www.bbc.co.uk/news/live/crd61y5dwqgpt",
-      "source": "BBC"
-    },
-    {
-      "term": "Nvidia Share Price",
-      "traffic": "10000+",
-      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-      "link": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-      "source": "CNBC"
-    },
-    {
-      "term": "Nvidia Shares",
+      "term": "Nasdaq",
       "traffic": "2000+",
       "title": "Nvidia shares surge 30% as Jensen Huang‘s return as CEO adds more than $900bn to company’s value – business live",
       "link": "https://www.theguardian.com/business/live/2026/nov/23/tech-sell-off-ai-stock-market-support-measures-deployed-south-korea-taiwan-china-ftse-nasdaq-latest-news-updates",
       "source": "The Guardian"
     },
     {
-      "term": "Nvda",
+      "term": "S&P 500",
       "traffic": "2000+",
       "title": "Nvidia shares soar 30% after board reinstates Jensen Huang",
       "link": "https://www.ft.com/content/0f5a7285-fbf1-4120-86df-c9cca29644fc?syn-25a6b1a6=1",
       "source": "Financial Times"
+    },
+    {
+      "term": "Amd Stock",
+      "traffic": "500+",
+      "title": "Prediction: These Will Be AMD’s and Nvidia’s Stock Prices by 2028",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-amd-nvidia-stock-prices-160402811.html",
+      "source": "Yahoo Finance"
+    },
+    {
+      "term": "Nasdaq 100",
+      "traffic": "500+",
+      "title": "Nasdaq 100: AI Valuation Fears Meet Thanksgiving Seasonality",
+      "link": "https://www.stonex.com/en-gb/news-and-analysis/nasdaq-100-ai-valuation-fears-meet-thanksgiving-seasonality-2026-11-23/",
+      "source": "StoneX"
     },
     {
       "term": "Marsala",
