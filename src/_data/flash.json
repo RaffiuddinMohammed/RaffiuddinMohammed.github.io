@@ -1,6 +1,11 @@
 {
-  "updated": "2026-11-23T17:39:29.210Z",
+  "updated": "2026-11-23T18:05:46.747Z",
   "breaking": [
+    {
+      "title": "Pip assessments need 'fundamental overhaul', report to say",
+      "link": "https://www.bbc.co.uk/news/articles/cvlyj3rn201xo",
+      "date": "2026-11-23T17:59:55.000Z"
+    },
     {
       "title": "What failure of COP31 reveals about a divided world",
       "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo",
@@ -10,11 +15,6 @@
       "title": "Teenage girl stabbed multiple times by 14-year-old boy, murder trial told",
       "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o",
       "date": "2026-11-23T17:24:13.000Z"
-    },
-    {
-      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo",
-      "date": "2026-11-23T17:11:58.000Z"
     }
   ],
   "latest": [
@@ -51,24 +51,52 @@
   ],
   "business": [
     {
+      "source": "CNBC",
+      "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "date": "2026-11-23T18:00:47.000Z",
+      "breaking": true
+    },
+    {
       "source": "MarketWatch",
-      "title": "More AI jobs are coming. That’s one of the big hiring trends in 2027.",
-      "link": "https://www.marketwatch.com/story/more-ai-jobs-are-coming-thats-one-of-the-big-hiring-trends-in-2027-3d810209?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:37:00.000Z",
+      "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, are among the S&P 500’s biggest losers Monday",
+      "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:54:00.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Options on Anthropic shares start trading in brisk volume",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-options-debut-with-brisk-volume-5046078",
-      "date": "2026-11-23T17:30:29.000Z",
-      "breaking": true
+      "title": "BMO reaffirmed this top pick in apparel and footwear",
+      "link": "https://www.investing.com/news/stock-market-news/bmo-reaffirmed-this-top-pick-in-apparel-and-footwear-5046189",
+      "date": "2026-11-23T17:49:46.000Z",
+      "breaking": false
     },
     {
-      "source": "CNBC",
-      "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
-      "date": "2026-11-23T16:53:57.000Z",
+      "source": "BBC Business",
+      "title": "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
+      "date": "2026-11-23T17:42:37.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
+      "link": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T17:42:18.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Trump thinks China will buy another 250 Boeing airplanes",
+      "link": "https://www.investing.com/news/stock-market-news/trump-thinks-china-will-buy-another-250-boeing-airplanes-5046050",
+      "date": "2026-11-23T17:48:21.000Z",
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "More AI jobs are coming. That’s one of the big hiring trends in 2027.",
+      "link": "https://www.marketwatch.com/story/more-ai-jobs-are-coming-thats-one-of-the-big-hiring-trends-in-2027-3d810209?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:37:00.000Z",
       "breaking": false
     },
     {
@@ -86,34 +114,6 @@
       "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
-      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:30:00.000Z",
-      "breaking": true
-    },
-    {
-      "source": "Investing.com",
-      "title": "Why is Invivyd stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-invivyd-stock-surging-today-93CH-5046166",
-      "date": "2026-11-23T17:26:53.000Z",
-      "breaking": true
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Cross River Bank enters Bitcoin-backed lending with $250K loans",
-      "link": "https://cointelegraph.com/news/cross-river-bank-bitcoin-backed-lending-250k-loans?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T16:23:37.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
-      "date": "2026-11-23T15:39:41.000Z",
-      "breaking": false
-    },
-    {
       "source": "CNBC",
       "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
       "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
@@ -122,26 +122,26 @@
     },
     {
       "source": "Investing.com",
-      "title": "Nothing launches AI earbuds with recording on Dec. 8 - Bloomberg",
-      "link": "https://www.investing.com/news/stock-market-news/nothing-launches-ai-earbuds-with-recording-on-dec-8--bloomberg-93CH-5046164",
-      "date": "2026-11-23T17:26:01.000Z",
-      "breaking": true
+      "title": "Why is Elastic stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-elastic-stock-surging-today-93CH-5046183",
+      "date": "2026-11-23T17:39:46.000Z",
+      "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:15:00.000Z",
+      "title": "A 66-year-old nurse faces retirement with just $500 saved. Who’s to blame?",
+      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:30:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Snow Forecast Uk",
-      "traffic": "2000+",
-      "title": "Will it snow this week? Mild Atlantic air collides with cold air across the UK",
-      "link": "https://www.bbc.co.uk/weather/articles/c5dj1l21w9pmo",
-      "source": "BBC"
+      "term": "Ftse 100 Index",
+      "traffic": "1000+",
+      "title": "LONDON MARKET EARLY CALL: FTSE 100 to fall after tech rout",
+      "link": "https://www.lse.co.uk/news/london-market-early-call-ftse-100-to-fall-after-tech-rout-lc2hf47r0psvqf6.html",
+      "source": "London South East"
     },
     {
       "term": "Hotel Chocolat",
@@ -158,18 +158,18 @@
       "source": "BBC"
     },
     {
-      "term": "Everton",
-      "traffic": "1000+",
-      "title": "Premier League LIVE: Brentford vs Everton - build-up, team news, stats & head-to-head",
-      "link": "https://www.bbc.co.uk/sport/football/live/c64gnwyv7kvjt",
-      "source": "BBC"
+      "term": "Sepsi - Rapid BucureşTi",
+      "traffic": "500+",
+      "title": "Superliga, etapa #16. FCSB remizează cu FC Argeș după un meci șters » Toate rezultatele + Clasamentul actualizat",
+      "link": "https://golazo.ro/superliga-etapa-16-live-192592",
+      "source": "GOLAZO.ro"
     },
     {
-      "term": "Mikey Moore",
-      "traffic": "1000+",
-      "title": "Mikey Moore recall clause clarified as Tottenham loanee announces himself in Bundesliga",
-      "link": "https://talksport.com/football/4723675/mikey-moore-cologne-bayern-munich-tottenham-hotspur-recall-loan/",
-      "source": "talkSPORT"
+      "term": "Steve Borthwick",
+      "traffic": "500+",
+      "title": "England 37-12 New Zealand: Hosts run up record win over All Blacks",
+      "link": "https://www.bbc.co.uk/sport/rugby-union/articles/cwm2jxd8k15mo",
+      "source": "BBC"
     }
   ]
 }

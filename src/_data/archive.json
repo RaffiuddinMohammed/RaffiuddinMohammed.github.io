@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:39:28.635Z",
+  "updated": "2026-11-23T18:05:46.285Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,8 +5944,12 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 247,
+      "totalStories": 251,
       "sections": [
+        {
+          "name": "World",
+          "count": 23
+        },
         {
           "name": "UK",
           "count": 23
@@ -5953,10 +5957,6 @@
         {
           "name": "Business",
           "count": 20
-        },
-        {
-          "name": "World",
-          "count": 19
         },
         {
           "name": "Science",
@@ -5993,6 +5993,10 @@
           "count": 11
         },
         {
+          "word": "talks",
+          "count": 8
+        },
+        {
           "word": "climate",
           "count": 8
         },
@@ -6002,10 +6006,6 @@
         },
         {
           "word": "next",
-          "count": 7
-        },
-        {
-          "word": "talks",
           "count": 7
         }
       ],
@@ -6256,6 +6256,30 @@
           ]
         },
         {
+          "name": "France",
+          "lat": 46,
+          "lon": 2,
+          "count": 2,
+          "bySection": {
+            "World": 1,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
+              "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-23T13:09:52.000Z"
+            },
+            {
+              "title": "Who is taking part in France's recent street protests?",
+              "link": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-23T09:25:52.000Z"
+            }
+          ]
+        },
+        {
           "name": "Libya",
           "lat": 27,
           "lon": 17,
@@ -6279,19 +6303,43 @@
           ]
         },
         {
-          "name": "France",
-          "lat": 46,
-          "lon": 2,
-          "count": 1,
+          "name": "India",
+          "lat": 22,
+          "lon": 79,
+          "count": 2,
           "bySection": {
+            "World": 1,
             "Business": 1
           },
           "stories": [
             {
-              "title": "Who is taking part in France's recent street protests?",
-              "link": "https://www.bbc.co.uk/news/videos/cw5y188vzxn8o?at_medium=RSS&at_campaign=rss",
+              "title": "India pledges $1.6bn to Nepal in reset of ties",
+              "link": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-23T13:39:30.000Z"
+            },
+            {
+              "title": "The Indian workers filming their work to train AI",
+              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
               "section": "Business",
-              "date": "2026-11-23T09:25:52.000Z"
+              "date": "2026-10-23T08:04:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "lat": 56,
+          "lon": -106,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
+              "link": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-23T17:14:50.000Z"
             }
           ]
         },
@@ -6449,23 +6497,6 @@
           ]
         },
         {
-          "name": "India",
-          "lat": 22,
-          "lon": 79,
-          "count": 1,
-          "bySection": {
-            "Business": 1
-          },
-          "stories": [
-            {
-              "title": "The Indian workers filming their work to train AI",
-              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-10-23T08:04:17.000Z"
-            }
-          ]
-        },
-        {
           "name": "China",
           "lat": 35,
           "lon": 104,
@@ -6536,9 +6567,14 @@
       ],
       "topHeadlines": [
         {
+          "title": "Nvidia shares up nearly 33% and tech stocks rally after Jensen Huang returns",
+          "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
           "title": "What failure of COP31 reveals about a divided world",
           "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo?at_medium=RSS&at_campaign=rss",
-          "section": "Science"
+          "section": "World"
         },
         {
           "title": "Teenage girl stabbed multiple times by 14-year-old boy, murder trial told",
@@ -6546,36 +6582,31 @@
           "section": "UK"
         },
         {
-          "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
-          "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
-        },
-        {
-          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-          "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "title": "Comedian impersonates Trump's dance moves, mocks trade talks at Canada press dinner",
+          "link": "https://www.bbc.co.uk/news/articles/cr930y92dyx4o?at_medium=RSS&at_campaign=rss",
           "section": "World"
         },
         {
-          "title": "'People were screaming in pain' during Co-op Live evacuation",
-          "link": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
+          "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+          "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
         }
       ],
       "hnTop": [
         {
+          "title": "Nvidia Reinstates Jensen Huang as CEO",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "points": 825
+        },
+        {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 787
+          "points": 798
         },
         {
           "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
           "url": "https://z.ai/blog/glm-5.4",
-          "points": 762
-        },
-        {
-          "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "points": 678
+          "points": 789
         }
       ]
     }
