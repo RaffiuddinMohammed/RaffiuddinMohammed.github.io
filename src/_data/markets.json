@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-23T17:07:24.608Z",
-  "headlineCount": 68,
+  "updated": "2026-11-23T17:23:26.707Z",
+  "headlineCount": 69,
   "sources": [
     {
       "name": "CNBC",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Yahoo Finance",
@@ -22,10 +22,14 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 15
+      "count": 9
     },
     {
       "name": "Interest rates",
+      "count": 4
+    },
+    {
+      "name": "Earnings",
       "count": 4
     },
     {
@@ -33,11 +37,7 @@
       "count": 2
     },
     {
-      "name": "Earnings",
-      "count": 2
-    },
-    {
-      "name": "Jobs",
+      "name": "Crypto",
       "count": 1
     },
     {
@@ -45,11 +45,11 @@
       "count": 0
     },
     {
-      "name": "Oil and energy",
+      "name": "Jobs",
       "count": 0
     },
     {
-      "name": "Crypto",
+      "name": "Oil and energy",
       "count": 0
     },
     {
@@ -60,15 +60,19 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 16
+      "count": 15
     },
     {
       "name": "Amazon",
       "count": 2
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
       "name": "Tesla",
-      "count": 2
+      "count": 1
     },
     {
       "name": "Apple",
@@ -81,152 +85,148 @@
     {
       "name": "Alphabet",
       "count": 0
-    },
-    {
-      "name": "Meta",
-      "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Oracle Stocks Jump 12.02% as Funding Pledge and Nvidia Reversal Ease AI Debt Fears",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-jump-12-02-165714363.html?.tsrc=rss",
-      "date": "2026-11-23T16:57:14.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "AMC shares gain as weekend attendance tops 4.1 million amid Hunger Games opening",
-      "link": "https://www.investing.com/news/stock-market-news/amc-shares-gain-as-weekend-attendance-tops-41-million-amid-hunger-games-opening-5046095",
-      "date": "2026-11-23T16:52:16.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Intel Stocks Climb 11.9% as Chip Rebound Meets Fresh 18A Foundry Customer Win",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/intel-stocks-climb-11-9-165202694.html?.tsrc=rss",
-      "date": "2026-11-23T16:52:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nasdaq soars over 6% as Huang's return to Nvidia reignites AI trade",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-jump-after-major-indexes-enter-correction-territory-5044226",
-      "date": "2026-11-23T16:51:52.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Stock Market Today: Dow Surges As Trump Says This On Huang's Nvidia Return; Chip Plays Rocket (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/8751de70-467e-380a-82cb-f4ee42adc461/stock-market-today%3A-dow.html?.tsrc=rss",
-      "date": "2026-11-23T16:49:30.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Virginia, Oregon sue Musk's SpaceX over Grok AI's creation of child sexual abuse images",
-      "link": "https://www.investing.com/news/stock-market-news/virginia-oregon-sue-musks-spacex-over-grok-ais-creation-of-child-sexual-abuse-images-and-videos-5045239",
-      "date": "2026-11-23T16:48:41.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "NVIDIA Stocks Surge 31.35% as Board Reinstates Jensen Huang as CEO",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stocks-surge-31-35-164832302.html?.tsrc=rss",
-      "date": "2026-11-23T16:48:32.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "UK's FTSE 100 Starts Week in Green as Mining Stocks Gain",
-      "link": "https://uk.finance.yahoo.com/news/uk-apos-ftse-100-starts-164823031.html?.tsrc=rss",
-      "date": "2026-11-23T16:48:23.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Jensen Huang is back atop Nvidia. He has a long road ahead in Washington.",
-      "link": "https://finance.yahoo.com/markets/article/jensen-huang-is-back-atop-nvidia-he-has-a-long-road-ahead-in-washington-164747640.html?.tsrc=rss",
-      "date": "2026-11-23T16:47:47.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Wall Street analysts cheer Jensen Huang's return to Nvidia — but they still have concerns",
-      "link": "https://finance.yahoo.com/markets/article/wall-street-analyst-races-to-upgrade-nvidia-as-jensen-huang-returns-cites-clown-like-board-response-164614996.html?.tsrc=rss",
-      "date": "2026-11-23T16:46:14.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Goldman Sachs Names Top Communication Technology Stock",
-      "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-names-top-communication-technology-stock-5046091",
-      "date": "2026-11-23T16:45:53.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "The return of Jensen Huang has saved the U.S. stock market — for now. Why the rebound may not last.",
-      "link": "https://www.marketwatch.com/story/the-return-of-jensen-huang-has-saved-the-u-s-stock-market-for-now-why-the-rebound-may-not-last-f72656ce?mod=mw_rss_topstories",
-      "date": "2026-11-23T16:44:00.000Z",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "date": "2026-11-23T17:15:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Tesla jumps 50 places on the Roundtable 100 amid FSD v15 rollout",
-      "link": "https://www.thestreet.com/crypto/markets/tesla-jumps-50-places-on-the-roundtable-100-amid-fsd-v15-rollout?.tsrc=rss",
-      "date": "2026-11-23T16:43:07.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia bears face $12.2 billion hit on Huang's surprise return",
-      "link": "https://www.investing.com/news/stock-market-news/nvidia-bears-face-122-billion-hit-on-huangs-surprise-return-5046083",
-      "date": "2026-11-23T16:42:34.000Z",
+      "title": "Hub Group stock may move 2.1% on upcoming earnings report",
+      "link": "https://www.investing.com/news/stock-market-news/hub-group-stock-may-move-21-on-upcoming-earnings-report-93CH-5046131",
+      "date": "2026-11-23T17:13:13.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Chip Stocks Lead Wall Street's Monday Rebound as Buyers Return",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/chip-stocks-lead-wall-streets-164200717.html?.tsrc=rss",
-      "date": "2026-11-23T16:42:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Poland stocks higher at close of trade; WIG30 up 3.55%",
-      "link": "https://www.investing.com/news/stock-market-news/poland-stocks-higher-at-close-of-trade-wig30-up-355-5046084",
-      "date": "2026-11-23T16:40:03.000Z",
+      "title": "Texas Instruments surges 10% on Cantor Fitzgerald upgrade and chip rally",
+      "link": "https://www.investing.com/news/stock-market-news/texas-instruments-surges-10-on-cantor-fitzgerald-upgrade-and-chip-rally-5046130",
+      "date": "2026-11-23T17:12:52.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Amazon To Buy Decart's AI Technology To Boost Trainium Chip Performance, Cut AI Costs",
-      "link": "https://stocktwits.com/news-articles/markets/equity/amazon-to-buy-decart-s-ai-technology-to-boost-trainium-chip-performance-cut-ai-costs/cNbp40pR9jh?.tsrc=rss",
-      "date": "2026-11-23T16:39:52.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Trump reportedly called into Nvidia board meeting to advocate for Huang's return",
-      "link": "https://finance.yahoo.com/technology/articles/trump-reportedly-called-nvidia-board-163910304.html?.tsrc=rss",
-      "date": "2026-11-23T16:39:10.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Jensen Huang Got His Job Back. An SEC Accounting Probe Could Be Harder to Shake",
-      "link": "https://247wallst.com/investing/2026/11/23/jensen-huang-got-his-job-back-an-sec-accounting-probe-could-be-harder-to-shake/?.tsrc=rss",
-      "date": "2026-11-23T16:37:18.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Trump says he assured Nvidia that Jensen Huang posed no national security threat",
-      "link": "https://www.investing.com/news/stock-market-news/trump-says-nvidia-board-made-right-call-on-huang-reinstatement-5045885",
-      "date": "2026-11-23T16:36:56.000Z",
+      "title": "Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
+      "link": "https://www.investing.com/news/economy-news/nvidia-reinstates-jensen-huang-as-ceo-igniting-tech-surge-5045917",
+      "date": "2026-11-23T17:12:25.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Rubrik stock may move 11% on Nov. 30 earnings release",
+      "link": "https://www.investing.com/news/stock-market-news/rubrik-stock-may-move-11-on-nov-30-earnings-release-93CH-5046127",
+      "date": "2026-11-23T17:12:02.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Wall Street's SpaceX sequel: Anthropic gets leveraged ETFs and options, and the original didn't end well",
+      "link": "https://finance.yahoo.com/markets/article/wall-streets-spacex-sequel-anthropic-gets-leveraged-etfs-and-options-and-the-original-didnt-end-well-171144316.html?.tsrc=rss",
+      "date": "2026-11-23T17:11:44.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia Stocks Boom After Jensen Huang Is Reinstated as CEO Over a Week After Resigning Amid Affair Scandal",
+      "link": "https://firstformoney.com/nvidia-stocks-boom-after-jensen-huang-is-reinstated-as-ceo-over-a-week-after-resigning-amid-affair-scandal/?.tsrc=rss",
+      "date": "2026-11-23T17:10:35.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "U.K. stocks higher at close of trade; Investing.com United Kingdom 100 up 1.33%",
+      "link": "https://www.investing.com/news/stock-market-news/uk-stocks-higher-at-close-of-trade-investingcom-united-kingdom-100-up-133-5046124",
+      "date": "2026-11-23T17:08:56.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Spain stocks higher at close of trade; IBEX 35 up 1.71%",
+      "link": "https://www.investing.com/news/stock-market-news/spain-stocks-higher-at-close-of-trade-ibex-35-up-171-5046123",
+      "date": "2026-11-23T17:08:30.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Samsung Electronics Stocks Fall 3.06% as Kospi Sinks Before Nvidia's CEO Reversal",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-fall-3-170806611.html?.tsrc=rss",
+      "date": "2026-11-23T17:08:06.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Portugal stocks higher at close of trade; PSI up 0.39%",
+      "link": "https://www.investing.com/news/stock-market-news/portugal-stocks-higher-at-close-of-trade-psi-up-039-5046122",
+      "date": "2026-11-23T17:08:04.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Netherlands stocks higher at close of trade; AEX up 2.15%",
+      "link": "https://www.investing.com/news/stock-market-news/netherlands-stocks-higher-at-close-of-trade-aex-up-215-5046121",
+      "date": "2026-11-23T17:07:34.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "EasyPost to Go Public Via American Drive Acquisition Co SPAC",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/easypost-public-via-american-drive-170711328.html?.tsrc=rss",
+      "date": "2026-11-23T17:07:11.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Italy stocks higher at close of trade; Investing.com Italy 40 up 0.62%",
+      "link": "https://www.investing.com/news/stock-market-news/italy-stocks-higher-at-close-of-trade-investingcom-italy-40-up-062-5046120",
+      "date": "2026-11-23T17:07:09.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Amazon's AWS CEO says engineering, not kill switches, is path to AI safety",
+      "link": "https://www.investing.com/news/stock-market-news/amazons-aws-ceo-says-engineering-not-kill-switches-is-path-to-ai-safety-5046119",
+      "date": "2026-11-23T17:06:59.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "California attorney general says Huang reinstatement changes nothing",
+      "link": "https://www.investing.com/news/stock-market-news/california-attorney-general-says-huang-reinstatement-changes-nothing-5046096",
+      "date": "2026-11-23T17:06:46.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "AMD Stocks Rise 3.41% as Nvidia Leadership Reset Narrows the Challenger's Window",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amd-stocks-rise-3-41-170628383.html?.tsrc=rss",
+      "date": "2026-11-23T17:06:28.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "2 Diagnostics Stocks to Buy in November Before Cancer Screening Goes Mainstream",
+      "link": "https://www.fool.com/investing/2026/11/23/2-diagnostics-stocks-to-buy-in-november-before-cancer-screening-goes-mainstream/?.tsrc=rss",
+      "date": "2026-11-23T17:05:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "The S&P 500 Just Fell Into a Correction. Your $3 Million Retirement Portfolio May Be Less Diversified Than You Think",
+      "link": "https://247wallst.com/investing/2026/11/23/the-sp-500-just-fell-into-a-correction-your-3-million-retirement-portfolio-may-be-less-diversified-than-you-think/?.tsrc=rss",
+      "date": "2026-11-23T17:04:31.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Rigetti Surges 17% as Jensen Huang's Return to NVIDIA Lifts Quantum Stocks; D-Wave Rallies 15%, IonQ Jumps 14%",
+      "link": "https://247wallst.com/investing/2026/11/23/rigetti-surges-17-as-jensen-huangs-return-to-nvidia-lifts-quantum-stocks-d-wave-rallies-15-ionq-jumps-14/?.tsrc=rss",
+      "date": "2026-11-23T17:04:04.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Oracle Stocks Jump 12.02% as Funding Pledge and Nvidia Reversal Ease AI Debt Fears",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/oracle-stocks-jump-12-02-165714363.html?.tsrc=rss",
-      "date": "2026-11-23T16:57:14.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "AMC shares gain as weekend attendance tops 4.1 million amid Hunger Games opening",
-      "link": "https://www.investing.com/news/stock-market-news/amc-shares-gain-as-weekend-attendance-tops-41-million-amid-hunger-games-opening-5046095",
-      "date": "2026-11-23T16:52:16.000Z",
+      "title": "Hub Group stock may move 2.1% on upcoming earnings report",
+      "link": "https://www.investing.com/news/stock-market-news/hub-group-stock-may-move-21-on-upcoming-earnings-report-93CH-5046131",
+      "date": "2026-11-23T17:13:13.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "The return of Jensen Huang has saved the U.S. stock market — for now. Why the rebound may not last.",
-      "link": "https://www.marketwatch.com/story/the-return-of-jensen-huang-has-saved-the-u-s-stock-market-for-now-why-the-rebound-may-not-last-f72656ce?mod=mw_rss_topstories",
-      "date": "2026-11-23T16:44:00.000Z",
-      "source": "MarketWatch"
+      "title": "Wall Street's SpaceX sequel: Anthropic gets leveraged ETFs and options, and the original didn't end well",
+      "link": "https://finance.yahoo.com/markets/article/wall-streets-spacex-sequel-anthropic-gets-leveraged-etfs-and-options-and-the-original-didnt-end-well-171144316.html?.tsrc=rss",
+      "date": "2026-11-23T17:11:44.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "‘This establishes a bottom': Jensen Huang's return seen as likely to stop market sell-off, for now",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "date": "2026-11-23T16:53:57.000Z",
+      "source": "CNBC"
     }
   ],
   "yields": {

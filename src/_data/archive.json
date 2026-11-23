@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T17:15:43.542Z",
+  "updated": "2026-11-23T17:30:50.179Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,7 +5944,7 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 252,
+      "totalStories": 253,
       "sections": [
         {
           "name": "UK",
@@ -5952,11 +5952,11 @@
         },
         {
           "name": "World",
-          "count": 21
+          "count": 20
         },
         {
           "name": "Business",
-          "count": 19
+          "count": 20
         },
         {
           "name": "Science",
@@ -6050,7 +6050,7 @@
               "date": "2026-11-23T06:12:43.000Z"
             },
             {
-              "title": "Househunter swaps Australia for Wales's most affordable town - where locals are struggling to buy",
+              "title": "Househunter swaps Australia for Wales' most affordable town - where locals are struggling to buy",
               "link": "https://www.bbc.co.uk/news/articles/cjkgkdppk1nwo?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-23T06:03:32.000Z"
@@ -6407,7 +6407,7 @@
               "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
               "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-23T11:57:33.000Z"
+              "date": "2026-11-23T17:07:25.000Z"
             }
           ]
         },
@@ -6424,7 +6424,7 @@
               "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
               "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-23T11:57:33.000Z"
+              "date": "2026-11-23T17:07:25.000Z"
             }
           ]
         },
@@ -6557,7 +6557,7 @@
           },
           "stories": [
             {
-              "title": "Househunter swaps Australia for Wales's most affordable town - where locals are struggling to buy",
+              "title": "Househunter swaps Australia for Wales' most affordable town - where locals are struggling to buy",
               "link": "https://www.bbc.co.uk/news/articles/cjkgkdppk1nwo?at_medium=RSS&at_campaign=rss",
               "section": "UK",
               "date": "2026-11-23T06:03:32.000Z"
@@ -6566,6 +6566,16 @@
         }
       ],
       "topHeadlines": [
+        {
+          "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+          "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
+        },
+        {
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
         {
           "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
           "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
@@ -6580,33 +6590,23 @@
           "title": "US rapper postpones O2 arena show after Manchester evacuation",
           "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "How important are Nvidia and Jensen Huang to the US economy?",
-          "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
-          "section": "Business"
-        },
-        {
-          "title": "Jury out in train stabbing attempted murder trial",
-          "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 771
+          "points": 781
         },
         {
           "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
           "url": "https://z.ai/blog/glm-5.4",
-          "points": 731
+          "points": 749
         },
         {
           "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "points": 672
+          "points": 675
         }
       ]
     }

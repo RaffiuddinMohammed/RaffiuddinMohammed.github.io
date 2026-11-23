@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T17:07:26.017Z",
-  "totalStories": 252,
+  "updated": "2026-11-23T17:23:28.833Z",
+  "totalStories": 253,
   "sections": [
     {
       "name": "UK",
@@ -8,11 +8,11 @@
     },
     {
       "name": "World",
-      "count": 21
+      "count": 20
     },
     {
       "name": "Business",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Science",
@@ -122,7 +122,7 @@
           "date": "2026-11-23T06:12:43.000Z"
         },
         {
-          "title": "Househunter swaps Australia for Wales's most affordable town - where locals are struggling to buy",
+          "title": "Househunter swaps Australia for Wales' most affordable town - where locals are struggling to buy",
           "link": "https://www.bbc.co.uk/news/articles/cjkgkdppk1nwo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
           "date": "2026-11-23T06:03:32.000Z"
@@ -521,7 +521,7 @@
           "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
           "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-23T11:57:33.000Z"
+          "date": "2026-11-23T17:07:25.000Z"
         }
       ]
     },
@@ -538,7 +538,7 @@
           "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
           "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
           "section": "World",
-          "date": "2026-11-23T11:57:33.000Z"
+          "date": "2026-11-23T17:07:25.000Z"
         }
       ]
     },
@@ -671,7 +671,7 @@
       },
       "stories": [
         {
-          "title": "Househunter swaps Australia for Wales's most affordable town - where locals are struggling to buy",
+          "title": "Househunter swaps Australia for Wales' most affordable town - where locals are struggling to buy",
           "link": "https://www.bbc.co.uk/news/articles/cjkgkdppk1nwo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
           "date": "2026-11-23T06:03:32.000Z"
@@ -680,6 +680,18 @@
     }
   ],
   "latest": [
+    {
+      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T17:11:58.000Z",
+      "section": "Business"
+    },
+    {
+      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+      "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T17:07:25.000Z",
+      "section": "World"
+    },
     {
       "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
       "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
@@ -735,22 +747,10 @@
       "section": "Business"
     },
     {
-      "title": "Teenage girl stabbed 55 times by 14-year-old boy, murder trial told",
+      "title": "Teenage girl stabbed multiple times by 14-year-old boy, murder trial told",
       "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T15:36:17.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Mother and son riot ringleaders jailed for 'disgraceful' acts",
-      "link": "https://www.bbc.co.uk/news/articles/c6qj57y4gwlyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T15:24:20.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Mexican soldiers attacked in wake of drug lord's arrest",
-      "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:54:03.000Z",
-      "section": "World"
     }
   ]
 }

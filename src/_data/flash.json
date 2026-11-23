@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-23T17:15:44.006Z",
+  "updated": "2026-11-23T17:30:51.573Z",
   "breaking": [
     {
-      "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-      "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o",
-      "date": "2026-11-23T17:07:25.000Z"
+      "title": "What failure of COP31 reveals about a divided world",
+      "link": "https://www.bbc.co.uk/news/articles/cky970n83rvjo",
+      "date": "2026-11-23T17:24:25.000Z"
     },
     {
-      "title": "'People were screaming in pain' during Co-op Live evacuation",
-      "link": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo",
-      "date": "2026-11-23T16:43:42.000Z"
+      "title": "Teenage girl stabbed multiple times by 14-year-old boy, murder trial told",
+      "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o",
+      "date": "2026-11-23T17:24:13.000Z"
     },
     {
-      "title": "US rapper Don Toliver postpones O2 arena show after Manchester evacuation",
-      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo",
-      "date": "2026-11-23T16:37:43.000Z"
+      "title": "Faisal Islam: Why Jensen Huang proved too big to fire",
+      "link": "https://www.bbc.co.uk/news/articles/ckr5g8edl94eo",
+      "date": "2026-11-23T17:11:58.000Z"
     }
   ],
   "latest": [
@@ -34,11 +34,6 @@
       "date": "2026-11-23T15:09:50.000Z"
     },
     {
-      "title": "Five takeaways from the failed climate talks COP31",
-      "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo",
-      "date": "2026-11-23T06:33:50.000Z"
-    },
-    {
       "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
       "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo",
       "date": "2026-11-23T13:09:52.000Z"
@@ -47,6 +42,11 @@
       "title": "Poundland is facing collapse - what's gone wrong?",
       "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o",
       "date": "2026-11-23T10:09:25.000Z"
+    },
+    {
+      "title": "Tyson Fury reveals schizophrenia diagnosis",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/c6y80n3dn15yo",
+      "date": "2026-11-23T09:53:52.000Z"
     }
   ],
   "business": [
@@ -55,14 +55,21 @@
       "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
       "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
       "date": "2026-11-23T17:15:00.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Investing.com",
       "title": "Hub Group stock may move 2.1% on upcoming earnings report",
       "link": "https://www.investing.com/news/stock-market-news/hub-group-stock-may-move-21-on-upcoming-earnings-report-93CH-5046131",
       "date": "2026-11-23T17:13:13.000Z",
-      "breaking": true
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "‘This establishes a bottom’: Jensen Huang’s return seen as likely to stop market sell-off, for now",
+      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+      "date": "2026-11-23T16:53:57.000Z",
+      "breaking": false
     },
     {
       "source": "Cointelegraph",
@@ -79,18 +86,11 @@
       "breaking": false
     },
     {
-      "source": "CNBC",
-      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-      "date": "2026-11-22T18:55:05.000Z",
-      "breaking": false
-    },
-    {
       "source": "Investing.com",
       "title": "Texas Instruments surges 10% on Cantor Fitzgerald upgrade and chip rally",
       "link": "https://www.investing.com/news/stock-market-news/texas-instruments-surges-10-on-cantor-fitzgerald-upgrade-and-chip-rally-5046130",
       "date": "2026-11-23T17:12:52.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -115,9 +115,9 @@
     },
     {
       "source": "CNBC",
-      "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
-      "link": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html",
-      "date": "2026-11-20T21:10:48.000Z",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "date": "2026-11-22T18:55:05.000Z",
       "breaking": false
     },
     {
@@ -125,7 +125,7 @@
       "title": "Rubrik stock may move 11% on Nov. 30 earnings release",
       "link": "https://www.investing.com/news/stock-market-news/rubrik-stock-may-move-11-on-nov-30-earnings-release-93CH-5046127",
       "date": "2026-11-23T17:12:02.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -144,32 +144,32 @@
       "source": "BBC"
     },
     {
+      "term": "Deontay Wilder",
+      "traffic": "1000+",
+      "title": "Fury vs Joshua: Deontay Wilder to fight Martin Bakole on undercard",
+      "link": "https://www.bbc.co.uk/sport/boxing/articles/cmvg2v0rlzeko",
+      "source": "BBC"
+    },
+    {
+      "term": "Space",
+      "traffic": "500+",
+      "title": "Germany taking seriously reports Russia may be planning to launch nuclear weapons into space",
+      "link": "https://www.theguardian.com/world/2026/nov/23/russia-nuclear-weapons-space-german-intelligence",
+      "source": "The Guardian"
+    },
+    {
+      "term": "Bbc Licence Fee Future Projections",
+      "traffic": "500+",
+      "title": "Fewer than half in UK will pay TV licence fee within a decade, report warns",
+      "link": "https://www.theguardian.com/media/2026/nov/23/bbc-tv-licence-fee-spiral-of-decline-report",
+      "source": "The Guardian"
+    },
+    {
       "term": "Everton",
       "traffic": "500+",
       "title": "Premier League LIVE: Brentford vs Everton - build-up, team news, stats & head-to-head",
       "link": "https://www.bbc.co.uk/sport/football/live/c64gnwyv7kvjt",
       "source": "BBC"
-    },
-    {
-      "term": "Mikey Moore",
-      "traffic": "500+",
-      "title": "Mikey Moore recall clause clarified as Tottenham loanee announces himself in Bundesliga",
-      "link": "https://talksport.com/football/4723675/mikey-moore-cologne-bayern-munich-tottenham-hotspur-recall-loan/",
-      "source": "talkSPORT"
-    },
-    {
-      "term": "Allianz Stadium",
-      "traffic": "200+",
-      "title": "Captain Meg Jones has hailed efforts to grow inclusion of rugby into schools.",
-      "link": "https://www.knutsfordguardian.co.uk/news/26744000.meg-jones-hailed-efforts-grow-inclusion-rugby-schools/",
-      "source": "Knutsford Guardian"
-    },
-    {
-      "term": "Leon Haslam",
-      "traffic": "200+",
-      "title": "Chinese manufacturer to make British Sportbike debut in 2027",
-      "link": "https://www.motorcyclenews.com/sport/british-superbikes/2026/november/zxmoto-racing-uk-sportbike-championships/",
-      "source": "Motorcycle News"
     }
   ]
 }
