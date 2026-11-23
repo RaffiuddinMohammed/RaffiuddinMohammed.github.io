@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23T16:16:22.511Z",
-  "totalStories": 251,
+  "updated": "2026-11-23T17:07:26.017Z",
+  "totalStories": 252,
   "sections": [
     {
       "name": "UK",
-      "count": 24
+      "count": 23
     },
     {
       "name": "World",
-      "count": 19
+      "count": 21
     },
     {
       "name": "Business",
@@ -153,8 +153,8 @@
       "lon": -98,
       "count": 13,
       "bySection": {
-        "Business": 5,
         "UK": 1,
+        "Business": 5,
         "World": 3,
         "Science": 2,
         "Technology": 1,
@@ -162,16 +162,16 @@
       },
       "stories": [
         {
+          "title": "US rapper postpones O2 arena show after Manchester evacuation",
+          "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+          "section": "UK",
+          "date": "2026-11-23T16:37:43.000Z"
+        },
+        {
           "title": "How important are Nvidia and Jensen Huang to the US economy?",
           "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
           "section": "Business",
           "date": "2026-11-23T16:12:35.000Z"
-        },
-        {
-          "title": "US rapper postpones O2 arena show after Manchester evacuation",
-          "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-23T14:42:46.000Z"
         },
         {
           "title": "Catering giant to switch main share listing to US in further blow to UK",
@@ -301,6 +301,35 @@
       ]
     },
     {
+      "name": "Nigeria",
+      "lat": 9,
+      "lon": 8,
+      "count": 3,
+      "bySection": {
+        "World": 3
+      },
+      "stories": [
+        {
+          "title": "Nigeria's president says he is also hit by water and power cuts plaguing country",
+          "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-23T14:26:33.000Z"
+        },
+        {
+          "title": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
+          "link": "https://www.bbc.co.uk/news/articles/cq7820xjm49po?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-23T12:43:40.000Z"
+        },
+        {
+          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+          "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-22T00:10:37.000Z"
+        }
+      ]
+    },
+    {
       "name": "Mexico",
       "lat": 23,
       "lon": -102,
@@ -391,29 +420,6 @@
           "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-23T11:34:10.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Nigeria",
-      "lat": 9,
-      "lon": 8,
-      "count": 2,
-      "bySection": {
-        "World": 2
-      },
-      "stories": [
-        {
-          "title": "Presidential villa suffers water and power cuts, Nigerian leader says",
-          "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-23T14:26:33.000Z"
-        },
-        {
-          "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-          "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-22T00:10:37.000Z"
         }
       ]
     },
@@ -675,6 +681,24 @@
   ],
   "latest": [
     {
+      "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T16:49:51.000Z",
+      "section": "World"
+    },
+    {
+      "title": "'People were screaming in pain' during Co-op Live evacuation",
+      "link": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T16:43:42.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "US rapper postpones O2 arena show after Manchester evacuation",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-23T16:37:43.000Z",
+      "section": "UK"
+    },
+    {
       "title": "How important are Nvidia and Jensen Huang to the US economy?",
       "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T16:12:35.000Z",
@@ -727,24 +751,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c5rmgkv2lk73o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-23T14:54:03.000Z",
       "section": "World"
-    },
-    {
-      "title": "Nvidia reinstates CEO after affair with alleged spy",
-      "link": "https://www.bbc.co.uk/news/videos/cqze7lwdglngo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:51:05.000Z",
-      "section": "Business"
-    },
-    {
-      "title": "US rapper postpones O2 arena show after Manchester evacuation",
-      "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:42:46.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Friends were wary of me holidaying with my ex's former wife and kids - but our blended family works",
-      "link": "https://www.bbc.co.uk/news/articles/c617kj1j1x4jo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-23T14:30:04.000Z",
-      "section": "UK"
     }
   ]
 }

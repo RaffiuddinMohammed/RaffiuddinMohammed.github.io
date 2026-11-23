@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-23T16:21:53.840Z",
+  "checked": "2026-11-23T17:15:43.598Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -22,7 +22,7 @@
     {
       "name": "OpenAI",
       "level": "ok",
-      "note": "Elevated errors with GPT-6 conversations on paid ChatGPT plans",
+      "note": "All Systems Operational",
       "url": "https://status.openai.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Elevated errors with GPT-6 conversations on paid ChatGPT plans",
       "impact": "minor",
       "start": "2026-11-23T15:50:14Z",
-      "end": null,
+      "end": "2026-11-23T16:38:46Z",
       "url": "https://status.openai.com"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:21:53.796Z",
+  "updated": "2026-11-23T17:15:43.542Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -5944,15 +5944,15 @@
     },
     {
       "date": "2026-11-23",
-      "totalStories": 251,
+      "totalStories": 252,
       "sections": [
         {
           "name": "UK",
-          "count": 24
+          "count": 23
         },
         {
           "name": "World",
-          "count": 19
+          "count": 21
         },
         {
           "name": "Business",
@@ -6063,8 +6063,8 @@
           "lon": -98,
           "count": 13,
           "bySection": {
-            "Business": 5,
             "UK": 1,
+            "Business": 5,
             "World": 3,
             "Science": 2,
             "Technology": 1,
@@ -6072,16 +6072,16 @@
           },
           "stories": [
             {
+              "title": "US rapper postpones O2 arena show after Manchester evacuation",
+              "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-23T16:37:43.000Z"
+            },
+            {
               "title": "How important are Nvidia and Jensen Huang to the US economy?",
               "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
               "section": "Business",
               "date": "2026-11-23T16:12:35.000Z"
-            },
-            {
-              "title": "US rapper postpones O2 arena show after Manchester evacuation",
-              "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-23T14:42:46.000Z"
             },
             {
               "title": "Catering giant to switch main share listing to US in further blow to UK",
@@ -6187,6 +6187,35 @@
           ]
         },
         {
+          "name": "Nigeria",
+          "lat": 9,
+          "lon": 8,
+          "count": 3,
+          "bySection": {
+            "World": 3
+          },
+          "stories": [
+            {
+              "title": "Nigeria's president says he is also hit by water and power cuts plaguing country",
+              "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-23T14:26:33.000Z"
+            },
+            {
+              "title": "Search and rescue teams race against time to find survivors after Nigeria boat tragedy",
+              "link": "https://www.bbc.co.uk/news/articles/cq7820xjm49po?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-23T12:43:40.000Z"
+            },
+            {
+              "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
+              "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-22T00:10:37.000Z"
+            }
+          ]
+        },
+        {
           "name": "Mexico",
           "lat": 23,
           "lon": -102,
@@ -6277,29 +6306,6 @@
               "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-23T11:34:10.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Nigeria",
-          "lat": 9,
-          "lon": 8,
-          "count": 2,
-          "bySection": {
-            "World": 2
-          },
-          "stories": [
-            {
-              "title": "Presidential villa suffers water and power cuts, Nigerian leader says",
-              "link": "https://www.bbc.co.uk/news/articles/cv1j65xjjk65o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-23T14:26:33.000Z"
-            },
-            {
-              "title": "Nigerian youth have shown their power in the past - why aren't they shaping this election?",
-              "link": "https://www.bbc.co.uk/news/articles/ck4g174n020eo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-22T00:10:37.000Z"
             }
           ]
         },
@@ -6561,6 +6567,21 @@
       ],
       "topHeadlines": [
         {
+          "title": "Trump says he 'convinced' Nvidia to reinstate Jensen Huang",
+          "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
+        },
+        {
+          "title": "'People were screaming in pain' during Co-op Live evacuation",
+          "link": "https://www.bbc.co.uk/news/articles/cmgqx3ve732jo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "US rapper postpones O2 arena show after Manchester evacuation",
+          "link": "https://www.bbc.co.uk/news/articles/ck3rgp4gv9pxo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "How important are Nvidia and Jensen Huang to the US economy?",
           "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
           "section": "Business"
@@ -6569,38 +6590,23 @@
           "title": "Jury out in train stabbing attempted murder trial",
           "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "The rise and fall and rise again of Jensen Huang",
-          "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-          "section": "World"
-        },
-        {
-          "title": "Village's concern over sewage discharge in dry river",
-          "link": "https://www.bbc.co.uk/news/articles/c60rkq78g05vo?at_medium=RSS&at_campaign=rss",
-          "section": "Science"
-        },
-        {
-          "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-          "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
-          "title": "Jensen Huang Reinstated as Nvidia CEO",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "points": 1612
-        },
-        {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 744
+          "points": 771
+        },
+        {
+          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "url": "https://z.ai/blog/glm-5.4",
+          "points": 731
         },
         {
           "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
           "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-          "points": 658
+          "points": 672
         }
       ]
     }
