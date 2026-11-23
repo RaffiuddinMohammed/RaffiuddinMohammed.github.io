@@ -1,6 +1,12 @@
 {
   "_readme": "CV content for the homepage, taken from Raffi's LinkedIn (22 Nov 2026). Entries with \"draft\": true show a DRAFT badge. Testimonials are real LinkedIn recommendations, quoted word for word.",
-  "roles": ["QA Lead", "Project Manager", "Scrum Master", "Delivery Lead", "Test Automation"],
+  "roles": [
+    "QA Lead",
+    "Project Manager",
+    "Scrum Master",
+    "Delivery Lead",
+    "Test Automation"
+  ],
   "experience": [
     {
       "role": "Software Delivery & Quality Lead",
@@ -12,6 +18,13 @@
         "Built the automated test suites: Playwright for web, Appium for Android and iOS.",
         "Suites run in GitHub Actions against staging and production three times a week, results straight to Slack.",
         "Release gates: every build is traced to its commit before it is signed off."
+      ],
+      "logos": [
+        {
+          "src": "/assets/img/logos/recrd.png",
+          "alt": "Recrd",
+          "square": true
+        }
       ]
     },
     {
@@ -19,14 +32,26 @@
       "org": "Limra Tech Limited",
       "dates": "Mar 2015 – present",
       "place": "London",
-      "points": []
+      "points": [],
+      "logos": [
+        {
+          "text": "LT",
+          "alt": "Limra Tech"
+        }
+      ]
     },
     {
       "role": "Director",
       "org": "Limra Solutions Limited (contract)",
       "dates": "Feb 2013 – Feb 2019",
       "place": "London",
-      "points": []
+      "points": [],
+      "logos": [
+        {
+          "text": "LS",
+          "alt": "Limra Solutions"
+        }
+      ]
     },
     {
       "role": "Lead iOS QA Engineer",
@@ -37,6 +62,16 @@
         "Led testing of the Expedia and Hotels.com iPhone and iPad apps, from smoke and regression to end-to-end and UAT, in fast Agile release sprints.",
         "Connectivity, memory, localisation and analytics testing; iOS automation with Cucumber and Frank.",
         "Crash logs for developers through Xcode and Crashlytics; daily bug and progress reports in Jira; worked with offshore teams."
+      ],
+      "logos": [
+        {
+          "src": "/assets/img/logos/expedia.svg",
+          "alt": "Expedia"
+        },
+        {
+          "src": "/assets/img/logos/hotels-com.svg",
+          "alt": "Hotels.com"
+        }
       ]
     },
     {
@@ -46,6 +81,12 @@
       "place": "Crawley",
       "points": [
         "Web application testing, responsible for the majority of large web changes."
+      ],
+      "logos": [
+        {
+          "src": "/assets/img/logos/virgin-atlantic.svg",
+          "alt": "Virgin Atlantic"
+        }
       ]
     }
   ],
@@ -63,5 +104,20 @@
       "source": "Worked together at Expedia · LinkedIn"
     }
   ],
-  "earlier": "QA Tester, Bupa (2007 – 2008) · Test Engineer, GlaxoSmithKline (2006 – 2007) · Test Analyst, Barclays Capital"
+  "earlier": "QA Tester, Bupa (2007 – 2008) · Test Engineer, GlaxoSmithKline (2006 – 2007) · Test Analyst, Barclays Capital",
+  "earlierLogos": [
+    {
+      "src": "/assets/img/logos/bupa.png",
+      "alt": "Bupa",
+      "square": true
+    },
+    {
+      "src": "/assets/img/logos/gsk.png",
+      "alt": "GSK"
+    },
+    {
+      "src": "/assets/img/logos/barclays.svg",
+      "alt": "Barclays"
+    }
+  ]
 }
