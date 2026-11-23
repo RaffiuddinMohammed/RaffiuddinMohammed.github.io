@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T16:04:48.984Z",
+  "updated": "2026-11-23T16:15:44.352Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -6561,6 +6561,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "Jury out in train stabbing attempted murder trial",
+          "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "The rise and fall and rise again of Jensen Huang",
           "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
           "section": "Business"
@@ -6579,28 +6584,23 @@
           "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
           "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko?at_medium=RSS&at_campaign=rss",
           "section": "Business"
-        },
-        {
-          "title": "Girl, 14, stabbed 55 times by 14-year-old boy, murder trial told",
-          "link": "https://www.bbc.co.uk/news/articles/cmlydn1zye23o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Jensen Huang Reinstated as Nvidia CEO",
           "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-          "points": 1461
+          "points": 1541
         },
         {
           "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
           "url": "https://spelunkr.tv",
-          "points": 735
+          "points": 738
         },
         {
-          "title": "Perplexity and Intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence/",
-          "points": 651
+          "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+          "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+          "points": 655
         }
       ]
     }

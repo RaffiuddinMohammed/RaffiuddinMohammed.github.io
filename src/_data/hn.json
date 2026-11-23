@@ -1,44 +1,44 @@
 {
-  "updated": "2026-11-23T15:58:02.922Z",
+  "updated": "2026-11-23T16:09:42.263Z",
   "stories": [
     {
       "title": "Jensen Huang Reinstated as Nvidia CEO",
       "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
       "discuss": "https://news.ycombinator.com/item?id=50611588",
-      "points": 1461,
-      "comments": 1251,
+      "points": 1541,
+      "comments": 1320,
       "domain": "nvidianews.nvidia.com"
     },
     {
       "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "url": "https://spelunkr.tv",
       "discuss": "https://news.ycombinator.com/item?id=50606192",
-      "points": 735,
+      "points": 738,
       "comments": 136,
       "domain": "spelunkr.tv"
-    },
-    {
-      "title": "Perplexity and Intelligence",
-      "url": "https://openai.com/index/perplexity-and-intelligence/",
-      "discuss": "https://news.ycombinator.com/item?id=50601525",
-      "points": 651,
-      "comments": 422,
-      "domain": "openai.com"
     },
     {
       "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
       "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
       "discuss": "https://news.ycombinator.com/item?id=50603845",
-      "points": 650,
-      "comments": 263,
+      "points": 655,
+      "comments": 265,
       "domain": "gpupartner.com"
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "discuss": "https://news.ycombinator.com/item?id=50601525",
+      "points": 652,
+      "comments": 423,
+      "domain": "openai.com"
     },
     {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://z.ai/blog/glm-5.4",
       "discuss": "https://news.ycombinator.com/item?id=50609685",
-      "points": 631,
-      "comments": 234,
+      "points": 642,
+      "comments": 242,
       "domain": "z.ai"
     },
     {
@@ -46,14 +46,14 @@
       "url": "https://www.audubon.org/magazine/birds-of-gta-6-field-guide-vice-city-wildlife",
       "discuss": "https://news.ycombinator.com/item?id=50602843",
       "points": 590,
-      "comments": 320,
+      "comments": 322,
       "domain": "audubon.org"
     },
     {
       "title": "XNU Linux: Full OS X GUI Userspace on Linux",
       "url": "https://github.com/AFK-surf/xnulinux",
       "discuss": "https://news.ycombinator.com/item?id=50607261",
-      "points": 485,
+      "points": 489,
       "comments": 205,
       "domain": "github.com"
     },
@@ -61,7 +61,7 @@
       "title": "A miniature San Francisco with live buses, planes and boats",
       "url": "https://smallsf.com/",
       "discuss": "https://news.ycombinator.com/item?id=50603589",
-      "points": 329,
+      "points": 332,
       "comments": 107,
       "domain": "smallsf.com"
     },
@@ -69,7 +69,7 @@
       "title": "Cathedral floor emerges in Sudan, revealing one of the biggest medieval churches",
       "url": "https://apnews.com/article/sudan-antiquities-nubia-cathedral-1b16f67da881ee5592de4481ee55c527",
       "discuss": "https://news.ycombinator.com/item?id=50547698",
-      "points": 319,
+      "points": 321,
       "comments": 116,
       "domain": "apnews.com"
     },
@@ -77,8 +77,8 @@
       "title": "Masullo on the Riemann Hypothesis",
       "url": "https://johncarlosbaez.wordpress.com/2026/11/22/masullo-on-the-riemann-hypothesis/",
       "discuss": "https://news.ycombinator.com/item?id=50598441",
-      "points": 277,
-      "comments": 258,
+      "points": 278,
+      "comments": 259,
       "domain": "johncarlosbaez.wordpress.com"
     }
   ],

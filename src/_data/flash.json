@@ -1,6 +1,11 @@
 {
-  "updated": "2026-11-23T16:04:49.409Z",
+  "updated": "2026-11-23T16:15:44.909Z",
   "breaking": [
+    {
+      "title": "Jury out in train stabbing attempted murder trial",
+      "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo",
+      "date": "2026-11-23T16:06:10.000Z"
+    },
     {
       "title": "The rise and fall and rise again of Jensen Huang",
       "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo",
@@ -10,11 +15,6 @@
       "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
       "link": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
       "date": "2026-11-23T15:41:23.000Z"
-    },
-    {
-      "title": "Jury out in train stabbing attempted murder trial",
-      "link": "https://www.bbc.co.uk/news/articles/cqn70z6e5d3jo",
-      "date": "2026-11-23T15:24:33.000Z"
     }
   ],
   "latest": [
@@ -22,6 +22,11 @@
       "title": "How Ukraine attacked Russian ships in Libya",
       "link": "https://www.bbc.co.uk/news/videos/cmz6q3001pw6o",
       "date": "2026-11-23T14:32:12.000Z"
+    },
+    {
+      "title": "UK to host 2035 Women's World Cup, Fifa confirms",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
+      "date": "2026-11-23T15:09:50.000Z"
     },
     {
       "title": "US rapper Don Toliver postpones O2 arena show after Manchester evacuation",
@@ -42,14 +47,23 @@
       "title": "'I want to destroy capitalism, not France': On the streets with the French ultra left",
       "link": "https://www.bbc.co.uk/news/articles/cw074km48myeo",
       "date": "2026-11-23T13:09:52.000Z"
-    },
-    {
-      "title": "Poundland is facing collapse - what's gone wrong?",
-      "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o",
-      "date": "2026-11-23T10:09:25.000Z"
     }
   ],
   "business": [
+    {
+      "source": "BBC Business",
+      "title": "How important are Nvidia and Jensen Huang to the US economy?",
+      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo",
+      "date": "2026-11-23T16:12:35.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Investing.com",
+      "title": "BWXT stock surges on Westinghouse AP1000 manufacturing deal",
+      "link": "https://www.investing.com/news/stock-market-news/bwxt-stock-surges-on-westinghouse-ap1000-manufacturing-deal-5046046",
+      "date": "2026-11-23T16:10:27.000Z",
+      "breaking": true
+    },
     {
       "source": "MarketWatch",
       "title": "The surprising reason businesses can’t keep up with customer demand. Hint: It’s not just a strong U.S. economy.",
@@ -58,24 +72,10 @@
       "breaking": true
     },
     {
-      "source": "Investing.com",
-      "title": "Why is Taiwan Semiconductor Manufacturing stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-manufacturing-stock-surging-today-93CH-5046019",
-      "date": "2026-11-23T15:52:54.000Z",
-      "breaking": true
-    },
-    {
-      "source": "BBC Business",
-      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
-      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
-      "date": "2026-11-23T15:39:41.000Z",
-      "breaking": false
-    },
-    {
       "source": "Cointelegraph",
-      "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
-      "link": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T14:47:00.000Z",
+      "title": "How market depth shapes the price of a weekend Bitcoin sale",
+      "link": "https://cointelegraph.com/news/how-market-depth-shapes-the-price-of-a-weekend-bitcoin-sale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T15:57:55.000Z",
       "breaking": false
     },
     {
@@ -87,16 +87,16 @@
     },
     {
       "source": "Investing.com",
-      "title": "Why is Western Digital stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-western-digital-stock-surging-today-93CH-5046016",
-      "date": "2026-11-23T15:50:07.000Z",
+      "title": "Why is Meta Platforms stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-meta-platforms-stock-surging-today-93CH-5046045",
+      "date": "2026-11-23T16:09:12.000Z",
       "breaking": true
     },
     {
       "source": "BBC Business",
-      "title": "How important are Nvidia and Jensen Huang to the US economy?",
-      "link": "https://www.bbc.co.uk/news/articles/c68798vdprwpo",
-      "date": "2026-11-23T15:15:48.000Z",
+      "title": "Nvidia shares up 30% and tech stocks rally after Jensen Huang returns",
+      "link": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko",
+      "date": "2026-11-23T15:39:41.000Z",
       "breaking": false
     },
     {
@@ -108,9 +108,9 @@
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-23T14:06:36.000Z",
+      "title": "Nvidia reinstates Jensen Huang as CEO amid ongoing intelligence probe",
+      "link": "https://cointelegraph.com/news/nvidia-reinstates-jensen-huang-ceo-intelligence-probe?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-23T14:47:00.000Z",
       "breaking": false
     },
     {
@@ -124,8 +124,8 @@
       "source": "Investing.com",
       "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
       "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
-      "date": "2026-11-23T15:48:38.000Z",
-      "breaking": false
+      "date": "2026-11-23T16:07:31.000Z",
+      "breaking": true
     },
     {
       "source": "MarketWatch",
@@ -136,6 +136,13 @@
     }
   ],
   "trending": [
+    {
+      "term": "Next Full Moon",
+      "traffic": "10000+",
+      "title": "A Supermoon Is About To Meet The ‘Seven Sisters’ In The Night Sky",
+      "link": "https://www.forbes.com/sites/jamiecartereurope/2026/11/23/supermoon-meets-the-seven-sisters-the-night-sky-this-week/",
+      "source": "Forbes"
+    },
     {
       "term": "Hacker",
       "traffic": "1000+",
@@ -151,11 +158,11 @@
       "source": "BBC"
     },
     {
-      "term": "Eugene Laverty",
-      "traffic": "500+",
-      "title": "Eugene Laverty: County Antrim man to make shock return in 2027",
-      "link": "https://www.bbc.co.uk/sport/motorsport/articles/c9rkg2jzpx43o",
-      "source": "BBC"
+      "term": "Newcastle United Suspension Risk Derby",
+      "traffic": "200+",
+      "title": "Sunderland handed potential boost as Newcastle United face £120m suspension headache ahead of derby day",
+      "link": "https://www.sunderlandecho.com/sport/football/sunderland-afc/sunderland-newcastle-united-suspension-boost-derby-9366283",
+      "source": "Sunderland Echo"
     },
     {
       "term": "Al-Shamal Vs Al-Ahli",
@@ -163,13 +170,6 @@
       "title": "\"Yesterday's friend\": Riyad Mahrez surprises Al-Ahli players before Al-Shamal clash",
       "link": "https://www.livescore.com/en/news/football/more/yesterdays-friend-riyad-mahrez-surprises-al-ahli-players-before-al-shamal-clash-goal/",
       "source": "LiveScore"
-    },
-    {
-      "term": "Next Vendor Cyber Security Breach",
-      "traffic": "200+",
-      "title": "Next data accessed in cyber breach",
-      "link": "https://www.bbc.co.uk/news/articles/cqj3kjr7ez3vo",
-      "source": "BBC"
     }
   ]
 }
