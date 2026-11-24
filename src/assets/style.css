@@ -219,7 +219,6 @@ html, body { overflow-x: clip; }
 .card[class*="tint-"] { position: relative; overflow: hidden; border-top: 3px solid var(--c);
   background: linear-gradient(180deg, color-mix(in srgb, var(--c) 7%, var(--surface)), var(--surface) 70%);
   transition: transform .25s, box-shadow .25s, border-color .25s; }
-.card[class*="tint-"]:hover { transform: translateY(-4px); box-shadow: 0 14px 34px color-mix(in srgb, var(--c) 22%, transparent); }
 .stat.card[class*="tint-"] .value { color: var(--ink); }
 .dash .icon { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; font-size: 1.4rem; margin-bottom: 12px;
   background: color-mix(in srgb, var(--c) 16%, transparent); }
@@ -238,13 +237,11 @@ a.card.dash:hover { border-color: var(--border); border-top-color: var(--c); }
 .steps.colourful li:nth-child(1) { --c: var(--c1); } .steps.colourful li:nth-child(2) { --c: var(--c2); }
 .steps.colourful li:nth-child(3) { --c: var(--c3); } .steps.colourful li:nth-child(4) { --c: var(--c4); }
 .steps.colourful li::before { background: var(--c); color: #fff; }
-.steps.colourful li:hover { transform: translateY(-3px); box-shadow: 0 10px 26px color-mix(in srgb, var(--c) 20%, transparent); }
 .callout { border-left-color: var(--c2); background: color-mix(in srgb, var(--c2) 6%, transparent); padding: 12px 16px; border-radius: 0 10px 10px 0; }
 
 /* scroll reveal (only when JS runs, so content is never hidden without it) */
 .js .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease, box-shadow .25s; }
 .js .reveal.in { opacity: 1; transform: none; }
-.js .reveal.in:hover { transform: translateY(-4px); }
 
 @media (max-width: 640px) {
   .brand .full { display: none; }
@@ -772,16 +769,11 @@ dialog.mail::backdrop { background: rgba(10, 10, 12, .45); backdrop-filter: blur
 .btn .arr { display: inline-block; transition: transform .2s; }
 .btn:hover .arr { transform: translateX(4px); }
 .dash .icon { transition: transform .3s cubic-bezier(.3, 1.6, .5, 1); }
-a.card.dash:hover .icon { transform: scale(1.12) rotate(-6deg); }
 .hero-card { transition: transform .3s, box-shadow .3s, border-color .3s; }
-.hero-globe:hover { transform: translateY(-3px); border-color: color-mix(in srgb, var(--c4) 50%, var(--border)); box-shadow: 0 18px 44px -20px color-mix(in srgb, var(--c4) 50%, transparent); }
-.hero-pair .demo-mini:hover { transform: translateY(-3px); }
-.home-cta { transition: box-shadow .3s; } .home-cta:hover { box-shadow: 0 18px 44px -20px color-mix(in srgb, var(--c2) 55%, transparent); }
 
 @media (prefers-reduced-motion: reduce) {
   .hero-grid, .hero-home .glow, .grad.sweep { animation: none; }
   .pl-steps li { opacity: 1; } .pl-ic { animation: none !important; }
-  .hero-card:hover, a.card.dash:hover .icon { transform: none; }
 }
 @media (max-width: 560px) { .pl-steps li span:last-child { grid-column: 2 / -1; white-space: normal; } .pl-steps li { align-items: start; } }
 
@@ -789,7 +781,6 @@ a.card.dash:hover .icon { transform: scale(1.12) rotate(-6deg); }
 .dash-img { display: block; width: calc(100% + 40px); max-width: none; height: 120px; object-fit: cover; margin: -20px -20px 14px; border-radius: 9px 9px 0 0;
   -webkit-mask-image: linear-gradient(#000 55%, transparent); mask-image: linear-gradient(#000 55%, transparent); transition: transform .5s ease; }
 a.card.dash { overflow: hidden; }
-a.card.dash:hover .dash-img { transform: scale(1.05); }
 .dash .dash-img + .icon { margin-top: -38px; position: relative; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
 .page-head.has-photo::after { content: ""; position: absolute; z-index: -1; pointer-events: none; top: 0; right: -10vw; bottom: -20px; width: min(62vw, 820px);
   background: var(--photo) center / cover no-repeat; opacity: .38;
@@ -934,9 +925,8 @@ a.side-project .go { color: var(--ink5); }
 a.project { color: inherit; } a.project:hover { text-decoration: none; }
 .project .go { margin-top: auto; padding-top: 10px; color: var(--ink); font-weight: 600; }
 .project .eyebrow { display: inline-block; }
-.project .thumb { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; margin-top: 14px; border-radius: 10px; border: 1px solid var(--border); box-shadow: 0 8px 24px rgba(0,0,0,.35); transition: transform .25s ease; }
-a.project:hover .thumb { transform: translateY(-2px) scale(1.01); }
-@media (prefers-reduced-motion: reduce) { a.project:hover .thumb { transform: none; } }
+.project .thumb { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; margin-top: 14px; border-radius: 10px; border: 1px solid var(--border); box-shadow: 0 8px 24px rgba(0,0,0,.35); }
+
 .facts { margin: 4px 0 0; padding-left: 18px; color: var(--text-2); font-size: .92rem; }
 .hero-globe-solo { margin-top: 8px; }
 .tl-meta b { color: var(--text-2); font-weight: 600; }
@@ -1010,9 +1000,10 @@ main > section:nth-of-type(3n+2) { --wash: var(--c1); }
 main > section:nth-of-type(3n+3) { --wash: var(--c2); }
 main > section:nth-of-type(3n+4) { --wash: var(--c3); }
 
-/* 4. Cards: coloured glow + gradient edge on hover */
-.card { transition: box-shadow .3s, border-color .3s, transform .3s; }
-.card:hover { border-color: color-mix(in srgb, var(--c, var(--c2)) 55%, var(--border));
+/* 4. Cards stay still. Only cards that are links react on hover:
+   border and glow in the card's colour, and the arrow nudges right. */
+.card { transition: box-shadow .25s, border-color .25s; }
+a.card:hover { border-color: color-mix(in srgb, var(--c, var(--c2)) 55%, var(--border));
   box-shadow: 0 10px 34px -12px color-mix(in srgb, var(--c, var(--c2)) 55%, transparent); }
 
 @media (prefers-reduced-motion: reduce) { body::before { animation: none; } }
@@ -1022,7 +1013,6 @@ main > section:nth-of-type(3n+4) { --wash: var(--c3); }
 .co-logo { display: block; height: 28px; width: auto; max-width: 120px; padding: 5px 9px; border-radius: 7px; background: #fff; object-fit: contain;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, .06); transition: transform .3s cubic-bezier(.34, 1.56, .64, 1); }
 .co-logo.sq { width: 28px; padding: 0; object-fit: cover; }
-.timeline li:hover .co-logo { transform: translateY(-2px); }
 .co-logos.earlier { margin: 10px 0 0; }
 .tl-meta { display: inline-flex; align-items: center; flex-wrap: wrap; gap: 0 4px; }
 @media (max-width: 560px) { .co-logo { height: 24px; padding: 4px 7px; } .co-logo.sq { width: 24px; padding: 0; } }
@@ -1035,3 +1025,9 @@ main > section:nth-of-type(3n+4) { --wash: var(--c3); }
 .co-link:hover { text-decoration: none; color: var(--accent); border-bottom-style: solid; }
 .co-link .ext { font-size: .8em; color: var(--accent); display: inline-block; transition: transform .25s cubic-bezier(.34, 1.56, .64, 1); }
 .co-link:hover .ext { transform: translate(2px, -2px); }
+
+a.card .go { display: inline-block; transition: transform .2s ease; }
+a.card:hover .go { transform: translateX(4px); }
+@media (prefers-reduced-motion: reduce) { a.card:hover .go { transform: none; } }
+.grid-head { margin: 0 0 14px; }
+.grid.two.pair { grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
