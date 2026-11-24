@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-24T12:48:26.552Z",
-  "totalStories": 254,
+  "updated": "2026-11-24T13:15:35.998Z",
+  "totalStories": 255,
   "sections": [
     {
       "name": "UK",
-      "count": 29
+      "count": 30
     },
     {
       "name": "World",
@@ -69,15 +69,15 @@
       "count": 7
     },
     {
+      "word": "pay",
+      "count": 6
+    },
+    {
+      "word": "strike",
+      "count": 6
+    },
+    {
       "word": "data",
-      "count": 6
-    },
-    {
-      "word": "trump",
-      "count": 6
-    },
-    {
-      "word": "cop",
       "count": 6
     }
   ],
@@ -86,17 +86,23 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 28,
+      "count": 29,
       "bySection": {
+        "Health": 5,
         "Politics": 12,
         "Science": 2,
-        "Health": 4,
         "Technology": 1,
         "World": 2,
         "UK": 1,
         "Business": 6
       },
       "stories": [
+        {
+          "title": "Wales' largest health board still failing, says report",
+          "link": "https://www.bbc.co.uk/news/videos/cm62p8y1lz0go?at_medium=RSS&at_campaign=rss",
+          "section": "Health",
+          "date": "2026-11-24T12:57:26.000Z"
+        },
         {
           "title": "Prince of Wales makes first ever Downing Street visit",
           "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
@@ -138,12 +144,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-23T21:03:34.000Z"
-        },
-        {
-          "title": "Welsh Greens back plan to separate from English party",
-          "link": "https://www.bbc.co.uk/news/articles/cjy5xewrw657o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics",
-          "date": "2026-11-23T14:01:33.000Z"
         }
       ]
     },
@@ -215,11 +215,17 @@
       "name": "Russia",
       "lat": 60,
       "lon": 90,
-      "count": 4,
+      "count": 5,
       "bySection": {
-        "World": 4
+        "World": 5
       },
       "stories": [
+        {
+          "title": "Russian governor detained in rare criminal case against regional leader",
+          "link": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-24T12:45:43.000Z"
+        },
         {
           "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
           "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
@@ -345,6 +351,54 @@
           "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
           "section": "Science",
           "date": "2026-10-14T05:00:35.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Israel",
+      "lat": 31,
+      "lon": 35,
+      "count": 2,
+      "bySection": {
+        "World": 1,
+        "Science": 1
+      },
+      "stories": [
+        {
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-24T12:12:48.000Z"
+        },
+        {
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "section": "Science",
+          "date": "2026-11-23T17:07:25.000Z"
+        }
+      ]
+    },
+    {
+      "name": "Gaza",
+      "lat": 31.4,
+      "lon": 34.4,
+      "count": 2,
+      "bySection": {
+        "World": 1,
+        "Science": 1
+      },
+      "stories": [
+        {
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "section": "World",
+          "date": "2026-11-24T12:12:48.000Z"
+        },
+        {
+          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+          "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
+          "section": "Science",
+          "date": "2026-11-23T17:07:25.000Z"
         }
       ]
     },
@@ -529,40 +583,6 @@
       ]
     },
     {
-      "name": "Israel",
-      "lat": 31,
-      "lon": 35,
-      "count": 1,
-      "bySection": {
-        "World": 1
-      },
-      "stories": [
-        {
-          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-          "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-23T17:07:25.000Z"
-        }
-      ]
-    },
-    {
-      "name": "Gaza",
-      "lat": 31.4,
-      "lon": 34.4,
-      "count": 1,
-      "bySection": {
-        "World": 1
-      },
-      "stories": [
-        {
-          "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-          "link": "https://www.bbc.co.uk/news/articles/c8r4gzzxvxl3o?at_medium=RSS&at_campaign=rss",
-          "section": "World",
-          "date": "2026-11-23T17:07:25.000Z"
-        }
-      ]
-    },
-    {
       "name": "Iran",
       "lat": 32,
       "lon": 53,
@@ -650,10 +670,52 @@
   ],
   "latest": [
     {
+      "title": "Huntley murderer handed new whole life jail term",
+      "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T13:10:21.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Pat Finucane a victim of 'state-sponsored murder', inquiry hears",
+      "link": "https://www.bbc.co.uk/news/articles/crjeq7ek1qwwo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T13:04:51.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Baby P's mother given open prison recommendation",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T13:02:41.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Nurses vote for industrial action over pay",
+      "link": "https://www.bbc.co.uk/news/articles/crn4kqk07d9ko?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:58:28.000Z",
+      "section": "Health"
+    },
+    {
+      "title": "Wales' largest health board still failing, says report",
+      "link": "https://www.bbc.co.uk/news/videos/cm62p8y1lz0go?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:57:26.000Z",
+      "section": "Health"
+    },
+    {
+      "title": "Weak and immature management putting patients at risk at failing health board, review finds",
+      "link": "https://www.bbc.co.uk/news/articles/cm3eg5g4l9ggo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:49:43.000Z",
+      "section": "Health"
+    },
+    {
       "title": "Irish schools law blocked as unionists deploy Stormont veto",
       "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T12:47:49.000Z",
       "section": "UK"
+    },
+    {
+      "title": "Russian governor detained in rare criminal case against regional leader",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:45:43.000Z",
+      "section": "World"
     },
     {
       "title": "Prince of Wales makes first ever Downing Street visit",
@@ -668,58 +730,16 @@
       "section": "Health"
     },
     {
-      "title": "Baby P's mum given open prison recommendation",
-      "link": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T12:24:36.000Z",
-      "section": "UK"
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:12:48.000Z",
+      "section": "World"
     },
     {
       "title": "Badger cull ruled out by Welsh government after speculation",
       "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T12:01:32.000Z",
       "section": "Science"
-    },
-    {
-      "title": "Triple killer admits murdering Ian Huntley in jail",
-      "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:59:53.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "'Life is not infinite': Princess Catherine in new documentary",
-      "link": "https://www.bbc.co.uk/news/videos/cqvg2d2gkldpo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:55:03.000Z",
-      "section": "Health"
-    },
-    {
-      "title": "Weak and immature management putting patients at risk at failing health board, review finds",
-      "link": "https://www.bbc.co.uk/news/articles/cm3eg5g4l9ggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:52:28.000Z",
-      "section": "Health"
-    },
-    {
-      "title": "Car bomb tears through Colombian city wounding more than 20",
-      "link": "https://www.bbc.co.uk/news/articles/cjqlq2n4np7do?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:45:52.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
-      "link": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:40:46.000Z",
-      "section": "Science"
-    },
-    {
-      "title": "Prince William meets Burnham on first Downing Street visit",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1xk1gpqvo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:37:53.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "What is Pip?",
-      "link": "https://www.bbc.co.uk/news/videos/cqm2jyj77xm5o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:25:03.000Z",
-      "section": "Politics"
     }
   ]
 }

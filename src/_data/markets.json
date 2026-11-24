@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T12:48:25.722Z",
-  "headlineCount": 74,
+  "updated": "2026-11-24T13:15:33.568Z",
+  "headlineCount": 73,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 36
+      "count": 35
     },
     {
       "name": "MarketWatch",
@@ -22,11 +22,11 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Interest rates",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Earnings",
@@ -35,6 +35,10 @@
     {
       "name": "Inflation",
       "count": 2
+    },
+    {
+      "name": "Crypto",
+      "count": 1
     },
     {
       "name": "Trade and tariffs",
@@ -49,10 +53,6 @@
       "count": 0
     },
     {
-      "name": "Crypto",
-      "count": 0
-    },
-    {
       "name": "Housing",
       "count": 0
     }
@@ -60,19 +60,11 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Microsoft",
       "count": 1
-    },
-    {
-      "name": "Amazon",
-      "count": 1
-    },
-    {
-      "name": "Apple",
-      "count": 0
     },
     {
       "name": "Apple",
@@ -80,6 +72,10 @@
     },
     {
       "name": "Alphabet",
+      "count": 0
+    },
+    {
+      "name": "Amazon",
       "count": 0
     },
     {
@@ -93,144 +89,144 @@
   ],
   "latest": [
     {
+      "title": "Sunday’s pot roast now costs more than a Thanksgiving feast. Why beef won’t get cheaper for years.",
+      "link": "https://www.marketwatch.com/story/sundays-pot-roast-now-costs-more-than-a-thanksgiving-feast-why-beef-wont-get-cheaper-for-years-7daa1b3f?mod=mw_rss_topstories",
+      "date": "2026-11-24T12:56:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Sanofi's $41 billion Insmed bet charts life beyond Dupixent",
+      "link": "https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163",
+      "date": "2026-11-24T12:54:52.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+      "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+      "date": "2026-11-24T12:54:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "ANT Stock Slips Below IPO Price In Premarket — Canaccord Sees Bigger AI Opportunity, 60% Upside Potential",
+      "link": "https://stocktwits.com/news-articles/markets/equity/ant-stock-slips-below-ipo-price-in-premarket-canaccord-sees-bigger-ai-opportunity-60-upside-potential/cNbseluR9kS?.tsrc=rss",
+      "date": "2026-11-24T12:53:31.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia stock falls 4% premarket; Goldman says Huang's return not a clearing event",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-5045795",
+      "date": "2026-11-24T12:51:12.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "SharkNinja To Join S&P 500 Index",
+      "link": "https://finance.yahoo.com/m/cc396177-40de-3092-88f3-436b29060cbe/sharkninja-to-join-s%26p-500.html?.tsrc=rss",
+      "date": "2026-11-24T12:50:47.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Can Bitcoin Regain the $90,000 Price Level by Year End? Galaxy Digital CEO Mike Novogratz Says It's Unlikely.",
+      "link": "https://www.fool.com/investing/2026/11/24/can-bitcoin-regain-the-90000-price-level-by-year-end-galaxy-digital-ceo-mike-novogratz-says-its-unlikely/?.tsrc=rss",
+      "date": "2026-11-24T12:50:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
+      "link": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
+      "date": "2026-11-24T12:50:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Nasdaq futures drop as AI stocks cool after Nvidia-fueled rally",
+      "link": "https://www.investing.com/news/economy-news/wall-st-futures-dip-as-chip-stocks-cool-after-nvidiafueled-rally-5047567",
+      "date": "2026-11-24T12:49:20.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "HPE shares fall as margin worries overshadow raised outlook",
+      "link": "https://www.investing.com/news/stock-market-news/hpe-shares-fall-as-margin-worries-overshadow-raised-outlook-5048068",
+      "date": "2026-11-24T12:49:00.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "U.S. stock futures slip as Nvidia-led Wall Street rally cools",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-5046750",
+      "date": "2026-11-24T12:48:57.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Investors Might Be Making a Big Mistake by Underestimating Adobe's AI Opportunity",
+      "link": "https://247wallst.com/investing/2026/11/24/investors-might-be-making-a-big-mistake-by-underestimating-adobes-ai-opportunity/?.tsrc=rss",
+      "date": "2026-11-24T12:48:30.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Quantum X Labs's Decoder Delivered Lowest Logical Error Rates by integrating NVIDIA CUDA-Q QEC in Comparison to Benchmarked Decoders",
+      "link": "https://finance.yahoo.com/technology/ai/articles/quantum-x-labs-decoder-delivered-124800588.html?.tsrc=rss",
+      "date": "2026-11-24T12:48:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang Is Back at Nvidia, but He Still Can't Compute Megawatts and Concrete Into Existence",
+      "link": "https://www.fool.com/investing/2026/11/24/jensen-huang-is-back-at-nvidia-but-he-still-cant-compute-megawatts-and-concrete-into-existence/?.tsrc=rss",
+      "date": "2026-11-24T12:47:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why is Dollar Tree stock surging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-dollar-tree-stock-surging-today-93CH-5048049",
+      "date": "2026-11-24T12:46:57.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Vicat shares rise as J.P. Morgan flags European cement pricing potential",
+      "link": "https://www.investing.com/news/stock-market-news/vicat-shares-rise-as-jp-morgan-flags-european-cement-pricing-potential-5048045",
+      "date": "2026-11-24T12:46:18.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is General Motors stock climbing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-general-motors-stock-climbing-today-93CH-5048044",
+      "date": "2026-11-24T12:46:03.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Goldman Sachs says AI trade hinges on returns, not Nvidia",
+      "link": "https://www.investing.com/news/stock-market-news/goldman-sachs-says-ai-trade-hinges-on-returns-not-nvidia-5048038",
+      "date": "2026-11-24T12:45:10.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Saudi Arabia stocks higher at close of trade; Tadawul All Share up 0.40%",
+      "link": "https://www.investing.com/news/stock-market-news/saudi-arabia-stocks-higher-at-close-of-trade-tadawul-all-share-up-040-5048037",
+      "date": "2026-11-24T12:45:04.000Z",
+      "source": "Investing.com"
+    },
+    {
       "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
       "link": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
       "date": "2026-11-24T12:43:08.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "TSMC Stock Just Had Its Best Day Since 2008",
-      "link": "https://247wallst.com/investing/2026/11/24/tsmc-stock-just-had-its-best-day-since-2008/?.tsrc=rss",
-      "date": "2026-11-24T12:38:19.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia Faces an SEC Probe, According to Press Reports. Should You Still Buy the Stock?",
-      "link": "https://www.fool.com/investing/2026/11/24/nvidia-faces-an-sec-probe-according-to-press-reports-should-you-still-buy-the-stock/?.tsrc=rss",
-      "date": "2026-11-24T12:35:01.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim",
-      "link": "https://finance.yahoo.com/technology/ai/articles/yyforce-nasdaq-yfor-launches-trained-123500831.html?.tsrc=rss",
-      "date": "2026-11-24T12:35:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Arm stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-arm-stock-sliding-today-93CH-5047969",
-      "date": "2026-11-24T12:33:26.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Top Retail Pick: Mizuho Elevates Five Below on Strong Momentum",
-      "link": "https://www.investing.com/news/stock-market-news/top-retail-pick-mizuho-elevates-five-below-on-strong-momentum-5047967",
-      "date": "2026-11-24T12:33:17.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Best Buy stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-best-buy-stock-surging-today-93CH-5047957",
-      "date": "2026-11-24T12:31:41.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Aramark to Participate in Upcoming Rothschild & Co. Investor Conference",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/aramark-participate-upcoming-rothschild-co-123000643.html?.tsrc=rss",
-      "date": "2026-11-24T12:30:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic Falls Below IPO Price. The Threat Wasn't Nvidia, It Came From Inside",
-      "link": "https://beincrypto.com/anthropic-stock-below-ipo-price-employees/?.tsrc=rss",
-      "date": "2026-11-24T12:28:10.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Billionaire Philippe Laffont of Coatue Management Sent AMD Shares Packing and Loaded Up on This Hot AI IPO Instead",
-      "link": "https://www.fool.com/investing/2026/11/24/billionaire-philippe-laffont-coatue-sent-amd-shares-packing-loaded-up-hot-ai-ipo-instead/?.tsrc=rss",
-      "date": "2026-11-24T12:26:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Premarket movers: Nvidia slips; HPE, Semtech fall",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-nvidia-slips-hpe-122424595.html?.tsrc=rss",
-      "date": "2026-11-24T12:24:24.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Kohl's stock rallying today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-kohls-stock-rallying-today-93CH-5047910",
-      "date": "2026-11-24T12:24:19.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Dick's Sporting Goods stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-dicks-sporting-goods-stock-surging-today-93CH-5047909",
-      "date": "2026-11-24T12:23:48.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Elon Musk Reportedly Told Staff SpaceX Is Falling Behind in AI",
-      "link": "https://247wallst.com/investing/2026/11/24/elon-musk-reportedly-told-staff-spacex-is-falling-behind-in-ai/?.tsrc=rss",
-      "date": "2026-11-24T12:22:13.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Strategy shares fall 3.2% after price target cut",
-      "link": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-32-after-price-target-cut-93CH-5047907",
-      "date": "2026-11-24T12:22:02.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Jensen Huang’s return was worth nearly $950 billion to Nvidia. How much of the stock market should ride on one man?",
-      "link": "https://www.marketwatch.com/story/jensen-huangs-return-was-worth-nearly-950-billion-to-nvidia-how-much-of-the-stock-market-should-ride-on-one-man-c7129e95?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:21:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Why is Dell Technologies stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-dell-technologies-stock-sliding-today-93CH-5047904",
-      "date": "2026-11-24T12:20:51.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "ZonPrep Announces Las Vegas Facility, Expanding Its Amazon Supply Chain Network West",
-      "link": "https://finance.yahoo.com/small-business/articles/zonprep-announces-las-vegas-facility-122000834.html?.tsrc=rss",
-      "date": "2026-11-24T12:20:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Intel stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-5047893",
-      "date": "2026-11-24T12:18:23.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Marvell Technology stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-marvell-technology-stock-sliding-today-93CH-5047892",
-      "date": "2026-11-24T12:18:11.000Z",
-      "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
-      "link": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
-      "date": "2026-11-24T12:43:08.000Z",
+      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
+      "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
+      "date": "2026-11-24T12:54:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "ANT Stock Slips Below IPO Price In Premarket — Canaccord Sees Bigger AI Opportunity, 60% Upside Potential",
+      "link": "https://stocktwits.com/news-articles/markets/equity/ant-stock-slips-below-ipo-price-in-premarket-canaccord-sees-bigger-ai-opportunity-60-upside-potential/cNbseluR9kS?.tsrc=rss",
+      "date": "2026-11-24T12:53:31.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Strategy shares fall 3.2% after price target cut",
-      "link": "https://www.investing.com/news/stock-market-news/strategy-shares-fall-32-after-price-target-cut-93CH-5047907",
-      "date": "2026-11-24T12:22:02.000Z",
+      "title": "Nvidia stock falls 4% premarket; Goldman says Huang's return not a clearing event",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-shares-surge-30-as-board-announces-jensen-huangs-reinstatement-5045795",
+      "date": "2026-11-24T12:51:12.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "This billionaire bought Nvidia in anticipation of Jensen Huang’s return — and warns the S&P 500 could fall by a third",
-      "link": "https://www.marketwatch.com/story/this-billionaire-bought-nvidia-in-anticipation-of-jensen-huangs-return-and-warns-the-s-p-500-could-fall-by-a-third-dcff9489?mod=mw_rss_topstories",
-      "date": "2026-11-24T11:59:00.000Z",
-      "source": "MarketWatch"
     }
   ],
   "yields": {
