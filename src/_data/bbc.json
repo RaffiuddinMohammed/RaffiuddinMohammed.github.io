@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-24T12:24:46.866Z",
-  "totalStories": 253,
+  "updated": "2026-11-24T12:40:42.387Z",
+  "totalStories": 254,
   "sections": [
     {
       "name": "UK",
-      "count": 28
+      "count": 29
     },
     {
       "name": "World",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 15
+      "count": 14
     },
     {
       "name": "Politics",
@@ -261,7 +261,7 @@
           "title": "Irish schools law blocked as unionists deploy Stormont veto",
           "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-24T11:42:07.000Z"
+          "date": "2026-11-24T12:30:33.000Z"
         },
         {
           "title": "What does the new Brexit deal mean for Northern Ireland?",
@@ -650,6 +650,24 @@
   ],
   "latest": [
     {
+      "title": "Irish schools law blocked as unionists deploy Stormont veto",
+      "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:30:33.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "GP surgery suspends routine appointments due to 'tsunami' of demand",
+      "link": "https://www.bbc.co.uk/news/articles/cm62pze6xn37o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:29:22.000Z",
+      "section": "Health"
+    },
+    {
+      "title": "Baby P's mum given open prison recommendation",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:24:36.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Badger cull ruled out by Welsh government after speculation",
       "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T12:01:32.000Z",
@@ -680,12 +698,6 @@
       "section": "World"
     },
     {
-      "title": "Irish schools law blocked as unionists deploy Stormont veto",
-      "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:42:07.000Z",
-      "section": "UK"
-    },
-    {
       "title": "Storms targeting both US coasts threaten to snarl Thanksgiving travel for millions",
       "link": "https://www.bbc.co.uk/weather/articles/c5742nplemnno?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T11:40:46.000Z",
@@ -707,18 +719,6 @@
       "title": "Does Scotland's NHS have a revolving door problem with senior managers?",
       "link": "https://www.bbc.co.uk/news/articles/cr868183e3njo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T11:14:25.000Z",
-      "section": "Health"
-    },
-    {
-      "title": "Pope Francis' diary reveals claims he saw the devil three times",
-      "link": "https://www.bbc.co.uk/news/articles/cm78270l4z7no?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:10:57.000Z",
-      "section": "World"
-    },
-    {
-      "title": "'A nightmare I'd like to forget' - patients of failing health board say it's beyond redemption",
-      "link": "https://www.bbc.co.uk/news/articles/cmde19r99w9go?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:06:46.000Z",
       "section": "Health"
     }
   ]

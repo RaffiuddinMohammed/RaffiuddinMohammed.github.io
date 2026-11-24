@@ -1,28 +1,28 @@
 {
-  "updated": "2026-11-24T12:24:47.077Z",
+  "updated": "2026-11-24T12:40:42.736Z",
   "stories": [
     {
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
       "discuss": "https://news.ycombinator.com/item?id=50611576",
-      "points": 2640,
-      "comments": 3515,
+      "points": 2649,
+      "comments": 3525,
       "domain": "cnbc.com"
     },
     {
       "title": "Ladybird is now in alpha",
       "url": "https://ladybird.org/posts/alpha/",
       "discuss": "https://news.ycombinator.com/item?id=50614249",
-      "points": 2089,
-      "comments": 498,
+      "points": 2109,
+      "comments": 505,
       "domain": "ladybird.org"
     },
     {
       "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "discuss": "https://news.ycombinator.com/item?id=50615308",
-      "points": 1761,
-      "comments": 1019,
+      "points": 1776,
+      "comments": 1033,
       "domain": "twitter.com"
     },
     {
@@ -30,14 +30,14 @@
       "url": "https://z.ai/blog/glm-5.4",
       "discuss": "https://news.ycombinator.com/item?id=50609685",
       "points": 1140,
-      "comments": 372,
+      "comments": 373,
       "domain": "z.ai"
     },
     {
       "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "url": "https://arm.jonpalmisc.com/",
       "discuss": "https://news.ycombinator.com/item?id=50617499",
-      "points": 1082,
+      "points": 1090,
       "comments": 255,
       "domain": "arm.jonpalmisc.com"
     },
@@ -53,35 +53,35 @@
       "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
       "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
       "discuss": "https://news.ycombinator.com/item?id=50620349",
-      "points": 518,
-      "comments": 277,
+      "points": 527,
+      "comments": 288,
       "domain": "stalw.art"
     },
     {
       "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
       "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
       "discuss": "https://news.ycombinator.com/item?id=50622774",
-      "points": 440,
-      "comments": 165,
+      "points": 458,
+      "comments": 177,
       "domain": "governor.ny.gov"
     },
     {
       "title": "2035 Came Early",
       "url": "https://fzakaria.com/2026/11/23/2035-came-early",
       "discuss": "https://news.ycombinator.com/item?id=50624497",
-      "points": 368,
-      "comments": 125,
+      "points": 386,
+      "comments": 139,
       "domain": "fzakaria.com"
     },
     {
       "title": "GPUI is getting its own repository",
       "url": "https://github.com/zed-industries/gpui",
       "discuss": "https://news.ycombinator.com/item?id=50619103",
-      "points": 304,
-      "comments": 104,
+      "points": 310,
+      "comments": 106,
       "domain": "github.com"
     }
   ],
-  "totalPoints": null,
+  "totalPoints": 13156,
   "storyCount": 30
 }
