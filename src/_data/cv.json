@@ -29,15 +29,14 @@
       "url": "https://recrd.com"
     },
     {
-      "role": "Software Quality & Delivery Lead",
+      "role": "Senior Software QA Engineer",
       "org": "Sky",
       "dates": "Feb 2013 – Mar 2026",
       "place": "London",
       "logos": [
         {
           "src": "/assets/img/logos/sky.svg",
-          "alt": "Sky",
-          "square": true
+          "alt": "Sky"
         }
       ],
       "url": "https://www.sky.com",
