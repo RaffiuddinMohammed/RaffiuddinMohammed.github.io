@@ -924,6 +924,9 @@ a.side-project .go { color: var(--ink5); }
 a.project { color: inherit; } a.project:hover { text-decoration: none; }
 .project .go { margin-top: auto; padding-top: 10px; color: var(--ink); font-weight: 600; }
 .project .eyebrow { display: inline-block; }
+.project .thumb { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; margin-top: 14px; border-radius: 10px; border: 1px solid var(--border); box-shadow: 0 8px 24px rgba(0,0,0,.35); transition: transform .25s ease; }
+a.project:hover .thumb { transform: translateY(-2px) scale(1.01); }
+@media (prefers-reduced-motion: reduce) { a.project:hover .thumb { transform: none; } }
 .facts { margin: 4px 0 0; padding-left: 18px; color: var(--text-2); font-size: .92rem; }
 .hero-globe-solo { margin-top: 8px; }
 .tl-meta b { color: var(--text-2); font-weight: 600; }
