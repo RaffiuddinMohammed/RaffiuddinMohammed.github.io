@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T12:47:48.831Z",
+  "updated": "2026-11-24T12:52:16.765Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -6628,7 +6628,7 @@
         },
         {
           "name": "Politics",
-          "count": 9
+          "count": 10
         },
         {
           "name": "Science",
@@ -6636,7 +6636,7 @@
         },
         {
           "name": "Health",
-          "count": 8
+          "count": 7
         },
         {
           "name": "Technology",
@@ -6682,17 +6682,23 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 27,
+          "count": 28,
           "bySection": {
+            "Politics": 12,
             "Science": 2,
             "Health": 4,
             "Technology": 1,
             "World": 2,
             "UK": 1,
-            "Politics": 11,
             "Business": 6
           },
           "stories": [
+            {
+              "title": "Prince of Wales makes first ever Downing Street visit",
+              "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-24T12:41:47.000Z"
+            },
             {
               "title": "Badger cull ruled out by Welsh government after speculation",
               "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
@@ -6716,12 +6722,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-24T05:33:07.000Z"
-            },
-            {
-              "title": "Burnham does not view Wales as an equal nation, claims first minister",
-              "link": "https://www.bbc.co.uk/news/articles/cqr7gzmgm33ko?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-23T21:10:24.000Z"
             }
           ]
         },
@@ -6821,7 +6821,7 @@
               "title": "Irish schools law blocked as unionists deploy Stormont veto",
               "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
               "section": "UK",
-              "date": "2026-11-24T12:30:33.000Z"
+              "date": "2026-11-24T12:47:49.000Z"
             },
             {
               "title": "What does the new Brexit deal mean for Northern Ireland?",
@@ -7215,6 +7215,11 @@
           "section": "UK"
         },
         {
+          "title": "Prince of Wales makes first ever Downing Street visit",
+          "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
+          "section": "Politics"
+        },
+        {
           "title": "GP surgery suspends routine appointments due to 'tsunami' of demand",
           "link": "https://www.bbc.co.uk/news/articles/cm62pze6xn37o?at_medium=RSS&at_campaign=rss",
           "section": "Health"
@@ -7228,11 +7233,6 @@
           "title": "Badger cull ruled out by Welsh government after speculation",
           "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
           "section": "Science"
-        },
-        {
-          "title": "Triple killer admits murdering Ian Huntley in jail",
-          "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
@@ -7244,12 +7244,12 @@
         {
           "title": "Ladybird is now in alpha",
           "url": "https://ladybird.org/posts/alpha/",
-          "points": 2109
+          "points": 2111
         },
         {
           "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
           "url": "https://twitter.com/ylecun/status/2124550037912920090",
-          "points": 1776
+          "points": 1779
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T12:40:41.239Z",
-  "headlineCount": 75,
+  "updated": "2026-11-24T12:48:25.722Z",
+  "headlineCount": 74,
   "sources": [
     {
       "name": "CNBC",
@@ -8,7 +8,7 @@
     },
     {
       "name": "Yahoo Finance",
-      "count": 37
+      "count": 36
     },
     {
       "name": "MarketWatch",
@@ -22,7 +22,7 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 13
+      "count": 11
     },
     {
       "name": "Interest rates",
@@ -37,10 +37,6 @@
       "count": 2
     },
     {
-      "name": "Crypto",
-      "count": 1
-    },
-    {
       "name": "Trade and tariffs",
       "count": 0
     },
@@ -50,6 +46,10 @@
     },
     {
       "name": "Oil and energy",
+      "count": 0
+    },
+    {
+      "name": "Crypto",
       "count": 0
     },
     {
@@ -63,10 +63,6 @@
       "count": 17
     },
     {
-      "name": "Meta",
-      "count": 2
-    },
-    {
       "name": "Microsoft",
       "count": 1
     },
@@ -75,8 +71,8 @@
       "count": 1
     },
     {
-      "name": "Tesla",
-      "count": 1
+      "name": "Apple",
+      "count": 0
     },
     {
       "name": "Apple",
@@ -85,9 +81,41 @@
     {
       "name": "Alphabet",
       "count": 0
+    },
+    {
+      "name": "Meta",
+      "count": 0
+    },
+    {
+      "name": "Tesla",
+      "count": 0
     }
   ],
   "latest": [
+    {
+      "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
+      "link": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
+      "date": "2026-11-24T12:43:08.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "TSMC Stock Just Had Its Best Day Since 2008",
+      "link": "https://247wallst.com/investing/2026/11/24/tsmc-stock-just-had-its-best-day-since-2008/?.tsrc=rss",
+      "date": "2026-11-24T12:38:19.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Nvidia Faces an SEC Probe, According to Press Reports. Should You Still Buy the Stock?",
+      "link": "https://www.fool.com/investing/2026/11/24/nvidia-faces-an-sec-probe-according-to-press-reports-should-you-still-buy-the-stock/?.tsrc=rss",
+      "date": "2026-11-24T12:35:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "YYForce (NASDAQ: YFOR) Launches Trained Humanoid Robot for Hotel Concierge Service Using NVIDIA Jetson and Isaac Sim",
+      "link": "https://finance.yahoo.com/technology/ai/articles/yyforce-nasdaq-yfor-launches-trained-123500831.html?.tsrc=rss",
+      "date": "2026-11-24T12:35:00.000Z",
+      "source": "Yahoo Finance"
+    },
     {
       "title": "Why is Arm stock sliding today?",
       "link": "https://www.investing.com/news/stock-market-news/why-is-arm-stock-sliding-today-93CH-5047969",
@@ -107,9 +135,21 @@
       "source": "Investing.com"
     },
     {
+      "title": "Aramark to Participate in Upcoming Rothschild & Co. Investor Conference",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/aramark-participate-upcoming-rothschild-co-123000643.html?.tsrc=rss",
+      "date": "2026-11-24T12:30:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
       "title": "Anthropic Falls Below IPO Price. The Threat Wasn't Nvidia, It Came From Inside",
       "link": "https://beincrypto.com/anthropic-stock-below-ipo-price-employees/?.tsrc=rss",
       "date": "2026-11-24T12:28:10.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Billionaire Philippe Laffont of Coatue Management Sent AMD Shares Packing and Loaded Up on This Hot AI IPO Instead",
+      "link": "https://www.fool.com/investing/2026/11/24/billionaire-philippe-laffont-coatue-sent-amd-shares-packing-loaded-up-hot-ai-ipo-instead/?.tsrc=rss",
+      "date": "2026-11-24T12:26:02.000Z",
       "source": "Yahoo Finance"
     },
     {
@@ -129,6 +169,12 @@
       "link": "https://www.investing.com/news/stock-market-news/why-is-dicks-sporting-goods-stock-surging-today-93CH-5047909",
       "date": "2026-11-24T12:23:48.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Elon Musk Reportedly Told Staff SpaceX Is Falling Behind in AI",
+      "link": "https://247wallst.com/investing/2026/11/24/elon-musk-reportedly-told-staff-spacex-is-falling-behind-in-ai/?.tsrc=rss",
+      "date": "2026-11-24T12:22:13.000Z",
+      "source": "Yahoo Finance"
     },
     {
       "title": "Strategy shares fall 3.2% after price target cut",
@@ -165,55 +211,13 @@
       "link": "https://www.investing.com/news/stock-market-news/why-is-marvell-technology-stock-sliding-today-93CH-5047892",
       "date": "2026-11-24T12:18:11.000Z",
       "source": "Investing.com"
-    },
-    {
-      "title": "NVIDIA Added About $1 Trillion in Minutes on Huang's Return. Where Does the Price Target Go Now?",
-      "link": "https://247wallst.com/investing/2026/11/24/nvidia-added-about-1-trillion-in-minutes-on-huangs-return-where-does-the-price-target-go-now/?.tsrc=rss",
-      "date": "2026-11-24T12:17:32.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Analog Devices stock tumbling today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-analog-devices-stock-tumbling-today-93CH-5047890",
-      "date": "2026-11-24T12:17:12.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Anthropic's Frenemy Squeeze: Pledging Up to $49B to Microsoft While Building Its Own Landlord Escape Hatch",
-      "link": "https://247wallst.com/investing/2026/11/24/anthropics-frenemy-squeeze-pledging-up-to-49b-to-microsoft-while-building-its-own-landlord-escape-hatch/?.tsrc=rss",
-      "date": "2026-11-24T12:15:31.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
-      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:15:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "U.S. chip stocks fall premarket after Nvidia-led rally on Huang's return",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/u-chip-stocks-fall-premarket-121456516.html?.tsrc=rss",
-      "date": "2026-11-24T12:14:56.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as CEO and president",
-      "link": "https://www.verdict.co.uk/nvidia-brings-back-jensen-huang-ceo/?.tsrc=rss",
-      "date": "2026-11-24T12:14:53.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Nvidia's Role as AI Industry Advocate Likely to Continue Following Huang's Return Amid Focus on Regulatory Policy, Wedbush Says",
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-apos-role-ai-industry-121020908.html?.tsrc=rss",
-      "date": "2026-11-24T12:10:20.000Z",
-      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Anthropic Falls Below IPO Price. The Threat Wasn't Nvidia, It Came From Inside",
-      "link": "https://beincrypto.com/anthropic-stock-below-ipo-price-employees/?.tsrc=rss",
-      "date": "2026-11-24T12:28:10.000Z",
+      "title": "Jensen Huang's return revives an old Wall Street trade: Bet on the comeback CEO",
+      "link": "https://finance.yahoo.com/markets/article/jensen-huangs-return-revives-an-old-wall-street-trade-bet-on-the-comeback-ceo-124308005.html?.tsrc=rss",
+      "date": "2026-11-24T12:43:08.000Z",
       "source": "Yahoo Finance"
     },
     {

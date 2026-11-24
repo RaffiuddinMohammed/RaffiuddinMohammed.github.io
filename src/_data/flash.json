@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T12:47:49.362Z",
+  "updated": "2026-11-24T12:52:17.325Z",
   "breaking": [
     {
       "title": "Afghan women with UK university offers 'heartbroken' after visas stopped",
@@ -7,14 +7,14 @@
       "date": "2026-11-24T12:43:57.000Z"
     },
     {
+      "title": "Sooryavanshi, 15, breaks sixes record after scoring 204 off 53 balls",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo",
+      "date": "2026-11-24T12:38:39.000Z"
+    },
+    {
       "title": "Baby P's mum given open prison recommendation",
       "link": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro",
       "date": "2026-11-24T12:24:36.000Z"
-    },
-    {
-      "title": "Palace docked points for using four sub windows in win",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c8wy5vy160kpo",
-      "date": "2026-11-24T12:14:19.000Z"
     }
   ],
   "latest": [
@@ -55,7 +55,7 @@
       "title": "Why is Arm stock sliding today?",
       "link": "https://www.investing.com/news/stock-market-news/why-is-arm-stock-sliding-today-93CH-5047969",
       "date": "2026-11-24T12:33:26.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -90,7 +90,7 @@
       "title": "Top Retail Pick: Mizuho Elevates Five Below on Strong Momentum",
       "link": "https://www.investing.com/news/stock-market-news/top-retail-pick-mizuho-elevates-five-below-on-strong-momentum-5047967",
       "date": "2026-11-24T12:33:17.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -139,8 +139,8 @@
     {
       "term": "United Arab Emirates National Cricket Team Vs India A Cricket Team Standings",
       "traffic": "5000+",
-      "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-      "link": "https://www.cricbuzz.com/player-match-performance/match/177203/player/6322/batting?inningsId=1",
+      "title": "INDA vs UAE, 11th Match, Group B, ACC Men's Asia Cup Rising Stars 2026 - Commentary",
+      "link": "https://www.cricbuzz.com/live-cricket-scores/177203/uae-vs-inda-11th-match-group-b-acc-mens-asia-cup-rising-stars-2026",
       "source": "Cricbuzz"
     },
     {

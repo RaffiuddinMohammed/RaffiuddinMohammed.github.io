@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T12:40:42.387Z",
+  "updated": "2026-11-24T12:48:26.552Z",
   "totalStories": 254,
   "sections": [
     {
@@ -16,7 +16,7 @@
     },
     {
       "name": "Politics",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Science",
@@ -24,7 +24,7 @@
     },
     {
       "name": "Health",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Technology",
@@ -69,15 +69,15 @@
       "count": 7
     },
     {
-      "word": "nhs",
-      "count": 6
-    },
-    {
       "word": "data",
       "count": 6
     },
     {
       "word": "trump",
+      "count": 6
+    },
+    {
+      "word": "cop",
       "count": 6
     }
   ],
@@ -86,17 +86,23 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 27,
+      "count": 28,
       "bySection": {
+        "Politics": 12,
         "Science": 2,
         "Health": 4,
         "Technology": 1,
         "World": 2,
         "UK": 1,
-        "Politics": 11,
         "Business": 6
       },
       "stories": [
+        {
+          "title": "Prince of Wales makes first ever Downing Street visit",
+          "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-24T12:41:47.000Z"
+        },
         {
           "title": "Badger cull ruled out by Welsh government after speculation",
           "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
@@ -138,12 +144,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cjy5xewrw657o?at_medium=RSS&at_campaign=rss",
           "section": "Politics",
           "date": "2026-11-23T14:01:33.000Z"
-        },
-        {
-          "title": "Catering giant to switch main share listing to US in further blow to UK",
-          "link": "https://www.bbc.co.uk/news/articles/ckz74098jq5po?at_medium=RSS&at_campaign=rss",
-          "section": "Business",
-          "date": "2026-11-23T09:54:04.000Z"
         }
       ]
     },
@@ -261,7 +261,7 @@
           "title": "Irish schools law blocked as unionists deploy Stormont veto",
           "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-24T12:30:33.000Z"
+          "date": "2026-11-24T12:47:49.000Z"
         },
         {
           "title": "What does the new Brexit deal mean for Northern Ireland?",
@@ -652,8 +652,14 @@
     {
       "title": "Irish schools law blocked as unionists deploy Stormont veto",
       "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T12:30:33.000Z",
+      "date": "2026-11-24T12:47:49.000Z",
       "section": "UK"
+    },
+    {
+      "title": "Prince of Wales makes first ever Downing Street visit",
+      "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:41:47.000Z",
+      "section": "Politics"
     },
     {
       "title": "GP surgery suspends routine appointments due to 'tsunami' of demand",
@@ -714,12 +720,6 @@
       "link": "https://www.bbc.co.uk/news/videos/cqm2jyj77xm5o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T11:25:03.000Z",
       "section": "Politics"
-    },
-    {
-      "title": "Does Scotland's NHS have a revolving door problem with senior managers?",
-      "link": "https://www.bbc.co.uk/news/articles/cr868183e3njo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T11:14:25.000Z",
-      "section": "Health"
     }
   ]
 }
