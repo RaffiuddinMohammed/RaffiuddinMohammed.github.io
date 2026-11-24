@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T13:21:10.479Z",
+  "updated": "2026-11-24T13:33:46.851Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -6612,11 +6612,11 @@
     },
     {
       "date": "2026-11-24",
-      "totalStories": 255,
+      "totalStories": 257,
       "sections": [
         {
           "name": "UK",
-          "count": 30
+          "count": 32
         },
         {
           "name": "World",
@@ -6624,7 +6624,7 @@
         },
         {
           "name": "Business",
-          "count": 14
+          "count": 15
         },
         {
           "name": "Politics",
@@ -6682,17 +6682,23 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 29,
+          "count": 30,
           "bySection": {
+            "UK": 2,
             "Health": 5,
             "Politics": 12,
             "Science": 2,
             "Technology": 1,
             "World": 2,
-            "UK": 1,
             "Business": 6
           },
           "stories": [
+            {
+              "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+              "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-24T13:15:19.000Z"
+            },
             {
               "title": "Wales' largest health board still failing, says report",
               "link": "https://www.bbc.co.uk/news/videos/cm62p8y1lz0go?at_medium=RSS&at_campaign=rss",
@@ -6716,12 +6722,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cr868183e3njo?at_medium=RSS&at_campaign=rss",
               "section": "Health",
               "date": "2026-11-24T11:14:25.000Z"
-            },
-            {
-              "title": "Helpful but awkward: My week with Meta's Muse ahead of its UK launch",
-              "link": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o?at_medium=RSS&at_campaign=rss",
-              "section": "Technology",
-              "date": "2026-11-24T09:33:00.000Z"
             }
           ]
         },
@@ -7235,41 +7235,41 @@
           "section": "UK"
         },
         {
+          "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+          "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "BBC and Netflix team up for new CBeebies hub on streamer",
+          "link": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
           "title": "Pat Finucane a victim of 'state-sponsored murder', inquiry hears",
           "link": "https://www.bbc.co.uk/news/articles/crjeq7ek1qwwo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
-          "title": "Baby P's mother given open prison recommendation",
-          "link": "https://www.bbc.co.uk/news/articles/cwn70z7ryp8ro?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "Nurses vote for industrial action over pay",
-          "link": "https://www.bbc.co.uk/news/articles/crn4kqk07d9ko?at_medium=RSS&at_campaign=rss",
-          "section": "Health"
-        },
-        {
-          "title": "Wales' largest health board still failing, says report",
-          "link": "https://www.bbc.co.uk/news/videos/cm62p8y1lz0go?at_medium=RSS&at_campaign=rss",
-          "section": "Health"
+          "title": "World Cup drove profits surge, says Marston's",
+          "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo?at_medium=RSS&at_campaign=rss",
+          "section": "Business"
         }
       ],
       "hnTop": [
         {
           "title": "Nvidia Reinstates Jensen Huang as CEO",
           "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "points": 2667
+          "points": 2670
         },
         {
           "title": "Ladybird is now in alpha",
           "url": "https://ladybird.org/posts/alpha/",
-          "points": 2132
+          "points": 2135
         },
         {
           "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
           "url": "https://twitter.com/ylecun/status/2124550037912920090",
-          "points": 1800
+          "points": 1809
         }
       ]
     }

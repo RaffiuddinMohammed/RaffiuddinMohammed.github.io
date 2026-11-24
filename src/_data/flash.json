@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-24T13:21:10.867Z",
+  "updated": "2026-11-24T13:33:47.284Z",
   "breaking": [
-    {
-      "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
-      "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno",
-      "date": "2026-11-24T13:15:19.000Z"
-    },
     {
       "title": "Huntley murderer handed new whole life jail term",
       "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o",
-      "date": "2026-11-24T13:10:21.000Z"
+      "date": "2026-11-24T13:32:43.000Z"
     },
     {
-      "title": "BBC and Netflix team up for new CBeebies hub on streamer",
-      "link": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo",
-      "date": "2026-11-24T13:05:09.000Z"
+      "title": "Sooryavanshi, 15, breaks sixes record by scoring 204 off 53 balls",
+      "link": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo",
+      "date": "2026-11-24T13:27:30.000Z"
+    },
+    {
+      "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+      "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno",
+      "date": "2026-11-24T13:25:40.000Z"
     }
   ],
   "latest": [
@@ -51,18 +51,32 @@
   ],
   "business": [
     {
+      "source": "CNBC",
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "date": "2026-11-24T13:33:26.000Z",
+      "breaking": true
+    },
+    {
       "source": "Investing.com",
       "title": "FTSE 100 today: Stocks extend losses as miners slide on weaker metals prices",
       "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-lower-as-miners-slide-with-metals-5047340",
       "date": "2026-11-24T13:16:09.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "Cointelegraph",
       "title": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
       "link": "https://cointelegraph.com/markets/bitcoin-oversold-ai-risks-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "date": "2026-11-24T13:11:44.000Z",
-      "breaking": true
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "World Cup drove profits surge, says Marston's",
+      "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo",
+      "date": "2026-11-24T13:03:20.000Z",
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -72,25 +86,11 @@
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
-      "date": "2026-11-24T10:53:37.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-      "date": "2026-11-23T23:28:19.000Z",
-      "breaking": false
-    },
-    {
       "source": "Investing.com",
       "title": "Silver miners fall as metal price drops on rate hike concerns",
       "link": "https://www.investing.com/news/stock-market-news/silver-miners-fall-as-metal-price-drops-on-rate-hike-concerns-93CH-5048203",
       "date": "2026-11-24T13:12:15.000Z",
-      "breaking": true
+      "breaking": false
     },
     {
       "source": "MarketWatch",
@@ -108,16 +108,16 @@
     },
     {
       "source": "BBC Business",
-      "title": "BBC secret filming shows dog breeder selling sick puppies for £2k each",
-      "link": "https://www.bbc.co.uk/news/articles/c8d36d43y8po",
-      "date": "2026-11-24T00:11:08.000Z",
+      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
+      "date": "2026-11-24T10:53:37.000Z",
       "breaking": false
     },
     {
       "source": "CNBC",
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "date": "2026-11-23T21:02:17.000Z",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
+      "date": "2026-11-23T23:28:19.000Z",
       "breaking": false
     },
     {
@@ -137,11 +137,18 @@
   ],
   "trending": [
     {
-      "term": "United Arab Emirates National Cricket Team Vs India A Cricket Team Standings",
-      "traffic": "5000+",
-      "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-      "link": "https://www.cricbuzz.com/player-match-performance/match/177203/player/6322/batting?inningsId=1",
-      "source": "Cricbuzz"
+      "term": "Anmer Hall Break In News",
+      "traffic": "2000+",
+      "title": "Prince and Princess of Wales’s country home broken into",
+      "link": "https://www.telegraph.co.uk/news/2026/11/24/prince-princess-of-wale-home/",
+      "source": "The Telegraph"
+    },
+    {
+      "term": "Critical Incident Nottingham Hospital",
+      "traffic": "2000+",
+      "title": "Nottingham NHS trust issue plea as critical incident continues",
+      "link": "https://www.bbc.co.uk/news/articles/c6vg2d2x0r78o",
+      "source": "BBC"
     },
     {
       "term": "M4 Traffic Updates",
@@ -151,24 +158,17 @@
       "source": "Wales Online"
     },
     {
-      "term": "Anmer Hall Break In News",
-      "traffic": "1000+",
-      "title": "Prince and Princess of Wales’s country home broken into",
-      "link": "https://www.telegraph.co.uk/news/2026/11/24/prince-princess-of-wale-home/",
-      "source": "The Telegraph"
-    },
-    {
-      "term": "Critical Incident Nottingham Hospital",
-      "traffic": "1000+",
-      "title": "Critical incident at hospitals over flu and Covid",
-      "link": "https://www.bbc.co.uk/news/articles/cw62pv0g6j12o",
-      "source": "BBC"
-    },
-    {
       "term": "Freddie Potts",
       "traffic": "1000+",
-      "title": "Freddie Potts loving life in Belgium with Club Brugge",
-      "link": "https://www.bbc.co.uk/sport/football/articles/cxe89j8gj96jo",
+      "title": "‘I’m loving it at Brugge’: Freddie Potts on going from West Ham’s bench to Champions League",
+      "link": "https://www.theguardian.com/football/2026/nov/24/freddie-potts-brugge-champions-league-liverpool-west-ham",
+      "source": "The Guardian"
+    },
+    {
+      "term": "Arrest",
+      "traffic": "500+",
+      "title": "Watch: Moment troops raid home and capture Mexican drug lord",
+      "link": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo",
       "source": "BBC"
     }
   ]
