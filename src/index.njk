@@ -105,6 +105,20 @@ description: "Raffiuddin Mohammed, London: delivery lead, project manager, Scrum
       <p class="muted">Markets, outages and the news on a 3D globe, collected and published automatically. The same automation, pointed at live data.</p>
     </div>
     <span class="go">Open {{ site.dataBrand }} →</span>
+    {% set okCount = (outages.services | atLevel('ok')).length %}{% set downNow = [] %}{% for o in outages.services %}{% if o.level != 'ok' %}{% set downNow = (downNow.push(o.name), downNow) %}{% endif %}{% endfor %}
+    <div class="data-tick" aria-label="Today's numbers from {{ site.dataBrand }}">
+      <div class="data-tick-run">
+        {% for r in [1, 2] %}<span class="data-tick-set"{% if r == 2 %} aria-hidden="true"{% endif %}>
+          {% if markets.yields %}<span><b>Markets</b>US 10-year yield {{ markets.yields.latest.y10.toFixed(2) }}%</span>{% endif %}
+          {% if markets.themes and markets.themes[0].count %}<span><b>Theme</b>{{ markets.themes[0].name }}</span>{% endif %}
+          {% if outages.services %}<span><b>Outages</b>{{ okCount }} of {{ outages.services.length }} services up{% if downNow.length %} · {{ downNow | join(', ') }} reporting problems{% endif %}</span>{% endif %}
+          {% if bbc.totalStories %}<span><b>Headlines</b>{{ bbc.totalStories | num }} BBC stories today</span>{% endif %}
+          {% if insights.leader %}<span><b>World</b>Top news topic: {{ insights.leader.label }}</span>{% endif %}
+          {% if hn.stories and hn.stories[0] %}<span><b>Tech</b>Hacker News top story: {{ hn.stories[0].points | num }} points</span>{% endif %}
+        </span>{% endfor %}
+      </div>
+    </div>
+    <p class="data-tick-when muted">Updated {{ bbc.updated | when }}, with nobody touching it.</p>
   </a>
 </section>
 

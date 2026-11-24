@@ -1031,3 +1031,18 @@ a.card:hover .go { transform: translateX(4px); }
 @media (prefers-reduced-motion: reduce) { a.card:hover .go { transform: none; } }
 .grid-head { margin: 0 0 14px; }
 .grid.two.pair { grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+
+/* Home: slow ticker of our own numbers inside the Live Data Lab card (24 Nov) */
+a.side-project .data-tick { flex: 1 0 100%; overflow: hidden; border-top: 1px solid var(--border); padding-top: 12px; font-size: .85rem;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent); mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent); }
+.data-tick-run { display: inline-flex; white-space: nowrap; animation: ticker 60s linear infinite; }
+a.side-project:hover .data-tick-run, a.side-project:focus-visible .data-tick-run { animation-play-state: paused; }
+.data-tick-set { display: inline-flex; }
+.data-tick-set > span { padding-right: 36px; color: var(--text-2); }
+.data-tick-set b { color: var(--ink5, var(--c5)); text-transform: uppercase; font-size: .68rem; letter-spacing: .05em; margin-right: 7px; }
+a.side-project .data-tick-when { flex: 1 0 100%; margin: -4px 0 0; font-size: .75rem; }
+@media (prefers-reduced-motion: reduce) {
+  .data-tick-run { animation: none; white-space: normal; flex-wrap: wrap; }
+  .data-tick-set[aria-hidden] { display: none; }
+  .data-tick-set { flex-wrap: wrap; row-gap: 4px; }
+}
