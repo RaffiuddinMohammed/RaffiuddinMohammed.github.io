@@ -1,37 +1,27 @@
 {
-  "updated": "2026-11-24T14:34:56.279Z",
+  "updated": "2026-11-24T16:06:13.419Z",
   "breaking": [
     {
-      "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
-      "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno",
-      "date": "2026-11-24T14:33:50.000Z"
+      "title": "Man Utd's Yoro has Anfield red card overturned",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o",
+      "date": "2026-11-24T15:59:59.000Z"
     },
     {
-      "title": "Senegal reinstated as Afcon 2025 winners - 10 months after tournament",
+      "title": "Former police chief inspector jailed for rape",
+      "link": "https://www.bbc.co.uk/news/articles/crjeq7ey7llqo",
+      "date": "2026-11-24T15:41:42.000Z"
+    },
+    {
+      "title": "Senegal reinstated as winners of the 2025 Africa Cup of Nations after appeal upheld",
       "link": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o",
-      "date": "2026-11-24T14:30:15.000Z"
-    },
-    {
-      "title": "Millwall face partial stadium closure over chants",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c6wy474lxd22o",
-      "date": "2026-11-24T14:23:49.000Z"
+      "date": "2026-11-24T15:40:05.000Z"
     }
   ],
   "latest": [
     {
-      "title": "Cheers and applause as Jensen Huang returns to Nvidia office",
-      "link": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo",
-      "date": "2026-11-24T01:21:41.000Z"
-    },
-    {
       "title": "Huntley murderer handed new whole life jail term",
       "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o",
       "date": "2026-11-24T13:32:43.000Z"
-    },
-    {
-      "title": "Inquiry expected into Birmingham housing scheme 'exploitation' after BBC investigation",
-      "link": "https://www.bbc.co.uk/news/articles/cm0rk19kl52do",
-      "date": "2026-11-24T10:47:53.000Z"
     },
     {
       "title": "Zoe Kleinman: My week with Meta's AI agent Muse ahead of its UK launch",
@@ -39,29 +29,39 @@
       "date": "2026-11-24T09:33:00.000Z"
     },
     {
-      "title": "Prince William meets Burnham on first Downing Street visit",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1xk1gpqvo",
-      "date": "2026-11-24T11:37:53.000Z"
+      "title": "Watch: BBC secret filming shows dog breeder selling sick puppies for £2k each",
+      "link": "https://www.bbc.co.uk/news/videos/ckx28x5nlr2vo",
+      "date": "2026-11-24T06:21:29.000Z"
     },
     {
-      "title": "Gisèle Pelicot 'humiliated' after nude photos sent to media to promote book",
-      "link": "https://www.bbc.co.uk/news/articles/cm3eg502nxw2o",
-      "date": "2026-11-23T21:24:47.000Z"
+      "title": "Key takeaways from the Timms review into Pip disability benefit",
+      "link": "https://www.bbc.co.uk/news/articles/c69w9gw9wx9no",
+      "date": "2026-11-24T13:46:07.000Z"
+    },
+    {
+      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+      "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno",
+      "date": "2026-11-24T00:01:04.000Z"
+    },
+    {
+      "title": "The shake-up facing renters as a new kind of landlord emerges",
+      "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o",
+      "date": "2026-11-24T00:28:48.000Z"
     }
   ],
   "business": [
     {
-      "source": "MarketWatch",
-      "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
-      "link": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
-      "date": "2026-11-24T14:28:00.000Z",
+      "source": "Investing.com",
+      "title": "Israel stocks lower at close of trade; TA 35 down 0.86%",
+      "link": "https://www.investing.com/news/stock-market-news/israel-stocks-lower-at-close-of-trade-ta-35-down-086-5048685",
+      "date": "2026-11-24T15:55:03.000Z",
       "breaking": true
     },
     {
-      "source": "Investing.com",
-      "title": "Applied Optoelectronics stock rises on datacenter deal",
-      "link": "https://www.investing.com/news/stock-market-news/applied-optoelectronics-stock-rises-on-datacenter-deal-5048440",
-      "date": "2026-11-24T14:14:09.000Z",
+      "source": "MarketWatch",
+      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
+      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
+      "date": "2026-11-24T15:30:00.000Z",
       "breaking": false
     },
     {
@@ -86,17 +86,17 @@
       "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
-      "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
-      "date": "2026-11-24T14:17:00.000Z",
+      "source": "Investing.com",
+      "title": "Greece stocks lower at close of trade; Athens General Composite down 1.46%",
+      "link": "https://www.investing.com/news/stock-market-news/greece-stocks-lower-at-close-of-trade-athens-general-composite-down-146-5048682",
+      "date": "2026-11-24T15:50:02.000Z",
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Why is GameStop stock gaining today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-gamestop-stock-gaining-today-93CH-5048434",
-      "date": "2026-11-24T14:12:00.000Z",
+      "source": "MarketWatch",
+      "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
+      "link": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
+      "date": "2026-11-24T15:21:00.000Z",
       "breaking": false
     },
     {
@@ -122,54 +122,54 @@
     },
     {
       "source": "Investing.com",
-      "title": "3 defensive stocks to watch as tech, chip volatility persists",
-      "link": "https://www.investing.com/news/stock-market-news/3-defensive-stocks-to-watch-as-tech-chip-volatility-persists-93CH-5048428",
-      "date": "2026-11-24T14:08:06.000Z",
+      "title": "Why is Fossil stock rallying today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-fossil-stock-rallying-today-93CH-5048672",
+      "date": "2026-11-24T15:41:07.000Z",
       "breaking": false
     },
     {
       "source": "MarketWatch",
-      "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
-      "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
-      "date": "2026-11-24T13:50:00.000Z",
+      "title": "Anthropic’s stock just broke below its IPO price for the first time",
+      "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
+      "date": "2026-11-24T15:21:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Anthony Joshua",
+      "term": "Yoro",
       "traffic": "2000+",
-      "title": "Wilder to fight Bakole on Fury-Joshua undercard",
-      "link": "https://www.bbc.co.uk/sport/boxing/articles/cmvg2v0rlzeko",
+      "title": "'No-one's coming to save us' - but how can Man Utd save themselves?",
+      "link": "https://www.bbc.co.uk/sport/football/articles/ck9d7qxxl7w8o",
       "source": "BBC"
     },
     {
-      "term": "Russian Navy",
-      "traffic": "2000+",
-      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
-      "link": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo",
-      "source": "BBC"
-    },
-    {
-      "term": "Vice City",
+      "term": "Pakistan A Vs Nepal National Cricket Team Standings",
       "traffic": "1000+",
-      "title": "A ‘GTA 6’ Player Finds Tommy Vercetti’s Shirt And Portal To Original Vice City",
-      "link": "https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/",
-      "source": "Forbes"
+      "title": "ACC Emerging Teams Asia Cup Group A and B Points Table",
+      "link": "https://www.tapmad.com/blog/acc-emerging-teams-asia-cup-group-a-b-points-table/9067-5-0",
+      "source": "Tapmad"
     },
     {
-      "term": "M4 Traffic Updates",
+      "term": "Amanda Owen",
       "traffic": "1000+",
-      "title": "Major M4 issues cause hours of tailbacks for drivers",
-      "link": "https://www.walesonline.co.uk/news/wales-news/major-m4-issues-causing-hour-34956842",
-      "source": "Wales Online"
+      "title": "At 52, the Yorkshire Shepherdess is swapping wellies for lacy LBDs",
+      "link": "https://www.telegraph.co.uk/fashion/style/yorkshire-shepherdess-swapping-wellies-for-dresses/",
+      "source": "The Telegraph"
     },
     {
-      "term": "Europe Electric Hybrid Car Market Share",
+      "term": "Jonbenet Ramsey",
       "traffic": "500+",
-      "title": "Battery EV surge continues to push Europe car sales in October",
-      "link": "https://www.reuters.com/world/china/battery-ev-surge-continues-push-europe-car-sales-october-2026-11-24/",
-      "source": "Reuters"
+      "title": "McCarthy & Owen in 'The Murder of JonBenét Ramsey' Official Trailer",
+      "link": "https://www.firstshowing.net/2026/mccarthy-owen-in-the-murder-of-jonbenet-ramsey-official-trailer/",
+      "source": "FirstShowing.net"
+    },
+    {
+      "term": "Prince Harry Visa",
+      "traffic": "500+",
+      "title": "Exclusive | Secret reason for Prince Harry and Meghan Markle's sudden move back to UK finally revealed",
+      "link": "https://pagesix.com/2026/11/20/royal-family/secret-reason-for-prince-harry-and-meghan-markles-sudden-move-back-to-uk-finally-revealed/",
+      "source": "Page Six"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T14:34:55.814Z",
+  "updated": "2026-11-24T16:06:12.709Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -6612,23 +6612,23 @@
     },
     {
       "date": "2026-11-24",
-      "totalStories": 256,
+      "totalStories": 258,
       "sections": [
         {
           "name": "UK",
-          "count": 29
+          "count": 32
         },
         {
           "name": "World",
-          "count": 22
-        },
-        {
-          "name": "Business",
-          "count": 13
+          "count": 21
         },
         {
           "name": "Politics",
-          "count": 10
+          "count": 12
+        },
+        {
+          "name": "Business",
+          "count": 11
         },
         {
           "name": "Science",
@@ -6640,7 +6640,7 @@
         },
         {
           "name": "Technology",
-          "count": 5
+          "count": 4
         }
       ],
       "topWords": [
@@ -6684,26 +6684,32 @@
           "lon": -2,
           "count": 29,
           "bySection": {
-            "Politics": 11,
             "UK": 2,
+            "Politics": 12,
             "Health": 5,
             "Science": 2,
             "Technology": 1,
-            "World": 2,
+            "World": 1,
             "Business": 6
           },
           "stories": [
+            {
+              "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+              "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-24T15:25:02.000Z"
+            },
+            {
+              "title": "Reform breaks boycott of Welsh Parliament with call to remove presiding officer",
+              "link": "https://www.bbc.co.uk/news/articles/cmqj5ql7r2ljo?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-24T14:57:43.000Z"
+            },
             {
               "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
               "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
               "section": "Politics",
               "date": "2026-11-24T14:02:03.000Z"
-            },
-            {
-              "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
-              "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-24T13:25:40.000Z"
             },
             {
               "title": "Wales' largest health board still failing, says report",
@@ -6716,12 +6722,6 @@
               "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
               "section": "Politics",
               "date": "2026-11-24T12:41:47.000Z"
-            },
-            {
-              "title": "Badger cull ruled out by Welsh government after speculation",
-              "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
-              "section": "Science",
-              "date": "2026-11-24T12:01:32.000Z"
             }
           ]
         },
@@ -6827,7 +6827,7 @@
               "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked",
               "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
               "section": "UK",
-              "date": "2026-11-24T13:50:10.000Z"
+              "date": "2026-11-24T15:37:03.000Z"
             },
             {
               "title": "What does the new Brexit deal mean for Northern Ireland?",
@@ -6928,7 +6928,7 @@
               "title": "Israeli air strike kills Hamas internal security chief in Gaza",
               "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-24T12:12:48.000Z"
+              "date": "2026-11-24T15:35:53.000Z"
             },
             {
               "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
@@ -6952,7 +6952,7 @@
               "title": "Israeli air strike kills Hamas internal security chief in Gaza",
               "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-24T12:12:48.000Z"
+              "date": "2026-11-24T15:35:53.000Z"
             },
             {
               "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
@@ -7143,6 +7143,23 @@
           ]
         },
         {
+          "name": "Syria",
+          "lat": 35,
+          "lon": 38,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Land mine casualties soar in Syria, two years after war",
+              "link": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-24T15:17:28.000Z"
+            }
+          ]
+        },
+        {
           "name": "Iran",
           "lat": 32,
           "lon": 53,
@@ -7209,30 +7226,18 @@
               "date": "2026-11-24T06:23:01.000Z"
             }
           ]
-        },
-        {
-          "name": "Myanmar",
-          "lat": 21,
-          "lon": 96,
-          "count": 1,
-          "bySection": {
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "UK sanctions top Myanmar military leaders after Rohingya genocide ruling",
-              "link": "https://www.bbc.co.uk/news/articles/c6wy4ng1rznxo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-23T21:03:34.000Z"
-            }
-          ]
         }
       ],
       "topHeadlines": [
         {
-          "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
-          "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
-          "section": "Politics"
+          "title": "Weak and immature management putting patients at risk at failing health board, review finds",
+          "link": "https://www.bbc.co.uk/news/articles/cm3eg5g4l9ggo?at_medium=RSS&at_campaign=rss",
+          "section": "Health"
+        },
+        {
+          "title": "Former police chief inspector jailed for rape",
+          "link": "https://www.bbc.co.uk/news/articles/crjeq7ey7llqo?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
         },
         {
           "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked",
@@ -7240,36 +7245,31 @@
           "section": "UK"
         },
         {
-          "title": "Key takeaways from the Timms review into Pip disability benefit",
-          "link": "https://www.bbc.co.uk/news/articles/c69w9gw9wx9no?at_medium=RSS&at_campaign=rss",
-          "section": "Politics"
+          "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+          "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
         },
         {
-          "title": "Huntley murderer handed new whole life jail term",
-          "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
-        },
-        {
-          "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
-          "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
+          "title": "Nurses vote for industrial action over pay",
+          "link": "https://www.bbc.co.uk/news/articles/crn4kqk07d9ko?at_medium=RSS&at_campaign=rss",
+          "section": "Health"
         }
       ],
       "hnTop": [
         {
           "title": "Nvidia Reinstates Jensen Huang as CEO",
           "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "points": 2689
+          "points": 2717
         },
         {
           "title": "Ladybird is now in alpha",
           "url": "https://ladybird.org/posts/alpha/",
-          "points": 2173
+          "points": 2260
         },
         {
           "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
           "url": "https://twitter.com/ylecun/status/2124550037912920090",
-          "points": 1841
+          "points": 1892
         }
       ]
     }
