@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24T10:26:12.424Z",
+  "checked": "2026-11-24T12:31:25.930Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Cloudflare Workers API – Delayed or Inconsistent Responses",
+      "note": "Magic Transit Degraded Performance",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Magic Transit Degraded Performance",
+      "impact": "major",
+      "start": "2026-11-24T11:29:22.902Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh"
+    },
     {
       "service": "Cloudflare",
       "title": "Increased Errors for Durable Objects in Seattle",
@@ -639,14 +647,6 @@
       "start": "2026-11-11T13:09:04.520Z",
       "end": "2026-11-11T13:03:00.000Z",
       "url": "https://www.cloudflarestatus.com/incidents/3ptyvdaljq9b"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Elevated number of 5xx errors in Hong Kong",
-      "impact": "minor",
-      "start": "2026-11-11T07:52:21.120Z",
-      "end": "2026-11-11T07:45:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/4qxszy04pdjw"
     },
     {
       "service": "Cloudflare",

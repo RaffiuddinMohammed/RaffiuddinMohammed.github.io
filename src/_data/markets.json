@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23T18:06:22.494Z",
-  "headlineCount": 67,
+  "updated": "2026-11-24T12:24:01.391Z",
+  "headlineCount": 75,
   "sources": [
     {
       "name": "CNBC",
-      "count": 6
+      "count": 8
     },
     {
       "name": "Yahoo Finance",
-      "count": 31
+      "count": 37
     },
     {
       "name": "MarketWatch",
@@ -22,7 +22,7 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Interest rates",
@@ -30,14 +30,14 @@
     },
     {
       "name": "Earnings",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Inflation",
       "count": 2
     },
     {
-      "name": "Jobs",
+      "name": "Crypto",
       "count": 1
     },
     {
@@ -45,11 +45,11 @@
       "count": 0
     },
     {
-      "name": "Oil and energy",
+      "name": "Jobs",
       "count": 0
     },
     {
-      "name": "Crypto",
+      "name": "Oil and energy",
       "count": 0
     },
     {
@@ -60,199 +60,192 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 12
-    },
-    {
-      "name": "Apple",
-      "count": 0
-    },
-    {
-      "name": "Microsoft",
-      "count": 0
-    },
-    {
-      "name": "Alphabet",
-      "count": 0
-    },
-    {
-      "name": "Amazon",
-      "count": 0
+      "count": 17
     },
     {
       "name": "Meta",
-      "count": 0
+      "count": 2
+    },
+    {
+      "name": "Apple",
+      "count": 1
+    },
+    {
+      "name": "Microsoft",
+      "count": 1
+    },
+    {
+      "name": "Amazon",
+      "count": 1
     },
     {
       "name": "Tesla",
+      "count": 1
+    },
+    {
+      "name": "Alphabet",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "‘This establishes a bottom': Jensen Huang's return seen as likely to stop market sell-off, for now",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
-      "date": "2026-11-23T18:00:47.000Z",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump says he ‘convinced' Nvidia board to reinstate Jensen Huang",
-      "link": "https://finance.yahoo.com/technology/articles/trump-says-convinced-nvidia-board-161922078.html?.tsrc=rss",
-      "date": "2026-11-23T17:55:04.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Should You Buy Marvell Technology Stock Before Dec. 1?",
-      "link": "https://www.fool.com/investing/2026/11/23/should-you-buy-marvell-technology-stock-before-dec-1/?.tsrc=rss",
-      "date": "2026-11-23T17:54:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, are among the S&P 500’s biggest losers Monday",
-      "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:54:00.000Z",
+      "title": "Jensen Huang’s return was worth nearly $950 billion to Nvidia. How much of the stock market should ride on one man?",
+      "link": "https://www.marketwatch.com/story/jensen-huangs-return-was-worth-nearly-950-billion-to-nvidia-how-much-of-the-stock-market-should-ride-on-one-man-c7129e95?mod=mw_rss_topstories",
+      "date": "2026-11-24T12:21:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "BMO reaffirmed this top pick in apparel and footwear",
-      "link": "https://www.investing.com/news/stock-market-news/bmo-reaffirmed-this-top-pick-in-apparel-and-footwear-5046189",
-      "date": "2026-11-23T17:49:46.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Trump thinks China will buy another 250 Boeing airplanes",
-      "link": "https://www.investing.com/news/stock-market-news/trump-thinks-china-will-buy-another-250-boeing-airplanes-5046050",
-      "date": "2026-11-23T17:48:21.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.cbsnews.com/news/nvidia-reinstates-jensen-huang-ceo/?.tsrc=rss",
-      "date": "2026-11-23T17:45:51.000Z",
+      "title": "ZonPrep Announces Las Vegas Facility, Expanding Its Amazon Supply Chain Network West",
+      "link": "https://finance.yahoo.com/small-business/articles/zonprep-announces-las-vegas-facility-122000834.html?.tsrc=rss",
+      "date": "2026-11-24T12:20:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "All Broadcom Has to Do is Deliver Modestly to Prove Stanley Druckenmiller Wrong and Hit $500 in 2027",
-      "link": "https://247wallst.com/investing/2026/11/23/all-broadcom-has-to-do-is-deliver-modestly-to-prove-stanley-druckenmiller-wrong-and-hit-500-in-2027/?.tsrc=rss",
-      "date": "2026-11-23T17:45:48.000Z",
+      "title": "NVIDIA Added About $1 Trillion in Minutes on Huang's Return. Where Does the Price Target Go Now?",
+      "link": "https://247wallst.com/investing/2026/11/24/nvidia-added-about-1-trillion-in-minutes-on-huangs-return-where-does-the-price-target-go-now/?.tsrc=rss",
+      "date": "2026-11-24T12:17:32.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Here's Why MGM Resorts (MGM) Declined in Q3",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-mgm-resorts-mgm-declined-174539048.html?.tsrc=rss",
-      "date": "2026-11-23T17:45:39.000Z",
+      "title": "Anthropic's Frenemy Squeeze: Pledging Up to $49B to Microsoft While Building Its Own Landlord Escape Hatch",
+      "link": "https://247wallst.com/investing/2026/11/24/anthropics-frenemy-squeeze-pledging-up-to-49b-to-microsoft-while-building-its-own-landlord-escape-hatch/?.tsrc=rss",
+      "date": "2026-11-24T12:15:31.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Nebius Keeps Plummeting Amid 50% Drop This Month: This Wall Street Pro Now Predicts 370% Returns After Slight Adjustment",
-      "link": "https://247wallst.com/investing/2026/11/23/nebius-keeps-plummeting-amid-50-drop-this-month-this-wall-street-pro-now-predicts-370-returns-after-slight-adjustment/?.tsrc=rss",
-      "date": "2026-11-23T17:45:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "AI powered the market boom. Is the bubble about to pop?",
-      "link": "https://finance.yahoo.com/video/ai-powered-market-boom-bubble-174254500.html?.tsrc=rss",
-      "date": "2026-11-23T17:42:54.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Elastic stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-elastic-stock-surging-today-93CH-5046183",
-      "date": "2026-11-23T17:39:46.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Life360 stock climbing today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-life360-stock-climbing-today-93CH-5046182",
-      "date": "2026-11-23T17:39:37.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Chevron Corp. (CVX): Q3 Earnings Triple on Refining Margin Surge",
-      "link": "https://finance.yahoo.com/energy/articles/chevron-corp-cvx-q3-earnings-173936863.html?.tsrc=rss",
-      "date": "2026-11-23T17:39:36.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Fed Rate-Hike Odds Jump As Nvidia, 'Central Bank Of AI,' Saves The Day",
-      "link": "https://finance.yahoo.com/m/5e3a489d-8e8c-3339-b4fb-2d40a5dec1db/fed-rate-hike-odds-jump-as.html?.tsrc=rss",
-      "date": "2026-11-23T17:38:03.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Wall Street roars back as Nvidia reinstates Jensen Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/wall-street-futures-rebound-after-rough-week-for-ailinked-shares-5044594",
-      "date": "2026-11-23T17:37:15.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "More AI jobs are coming. That’s one of the big hiring trends in 2027.",
-      "link": "https://www.marketwatch.com/story/more-ai-jobs-are-coming-thats-one-of-the-big-hiring-trends-in-2027-3d810209?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:37:00.000Z",
+      "title": "I’ve been married for 58 years. It’s ‘our’ money, not ‘his’ and ‘hers.’ Why do so many couples keep their finances separate?",
+      "link": "https://www.marketwatch.com/story/ive-been-married-for-58-years-its-our-money-not-his-and-hers-why-dont-others-feel-the-same-c5745889?mod=mw_rss_topstories",
+      "date": "2026-11-24T12:15:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Why Did Cerebras Stock Soar Today?",
-      "link": "https://www.fool.com/investing/2026/11/23/why-did-cerebras-stock-soar-today/?.tsrc=rss",
-      "date": "2026-11-23T17:36:54.000Z",
+      "title": "Nvidia reinstates Jensen Huang as CEO and president",
+      "link": "https://www.verdict.co.uk/nvidia-brings-back-jensen-huang-ceo/?.tsrc=rss",
+      "date": "2026-11-24T12:14:53.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Options on Anthropic shares start trading in brisk volume",
-      "link": "https://www.investing.com/news/stock-market-news/anthropic-options-debut-with-brisk-volume-5046078",
-      "date": "2026-11-23T17:36:43.000Z",
+      "title": "Best Buy leans on AI-driven gadget update cycle to lift annual targets",
+      "link": "https://www.investing.com/news/stock-market-news/best-buy-leans-on-aidriven-gadget-update-cycle-to-lift-annual-targets-5047828",
+      "date": "2026-11-24T12:13:17.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "US lawmakers criticize Nvidia decision to reinstate Huang as CEO",
-      "link": "https://www.investing.com/news/stock-market-news/lawmakers-criticize-nvidia-decision-to-reinstate-huang-as-ceo-5045977",
-      "date": "2026-11-23T17:36:27.000Z",
+      "title": "Spotify down for thousands of users, Downdetector shows",
+      "link": "https://www.investing.com/news/stock-market-news/spotify-down-for-thousands-of-users-downdetector-shows-5047869",
+      "date": "2026-11-24T12:12:49.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "US bill aims to clear hurdle to medication for people with opioid addiction",
+      "link": "https://www.investing.com/news/stock-market-news/us-bill-aims-to-clear-hurdle-to-medication-for-people-with-opioid-addiction-5047865",
+      "date": "2026-11-24T12:12:24.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Analog Devices unveils lower-than-expected first-quarter earnings forecast",
+      "link": "https://www.investing.com/news/stock-market-news/analog-devices-unveils-lowerthanexpected-firstquarter-earnings-forecast-5047864",
+      "date": "2026-11-24T12:11:46.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Premarket movers: Chip stocks lead AI rebound; CrowdStrike falls",
+      "link": "https://www.investing.com/news/stock-market-news/premarket-movers-chip-stocks-lead-ai-rebound-crowdstrike-falls-5045110",
+      "date": "2026-11-24T12:10:54.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Domino's Pizza stock gaining today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-dominos-pizza-stock-gaining-today-93CH-5047853",
+      "date": "2026-11-24T12:10:28.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nvidia's Role as AI Industry Advocate Likely to Continue Following Huang's Return Amid Focus on Regulatory Policy, Wedbush Says",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-apos-role-ai-industry-121020908.html?.tsrc=rss",
+      "date": "2026-11-24T12:10:20.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Meta's $60 Billion AI Funding Plan Faces Delay Amid Shareholder Lawsuit",
+      "link": "https://finance.yahoo.com/technology/ai/articles/metas-60-billion-ai-funding-121008904.html?.tsrc=rss",
+      "date": "2026-11-24T12:10:08.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why is Shoe Station stock plunging today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-shoe-station-stock-plunging-today-93CH-5047851",
+      "date": "2026-11-24T12:09:49.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Tesla, SpaceX Name Five Directors for Potential $3.5 Trillion Merger",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-name-five-directors-120918069.html?.tsrc=rss",
+      "date": "2026-11-24T12:09:18.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "META Stock Is Down 24% From Peak: JPMorgan Sees ‘Attractive Buying Opportunity' — But 2027 Spending, Capex Remain An Overhang",
+      "link": "https://stocktwits.com/news-articles/markets/equity/meta-stock-is-down-24-from-peak-jp-morgan-sees-attractive-buying-opportunity-but-2027-spending-capex-remain-an-overhang/cNbsIWZR9ki?.tsrc=rss",
+      "date": "2026-11-24T12:08:52.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "A 337 Million Reason Why AMD Stock In Focus Today",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/337-million-reason-why-amd-120802014.html?.tsrc=rss",
+      "date": "2026-11-24T12:08:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Factbox-What we know about Megaspeed, the Nvidia customer blacklisted by US",
+      "link": "https://www.investing.com/news/stock-market-news/factboxwhat-we-know-about-megaspeed-the-nvidia-customer-blacklisted-by-us-5047829",
+      "date": "2026-11-24T12:06:51.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Nvidia slips as investors assess risks surrounding Huang's return as CEO",
+      "link": "https://www.investing.com/news/stock-market-news/nvidia-slips-as-investors-assess-risks-surrounding-huangs-return-as-ceo-5047757",
+      "date": "2026-11-24T12:06:37.000Z",
       "source": "Investing.com"
     }
   ],
   "featured": [
     {
-      "title": "‘This establishes a bottom': Jensen Huang's return seen as likely to stop market sell-off, for now",
-      "link": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
-      "date": "2026-11-23T18:00:47.000Z",
-      "source": "CNBC"
-    },
-    {
-      "title": "Trump says he ‘convinced' Nvidia board to reinstate Jensen Huang",
-      "link": "https://finance.yahoo.com/technology/articles/trump-says-convinced-nvidia-board-161922078.html?.tsrc=rss",
-      "date": "2026-11-23T17:55:04.000Z",
+      "title": "ZonPrep Announces Las Vegas Facility, Expanding Its Amazon Supply Chain Network West",
+      "link": "https://finance.yahoo.com/small-business/articles/zonprep-announces-las-vegas-facility-122000834.html?.tsrc=rss",
+      "date": "2026-11-24T12:20:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Consumer stocks, seen as safe bet amid cracks in AI trade, are among the S&P 500’s biggest losers Monday",
-      "link": "https://www.marketwatch.com/story/consumer-stocks-seen-as-safe-bet-amid-cracks-in-ai-trade-are-among-the-s-p-500s-biggest-losers-monday-80cf8f81?mod=mw_rss_topstories",
-      "date": "2026-11-23T17:54:00.000Z",
+      "title": "Best Buy leans on AI-driven gadget update cycle to lift annual targets",
+      "link": "https://www.investing.com/news/stock-market-news/best-buy-leans-on-aidriven-gadget-update-cycle-to-lift-annual-targets-5047828",
+      "date": "2026-11-24T12:13:17.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "This billionaire bought Nvidia in anticipation of Jensen Huang’s return — and warns the S&P 500 could fall by a third",
+      "link": "https://www.marketwatch.com/story/this-billionaire-bought-nvidia-in-anticipation-of-jensen-huangs-return-and-warns-the-s-p-500-could-fall-by-a-third-dcff9489?mod=mw_rss_topstories",
+      "date": "2026-11-24T11:59:00.000Z",
       "source": "MarketWatch"
     }
   ],
   "yields": {
     "latest": {
-      "date": "2026-11-20",
-      "y3m": 4.32,
+      "date": "2026-11-23",
+      "y3m": 4.37,
       "y2": 4.63,
       "y10": 4.92,
-      "y30": 5.31
+      "y30": 5.29
     },
     "monthAgo": {
-      "date": "2026-10-21",
-      "y3m": 4.25,
-      "y2": 4.81,
-      "y10": 5.13,
-      "y30": 5.42
+      "date": "2026-10-26",
+      "y3m": 4.22,
+      "y2": 4.68,
+      "y10": 5,
+      "y30": 5.31
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-24",
-        "y3m": 3.87,
-        "y2": 4.24,
-        "y10": 4.7,
-        "y30": 5.23
-      },
       {
         "date": "2026-08-25",
         "y3m": 3.86,
@@ -679,6 +672,13 @@
         "y2": 4.63,
         "y10": 4.92,
         "y30": 5.31
+      },
+      {
+        "date": "2026-11-23",
+        "y3m": 4.37,
+        "y2": 4.63,
+        "y10": 4.92,
+        "y30": 5.29
       }
     ]
   }
