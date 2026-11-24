@@ -1,5 +1,5 @@
 {
-  "_readme": "CV content for the homepage, taken from Raffi's LinkedIn (22 Nov 2026). Entries with \"draft\": true show a DRAFT badge. Testimonials are real LinkedIn recommendations, quoted word for word.",
+  "_readme": "CV content for the homepage, taken from Raffi's LinkedIn (22 Nov 2026). Entries with \"draft\": true show a DRAFT badge. Testimonials are real LinkedIn recommendations, quoted word for word. Sky entry added from Raffi's CV (24 Nov 2026); Limra rows removed per Dom's feedback, kept only as contractNote.",
   "roles": [
     "QA Lead",
     "Project Manager",
@@ -29,29 +29,23 @@
       "url": "https://recrd.com"
     },
     {
-      "role": "Director and Founder",
-      "org": "Limra Tech Limited",
-      "dates": "Mar 2015 – present",
+      "role": "Software Quality & Delivery Lead",
+      "org": "Sky",
+      "dates": "Feb 2013 – Mar 2026",
       "place": "London",
-      "points": [],
       "logos": [
         {
-          "text": "LT",
-          "alt": "Limra Tech"
+          "src": "/assets/img/logos/sky.svg",
+          "alt": "Sky",
+          "square": true
         }
-      ]
-    },
-    {
-      "role": "Director",
-      "org": "Limra Solutions Limited (contract)",
-      "dates": "Feb 2013 – Feb 2019",
-      "place": "London",
-      "points": [],
-      "logos": [
-        {
-          "text": "LS",
-          "alt": "Limra Solutions"
-        }
+      ],
+      "url": "https://www.sky.com",
+      "points": [
+        "Tested Sky Go and Air UI end to end on iOS, Android, PS5, Xbox, Apple TV, web, LG and Samsung TVs and set-top boxes: live, PVR, on-demand and catch-up.",
+        "Ad tech testing with Yospace, FreeWheel and AWS MediaTailor: ad delivery, ad decisioning, impressions and tracking.",
+        "Go-live and production checks for major releases and big sporting events, with risks reported to product owners and release managers.",
+        "From 2023, used Claude AI in CI to generate tests from acceptance criteria, with pass/fail reports and Jira tickets for smoke runs."
       ]
     },
     {
@@ -120,5 +114,6 @@
       "src": "/assets/img/logos/barclays.svg",
       "alt": "Barclays"
     }
-  ]
+  ],
+  "contractNote": "Contracts delivered through my own company, Limra Tech Ltd."
 }

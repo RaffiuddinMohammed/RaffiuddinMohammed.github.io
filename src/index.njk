@@ -81,6 +81,7 @@ description: "Raffiuddin Mohammed, London: delivery lead, project manager, Scrum
     {% endfor %}
     {% if cv.earlier %}<li class="reveal tl-earlier"><div class="tl-head"><h3>Earlier career</h3></div><p class="muted">{{ cv.earlier }}</p>{% if cv.earlierLogos %}<span class="co-logos earlier">{% for l in cv.earlierLogos %}<img class="co-logo{% if l.square %} sq{% endif %}" src="{{ l.src }}" alt="{{ l.alt }}" loading="lazy" decoding="async">{% endfor %}</span>{% endif %}</li>{% endif %}
   </ol>
+  {% if cv.contractNote %}<p class="muted tl-note">{{ cv.contractNote }}</p>{% endif %}
 </section>
 
 {% if cv.testimonials and cv.testimonials.length %}

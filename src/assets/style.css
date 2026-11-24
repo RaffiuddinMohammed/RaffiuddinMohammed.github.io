@@ -1046,3 +1046,4 @@ a.side-project .data-tick-when { flex: 1 0 100%; margin: -4px 0 0; font-size: .7
   .data-tick-set[aria-hidden] { display: none; }
   .data-tick-set { flex-wrap: wrap; row-gap: 4px; }
 }
+.tl-note { font-size: .8rem; margin: 10px 0 0; }
