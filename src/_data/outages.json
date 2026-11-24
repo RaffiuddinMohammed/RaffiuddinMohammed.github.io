@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24T13:33:46.906Z",
+  "checked": "2026-11-24T14:09:30.866Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -10,13 +10,13 @@
     {
       "name": "GitHub",
       "level": "ok",
-      "note": "All Systems Operational",
+      "note": "Degraded Availability for MAI Code 2 in Copilot",
       "url": "https://www.githubstatus.com"
     },
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Magic Transit Degraded Performance",
+      "note": "Issues with Email Routing in France",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "GitHub",
+      "title": "Degraded Availability for MAI Code 2 in Copilot",
+      "impact": "minor",
+      "start": "2026-11-24T13:44:07.213Z",
+      "end": null,
+      "url": "https://stspg.io/d5wbprv122kh"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Issues with Email Routing in France",
+      "impact": "minor",
+      "start": "2026-11-24T13:38:40.144Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi"
+    },
     {
       "service": "Cloudflare",
       "title": "Magic Transit Degraded Performance",
@@ -647,14 +663,6 @@
       "start": "2026-11-11T13:09:04.520Z",
       "end": "2026-11-11T13:03:00.000Z",
       "url": "https://www.cloudflarestatus.com/incidents/3ptyvdaljq9b"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "SSL Certificate Provisioning Issue",
-      "impact": "minor",
-      "start": "2026-11-11T07:45:42.146Z",
-      "end": "2026-11-11T10:07:58.207Z",
-      "url": "https://www.cloudflarestatus.com/incidents/21vwp89eiyjx"
     },
     {
       "service": "Cloudflare",

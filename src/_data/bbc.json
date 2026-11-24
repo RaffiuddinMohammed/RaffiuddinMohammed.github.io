@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-24T13:25:28.609Z",
-  "totalStories": 257,
+  "updated": "2026-11-24T14:03:16.184Z",
+  "totalStories": 256,
   "sections": [
     {
       "name": "UK",
-      "count": 32
+      "count": 29
     },
     {
       "name": "World",
@@ -12,7 +12,7 @@
     },
     {
       "name": "Business",
-      "count": 15
+      "count": 13
     },
     {
       "name": "Politics",
@@ -69,15 +69,15 @@
       "count": 7
     },
     {
-      "word": "wales",
-      "count": 6
-    },
-    {
       "word": "pay",
       "count": 6
     },
     {
       "word": "strike",
+      "count": 6
+    },
+    {
+      "word": "data",
       "count": 6
     }
   ],
@@ -86,11 +86,11 @@
       "name": "United Kingdom",
       "lat": 54,
       "lon": -2,
-      "count": 30,
+      "count": 29,
       "bySection": {
         "UK": 2,
         "Health": 5,
-        "Politics": 12,
+        "Politics": 11,
         "Science": 2,
         "Technology": 1,
         "World": 2,
@@ -101,7 +101,7 @@
           "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
           "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-24T13:15:19.000Z"
+          "date": "2026-11-24T13:25:40.000Z"
         },
         {
           "title": "Wales' largest health board still failing, says report",
@@ -264,10 +264,10 @@
       },
       "stories": [
         {
-          "title": "Irish schools law blocked as unionists deploy Stormont veto",
+          "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked",
           "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
           "section": "UK",
-          "date": "2026-11-24T12:47:49.000Z"
+          "date": "2026-11-24T13:50:10.000Z"
         },
         {
           "title": "What does the new Brexit deal mean for Northern Ireland?",
@@ -670,15 +670,27 @@
   ],
   "latest": [
     {
+      "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked",
+      "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T13:50:10.000Z",
+      "section": "UK"
+    },
+    {
+      "title": "Key takeaways from the Timms review into Pip disability benefit",
+      "link": "https://www.bbc.co.uk/news/articles/c69w9gw9wx9no?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T13:46:07.000Z",
+      "section": "Politics"
+    },
+    {
       "title": "Huntley murderer handed new whole life jail term",
       "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T13:23:46.000Z",
+      "date": "2026-11-24T13:32:43.000Z",
       "section": "UK"
     },
     {
       "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
       "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T13:15:19.000Z",
+      "date": "2026-11-24T13:25:40.000Z",
       "section": "UK"
     },
     {
@@ -718,28 +730,16 @@
       "section": "Health"
     },
     {
+      "title": "Police fear missing 20-year-old 'may have come to harm'",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gn7n0pkp4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T12:55:16.000Z",
+      "section": "UK"
+    },
+    {
       "title": "Weak and immature management putting patients at risk at failing health board, review finds",
       "link": "https://www.bbc.co.uk/news/articles/cm3eg5g4l9ggo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T12:49:43.000Z",
       "section": "Health"
-    },
-    {
-      "title": "Irish schools law blocked as unionists deploy Stormont veto",
-      "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T12:47:49.000Z",
-      "section": "UK"
-    },
-    {
-      "title": "Russian governor detained in rare criminal case against regional leader",
-      "link": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T12:45:43.000Z",
-      "section": "World"
-    },
-    {
-      "title": "Prince of Wales makes first ever Downing Street visit",
-      "link": "https://www.bbc.co.uk/news/videos/c6evr4vzydpyo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T12:41:47.000Z",
-      "section": "Politics"
     }
   ]
 }

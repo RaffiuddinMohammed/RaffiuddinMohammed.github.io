@@ -1,20 +1,20 @@
 {
-  "updated": "2026-11-24T13:33:47.284Z",
+  "updated": "2026-11-24T14:09:31.461Z",
   "breaking": [
-    {
-      "title": "Huntley murderer handed new whole life jail term",
-      "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o",
-      "date": "2026-11-24T13:32:43.000Z"
-    },
     {
       "title": "Sooryavanshi, 15, breaks sixes record by scoring 204 off 53 balls",
       "link": "https://www.bbc.co.uk/sport/cricket/articles/c6y9709xx4qwo",
-      "date": "2026-11-24T13:27:30.000Z"
+      "date": "2026-11-24T14:05:53.000Z"
     },
     {
-      "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
-      "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno",
-      "date": "2026-11-24T13:25:40.000Z"
+      "title": "Man baffled after accidentally travelling to Spain on wife's passport",
+      "link": "https://www.bbc.co.uk/news/articles/cmzx9ygq1x2wo",
+      "date": "2026-11-24T14:04:14.000Z"
+    },
+    {
+      "title": "Key takeaways from the Timms review into Pip disability benefit",
+      "link": "https://www.bbc.co.uk/news/articles/c69w9gw9wx9no",
+      "date": "2026-11-24T13:46:07.000Z"
     }
   ],
   "latest": [
@@ -51,24 +51,31 @@
   ],
   "business": [
     {
+      "source": "Cointelegraph",
+      "title": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
+      "link": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-24T13:57:56.000Z",
+      "breaking": true
+    },
+    {
+      "source": "MarketWatch",
+      "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+      "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+      "date": "2026-11-24T13:50:00.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Pentagon in talks with GM, Ford for military drones, WSJ reports",
+      "link": "https://www.investing.com/news/stock-market-news/pentagon-in-talks-with-general-motors-and-ford-on-military-drones-wsj-reports-5047560",
+      "date": "2026-11-24T13:42:37.000Z",
+      "breaking": false
+    },
+    {
       "source": "CNBC",
       "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
       "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
       "date": "2026-11-24T13:33:26.000Z",
-      "breaking": true
-    },
-    {
-      "source": "Investing.com",
-      "title": "FTSE 100 today: Stocks extend losses as miners slide on weaker metals prices",
-      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-lower-as-miners-slide-with-metals-5047340",
-      "date": "2026-11-24T13:16:09.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Grayscale calls Bitcoin ‘oversold’ at $62K but warns of AI risks",
-      "link": "https://cointelegraph.com/markets/bitcoin-oversold-ai-risks-grayscale?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-24T13:11:44.000Z",
       "breaking": false
     },
     {
@@ -80,30 +87,23 @@
     },
     {
       "source": "MarketWatch",
-      "title": "Sunday’s pot roast now costs more than a Thanksgiving feast. Why beef won’t get cheaper for years.",
-      "link": "https://www.marketwatch.com/story/sundays-pot-roast-now-costs-more-than-a-thanksgiving-feast-why-beef-wont-get-cheaper-for-years-7daa1b3f?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:56:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Investing.com",
-      "title": "Silver miners fall as metal price drops on rate hike concerns",
-      "link": "https://www.investing.com/news/stock-market-news/silver-miners-fall-as-metal-price-drops-on-rate-hike-concerns-93CH-5048203",
-      "date": "2026-11-24T13:12:15.000Z",
-      "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-      "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:54:00.000Z",
+      "title": "Roth IRA conversions aren’t free money. Watch out for these 5 costly mistakes.",
+      "link": "https://www.marketwatch.com/story/roth-ira-conversions-arent-free-money-watch-out-for-these-5-costly-mistakes-39b182d3?mod=mw_rss_topstories",
+      "date": "2026-11-24T13:48:00.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
-      "link": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-24T12:04:16.000Z",
+      "title": "Sky lender proposes buyback of up to $50M to fund stUSDS withdrawals",
+      "link": "https://cointelegraph.com/news/sky-community-proposes-50m-buybacks-stusds-liquidity-crisis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-24T13:43:46.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Jensen Huang’s return could reignite AI semiconductor rally, analyst says",
+      "link": "https://www.investing.com/news/stock-market-news/jensen-huangs-return-could-reignite-ai-semiconductor-rally-analyst-says-5048329",
+      "date": "2026-11-24T13:36:32.000Z",
       "breaking": false
     },
     {
@@ -121,34 +121,34 @@
       "breaking": false
     },
     {
-      "source": "Investing.com",
-      "title": "Sanofi’s $41 billion Insmed bet charts life beyond Dupixent",
-      "link": "https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163",
-      "date": "2026-11-24T12:54:52.000Z",
+      "source": "MarketWatch",
+      "title": "I’ve paid for long-term-care insurance for 20 years. Is it still worth it?",
+      "link": "https://www.marketwatch.com/story/ive-paid-for-long-term-care-insurance-for-20-years-is-it-still-worth-it-1b2cd52d?mod=mw_rss_topstories",
+      "date": "2026-11-24T13:41:00.000Z",
       "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
-      "link": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:50:00.000Z",
+      "source": "Investing.com",
+      "title": "U.S. stock futures slide a day after Wall Street’s explosive rally",
+      "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-5046750",
+      "date": "2026-11-24T13:34:40.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
       "term": "Anmer Hall Break In News",
-      "traffic": "2000+",
-      "title": "Prince and Princess of Wales’s country home broken into",
-      "link": "https://www.telegraph.co.uk/news/2026/11/24/prince-princess-of-wale-home/",
-      "source": "The Telegraph"
+      "traffic": "5000+",
+      "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
+      "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno",
+      "source": "BBC"
     },
     {
-      "term": "Critical Incident Nottingham Hospital",
+      "term": "Uk Pension Surplus Flexibility Regulations",
       "traffic": "2000+",
-      "title": "Nottingham NHS trust issue plea as critical incident continues",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg2d2x0r78o",
-      "source": "BBC"
+      "title": "DWP Eases Pension Surplus Rules to Unlock Billions",
+      "link": "https://cwibc.co.id/en/dwp-pension-surplus-flexibility",
+      "source": "cwibc.co.id"
     },
     {
       "term": "M4 Traffic Updates",
@@ -158,18 +158,18 @@
       "source": "Wales Online"
     },
     {
-      "term": "Freddie Potts",
-      "traffic": "1000+",
-      "title": "‘I’m loving it at Brugge’: Freddie Potts on going from West Ham’s bench to Champions League",
-      "link": "https://www.theguardian.com/football/2026/nov/24/freddie-potts-brugge-champions-league-liverpool-west-ham",
-      "source": "The Guardian"
+      "term": "Europe Electric Hybrid Car Market Share",
+      "traffic": "500+",
+      "title": "New car registrations: +5.4% in October 2026 year-to-date; battery-electric 23.4% market share",
+      "link": "https://www.acea.auto/pc-registrations/new-car-registrations-5-4-in-october-2026-year-to-date-battery-electric-23-4-market-share/",
+      "source": "ACEA - European Automobile Manufacturers' Association"
     },
     {
-      "term": "Arrest",
+      "term": "Vice City",
       "traffic": "500+",
-      "title": "Watch: Moment troops raid home and capture Mexican drug lord",
-      "link": "https://www.bbc.co.uk/news/videos/cm62p9y3y04qo",
-      "source": "BBC"
+      "title": "A ‘GTA 6’ Player Finds Tommy Vercetti’s Shirt And Portal To Original Vice City",
+      "link": "https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/",
+      "source": "Forbes"
     }
   ]
 }

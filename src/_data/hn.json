@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-24T13:25:28.922Z",
+  "updated": "2026-11-24T14:03:16.494Z",
   "stories": [
     {
       "title": "Nvidia Reinstates Jensen Huang as CEO",
       "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
       "discuss": "https://news.ycombinator.com/item?id=50611576",
-      "points": 2670,
-      "comments": 3536,
+      "points": 2678,
+      "comments": 3541,
       "domain": "cnbc.com"
     },
     {
       "title": "Ladybird is now in alpha",
       "url": "https://ladybird.org/posts/alpha/",
       "discuss": "https://news.ycombinator.com/item?id=50614249",
-      "points": 2135,
-      "comments": 517,
+      "points": 2155,
+      "comments": 524,
       "domain": "ladybird.org"
     },
     {
       "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
       "url": "https://twitter.com/ylecun/status/2124550037912920090",
       "discuss": "https://news.ycombinator.com/item?id=50615308",
-      "points": 1809,
-      "comments": 1044,
+      "points": 1827,
+      "comments": 1058,
       "domain": "twitter.com"
     },
     {
       "title": "Per Arm's request, this site will be discontinued on 4 December 2026 :(",
       "url": "https://arm.jonpalmisc.com/",
       "discuss": "https://news.ycombinator.com/item?id=50617499",
-      "points": 1099,
-      "comments": 256,
+      "points": 1109,
+      "comments": 258,
       "domain": "arm.jonpalmisc.com"
     },
     {
       "title": "Free alternative TV network built from the Internet Archive's forgotten videos",
       "url": "https://spelunkr.tv",
       "discuss": "https://news.ycombinator.com/item?id=50606192",
-      "points": 1025,
-      "comments": 177,
+      "points": 1031,
+      "comments": 178,
       "domain": "spelunkr.tv"
     },
     {
       "title": "Stalwart is now a drop-in replacement for Microsoft Exchange",
       "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
       "discuss": "https://news.ycombinator.com/item?id=50620349",
-      "points": 537,
-      "comments": 295,
+      "points": 553,
+      "comments": 300,
       "domain": "stalw.art"
     },
     {
       "title": "New York Bans Subscription and Post-Purchase Fees on Cars",
       "url": "https://www.governor.ny.gov/news/money-your-pockets-governor-hochul-signs-bill-restricting-exploitative-vehicle-subscription",
       "discuss": "https://news.ycombinator.com/item?id=50622774",
-      "points": 490,
-      "comments": 199,
+      "points": 509,
+      "comments": 223,
       "domain": "governor.ny.gov"
     },
     {
       "title": "2035 Came Early",
       "url": "https://fzakaria.com/2026/11/23/2035-came-early",
       "discuss": "https://news.ycombinator.com/item?id=50624497",
-      "points": 417,
-      "comments": 160,
+      "points": 450,
+      "comments": 176,
       "domain": "fzakaria.com"
-    },
-    {
-      "title": "GPUI is getting its own repository",
-      "url": "https://github.com/zed-industries/gpui",
-      "discuss": "https://news.ycombinator.com/item?id=50619103",
-      "points": 315,
-      "comments": 110,
-      "domain": "github.com"
     },
     {
       "title": "Investigation of Polymarket Insider Trading on the Reinstatement of Jensen Huang",
       "url": "https://deucalionn.vercel.app/polymarket-delit-initie-jensen-huang-nvidia/",
       "discuss": "https://news.ycombinator.com/item?id=50626578",
-      "points": 284,
-      "comments": 165,
+      "points": 370,
+      "comments": 213,
       "domain": "deucalionn.vercel.app"
+    },
+    {
+      "title": "GPUI is getting its own repository",
+      "url": "https://github.com/zed-industries/gpui",
+      "discuss": "https://news.ycombinator.com/item?id=50619103",
+      "points": 325,
+      "comments": 113,
+      "domain": "github.com"
     }
   ],
-  "totalPoints": 12381,
+  "totalPoints": 12768,
   "storyCount": 30
 }

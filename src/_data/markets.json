@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T13:25:26.991Z",
-  "headlineCount": 74,
+  "updated": "2026-11-24T14:03:15.908Z",
+  "headlineCount": 73,
   "sources": [
     {
       "name": "CNBC",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
@@ -25,24 +25,20 @@
       "count": 12
     },
     {
+      "name": "Earnings",
+      "count": 5
+    },
+    {
       "name": "Interest rates",
-      "count": 6
+      "count": 4
     },
     {
       "name": "Inflation",
       "count": 4
     },
     {
-      "name": "Earnings",
-      "count": 4
-    },
-    {
-      "name": "Crypto",
-      "count": 1
-    },
-    {
       "name": "Trade and tariffs",
-      "count": 0
+      "count": 1
     },
     {
       "name": "Jobs",
@@ -53,6 +49,10 @@
       "count": 0
     },
     {
+      "name": "Crypto",
+      "count": 0
+    },
+    {
       "name": "Housing",
       "count": 0
     }
@@ -60,10 +60,14 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 18
+      "count": 12
     },
     {
-      "name": "Microsoft",
+      "name": "Tesla",
+      "count": 2
+    },
+    {
+      "name": "Alphabet",
       "count": 1
     },
     {
@@ -71,162 +75,158 @@
       "count": 1
     },
     {
+      "name": "Meta",
+      "count": 1
+    },
+    {
       "name": "Apple",
       "count": 0
     },
     {
-      "name": "Alphabet",
-      "count": 0
-    },
-    {
-      "name": "Meta",
-      "count": 0
-    },
-    {
-      "name": "Tesla",
+      "name": "Microsoft",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "FTSE 100 today: Stocks extend losses as miners slide on weaker metals prices",
-      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-lower-as-miners-slide-with-metals-5047340",
-      "date": "2026-11-24T13:16:09.000Z",
+      "title": "Amazon Publication Reveals Explosive Downside to Stock Market Euphoria",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-publication-reveals-explosive-downside-135900582.html?.tsrc=rss",
+      "date": "2026-11-24T13:59:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stocks move lower as Nvidia euphoria wears off",
+      "link": "https://finance.yahoo.com/video/stocks-move-lower-as-nvidia-euphoria-wears-off-135748794.html?.tsrc=rss",
+      "date": "2026-11-24T13:57:48.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen 2.0",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-2-0-135501514.html?.tsrc=rss",
+      "date": "2026-11-24T13:55:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stifel Highlights 40 Years as Listed Company: NYSE Content Update",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stifel-highlights-40-years-listed-135500925.html?.tsrc=rss",
+      "date": "2026-11-24T13:55:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Chip Stocks Just Had Their Fourth-Best Day Since 2000",
+      "link": "https://247wallst.com/investing/2026/11/24/chip-stocks-just-had-their-fourth-best-day-since-2000/?.tsrc=rss",
+      "date": "2026-11-24T13:53:24.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Iran says no talks with the U.S. will take place until \"seven conditions\" met",
+      "link": "https://www.investing.com/news/economy-news/iran-says-no-talks-with-the-us-will-take-place-until-seven-conditions-met-5048370",
+      "date": "2026-11-24T13:52:57.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Mexico's inflation hits six-month high but core measure undershoots forecasts",
-      "link": "https://www.investing.com/news/economy-news/mexicos-inflation-hits-sixmonth-high-but-core-measure-undershoots-forecasts-5048204",
-      "date": "2026-11-24T13:12:21.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Silver miners fall as metal price drops on rate hike concerns",
-      "link": "https://www.investing.com/news/stock-market-news/silver-miners-fall-as-metal-price-drops-on-rate-hike-concerns-93CH-5048203",
-      "date": "2026-11-24T13:12:15.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Copper slides 3% as Monday's bounce fully reverses",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/copper-slides-3-monday-bounce-131112001.html?.tsrc=rss",
-      "date": "2026-11-24T13:11:12.000Z",
+      "title": "Update: US Equity Futures Slide Pre-Bell as Traders Assess Nvidia-Led Market Rally",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-slide-pre-135142573.html?.tsrc=rss",
+      "date": "2026-11-24T13:51:42.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Stock Market Today: Tech Futures Sell Off After Market Surge; AMD, Anthropic, Nvidia Dive (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-tech.html?.tsrc=rss",
-      "date": "2026-11-24T13:07:59.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "TSX futures slip as caution takes hold after AI-fueled rally",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/tsx-futures-slip-caution-takes-130611183.html?.tsrc=rss",
-      "date": "2026-11-24T13:06:11.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Chipotle's Earnings Fell 7% Last Quarter, but 1 Trend Has Now Lasted 3 Straight Quarters.",
-      "link": "https://www.fool.com/investing/2026/11/24/chipotle-earnings-fell-7-last-quarter-1-trend-has-now-lasted-3-straight-quarters/?.tsrc=rss",
-      "date": "2026-11-24T13:05:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Bernstein reverses Nvidia downgrade on Huang's return, valuation",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/bernstein-reverses-nvidia-downgrade-huang-130442502.html?.tsrc=rss",
-      "date": "2026-11-24T13:04:42.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "US Equity Futures Slide Pre-Bell as Traders Assess Nvidia-Led Market Rally",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/us-equity-futures-slide-pre-130353339.html?.tsrc=rss",
-      "date": "2026-11-24T13:03:53.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Microsoft Stock Jumps In Nvidia-Fueled Tech Surge; Is Microsoft A Buy Now?",
-      "link": "https://finance.yahoo.com/m/47e21d96-b242-3f68-9ea6-fbc095bafba1/microsoft-stock-jumps-in.html?.tsrc=rss",
-      "date": "2026-11-24T13:01:35.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic falls below $83 IPO price in swift reversal after record listing",
-      "link": "https://www.investing.com/news/economy-news/anthropic-breaks-below-83-ipo-price-as-debut-rally-unravels-5047654",
-      "date": "2026-11-24T13:00:38.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Jensen Huang is back at Nvidia. Should AMD be worried?",
-      "link": "https://finance.yahoo.com/markets/stocks/article/jensen-huang-is-back-at-nvidia-should-amd-be-worried-130012666.html?.tsrc=rss",
-      "date": "2026-11-24T13:00:12.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Amazon To Pull Unauthorized Victoria's Secret Listings On Thanksgiving",
-      "link": "https://www.mediapost.com/publications/article/419642/amazon-to-pull-unauthorized-victorias-secret-list.html?.tsrc=rss",
-      "date": "2026-11-24T13:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Fortune Announces Speakers and Partners for Brainstorm AI 2026 in San Francisco Dec. 7 and 8",
-      "link": "https://finance.yahoo.com/technology/ai/articles/fortune-announces-speakers-partners-brainstorm-130000069.html?.tsrc=rss",
-      "date": "2026-11-24T13:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Stock Futures Down as Traders Digest Jensen Huang's Return to Nvidia as CEO",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-down-traders-digest-125827657.html?.tsrc=rss",
-      "date": "2026-11-24T12:58:27.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Sunday’s pot roast now costs more than a Thanksgiving feast. Why beef won’t get cheaper for years.",
-      "link": "https://www.marketwatch.com/story/sundays-pot-roast-now-costs-more-than-a-thanksgiving-feast-why-beef-wont-get-cheaper-for-years-7daa1b3f?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:56:00.000Z",
+      "title": "12 days of sardines and Croc charms: Are Advent calendars getting out of control?",
+      "link": "https://www.marketwatch.com/story/12-days-of-sardines-and-croc-charms-are-advent-calendars-getting-out-of-control-81f24548?mod=mw_rss_topstories",
+      "date": "2026-11-24T13:50:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Sanofi's $41 billion Insmed bet charts life beyond Dupixent",
-      "link": "https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163",
-      "date": "2026-11-24T12:54:52.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-      "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:54:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Oppenheimer's $250 Target Says NVIDIA's Selloff Went Too Far",
-      "link": "https://www.tikr.com/blog/oppenheimers-250-target-says-nvidias-selloff-went-too-far?ref=yahoofinance&tlnk=yf-261124-7w89wrm4&.tsrc=rss",
-      "date": "2026-11-24T12:53:40.000Z",
+      "title": "Is Palantir Stock Priced Right Against Its Rivals?",
+      "link": "https://www.trefis.com/stock/pltr/articles/628308/is-palantir-stock-priced-right-against-its-rivals/2026-11-24?.tsrc=rss",
+      "date": "2026-11-24T13:48:27.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "ANT Stock Slips Below IPO Price In Premarket — Canaccord Sees Bigger AI Opportunity, 60% Upside Potential",
-      "link": "https://stocktwits.com/news-articles/markets/equity/ant-stock-slips-below-ipo-price-in-premarket-canaccord-sees-bigger-ai-opportunity-60-upside-potential/cNbseluR9kS?.tsrc=rss",
-      "date": "2026-11-24T12:53:31.000Z",
+      "title": "Roth IRA conversions aren’t free money. Watch out for these 5 costly mistakes.",
+      "link": "https://www.marketwatch.com/story/roth-ira-conversions-arent-free-money-watch-out-for-these-5-costly-mistakes-39b182d3?mod=mw_rss_topstories",
+      "date": "2026-11-24T13:48:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Trump Is Bringing Tariffs Back, and China Will Likely Get Hit Hardest: WSJ",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63575690/trump-china-tariffs-return?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "date": "2026-11-24T13:47:52.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bank of England's Greene says UK needs faster rate hikes",
+      "link": "https://www.investing.com/news/economy-news/bank-of-englands-greene-says-uk-needs-faster-rate-hikes-5048365",
+      "date": "2026-11-24T13:47:20.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Alphabet Vs Meta: Which Stock Is The Better Buy?",
+      "link": "https://www.trefis.com/stock/googl/articles/628287/alphabet-vs-meta-which-stock-is-the-better-buy/2026-11-24?.tsrc=rss",
+      "date": "2026-11-24T13:46:12.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Should Anthropic Holders Worry About Its Rough Start?",
+      "link": "https://www.trefis.com/stock/ant/articles/628266/should-anthropic-holders-worry-about-its-rough-start/2026-11-24?.tsrc=rss",
+      "date": "2026-11-24T13:46:12.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Trump makes $15m from Jensen Huang's Nvidia return",
+      "link": "https://uk.finance.yahoo.com/news/trump-makes-15m-jensen-huang-134537738.html?.tsrc=rss",
+      "date": "2026-11-24T13:45:37.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Bulls Expect AMD Revenues to Grow 80% Next Year on Hyper-Accelerated Data Center Growth, $725 in Sight",
+      "link": "https://247wallst.com/investing/2026/11/24/bulls-expect-amd-revenues-to-grow-80-next-year-on-hyper-accelerated-data-center-growth-725-in-sight/?.tsrc=rss",
+      "date": "2026-11-24T13:45:30.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "IREN Fell 42% This Month Even After The Market Jump on NVIDIA News: This Wall Street Pro Maintains That 440% Returns Are Coming After Q3 Earnings Downgrades",
+      "link": "https://247wallst.com/investing/2026/11/24/iren-fell-42-this-month-even-after-the-market-jump-on-nvidia-news-this-wall-street-pro-maintains-that-440-returns-are-coming-after-q3-earnings-downgrades/?.tsrc=rss",
+      "date": "2026-11-24T13:45:24.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why Tesla-SpaceX Merger Talks Face ‘More Friction Than People Assume'",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63575567/tesla-spacex-merger-talks-friction?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "date": "2026-11-24T13:45:09.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Tesla, SpaceX Reportedly Pick Board Members To Negotiate Elon Musk's Mega Merger",
+      "link": "https://finance.yahoo.com/m/d4400d8c-dfaf-3382-a360-877e01e80aec/tesla%2C-spacex-reportedly-pick.html?.tsrc=rss",
+      "date": "2026-11-24T13:44:14.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Micron Stock Soared on Monday. I'd Still Buy It, a Little at a Time.",
+      "link": "https://www.fool.com/investing/2026/11/24/micron-stock-soared-on-monday-i-d-still-buy-it-a-little-at-a-time/?.tsrc=rss",
+      "date": "2026-11-24T13:43:01.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "FTSE 100 today: Stocks extend losses as miners slide on weaker metals prices",
-      "link": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-edge-lower-as-miners-slide-with-metals-5047340",
-      "date": "2026-11-24T13:16:09.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Copper slides 3% as Monday's bounce fully reverses",
-      "link": "https://finance.yahoo.com/markets/commodities/articles/copper-slides-3-monday-bounce-131112001.html?.tsrc=rss",
-      "date": "2026-11-24T13:11:12.000Z",
+      "title": "Amazon Publication Reveals Explosive Downside to Stock Market Euphoria",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-publication-reveals-explosive-downside-135900582.html?.tsrc=rss",
+      "date": "2026-11-24T13:59:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "HPE just posted its strongest growth ever — but its stock is sinking",
-      "link": "https://www.marketwatch.com/story/hpe-just-posted-its-strongest-growth-ever-and-its-stock-is-tacking-on-more-big-gains-4421cebb?mod=mw_rss_topstories",
-      "date": "2026-11-24T12:54:00.000Z",
-      "source": "MarketWatch"
+      "title": "Bank of England's Greene says UK needs faster rate hikes",
+      "link": "https://www.investing.com/news/economy-news/bank-of-englands-greene-says-uk-needs-faster-rate-hikes-5048365",
+      "date": "2026-11-24T13:47:20.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+      "date": "2026-11-24T13:33:26.000Z",
+      "source": "CNBC"
     }
   ],
   "yields": {
