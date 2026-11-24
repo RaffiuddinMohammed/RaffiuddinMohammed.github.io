@@ -68,6 +68,10 @@ description: "London-based QA lead, project manager and Scrum Master Raffiuddin 
 
 <section>
   <h2>Get in touch</h2>
-  <p>Need a QA lead, project manager or Scrum Master in London, a dashboard for your own data, or an automated test suite for your app? The best way to reach me is on
-    <a href="{{ site.github }}" rel="noopener" target="_blank">GitHub</a>{% if site.linkedin %} or <a href="{{ site.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>{% endif %}.</p>
+  <p>Need a QA lead, project manager or Scrum Master in London, a dashboard for your own data, or an automated test suite for your app? Email me, I reply within a day.</p>
+  <div class="actions">
+    {% if site.email %}<button type="button" class="btn primary" data-email-open aria-haspopup="dialog">✉️ Email me</button>{% endif %}
+    {% if site.linkedin %}<a class="btn" href="{{ site.linkedin }}" rel="noopener" target="_blank">LinkedIn</a>{% endif %}
+    <a class="btn" href="{{ site.github }}" rel="noopener" target="_blank">GitHub</a>
+  </div>
 </section>
