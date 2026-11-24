@@ -54,14 +54,16 @@ description: "The Agile release flow Raffiuddin Mohammed runs as delivery lead a
 
 <section id="who">
   <h2>Who does what</h2>
+  <p class="muted">One owner per step; everyone else supports.</p>
   <div class="table-scroll">
     <table class="raci">
+      <colgroup><col class="raci-step"><col><col><col><col></colgroup>
       <thead><tr><th scope="col">Step</th><th scope="col">Product</th><th scope="col">Developers</th><th scope="col">QA</th><th scope="col">Delivery lead</th></tr></thead>
       <tbody>
-        <tr><th scope="row">Plan</th><td><b>Owns</b></td><td>Sizes</td><td>Adds test cases</td><td>Prioritises</td></tr>
-        <tr><th scope="row">Build &amp; review</th><td></td><td><b>Owns</b></td><td>Writes new tests</td><td>Unblocks</td></tr>
-        <tr><th scope="row">Staging &amp; QA</th><td>Signs off</td><td>Fixes</td><td><b>Owns</b></td><td>Tracks</td></tr>
-        <tr><th scope="row">Release</th><td>Informed</td><td>On hand</td><td>Verifies</td><td><b>Owns</b></td></tr>
+        <tr><th scope="row">Plan</th><td class="own"><b>Owns</b></td><td>Sizes</td><td>Adds test cases</td><td>Runs planning</td></tr>
+        <tr><th scope="row">Build &amp; review</th><td>Answers questions</td><td class="own"><b>Owns</b></td><td>Writes new tests</td><td>Unblocks</td></tr>
+        <tr><th scope="row">Staging &amp; QA</th><td>Signs off</td><td>Fixes</td><td class="own"><b>Owns</b></td><td>Tracks</td></tr>
+        <tr><th scope="row">Release &amp; verify</th><td>Informed</td><td>On hand</td><td>Verifies</td><td class="own"><b>Owns</b></td></tr>
       </tbody>
     </table>
   </div>

@@ -919,6 +919,16 @@ a.side-project .go { color: var(--ink5); }
 .raci thead th { color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; }
 .raci td { color: var(--text-2); }
 .raci td b { color: var(--ink1); }
+.raci { table-layout: fixed; }
+.raci col.raci-step { width: 20%; }
+.raci td, .raci th { vertical-align: middle; }
+.raci td.own { position: relative; }
+.raci td.own::before { content: ""; position: absolute; inset: 5px 4px; border-radius: 8px; background: color-mix(in srgb, var(--c) 16%, transparent); border: 1px solid color-mix(in srgb, var(--c) 45%, transparent); }
+.raci td.own b { position: relative; color: var(--c); }
+.raci tr td.own:nth-child(2) { --c: var(--c1); }
+.raci tr td.own:nth-child(3) { --c: var(--c2); }
+.raci tr td.own:nth-child(4) { --c: var(--c3); }
+.raci tr td.own:nth-child(5) { --c: var(--c4); }
 
 .project { display: flex; flex-direction: column; }
 a.project { color: inherit; } a.project:hover { text-decoration: none; }
