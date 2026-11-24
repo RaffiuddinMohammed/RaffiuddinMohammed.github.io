@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T14:03:16.184Z",
+  "updated": "2026-11-24T14:28:26.556Z",
   "totalStories": 256,
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "name": "Technology",
-      "count": 6
+      "count": 5
     }
   ],
   "topWords": [
@@ -88,15 +88,21 @@
       "lon": -2,
       "count": 29,
       "bySection": {
+        "Politics": 11,
         "UK": 2,
         "Health": 5,
-        "Politics": 11,
         "Science": 2,
         "Technology": 1,
         "World": 2,
         "Business": 6
       },
       "stories": [
+        {
+          "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
+          "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics",
+          "date": "2026-11-24T14:02:03.000Z"
+        },
         {
           "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
           "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
@@ -138,12 +144,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
           "section": "World",
           "date": "2026-11-24T05:33:07.000Z"
-        },
-        {
-          "title": "Burnham does not view Wales as an equal nation, claims first minister",
-          "link": "https://www.bbc.co.uk/news/articles/cqr7gzmgm33ko?at_medium=RSS&at_campaign=rss",
-          "section": "UK",
-          "date": "2026-11-23T21:10:24.000Z"
         }
       ]
     },
@@ -670,6 +670,12 @@
   ],
   "latest": [
     {
+      "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
+      "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T14:02:03.000Z",
+      "section": "Politics"
+    },
+    {
       "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked",
       "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T13:50:10.000Z",
@@ -734,12 +740,6 @@
       "link": "https://www.bbc.co.uk/news/articles/cw4gn7n0pkp4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-11-24T12:55:16.000Z",
       "section": "UK"
-    },
-    {
-      "title": "Weak and immature management putting patients at risk at failing health board, review finds",
-      "link": "https://www.bbc.co.uk/news/articles/cm3eg5g4l9ggo?at_medium=RSS&at_campaign=rss",
-      "date": "2026-11-24T12:49:43.000Z",
-      "section": "Health"
     }
   ]
 }

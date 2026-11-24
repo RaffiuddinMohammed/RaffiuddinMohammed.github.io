@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T14:09:30.818Z",
+  "updated": "2026-11-24T14:34:55.814Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -6640,7 +6640,7 @@
         },
         {
           "name": "Technology",
-          "count": 6
+          "count": 5
         }
       ],
       "topWords": [
@@ -6684,15 +6684,21 @@
           "lon": -2,
           "count": 29,
           "bySection": {
+            "Politics": 11,
             "UK": 2,
             "Health": 5,
-            "Politics": 11,
             "Science": 2,
             "Technology": 1,
             "World": 2,
             "Business": 6
           },
           "stories": [
+            {
+              "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
+              "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-24T14:02:03.000Z"
+            },
             {
               "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
               "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
@@ -6716,12 +6722,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
               "section": "Science",
               "date": "2026-11-24T12:01:32.000Z"
-            },
-            {
-              "title": "Does Scotland's NHS have a revolving door problem with senior managers?",
-              "link": "https://www.bbc.co.uk/news/articles/cr868183e3njo?at_medium=RSS&at_campaign=rss",
-              "section": "Health",
-              "date": "2026-11-24T11:14:25.000Z"
             }
           ]
         },
@@ -7230,6 +7230,11 @@
       ],
       "topHeadlines": [
         {
+          "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
+          "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
+          "section": "Politics"
+        },
+        {
           "title": "DUP accused of 'anti-Irish bigotry' as education bill blocked",
           "link": "https://www.bbc.co.uk/news/articles/crgj38nlj45wo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
@@ -7248,28 +7253,23 @@
           "title": "Two arrested on suspicion of burglary at Prince and Princess of Wales's Norfolk home",
           "link": "https://www.bbc.co.uk/news/articles/cr9d7qdg24vno?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "BBC and Netflix team up for new CBeebies hub on streamer",
-          "link": "https://www.bbc.co.uk/news/articles/c9zr585dxkgzo?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
         }
       ],
       "hnTop": [
         {
           "title": "Nvidia Reinstates Jensen Huang as CEO",
           "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "points": 2678
+          "points": 2689
         },
         {
           "title": "Ladybird is now in alpha",
           "url": "https://ladybird.org/posts/alpha/",
-          "points": 2155
+          "points": 2173
         },
         {
           "title": "\"Dario is hyping the dangers so OSS models are illegal and he stays in control\"",
           "url": "https://twitter.com/ylecun/status/2124550037912920090",
-          "points": 1827
+          "points": 1841
         }
       ]
     }

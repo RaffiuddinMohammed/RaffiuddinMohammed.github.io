@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24T14:09:30.866Z",
+  "checked": "2026-11-24T14:34:55.878Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -10,7 +10,7 @@
     {
       "name": "GitHub",
       "level": "ok",
-      "note": "Degraded Availability for MAI Code 2 in Copilot",
+      "note": "All Systems Operational",
       "url": "https://www.githubstatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Degraded Availability for MAI Code 2 in Copilot",
       "impact": "minor",
       "start": "2026-11-24T13:44:07.213Z",
-      "end": null,
+      "end": "2026-11-24T14:14:05.736Z",
       "url": "https://stspg.io/d5wbprv122kh"
     },
     {
@@ -102,6 +102,14 @@
       "start": "2026-11-24T13:38:40.144Z",
       "end": null,
       "url": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi"
+    },
+    {
+      "service": "Vercel",
+      "title": "Errors when starting Sandboxes from private Container Registry images",
+      "impact": "major",
+      "start": "2026-11-24T13:00:00.000Z",
+      "end": "2026-11-24T13:00:00.000Z",
+      "url": "https://stspg.io/txm5qwd8t2p0"
     },
     {
       "service": "Cloudflare",
