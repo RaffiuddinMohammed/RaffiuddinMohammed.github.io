@@ -28,7 +28,7 @@
     const address = JSON.parse(parts.textContent).join('@');
     const to = dlg.querySelector('#mail-to');
     to.value = address;
-    document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', () => dlg.showModal()));
+    document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); dlg.showModal(); }));
     dlg.querySelector('[data-close]').addEventListener('click', () => dlg.close());
     dlg.addEventListener('click', (e) => { if (e.target === dlg) dlg.close(); }); // click the backdrop to close
     dlg.querySelector('[data-send]').addEventListener('click', () => {
@@ -46,7 +46,7 @@
   } else if (parts) {
     // very old browsers without <dialog>: fall back to a plain mailto link
     const address = JSON.parse(parts.textContent).join('@');
-    document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', () => { location.href = `mailto:${address}`; }));
+    document.querySelectorAll('[data-email-open]').forEach((b) => b.addEventListener('click', (e) => { e.preventDefault(); location.href = `mailto:${address}`; }));
   }
 
   // ripple on nav buttons, starting where the pointer pressed
