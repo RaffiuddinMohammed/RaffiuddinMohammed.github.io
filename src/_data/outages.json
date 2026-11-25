@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-25T15:53:59.165Z",
+  "checked": "2026-11-25T23:19:24.996Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -10,19 +10,19 @@
     {
       "name": "GitHub",
       "level": "ok",
-      "note": "All Systems Operational",
+      "note": "LFS degradation for some customers",
       "url": "https://www.githubstatus.com"
     },
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "Elevated R2 Latency",
       "url": "https://www.cloudflarestatus.com"
     },
     {
       "name": "OpenAI",
       "level": "minor",
-      "note": "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors",
+      "note": "Elevated errors with Codex GitHub reviews and pull request merges",
       "url": "https://status.openai.com"
     },
     {
@@ -89,6 +89,54 @@
   "incidents": [
     {
       "service": "GitHub",
+      "title": "LFS degradation for some customers",
+      "impact": "minor",
+      "start": "2026-11-25T23:06:54.830Z",
+      "end": null,
+      "url": "https://stspg.io/ywpzwl4yl621"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated R2 Latency",
+      "impact": "minor",
+      "start": "2026-11-25T20:08:42.535Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/ef6928vi0mic"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated R2 errors for buckets in APAC region",
+      "impact": "minor",
+      "start": "2026-11-25T16:50:45.239Z",
+      "end": "2026-11-25T20:03:49.798Z",
+      "url": "https://www.cloudflarestatus.com/incidents/2quqh864hxdi"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Some customers cannot create monitors",
+      "impact": "minor",
+      "start": "2026-11-25T16:42:03.442Z",
+      "end": "2026-11-25T17:48:50.696Z",
+      "url": "https://www.cloudflarestatus.com/incidents/vk87u9j2g6if"
+    },
+    {
+      "service": "OpenAI",
+      "title": "Elevated errors with Codex GitHub reviews and pull request merges",
+      "impact": "minor",
+      "start": "2026-11-25T16:27:02Z",
+      "end": null,
+      "url": "https://status.openai.com"
+    },
+    {
+      "service": "GitHub",
+      "title": "Investigating degraded experiences across GitHub products",
+      "impact": "major",
+      "start": "2026-11-25T15:55:19.609Z",
+      "end": "2026-11-25T16:52:16.287Z",
+      "url": "https://stspg.io/5qj9j0p5g4cr"
+    },
+    {
+      "service": "GitHub",
       "title": "MAI Code 2 Degredation",
       "impact": "minor",
       "start": "2026-11-25T11:58:36.151Z",
@@ -100,7 +148,7 @@
       "title": "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors",
       "impact": "minor",
       "start": "2026-11-25T11:48:13Z",
-      "end": null,
+      "end": "2026-11-25T16:12:21Z",
       "url": "https://status.openai.com"
     },
     {
@@ -609,14 +657,6 @@
       "url": "https://status.openai.com"
     },
     {
-      "service": "Cloudflare",
-      "title": "Durable Objects increased error rates in North America",
-      "impact": "minor",
-      "start": "2026-11-12T22:39:40.553Z",
-      "end": "2026-11-13T03:44:49.800Z",
-      "url": "https://www.cloudflarestatus.com/incidents/9zxr2bkqoct7"
-    },
-    {
       "service": "Dropbox",
       "title": "Elevated Latency on help.dropbox.com",
       "impact": "minor",
@@ -687,14 +727,6 @@
       "start": "2026-11-11T20:22:20.729Z",
       "end": "2026-11-11T20:26:23.897Z",
       "url": "https://stspg.io/r0jrtx03yvll"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Replicate Model Registry Unavailable",
-      "impact": "minor",
-      "start": "2026-11-11T04:33:19.016Z",
-      "end": "2026-11-13T01:44:17.916Z",
-      "url": "https://www.cloudflarestatus.com/incidents/yu63fhh2peb7"
     },
     {
       "service": "Vercel",
@@ -783,14 +815,6 @@
       "start": "2026-11-07T14:28:25.152Z",
       "end": "2026-11-07T15:05:04.230Z",
       "url": "https://stspg.io/tf64mpt4xjfv"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Fedramp Customers have Delayed Purges",
-      "impact": "minor",
-      "start": "2026-11-06T17:47:15.545Z",
-      "end": "2026-11-12T16:36:32.465Z",
-      "url": "https://www.cloudflarestatus.com/incidents/wp49bp8bqo6c"
     },
     {
       "service": "GitHub",
@@ -974,22 +998,6 @@
       "impact": "minor",
       "start": "2026-10-27T15:02:15Z",
       "end": "2026-10-27T16:20:06Z",
-      "url": "https://status.openai.com"
-    },
-    {
-      "service": "GitHub",
-      "title": "Incident with Actions, Issues, API Requests and Pull Requests",
-      "impact": "minor",
-      "start": "2026-10-26T18:48:26.235Z",
-      "end": "2026-10-26T18:57:22.958Z",
-      "url": "https://stspg.io/0622ty903b4d"
-    },
-    {
-      "service": "OpenAI",
-      "title": "Elevated error rates for Ads POST requests",
-      "impact": "minor",
-      "start": "2026-10-26T18:19:00Z",
-      "end": "2026-10-26T18:30:18Z",
       "url": "https://status.openai.com"
     }
   ],
