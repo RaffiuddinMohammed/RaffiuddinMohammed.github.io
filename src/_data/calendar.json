@@ -1,154 +1,6 @@
 {
-  "updated": "2026-11-24T15:59:13.574Z",
+  "updated": "2026-11-25T09:35:46.429Z",
   "days": [
-    {
-      "date": "2026-11-24",
-      "label": "Tue 24 Nov",
-      "closed": null,
-      "early": null,
-      "earnings": [
-        {
-          "symbol": "DELL",
-          "name": "Dell Technologies",
-          "cap": 176768664000,
-          "when": "after",
-          "eps": "$6.55",
-          "big": true,
-          "mag7": false,
-          "capText": "$177B"
-        },
-        {
-          "symbol": "BHP",
-          "name": "BHP Group",
-          "cap": 173621117000,
-          "when": null,
-          "eps": null,
-          "big": true,
-          "mag7": false,
-          "capText": "$174B"
-        },
-        {
-          "symbol": "ADI",
-          "name": "Analog Devices",
-          "cap": 167620887000,
-          "when": "before",
-          "eps": "$3.89",
-          "big": true,
-          "mag7": false,
-          "capText": "$168B"
-        },
-        {
-          "symbol": "MDT",
-          "name": "Medtronic",
-          "cap": 127837045000,
-          "when": "before",
-          "eps": "$1.34",
-          "big": true,
-          "mag7": false,
-          "capText": "$128B"
-        },
-        {
-          "symbol": "ADSK",
-          "name": "Autodesk",
-          "cap": 51096322000,
-          "when": "after",
-          "eps": "$2.27",
-          "big": false,
-          "mag7": false,
-          "capText": "$51B"
-        },
-        {
-          "symbol": "WDAY",
-          "name": "Workday",
-          "cap": 42059321000,
-          "when": "after",
-          "eps": "$1.28",
-          "big": false,
-          "mag7": false,
-          "capText": "$42B"
-        },
-        {
-          "symbol": "DLTR",
-          "name": "Dollar Tree",
-          "cap": 25885476900,
-          "when": "before",
-          "eps": "$0.89",
-          "big": false,
-          "mag7": false,
-          "capText": "$26B"
-        },
-        {
-          "symbol": "HPQ",
-          "name": "HP",
-          "cap": 25214074900,
-          "when": "after",
-          "eps": "$0.74",
-          "big": false,
-          "mag7": false,
-          "capText": "$25B"
-        },
-        {
-          "symbol": "BBY",
-          "name": "Best Buy",
-          "cap": 20542828500,
-          "when": "before",
-          "eps": "$1.48",
-          "big": false,
-          "mag7": false,
-          "capText": "$21B"
-        },
-        {
-          "symbol": "BURL",
-          "name": "Burlington Stores",
-          "cap": 15411080200,
-          "when": "before",
-          "eps": "$1.67",
-          "big": false,
-          "mag7": false,
-          "capText": "$15B"
-        },
-        {
-          "symbol": "NTNX",
-          "name": "Nutanix",
-          "cap": 14787544100,
-          "when": "after",
-          "eps": "$0.29",
-          "big": false,
-          "mag7": false,
-          "capText": "$15B"
-        },
-        {
-          "symbol": "SJM",
-          "name": "The J.M. Smucker Company",
-          "cap": 14280123400,
-          "when": "before",
-          "eps": "$2.57",
-          "big": false,
-          "mag7": false,
-          "capText": "$14B"
-        },
-        {
-          "symbol": "DKS",
-          "name": "Dick's Sporting Goods",
-          "cap": 11760536600,
-          "when": "before",
-          "eps": "$1.38",
-          "big": false,
-          "mag7": false,
-          "capText": "$12B"
-        }
-      ],
-      "events": [
-        {
-          "country": "US",
-          "what": "Consumer confidence (Conference Board)",
-          "name": "CB Consumer Confidence",
-          "time": "15:00",
-          "previous": "91.7",
-          "consensus": "92.4"
-        }
-      ]
-    },
     {
       "date": "2026-11-25",
       "label": "Wed 25 Nov",
@@ -176,48 +28,7 @@
           "capText": "$10B"
         }
       ],
-      "events": [
-        {
-          "country": "US",
-          "what": "Durable goods orders",
-          "name": "Core Durable Goods Orders",
-          "time": "13:30",
-          "previous": "0.5%",
-          "consensus": "0.5%"
-        },
-        {
-          "country": "US",
-          "what": "Inflation (PCE, the Fed's favourite gauge)",
-          "name": "Core PCE Price Index",
-          "time": "13:30",
-          "previous": "3.1%",
-          "consensus": "3.2%"
-        },
-        {
-          "country": "US",
-          "what": "GDP (economic growth)",
-          "name": "GDP",
-          "time": "13:30",
-          "previous": "2.2%",
-          "consensus": "3.4%"
-        },
-        {
-          "country": "US",
-          "what": "Weekly jobless claims",
-          "name": "Initial Jobless Claims",
-          "time": "13:30",
-          "previous": "203K",
-          "consensus": "201K"
-        },
-        {
-          "country": "UK",
-          "what": "Central bank chief speaks",
-          "name": "BoE Gov Bailey Speaks",
-          "time": "14:15",
-          "previous": null,
-          "consensus": null
-        }
-      ]
+      "events": []
     },
     {
       "date": "2026-11-26",
@@ -244,12 +55,12 @@
         {
           "symbol": "RBRK",
           "name": "Rubrik",
-          "cap": 22125602800,
+          "cap": 23564294100,
           "when": "after",
           "eps": "−$0.38",
           "big": false,
           "mag7": false,
-          "capText": "$22B"
+          "capText": "$24B"
         }
       ],
       "events": []
@@ -261,49 +72,39 @@
       "early": null,
       "earnings": [
         {
-          "symbol": "CRWD",
-          "name": "CrowdStrike",
-          "cap": 234931618000,
-          "when": "after",
-          "eps": "$0",
-          "big": true,
-          "mag7": false,
-          "capText": "$235B"
-        },
-        {
           "symbol": "MRVL",
           "name": "Marvell Technology",
-          "cap": 107227333000,
+          "cap": 126922506000,
           "when": "after",
           "eps": "$0.79",
           "big": true,
           "mag7": false,
-          "capText": "$107B"
+          "capText": "$127B"
         },
         {
           "symbol": "OKTA",
           "name": "Okta",
-          "cap": 33471215600,
+          "cap": 36062061000,
           "when": "after",
           "eps": "$0.43",
           "big": false,
           "mag7": false,
-          "capText": "$33B"
+          "capText": "$36B"
         },
         {
           "symbol": "NTAP",
           "name": "NetApp",
-          "cap": 30965456900,
+          "cap": 33713358800,
           "when": "after",
           "eps": "$2.14",
           "big": false,
           "mag7": false,
-          "capText": "$31B"
+          "capText": "$34B"
         },
         {
           "symbol": "CPRT",
           "name": "Copart",
-          "cap": 28801091600,
+          "cap": 29292073000,
           "when": "before",
           "eps": "$0.41",
           "big": false,
@@ -311,24 +112,34 @@
           "capText": "$29B"
         },
         {
+          "symbol": "TCOM",
+          "name": "Trip.com Group",
+          "cap": 25880885200,
+          "when": "after",
+          "eps": "$1.07",
+          "big": false,
+          "mag7": false,
+          "capText": "$26B"
+        },
+        {
           "symbol": "MDB",
           "name": "MongoDB",
-          "cap": 23031058400,
+          "cap": 25189163000,
           "when": "after",
           "eps": "$0.08",
           "big": false,
           "mag7": false,
-          "capText": "$23B"
+          "capText": "$25B"
         },
         {
           "symbol": "CRDO",
           "name": "Credo Technology Group",
-          "cap": 18768877600,
+          "cap": 23016591400,
           "when": "after",
           "eps": "$1.03",
           "big": false,
           "mag7": false,
-          "capText": "$19B"
+          "capText": "$23B"
         }
       ],
       "events": []
@@ -342,65 +153,229 @@
         {
           "symbol": "CRM",
           "name": "Salesforce",
-          "cap": 148650263000,
+          "cap": 152633573000,
           "when": "after",
           "eps": "$2.41",
           "big": true,
           "mag7": false,
-          "capText": "$149B"
+          "capText": "$153B"
         },
         {
           "symbol": "BMO",
           "name": "Bank Of Montreal",
-          "cap": 108701680000,
+          "cap": 111529066000,
           "when": "before",
           "eps": "$2.69",
           "big": true,
           "mag7": false,
-          "capText": "$109B"
+          "capText": "$112B"
         },
         {
           "symbol": "BNS",
           "name": "The Bank of Nova Scotia",
-          "cap": 102467297000,
+          "cap": 104808071000,
           "when": "before",
           "eps": "$1.55",
           "big": true,
           "mag7": false,
-          "capText": "$102B"
+          "capText": "$105B"
         },
         {
           "symbol": "SNOW",
           "name": "Snowflake",
-          "cap": 89900499000,
+          "cap": 95704056000,
           "when": "after",
           "eps": "−$0.32",
           "big": false,
           "mag7": false,
-          "capText": "$90B"
-        },
-        {
-          "symbol": "ZS",
-          "name": "Zscaler",
-          "cap": 31766317100,
-          "when": "after",
-          "eps": "$0.12",
-          "big": false,
-          "mag7": false,
-          "capText": "$32B"
+          "capText": "$96B"
         },
         {
           "symbol": "FIVE",
           "name": "Five Below",
-          "cap": 12177952800,
+          "cap": 11889469400,
           "when": "after",
           "eps": "$1.17",
           "big": false,
           "mag7": false,
           "capText": "$12B"
+        },
+        {
+          "symbol": "NTSK",
+          "name": "Netskope",
+          "cap": 10549735400,
+          "when": "after",
+          "eps": "−$0.21",
+          "big": false,
+          "mag7": false,
+          "capText": "$11B"
         }
       ],
       "events": []
+    },
+    {
+      "date": "2026-12-03",
+      "label": "Thu 3 Dec",
+      "closed": null,
+      "early": null,
+      "earnings": [
+        {
+          "symbol": "RY",
+          "name": "Royal Bank Of Canada",
+          "cap": 260480729000,
+          "when": "before",
+          "eps": "$2.93",
+          "big": true,
+          "mag7": false,
+          "capText": "$260B"
+        },
+        {
+          "symbol": "TD",
+          "name": "The Toronto Dominion Bank",
+          "cap": 188952560000,
+          "when": "before",
+          "eps": "$1.77",
+          "big": true,
+          "mag7": false,
+          "capText": "$189B"
+        },
+        {
+          "symbol": "CM",
+          "name": "Canadian Imperial Bank of Commerce",
+          "cap": 95740314000,
+          "when": "before",
+          "eps": "$1.72",
+          "big": false,
+          "mag7": false,
+          "capText": "$96B"
+        },
+        {
+          "symbol": "VEEV",
+          "name": "Veeva Systems",
+          "cap": 43496813000,
+          "when": "after",
+          "eps": "$1.68",
+          "big": false,
+          "mag7": false,
+          "capText": "$43B"
+        },
+        {
+          "symbol": "KR",
+          "name": "The Kroger Company",
+          "cap": 39658033000,
+          "when": "before",
+          "eps": "$1.17",
+          "big": false,
+          "mag7": false,
+          "capText": "$40B"
+        },
+        {
+          "symbol": "DG",
+          "name": "Dollar General",
+          "cap": 29602361300,
+          "when": "before",
+          "eps": "$1.40",
+          "big": false,
+          "mag7": false,
+          "capText": "$30B"
+        },
+        {
+          "symbol": "ULTA",
+          "name": "Ulta Beauty",
+          "cap": 26724274200,
+          "when": "after",
+          "eps": "$5.62",
+          "big": false,
+          "mag7": false,
+          "capText": "$27B"
+        },
+        {
+          "symbol": "IOT",
+          "name": "Samsara",
+          "cap": 22703913000,
+          "when": "after",
+          "eps": "$0.03",
+          "big": false,
+          "mag7": false,
+          "capText": "$23B"
+        },
+        {
+          "symbol": "DOCU",
+          "name": "DocuSign",
+          "cap": 14398964700,
+          "when": "after",
+          "eps": "$0.53",
+          "big": false,
+          "mag7": false,
+          "capText": "$14B"
+        },
+        {
+          "symbol": "BF.A",
+          "name": "Brown Forman",
+          "cap": 13586970600,
+          "when": "before",
+          "eps": null,
+          "big": false,
+          "mag7": false,
+          "capText": "$14B"
+        },
+        {
+          "symbol": "HRL",
+          "name": "Hormel Foods",
+          "cap": 12702096400,
+          "when": "before",
+          "eps": "$0.38",
+          "big": false,
+          "mag7": false,
+          "capText": "$13B"
+        },
+        {
+          "symbol": "GWRE",
+          "name": "Guidewire Software",
+          "cap": 11729498100,
+          "when": "after",
+          "eps": "$0.36",
+          "big": false,
+          "mag7": false,
+          "capText": "$12B"
+        },
+        {
+          "symbol": "COO",
+          "name": "The Cooper Companies",
+          "cap": 11451151400,
+          "when": "after",
+          "eps": "$1.07",
+          "big": false,
+          "mag7": false,
+          "capText": "$11B"
+        }
+      ],
+      "events": [
+        {
+          "country": "UK",
+          "what": "Business activity (PMI)",
+          "name": "S&P Global Composite PMI",
+          "time": "09:30",
+          "previous": "52.3",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Weekly jobless claims",
+          "name": "Initial Jobless Claims",
+          "time": "13:30",
+          "previous": null,
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Business activity (PMI)",
+          "name": "S&P Global Composite PMI",
+          "time": "14:45",
+          "previous": "54.6",
+          "consensus": null
+        }
+      ]
     }
   ]
 }

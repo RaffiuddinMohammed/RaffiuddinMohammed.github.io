@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-25T04:10:56.431Z",
+  "checked": "2026-11-25T09:40:09.853Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Magic Transit Degraded Performance",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -89,6 +89,14 @@
   "incidents": [
     {
       "service": "Cloudflare",
+      "title": "Firewall Configuration Delay",
+      "impact": "minor",
+      "start": "2026-11-25T07:24:35.866Z",
+      "end": "2026-11-25T09:11:39.926Z",
+      "url": "https://www.cloudflarestatus.com/incidents/xufkpdtfdglk"
+    },
+    {
+      "service": "Cloudflare",
       "title": "Elevated number of 5xx errors in Frankfurt",
       "impact": "minor",
       "start": "2026-11-25T03:03:35.203Z",
@@ -140,7 +148,7 @@
       "title": "Magic Transit Degraded Performance",
       "impact": "major",
       "start": "2026-11-24T11:29:22.902Z",
-      "end": null,
+      "end": "2026-11-25T08:16:26.220Z",
       "url": "https://www.cloudflarestatus.com/incidents/no721jcnlrbh"
     },
     {
@@ -633,14 +641,6 @@
       "url": "https://status.openai.com"
     },
     {
-      "service": "Cloudflare",
-      "title": "Replicate Issue",
-      "impact": "minor",
-      "start": "2026-11-12T08:30:17.012Z",
-      "end": "2026-11-12T11:34:02.628Z",
-      "url": "https://www.cloudflarestatus.com/incidents/1na2mbfshgdh"
-    },
-    {
       "service": "OpenAI",
       "title": "Unable to start new Workspace Agent runs",
       "impact": "major",
@@ -975,14 +975,6 @@
       "start": "2026-10-26T18:19:00Z",
       "end": "2026-10-26T18:30:18Z",
       "url": "https://status.openai.com"
-    },
-    {
-      "service": "npm",
-      "title": "View package and auth outage on npmjs.com",
-      "impact": "major",
-      "start": "2026-10-26T05:54:32.531Z",
-      "end": "2026-10-26T06:30:18.628Z",
-      "url": "https://stspg.io/5rh64dpfcvqz"
     }
   ],
   "tracked": [

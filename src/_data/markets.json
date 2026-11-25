@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-24T15:59:13.570Z",
-  "headlineCount": 75,
+  "updated": "2026-11-25T09:35:01.218Z",
+  "headlineCount": 77,
   "sources": [
     {
       "name": "CNBC",
-      "count": 8
+      "count": 13
     },
     {
       "name": "Yahoo Finance",
-      "count": 37
+      "count": 35
     },
     {
       "name": "MarketWatch",
@@ -16,13 +16,17 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 12
+      "count": 11
+    },
+    {
+      "name": "Inflation",
+      "count": 7
     },
     {
       "name": "Interest rates",
@@ -30,10 +34,10 @@
     },
     {
       "name": "Earnings",
-      "count": 3
+      "count": 1
     },
     {
-      "name": "Inflation",
+      "name": "Trade and tariffs",
       "count": 1
     },
     {
@@ -41,15 +45,11 @@
       "count": 1
     },
     {
-      "name": "Oil and energy",
+      "name": "Crypto",
       "count": 1
     },
     {
-      "name": "Trade and tariffs",
-      "count": 0
-    },
-    {
-      "name": "Crypto",
+      "name": "Oil and energy",
       "count": 0
     },
     {
@@ -60,18 +60,18 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 15
+      "count": 8
     },
     {
-      "name": "Microsoft",
-      "count": 1
-    },
-    {
-      "name": "Meta",
+      "name": "Tesla",
       "count": 1
     },
     {
       "name": "Apple",
+      "count": 0
+    },
+    {
+      "name": "Microsoft",
       "count": 0
     },
     {
@@ -83,159 +83,159 @@
       "count": 0
     },
     {
-      "name": "Tesla",
+      "name": "Meta",
       "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Israel stocks lower at close of trade; TA 35 down 0.86%",
-      "link": "https://www.investing.com/news/stock-market-news/israel-stocks-lower-at-close-of-trade-ta-35-down-086-5048685",
-      "date": "2026-11-24T15:55:03.000Z",
+      "title": "Why is Norse Atlantic stock crashing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-norse-atlantic-stock-crashing-today-93CH-5050087",
+      "date": "2026-11-25T09:24:24.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Greece stocks lower at close of trade; Athens General Composite down 1.46%",
-      "link": "https://www.investing.com/news/stock-market-news/greece-stocks-lower-at-close-of-trade-athens-general-composite-down-146-5048682",
-      "date": "2026-11-24T15:50:02.000Z",
+      "title": "Up 41% at Just Over Half Costco's P/E: Inside Coca-Cola's Quiet Rally",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/41-just-over-half-costco-092400539.html?.tsrc=rss",
+      "date": "2026-11-25T09:24:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why is Nutanix stock tumbling today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-nutanix-stock-tumbling-today-93CH-5050086",
+      "date": "2026-11-25T09:23:43.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Madison Large Cap Fund Sold CDW CORP. (CDW) Following Recent Price Recovery",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/madison-large-cap-fund-sold-154720141.html?.tsrc=rss",
-      "date": "2026-11-24T15:47:20.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "If Anthropic Does This It Could Reach $130 By Year End",
-      "link": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
-      "date": "2026-11-24T15:45:48.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Meta Fell 8% Over the Last 30 Days: Mutiple Wall Street Desks Expect 67% Returns From Here",
-      "link": "https://247wallst.com/investing/2026/11/24/meta-fell-8-over-the-last-30-days-mutiple-wall-street-desks-expect-67-returns-from-here/?.tsrc=rss",
-      "date": "2026-11-24T15:45:35.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Oracle Is a Higher-Leverage, Cash-Hungry Twin to Microsoft",
-      "link": "https://247wallst.com/investing/2026/11/24/oracle-is-a-higher-leverage-cash-hungry-twin-to-microsoft/?.tsrc=rss",
-      "date": "2026-11-24T15:45:01.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Stocks give back gains as Anthropic dips below IPO price",
-      "link": "https://finance.yahoo.com/video/stocks-give-back-gains-as-anthropic-dips-below-ipo-price-154408548.html?.tsrc=rss",
-      "date": "2026-11-24T15:44:08.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dollar Tree Is Today's Best S&P 500 Stock. It's Ready for a Holiday Run.",
-      "link": "https://finance.yahoo.com/m/cdd1297f-30d8-3060-80d6-87096a8cd844/dollar-tree-is-today%E2%80%99s-best.html?.tsrc=rss",
-      "date": "2026-11-24T15:43:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Who is holding Jensen Huang accountable? It sure looks like nobody",
-      "link": "https://finance.yahoo.com/video/who-is-holding-jensen-huang-accountable-it-sure-looks-like-nobody-154255467.html?.tsrc=rss",
-      "date": "2026-11-24T15:42:55.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Amtrak sets ridership record as rising gas prices encourage Americans to travel by rail",
-      "link": "https://www.investing.com/news/economy-news/amtrak-sets-ridership-record-as-rising-gas-prices-encourage-americans-to-travel-by-rail-5048675",
-      "date": "2026-11-24T15:42:42.000Z",
+      "title": "Why is Ambarella stock crashing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-ambarella-stock-crashing-today-93CH-5050085",
+      "date": "2026-11-25T09:23:14.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "What social media is saying about Jensen Huang's Nvidia comeback",
-      "link": "https://finance.yahoo.com/video/what-social-media-is-saying-about-jensen-huangs-nvidia-comeback-154237606.html?.tsrc=rss",
-      "date": "2026-11-24T15:42:37.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Fossil stock rallying today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-fossil-stock-rallying-today-93CH-5048672",
-      "date": "2026-11-24T15:41:07.000Z",
+      "title": "Why is CleanSpark stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-cleanspark-stock-sliding-today-93CH-5050083",
+      "date": "2026-11-25T09:19:47.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Why is Cogent Biosciences stock surging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-cogent-biosciences-stock-surging-today-93CH-5048671",
-      "date": "2026-11-24T15:41:04.000Z",
+      "title": "Why is Dell Technologies stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-dell-technologies-stock-sliding-today-93CH-5050077",
+      "date": "2026-11-25T09:18:31.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Why is Target stock surging to a 52-week high today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-target-stock-surging-to-a-52week-high-today-93CH-5048670",
-      "date": "2026-11-24T15:41:00.000Z",
+      "title": "Why is Urban Outfitters stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-urban-outfitters-stock-sliding-today-93CH-5050068",
+      "date": "2026-11-25T09:15:04.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "'Big Short' Investor Steve Eisman Says AI Industry 'Dodged A Big Bullet' With Jensen Huang's Return, But Only 'For Now'",
-      "link": "https://stocktwits.com/news-articles/markets/equity/steve-eisman-says-ai-industry-dodged-a-big-bullet-with-jensen-huang-s-return-but-only-for-now/cNbsQGGR9ks?.tsrc=rss",
-      "date": "2026-11-24T15:39:24.000Z",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall ahead of inflation data",
+      "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html?.tsrc=rss",
+      "date": "2026-11-25T09:14:28.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Stock Market Today: Dow Up But Nasdaq Skids As Nvidia Dives; Bears Bite Chips (Live Coverage)",
-      "link": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-dow-up.html?.tsrc=rss",
-      "date": "2026-11-24T15:39:08.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "What Sent CoreWeave Stock Higher On Monday?",
-      "link": "https://www.trefis.com/stock/crwv/articles/628618/what-sent-coreweave-stock-higher-on-monday/2026-11-24?.tsrc=rss",
-      "date": "2026-11-24T15:38:09.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why Did Bloom Energy Stock Jump Monday?",
-      "link": "https://www.trefis.com/stock/be/articles/628613/why-did-bloom-energy-stock-jump-monday/2026-11-24?.tsrc=rss",
-      "date": "2026-11-24T15:38:09.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Sanofi's $41 billion Insmed bet charts life beyond Dupixent",
-      "link": "https://www.investing.com/news/stock-market-news/sanofi-strikes-41-billion-deal-to-acquire-us-drugmaker-insmed-5047163",
-      "date": "2026-11-24T15:37:07.000Z",
+      "title": "Why is Henry Boot stock tumbling today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-henry-boot-stock-tumbling-today-93CH-5050054",
+      "date": "2026-11-25T09:13:07.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Nvidia's Huang returns to cheers in China, but political hurdles mount",
-      "link": "https://www.investing.com/news/stock-market-news/nvidias-huang-returns-to-cheers-in-china-but-political-hurdles-mount-5048427",
-      "date": "2026-11-24T15:36:46.000Z",
+      "title": "Why is Pharming stock collapsing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-pharming-stock-collapsing-today-93CH-5050052",
+      "date": "2026-11-25T09:12:11.000Z",
       "source": "Investing.com"
+    },
+    {
+      "title": "Kohl's Comparable Sales Rose 1.2% After Falling 0.9% Last Quarter. Here's What Changed.",
+      "link": "https://www.fool.com/investing/2026/11/25/kohls-comparable-sales-rose-12-after-falling-09-last-quarter-heres-what-changed/?.tsrc=rss",
+      "date": "2026-11-25T09:08:20.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "AI jitters spark \"wild\" stock moves; PCE data ahead - what's moving markets",
+      "link": "https://www.investing.com/news/economy-news/ai-jitters-spark-wild-stock-moves-pce-data-ahead--whats-moving-markets-5050033",
+      "date": "2026-11-25T09:03:56.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "BYD plans car production in France to boost its push into the European market",
+      "link": "https://www.euronews.com/2026/11/25/byd-plans-car-production-in-france-to-boost-its-push-into-the-european-market?.tsrc=rss",
+      "date": "2026-11-25T09:03:01.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Solana's Tokenized Stock Market Surpasses $600M as Equities Gain Traction as DeFi Collateral",
+      "link": "https://www.ccn.com/news/crypto/solana-tokenized-stocks-defi-collateral-growth/?.tsrc=rss",
+      "date": "2026-11-25T09:02:16.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Micron Reports in December. Here's the 1 Number I'll Be Watching.",
+      "link": "https://www.fool.com/investing/2026/11/25/micron-reports-in-december-here-s-the-1-number-i-ll-be-watching/?.tsrc=rss",
+      "date": "2026-11-25T09:01:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington",
+      "link": "https://www.investing.com/news/stock-market-news/huangs-return-to-nvidia-brings-openweight-ai-debate-to-forefront-in-washington-5049260",
+      "date": "2026-11-25T09:00:35.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Prediction: Here's What Anthropic's Valuation Will Be in 2027, According to History",
+      "link": "https://www.fool.com/investing/2026/11/25/prediction-heres-what-anthropics-valuation-will-be-in-2027-according-to-history/?.tsrc=rss",
+      "date": "2026-11-25T08:58:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Europe stocks climb as autos, luxury rally; eyes on U.S. PCE, Fed hike bets",
+      "link": "https://finance.yahoo.com/markets/world-indices/articles/europe-stocks-climb-autos-luxury-085651629.html?.tsrc=rss",
+      "date": "2026-11-25T08:56:51.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Asia's AI race heads offshore with launch of Floating Data Centres in Singapore",
+      "link": "https://finance.yahoo.com/technology/ai/articles/asias-ai-race-heads-offshore-085300682.html?.tsrc=rss",
+      "date": "2026-11-25T08:53:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "IREN Selloff Draws Attention: Grant Cardone Joins Retail Bulls Asking Where The Bottom Is",
+      "link": "https://stocktwits.com/news-articles/markets/equity/iren-selloff-draws-attention-grant-cardone-retail-bulls-asking-where-the-bottom-is/cNbHJRhR9lq?.tsrc=rss",
+      "date": "2026-11-25T08:43:21.000Z",
+      "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Israel stocks lower at close of trade; TA 35 down 0.86%",
-      "link": "https://www.investing.com/news/stock-market-news/israel-stocks-lower-at-close-of-trade-ta-35-down-086-5048685",
-      "date": "2026-11-24T15:55:03.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "If Anthropic Does This It Could Reach $130 By Year End",
-      "link": "https://247wallst.com/investing/2026/11/24/if-anthropic-does-this-it-could-reach-130-by-year-end/?.tsrc=rss",
-      "date": "2026-11-24T15:45:48.000Z",
+      "title": "Up 41% at Just Over Half Costco's P/E: Inside Coca-Cola's Quiet Rally",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/41-just-over-half-costco-092400539.html?.tsrc=rss",
+      "date": "2026-11-25T09:24:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Anthropic’s stock just broke below its IPO price for the first time",
-      "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
-      "date": "2026-11-24T15:21:00.000Z",
-      "source": "MarketWatch"
+      "title": "AI jitters spark \"wild\" stock moves; PCE data ahead - what's moving markets",
+      "link": "https://www.investing.com/news/economy-news/ai-jitters-spark-wild-stock-moves-pce-data-ahead--whats-moving-markets-5050033",
+      "date": "2026-11-25T09:03:56.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+      "link": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+      "date": "2026-11-25T01:13:56.000Z",
+      "source": "CNBC"
     }
   ],
   "yields": {
     "latest": {
-      "date": "2026-11-23",
-      "y3m": 4.37,
+      "date": "2026-11-24",
+      "y3m": 4.36,
       "y2": 4.63,
-      "y10": 4.92,
-      "y30": 5.29
+      "y10": 4.91,
+      "y30": 5.3
     },
     "monthAgo": {
       "date": "2026-10-26",
@@ -246,13 +246,6 @@
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-25",
-        "y3m": 3.86,
-        "y2": 4.17,
-        "y10": 4.64,
-        "y30": 5.17
-      },
       {
         "date": "2026-08-26",
         "y3m": 3.85,
@@ -679,6 +672,13 @@
         "y2": 4.63,
         "y10": 4.92,
         "y30": 5.29
+      },
+      {
+        "date": "2026-11-24",
+        "y3m": 4.36,
+        "y2": 4.63,
+        "y10": 4.91,
+        "y30": 5.3
       }
     ]
   }

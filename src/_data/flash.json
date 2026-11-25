@@ -1,74 +1,106 @@
 {
-  "updated": "2026-11-24T16:06:13.419Z",
+  "updated": "2026-11-25T09:40:10.290Z",
   "breaking": [
     {
-      "title": "Man Utd's Yoro has Anfield red card overturned",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck868g93djl5o",
-      "date": "2026-11-24T15:59:59.000Z"
-    },
-    {
-      "title": "Former police chief inspector jailed for rape",
-      "link": "https://www.bbc.co.uk/news/articles/crjeq7ey7llqo",
-      "date": "2026-11-24T15:41:42.000Z"
-    },
-    {
-      "title": "Senegal reinstated as winners of the 2025 Africa Cup of Nations after appeal upheld",
-      "link": "https://www.bbc.co.uk/sport/football/articles/crn80y2l1404o",
-      "date": "2026-11-24T15:40:05.000Z"
+      "title": "Energy bills to rise by 26% from January",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
+      "date": "2026-11-25T09:20:37.000Z"
     }
   ],
   "latest": [
     {
-      "title": "Huntley murderer handed new whole life jail term",
-      "link": "https://www.bbc.co.uk/news/articles/cm930y07p0j2o",
-      "date": "2026-11-24T13:32:43.000Z"
+      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+      "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o",
+      "date": "2026-11-25T00:30:52.000Z"
     },
     {
-      "title": "Zoe Kleinman: My week with Meta's AI agent Muse ahead of its UK launch",
-      "link": "https://www.bbc.co.uk/news/articles/c9gkld2l38y6o",
-      "date": "2026-11-24T09:33:00.000Z"
+      "title": "Third of young Brits have never had sex, but many are sexting and watching porn",
+      "link": "https://www.bbc.co.uk/news/articles/cw0737zzn50mo",
+      "date": "2026-11-24T23:38:39.000Z"
     },
     {
-      "title": "Watch: BBC secret filming shows dog breeder selling sick puppies for £2k each",
-      "link": "https://www.bbc.co.uk/news/videos/ckx28x5nlr2vo",
-      "date": "2026-11-24T06:21:29.000Z"
+      "title": "Nuclear test veterans will get full truth, says Burnham, as he confirms independent panel",
+      "link": "https://www.bbc.co.uk/news/articles/c6808k8dxvgko",
+      "date": "2026-11-24T22:49:41.000Z"
     },
     {
-      "title": "Key takeaways from the Timms review into Pip disability benefit",
-      "link": "https://www.bbc.co.uk/news/articles/c69w9gw9wx9no",
-      "date": "2026-11-24T13:46:07.000Z"
+      "title": "Nuclear test veterans speak to BBC about 'search for justice'",
+      "link": "https://www.bbc.co.uk/news/videos/c6jrel8e50w9o",
+      "date": "2026-11-24T22:45:03.000Z"
     },
     {
-      "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
-      "link": "https://www.bbc.co.uk/news/articles/c6zjr3g13zkno",
-      "date": "2026-11-24T00:01:04.000Z"
+      "title": "Racism, misogyny and homophobia remain in Met force, report finds",
+      "link": "https://www.bbc.co.uk/news/articles/cvwy0rg343j7o",
+      "date": "2026-11-25T05:45:55.000Z"
     },
     {
-      "title": "The shake-up facing renters as a new kind of landlord emerges",
-      "link": "https://www.bbc.co.uk/news/articles/c6n90g2l82d1o",
-      "date": "2026-11-24T00:28:48.000Z"
+      "title": "UK sent sex offender refugee to African country in undisclosed deal",
+      "link": "https://www.bbc.co.uk/news/articles/c6z7407zrgwvo",
+      "date": "2026-11-25T06:00:45.000Z"
     }
   ],
   "business": [
     {
-      "source": "Investing.com",
-      "title": "Israel stocks lower at close of trade; TA 35 down 0.86%",
-      "link": "https://www.investing.com/news/stock-market-news/israel-stocks-lower-at-close-of-trade-ta-35-down-086-5048685",
-      "date": "2026-11-24T15:55:03.000Z",
-      "breaking": true
+      "source": "BBC Business",
+      "title": "Energy bills will soar - here's how you can ease the pain",
+      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o",
+      "date": "2026-11-25T09:24:48.000Z",
+      "breaking": false
     },
     {
-      "source": "MarketWatch",
-      "title": "A 66-year-old nurse is facing down retirement with just $500 saved. Who’s to blame?",
-      "link": "https://www.marketwatch.com/story/a-66-year-old-nurse-faces-retirement-with-just-500-saved-whos-to-blame-4249a0fd?mod=mw_rss_topstories",
-      "date": "2026-11-24T15:30:00.000Z",
+      "source": "Investing.com",
+      "title": "Why is Norse Atlantic stock crashing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-norse-atlantic-stock-crashing-today-93CH-5050087",
+      "date": "2026-11-25T09:24:24.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "USDT buyers face 22% VAT when Moscow Exchange opens crypto trading",
-      "link": "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-24T14:10:23.000Z",
+      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
+      "link": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T08:40:28.000Z",
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
+      "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
+      "date": "2026-11-25T02:00:00.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+      "link": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+      "date": "2026-11-24T20:45:57.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "Why is Nutanix stock tumbling today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-nutanix-stock-tumbling-today-93CH-5050086",
+      "date": "2026-11-25T09:23:43.000Z",
+      "breaking": false
+    },
+    {
+      "source": "BBC Business",
+      "title": "Energy bills to rise by 26% from January",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
+      "date": "2026-11-25T09:20:37.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
+      "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T06:54:59.000Z",
+      "breaking": false
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Dell’s stock rises as the AI boom helps sales more than double",
+      "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
+      "date": "2026-11-25T01:11:00.000Z",
       "breaking": false
     },
     {
@@ -79,97 +111,55 @@
       "breaking": false
     },
     {
-      "source": "BBC Business",
-      "title": "World Cup drove profits surge, says Marston's",
-      "link": "https://www.bbc.co.uk/news/articles/cm7523pyk75lo",
-      "date": "2026-11-24T13:03:20.000Z",
-      "breaking": false
-    },
-    {
       "source": "Investing.com",
-      "title": "Greece stocks lower at close of trade; Athens General Composite down 1.46%",
-      "link": "https://www.investing.com/news/stock-market-news/greece-stocks-lower-at-close-of-trade-athens-general-composite-down-146-5048682",
-      "date": "2026-11-24T15:50:02.000Z",
-      "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "The biggest biotech deal in nearly three years carries a hefty $41 billion price tag",
-      "link": "https://www.marketwatch.com/story/the-biggest-biotech-deal-in-nearly-three-years-carries-a-hefty-41-billion-price-tag-dd7fa228?mod=mw_rss_topstories",
-      "date": "2026-11-24T15:21:00.000Z",
+      "title": "Why is Ambarella stock crashing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-ambarella-stock-crashing-today-93CH-5050085",
+      "date": "2026-11-25T09:23:14.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
-      "link": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-24T13:57:56.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
-      "date": "2026-11-24T10:53:37.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
-      "link": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html",
-      "date": "2026-11-23T23:28:19.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Investing.com",
-      "title": "Why is Fossil stock rallying today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-fossil-stock-rallying-today-93CH-5048672",
-      "date": "2026-11-24T15:41:07.000Z",
-      "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Anthropic’s stock just broke below its IPO price for the first time",
-      "link": "https://www.marketwatch.com/story/anthropics-stock-just-broke-below-its-ipo-price-for-the-first-time-5dc82668?mod=mw_rss_topstories",
-      "date": "2026-11-24T15:21:00.000Z",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T05:50:43.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Yoro",
+      "term": "Century",
+      "traffic": "10000+",
+      "title": "Vaibhav Sooryavanshi is 'rewriting history'",
+      "link": "https://www.cricinfo.com/story/what-yuvraj-suryakumar-and-sehwag-said-about-vaibhav-sooryavanshi-s-53-ball-204-1563882",
+      "source": "Cricinfo"
+    },
+    {
+      "term": "Government Energy Payment",
       "traffic": "2000+",
-      "title": "'No-one's coming to save us' - but how can Man Utd save themselves?",
-      "link": "https://www.bbc.co.uk/sport/football/articles/ck9d7qxxl7w8o",
-      "source": "BBC"
+      "title": "20 million households to receive £100 payment",
+      "link": "https://www.gov.uk/government/news/20-million-households-to-receive-100-payment",
+      "source": "GOV.UK"
     },
     {
-      "term": "Pakistan A Vs Nepal National Cricket Team Standings",
+      "term": "British Airways Boeing 787-10 Emergency",
       "traffic": "1000+",
-      "title": "ACC Emerging Teams Asia Cup Group A and B Points Table",
-      "link": "https://www.tapmad.com/blog/acc-emerging-teams-asia-cup-group-a-b-points-table/9067-5-0",
-      "source": "Tapmad"
+      "title": "Boston-Bound British Airways 787-10 Declares Emergency Over Second Oil Leak In 10 Days",
+      "link": "https://simpleflying.com/british-airways-boeing-787-10-boston-emergency-second-oil-leak-10-days/",
+      "source": "Simple Flying"
     },
     {
-      "term": "Amanda Owen",
-      "traffic": "1000+",
-      "title": "At 52, the Yorkshire Shepherdess is swapping wellies for lacy LBDs",
-      "link": "https://www.telegraph.co.uk/fashion/style/yorkshire-shepherdess-swapping-wellies-for-dresses/",
-      "source": "The Telegraph"
-    },
-    {
-      "term": "Jonbenet Ramsey",
+      "term": "Beanie Feldstein",
       "traffic": "500+",
-      "title": "McCarthy & Owen in 'The Murder of JonBenét Ramsey' Official Trailer",
-      "link": "https://www.firstshowing.net/2026/mccarthy-owen-in-the-murder-of-jonbenet-ramsey-official-trailer/",
-      "source": "FirstShowing.net"
+      "title": "Actress, 33, hospitalized after giving birth: ‘Could barely move for weeks’",
+      "link": "https://www.syracuse.com/entertainment/2026/11/actress-33-hospitalized-after-giving-birth-could-barely-move-for-weeks.html",
+      "source": "Syracuse.com"
     },
     {
-      "term": "Prince Harry Visa",
+      "term": "Andrew Scott",
       "traffic": "500+",
-      "title": "Exclusive | Secret reason for Prince Harry and Meghan Markle's sudden move back to UK finally revealed",
-      "link": "https://pagesix.com/2026/11/20/royal-family/secret-reason-for-prince-harry-and-meghan-markles-sudden-move-back-to-uk-finally-revealed/",
-      "source": "Page Six"
+      "title": "The True Story of Ian Charleson, the Trailblazing Actor Andrew Scott Plays in Elsinore",
+      "link": "https://www.gq.com/story/ian-charleson-andrew-scott-elsinore",
+      "source": "GQ"
     }
   ]
 }
