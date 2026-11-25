@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-25T09:55:55.190Z",
+  "checked": "2026-11-25T14:29:58.508Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -21,8 +21,8 @@
     },
     {
       "name": "OpenAI",
-      "level": "ok",
-      "note": "All Systems Operational",
+      "level": "minor",
+      "note": "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors",
       "url": "https://status.openai.com"
     },
     {
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "GitHub",
+      "title": "MAI Code 2 Degredation",
+      "impact": "minor",
+      "start": "2026-11-25T11:58:36.151Z",
+      "end": "2026-11-25T12:03:55.253Z",
+      "url": "https://stspg.io/djn1brd9cmzj"
+    },
+    {
+      "service": "OpenAI",
+      "title": "ChatGPT, ChatGPT Work, and Codex Cloud are experiencing elevated conversation errors",
+      "impact": "minor",
+      "start": "2026-11-25T11:48:13Z",
+      "end": null,
+      "url": "https://status.openai.com"
+    },
     {
       "service": "Cloudflare",
       "title": "Firewall Configuration Delay",
