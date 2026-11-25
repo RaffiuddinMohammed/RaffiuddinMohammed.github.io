@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T09:35:01.218Z",
+  "updated": "2026-11-25T09:48:04.854Z",
   "headlineCount": 77,
   "sources": [
     {
@@ -22,7 +22,7 @@
   "themes": [
     {
       "name": "AI and chips",
-      "count": 11
+      "count": 10
     },
     {
       "name": "Inflation",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Earnings",
-      "count": 1
+      "count": 2
     },
     {
       "name": "Trade and tariffs",
@@ -60,7 +60,7 @@
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 8
+      "count": 7
     },
     {
       "name": "Tesla",
@@ -88,6 +88,30 @@
     }
   ],
   "latest": [
+    {
+      "title": "Colman's sale could resolve concerns over Unilever-McCormick food deal, says watchdog",
+      "link": "https://www.investing.com/news/stock-market-news/uk-watchdog-sayscolmans-sale-could-address-unilevermccormick-deal-concerns-5049890",
+      "date": "2026-11-25T09:36:24.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Stellantis cuts Sochaux night shift amid weak demand",
+      "link": "https://www.investing.com/news/stock-market-news/stellantis-cuts-sochaux-night-shift-amid-weak-demand-93CH-5050101",
+      "date": "2026-11-25T09:35:42.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Workday stock tumbling today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-workday-stock-tumbling-today-93CH-5050099",
+      "date": "2026-11-25T09:32:14.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Why is Autodesk stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-autodesk-stock-sliding-today-93CH-5050097",
+      "date": "2026-11-25T09:30:53.000Z",
+      "source": "Investing.com"
+    },
     {
       "title": "Why is Norse Atlantic stock crashing today?",
       "link": "https://www.investing.com/news/stock-market-news/why-is-norse-atlantic-stock-crashing-today-93CH-5050087",
@@ -125,28 +149,10 @@
       "source": "Investing.com"
     },
     {
-      "title": "Why is Urban Outfitters stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-urban-outfitters-stock-sliding-today-93CH-5050068",
-      "date": "2026-11-25T09:15:04.000Z",
-      "source": "Investing.com"
-    },
-    {
       "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall ahead of inflation data",
       "link": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-25-dow-sp-500-nasdaq-pce-inflation-data-091428237.html?.tsrc=rss",
       "date": "2026-11-25T09:14:28.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Henry Boot stock tumbling today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-henry-boot-stock-tumbling-today-93CH-5050054",
-      "date": "2026-11-25T09:13:07.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Pharming stock collapsing today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-pharming-stock-collapsing-today-93CH-5050052",
-      "date": "2026-11-25T09:12:11.000Z",
-      "source": "Investing.com"
     },
     {
       "title": "Kohl's Comparable Sales Rose 1.2% After Falling 0.9% Last Quarter. Here's What Changed.",
@@ -177,12 +183,6 @@
       "link": "https://www.fool.com/investing/2026/11/25/micron-reports-in-december-here-s-the-1-number-i-ll-be-watching/?.tsrc=rss",
       "date": "2026-11-25T09:01:02.000Z",
       "source": "Yahoo Finance"
-    },
-    {
-      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington",
-      "link": "https://www.investing.com/news/stock-market-news/huangs-return-to-nvidia-brings-openweight-ai-debate-to-forefront-in-washington-5049260",
-      "date": "2026-11-25T09:00:35.000Z",
-      "source": "Investing.com"
     },
     {
       "title": "Prediction: Here's What Anthropic's Valuation Will Be in 2027, According to History",

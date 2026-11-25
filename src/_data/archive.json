@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T09:40:09.786Z",
+  "updated": "2026-11-25T09:55:55.140Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -7295,7 +7295,7 @@
         },
         {
           "name": "Science",
-          "count": 13
+          "count": 14
         },
         {
           "name": "Health",
@@ -7357,6 +7357,12 @@
           },
           "stories": [
             {
+              "title": "Men charged with trespass at Prince and Princess of Wales's home",
+              "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o?at_medium=RSS&at_campaign=rss",
+              "section": "UK",
+              "date": "2026-11-25T09:46:05.000Z"
+            },
+            {
               "title": "UK's oldest living heart transplant recipient dies",
               "link": "https://www.bbc.co.uk/news/articles/cr5y12xedd66o?at_medium=RSS&at_campaign=rss",
               "section": "UK",
@@ -7379,12 +7385,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-24T18:07:46.000Z"
-            },
-            {
-              "title": "Sacked London Pride boss given suspended prison sentence",
-              "link": "https://www.bbc.co.uk/news/articles/cwr5gvmme9q7o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-24T17:58:11.000Z"
             }
           ]
         },
@@ -7434,6 +7434,49 @@
           ]
         },
         {
+          "name": "China",
+          "lat": 35,
+          "lon": 104,
+          "count": 6,
+          "bySection": {
+            "Science": 2,
+            "World": 3,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "Why China has sent Pakistan's first astronaut into space",
+              "link": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T09:37:29.000Z"
+            },
+            {
+              "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+              "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T04:46:23.000Z"
+            },
+            {
+              "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+              "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T03:28:37.000Z"
+            },
+            {
+              "title": "Is China behind a wave of AI fake videos targeting Taiwan?",
+              "link": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-24T23:05:11.000Z"
+            },
+            {
+              "title": "What Jensen Huang's return teaches China's Xi about Trump",
+              "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-24T07:26:27.000Z"
+            }
+          ]
+        },
+        {
           "name": "Russia",
           "lat": 60,
           "lon": 90,
@@ -7472,49 +7515,6 @@
               "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-23T11:34:10.000Z"
-            }
-          ]
-        },
-        {
-          "name": "China",
-          "lat": 35,
-          "lon": 104,
-          "count": 5,
-          "bySection": {
-            "Science": 1,
-            "World": 3,
-            "Business": 1
-          },
-          "stories": [
-            {
-              "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
-              "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
-              "section": "Science",
-              "date": "2026-11-25T04:46:23.000Z"
-            },
-            {
-              "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
-              "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-25T03:28:37.000Z"
-            },
-            {
-              "title": "Is China behind a wave of AI fake videos targeting Taiwan?",
-              "link": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T23:05:11.000Z"
-            },
-            {
-              "title": "What Jensen Huang's return teaches China's Xi about Trump",
-              "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T07:26:27.000Z"
-            },
-            {
-              "title": "As Christmas rush looms, how do China-made toys find their way to the US?",
-              "link": "https://www.bbc.co.uk/news/articles/c5djvyde0y1jo?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-10-14T23:01:28.000Z"
             }
           ]
         },
@@ -7585,6 +7585,36 @@
           ]
         },
         {
+          "name": "Pakistan",
+          "lat": 30,
+          "lon": 70,
+          "count": 3,
+          "bySection": {
+            "Science": 2,
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Why China has sent Pakistan's first astronaut into space",
+              "link": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T09:37:29.000Z"
+            },
+            {
+              "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+              "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T04:46:23.000Z"
+            },
+            {
+              "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
+              "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T03:28:37.000Z"
+            }
+          ]
+        },
+        {
           "name": "Ireland",
           "lat": 53,
           "lon": -8,
@@ -7628,30 +7658,6 @@
               "link": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-25T00:58:34.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Pakistan",
-          "lat": 30,
-          "lon": 70,
-          "count": 2,
-          "bySection": {
-            "Science": 1,
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
-              "link": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o?at_medium=RSS&at_campaign=rss",
-              "section": "Science",
-              "date": "2026-11-25T04:46:23.000Z"
-            },
-            {
-              "title": "Moment Chinese space mission lifts off with first Pakistan astronaut aboard",
-              "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-25T03:28:37.000Z"
             }
           ]
         },
@@ -7862,6 +7868,16 @@
       ],
       "topHeadlines": [
         {
+          "title": "Men charged with trespass at Prince and Princess of Wales's home",
+          "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o?at_medium=RSS&at_campaign=rss",
+          "section": "UK"
+        },
+        {
+          "title": "Why China has sent Pakistan's first astronaut into space",
+          "link": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
+          "section": "Science"
+        },
+        {
           "title": "Energy bills will soar - here's how you can ease the pain",
           "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
           "section": "Business"
@@ -7875,33 +7891,23 @@
           "title": "Ministers ask public for views on changing age of consent",
           "link": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
-        },
-        {
-          "title": "Zimbabwe issues arrest warrant for Robert Mugabe's son over missed court date",
-          "link": "https://www.bbc.co.uk/news/articles/c6d917jn5gq7o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
-        },
-        {
-          "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
-          "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
-          "section": "World"
         }
       ],
       "hnTop": [
         {
           "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
           "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-          "points": 608
+          "points": 619
         },
         {
           "title": "The Spray Bottle",
           "url": "https://mechanical-pencil.com/products/spray-bottle",
-          "points": 476
+          "points": 481
         },
         {
           "title": "Ternary Bonsai 2.5 27B",
           "url": "https://prismml.com/news/bonsai-2-5-27b",
-          "points": 441
+          "points": 443
         }
       ]
     }

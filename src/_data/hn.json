@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-25T09:35:47.667Z",
+  "updated": "2026-11-25T09:48:06.721Z",
   "stories": [
     {
       "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
       "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
       "discuss": "https://news.ycombinator.com/item?id=50637220",
-      "points": 608,
-      "comments": 313,
+      "points": 619,
+      "comments": 321,
       "domain": "github.com"
     },
     {
       "title": "The Spray Bottle",
       "url": "https://mechanical-pencil.com/products/spray-bottle",
       "discuss": "https://news.ycombinator.com/item?id=50598555",
-      "points": 476,
+      "points": 481,
       "comments": 109,
       "domain": "mechanical-pencil.com"
     },
@@ -21,24 +21,24 @@
       "title": "Ternary Bonsai 2.5 27B",
       "url": "https://prismml.com/news/bonsai-2-5-27b",
       "discuss": "https://news.ycombinator.com/item?id=50633922",
-      "points": 441,
-      "comments": 138,
+      "points": 443,
+      "comments": 139,
       "domain": "prismml.com"
     },
     {
       "title": "GTA 6 Running on Windows",
       "url": "https://twitter.com/raul_bs3/status/2125213756238291075",
       "discuss": "https://news.ycombinator.com/item?id=50627783",
-      "points": 391,
-      "comments": 467,
+      "points": 397,
+      "comments": 471,
       "domain": "twitter.com"
     },
     {
       "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
       "url": "https://buttons.joshwcomeau.com/",
       "discuss": "https://news.ycombinator.com/item?id=50638032",
-      "points": 353,
-      "comments": 43,
+      "points": 364,
+      "comments": 45,
       "domain": "buttons.joshwcomeau.com"
     },
     {
@@ -53,35 +53,35 @@
       "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
       "url": "https://news.ycombinator.com/item?id=50630809",
       "discuss": "https://news.ycombinator.com/item?id=50630809",
-      "points": 270,
-      "comments": 214,
+      "points": 278,
+      "comments": 216,
       "domain": "news.ycombinator.com"
     },
     {
       "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
       "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
       "discuss": "https://news.ycombinator.com/item?id=50634658",
-      "points": 259,
-      "comments": 80,
+      "points": 263,
+      "comments": 81,
       "domain": "openai.com"
     },
     {
       "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
       "url": "https://greydanus.github.io/2026/11/12/pengpt/",
       "discuss": "https://news.ycombinator.com/item?id=50637056",
-      "points": 243,
-      "comments": 43,
+      "points": 247,
+      "comments": 44,
       "domain": "greydanus.github.io"
     },
     {
       "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
       "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
       "discuss": "https://news.ycombinator.com/item?id=50637686",
-      "points": 219,
-      "comments": 81,
+      "points": 224,
+      "comments": 82,
       "domain": "lesswrong.com"
     }
   ],
-  "totalPoints": 5040,
+  "totalPoints": 5131,
   "storyCount": 30
 }

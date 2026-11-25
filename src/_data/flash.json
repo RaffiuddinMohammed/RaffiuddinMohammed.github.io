@@ -1,18 +1,23 @@
 {
-  "updated": "2026-11-25T09:40:10.290Z",
+  "updated": "2026-11-25T09:55:55.918Z",
   "breaking": [
     {
-      "title": "Energy bills to rise by 26% from January",
+      "title": "Energy bills to rise by 26% from January after gas prices surge",
       "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
-      "date": "2026-11-25T09:20:37.000Z"
+      "date": "2026-11-25T09:54:39.000Z"
+    },
+    {
+      "title": "Men charged with trespass at Prince and Princess of Wales's home",
+      "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o",
+      "date": "2026-11-25T09:53:43.000Z"
+    },
+    {
+      "title": "Ministers ask public for views on changing age of consent",
+      "link": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo",
+      "date": "2026-11-25T09:48:05.000Z"
     }
   ],
   "latest": [
-    {
-      "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
-      "link": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o",
-      "date": "2026-11-25T00:30:52.000Z"
-    },
     {
       "title": "Third of young Brits have never had sex, but many are sexting and watching porn",
       "link": "https://www.bbc.co.uk/news/articles/cw0737zzn50mo",
@@ -29,36 +34,41 @@
       "date": "2026-11-24T22:45:03.000Z"
     },
     {
+      "title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo",
+      "date": "2026-11-25T06:00:36.000Z"
+    },
+    {
       "title": "Racism, misogyny and homophobia remain in Met force, report finds",
       "link": "https://www.bbc.co.uk/news/articles/cvwy0rg343j7o",
       "date": "2026-11-25T05:45:55.000Z"
     },
     {
-      "title": "UK sent sex offender refugee to African country in undisclosed deal",
-      "link": "https://www.bbc.co.uk/news/articles/c6z7407zrgwvo",
-      "date": "2026-11-25T06:00:45.000Z"
+      "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
+      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo",
+      "date": "2026-11-25T00:56:51.000Z"
     }
   ],
   "business": [
     {
       "source": "BBC Business",
-      "title": "Energy bills will soar - here's how you can ease the pain",
-      "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o",
-      "date": "2026-11-25T09:24:48.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Investing.com",
-      "title": "Why is Norse Atlantic stock crashing today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-norse-atlantic-stock-crashing-today-93CH-5050087",
-      "date": "2026-11-25T09:24:24.000Z",
-      "breaking": false
+      "title": "Energy bills to rise by 26% from January after gas prices surge",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
+      "date": "2026-11-25T09:54:39.000Z",
+      "breaking": true
     },
     {
       "source": "Cointelegraph",
-      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
-      "link": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25T08:40:28.000Z",
+      "title": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
+      "link": "https://cointelegraph.com/markets/stablecoin-cash-out-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T09:52:22.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Investing.com",
+      "title": "Colman’s sale could resolve concerns over Unilever-McCormick food deal, says watchdog",
+      "link": "https://www.investing.com/news/stock-market-news/uk-watchdog-sayscolmans-sale-could-address-unilevermccormick-deal-concerns-5049890",
+      "date": "2026-11-25T09:36:24.000Z",
       "breaking": false
     },
     {
@@ -77,23 +87,16 @@
     },
     {
       "source": "Investing.com",
-      "title": "Why is Nutanix stock tumbling today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-nutanix-stock-tumbling-today-93CH-5050086",
-      "date": "2026-11-25T09:23:43.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "Energy bills to rise by 26% from January",
-      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
-      "date": "2026-11-25T09:20:37.000Z",
+      "title": "Stellantis cuts Sochaux night shift amid weak demand",
+      "link": "https://www.investing.com/news/stock-market-news/stellantis-cuts-sochaux-night-shift-amid-weak-demand-93CH-5050101",
+      "date": "2026-11-25T09:35:42.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
-      "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25T06:54:59.000Z",
+      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
+      "link": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T08:40:28.000Z",
       "breaking": false
     },
     {
@@ -111,28 +114,28 @@
       "breaking": false
     },
     {
+      "source": "BBC Business",
+      "title": "What will the energy cap changes mean for my bills?",
+      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo",
+      "date": "2026-11-25T09:54:32.000Z",
+      "breaking": true
+    },
+    {
       "source": "Investing.com",
-      "title": "Why is Ambarella stock crashing today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-ambarella-stock-crashing-today-93CH-5050085",
-      "date": "2026-11-25T09:23:14.000Z",
+      "title": "Why is Workday stock tumbling today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-workday-stock-tumbling-today-93CH-5050099",
+      "date": "2026-11-25T09:32:14.000Z",
       "breaking": false
     },
     {
       "source": "Cointelegraph",
-      "title": "Here’s what happened in crypto today",
-      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25T05:50:43.000Z",
+      "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
+      "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T06:54:59.000Z",
       "breaking": false
     }
   ],
   "trending": [
-    {
-      "term": "Century",
-      "traffic": "10000+",
-      "title": "Vaibhav Sooryavanshi is 'rewriting history'",
-      "link": "https://www.cricinfo.com/story/what-yuvraj-suryakumar-and-sehwag-said-about-vaibhav-sooryavanshi-s-53-ball-204-1563882",
-      "source": "Cricinfo"
-    },
     {
       "term": "Government Energy Payment",
       "traffic": "2000+",
@@ -141,11 +144,11 @@
       "source": "GOV.UK"
     },
     {
-      "term": "British Airways Boeing 787-10 Emergency",
+      "term": "Andrew Scott",
       "traffic": "1000+",
-      "title": "Boston-Bound British Airways 787-10 Declares Emergency Over Second Oil Leak In 10 Days",
-      "link": "https://simpleflying.com/british-airways-boeing-787-10-boston-emergency-second-oil-leak-10-days/",
-      "source": "Simple Flying"
+      "title": "The True Story of Ian Charleson, the Trailblazing Actor Andrew Scott Plays in Elsinore",
+      "link": "https://www.gq.com/story/ian-charleson-andrew-scott-elsinore",
+      "source": "GQ"
     },
     {
       "term": "Beanie Feldstein",
@@ -155,11 +158,18 @@
       "source": "Syracuse.com"
     },
     {
-      "term": "Andrew Scott",
+      "term": "Eduardo Franco",
       "traffic": "500+",
-      "title": "The True Story of Ian Charleson, the Trailblazing Actor Andrew Scott Plays in Elsinore",
-      "link": "https://www.gq.com/story/ian-charleson-andrew-scott-elsinore",
-      "source": "GQ"
+      "title": "Eduardo Franco Talks ‘Focker-in-Law’ and Reveals Haircare Secret",
+      "link": "https://www.today.com/video/eduardo-franco-talks-focker-in-law-and-reveals-haircare-secret-274088005724",
+      "source": "TODAY.com"
+    },
+    {
+      "term": "Hera Spacecraft",
+      "traffic": "200+",
+      "title": "Hera spacecraft investigates damage at asteroid \"crash scene\"",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo",
+      "source": "BBC"
     }
   ]
 }
