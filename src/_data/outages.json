@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-24T16:06:12.763Z",
+  "checked": "2026-11-25T04:10:56.431Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,7 +16,7 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Issues with Email Routing in France",
+      "note": "Magic Transit Degraded Performance",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -88,6 +88,30 @@
   ],
   "incidents": [
     {
+      "service": "Cloudflare",
+      "title": "Elevated number of 5xx errors in Frankfurt",
+      "impact": "minor",
+      "start": "2026-11-25T03:03:35.203Z",
+      "end": "2026-11-25T02:45:00.000Z",
+      "url": "https://www.cloudflarestatus.com/incidents/lqojvojhdcjv"
+    },
+    {
+      "service": "GitHub",
+      "title": "Disruption with Code Completions and Next Edit Suggestions",
+      "impact": "major",
+      "start": "2026-11-25T00:08:17.974Z",
+      "end": "2026-11-25T01:15:18.733Z",
+      "url": "https://stspg.io/bk5200jsb13k"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "R2 elevated errors and timeouts for requests from South America",
+      "impact": "minor",
+      "start": "2026-11-24T21:54:25.621Z",
+      "end": "2026-11-25T00:12:11.962Z",
+      "url": "https://www.cloudflarestatus.com/incidents/k8utv1c3ubf2"
+    },
+    {
       "service": "GitHub",
       "title": "Degraded Availability for MAI Code 2 in Copilot",
       "impact": "minor",
@@ -100,7 +124,7 @@
       "title": "Issues with Email Routing in France",
       "impact": "minor",
       "start": "2026-11-24T13:38:40.144Z",
-      "end": null,
+      "end": "2026-11-24T22:42:43.265Z",
       "url": "https://www.cloudflarestatus.com/incidents/x5ma22sji8wi"
     },
     {
@@ -140,7 +164,7 @@
       "title": "Cloudflare Workers API – Delayed or Inconsistent Responses",
       "impact": "minor",
       "start": "2026-11-23T13:52:11.144Z",
-      "end": null,
+      "end": "2026-11-24T21:35:41.514Z",
       "url": "https://www.cloudflarestatus.com/incidents/00dp7cliyqqt"
     },
     {
@@ -617,14 +641,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/1na2mbfshgdh"
     },
     {
-      "service": "Cloudflare",
-      "title": "DNSSEC Configuration Change Issues",
-      "impact": "minor",
-      "start": "2026-11-12T04:53:29.795Z",
-      "end": "2026-11-12T05:26:45.720Z",
-      "url": "https://www.cloudflarestatus.com/incidents/8odt36zmvm36"
-    },
-    {
       "service": "OpenAI",
       "title": "Unable to start new Workspace Agent runs",
       "impact": "major",
@@ -655,22 +671,6 @@
       "start": "2026-11-11T20:22:20.729Z",
       "end": "2026-11-11T20:26:23.897Z",
       "url": "https://stspg.io/r0jrtx03yvll"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Network Performance Degraded",
-      "impact": "minor",
-      "start": "2026-11-11T15:53:19.709Z",
-      "end": "2026-11-11T16:18:51.073Z",
-      "url": "https://www.cloudflarestatus.com/incidents/804glbb3pq6t"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Workers deployments errors with D1 bindings",
-      "impact": "minor",
-      "start": "2026-11-11T13:09:04.520Z",
-      "end": "2026-11-11T13:03:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/3ptyvdaljq9b"
     },
     {
       "service": "Cloudflare",
