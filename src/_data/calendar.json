@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T09:48:04.856Z",
+  "updated": "2026-11-25T15:46:46.225Z",
   "days": [
     {
       "date": "2026-11-25",
@@ -28,7 +28,48 @@
           "capText": "$10B"
         }
       ],
-      "events": []
+      "events": [
+        {
+          "country": "US",
+          "what": "Durable goods orders",
+          "name": "Core Durable Goods Orders",
+          "time": "13:30",
+          "previous": "0.5%",
+          "consensus": "0.5%"
+        },
+        {
+          "country": "US",
+          "what": "Inflation (PCE, the Fed's favourite gauge)",
+          "name": "Core PCE Price Index",
+          "time": "13:30",
+          "previous": "3.1%",
+          "consensus": "3.2%"
+        },
+        {
+          "country": "US",
+          "what": "GDP (economic growth)",
+          "name": "GDP",
+          "time": "13:30",
+          "previous": "2.2%",
+          "consensus": "3.4%"
+        },
+        {
+          "country": "US",
+          "what": "Weekly jobless claims",
+          "name": "Initial Jobless Claims",
+          "time": "13:30",
+          "previous": "202K",
+          "consensus": "201K"
+        },
+        {
+          "country": "UK",
+          "what": "Central bank chief speaks",
+          "name": "BoE Gov Bailey Speaks",
+          "time": "14:15",
+          "previous": null,
+          "consensus": null
+        }
+      ]
     },
     {
       "date": "2026-11-26",
@@ -55,12 +96,12 @@
         {
           "symbol": "RBRK",
           "name": "Rubrik",
-          "cap": 23564294100,
+          "cap": 22934089700,
           "when": "after",
           "eps": "−$0.38",
           "big": false,
           "mag7": false,
-          "capText": "$24B"
+          "capText": "$23B"
         }
       ],
       "events": []
@@ -72,49 +113,59 @@
       "early": null,
       "earnings": [
         {
+          "symbol": "BHP",
+          "name": "BHP Group",
+          "cap": 174515847000,
+          "when": null,
+          "eps": null,
+          "big": true,
+          "mag7": false,
+          "capText": "$175B"
+        },
+        {
           "symbol": "MRVL",
           "name": "Marvell Technology",
-          "cap": 126922506000,
+          "cap": 115373736000,
           "when": "after",
           "eps": "$0.79",
           "big": true,
           "mag7": false,
-          "capText": "$127B"
+          "capText": "$115B"
         },
         {
           "symbol": "OKTA",
           "name": "Okta",
-          "cap": 36062061000,
+          "cap": 34635522000,
           "when": "after",
           "eps": "$0.43",
           "big": false,
           "mag7": false,
-          "capText": "$36B"
+          "capText": "$35B"
         },
         {
           "symbol": "NTAP",
           "name": "NetApp",
-          "cap": 33713358800,
+          "cap": 32016298000,
           "when": "after",
           "eps": "$2.14",
           "big": false,
           "mag7": false,
-          "capText": "$34B"
+          "capText": "$32B"
         },
         {
           "symbol": "CPRT",
           "name": "Copart",
-          "cap": 29292073000,
+          "cap": 29968328700,
           "when": "before",
-          "eps": "$0.41",
+          "eps": "$0.40",
           "big": false,
           "mag7": false,
-          "capText": "$29B"
+          "capText": "$30B"
         },
         {
           "symbol": "TCOM",
           "name": "Trip.com Group",
-          "cap": 25880885200,
+          "cap": 25647894500,
           "when": "after",
           "eps": "$1.07",
           "big": false,
@@ -124,7 +175,7 @@
         {
           "symbol": "MDB",
           "name": "MongoDB",
-          "cap": 25189163000,
+          "cap": 24851632100,
           "when": "after",
           "eps": "$0.08",
           "big": false,
@@ -134,12 +185,12 @@
         {
           "symbol": "CRDO",
           "name": "Credo Technology Group",
-          "cap": 23016591400,
+          "cap": 20009361400,
           "when": "after",
           "eps": "$1.03",
           "big": false,
           "mag7": false,
-          "capText": "$23B"
+          "capText": "$20B"
         }
       ],
       "events": []
@@ -153,17 +204,17 @@
         {
           "symbol": "CRM",
           "name": "Salesforce",
-          "cap": 152633573000,
+          "cap": 159052972000,
           "when": "after",
           "eps": "$2.41",
           "big": true,
           "mag7": false,
-          "capText": "$153B"
+          "capText": "$159B"
         },
         {
           "symbol": "BMO",
           "name": "Bank Of Montreal",
-          "cap": 111529066000,
+          "cap": 111724724000,
           "when": "before",
           "eps": "$2.69",
           "big": true,
@@ -173,17 +224,17 @@
         {
           "symbol": "BNS",
           "name": "The Bank of Nova Scotia",
-          "cap": 104808071000,
+          "cap": 104282898000,
           "when": "before",
           "eps": "$1.55",
           "big": true,
           "mag7": false,
-          "capText": "$105B"
+          "capText": "$104B"
         },
         {
           "symbol": "SNOW",
           "name": "Snowflake",
-          "cap": 95704056000,
+          "cap": 95640551000,
           "when": "after",
           "eps": "−$0.32",
           "big": false,
@@ -193,7 +244,7 @@
         {
           "symbol": "FIVE",
           "name": "Five Below",
-          "cap": 11889469400,
+          "cap": 12410281000,
           "when": "after",
           "eps": "$1.17",
           "big": false,
@@ -203,12 +254,12 @@
         {
           "symbol": "NTSK",
           "name": "Netskope",
-          "cap": 10549735400,
+          "cap": 10431245300,
           "when": "after",
           "eps": "−$0.21",
           "big": false,
           "mag7": false,
-          "capText": "$11B"
+          "capText": "$10B"
         }
       ],
       "events": []
@@ -350,32 +401,7 @@
           "capText": "$11B"
         }
       ],
-      "events": [
-        {
-          "country": "UK",
-          "what": "Business activity (PMI)",
-          "name": "S&P Global Composite PMI",
-          "time": "09:30",
-          "previous": "52.3",
-          "consensus": null
-        },
-        {
-          "country": "US",
-          "what": "Weekly jobless claims",
-          "name": "Initial Jobless Claims",
-          "time": "13:30",
-          "previous": null,
-          "consensus": null
-        },
-        {
-          "country": "US",
-          "what": "Business activity (PMI)",
-          "name": "S&P Global Composite PMI",
-          "time": "14:45",
-          "previous": "54.6",
-          "consensus": null
-        }
-      ]
+      "events": []
     }
   ]
 }

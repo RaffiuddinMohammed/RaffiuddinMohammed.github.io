@@ -1,81 +1,116 @@
 {
-  "updated": "2026-11-25T09:55:55.918Z",
+  "updated": "2026-11-25T15:53:59.723Z",
   "breaking": [
     {
-      "title": "Energy bills to rise by 26% from January after gas prices surge",
-      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
-      "date": "2026-11-25T09:54:39.000Z"
+      "title": "US stocks fall further as fears over AI intensify",
+      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo",
+      "date": "2026-11-25T15:52:58.000Z"
     },
     {
-      "title": "Men charged with trespass at Prince and Princess of Wales's home",
-      "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o",
-      "date": "2026-11-25T09:53:43.000Z"
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o",
+      "date": "2026-11-25T15:50:13.000Z"
     },
     {
-      "title": "Ministers ask public for views on changing age of consent",
-      "link": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo",
-      "date": "2026-11-25T09:48:05.000Z"
+      "title": "Man and daughter who dumped murdered woman in canal jailed",
+      "link": "https://www.bbc.co.uk/news/articles/cq3dg1r3ypvpo",
+      "date": "2026-11-25T15:07:23.000Z"
     }
   ],
   "latest": [
     {
-      "title": "Third of young Brits have never had sex, but many are sexting and watching porn",
-      "link": "https://www.bbc.co.uk/news/articles/cw0737zzn50mo",
-      "date": "2026-11-24T23:38:39.000Z"
+      "title": "Raheem Sterling given suspended jail sentence for dangerous driving and nitrous oxide possession",
+      "link": "https://www.bbc.co.uk/news/articles/cv8e04ll9dd3o",
+      "date": "2026-11-25T13:57:12.000Z"
     },
     {
-      "title": "Nuclear test veterans will get full truth, says Burnham, as he confirms independent panel",
-      "link": "https://www.bbc.co.uk/news/articles/c6808k8dxvgko",
-      "date": "2026-11-24T22:49:41.000Z"
+      "title": "Hundreds complain about I'm A Celebrity after Mariella Frostrup called AJ Odudu 'aggressive'",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly5v11q194o",
+      "date": "2026-11-25T11:57:31.000Z"
     },
     {
-      "title": "Nuclear test veterans speak to BBC about 'search for justice'",
-      "link": "https://www.bbc.co.uk/news/videos/c6jrel8e50w9o",
-      "date": "2026-11-24T22:45:03.000Z"
+      "title": "My family died in Ukraine and my mum blamed Zelensky's troops - the truth is complicated",
+      "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o",
+      "date": "2026-11-25T00:54:13.000Z"
     },
     {
-      "title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo",
-      "date": "2026-11-25T06:00:36.000Z"
+      "title": "Energy bills to rise by 26% from January after gas prices surge",
+      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
+      "date": "2026-11-25T13:42:08.000Z"
     },
     {
-      "title": "Racism, misogyny and homophobia remain in Met force, report finds",
-      "link": "https://www.bbc.co.uk/news/articles/cvwy0rg343j7o",
-      "date": "2026-11-25T05:45:55.000Z"
+      "title": "Badenoch challenges Burnham over university fees for EU students",
+      "link": "https://www.bbc.co.uk/news/articles/cw4gn8lxj5r1o",
+      "date": "2026-11-25T14:18:26.000Z"
     },
     {
-      "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
-      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo",
-      "date": "2026-11-25T00:56:51.000Z"
+      "title": "Why has China sent the first Pakistani astronaut to space?",
+      "link": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno",
+      "date": "2026-11-25T10:26:50.000Z"
     }
   ],
   "business": [
     {
       "source": "BBC Business",
-      "title": "Energy bills to rise by 26% from January after gas prices surge",
-      "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
-      "date": "2026-11-25T09:54:39.000Z",
-      "breaking": true
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "Stablecoin redemptions hit $12B in 30 days, echoing 2022 bear market",
-      "link": "https://cointelegraph.com/markets/stablecoin-cash-out-2022-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25T09:52:22.000Z",
+      "title": "Poundland collapses putting 11,000 jobs at risk",
+      "link": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o",
+      "date": "2026-11-25T15:50:13.000Z",
       "breaking": true
     },
     {
       "source": "Investing.com",
-      "title": "Colman’s sale could resolve concerns over Unilever-McCormick food deal, says watchdog",
-      "link": "https://www.investing.com/news/stock-market-news/uk-watchdog-sayscolmans-sale-could-address-unilevermccormick-deal-concerns-5049890",
-      "date": "2026-11-25T09:36:24.000Z",
-      "breaking": false
+      "title": "Macy’s options signal 7.3% move ahead of Dec. 2 earnings",
+      "link": "https://www.investing.com/news/stock-market-news/macys-options-signal-73-move-ahead-of-dec-2-earnings-93CH-5051163",
+      "date": "2026-11-25T15:43:08.000Z",
+      "breaking": true
     },
     {
       "source": "MarketWatch",
-      "title": "I’m in my 70s and buying a new BMW X1. Should I put my only son on the title?",
-      "link": "https://www.marketwatch.com/story/im-in-my-70s-and-buying-a-new-bmw-x1-should-i-put-my-only-son-on-the-title-25731040?mod=mw_rss_topstories",
-      "date": "2026-11-25T02:00:00.000Z",
+      "title": "Nvidia’s stock is giving back more than half of Monday’s rally as dip buyers cash in",
+      "link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
+      "date": "2026-11-25T15:43:00.000Z",
+      "breaking": true
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Ex-FTX COO calls out Netflix over CZ’s ‘Asian mafia’ portrayal",
+      "link": "https://cointelegraph.com/news/ftx-coo-netflix-portrayal-binance-founder-racist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T14:21:36.000Z",
+      "breaking": false
+    },
+    {
+      "source": "CNBC",
+      "title": "Liesman: Nvidia whiplash tests Kevin Warsh’s push to read market signals",
+      "link": "https://www.cnbc.com/2026/11/25/nvidia-kevin-warsh-fed-market-signals.html",
+      "date": "2026-11-25T12:26:41.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Investing.com",
+      "title": "US grocers serve up Thanksgiving deals even as turkey prices climb",
+      "link": "https://www.investing.com/news/stock-market-news/us-grocers-serve-up-thanksgiving-deals-even-as-turkey-prices-climb-5050352",
+      "date": "2026-11-25T15:42:45.000Z",
+      "breaking": true
+    },
+    {
+      "source": "MarketWatch",
+      "title": "Visiting Las Vegas is getting too expensive — but don’t blame airfares",
+      "link": "https://www.marketwatch.com/story/visiting-las-vegas-is-getting-too-expensive-but-dont-blame-airfares-12e2c588?mod=mw_rss_topstories",
+      "date": "2026-11-25T15:41:00.000Z",
+      "breaking": true
+    },
+    {
+      "source": "BBC Business",
+      "title": "US announces new tariffs on host of countries including China",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+      "date": "2026-11-25T14:52:22.000Z",
+      "breaking": false
+    },
+    {
+      "source": "Cointelegraph",
+      "title": "Here’s what happened in crypto today",
+      "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "date": "2026-11-25T13:26:05.000Z",
       "breaking": false
     },
     {
@@ -87,89 +122,54 @@
     },
     {
       "source": "Investing.com",
-      "title": "Stellantis cuts Sochaux night shift amid weak demand",
-      "link": "https://www.investing.com/news/stock-market-news/stellantis-cuts-sochaux-night-shift-amid-weak-demand-93CH-5050101",
-      "date": "2026-11-25T09:35:42.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "EU seeks up to $55B for AI and quantum computing fund: Report",
-      "link": "https://cointelegraph.com/news/eu-55-billion-ai-quantum-computing-investment-fund?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25T08:40:28.000Z",
-      "breaking": false
-    },
-    {
-      "source": "MarketWatch",
-      "title": "Dell’s stock rises as the AI boom helps sales more than double",
-      "link": "https://www.marketwatch.com/story/dells-stock-rises-as-the-ai-boom-helps-sales-more-than-double-cfb8cf65?mod=mw_rss_topstories",
-      "date": "2026-11-25T01:11:00.000Z",
-      "breaking": false
-    },
-    {
-      "source": "CNBC",
-      "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-      "link": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-      "date": "2026-11-24T13:33:26.000Z",
-      "breaking": false
-    },
-    {
-      "source": "BBC Business",
-      "title": "What will the energy cap changes mean for my bills?",
-      "link": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo",
-      "date": "2026-11-25T09:54:32.000Z",
+      "title": "Why is Vertiv stock sliding today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-vertiv-stock-sliding-today-93CH-5051161",
+      "date": "2026-11-25T15:42:28.000Z",
       "breaking": true
     },
     {
-      "source": "Investing.com",
-      "title": "Why is Workday stock tumbling today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-workday-stock-tumbling-today-93CH-5050099",
-      "date": "2026-11-25T09:32:14.000Z",
-      "breaking": false
-    },
-    {
-      "source": "Cointelegraph",
-      "title": "South Korea’s crypto bill could move stablecoin race beyond token issuance",
-      "link": "https://cointelegraph.com/news/south-korea-crypto-bill-stablecoin-race-beyond-issuance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "date": "2026-11-25T06:54:59.000Z",
+      "source": "MarketWatch",
+      "title": "Inflation gets worse. Now the Fed no choice but to raise U.S. interest rates.",
+      "link": "https://www.marketwatch.com/story/inflation-gets-worse-now-the-fed-no-choice-but-to-raise-u-s-interest-rates-8b0c2c1f?mod=mw_rss_topstories",
+      "date": "2026-11-25T15:08:00.000Z",
       "breaking": false
     }
   ],
   "trending": [
     {
-      "term": "Government Energy Payment",
+      "term": "Lincoln City F.C.",
       "traffic": "2000+",
-      "title": "20 million households to receive £100 payment",
-      "link": "https://www.gov.uk/government/news/20-million-households-to-receive-100-payment",
-      "source": "GOV.UK"
-    },
-    {
-      "term": "Andrew Scott",
-      "traffic": "1000+",
-      "title": "The True Story of Ian Charleson, the Trailblazing Actor Andrew Scott Plays in Elsinore",
-      "link": "https://www.gq.com/story/ian-charleson-andrew-scott-elsinore",
-      "source": "GQ"
-    },
-    {
-      "term": "Beanie Feldstein",
-      "traffic": "500+",
-      "title": "Actress, 33, hospitalized after giving birth: ‘Could barely move for weeks’",
-      "link": "https://www.syracuse.com/entertainment/2026/11/actress-33-hospitalized-after-giving-birth-could-barely-move-for-weeks.html",
-      "source": "Syracuse.com"
-    },
-    {
-      "term": "Eduardo Franco",
-      "traffic": "500+",
-      "title": "Eduardo Franco Talks ‘Focker-in-Law’ and Reveals Haircare Secret",
-      "link": "https://www.today.com/video/eduardo-franco-talks-focker-in-law-and-reveals-haircare-secret-274088005724",
-      "source": "TODAY.com"
-    },
-    {
-      "term": "Hera Spacecraft",
-      "traffic": "200+",
-      "title": "Hera spacecraft investigates damage at asteroid \"crash scene\"",
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo",
+      "title": "Chris Cohen & Tom Shaw: Sacking of Lincoln bosses about Championship survival, says CEO",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cm0l34j8d54yo",
       "source": "BBC"
+    },
+    {
+      "term": "Baby Sling",
+      "traffic": "500+",
+      "title": "New guidance launched after baby sling death",
+      "link": "https://www.bbc.co.uk/news/articles/c6q8lqnw513yo",
+      "source": "BBC"
+    },
+    {
+      "term": "Surgeon",
+      "traffic": "200+",
+      "title": "NHS Grampian surgeon operated on patient while recovering from endoscopy",
+      "link": "https://www.bbc.co.uk/news/articles/cx30g76yvl1zo",
+      "source": "BBC"
+    },
+    {
+      "term": "Club Brugge",
+      "traffic": "200+",
+      "title": "The opposition lowdown: Club Brugge",
+      "link": "https://www.liverpoolfc.com/news/opposition-lowdown-club-brugge",
+      "source": "Liverpool FC"
+    },
+    {
+      "term": "Aaron Banks",
+      "traffic": "200+",
+      "title": "The Aaron Banks situation gets worse and worse for the Packers",
+      "link": "https://www.acmepackingcompany.com/green-bay-packers-analysis/89745/the-aaron-banks-situation-gets-worse-and-worse-for-the-packers",
+      "source": "Acme Packing Company"
     }
   ]
 }

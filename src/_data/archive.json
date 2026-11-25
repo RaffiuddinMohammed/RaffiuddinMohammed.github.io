@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T09:55:55.140Z",
+  "updated": "2026-11-25T15:53:59.097Z",
   "days": [
     {
       "date": "2026-11-12",
@@ -7275,35 +7275,35 @@
     },
     {
       "date": "2026-11-25",
-      "totalStories": 250,
+      "totalStories": 244,
       "sections": [
         {
-          "name": "UK",
-          "count": 27
+          "name": "World",
+          "count": 23
         },
         {
-          "name": "World",
-          "count": 26
+          "name": "UK",
+          "count": 21
         },
         {
           "name": "Business",
-          "count": 18
-        },
-        {
-          "name": "Politics",
-          "count": 15
+          "count": 21
         },
         {
           "name": "Science",
-          "count": 14
+          "count": 17
+        },
+        {
+          "name": "Politics",
+          "count": 12
         },
         {
           "name": "Health",
-          "count": 9
+          "count": 8
         },
         {
           "name": "Technology",
-          "count": 5
+          "count": 7
         }
       ],
       "topWords": [
@@ -7316,27 +7316,27 @@
           "count": 13
         },
         {
-          "word": "nvidia",
-          "count": 11
-        },
-        {
           "word": "deal",
-          "count": 11
+          "count": 10
         },
         {
           "word": "tech",
           "count": 10
         },
         {
-          "word": "huang",
+          "word": "nvidia",
           "count": 9
         },
         {
-          "word": "jensen",
-          "count": 7
+          "word": "energy",
+          "count": 8
         },
         {
-          "word": "energy",
+          "word": "huang",
+          "count": 8
+        },
+        {
+          "word": "china",
           "count": 6
         }
       ],
@@ -7345,46 +7345,45 @@
           "name": "United Kingdom",
           "lat": 54,
           "lon": -2,
-          "count": 29,
+          "count": 24,
           "bySection": {
-            "UK": 6,
-            "World": 1,
-            "Science": 2,
             "Politics": 14,
+            "UK": 1,
+            "Science": 3,
             "Technology": 1,
             "Health": 3,
             "Business": 2
           },
           "stories": [
             {
-              "title": "Men charged with trespass at Prince and Princess of Wales's home",
-              "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-25T09:46:05.000Z"
-            },
-            {
-              "title": "UK's oldest living heart transplant recipient dies",
-              "link": "https://www.bbc.co.uk/news/articles/cr5y12xedd66o?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-25T06:12:23.000Z"
-            },
-            {
               "title": "None of UK government's £2.5bn steel package spent in Wales, figures show",
               "link": "https://www.bbc.co.uk/news/articles/cqwy0r98r26po?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-25T06:02:52.000Z"
+              "section": "Politics",
+              "date": "2026-11-25T13:04:25.000Z"
             },
             {
-              "title": "UK papers: Pip benefits 'not fit for purpose' and Royal 'security scare'",
-              "link": "https://www.bbc.co.uk/news/articles/crq5v3g5jq13o?at_medium=RSS&at_campaign=rss",
+              "title": "EU offers UK fresh deal on 'Made in Europe' scheme",
+              "link": "https://www.bbc.co.uk/news/articles/c50md8x9gdgro?at_medium=RSS&at_campaign=rss",
               "section": "UK",
-              "date": "2026-11-25T05:37:22.000Z"
+              "date": "2026-11-25T10:59:22.000Z"
             },
             {
-              "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-              "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T18:07:46.000Z"
+              "title": "Mass badger cull ruled out by Welsh government after speculation",
+              "link": "https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-24T16:47:05.000Z"
+            },
+            {
+              "title": "Record 5,200 heat-linked deaths estimated in England this year",
+              "link": "https://www.bbc.co.uk/news/articles/cq2e83egrez3o?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-24T16:22:16.000Z"
+            },
+            {
+              "title": "Tory plan to sell off London's Victorian jails to raise £1.4bn",
+              "link": "https://www.bbc.co.uk/news/articles/c607417kgx81o?at_medium=RSS&at_campaign=rss",
+              "section": "Politics",
+              "date": "2026-11-24T14:02:03.000Z"
             }
           ]
         },
@@ -7392,20 +7391,32 @@
           "name": "United States",
           "lat": 39,
           "lon": -98,
-          "count": 13,
+          "count": 12,
           "bySection": {
-            "World": 5,
-            "Business": 4,
-            "Science": 2,
+            "Business": 5,
+            "World": 4,
+            "Science": 1,
             "Technology": 1,
             "Health": 1
           },
           "stories": [
             {
-              "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
-              "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
+              "title": "US stocks fall further as fears over AI intensify",
+              "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-25T15:24:34.000Z"
+            },
+            {
+              "title": "US announces new tariffs on host of countries including China",
+              "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-25T14:52:22.000Z"
+            },
+            {
+              "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+              "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-25T06:36:00.000Z"
+              "date": "2026-11-25T10:52:09.000Z"
             },
             {
               "title": "US attorney general dodges questions about Nvidia investigation",
@@ -7414,22 +7425,10 @@
               "date": "2026-11-25T03:44:07.000Z"
             },
             {
-              "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-              "link": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-25T02:59:27.000Z"
-            },
-            {
               "title": "Thomas Markle charged in US for possessing child sex abuse images",
               "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-25T01:40:42.000Z"
-            },
-            {
-              "title": "US preparing to unveil plan for new tariffs on global trading partners",
-              "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-11-25T00:38:01.000Z"
             }
           ]
         },
@@ -7437,13 +7436,25 @@
           "name": "China",
           "lat": 35,
           "lon": 104,
-          "count": 6,
+          "count": 8,
           "bySection": {
-            "Science": 2,
-            "World": 3,
-            "Business": 1
+            "Business": 2,
+            "Science": 3,
+            "World": 3
           },
           "stories": [
+            {
+              "title": "US announces new tariffs on host of countries including China",
+              "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-11-25T14:52:22.000Z"
+            },
+            {
+              "title": "Why has China sent the first Pakistani astronaut to space?",
+              "link": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T10:26:50.000Z"
+            },
             {
               "title": "Why China has sent Pakistan's first astronaut into space",
               "link": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
@@ -7461,60 +7472,6 @@
               "link": "https://www.bbc.co.uk/news/videos/cmz74l0yzzvyo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-25T03:28:37.000Z"
-            },
-            {
-              "title": "Is China behind a wave of AI fake videos targeting Taiwan?",
-              "link": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T23:05:11.000Z"
-            },
-            {
-              "title": "What Jensen Huang's return teaches China's Xi about Trump",
-              "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T07:26:27.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Russia",
-          "lat": 60,
-          "lon": 90,
-          "count": 5,
-          "bySection": {
-            "World": 4,
-            "UK": 1
-          },
-          "stories": [
-            {
-              "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
-              "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-25T00:56:51.000Z"
-            },
-            {
-              "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
-              "link": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-24T17:39:32.000Z"
-            },
-            {
-              "title": "Russian governor detained in rare criminal case against regional leader",
-              "link": "https://www.bbc.co.uk/news/articles/cmwy868v3nneo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T12:45:43.000Z"
-            },
-            {
-              "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-              "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T10:58:51.000Z"
-            },
-            {
-              "title": "Ukraine shares video of strikes on Russian ships off Libya",
-              "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-23T11:34:10.000Z"
             }
           ]
         },
@@ -7524,27 +7481,26 @@
           "lon": 32,
           "count": 4,
           "bySection": {
-            "World": 3,
-            "UK": 1
+            "World": 4
           },
           "stories": [
             {
-              "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
-              "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+              "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+              "link": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-25T00:56:51.000Z"
+              "date": "2026-11-25T14:46:41.000Z"
             },
             {
-              "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+              "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+              "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T12:21:49.000Z"
+            },
+            {
+              "title": "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
               "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-25T00:54:13.000Z"
-            },
-            {
-              "title": "Businesses supporting Ukraine told to 'act now' to protect against Russian sabotage",
-              "link": "https://www.bbc.co.uk/news/articles/ckpdw4d0z2dwo?at_medium=RSS&at_campaign=rss",
-              "section": "UK",
-              "date": "2026-11-24T17:39:32.000Z"
             },
             {
               "title": "Ukraine shares video of strikes on Russian ships off Libya",
@@ -7555,45 +7511,21 @@
           ]
         },
         {
-          "name": "India",
-          "lat": 22,
-          "lon": 79,
-          "count": 3,
-          "bySection": {
-            "World": 2,
-            "Business": 1
-          },
-          "stories": [
-            {
-              "title": "The rising cost of putting food on the table in India",
-              "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-25T01:02:13.000Z"
-            },
-            {
-              "title": "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-              "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T18:07:46.000Z"
-            },
-            {
-              "title": "The Indian workers filming their work to train AI",
-              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
-              "section": "Business",
-              "date": "2026-10-23T08:04:17.000Z"
-            }
-          ]
-        },
-        {
           "name": "Pakistan",
           "lat": 30,
           "lon": 70,
-          "count": 3,
+          "count": 4,
           "bySection": {
-            "Science": 2,
+            "Science": 3,
             "World": 1
           },
           "stories": [
+            {
+              "title": "Why has China sent the first Pakistani astronaut to space?",
+              "link": "https://www.bbc.co.uk/news/videos/cj5y1p067kxno?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T10:26:50.000Z"
+            },
             {
               "title": "Why China has sent Pakistan's first astronaut into space",
               "link": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
@@ -7615,26 +7547,31 @@
           ]
         },
         {
-          "name": "Ireland",
-          "lat": 53,
-          "lon": -8,
-          "count": 2,
+          "name": "Russia",
+          "lat": 60,
+          "lon": 90,
+          "count": 3,
           "bySection": {
-            "Politics": 1,
-            "Health": 1
+            "World": 3
           },
           "stories": [
             {
-              "title": "What does the new Brexit deal mean for Northern Ireland?",
-              "link": "https://www.bbc.co.uk/news/articles/cm4gn9xw1v99o?at_medium=RSS&at_campaign=rss",
-              "section": "Politics",
-              "date": "2026-11-20T14:41:53.000Z"
+              "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+              "link": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T14:46:41.000Z"
             },
             {
-              "title": "Some doctors in Northern Ireland go on strike over pay",
-              "link": "https://www.bbc.co.uk/news/videos/cjr4g2kyn040o?at_medium=RSS&at_campaign=rss",
-              "section": "Health",
-              "date": "2026-11-20T11:11:36.000Z"
+              "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+              "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T12:21:49.000Z"
+            },
+            {
+              "title": "Ukraine shares video of strikes on Russian ships off Libya",
+              "link": "https://www.bbc.co.uk/news/videos/c6wy93q5wwqvo?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-23T11:34:10.000Z"
             }
           ]
         },
@@ -7648,16 +7585,57 @@
           },
           "stories": [
             {
-              "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
+              "title": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
               "link": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-25T06:36:00.000Z"
+              "date": "2026-11-25T12:42:11.000Z"
             },
             {
               "title": "Clashing political visions reflect a divided Spain ahead of election",
               "link": "https://www.bbc.co.uk/news/articles/cq5y1212y4pwo?at_medium=RSS&at_campaign=rss",
               "section": "World",
               "date": "2026-11-25T00:58:34.000Z"
+            }
+          ]
+        },
+        {
+          "name": "India",
+          "lat": 22,
+          "lon": 79,
+          "count": 2,
+          "bySection": {
+            "World": 1,
+            "Business": 1
+          },
+          "stories": [
+            {
+              "title": "The rising cost of putting food on the table in India",
+              "link": "https://www.bbc.co.uk/news/articles/cmy0xj41kl50o?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T01:02:13.000Z"
+            },
+            {
+              "title": "The Indian workers filming their work to train AI",
+              "link": "https://www.bbc.co.uk/news/articles/ckvgyml6pdm9o?at_medium=RSS&at_campaign=rss",
+              "section": "Business",
+              "date": "2026-10-23T08:04:17.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "lat": 56,
+          "lon": -106,
+          "count": 1,
+          "bySection": {
+            "Science": 1
+          },
+          "stories": [
+            {
+              "title": "Canadian astronaut welcomes baby girl  from space station",
+              "link": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
+              "section": "Science",
+              "date": "2026-11-25T15:41:39.000Z"
             }
           ]
         },
@@ -7679,19 +7657,36 @@
           ]
         },
         {
-          "name": "France",
-          "lat": 46,
-          "lon": 2,
+          "name": "Colombia",
+          "lat": 4,
+          "lon": -73,
           "count": 1,
           "bySection": {
             "World": 1
           },
           "stories": [
             {
-              "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
-              "link": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o?at_medium=RSS&at_campaign=rss",
+              "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+              "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-24T16:49:07.000Z"
+              "date": "2026-11-25T11:45:16.000Z"
+            }
+          ]
+        },
+        {
+          "name": "Ireland",
+          "lat": 53,
+          "lon": -8,
+          "count": 1,
+          "bySection": {
+            "Health": 1
+          },
+          "stories": [
+            {
+              "title": "Some doctors in Northern Ireland go on strike over pay",
+              "link": "https://www.bbc.co.uk/news/videos/cjr4g2kyn040o?at_medium=RSS&at_campaign=rss",
+              "section": "Health",
+              "date": "2026-11-20T11:11:36.000Z"
             }
           ]
         },
@@ -7730,40 +7725,6 @@
           ]
         },
         {
-          "name": "Syria",
-          "lat": 35,
-          "lon": 38,
-          "count": 1,
-          "bySection": {
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "Land mine casualties soar in Syria, two years after war",
-              "link": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T15:17:28.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Iran",
-          "lat": 32,
-          "lon": 53,
-          "count": 1,
-          "bySection": {
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
-              "link": "https://www.bbc.co.uk/news/articles/cq1j6585l5g6o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-23T18:04:20.000Z"
-            }
-          ]
-        },
-        {
           "name": "Libya",
           "lat": 27,
           "lon": 17,
@@ -7790,10 +7751,10 @@
           },
           "stories": [
             {
-              "title": "Nigerian monarch, 92, suspended after sexual assault claims",
-              "link": "https://www.bbc.co.uk/news/articles/cmglrz462nn6o?at_medium=RSS&at_campaign=rss",
+              "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+              "link": "https://www.bbc.co.uk/news/articles/cqwy0rr4rr4yo?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-24T19:10:31.000Z"
+              "date": "2026-11-25T12:24:12.000Z"
             }
           ]
         },
@@ -7807,44 +7768,10 @@
           },
           "stories": [
             {
-              "title": "Dad who discovered daughter's murder on Facebook feels ignored by South African police",
-              "link": "https://www.bbc.co.uk/news/articles/cqglr0d5jejxo?at_medium=RSS&at_campaign=rss",
+              "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+              "link": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
               "section": "World",
-              "date": "2026-11-24T00:02:15.000Z"
-            }
-          ]
-        },
-        {
-          "name": "DR Congo",
-          "lat": -3,
-          "lon": 23,
-          "count": 1,
-          "bySection": {
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "DR Congo says military aircraft missing as rebels claim to shoot down plane",
-              "link": "https://www.bbc.co.uk/news/articles/cwy7r5z8gg65o?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T19:27:23.000Z"
-            }
-          ]
-        },
-        {
-          "name": "Bangladesh",
-          "lat": 24,
-          "lon": 90,
-          "count": 1,
-          "bySection": {
-            "World": 1
-          },
-          "stories": [
-            {
-              "title": "Bangladesh's ex-PM Sheikh Hasina says she plans to return on 16 December",
-              "link": "https://www.bbc.co.uk/news/articles/c60rk1yj07xeo?at_medium=RSS&at_campaign=rss",
-              "section": "World",
-              "date": "2026-11-24T06:23:01.000Z"
+              "date": "2026-11-25T15:42:50.000Z"
             }
           ]
         },
@@ -7864,32 +7791,49 @@
               "date": "2026-11-24T23:05:11.000Z"
             }
           ]
+        },
+        {
+          "name": "Australia",
+          "lat": -25,
+          "lon": 134,
+          "count": 1,
+          "bySection": {
+            "World": 1
+          },
+          "stories": [
+            {
+              "title": "Solomon Islands ends controversial security pact with China for Australian treaty",
+              "link": "https://www.bbc.co.uk/news/articles/ckdd1z2gvlgno?at_medium=RSS&at_campaign=rss",
+              "section": "World",
+              "date": "2026-11-25T03:15:12.000Z"
+            }
+          ]
         }
       ],
       "topHeadlines": [
         {
-          "title": "Men charged with trespass at Prince and Princess of Wales's home",
-          "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o?at_medium=RSS&at_campaign=rss",
-          "section": "UK"
+          "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+          "link": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o?at_medium=RSS&at_campaign=rss",
+          "section": "World"
         },
         {
-          "title": "Why China has sent Pakistan's first astronaut into space",
-          "link": "https://www.bbc.co.uk/news/videos/c3702x9ejk5ro?at_medium=RSS&at_campaign=rss",
+          "title": "Canadian astronaut welcomes baby girl  from space station",
+          "link": "https://www.bbc.co.uk/news/articles/ckx283y8wwwgo?at_medium=RSS&at_campaign=rss",
           "section": "Science"
         },
         {
-          "title": "Energy bills will soar - here's how you can ease the pain",
-          "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
+          "title": "US stocks fall further as fears over AI intensify",
+          "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
           "section": "Business"
         },
         {
-          "title": "Energy bills to rise by 26% from January",
-          "link": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o?at_medium=RSS&at_campaign=rss",
+          "title": "Man and daughter who dumped body in canal jailed",
+          "link": "https://www.bbc.co.uk/news/articles/cq3dg1r3ypvpo?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         },
         {
-          "title": "Ministers ask public for views on changing age of consent",
-          "link": "https://www.bbc.co.uk/news/articles/cwgkl31kmnddo?at_medium=RSS&at_campaign=rss",
+          "title": "Two men charged with trying to steal cufflinks and clock from Royal home",
+          "link": "https://www.bbc.co.uk/news/articles/cx5y1987dyp6o?at_medium=RSS&at_campaign=rss",
           "section": "UK"
         }
       ],
@@ -7897,17 +7841,17 @@
         {
           "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
           "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-          "points": 619
+          "points": 841
+        },
+        {
+          "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
+          "url": "https://buttons.joshwcomeau.com/",
+          "points": 639
         },
         {
           "title": "The Spray Bottle",
           "url": "https://mechanical-pencil.com/products/spray-bottle",
-          "points": 481
-        },
-        {
-          "title": "Ternary Bonsai 2.5 27B",
-          "url": "https://prismml.com/news/bonsai-2-5-27b",
-          "points": 443
+          "points": 562
         }
       ]
     }
