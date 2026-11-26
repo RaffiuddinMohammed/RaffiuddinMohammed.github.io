@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-25T23:19:24.996Z",
+  "checked": "2026-11-26T05:28:33.847Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -10,13 +10,13 @@
     {
       "name": "GitHub",
       "level": "ok",
-      "note": "LFS degradation for some customers",
+      "note": "All Systems Operational",
       "url": "https://www.githubstatus.com"
     },
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Elevated R2 Latency",
+      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
       "url": "https://www.cloudflarestatus.com"
     },
     {
@@ -92,7 +92,7 @@
       "title": "LFS degradation for some customers",
       "impact": "minor",
       "start": "2026-11-25T23:06:54.830Z",
-      "end": null,
+      "end": "2026-11-26T00:43:01.069Z",
       "url": "https://stspg.io/ywpzwl4yl621"
     },
     {
@@ -100,7 +100,7 @@
       "title": "Elevated R2 Latency",
       "impact": "minor",
       "start": "2026-11-25T20:08:42.535Z",
-      "end": null,
+      "end": "2026-11-26T00:11:05.494Z",
       "url": "https://www.cloudflarestatus.com/incidents/ef6928vi0mic"
     },
     {
