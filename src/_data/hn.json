@@ -1,85 +1,85 @@
 {
-  "updated": "2026-11-25T15:46:48.450Z",
+  "updated": "2026-11-26T15:28:48.103Z",
   "stories": [
     {
-      "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
-      "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-      "discuss": "https://news.ycombinator.com/item?id=50637220",
-      "points": 841,
-      "comments": 465,
+      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+      "url": "https://scottaaronson.blog/?p=10379",
+      "discuss": "https://news.ycombinator.com/item?id=50646108",
+      "points": 1779,
+      "comments": 1622,
+      "domain": "scottaaronson.blog"
+    },
+    {
+      "title": "1Password Security Incident",
+      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+      "discuss": "https://news.ycombinator.com/item?id=50644817",
+      "points": 1557,
+      "comments": 671,
+      "domain": "1password.com"
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+      "discuss": "https://news.ycombinator.com/item?id=50647673",
+      "points": 506,
+      "comments": 425,
+      "domain": "theverge.com"
+    },
+    {
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "url": "https://github.com/lsernau/grh-lean",
+      "discuss": "https://news.ycombinator.com/item?id=50648050",
+      "points": 499,
+      "comments": 314,
       "domain": "github.com"
     },
     {
-      "title": "Button Sounds – collection of professionally-recorded button clicks and presses",
-      "url": "https://buttons.joshwcomeau.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50638032",
-      "points": 639,
-      "comments": 102,
-      "domain": "buttons.joshwcomeau.com"
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "discuss": "https://news.ycombinator.com/item?id=50601280",
+      "points": 424,
+      "comments": 120,
+      "domain": "bjin.github.io"
     },
     {
-      "title": "The Spray Bottle",
-      "url": "https://mechanical-pencil.com/products/spray-bottle",
-      "discuss": "https://news.ycombinator.com/item?id=50598555",
-      "points": 562,
-      "comments": 131,
-      "domain": "mechanical-pencil.com"
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "discuss": "https://news.ycombinator.com/item?id=50651117",
+      "points": 387,
+      "comments": 214,
+      "domain": "twitter.com"
     },
     {
-      "title": "Ternary Bonsai 2.5 27B",
-      "url": "https://prismml.com/news/bonsai-2-5-27b",
-      "discuss": "https://news.ycombinator.com/item?id=50633922",
-      "points": 505,
-      "comments": 153,
-      "domain": "prismml.com"
+      "title": "Slow Ubuntu security response times",
+      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+      "discuss": "https://news.ycombinator.com/item?id=50647181",
+      "points": 359,
+      "comments": 196,
+      "domain": "openwall.com"
     },
     {
-      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
-      "url": "https://news.ycombinator.com/item?id=50630809",
-      "discuss": "https://news.ycombinator.com/item?id=50630809",
-      "points": 396,
-      "comments": 307,
+      "title": "Tell HN: Lots of Ask HNs again",
+      "url": "https://news.ycombinator.com/item?id=50649864",
+      "discuss": "https://news.ycombinator.com/item?id=50649864",
+      "points": 338,
+      "comments": 135,
       "domain": "news.ycombinator.com"
     },
     {
-      "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
-      "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
-      "discuss": "https://news.ycombinator.com/item?id=50637686",
-      "points": 358,
-      "comments": 148,
-      "domain": "lesswrong.com"
+      "title": "Collection of preserved UI style guides",
+      "url": "https://aresluna.org/ui-style-guides/",
+      "discuss": "https://news.ycombinator.com/item?id=50649834",
+      "points": 311,
+      "comments": 53,
+      "domain": "aresluna.org"
     },
     {
-      "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
-      "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
-      "discuss": "https://news.ycombinator.com/item?id=50637890",
-      "points": 341,
-      "comments": 119,
-      "domain": "rida.dev"
-    },
-    {
-      "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
-      "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-      "discuss": "https://news.ycombinator.com/item?id=50637056",
-      "points": 339,
-      "comments": 60,
-      "domain": "greydanus.github.io"
-    },
-    {
-      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
-      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
-      "discuss": "https://news.ycombinator.com/item?id=50634658",
-      "points": 318,
-      "comments": 92,
-      "domain": "openai.com"
-    },
-    {
-      "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
-      "url": "https://gpu-demo-gallery.pages.dev/",
-      "discuss": "https://news.ycombinator.com/item?id=50638503",
-      "points": 250,
-      "comments": 52,
-      "domain": "gpu-demo-gallery.pages.dev"
+      "title": "Intel One Mono font",
+      "url": "https://github.com/intel/intel-one-mono",
+      "discuss": "https://news.ycombinator.com/item?id=50653667",
+      "points": 262,
+      "comments": 158,
+      "domain": "github.com"
     }
   ],
   "totalPoints": null,

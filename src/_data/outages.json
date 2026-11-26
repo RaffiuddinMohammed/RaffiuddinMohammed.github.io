@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-26T05:28:33.847Z",
+  "checked": "2026-11-26T15:34:31.967Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -16,13 +16,13 @@
     {
       "name": "Cloudflare",
       "level": "minor",
-      "note": "Changes to Cloudflare Workers are not producing Event Subscription events",
+      "note": "AI Gateway – Elevated errors for Gemini 4 models using Unified Billing",
       "url": "https://www.cloudflarestatus.com"
     },
     {
       "name": "OpenAI",
-      "level": "minor",
-      "note": "Elevated errors with Codex GitHub reviews and pull request merges",
+      "level": "ok",
+      "note": "All Systems Operational",
       "url": "https://status.openai.com"
     },
     {
@@ -88,6 +88,38 @@
   ],
   "incidents": [
     {
+      "service": "Cloudflare",
+      "title": "Workers AI - Deepseek Flash increased errors",
+      "impact": "minor",
+      "start": "2026-11-26T14:41:21.826Z",
+      "end": "2026-11-26T14:42:37.764Z",
+      "url": "https://www.cloudflarestatus.com/incidents/6crqy1zulybd"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "AI Gateway – Elevated errors for Gemini 4 models using Unified Billing",
+      "impact": "minor",
+      "start": "2026-11-26T14:19:51.141Z",
+      "end": null,
+      "url": "https://www.cloudflarestatus.com/incidents/filussqshtfq"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare Billing Issues",
+      "impact": "minor",
+      "start": "2026-11-26T09:28:58.473Z",
+      "end": "2026-11-26T09:37:54.438Z",
+      "url": "https://www.cloudflarestatus.com/incidents/qlwszxx4667e"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "RealTimeKit Recording Delays",
+      "impact": "minor",
+      "start": "2026-11-26T09:26:11.090Z",
+      "end": "2026-11-26T10:05:20.593Z",
+      "url": "https://www.cloudflarestatus.com/incidents/mkudgr09g9ax"
+    },
+    {
       "service": "GitHub",
       "title": "LFS degradation for some customers",
       "impact": "minor",
@@ -124,7 +156,7 @@
       "title": "Elevated errors with Codex GitHub reviews and pull request merges",
       "impact": "minor",
       "start": "2026-11-25T16:27:02Z",
-      "end": null,
+      "end": "2026-11-26T14:07:54Z",
       "url": "https://status.openai.com"
     },
     {
@@ -576,22 +608,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/dpao7idy3zei"
     },
     {
-      "service": "Cloudflare",
-      "title": "Increased errors for R2 and Tiered Cache",
-      "impact": "minor",
-      "start": "2026-11-14T05:30:35.270Z",
-      "end": "2026-11-14T06:45:47.731Z",
-      "url": "https://www.cloudflarestatus.com/incidents/a643zcsfc71q"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Issues with 1.1.1.1 public resolver in Canada",
-      "impact": "minor",
-      "start": "2026-11-13T23:53:18.687Z",
-      "end": "2026-11-14T01:01:17.641Z",
-      "url": "https://www.cloudflarestatus.com/incidents/rikplz89rpml"
-    },
-    {
       "service": "GitHub",
       "title": "Copilot experiencing degraded model availability for some GPT models",
       "impact": "minor",
@@ -622,22 +638,6 @@
       "start": "2026-11-13T15:31:13.773Z",
       "end": "2026-11-14T13:37:40.811Z",
       "url": "https://www.cloudflarestatus.com/incidents/e7ktq32gphhe"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Cloudflare is currently having an issue with the r8.im registry used for Replicate model publishing and builds is currently restricted",
-      "impact": "minor",
-      "start": "2026-11-13T14:55:26.179Z",
-      "end": "2026-11-14T00:51:29.308Z",
-      "url": "https://www.cloudflarestatus.com/incidents/mc91s22odfvf"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Elevated error rate for workers startup",
-      "impact": "minor",
-      "start": "2026-11-13T13:54:01.333Z",
-      "end": "2026-11-13T15:16:06.470Z",
-      "url": "https://www.cloudflarestatus.com/incidents/y03on2svrrxt"
     },
     {
       "service": "Microsoft 365",
@@ -991,14 +991,6 @@
       "start": "2026-10-27T22:14:46.900Z",
       "end": "2026-10-28T01:55:12.407Z",
       "url": "https://stspg.io/b16t5y07v5l4"
-    },
-    {
-      "service": "OpenAI",
-      "title": "6.1 Sol Degraded Model Performance",
-      "impact": "minor",
-      "start": "2026-10-27T15:02:15Z",
-      "end": "2026-10-27T16:20:06Z",
-      "url": "https://status.openai.com"
     }
   ],
   "tracked": [

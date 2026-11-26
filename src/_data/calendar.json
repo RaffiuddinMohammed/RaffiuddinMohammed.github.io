@@ -1,76 +1,6 @@
 {
-  "updated": "2026-11-25T15:46:46.225Z",
+  "updated": "2026-11-26T15:28:46.554Z",
   "days": [
-    {
-      "date": "2026-11-25",
-      "label": "Wed 25 Nov",
-      "closed": null,
-      "early": null,
-      "earnings": [
-        {
-          "symbol": "DE",
-          "name": "Deere & Company",
-          "cap": 170680975000,
-          "when": "before",
-          "eps": "$4.07",
-          "big": true,
-          "mag7": false,
-          "capText": "$171B"
-        },
-        {
-          "symbol": "LI",
-          "name": "Li Auto",
-          "cap": 10456837100,
-          "when": "before",
-          "eps": "−$0.08",
-          "big": false,
-          "mag7": false,
-          "capText": "$10B"
-        }
-      ],
-      "events": [
-        {
-          "country": "US",
-          "what": "Durable goods orders",
-          "name": "Core Durable Goods Orders",
-          "time": "13:30",
-          "previous": "0.5%",
-          "consensus": "0.5%"
-        },
-        {
-          "country": "US",
-          "what": "Inflation (PCE, the Fed's favourite gauge)",
-          "name": "Core PCE Price Index",
-          "time": "13:30",
-          "previous": "3.1%",
-          "consensus": "3.2%"
-        },
-        {
-          "country": "US",
-          "what": "GDP (economic growth)",
-          "name": "GDP",
-          "time": "13:30",
-          "previous": "2.2%",
-          "consensus": "3.4%"
-        },
-        {
-          "country": "US",
-          "what": "Weekly jobless claims",
-          "name": "Initial Jobless Claims",
-          "time": "13:30",
-          "previous": "202K",
-          "consensus": "201K"
-        },
-        {
-          "country": "UK",
-          "what": "Central bank chief speaks",
-          "name": "BoE Gov Bailey Speaks",
-          "time": "14:15",
-          "previous": null,
-          "consensus": null
-        }
-      ]
-    },
     {
       "date": "2026-11-26",
       "label": "Thu 26 Nov",
@@ -226,7 +156,7 @@
           "name": "The Bank of Nova Scotia",
           "cap": 104282898000,
           "when": "before",
-          "eps": "$1.55",
+          "eps": "$1.54",
           "big": true,
           "mag7": false,
           "capText": "$104B"
@@ -273,19 +203,19 @@
         {
           "symbol": "RY",
           "name": "Royal Bank Of Canada",
-          "cap": 260480729000,
+          "cap": 261535613000,
           "when": "before",
-          "eps": "$2.93",
+          "eps": "$2.94",
           "big": true,
           "mag7": false,
-          "capText": "$260B"
+          "capText": "$262B"
         },
         {
           "symbol": "TD",
           "name": "The Toronto Dominion Bank",
-          "cap": 188952560000,
+          "cap": 188859302000,
           "when": "before",
-          "eps": "$1.77",
+          "eps": "$1.76",
           "big": true,
           "mag7": false,
           "capText": "$189B"
@@ -293,7 +223,7 @@
         {
           "symbol": "CM",
           "name": "Canadian Imperial Bank of Commerce",
-          "cap": 95740314000,
+          "cap": 96009904000,
           "when": "before",
           "eps": "$1.72",
           "big": false,
@@ -303,39 +233,39 @@
         {
           "symbol": "VEEV",
           "name": "Veeva Systems",
-          "cap": 43496813000,
+          "cap": 44301500000,
           "when": "after",
           "eps": "$1.68",
           "big": false,
           "mag7": false,
-          "capText": "$43B"
+          "capText": "$44B"
         },
         {
           "symbol": "KR",
           "name": "The Kroger Company",
-          "cap": 39658033000,
+          "cap": 41412080000,
           "when": "before",
           "eps": "$1.17",
           "big": false,
           "mag7": false,
-          "capText": "$40B"
+          "capText": "$41B"
         },
         {
           "symbol": "DG",
           "name": "Dollar General",
-          "cap": 29602361300,
+          "cap": 30588518400,
           "when": "before",
           "eps": "$1.40",
           "big": false,
           "mag7": false,
-          "capText": "$30B"
+          "capText": "$31B"
         },
         {
           "symbol": "ULTA",
           "name": "Ulta Beauty",
-          "cap": 26724274200,
+          "cap": 27407538200,
           "when": "after",
-          "eps": "$5.62",
+          "eps": "$5.64",
           "big": false,
           "mag7": false,
           "capText": "$27B"
@@ -343,7 +273,7 @@
         {
           "symbol": "IOT",
           "name": "Samsara",
-          "cap": 22703913000,
+          "cap": 23084558300,
           "when": "after",
           "eps": "$0.03",
           "big": false,
@@ -353,17 +283,17 @@
         {
           "symbol": "DOCU",
           "name": "DocuSign",
-          "cap": 14398964700,
+          "cap": 14959672300,
           "when": "after",
           "eps": "$0.53",
           "big": false,
           "mag7": false,
-          "capText": "$14B"
+          "capText": "$15B"
         },
         {
           "symbol": "BF.A",
           "name": "Brown Forman",
-          "cap": 13586970600,
+          "cap": 14050423800,
           "when": "before",
           "eps": null,
           "big": false,
@@ -373,7 +303,7 @@
         {
           "symbol": "HRL",
           "name": "Hormel Foods",
-          "cap": 12702096400,
+          "cap": 12806663200,
           "when": "before",
           "eps": "$0.38",
           "big": false,
@@ -383,7 +313,7 @@
         {
           "symbol": "GWRE",
           "name": "Guidewire Software",
-          "cap": 11729498100,
+          "cap": 12045149200,
           "when": "after",
           "eps": "$0.36",
           "big": false,
@@ -393,15 +323,73 @@
         {
           "symbol": "COO",
           "name": "The Cooper Companies",
-          "cap": 11451151400,
+          "cap": 11660322800,
           "when": "after",
           "eps": "$1.07",
           "big": false,
           "mag7": false,
-          "capText": "$11B"
+          "capText": "$12B"
         }
       ],
-      "events": []
+      "events": [
+        {
+          "country": "UK",
+          "what": "Business activity (PMI)",
+          "name": "S&P Global Composite PMI",
+          "time": "09:30",
+          "previous": "52.3",
+          "consensus": "52.3"
+        },
+        {
+          "country": "US",
+          "what": "Weekly jobless claims",
+          "name": "Initial Jobless Claims",
+          "time": "13:30",
+          "previous": "189K",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Business activity (PMI)",
+          "name": "S&P Global Composite PMI",
+          "time": "14:45",
+          "previous": "55.9",
+          "consensus": "54.6"
+        }
+      ]
+    },
+    {
+      "date": "2026-12-04",
+      "label": "Fri 4 Dec",
+      "closed": null,
+      "early": null,
+      "earnings": [],
+      "events": [
+        {
+          "country": "US",
+          "what": "US jobs report",
+          "name": "Nonfarm Payrolls",
+          "time": "13:30",
+          "previous": "165K",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Unemployment rate",
+          "name": "U6 Unemployment Rate",
+          "time": "13:30",
+          "previous": "7.9%",
+          "consensus": null
+        },
+        {
+          "country": "US",
+          "what": "Consumer sentiment (Michigan)",
+          "name": "Michigan Consumer Sentiment",
+          "time": "15:00",
+          "previous": "51.5",
+          "consensus": null
+        }
+      ]
     }
   ]
 }

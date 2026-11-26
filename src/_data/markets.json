@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-25T15:46:04.110Z",
-  "headlineCount": 82,
+  "updated": "2026-11-26T15:28:03.476Z",
+  "headlineCount": 86,
   "sources": [
     {
       "name": "CNBC",
-      "count": 15
+      "count": 17
     },
     {
       "name": "Yahoo Finance",
-      "count": 37
+      "count": 40
     },
     {
       "name": "MarketWatch",
@@ -16,226 +16,226 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 15
+      "count": 12
     },
     {
       "name": "Interest rates",
-      "count": 7
-    },
-    {
-      "name": "Inflation",
-      "count": 7
-    },
-    {
-      "name": "Earnings",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Trade and tariffs",
-      "count": 4
+      "count": 5
+    },
+    {
+      "name": "Inflation",
+      "count": 3
+    },
+    {
+      "name": "Earnings",
+      "count": 2
+    },
+    {
+      "name": "Jobs",
+      "count": 1
     },
     {
       "name": "Oil and energy",
       "count": 1
     },
     {
-      "name": "Housing",
-      "count": 1
-    },
-    {
-      "name": "Jobs",
+      "name": "Crypto",
       "count": 0
     },
     {
-      "name": "Crypto",
+      "name": "Housing",
       "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 10
-    },
-    {
-      "name": "Alphabet",
-      "count": 2
-    },
-    {
-      "name": "Amazon",
-      "count": 1
-    },
-    {
-      "name": "Tesla",
-      "count": 1
+      "count": 9
     },
     {
       "name": "Apple",
-      "count": 0
+      "count": 3
     },
     {
       "name": "Microsoft",
+      "count": 1
+    },
+    {
+      "name": "Alphabet",
+      "count": 0
+    },
+    {
+      "name": "Amazon",
       "count": 0
     },
     {
       "name": "Meta",
       "count": 0
+    },
+    {
+      "name": "Tesla",
+      "count": 0
     }
   ],
   "latest": [
     {
-      "title": "US new home sales surge to 10-month high in October",
-      "link": "https://www.investing.com/news/economy-news/us-new-home-sales-surge-to-10month-high-in-october-5051164",
-      "date": "2026-11-25T15:43:13.000Z",
+      "title": "Spain's Pablo Hernández de Cos set to lead European Central Bank",
+      "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+      "date": "2026-11-26T15:27:13.000Z",
+      "source": "CNBC"
+    },
+    {
+      "title": "US Marlboro maker Altria explores Imperial Brands takeover in Big Tobacco mega deal",
+      "link": "https://www.investing.com/news/stock-market-news/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands-5052558",
+      "date": "2026-11-26T15:24:22.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Macy's options signal 7.3% move ahead of Dec. 2 earnings",
-      "link": "https://www.investing.com/news/stock-market-news/macys-options-signal-73-move-ahead-of-dec-2-earnings-93CH-5051163",
-      "date": "2026-11-25T15:43:08.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Nvidia’s stock is giving back more than half of Monday’s rally as dip buyers cash in",
-      "link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
-      "date": "2026-11-25T15:43:00.000Z",
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "date": "2026-11-26T15:13:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Analysis-Venezuela data deluge cheers investors, but $237 billion debt test lies ahead",
-      "link": "https://www.investing.com/news/economy-news/analysisvenezuela-data-deluge-cheers-investors-but-237-billion-debt-test-lies-ahead-5051153",
-      "date": "2026-11-25T15:42:57.000Z",
+      "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.90%",
+      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-090-5052572",
+      "date": "2026-11-26T15:10:03.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "US grocers serve up Thanksgiving deals even as turkey prices climb",
-      "link": "https://www.investing.com/news/stock-market-news/us-grocers-serve-up-thanksgiving-deals-even-as-turkey-prices-climb-5050352",
-      "date": "2026-11-25T15:42:45.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why is Vertiv stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-vertiv-stock-sliding-today-93CH-5051161",
-      "date": "2026-11-25T15:42:28.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "American Eagle options signal 13% move around Dec. 2 earnings",
-      "link": "https://www.investing.com/news/stock-market-news/american-eagle-options-signal-13-move-around-dec-2-earnings-93CH-5051160",
-      "date": "2026-11-25T15:42:08.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Tesla and SpaceX stocks sink as merger concerns mount",
-      "link": "https://finance.yahoo.com/markets/stocks/article/tesla-and-spacex-stocks-sink-as-merger-concerns-mount-154159372.html?.tsrc=rss",
-      "date": "2026-11-25T15:41:59.000Z",
+      "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk's FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
+      "link": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/?.tsrc=rss",
+      "date": "2026-11-26T15:08:35.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Netskope options signal 18% move ahead of earnings",
-      "link": "https://www.investing.com/news/stock-market-news/netskope-options-signal-18-move-ahead-of-earnings-93CH-5051159",
-      "date": "2026-11-25T15:41:10.000Z",
+      "title": "If You Invest $1,000 in Apple Today, Here's What It Could Be Worth by 2029",
+      "link": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/?.tsrc=rss",
+      "date": "2026-11-26T15:03:38.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "ECB turns to crisis veteran De Cos as new strains loom",
+      "link": "https://www.investing.com/news/economy-news/ecb-turns-to-crisis-veteran-de-cos-as-new-strains-loom-5052567",
+      "date": "2026-11-26T15:00:41.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Visiting Las Vegas is getting too expensive — but don’t blame airfares",
-      "link": "https://www.marketwatch.com/story/visiting-las-vegas-is-getting-too-expensive-but-dont-blame-airfares-12e2c588?mod=mw_rss_topstories",
-      "date": "2026-11-25T15:41:00.000Z",
+      "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
+      "link": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
+      "date": "2026-11-26T15:00:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "AI's self-improvement era is nearly here. It will be felt everywhere",
+      "link": "https://finance.yahoo.com/video/ais-self-improvement-era-nearly-150000618.html?.tsrc=rss",
+      "date": "2026-11-26T15:00:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Sage's AI and cloud potential underpins Citi's £12.75 target",
+      "link": "https://www.proactiveinvestors.com/companies/news/1102524/sage-s-ai-and-cloud-potential-underpins-citi-s-12-75-target-1102524.html?.tsrc=rss",
+      "date": "2026-11-26T15:00:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "ETO Markets Marks 13th Anniversary With “Race Beyond Limits” Global Brand Strategy",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/eto-markets-marks-13th-anniversary-145900039.html?.tsrc=rss",
+      "date": "2026-11-26T14:59:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Brazil's finance minister to meet Lula on further fiscal measures",
+      "link": "https://www.investing.com/news/economy-news/brazils-finance-ministerto-meet-lula-on-further-fiscal-measures-5052560",
+      "date": "2026-11-26T14:54:35.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Michael Burry Just Flipped Bullish and Went on a Shopping Spree for Stocks",
+      "link": "https://247wallst.com/investing/2026/11/26/michael-burry-just-flipped-bullish-and-went-on-a-shopping-spree-for-stocks/?.tsrc=rss",
+      "date": "2026-11-26T14:52:16.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
+      "link": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
+      "date": "2026-11-26T14:51:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Dow Investors Chased Tech Swings—While Amgen Quietly Surged 77%",
+      "link": "https://finance.yahoo.com/healthcare/articles/dow-investors-chased-tech-swings-144540662.html?.tsrc=rss",
+      "date": "2026-11-26T14:45:40.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Stocks' Swoon and Higher Interest Rates Are a Bad Combo for the Economy",
+      "link": "https://finance.yahoo.com/m/faf3cdb5-65de-33b2-bf66-cb69fde1728a/stocks%E2%80%99-swoon-and-higher.html?.tsrc=rss",
+      "date": "2026-11-26T14:44:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "TSX opens higher, extending rebound after whipsaw session",
+      "link": "https://www.investing.com/news/stock-market-news/canadas-tsx-futures-flat-in-holidaythinned-trade--and-macklems-warning-5052325",
+      "date": "2026-11-26T14:37:43.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
+      "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
+      "date": "2026-11-26T14:35:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Why is Taiwan Semiconductor Manufacturing stock plunging today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-taiwan-semiconductor-manufacturing-stock-plunging-today-93CH-5051157",
-      "date": "2026-11-25T15:39:56.000Z",
+      "title": "Instant View: Spain's De Cos set to be nominated by EU leaders as next ECB chief",
+      "link": "https://www.investing.com/news/economy-news/instant-view-spains-de-cos-set-to-be-nominated-by-eu-leaders-as-next-ecb-chief-5052548",
+      "date": "2026-11-26T14:30:27.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Why is CrowdStrike stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-crowdstrike-stock-sliding-today-93CH-5051154",
-      "date": "2026-11-25T15:38:08.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "CoreWeave bonds plunge as 2031 yield surges to 17.91%; Shares drop 10%",
-      "link": "https://www.investing.com/news/stock-market-news/coreweave-bonds-plunge-as-2031-yield-surges-to-1791-shares-drop-10-5051151",
-      "date": "2026-11-25T15:37:49.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Why Sandisk Stock Just Dropped Again",
-      "link": "https://www.fool.com/investing/2026/11/25/why-sandisk-stock-just-dropped-again/?.tsrc=rss",
-      "date": "2026-11-25T15:36:44.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "TeraWulf's $19 Billion Anthropic Deal: “That Debt Is Guaranteed by Google.” That's a Big Risk for Alphabet",
-      "link": "https://www.tikr.com/blog/terawulfs-19-billion-anthropic-deal-that-debt-is-guaranteed-by-google-thats-a-big-risk-for-alphabet?ref=yahoofinance&tlnk=yf-261125-gpcr4r7f&.tsrc=rss",
-      "date": "2026-11-25T15:36:42.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Lam Research stock tumbling today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-lam-research-stock-tumbling-today-93CH-5051152",
-      "date": "2026-11-25T15:36:13.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "North America Automated Guided Vehicle - Market Size, Share, Trends, and Forecasts, 2026-2031 | E-Commerce and AI Drive 12.19% CAGR and a USD 3.29 Billion Market",
-      "link": "https://finance.yahoo.com/technology/articles/north-america-automated-guided-vehicle-153500079.html?.tsrc=rss",
-      "date": "2026-11-25T15:35:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Why is Applied Materials stock sliding today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-applied-materials-stock-sliding-today-93CH-5051147",
-      "date": "2026-11-25T15:33:41.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Investing rules for those checking stocks during the Thanksgiving holiday",
-      "link": "https://finance.yahoo.com/video/investing-rules-for-those-checking-stocks-during-the-thanksgiving-holiday-153334098.html?.tsrc=rss",
-      "date": "2026-11-25T15:33:34.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "The CIA, FBI, and US Treasury were all hit by cyberattacks: What to know",
-      "link": "https://finance.yahoo.com/video/the-cia-fbi-and-us-treasury-were-all-hit-by-cyberattacks-what-to-know-153304373.html?.tsrc=rss",
-      "date": "2026-11-25T15:33:04.000Z",
+      "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
+      "link": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/?.tsrc=rss",
+      "date": "2026-11-26T14:28:07.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "US new home sales surge to 10-month high in October",
-      "link": "https://www.investing.com/news/economy-news/us-new-home-sales-surge-to-10month-high-in-october-5051164",
-      "date": "2026-11-25T15:43:13.000Z",
+      "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.90%",
+      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-090-5052572",
+      "date": "2026-11-26T15:10:03.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Nvidia’s stock is giving back more than half of Monday’s rally as dip buyers cash in",
-      "link": "https://www.marketwatch.com/story/nvidias-stock-is-giving-back-more-than-half-of-mondays-rally-as-dip-buyers-cash-in-ee4fa52c?mod=mw_rss_topstories",
-      "date": "2026-11-25T15:43:00.000Z",
-      "source": "MarketWatch"
+      "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
+      "link": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
+      "date": "2026-11-26T15:00:00.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "Tesla and SpaceX stocks sink as merger concerns mount",
-      "link": "https://finance.yahoo.com/markets/stocks/article/tesla-and-spacex-stocks-sink-as-merger-concerns-mount-154159372.html?.tsrc=rss",
-      "date": "2026-11-25T15:41:59.000Z",
-      "source": "Yahoo Finance"
+      "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
+      "link": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
+      "date": "2026-11-26T14:00:00.000Z",
+      "source": "MarketWatch"
     }
   ],
   "yields": {
     "latest": {
-      "date": "2026-11-24",
-      "y3m": 4.36,
-      "y2": 4.63,
-      "y10": 4.91,
-      "y30": 5.3
+      "date": "2026-11-25",
+      "y3m": 4.34,
+      "y2": 4.61,
+      "y10": 4.85,
+      "y30": 5.24
     },
     "monthAgo": {
       "date": "2026-10-26",
@@ -246,13 +246,6 @@
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-26",
-        "y3m": 3.85,
-        "y2": 4.19,
-        "y10": 4.66,
-        "y30": 5.18
-      },
       {
         "date": "2026-08-27",
         "y3m": 3.84,
@@ -679,6 +672,13 @@
         "y2": 4.63,
         "y10": 4.91,
         "y30": 5.3
+      },
+      {
+        "date": "2026-11-25",
+        "y3m": 4.34,
+        "y2": 4.61,
+        "y10": 4.85,
+        "y30": 5.24
       }
     ]
   }
