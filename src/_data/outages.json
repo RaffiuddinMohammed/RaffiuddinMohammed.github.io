@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T15:23:56.197Z",
+  "checked": "2026-11-27T18:56:43.859Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -967,14 +967,6 @@
       "start": "2026-10-29T10:19:55.318Z",
       "end": "2026-10-29T12:49:52.145Z",
       "url": "https://stspg.io/22p3vp78z20q"
-    },
-    {
-      "service": "Stripe",
-      "title": "Elevated Issuing errors from 17:13 - 20:41 UTC",
-      "impact": "minor",
-      "start": "2026-10-28T17:39:01.872Z",
-      "end": "2026-10-28T22:15:06.958Z",
-      "url": "https://stspg.io/kj9ch2nd498j"
     }
   ],
   "tracked": [
