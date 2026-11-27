@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-26T15:28:03.476Z",
-  "headlineCount": 86,
+  "updated": "2026-11-27T15:17:07.169Z",
+  "headlineCount": 83,
   "sources": [
     {
       "name": "CNBC",
-      "count": 17
+      "count": 14
     },
     {
       "name": "Yahoo Finance",
-      "count": 40
+      "count": 39
     },
     {
       "name": "MarketWatch",
@@ -16,59 +16,63 @@
     },
     {
       "name": "Investing.com",
-      "count": 19
+      "count": 20
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 12
+      "count": 15
     },
     {
       "name": "Interest rates",
-      "count": 8
-    },
-    {
-      "name": "Trade and tariffs",
       "count": 5
     },
     {
-      "name": "Inflation",
-      "count": 3
-    },
-    {
       "name": "Earnings",
-      "count": 2
+      "count": 4
     },
     {
       "name": "Jobs",
-      "count": 1
+      "count": 3
+    },
+    {
+      "name": "Inflation",
+      "count": 2
+    },
+    {
+      "name": "Trade and tariffs",
+      "count": 2
     },
     {
       "name": "Oil and energy",
       "count": 1
     },
     {
-      "name": "Crypto",
-      "count": 0
+      "name": "Housing",
+      "count": 1
     },
     {
-      "name": "Housing",
+      "name": "Crypto",
       "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Apple",
-      "count": 3
+      "count": 1
+    },
+    {
+      "name": "Tesla",
+      "count": 1
     },
     {
       "name": "Microsoft",
-      "count": 1
+      "count": 0
     },
     {
       "name": "Alphabet",
@@ -81,152 +85,148 @@
     {
       "name": "Meta",
       "count": 0
-    },
-    {
-      "name": "Tesla",
-      "count": 0
     }
   ],
   "latest": [
     {
-      "title": "Spain's Pablo Hernández de Cos set to lead European Central Bank",
-      "link": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
-      "date": "2026-11-26T15:27:13.000Z",
-      "source": "CNBC"
+      "title": "XPENG Maps Out 2027 Robotaxi Launch and Mass Production of IRON Humanoid Robot",
+      "link": "https://www.marketbeat.com/instant-alerts/event-xpeng-maps-out-2027-robotaxi-launch-and-mass-production-of-iron-humanoid-robot-2026-11-27/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+      "date": "2026-11-27T15:12:39.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "US Marlboro maker Altria explores Imperial Brands takeover in Big Tobacco mega deal",
-      "link": "https://www.investing.com/news/stock-market-news/marlboro-maker-altria-explores-takeover-of-uks-imperial-brands-5052558",
-      "date": "2026-11-26T15:24:22.000Z",
-      "source": "Investing.com"
+      "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+      "link": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
+      "date": "2026-11-27T15:12:18.000Z",
+      "source": "Yahoo Finance"
     },
     {
-      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
-      "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
-      "date": "2026-11-26T15:13:00.000Z",
+      "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
+      "link": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
+      "date": "2026-11-27T15:09:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jim Cramer offers an unusual explanation for Nvidia stock's price",
+      "link": "https://www.thestreet.com/investing/stocks/jim-cramer-offers-an-unusual-explanation-for-nvidia-stocks-price?.tsrc=rss",
+      "date": "2026-11-27T15:07:00.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Berkshire Hathaway's CEO, Greg Abel, Just Bought $9.6 Billion Worth of 1 of Buffett's Favorite Stocks",
+      "link": "https://www.fool.com/investing/2026/11/27/berkshire-hathaway-s-ceo-greg-abel-just-bought-usd9-6-billion-worth-of-1-of-buffett-s-favorite-stocks/?.tsrc=rss",
+      "date": "2026-11-27T15:05:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "My friends play ‘credit-card roulette’ to see who pays for dinner — but one ‘winner’ still Venmoed me afterward. Should I say something?",
+      "link": "https://www.marketwatch.com/story/my-friends-play-credit-card-roulette-to-see-who-pays-for-dinner-but-one-winner-still-venmoed-me-afterward-should-i-say-something-0a657eee?mod=mw_rss_topstories",
+      "date": "2026-11-27T15:04:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.90%",
-      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-090-5052572",
-      "date": "2026-11-26T15:10:03.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk's FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price?",
-      "link": "https://247wallst.com/investing/2026/11/26/spacex-just-slid-11-in-a-week-can-elon-musks-fcc-win-for-1-million-satellites-get-spcx-stock-back-above-its-135-ipo-price/?.tsrc=rss",
-      "date": "2026-11-26T15:08:35.000Z",
+      "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
+      "link": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
+      "date": "2026-11-27T15:03:13.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "If You Invest $1,000 in Apple Today, Here's What It Could Be Worth by 2029",
-      "link": "https://247wallst.com/investing/2026/11/26/if-you-invest-1000-in-apple-today-heres-what-it-could-be-worth-by-2029/?.tsrc=rss",
-      "date": "2026-11-26T15:03:38.000Z",
+      "title": "Anthropic Gains 4%, Climbs Back Above $83 IPO Price as Cathie Wood Keeps Buying; SpaceX Rises 3%, Nebius Advances 2%",
+      "link": "https://247wallst.com/investing/2026/11/27/anthropic-gains-4-climbs-back-above-83-ipo-price-as-cathie-wood-keeps-buying-spacex-rises-3-nebius-advances-2/?.tsrc=rss",
+      "date": "2026-11-27T15:02:13.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "ECB turns to crisis veteran De Cos as new strains loom",
-      "link": "https://www.investing.com/news/economy-news/ecb-turns-to-crisis-veteran-de-cos-as-new-strains-loom-5052567",
-      "date": "2026-11-26T15:00:41.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
-      "link": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
-      "date": "2026-11-26T15:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "AI's self-improvement era is nearly here. It will be felt everywhere",
-      "link": "https://finance.yahoo.com/video/ais-self-improvement-era-nearly-150000618.html?.tsrc=rss",
-      "date": "2026-11-26T15:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Sage's AI and cloud potential underpins Citi's £12.75 target",
-      "link": "https://www.proactiveinvestors.com/companies/news/1102524/sage-s-ai-and-cloud-potential-underpins-citi-s-12-75-target-1102524.html?.tsrc=rss",
-      "date": "2026-11-26T15:00:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "ETO Markets Marks 13th Anniversary With “Race Beyond Limits” Global Brand Strategy",
-      "link": "https://finance.yahoo.com/markets/currencies/articles/eto-markets-marks-13th-anniversary-145900039.html?.tsrc=rss",
-      "date": "2026-11-26T14:59:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Brazil's finance minister to meet Lula on further fiscal measures",
-      "link": "https://www.investing.com/news/economy-news/brazils-finance-ministerto-meet-lula-on-further-fiscal-measures-5052560",
-      "date": "2026-11-26T14:54:35.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Michael Burry Just Flipped Bullish and Went on a Shopping Spree for Stocks",
-      "link": "https://247wallst.com/investing/2026/11/26/michael-burry-just-flipped-bullish-and-went-on-a-shopping-spree-for-stocks/?.tsrc=rss",
-      "date": "2026-11-26T14:52:16.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
-      "link": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
-      "date": "2026-11-26T14:51:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Dow Investors Chased Tech Swings—While Amgen Quietly Surged 77%",
-      "link": "https://finance.yahoo.com/healthcare/articles/dow-investors-chased-tech-swings-144540662.html?.tsrc=rss",
-      "date": "2026-11-26T14:45:40.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Stocks' Swoon and Higher Interest Rates Are a Bad Combo for the Economy",
-      "link": "https://finance.yahoo.com/m/faf3cdb5-65de-33b2-bf66-cb69fde1728a/stocks%E2%80%99-swoon-and-higher.html?.tsrc=rss",
-      "date": "2026-11-26T14:44:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "TSX opens higher, extending rebound after whipsaw session",
-      "link": "https://www.investing.com/news/stock-market-news/canadas-tsx-futures-flat-in-holidaythinned-trade--and-macklems-warning-5052325",
-      "date": "2026-11-26T14:37:43.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
-      "link": "https://www.marketwatch.com/story/this-retired-professor-has-reinvented-himself-as-a-taylor-swift-scholar-88456c8d?mod=mw_rss_topstories",
-      "date": "2026-11-26T14:35:00.000Z",
+      "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
+      "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
+      "date": "2026-11-27T15:01:00.000Z",
       "source": "MarketWatch"
     },
     {
-      "title": "Instant View: Spain's De Cos set to be nominated by EU leaders as next ECB chief",
-      "link": "https://www.investing.com/news/economy-news/instant-view-spains-de-cos-set-to-be-nominated-by-eu-leaders-as-next-ecb-chief-5052548",
-      "date": "2026-11-26T14:30:27.000Z",
+      "title": "Why is Anthropic stock climbing today?",
+      "link": "https://www.investing.com/news/stock-market-news/why-is-anthropic-stock-climbing-today-93CH-5053614",
+      "date": "2026-11-27T15:00:58.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "SpaceX Gets the First U.S. Approval for Data Centers in Space",
-      "link": "https://247wallst.com/investing/2026/11/26/spacex-gets-the-first-u-s-approval-for-data-centers-in-space/?.tsrc=rss",
-      "date": "2026-11-26T14:28:07.000Z",
+      "title": "Vinci Compass Investments (VINP) Stock Is Up 5.3% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/vinci-compass-investments-vinp-stock-150036098.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:36.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Lifezone Metals (LZM) Stock Is Up 12.9% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/lifezone-metals-lzm-stock-12-150033456.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:33.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Alvotech (ALVO) Stock Is Down 10.8% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alvotech-alvo-stock-down-10-150033325.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:33.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Afya (AFYA) Stock Is Up 14.1% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/afya-afya-stock-14-1-150021123.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:21.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Icahn Enterprises (IEP) Stock Is Up 6.2% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/icahn-enterprises-iep-stock-6-150020908.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:20.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Why Kinetik (KNTK) Stock Is Up 7.5% Today: Targa Acquisition Interest",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-kinetik-kntk-stock-7-150019677.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:19.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "AGI (AGBK) Stock Is Up 15.2% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/agi-agbk-stock-15-2-150018266.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:18.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Jensen Huang Said Nvidia's Blackwell Racks Were Too Big to Smuggle. One Just Turned Up in Shanghai",
+      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63672242/nvidia-blackwell-china-smuggling-huang?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
+      "date": "2026-11-27T15:00:16.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Global Indemnity (GBLI) Stock Is Up 6.6% Today Without Company News",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/global-indemnity-gbli-stock-6-150016396.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:16.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Pioneer Bancorp (PBFS) Stock Is Up 4.1% Today in Broad Market Rally",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/pioneer-bancorp-pbfs-stock-4-150016544.html?.tsrc=rss",
+      "date": "2026-11-27T15:00:16.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Morocco stocks higher at close of trade; Moroccan All Shares up 0.90%",
-      "link": "https://www.investing.com/news/stock-market-news/morocco-stocks-higher-at-close-of-trade-moroccan-all-shares-up-090-5052572",
-      "date": "2026-11-26T15:10:03.000Z",
-      "source": "Investing.com"
-    },
-    {
-      "title": "Europe Cloud Computing Market Surges to $ 550.42 billion at a CAGR 11.0% by 2030 | Report by MarketsandMarkets™",
-      "link": "https://finance.yahoo.com/technology/articles/europe-cloud-computing-market-surges-150000346.html?.tsrc=rss",
-      "date": "2026-11-26T15:00:00.000Z",
+      "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
+      "link": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
+      "date": "2026-11-27T15:12:18.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Nvidia and the whole AI trade aren’t out of the woods — not by a long shot",
-      "link": "https://www.marketwatch.com/story/nvidia-and-the-whole-ai-trade-arent-out-of-the-woods-not-by-a-long-shot-bccc0025?mod=mw_rss_topstories",
-      "date": "2026-11-26T14:00:00.000Z",
+      "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
+      "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
+      "date": "2026-11-27T15:01:00.000Z",
       "source": "MarketWatch"
+    },
+    {
+      "title": "Canada's TSX futures climb as Bay Street eyes three-day winning streak",
+      "link": "https://www.investing.com/news/stock-market-news/canadas-tsx-futures-climb-as-bay-street-eyes-threeday-winning-streak-5053439",
+      "date": "2026-11-27T14:42:10.000Z",
+      "source": "Investing.com"
     }
   ],
   "yields": {
@@ -246,13 +246,6 @@
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-27",
-        "y3m": 3.84,
-        "y2": 4.2,
-        "y10": 4.67,
-        "y30": 5.19
-      },
       {
         "date": "2026-08-28",
         "y3m": 3.9,

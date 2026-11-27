@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-26T15:28:48.103Z",
+  "updated": "2026-11-27T15:17:45.311Z",
   "stories": [
     {
-      "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
-      "url": "https://scottaaronson.blog/?p=10379",
-      "discuss": "https://news.ycombinator.com/item?id=50646108",
-      "points": 1779,
-      "comments": 1622,
-      "domain": "scottaaronson.blog"
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "discuss": "https://news.ycombinator.com/item?id=50660180",
+      "points": 894,
+      "comments": 438,
+      "domain": "janlukas.blog"
     },
     {
-      "title": "1Password Security Incident",
-      "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
-      "discuss": "https://news.ycombinator.com/item?id=50644817",
-      "points": 1557,
-      "comments": 671,
-      "domain": "1password.com"
-    },
-    {
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
-      "discuss": "https://news.ycombinator.com/item?id=50647673",
-      "points": 506,
-      "comments": 425,
-      "domain": "theverge.com"
-    },
-    {
-      "title": "Much shorter version of GRH Lean verification from Anthropic",
-      "url": "https://github.com/lsernau/grh-lean",
-      "discuss": "https://news.ycombinator.com/item?id=50648050",
-      "points": 499,
-      "comments": 314,
-      "domain": "github.com"
-    },
-    {
-      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
-      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
-      "discuss": "https://news.ycombinator.com/item?id=50601280",
-      "points": 424,
-      "comments": 120,
-      "domain": "bjin.github.io"
-    },
-    {
-      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
-      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
-      "discuss": "https://news.ycombinator.com/item?id=50651117",
-      "points": 387,
-      "comments": 214,
-      "domain": "twitter.com"
-    },
-    {
-      "title": "Slow Ubuntu security response times",
-      "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
-      "discuss": "https://news.ycombinator.com/item?id=50647181",
-      "points": 359,
-      "comments": 196,
-      "domain": "openwall.com"
-    },
-    {
-      "title": "Tell HN: Lots of Ask HNs again",
-      "url": "https://news.ycombinator.com/item?id=50649864",
-      "discuss": "https://news.ycombinator.com/item?id=50649864",
-      "points": 338,
-      "comments": 135,
-      "domain": "news.ycombinator.com"
-    },
-    {
-      "title": "Collection of preserved UI style guides",
-      "url": "https://aresluna.org/ui-style-guides/",
-      "discuss": "https://news.ycombinator.com/item?id=50649834",
-      "points": 311,
-      "comments": 53,
-      "domain": "aresluna.org"
-    },
-    {
-      "title": "Intel One Mono font",
+      "title": "Intel One Mono font (2023)",
       "url": "https://github.com/intel/intel-one-mono",
       "discuss": "https://news.ycombinator.com/item?id=50653667",
-      "points": 262,
-      "comments": 158,
+      "points": 553,
+      "comments": 262,
       "domain": "github.com"
+    },
+    {
+      "title": "The group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50663595",
+      "points": 487,
+      "comments": 213,
+      "domain": "construct22.com"
+    },
+    {
+      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
+      "url": "https://github.com/antonpictures/youtube-punisher",
+      "discuss": "https://news.ycombinator.com/item?id=50657530",
+      "points": 470,
+      "comments": 556,
+      "domain": "github.com"
+    },
+    {
+      "title": "Company Culture = Slack Emoji ÷ √Headcount",
+      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
+      "discuss": "https://news.ycombinator.com/item?id=50659640",
+      "points": 466,
+      "comments": 239,
+      "domain": "lia.mg"
+    },
+    {
+      "title": "Hard Drive pricing has gotten bad",
+      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
+      "discuss": "https://news.ycombinator.com/item?id=50661646",
+      "points": 465,
+      "comments": 401,
+      "domain": "blog.ktz.me"
+    },
+    {
+      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
+      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
+      "discuss": "https://news.ycombinator.com/item?id=50659841",
+      "points": 451,
+      "comments": 116,
+      "domain": "worksinprogress.co"
+    },
+    {
+      "title": "AMD-specific fork of llama.cpp",
+      "url": "https://devnull.land/amd-specific-llama-cpp",
+      "discuss": "https://news.ycombinator.com/item?id=50657265",
+      "points": 406,
+      "comments": 100,
+      "domain": "devnull.land"
+    },
+    {
+      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+      "discuss": "https://news.ycombinator.com/item?id=50653477",
+      "points": 379,
+      "comments": 316,
+      "domain": "techstackups.com"
+    },
+    {
+      "title": "The USAID Files",
+      "url": "https://reclaimthenet.org/usaid-files",
+      "discuss": "https://news.ycombinator.com/item?id=50649040",
+      "points": 318,
+      "comments": 392,
+      "domain": "reclaimthenet.org"
     }
   ],
-  "totalPoints": null,
+  "totalPoints": 7268,
   "storyCount": 30
 }

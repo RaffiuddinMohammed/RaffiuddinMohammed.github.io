@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T00:34:16.200Z",
+  "checked": "2026-11-27T15:23:56.197Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -87,6 +87,14 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Cloudflare University website unavailable",
+      "impact": "minor",
+      "start": "2026-11-27T14:49:03.546Z",
+      "end": "2026-11-27T15:05:32.622Z",
+      "url": "https://www.cloudflarestatus.com/incidents/955xa7dtx0ca"
+    },
     {
       "service": "Cloudflare",
       "title": "Cloudflare Dashboard and Cloudflare API service issues",
@@ -608,14 +616,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/sozoycnmog2m"
     },
     {
-      "service": "Cloudflare",
-      "title": "Elevated error rates on R2 buckets in West North America",
-      "impact": "minor",
-      "start": "2026-11-14T20:18:18.649Z",
-      "end": "2026-11-14T20:20:37.898Z",
-      "url": "https://www.cloudflarestatus.com/incidents/dpao7idy3zei"
-    },
-    {
       "service": "GitHub",
       "title": "Copilot experiencing degraded model availability for some GPT models",
       "impact": "minor",
@@ -975,14 +975,6 @@
       "start": "2026-10-28T17:39:01.872Z",
       "end": "2026-10-28T22:15:06.958Z",
       "url": "https://stspg.io/kj9ch2nd498j"
-    },
-    {
-      "service": "GitHub",
-      "title": "Disruption with some Copilot services",
-      "impact": "major",
-      "start": "2026-10-28T14:12:53.821Z",
-      "end": "2026-10-28T15:28:19.237Z",
-      "url": "https://stspg.io/bwcyq078jzms"
     }
   ],
   "tracked": [
