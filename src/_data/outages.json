@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-27T18:56:43.859Z",
+  "checked": "2026-11-28T10:23:57.828Z",
   "services": [
     {
       "name": "Microsoft 365",
@@ -87,6 +87,22 @@
     }
   ],
   "incidents": [
+    {
+      "service": "Cloudflare",
+      "title": "Email Delivery Delays",
+      "impact": "major",
+      "start": "2026-11-28T07:21:21.338Z",
+      "end": "2026-11-28T09:23:38.704Z",
+      "url": "https://www.cloudflarestatus.com/incidents/27xnfvjy0n6j"
+    },
+    {
+      "service": "Cloudflare",
+      "title": "Elevated Errors for Cloudflare Workers Subrequests",
+      "impact": "minor",
+      "start": "2026-11-28T04:45:43.228Z",
+      "end": "2026-11-28T05:38:42.819Z",
+      "url": "https://www.cloudflarestatus.com/incidents/j7ihgms4mvhb"
+    },
     {
       "service": "Cloudflare",
       "title": "Cloudflare University website unavailable",
@@ -584,14 +600,6 @@
       "url": "https://www.cloudflarestatus.com/incidents/wscmdyvmpb5d"
     },
     {
-      "service": "Cloudflare",
-      "title": "Errors creating predictions for some models",
-      "impact": "minor",
-      "start": "2026-11-16T14:30:20.417Z",
-      "end": "2026-11-16T16:19:08.732Z",
-      "url": "https://www.cloudflarestatus.com/incidents/69855o2zz6kl"
-    },
-    {
       "service": "GitHub",
       "title": "Incident with Pull Requests",
       "impact": "minor",
@@ -606,14 +614,6 @@
       "start": "2026-11-16T02:02:29.579-08:00",
       "end": "2026-11-16T13:00:50.072-08:00",
       "url": "https://stspg.io/p1cwzf1yhftr"
-    },
-    {
-      "service": "Cloudflare",
-      "title": "Elevated number of errors in Bogotá",
-      "impact": "minor",
-      "start": "2026-11-15T03:12:13.031Z",
-      "end": "2026-11-15T03:00:00.000Z",
-      "url": "https://www.cloudflarestatus.com/incidents/sozoycnmog2m"
     },
     {
       "service": "GitHub",
@@ -959,14 +959,6 @@
       "start": "2026-10-30T14:31:16.537Z",
       "end": "2026-10-30T15:02:51.002Z",
       "url": "https://stspg.io/6p81rf34z4nc"
-    },
-    {
-      "service": "GitHub",
-      "title": "Disruption with Copilot Cloud services",
-      "impact": "minor",
-      "start": "2026-10-29T10:19:55.318Z",
-      "end": "2026-10-29T12:49:52.145Z",
-      "url": "https://stspg.io/22p3vp78z20q"
     }
   ],
   "tracked": [
