@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-27T15:17:07.169Z",
-  "headlineCount": 83,
+  "updated": "2026-11-28T14:19:53.371Z",
+  "headlineCount": 79,
   "sources": [
     {
       "name": "CNBC",
-      "count": 14
+      "count": 10
     },
     {
       "name": "Yahoo Finance",
-      "count": 39
+      "count": 40
     },
     {
       "name": "MarketWatch",
@@ -16,17 +16,13 @@
     },
     {
       "name": "Investing.com",
-      "count": 20
+      "count": 19
     }
   ],
   "themes": [
     {
       "name": "AI and chips",
-      "count": 15
-    },
-    {
-      "name": "Interest rates",
-      "count": 5
+      "count": 8
     },
     {
       "name": "Earnings",
@@ -37,33 +33,41 @@
       "count": 3
     },
     {
-      "name": "Inflation",
-      "count": 2
+      "name": "Oil and energy",
+      "count": 3
+    },
+    {
+      "name": "Interest rates",
+      "count": 1
     },
     {
       "name": "Trade and tariffs",
-      "count": 2
-    },
-    {
-      "name": "Oil and energy",
       "count": 1
     },
     {
-      "name": "Housing",
-      "count": 1
+      "name": "Inflation",
+      "count": 0
     },
     {
       "name": "Crypto",
+      "count": 0
+    },
+    {
+      "name": "Housing",
       "count": 0
     }
   ],
   "mag7": [
     {
       "name": "Nvidia",
-      "count": 10
+      "count": 8
     },
     {
       "name": "Apple",
+      "count": 2
+    },
+    {
+      "name": "Alphabet",
       "count": 1
     },
     {
@@ -72,10 +76,6 @@
     },
     {
       "name": "Microsoft",
-      "count": 0
-    },
-    {
-      "name": "Alphabet",
       "count": 0
     },
     {
@@ -89,170 +89,163 @@
   ],
   "latest": [
     {
-      "title": "XPENG Maps Out 2027 Robotaxi Launch and Mass Production of IRON Humanoid Robot",
-      "link": "https://www.marketbeat.com/instant-alerts/event-xpeng-maps-out-2027-robotaxi-launch-and-mass-production-of-iron-humanoid-robot-2026-11-27/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-      "date": "2026-11-27T15:12:39.000Z",
+      "title": "Dow Jones Futures: What To Do After Big Market Move; Nvidia's Jensen Huang Heads To Capitol Hill",
+      "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
+      "date": "2026-11-28T14:13:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
-      "link": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
-      "date": "2026-11-27T15:12:18.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic Stock Jumps to Reveal Its True Place in the AI Trade",
-      "link": "https://finance.yahoo.com/m/eac9c281-033c-3c73-8b9a-a27703a8cdc9/anthropic-stock-jumps-to.html?.tsrc=rss",
-      "date": "2026-11-27T15:09:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Jim Cramer offers an unusual explanation for Nvidia stock's price",
-      "link": "https://www.thestreet.com/investing/stocks/jim-cramer-offers-an-unusual-explanation-for-nvidia-stocks-price?.tsrc=rss",
-      "date": "2026-11-27T15:07:00.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Berkshire Hathaway's CEO, Greg Abel, Just Bought $9.6 Billion Worth of 1 of Buffett's Favorite Stocks",
-      "link": "https://www.fool.com/investing/2026/11/27/berkshire-hathaway-s-ceo-greg-abel-just-bought-usd9-6-billion-worth-of-1-of-buffett-s-favorite-stocks/?.tsrc=rss",
-      "date": "2026-11-27T15:05:02.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "My friends play ‘credit-card roulette’ to see who pays for dinner — but one ‘winner’ still Venmoed me afterward. Should I say something?",
-      "link": "https://www.marketwatch.com/story/my-friends-play-credit-card-roulette-to-see-who-pays-for-dinner-but-one-winner-still-venmoed-me-afterward-should-i-say-something-0a657eee?mod=mw_rss_topstories",
-      "date": "2026-11-27T15:04:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Stock Market Today: Markets Off to a Strong Black Friday Start",
-      "link": "https://247wallst.com/investing/2026/11/27/stock-market-today-markets-off-to-a-strong-black-friday-start/?.tsrc=rss",
-      "date": "2026-11-27T15:03:13.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Anthropic Gains 4%, Climbs Back Above $83 IPO Price as Cathie Wood Keeps Buying; SpaceX Rises 3%, Nebius Advances 2%",
-      "link": "https://247wallst.com/investing/2026/11/27/anthropic-gains-4-climbs-back-above-83-ipo-price-as-cathie-wood-keeps-buying-spacex-rises-3-nebius-advances-2/?.tsrc=rss",
-      "date": "2026-11-27T15:02:13.000Z",
-      "source": "Yahoo Finance"
-    },
-    {
-      "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
-      "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
-      "date": "2026-11-27T15:01:00.000Z",
-      "source": "MarketWatch"
-    },
-    {
-      "title": "Why is Anthropic stock climbing today?",
-      "link": "https://www.investing.com/news/stock-market-news/why-is-anthropic-stock-climbing-today-93CH-5053614",
-      "date": "2026-11-27T15:00:58.000Z",
+      "title": "Here is BofA's 2027 outlook for the U.S. economy",
+      "link": "https://www.investing.com/news/economy-news/here-is-bofas-2027-outlook-for-the-us-economy-5054327",
+      "date": "2026-11-28T14:02:23.000Z",
       "source": "Investing.com"
     },
     {
-      "title": "Vinci Compass Investments (VINP) Stock Is Up 5.3% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/vinci-compass-investments-vinp-stock-150036098.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:36.000Z",
+      "title": "My husband secretly sends his ex-wife $1,500 a month after she lost her job. We have $2.4 million saved. Has he lied by omission?",
+      "link": "https://www.marketwatch.com/story/my-husband-secretly-sends-his-ex-wife-1-500-a-month-after-she-lost-her-job-we-have-2-4-million-saved-has-he-lied-by-omission-ede1972a?mod=mw_rss_topstories",
+      "date": "2026-11-28T14:01:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "Tesla Files to Buy German Machine Maker EMAG's Assets to Build Optimus Robots",
+      "link": "https://247wallst.com/investing/2026/11/28/tesla-files-to-buy-german-machine-maker-emags-assets-to-build-optimus-robots/?.tsrc=rss",
+      "date": "2026-11-28T13:53:45.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Lifezone Metals (LZM) Stock Is Up 12.9% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/lifezone-metals-lzm-stock-12-150033456.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:33.000Z",
+      "title": "Got $1,400? This 17%-Yielding Dividend Stock Could Pay for Your Netflix Subscription.",
+      "link": "https://www.fool.com/investing/2026/11/28/got-usd1-400-this-17-yielding-dividend-stock-could-pay-for-your-netflix-subscription/?.tsrc=rss",
+      "date": "2026-11-28T13:50:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Alvotech (ALVO) Stock Is Down 10.8% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/alvotech-alvo-stock-down-10-150033325.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:33.000Z",
+      "title": "Where does last week's selloff stand in history, and what's driven bigger ones?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/where-does-last-week-selloff-134315985.html?.tsrc=rss",
+      "date": "2026-11-28T13:43:15.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Afya (AFYA) Stock Is Up 14.1% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/afya-afya-stock-14-1-150021123.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:21.000Z",
+      "title": "Meet the Consumer Stock That Turned $10,000 Into $20,600 in 2026. Here's Why I'd Still Buy It.",
+      "link": "https://www.fool.com/investing/2026/11/28/meet-the-consumer-stock-that-turned-usd10-000-into-usd20-600-in-2026-here-s-why-i-d-still-buy-it/?.tsrc=rss",
+      "date": "2026-11-28T13:42:01.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Icahn Enterprises (IEP) Stock Is Up 6.2% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/icahn-enterprises-iep-stock-6-150020908.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:20.000Z",
+      "title": "China's premium puffer jacket push meets consumer resistance",
+      "link": "https://www.investing.com/news/stock-market-news/chinas-premium-puffer-jacketpush-meets-consumer-resistance-5054071",
+      "date": "2026-11-28T13:36:21.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "VGT vs. QQQ: Which Tech ETF Is the Better Buy for 2027?",
+      "link": "https://www.fool.com/investing/2026/11/28/vgt-vs-qqq-which-tech-etf-is-the-better-buy-for-2027/?.tsrc=rss",
+      "date": "2026-11-28T13:34:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Why Kinetik (KNTK) Stock Is Up 7.5% Today: Targa Acquisition Interest",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/why-kinetik-kntk-stock-7-150019677.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:19.000Z",
+      "title": "I hate that Jensen Huang is back at Nvidia, but I love what it’s done for my 401(k). Am I a hypocrite?",
+      "link": "https://www.marketwatch.com/story/i-hate-that-jensen-huang-is-back-at-nvidia-but-i-love-what-its-done-for-my-401-k-am-i-a-hypocrite-f63c0303?mod=mw_rss_topstories",
+      "date": "2026-11-28T13:30:00.000Z",
+      "source": "MarketWatch"
+    },
+    {
+      "title": "India's SEBI weighs exchange platform for pre-IPO shares",
+      "link": "https://www.investing.com/news/stock-market-news/indias-sebi-weighs-exchange-platform-for-preipo-shares-5054322",
+      "date": "2026-11-28T13:29:07.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Textron Unloads a Barely Profitable Industrial Business",
+      "link": "https://www.fool.com/investing/2026/11/28/textron-unloads-a-barely-profitable-industrial-business/?.tsrc=rss",
+      "date": "2026-11-28T13:28:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "AGI (AGBK) Stock Is Up 15.2% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/agi-agbk-stock-15-2-150018266.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:18.000Z",
+      "title": "Could $5,000 in NuScale Power Stock Set You Up for Life? (Hint: Yes, But There's a Catch)",
+      "link": "https://www.fool.com/investing/2026/11/28/could-usd5-000-in-nuscale-power-stock-set-you-up-for-life-hint-yes-but-there-s-a-catch/?.tsrc=rss",
+      "date": "2026-11-28T13:25:02.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Jensen Huang Said Nvidia's Blackwell Racks Were Too Big to Smuggle. One Just Turned Up in Shanghai",
-      "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63672242/nvidia-blackwell-china-smuggling-huang?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss",
-      "date": "2026-11-27T15:00:16.000Z",
+      "title": "Argentina's bid to stop UK oil activity near Falklands rejected by international court",
+      "link": "https://www.investing.com/news/stock-market-news/international-court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands-5054314",
+      "date": "2026-11-28T13:24:25.000Z",
+      "source": "Investing.com"
+    },
+    {
+      "title": "Dell Soars 14% in a Week, Nvidia Up 20%, as Jensen Huang Returns. Dell's Record Quarter Wasn't Why",
+      "link": "https://www.tikr.com/blog/dell-soars-14-in-a-week-nvidia-up-20-as-jensen-huang-returns-dells-record-quarter-wasnt-why?ref=yahoofinance&tlnk=yf-261128-r24mrcgc&.tsrc=rss",
+      "date": "2026-11-28T13:20:27.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Global Indemnity (GBLI) Stock Is Up 6.6% Today Without Company News",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/global-indemnity-gbli-stock-6-150016396.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:16.000Z",
+      "title": "Marvell Stock Heads Into Tuesday's Earnings on Pace for Its Worst November Since 2000",
+      "link": "https://247wallst.com/investing/2026/11/28/marvell-stock-heads-into-tuesdays-earnings-on-pace-for-its-worst-november-since-2000/?.tsrc=rss",
+      "date": "2026-11-28T13:17:29.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Pioneer Bancorp (PBFS) Stock Is Up 4.1% Today in Broad Market Rally",
-      "link": "https://finance.yahoo.com/markets/stocks/articles/pioneer-bancorp-pbfs-stock-4-150016544.html?.tsrc=rss",
-      "date": "2026-11-27T15:00:16.000Z",
+      "title": "Nvidia Stock Rally Puts AI Semiconductor Shares Back On Retail Investor Watchlists",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-rally-puts-ai-131048143.html?.tsrc=rss",
+      "date": "2026-11-28T13:10:48.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "The Smartest Way to Turn $5,000 Into Growing Dividend Income in 2027",
+      "link": "https://www.fool.com/investing/2026/11/28/the-smartest-way-to-turn-5000-into-growing-dividend-income-in-2027/?.tsrc=rss",
+      "date": "2026-11-28T13:10:02.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "Intel (INTC) Expands Foundry Deal With A Major Cloud Customer",
+      "link": "https://finance.yahoo.com/technology/articles/intel-intc-expands-foundry-deal-130853190.html?.tsrc=rss",
+      "date": "2026-11-28T13:08:53.000Z",
+      "source": "Yahoo Finance"
+    },
+    {
+      "title": "£5k buys 1,610 shares in this FTSE 100 passive income share yielding 6.6%",
+      "link": "https://www.twelfthmagpie.com/2026/11/28/5k-buys-1610-shares-in-this-passive-income-share-yielding-6-6/?.tsrc=rss",
+      "date": "2026-11-28T13:05:00.000Z",
       "source": "Yahoo Finance"
     }
   ],
   "featured": [
     {
-      "title": "Stocks snap from a $6 trillion washout to a $3 trillion surge as Nvidia, Micron, and SpaceX bounce back",
-      "link": "https://finance.yahoo.com/markets/article/stocks-snap-from-a-6-trillion-washout-to-a-3-trillion-surge-as-nvidia-micron-and-spacex-bounce-back-151218930.html?.tsrc=rss",
-      "date": "2026-11-27T15:12:18.000Z",
+      "title": "Dow Jones Futures: What To Do After Big Market Move; Nvidia's Jensen Huang Heads To Capitol Hill",
+      "link": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-what-to-do.html?.tsrc=rss",
+      "date": "2026-11-28T14:13:00.000Z",
       "source": "Yahoo Finance"
     },
     {
-      "title": "Artificial intelligence usage is exploding, yet spending is stalling. Why a foundational rule of economics is breaking.",
-      "link": "https://www.marketwatch.com/story/artificial-intelligence-usage-is-exploding-yet-spending-is-stalling-why-a-foundational-rule-of-economics-is-breaking-9c7ad4b3?mod=mw_rss_topstories",
-      "date": "2026-11-27T15:01:00.000Z",
-      "source": "MarketWatch"
+      "title": "India's SEBI weighs exchange platform for pre-IPO shares",
+      "link": "https://www.investing.com/news/stock-market-news/indias-sebi-weighs-exchange-platform-for-preipo-shares-5054322",
+      "date": "2026-11-28T13:29:07.000Z",
+      "source": "Investing.com"
     },
     {
-      "title": "Canada's TSX futures climb as Bay Street eyes three-day winning streak",
-      "link": "https://www.investing.com/news/stock-market-news/canadas-tsx-futures-climb-as-bay-street-eyes-threeday-winning-streak-5053439",
-      "date": "2026-11-27T14:42:10.000Z",
-      "source": "Investing.com"
+      "title": "Even the price of toys is on the rise. How Americans are scaling back holiday plans",
+      "link": "https://www.cnbc.com/2026/11/25/holiday-inflation-thanksgiving-travel-food-gifts.html",
+      "date": "2026-11-27T21:45:41.000Z",
+      "source": "CNBC"
     }
   ],
   "yields": {
     "latest": {
-      "date": "2026-11-25",
-      "y3m": 4.34,
-      "y2": 4.61,
-      "y10": 4.85,
-      "y30": 5.24
+      "date": "2026-11-27",
+      "y3m": 4.35,
+      "y2": 4.69,
+      "y10": 4.94,
+      "y30": 5.33
     },
     "monthAgo": {
-      "date": "2026-10-26",
-      "y3m": 4.22,
-      "y2": 4.68,
-      "y10": 5,
-      "y30": 5.31
+      "date": "2026-10-28",
+      "y3m": 4.18,
+      "y2": 4.67,
+      "y10": 5.05,
+      "y30": 5.37
     },
     "chartFloor": 3,
     "history": [
-      {
-        "date": "2026-08-28",
-        "y3m": 3.9,
-        "y2": 4.34,
-        "y10": 4.73,
-        "y30": 5.22
-      },
       {
         "date": "2026-08-31",
         "y3m": 3.91,
@@ -672,6 +665,13 @@
         "y2": 4.61,
         "y10": 4.85,
         "y30": 5.24
+      },
+      {
+        "date": "2026-11-27",
+        "y3m": 4.35,
+        "y2": 4.69,
+        "y10": 4.94,
+        "y30": 5.33
       }
     ]
   }

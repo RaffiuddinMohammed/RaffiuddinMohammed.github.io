@@ -1,87 +1,87 @@
 {
-  "updated": "2026-11-27T15:17:45.311Z",
+  "updated": "2026-11-28T14:20:26.943Z",
   "stories": [
     {
-      "title": "AI made self-hosting fun again",
-      "url": "https://janlukas.blog/posts/ai-self-hosting",
-      "discuss": "https://news.ycombinator.com/item?id=50660180",
-      "points": 894,
-      "comments": 438,
-      "domain": "janlukas.blog"
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://neuralnetworksanddeeplearning.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50670757",
+      "points": 597,
+      "comments": 419,
+      "domain": "neuralnetworksanddeeplearning.com"
     },
     {
-      "title": "Intel One Mono font (2023)",
-      "url": "https://github.com/intel/intel-one-mono",
-      "discuss": "https://news.ycombinator.com/item?id=50653667",
-      "points": 553,
-      "comments": 262,
+      "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+      "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+      "discuss": "https://news.ycombinator.com/item?id=50668145",
+      "points": 559,
+      "comments": 309,
+      "domain": "infohawk.com"
+    },
+    {
+      "title": "Google's DeepCrossAttention achieves comparable model quality up to 3x faster",
+      "url": "https://research.google/blog/supercharging-transformer-residual-connections/",
+      "discuss": "https://news.ycombinator.com/item?id=50672565",
+      "points": 486,
+      "comments": 174,
+      "domain": "research.google"
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "discuss": "https://news.ycombinator.com/item?id=50643158",
+      "points": 475,
+      "comments": 303,
+      "domain": "generativehistory.substack.com"
+    },
+    {
+      "title": "The Balatro Timeline",
+      "url": "https://localthunk.com/blog/balatro-timeline-3aarh",
+      "discuss": "https://news.ycombinator.com/item?id=50657346",
+      "points": 448,
+      "comments": 136,
+      "domain": "localthunk.com"
+    },
+    {
+      "title": "Unkernel: Real Linux kernel, compiled to WebAssembly",
+      "url": "https://unkernel.dev",
+      "discuss": "https://news.ycombinator.com/item?id=50674218",
+      "points": 448,
+      "comments": 118,
+      "domain": "unkernel.dev"
+    },
+    {
+      "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
+      "url": "https://bouncemarket.minhanhday.com/",
+      "discuss": "https://news.ycombinator.com/item?id=50667726",
+      "points": 394,
+      "comments": 133,
+      "domain": "bouncemarket.minhanhday.com"
+    },
+    {
+      "title": "Farewell",
+      "url": "https://github.com/p-e-w/heretic/issues/601",
+      "discuss": "https://news.ycombinator.com/item?id=50676672",
+      "points": 393,
+      "comments": 153,
       "domain": "github.com"
     },
     {
-      "title": "The group chat where your AI talks behind your back",
-      "url": "https://construct22.com/",
-      "discuss": "https://news.ycombinator.com/item?id=50663595",
-      "points": 487,
-      "comments": 213,
-      "domain": "construct22.com"
-    },
-    {
-      "title": "YouTube Ad Punisher – Auto-reloads YouTube pages when an ad plays",
-      "url": "https://github.com/antonpictures/youtube-punisher",
-      "discuss": "https://news.ycombinator.com/item?id=50657530",
-      "points": 470,
-      "comments": 556,
+      "title": "Convex skills send the user's app idea to a remote server without telling them",
+      "url": "https://github.com/convex/convex-backend-skill/issues/64",
+      "discuss": "https://news.ycombinator.com/item?id=50669765",
+      "points": 335,
+      "comments": 113,
       "domain": "github.com"
     },
     {
-      "title": "Company Culture = Slack Emoji ÷ √Headcount",
-      "url": "https://lia.mg/posts/measuring-company-culture-with-slack-emoji/",
-      "discuss": "https://news.ycombinator.com/item?id=50659640",
-      "points": 466,
-      "comments": 239,
-      "domain": "lia.mg"
-    },
-    {
-      "title": "Hard Drive pricing has gotten bad",
-      "url": "https://blog.ktz.me/black-friday-hard-drive-prices-are-messed-up/",
-      "discuss": "https://news.ycombinator.com/item?id=50661646",
-      "points": 465,
-      "comments": 401,
-      "domain": "blog.ktz.me"
-    },
-    {
-      "title": "Kamil Khan Mumtaz: Pakistani architect, admired at home, almost invisible abroad",
-      "url": "https://worksinprogress.co/issue/the-greatest-architect-youve-never-heard-of-is-in-pakistan/",
-      "discuss": "https://news.ycombinator.com/item?id=50659841",
-      "points": 451,
-      "comments": 116,
-      "domain": "worksinprogress.co"
-    },
-    {
-      "title": "AMD-specific fork of llama.cpp",
-      "url": "https://devnull.land/amd-specific-llama-cpp",
-      "discuss": "https://news.ycombinator.com/item?id=50657265",
-      "points": 406,
-      "comments": 100,
-      "domain": "devnull.land"
-    },
-    {
-      "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
-      "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
-      "discuss": "https://news.ycombinator.com/item?id=50653477",
-      "points": 379,
-      "comments": 316,
-      "domain": "techstackups.com"
-    },
-    {
-      "title": "The USAID Files",
-      "url": "https://reclaimthenet.org/usaid-files",
-      "discuss": "https://news.ycombinator.com/item?id=50649040",
-      "points": 318,
-      "comments": 392,
-      "domain": "reclaimthenet.org"
+      "title": "Knuth: Moratorium on Error Reports",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/moratorium.html",
+      "discuss": "https://news.ycombinator.com/item?id=50674452",
+      "points": 235,
+      "comments": 120,
+      "domain": "www-cs-faculty.stanford.edu"
     }
   ],
-  "totalPoints": 7268,
+  "totalPoints": 5917,
   "storyCount": 30
 }

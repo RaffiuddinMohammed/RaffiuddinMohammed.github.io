@@ -1,23 +1,6 @@
 {
-  "updated": "2026-11-27T15:17:43.453Z",
+  "updated": "2026-11-28T14:20:24.552Z",
   "days": [
-    {
-      "date": "2026-11-27",
-      "label": "Fri 27 Nov",
-      "closed": null,
-      "early": "day after Thanksgiving",
-      "earnings": [],
-      "events": [
-        {
-          "country": "US",
-          "what": "Inflation (PCE, the Fed's favourite gauge)",
-          "name": "Dallas Fed PCE",
-          "time": "14:40",
-          "previous": "2.80%",
-          "consensus": null
-        }
-      ]
-    },
     {
       "date": "2026-11-30",
       "label": "Mon 30 Nov",
@@ -27,12 +10,12 @@
         {
           "symbol": "RBRK",
           "name": "Rubrik",
-          "cap": 22934089700,
+          "cap": 22382659600,
           "when": "after",
           "eps": "−$0.38",
           "big": false,
           "mag7": false,
-          "capText": "$23B"
+          "capText": "$22B"
         }
       ],
       "events": []
@@ -46,17 +29,17 @@
         {
           "symbol": "BHP",
           "name": "BHP Group",
-          "cap": 174515847000,
+          "cap": 178525585000,
           "when": null,
           "eps": null,
           "big": true,
           "mag7": false,
-          "capText": "$175B"
+          "capText": "$179B"
         },
         {
           "symbol": "MRVL",
           "name": "Marvell Technology",
-          "cap": 115373736000,
+          "cap": 114812518000,
           "when": "after",
           "eps": "$0.79",
           "big": true,
@@ -66,7 +49,7 @@
         {
           "symbol": "OKTA",
           "name": "Okta",
-          "cap": 34635522000,
+          "cap": 35273617000,
           "when": "after",
           "eps": "$0.43",
           "big": false,
@@ -76,7 +59,7 @@
         {
           "symbol": "NTAP",
           "name": "NetApp",
-          "cap": 32016298000,
+          "cap": 32409135100,
           "when": "after",
           "eps": "$2.14",
           "big": false,
@@ -86,17 +69,17 @@
         {
           "symbol": "CPRT",
           "name": "Copart",
-          "cap": 29968328700,
+          "cap": 30723326000,
           "when": "before",
           "eps": "$0.40",
           "big": false,
           "mag7": false,
-          "capText": "$30B"
+          "capText": "$31B"
         },
         {
           "symbol": "TCOM",
           "name": "Trip.com Group",
-          "cap": 25647894500,
+          "cap": 25742350300,
           "when": "after",
           "eps": "$1.07",
           "big": false,
@@ -106,7 +89,7 @@
         {
           "symbol": "MDB",
           "name": "MongoDB",
-          "cap": 24851632100,
+          "cap": 25256828900,
           "when": "after",
           "eps": "$0.08",
           "big": false,
@@ -116,7 +99,7 @@
         {
           "symbol": "CRDO",
           "name": "Credo Technology Group",
-          "cap": 20009361400,
+          "cap": 20072325100,
           "when": "after",
           "eps": "$1.03",
           "big": false,
@@ -135,27 +118,27 @@
         {
           "symbol": "CRM",
           "name": "Salesforce",
-          "cap": 159052972000,
+          "cap": 162303836000,
           "when": "after",
           "eps": "$2.41",
           "big": true,
           "mag7": false,
-          "capText": "$159B"
+          "capText": "$162B"
         },
         {
           "symbol": "BMO",
           "name": "Bank Of Montreal",
-          "cap": 111724724000,
+          "cap": 110999085000,
           "when": "before",
           "eps": "$2.69",
           "big": true,
           "mag7": false,
-          "capText": "$112B"
+          "capText": "$111B"
         },
         {
           "symbol": "BNS",
           "name": "The Bank of Nova Scotia",
-          "cap": 104282898000,
+          "cap": 103520068000,
           "when": "before",
           "eps": "$1.54",
           "big": true,
@@ -165,17 +148,17 @@
         {
           "symbol": "SNOW",
           "name": "Snowflake",
-          "cap": 95640551000,
+          "cap": 94451614000,
           "when": "after",
           "eps": "−$0.32",
           "big": false,
           "mag7": false,
-          "capText": "$96B"
+          "capText": "$94B"
         },
         {
           "symbol": "FIVE",
           "name": "Five Below",
-          "cap": 12410281000,
+          "cap": 12006734800,
           "when": "after",
           "eps": "$1.17",
           "big": false,
@@ -185,12 +168,12 @@
         {
           "symbol": "NTSK",
           "name": "Netskope",
-          "cap": 10431245300,
+          "cap": 10803059700,
           "when": "after",
           "eps": "−$0.21",
           "big": false,
           "mag7": false,
-          "capText": "$10B"
+          "capText": "$11B"
         }
       ],
       "events": []
@@ -204,37 +187,37 @@
         {
           "symbol": "RY",
           "name": "Royal Bank Of Canada",
-          "cap": 261535613000,
+          "cap": 261089018000,
           "when": "before",
           "eps": "$2.94",
           "big": true,
           "mag7": false,
-          "capText": "$262B"
+          "capText": "$261B"
         },
         {
           "symbol": "TD",
           "name": "The Toronto Dominion Bank",
-          "cap": 188859302000,
+          "cap": 189786276000,
           "when": "before",
           "eps": "$1.76",
           "big": true,
           "mag7": false,
-          "capText": "$189B"
+          "capText": "$190B"
         },
         {
           "symbol": "CM",
           "name": "Canadian Imperial Bank of Commerce",
-          "cap": 96009904000,
+          "cap": 95048344000,
           "when": "before",
           "eps": "$1.72",
           "big": false,
           "mag7": false,
-          "capText": "$96B"
+          "capText": "$95B"
         },
         {
           "symbol": "VEEV",
           "name": "Veeva Systems",
-          "cap": 44301500000,
+          "cap": 44023017000,
           "when": "after",
           "eps": "$1.68",
           "big": false,
@@ -244,7 +227,7 @@
         {
           "symbol": "KR",
           "name": "The Kroger Company",
-          "cap": 41412080000,
+          "cap": 41240809000,
           "when": "before",
           "eps": "$1.17",
           "big": false,
@@ -254,7 +237,7 @@
         {
           "symbol": "DG",
           "name": "Dollar General",
-          "cap": 30588518400,
+          "cap": 30725300200,
           "when": "before",
           "eps": "$1.40",
           "big": false,
@@ -264,7 +247,7 @@
         {
           "symbol": "ULTA",
           "name": "Ulta Beauty",
-          "cap": 27407538200,
+          "cap": 27477661700,
           "when": "after",
           "eps": "$5.64",
           "big": false,
@@ -274,7 +257,7 @@
         {
           "symbol": "IOT",
           "name": "Samsara",
-          "cap": 23084558300,
+          "cap": 22756618200,
           "when": "after",
           "eps": "$0.03",
           "big": false,
@@ -284,7 +267,7 @@
         {
           "symbol": "DOCU",
           "name": "DocuSign",
-          "cap": 14959672300,
+          "cap": 15092373500,
           "when": "after",
           "eps": "$0.53",
           "big": false,
@@ -294,7 +277,7 @@
         {
           "symbol": "BF.A",
           "name": "Brown Forman",
-          "cap": 14050423800,
+          "cap": 13949473800,
           "when": "before",
           "eps": null,
           "big": false,
@@ -304,7 +287,7 @@
         {
           "symbol": "HRL",
           "name": "Hormel Foods",
-          "cap": 12806663200,
+          "cap": 12707600400,
           "when": "before",
           "eps": "$0.38",
           "big": false,
@@ -314,7 +297,7 @@
         {
           "symbol": "GWRE",
           "name": "Guidewire Software",
-          "cap": 12045149200,
+          "cap": 12268253200,
           "when": "after",
           "eps": "$0.36",
           "big": false,
@@ -324,7 +307,7 @@
         {
           "symbol": "COO",
           "name": "The Cooper Companies",
-          "cap": 11660322800,
+          "cap": 11844772900,
           "when": "after",
           "eps": "$1.07",
           "big": false,
@@ -354,7 +337,7 @@
           "what": "Business activity (PMI)",
           "name": "S&P Global Composite PMI",
           "time": "14:45",
-          "previous": "55.9",
+          "previous": "54.6",
           "consensus": "54.6"
         }
       ]
